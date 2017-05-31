@@ -1,0 +1,61 @@
+﻿@model JoeyMVCWebsite.Models.JoeyDataModel
+
+@{
+    ViewBag.Title = "Knowledge";
+}
+
+<h2>Today's Date: @DateTime.Now.ToShortDateString()</h2>
+<div class="row">
+    <div class="col-md-3">
+        @*<p>this is body</p>*@
+        @Html.DisplayNameFor(model => model.KnowledgeName)
+    </div>
+    <div class="col-md-3">
+        @Html.DisplayNameFor(model => model.KnowledgeDescription)
+    </div>
+    <div class="col-md-3">
+        @Html.DisplayNameFor(model => model.Comments)
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        @Html.DisplayFor(modelItem => Model.KnowledgeName)
+    </div>
+    <div class="col-md-3">
+        @Html.DisplayFor(x => Model.KnowledgeDescription)
+    </div>
+    <div class="col-md-3">
+        @Html.DisplayFor(modelItem => Model.Comments)
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        @Html.TextBox("Hello", 10, new { @class = "form-control" })
+    </div>
+    <div class="col-md-3">
+        @Html.TextBox("KnowledgeName", 10, new { @class = "form-control" })
+    </div>
+    <div class="col-md-3">
+        <input class="form-control"
+               id="KnowledgeName"
+               name="KnowledgeName"
+               type="text"
+               value="" />
+    </div>
+    <div class="col-md-3">
+        @Html.TextBoxFor(m => m.KnowledgeName, new { @class = "form-control" })
+    </div>
+</div>
+
+@if (DateTime.IsLeapYear(DateTime.Now.Year))
+{
+    @DateTime.Now.Year <text>is a leap year.</text>
+}
+else
+{
+    @DateTime.Now.Year @:is not a leap year.
+}

@@ -1,0 +1,16 @@
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\bin\Debug\WpfApplication001A.exe.config
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\bin\Debug\WpfApplication001A.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\bin\Debug\WpfApplication001A.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\WpfApplication001A.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\Views\CustomerInfoView.g.cs
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\Views\MainWindow.g.cs
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\App.g.cs
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\WpfApplication001A_MarkupCompile.cache
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\WpfApplication001A_MarkupCompile.lref
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\Views\CustomerInfoView.baml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\Views\MainWindow.baml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\WpfApplication001A.g.resources
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\WpfApplication001A.Properties.Resources.resources
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\WpfApplication001A.csproj.GenerateResource.Cache
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\WpfApplication001A.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WpfApplication001A\obj\Debug\WpfApplication001A.pdb

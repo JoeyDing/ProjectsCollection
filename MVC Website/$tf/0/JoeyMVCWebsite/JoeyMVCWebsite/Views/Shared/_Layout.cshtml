@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        body {
+            padding-top:0px;
+        }
+    header, footer {
+    padding: 1px;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:indianRed;
+    clear: left;
+    text-align: center;
+    }
+    .nav > li > a{
+        color:indianred;
+    }
+        </style>
+</head>
+<body>
+    @*<header class="jumbotron">*@
+    <header>
+        <h1>C# Training Center</h1>
+        <p>This is a MVC website which will be used for C# relaeted knowledge training</p>
+    </header>
+    <nav>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Data Structure</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Design Pattern</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Algorithm</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">English</a>
+            </li>
+        </ul>
+    </nav>
+    <article>
+        @*<h1>London</h1>
+        <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>*@
+    </article>
+    
+    <div class="container body-content">
+
+        <div>
+            @RenderBody()
+            <footer>
+                <p>@DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

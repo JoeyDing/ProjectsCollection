@@ -1,0 +1,15 @@
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\bin\Debug\WPFApplicationExercise.exe.config
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\bin\Debug\WPFApplicationExercise.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\bin\Debug\WPFApplicationExercise.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\Views\MainWindow.g.cs
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\App.g.cs
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\WPFApplicationExercise_MarkupCompile.cache
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\WPFApplicationExercise_MarkupCompile.lref
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\Views\MainWindow.baml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\WPFApplicationExercise.g.resources
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\WPFApplicationExercise.Properties.Resources.resources
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\WPFApplicationExercise.csproj.GenerateResource.Cache
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\WPFApplicationExercise.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\WPFApplicationExercise.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\WpfApplication001A\WPFApplicationExercise\obj\Debug\WPFApplicationExercise.csprojResolveAssemblyReference.cache

@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPFApplicationExercise.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApplicationExercise.ViewModels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:CustomerViewModel x:Key="DataContext" />
+    </Window.Resources>
+    <StackPanel DataContext="{StaticResource DataContext}" Margin="10">
+        <TextBox Name="CustomerName" Text="{Binding Customer.CustomerName, ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
+                 Validation.ValidationAdornerSite="{Binding ElementName=AdornerSite}" />
+        <Label Name="AdornerSite" FontWeight="Bold" Foreground="Red" Content="{Binding ElementName=CustomerName,Path=(Validation.Errors).CurrentItem.ErrorContent}"></Label>
+    </StackPanel>
+</Window>

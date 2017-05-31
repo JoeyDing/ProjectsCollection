@@ -1,0 +1,159 @@
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\ApplicationInsights.config
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\csc.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\vbc.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\VBCSCompiler.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.dll.config
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Antlr3.Runtime.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Web.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.ApplicationInsights.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Newtonsoft.Json.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Helpers.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Mvc.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Optimization.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Razor.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Razor.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\WebGrease.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Web.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.ApplicationInsights.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Helpers.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Mvc.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Optimization.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Razor.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Razor.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Antlr3.Runtime.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\bin\Newtonsoft.Json.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.pdb
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\ApplicationInsights.config
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\csc.exe
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\vbc.exe
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\VBCSCompiler.exe
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.dll.config
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.pdb
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Antlr3.Runtime.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Web.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.ApplicationInsights.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Helpers.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Mvc.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Optimization.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Razor.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Razor.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\WebGrease.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Web.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.ApplicationInsights.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Helpers.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Mvc.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Optimization.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Razor.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Razor.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Antlr3.Runtime.pdb
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\bin\Newtonsoft.Json.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.pdb
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\ApplicationInsights.config
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\csc.exe
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\vbc.exe
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\VBCSCompiler.exe
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.dll.config
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\JoeyMVCWebsite.pdb
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Antlr3.Runtime.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Web.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.ApplicationInsights.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Helpers.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Mvc.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Optimization.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Razor.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Razor.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\WebGrease.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.Web.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.ApplicationInsights.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Helpers.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Mvc.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Optimization.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.Razor.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\System.Web.WebPages.Razor.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Antlr3.Runtime.pdb
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\bin\Newtonsoft.Json.xml
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.dll
+C:\Users\v-joding\Source\Workspaces\MVC Website\$tf\0\JoeyMVCWebsite\JoeyMVCWebsite\obj\Debug\JoeyMVCWebsite.pdb
