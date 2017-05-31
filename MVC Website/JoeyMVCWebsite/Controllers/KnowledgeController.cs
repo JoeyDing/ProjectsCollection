@@ -13,7 +13,7 @@ namespace JoeyMVCWebsite.Controllers
         public ActionResult Knowledge()
         {
             //this view is knowledge(you can  point to another specified view)
-            JoeyDataModel d = new JoeyDataModel { KnowledgeName = "dasda", KnowledgeDescription = "fsdfdasda", Comments = "fdfses" };
+            JoeyDataModel d = new JoeyDataModel { KnowledgeName = "dasda", KnowledgeDescription = "fsdfdasda21", Comments = "fdfses" };
             return View(d);
         }
 
