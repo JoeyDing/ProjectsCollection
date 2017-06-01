@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Čia rašykite žinutę\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Bendrinti profilį",
+    "accessibility_id": "Bendrinti profilį"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Netrukdyti\")).index(1)",
+    "text": "Netrukdyti"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Ieškoti žmonių ir grupių|Ieškoti žmonių ir grupių\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Ieškoti žmonių ir robotų|Ieškoti žmonių ir robotų\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Ieškos robotai|Ieškoti „Skype“|Jei norite, kad „Cortana“ galėtų atsakyti į jūsų klausimus, padėtų prisiminti tai, kas svarbu, ir dar daugiau, leiskite programai rinkti ir naudoti jūsų informaciją, įskaitant:\n\nvietą ir vietų istoriją;\n\nkontaktus, kalendoriaus informaciją ir turinį bei žinučių, tiesioginių pranešimų ir programų ryšių retrospektyvą;\n\nieškos istoriją bei kitą įrenginio informaciją, kad galėtų geriau pritaikyti funkcijas asmeniškai jums|Ieškoti žiniatinklyje|Ieškoti žiniatinklyje|Ieškoti failų|Ieškoti žmonių|Ieškoti „Skype“|Ieškoti vietų|Ieškoti žmonių ir robotų|Ieškoti|Ieškoti žmonių ir grupių|Ieškoti žmonių|Ieškoti „Skype“|Ieškoti|Ieškos robotai|Ieškoti žmonių|Ieškoti žmonių ir robotų|Ieškoti žmonių ir grupių\")",
+    "text": "Ieškoti"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Ieškoti žmonių|Ieškoti žmonių ir robotų|Ieškoti žmonių ir grupių|Ieškoti žmonių|Ieškoti žmonių|Ieškoti žmonių ir robotų|Ieškoti žmonių ir grupių\")",
+    "text": "Ieškoti žmonių"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Ieškos robotai|Ieškoti „Skype“|Jei norite, kad „Cortana“ galėtų atsakyti į jūsų klausimus, padėtų prisiminti tai, kas svarbu, ir dar daugiau, leiskite programai rinkti ir naudoti jūsų informaciją, įskaitant:\n\nvietą ir vietų istoriją;\n\nkontaktus, kalendoriaus informaciją ir turinį bei žinučių, tiesioginių pranešimų ir programų ryšių retrospektyvą;\n\nieškos istoriją bei kitą įrenginio informaciją, kad galėtų geriau pritaikyti funkcijas asmeniškai jums|Ieškoti žiniatinklyje|Ieškoti žiniatinklyje|Ieškoti failų|Ieškoti žmonių|Ieškoti „Skype“|Ieškoti vietų|Ieškoti žmonių ir robotų|Ieškoti|Ieškoti žmonių ir grupių|Ieškoti žmonių|Ieškoti „Skype“|Ieškoti|Ieškos robotai|Ieškoti žmonių|Ieškoti žmonių ir robotų|Ieškoti žmonių ir grupių\")",
+    "text": "Ieškoti"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Parametrai"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Atsijungti\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Apie\")",
+    "text": "Apie"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} min., baigiasi {expireDate}|Nepavyko susisiekti su „Cortana“ tarnyba. Bandykite dar kartą po kelių minučių.|{hours} val. {minutes} min. {seconds} sek.|{hours} val. {minutes} min.|{minutes} min.|{minutes} min. {seconds} sek.|{count} minučių|{count, plural, =1{Prieš 1 min.} one{Prieš # min.} few{Prieš # min.} other{Prieš # min.}}|{minutes} min.|{count, plural, =1{Prieš 1 min.} one{Prieš # min.} few{Prieš # min.} other{Prieš # min.}}|{count, plural, =1{Prieš 1 min.} one{Prieš # min.} few{Prieš # min.} other{Prieš # min.}}\")",
+    "text": "{minutes} min., baigiasi {expireDate}|Nepavyko susisiekti su „Cortana“ tarnyba. Bandykite dar kartą po kelių minučių.|{hours} val. {minutes} min. {seconds} sek.|{hours} val. {minutes} min.|{minutes} min.|{minutes} min. {seconds} sek.|{count} minučių|{count, plural, =1{Prieš 1 min.} one{Prieš # min.} few{Prieš # min.} other{Prieš # min.}}|{minutes} min.|{count, plural, =1{Prieš 1 min.} one{Prieš # min.} few{Prieš # min.} other{Prieš # min.}}|{count, plural, =1{Prieš 1 min.} one{Prieš # min.} few{Prieš # min.} other{Prieš # min.}}"
+  }
+}

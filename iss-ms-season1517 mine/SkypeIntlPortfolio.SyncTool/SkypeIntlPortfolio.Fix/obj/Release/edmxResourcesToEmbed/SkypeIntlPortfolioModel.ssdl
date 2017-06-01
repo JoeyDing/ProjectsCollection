@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkypeIntlPlanningPortfolio_CloneModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MilestoneCategories">
+    <Key>
+      <PropertyRef Name="MilestoneCategoryKey" />
+    </Key>
+    <Property Name="MilestoneCategoryKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Milestone Category Name" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Products_New">
+    <Key>
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="ProductKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="StatusKey" Type="int" />
+    <Property Name="PVoiceKey" Type="int" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="ProductFamilyKey" Type="int" />
+    <Property Name="FabricTenantKey" Type="int" />
+    <Property Name="ISS Ops Driver" Type="nvarchar" MaxLength="50" />
+    <Property Name="OwnerLocationKey" Type="int" />
+    <Property Name="ReleaseCadenceKey" Type="int" />
+    <Property Name="IPE Owner" Type="nvarchar" MaxLength="50" />
+    <Property Name="Test Owner" Type="nvarchar" MaxLength="50" />
+    <Property Name="Product Owner" Type="nvarchar" MaxLength="50" />
+    <Property Name="LocBuildProcessKey" Type="int" />
+    <Property Name="LocProcessKey" Type="int" />
+    <Property Name="GB Impacting" Type="bit" />
+    <Property Name="French Loc Required" Type="bit" />
+    <Property Name="Privacy Statement Required" Type="bit" />
+    <Property Name="Voice Prompt Loc Required" Type="bit" />
+    <Property Name="Telemetry Data available" Type="bit" />
+    <Property Name="Pseudo Testing" Type="bit" />
+    <Property Name="LCG File Path" Type="nvarchar(max)" />
+    <Property Name="LCT File Path" Type="nvarchar(max)" />
+    <Property Name="Localization VSO Path" Type="nvarchar(max)" />
+    <Property Name="Main Code Branch" Type="nvarchar(max)" />
+    <Property Name="Localization Code Branch" Type="nvarchar(max)" />
+    <Property Name="Loc Team OneNote" Type="nvarchar(max)" />
+    <Property Name="Core PO" Type="nvarchar(max)" />
+    <Property Name="Core Team SharePoint" Type="nvarchar(max)" />
+    <Property Name="Certification Type" Type="nvarchar" MaxLength="255" />
+    <Property Name="Cert Location" Type="nvarchar(max)" />
+    <Property Name="Last Release Certified" Type="nvarchar(max)" />
+    <Property Name="ContentPublishedToKey" Type="int" />
+    <Property Name="Release build Location" Type="nvarchar(max)" />
+    <Property Name="Core VSO Backlog URL" Type="nvarchar(max)" />
+    <Property Name="LanguageSettingsKey" Type="int" />
+    <Property Name="CodeReviewUsedKey" Type="int" />
+    <Property Name="BuildSysKey" Type="int" />
+    <Property Name="Localization VSO URL" Type="nvarchar(max)" />
+    <Property Name="Telemetry Contact" Type="nvarchar(max)" />
+    <Property Name="Core Engineering Contact" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Releases">
+    <Key>
+      <PropertyRef Name="VSO ID" />
+    </Key>
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="VSO ID" Type="int" Nullable="false" />
+    <Property Name="VSO Title" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO Type" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="VSO Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="VSO LocStartDate" Type="datetime" Nullable="false" />
+    <Property Name="VSO DueDate" Type="datetime" Nullable="false" />
+    <Property Name="VSO Assigned To" Type="nvarchar" MaxLength="200" />
+    <Property Name="VSO Family" Type="nvarchar" MaxLength="200" />
+    <Property Name="VSO IterationPath" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO AreaPath" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO ChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="VSO ProductName" Type="nvarchar" MaxLength="200" />
+    <Property Name="VSO Url" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="VSO Tags" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="TestSchedules">
+    <Key>
+      <PropertyRef Name="TestScheduleKey" />
+    </Key>
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="ReleaseKey" Type="int" Nullable="false" />
+    <Property Name="TestScheduleKey" Type="int" Nullable="false" />
+    <Property Name="TestSchedule Name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="TestSchedule Start Date" Type="datetime" />
+    <Property Name="TestSchedule End Date" Type="datetime" />
+    <Property Name="Vso Web Url" Type="nvarchar" MaxLength="1000" />
+    <Property Name="AssignedResources" Type="int" />
+    <Property Name="MilestoneCategoryKey" Type="int" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="VSO ChangedDate" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_Releases_Products">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="Releases" Type="Self.Releases" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="Releases">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestSchedule_Releases">
+    <End Role="Releases" Type="Self.Releases" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TestSchedules" Type="Self.TestSchedules" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Releases">
+        <PropertyRef Name="VSO ID" />
+      </Principal>
+      <Dependent Role="TestSchedules">
+        <PropertyRef Name="ReleaseKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestSchedules_MilestoneCategories">
+    <End Role="MilestoneCategories" Type="Self.MilestoneCategories" Multiplicity="0..1" />
+    <End Role="TestSchedules" Type="Self.TestSchedules" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilestoneCategories">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Principal>
+      <Dependent Role="TestSchedules">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SkypeIntlPlanningPortfolio_CloneModelStoreContainer">
+    <EntitySet Name="MilestoneCategories" EntityType="Self.MilestoneCategories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products_New" EntityType="Self.Products_New" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Releases" EntityType="Self.Releases" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TestSchedules" EntityType="Self.TestSchedules" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Releases_Products" Association="Self.FK_Releases_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="Releases" EntitySet="Releases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestSchedule_Releases" Association="Self.FK_TestSchedule_Releases">
+      <End Role="Releases" EntitySet="Releases" />
+      <End Role="TestSchedules" EntitySet="TestSchedules" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestSchedules_MilestoneCategories" Association="Self.FK_TestSchedules_MilestoneCategories">
+      <End Role="MilestoneCategories" EntitySet="MilestoneCategories" />
+      <End Role="TestSchedules" EntitySet="TestSchedules" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

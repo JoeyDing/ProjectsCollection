@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnswerNo" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="AnswerYes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Capabilities" xml:space="preserve">
+    <value>Я могу предоставить вам со строками для обзора на вашем родном языке и предложить вам изменить предложить лучшие переводы!</value>
+  </data>
+  <data name="ContactAdded" xml:space="preserve">
+    <value>Эй мой новый друг! Позволяет плечевых качество локализации Skype!</value>
+  </data>
+  <data name="DiscoverUser" xml:space="preserve">
+    <value>Хотелось бы узнать больше о вас!</value>
+  </data>
+  <data name="DiscoverUserGoodReponse" xml:space="preserve">
+    <value>Так ты мастер языка {1}</value>
+  </data>
+  <data name="DiscoverUserLanguageGood" xml:space="preserve">
+    <value>Каковы языки, что вы мастер на очень хорошем уровне?</value>
+  </data>
+  <data name="DiscoverUserLanguageNative" xml:space="preserve">
+    <value>Что такое ваш родной язык?</value>
+  </data>
+  <data name="DiscoverUserNativeResponce" xml:space="preserve">
+    <value>От чего я понял ваш родной язык — {0}</value>
+  </data>
+  <data name="DiscoverUserQualityJudge" xml:space="preserve">
+    <value>Хотели бы вы судить на текущее качество перевода между {0} и {1} языками?</value>
+    <comment>Placeholders replaced with language names. For example: {0} - english, {1}  -latvian</comment>
+  </data>
+  <data name="Hack42" xml:space="preserve">
+    <value>Смысл жизни, Вселенной и все</value>
+  </data>
+  <data name="QualityCompareStrings" xml:space="preserve">
+    <value>Пожалуйста, поставьте знак на качество перевода языка {0} (1-10 с 10 - 1 - худшие и лучшие) фраза «{1}» (идентификатор {2}) переводится как «{3}» на языке {4}!</value>
+  </data>
+  <data name="QualityExcelent" xml:space="preserve">
+    <value>Ой! Это звучит здорово! Мы предоставим cookie для переводчиков. Спасибо!</value>
+  </data>
+  <data name="QualityMedicore" xml:space="preserve">
+    <value>Это достаточно хорошо. Вы хотели бы предложить что-то лучше?</value>
+  </data>
+  <data name="QualityYouCanBetter" xml:space="preserve">
+    <value>Ой это тоже плохо. Вы можете предложить лучший вариант перевода?</value>
+  </data>
+  <data name="RemovedContact" xml:space="preserve">
+    <value>Спасибо за все рыбы!</value>
+  </data>
+  <data name="StatusReport" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="StatusReportAnswer" xml:space="preserve">
+    <value>Вы были переведены {0} и рассмотрены {1} региональные пар</value>
+  </data>
+  <data name="StatusReportExtendedAnswer" xml:space="preserve">
+    <value>У вас есть перевод {0} и рассмотрены региональные пар {1}. в производстве используются {2} ваших переводов! Молодец!</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Спасибо, ваш вклад будет делать лучше отъезда пользователя для вас и других пользователей!</value>
+  </data>
+  <data name="ContinueWithEvaluations" xml:space="preserve">
+    <value>Вы хотели бы продолжить оценку переводы?</value>
+  </data>
+  <data name="EvaluateString_Bad_Action" xml:space="preserve">
+    <value>Ужасно. Я могу перевести лучше!</value>
+  </data>
+  <data name="EvaluateString_Best_Action" xml:space="preserve">
+    <value>Отличный перевод</value>
+  </data>
+  <data name="EvaluateString_Medium_Action" xml:space="preserve">
+    <value>Это прекрасный перевод</value>
+  </data>
+  <data name="EvaluateString_Source" xml:space="preserve">
+    <value>Оценивать перевод от источника «{0}» {1}</value>
+  </data>
+  <data name="Evaluate_EnterSuggestion" xml:space="preserve">
+    <value>Пожалуйста тип в ваше предложение! И нажмите клавишу Enter (отправить сообщение)</value>
+  </data>
+  <data name="Evaluate_Init" xml:space="preserve">
+    <value>Хотели бы вы оценить некоторые качество перевода?</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Эй новый друг! Я LocaLiz. Вы мне помочь с обратной связи на качество перевода. </value>
+  </data>
+  <data name="Command_DoNotUnderstandLangauge" xml:space="preserve">
+    <value>Извините не говорят на этом языке :(</value>
+  </data>
+  <data name="Command_In_What_Language" xml:space="preserve">
+    <value>На каком языке вы хотели бы поговорить со мной?</value>
+  </data>
+  <data name="Command_Select_One" xml:space="preserve">
+    <value>Выберите один язык</value>
+  </data>
+  <data name="Command_SwtichToLanguage" xml:space="preserve">
+    <value>OKI doki теперь переход на {0}</value>
+  </data>
+  <data name="Discover_Female" xml:space="preserve">
+    <value>Женский</value>
+  </data>
+  <data name="Discover_Male" xml:space="preserve">
+    <value>Мужской</value>
+  </data>
+  <data name="Discover_Other" xml:space="preserve">
+    <value>другое</value>
+  </data>
+  <data name="Discover_Unspecified" xml:space="preserve">
+    <value>Не указано</value>
+  </data>
+  <data name="Discover_What_Gender" xml:space="preserve">
+    <value>Что такое ваш пол?</value>
+  </data>
+</root>

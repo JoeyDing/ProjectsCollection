@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"اكتب رسالة هنا\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "مشاركة ملف التعريف",
+    "accessibility_id": "مشاركة ملف التعريف"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"ممنوع الإزعاج\")).index(1)",
+    "text": "ممنوع الإزعاج"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"بحث عن أشخاص ومجموعات|بحث عن أشخاص ومجموعات\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"البحث عن أشخاص وحسابات آلية|بحث عن أشخاص وحسابات آلية\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"بحث في الروبوتات|بحث في Skype|للرد على أسئلتك ومساعدتك في تذكر الأمور الهامة وغير ذلك الكثير، اسمح لـ Cortana بجمع واستخدام المعلومات التي تشتمل على:\n\nموقعك ومحفوظات المواقع\n\nجهات الاتصال وتفاصيل التقويم والمحتوى ومحفوظات الاتصالات من الرسائل والرسائل الفورية والتطبيقات\n\nمحفوظات البحث وغيرها من المعلومات على جهازك لتجعل تجربتك شخصية بصورة أكبر|بحث على الويب|بحث على ويب|البحث عن ملفات|بحث عن أشخاص|بحث في Skype|بحث عن أماكن|البحث عن أشخاص وحسابات آلية|بحث|بحث عن أشخاص ومجموعات|بحث عن أشخاص|بحث في Skype|بحث|البحث عن حسابات آلية|بحث عن أشخاص|بحث عن أشخاص وحسابات آلية|بحث عن أشخاص ومجموعات\")",
+    "text": "بحث"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"بحث عن أشخاص|البحث عن أشخاص وحسابات آلية|بحث عن أشخاص ومجموعات|بحث عن أشخاص|بحث عن أشخاص|بحث عن أشخاص وحسابات آلية|بحث عن أشخاص ومجموعات\")",
+    "text": "بحث عن أشخاص"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"بحث في الروبوتات|بحث في Skype|للرد على أسئلتك ومساعدتك في تذكر الأمور الهامة وغير ذلك الكثير، اسمح لـ Cortana بجمع واستخدام المعلومات التي تشتمل على:\n\nموقعك ومحفوظات المواقع\n\nجهات الاتصال وتفاصيل التقويم والمحتوى ومحفوظات الاتصالات من الرسائل والرسائل الفورية والتطبيقات\n\nمحفوظات البحث وغيرها من المعلومات على جهازك لتجعل تجربتك شخصية بصورة أكبر|بحث على الويب|بحث على ويب|البحث عن ملفات|بحث عن أشخاص|بحث في Skype|بحث عن أماكن|البحث عن أشخاص وحسابات آلية|بحث|بحث عن أشخاص ومجموعات|بحث عن أشخاص|بحث في Skype|بحث|البحث عن حسابات آلية|بحث عن أشخاص|بحث عن أشخاص وحسابات آلية|بحث عن أشخاص ومجموعات\")",
+    "text": "بحث"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "إعدادات"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"تسجيل الخروج\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"حول\")",
+    "text": "حول"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} من الدقائق، انتهاء الصلاحية في {expireDate}|فشل الاتصال بخدمة Cortana. الرجاء المحاولة من جديد خلال بضع دقائق.|{hours} من الساعات {minutes} من الدقائق {seconds} من الثواني|{hours} من الساعات {minutes} من الدقائق|{minutes} من الدقائق|{minutes} من الدقائق {seconds} من الثواني|{count} من الدقائق|{count, plural, =1{منذ دقيقة واحدة} two{دقيقتان} few{منذ # دقائق}  many{منذ # دقيقة} other{منذ # دقيقة}}|{minutes}دقيقة|{count, plural, =1{منذ دقيقة واحدة} two{دقيقتان} few{منذ # دقائق}  many{منذ # دقيقة} other{منذ # دقيقة}}|{count, plural, =1{منذ دقيقة واحدة} two{دقيقتان} few{منذ # دقائق}  many{منذ # دقيقة} other{منذ # دقيقة}}\")",
+    "text": "{minutes} من الدقائق، انتهاء الصلاحية في {expireDate}|فشل الاتصال بخدمة Cortana. الرجاء المحاولة من جديد خلال بضع دقائق.|{hours} من الساعات {minutes} من الدقائق {seconds} من الثواني|{hours} من الساعات {minutes} من الدقائق|{minutes} من الدقائق|{minutes} من الدقائق {seconds} من الثواني|{count} من الدقائق|{count, plural, =1{منذ دقيقة واحدة} two{دقيقتان} few{منذ # دقائق}  many{منذ # دقيقة} other{منذ # دقيقة}}|{minutes}دقيقة|{count, plural, =1{منذ دقيقة واحدة} two{دقيقتان} few{منذ # دقائق}  many{منذ # دقيقة} other{منذ # دقيقة}}|{count, plural, =1{منذ دقيقة واحدة} two{دقيقتان} few{منذ # دقائق}  many{منذ # دقيقة} other{منذ # دقيقة}}"
+  }
+}

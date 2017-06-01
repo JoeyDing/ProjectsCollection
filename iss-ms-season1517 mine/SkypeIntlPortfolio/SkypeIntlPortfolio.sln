@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeIntlPortfolio", "SkypeIntlPortfolio\SkypeIntlPortfolio.csproj", "{5415A4FB-A32C-416C-85EF-0A1C53D9C07C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeIntlPortfolio.Tests", "SkypeIntlPortfolio.Tests\SkypeIntlPortfolio.Tests.csproj", "{85E215F2-0A46-4DF9-B710-1FB8210D4739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeIntlPortfolio.Data", "SkypeIntlPortfolio.Data\SkypeIntlPortfolio.Data.csproj", "{BF8A98F3-ABF6-428D-B3E5-3807FDCEB360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeIntlPortfolio.Reports", "SkypeIntlPortfolio.Reports\SkypeIntlPortfolio.Reports.csproj", "{88C1C3DD-740B-456B-95A4-8B4A162142B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ABCEDA32-8B11-4759-9F88-3E97679F32E3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeIntlPortfolio.Ajax", "SkypeIntlPortfolio.Ajax\SkypeIntlPortfolio.Ajax.csproj", "{31AA0727-3A06-43A8-AD0C-A5C84DFB8716}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{65FA490A-2AA6-4E56-A3C1-538255DD892B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTestForAddNewProduct\UnitTest.csproj", "{216BC569-BB57-4C3B-9D4A-249AF9B2002D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeIntlMonitoring.Data", "SkypeIntlMonitoring.Data\SkypeIntlMonitoring.Data.csproj", "{C084606C-0699-494B-AC15-5A676E6C3488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5415A4FB-A32C-416C-85EF-0A1C53D9C07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5415A4FB-A32C-416C-85EF-0A1C53D9C07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5415A4FB-A32C-416C-85EF-0A1C53D9C07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5415A4FB-A32C-416C-85EF-0A1C53D9C07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E215F2-0A46-4DF9-B710-1FB8210D4739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E215F2-0A46-4DF9-B710-1FB8210D4739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E215F2-0A46-4DF9-B710-1FB8210D4739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E215F2-0A46-4DF9-B710-1FB8210D4739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8A98F3-ABF6-428D-B3E5-3807FDCEB360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8A98F3-ABF6-428D-B3E5-3807FDCEB360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8A98F3-ABF6-428D-B3E5-3807FDCEB360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8A98F3-ABF6-428D-B3E5-3807FDCEB360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C1C3DD-740B-456B-95A4-8B4A162142B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C1C3DD-740B-456B-95A4-8B4A162142B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C1C3DD-740B-456B-95A4-8B4A162142B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C1C3DD-740B-456B-95A4-8B4A162142B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AA0727-3A06-43A8-AD0C-A5C84DFB8716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AA0727-3A06-43A8-AD0C-A5C84DFB8716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AA0727-3A06-43A8-AD0C-A5C84DFB8716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AA0727-3A06-43A8-AD0C-A5C84DFB8716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216BC569-BB57-4C3B-9D4A-249AF9B2002D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216BC569-BB57-4C3B-9D4A-249AF9B2002D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216BC569-BB57-4C3B-9D4A-249AF9B2002D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216BC569-BB57-4C3B-9D4A-249AF9B2002D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C084606C-0699-494B-AC15-5A676E6C3488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C084606C-0699-494B-AC15-5A676E6C3488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C084606C-0699-494B-AC15-5A676E6C3488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C084606C-0699-494B-AC15-5A676E6C3488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{216BC569-BB57-4C3B-9D4A-249AF9B2002D} = {65FA490A-2AA6-4E56-A3C1-538255DD892B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkypeIntlMonitoringModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SkypeIntlMonitoringEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="vw_ProjectBuildInfo" EntityType="SkypeIntlMonitoringModel.vw_ProjectBuildInfo" />
+    <EntitySet Name="vw_ProjectFamilyInfo" EntityType="SkypeIntlMonitoringModel.vw_ProjectFamilyInfo" />
+    <EntitySet Name="RemoteLoggers" EntityType="SkypeIntlMonitoringModel.RemoteLogger" />
+    <EntitySet Name="RemoteStateLoggers" EntityType="SkypeIntlMonitoringModel.RemoteStateLogger" />
+    <EntitySet Name="vw_ToolsJobsStepsInfo" EntityType="SkypeIntlMonitoringModel.vw_ToolsJobsStepsInfo" />
+    <EntitySet Name="vw_GetJobExecutionView" EntityType="SkypeIntlMonitoringModel.vw_GetJobExecutionView" />
+    <FunctionImport Name="Fn_New_GetJobListForHistory" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobListForHistory_Result)">
+      <Parameter Name="fromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_New_GetJobsExecution" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobsExecution_Result)">
+      <Parameter Name="jobName" Mode="In" Type="String" />
+      <Parameter Name="fromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_New_GetJobsLatestStatus" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobsLatestStatus_Result)">
+      <Parameter Name="fromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_New_GetJobStepsforExecution" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobStepsforExecution_Result)">
+      <Parameter Name="jobName" Mode="In" Type="String" />
+      <Parameter Name="jobInstanceId" Mode="In" Type="Int32" />
+      <Parameter Name="jobStartTime" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_New_GetJobStepsForNotification" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobStepsForNotification_Result)">
+      <Parameter Name="LastNotificationJobInstanceId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_New_GetRunningJobs" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetRunningJobs_Result)" />
+    <EntitySet Name="New_SqlJobs" EntityType="SkypeIntlMonitoringModel.New_SqlJobs" />
+    <FunctionImport Name="Fn_New_GetServerTime" IsComposable="true" ReturnType="Collection(DateTime)" />
+    <FunctionImport Name="Fn_New_GetStepInPeriod" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetStepInPeriod_Result)">
+      <Parameter Name="PeriodTime_Minutes" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Fn_New_GetStepForRunningJob" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetStepForRunningJob_Result)">
+      <Parameter Name="JobName" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="RemoteStateLoggerImages" EntityType="SkypeIntlMonitoringModel.RemoteStateLoggerImage" />
+    <AssociationSet Name="FK__RemoteSta__Remot__1B5E0D89" Association="SkypeIntlMonitoringModel.FK__RemoteSta__Remot__1B5E0D89">
+      <End Role="RemoteStateLogger" EntitySet="RemoteStateLoggers" />
+      <End Role="RemoteStateLoggerImage" EntitySet="RemoteStateLoggerImages" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="vw_ProjectBuildInfo">
+    <Key>
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="ProjectID" />
+      <PropertyRef Name="IsVisible" />
+    </Key>
+    <Property Name="BranchID" Type="Int32" Nullable="false" />
+    <Property Name="ProjectID" Type="Int32" Nullable="false" />
+    <Property Name="BuildVersion" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="BranchIdentity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PDName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="PDLinks" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="IsVisible" Type="Boolean" Nullable="false" />
+    <Property Name="SyncDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="vw_ProjectFamilyInfo">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="Int32" Nullable="false" />
+    <Property Name="ProjectName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="DisplayName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="RemoteLogger">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ApplicationName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Exception" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ExceptionStackTrace" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="UpdateDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UserIdentity" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BatchID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StateID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="RemoteStateLogger">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TestcaseName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LanguageName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+    <Property Name="UpdateDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ApplicationName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BatchID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserIdentity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RemoteStateLoggerImages" Relationship="SkypeIntlMonitoringModel.FK__RemoteSta__Remot__1B5E0D89" FromRole="RemoteStateLogger" ToRole="RemoteStateLoggerImage" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="vw_ToolsJobsStepsInfo">
+    <Key>
+      <PropertyRef Name="Job_Name" />
+      <PropertyRef Name="Step_Name" />
+    </Key>
+    <Property Name="Tool_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Job_Name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Step_Name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="vw_GetJobExecutionView">
+    <Key>
+      <PropertyRef Name="run_status" />
+      <PropertyRef Name="instance_id" />
+      <PropertyRef Name="job_name" />
+    </Key>
+    <Property Name="message" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="run_status" Type="Int32" Nullable="false" />
+    <Property Name="instance_id" Type="Int32" Nullable="false" />
+    <Property Name="job_name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="RunDurationMinutes" Type="Int32" />
+    <Property Name="RunDateTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <ComplexType Name="Fn_New_GetJobListForHistory_Result">
+    <Property Type="Int32" Name="MaxId" Nullable="true" />
+    <Property Type="Guid" Name="job_id" Nullable="false" />
+    <Property Type="Int32" Name="RunDurationMinutes" Nullable="true" />
+    <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="Fn_New_GetJobsExecution_Result">
+    <Property Type="String" Name="message" Nullable="true" MaxLength="4000" />
+    <Property Type="Int32" Name="run_status" Nullable="false" />
+    <Property Type="Int32" Name="instance_id" Nullable="false" />
+    <Property Type="String" Name="job_name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="RunDurationMinutes" Nullable="true" />
+    <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="Fn_New_GetJobsLatestStatus_Result">
+    <Property Type="String" Name="job_name" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="PreviouslyFailed" Nullable="true" />
+    <Property Type="Int32" Name="LatestInstanceId" Nullable="true" />
+    <Property Type="Guid" Name="job_id" Nullable="false" />
+    <Property Type="DateTime" Name="LatestRunDateTime" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="LatestRunStatus" Nullable="false" />
+    <Property Type="Int32" Name="LatestRunDurationMinutes" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Fn_New_GetJobStepsforExecution_Result">
+    <Property Type="Int32" Name="instance_id" Nullable="false" />
+    <Property Type="Int32" Name="run_status" Nullable="false" />
+    <Property Type="String" Name="job_name" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="message" Nullable="true" MaxLength="4000" />
+    <Property Type="Int32" Name="step_id" Nullable="false" />
+    <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="RunDurationMinutes" Nullable="true" />
+    <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="Fn_New_GetJobStepsForNotification_Result">
+    <Property Type="Int32" Name="instance_id" Nullable="false" />
+    <Property Type="String" Name="job_name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="step_id" Nullable="false" />
+    <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="message" Nullable="true" MaxLength="4000" />
+    <Property Type="Int32" Name="run_status" Nullable="false" />
+    <Property Type="Int32" Name="RunDurationMinutes" Nullable="true" />
+    <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="Fn_New_GetRunningJobs_Result">
+    <Property Type="Guid" Name="job_id" Nullable="false" />
+    <Property Type="String" Name="job_name" Nullable="false" MaxLength="128" />
+    <Property Type="DateTime" Name="start_execution_date" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="current_executed_step_id" Nullable="true" />
+    <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <EntityType Name="New_SqlJobs">
+    <Key>
+      <PropertyRef Name="JobName" />
+    </Key>
+    <Property Name="JobName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <ComplexType Name="Fn_New_GetStepInPeriod_Result">
+    <Property Type="Int32" Name="instance_id" Nullable="false" />
+    <Property Type="Int32" Name="run_status" Nullable="false" />
+    <Property Type="Guid" Name="job_id" Nullable="false" />
+    <Property Type="Int32" Name="step_id" Nullable="false" />
+    <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="RunDurationTimeSeconds" Nullable="true" />
+    <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="Fn_New_GetStepForRunningJob_Result">
+    <Property Type="Int32" Name="instance_id" Nullable="false" />
+    <Property Type="Int32" Name="run_status" Nullable="false" />
+    <Property Type="Guid" Name="job_id" Nullable="false" />
+    <Property Type="Int32" Name="step_id" Nullable="false" />
+    <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="RunDurationTimeSeconds" Nullable="true" />
+    <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <EntityType Name="RemoteStateLoggerImage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RemoteStateLoggerID" Type="Int32" Nullable="false" />
+    <Property Name="ImagePath" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RemoteStateLogger" Relationship="SkypeIntlMonitoringModel.FK__RemoteSta__Remot__1B5E0D89" FromRole="RemoteStateLoggerImage" ToRole="RemoteStateLogger" />
+  </EntityType>
+  <Association Name="FK__RemoteSta__Remot__1B5E0D89">
+    <End Type="SkypeIntlMonitoringModel.RemoteStateLogger" Role="RemoteStateLogger" Multiplicity="1" />
+    <End Type="SkypeIntlMonitoringModel.RemoteStateLoggerImage" Role="RemoteStateLoggerImage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RemoteStateLogger">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RemoteStateLoggerImage">
+        <PropertyRef Name="RemoteStateLoggerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

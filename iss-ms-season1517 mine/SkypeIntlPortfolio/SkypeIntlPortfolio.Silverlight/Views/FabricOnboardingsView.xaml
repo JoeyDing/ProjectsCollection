@@ -1,0 +1,156 @@
+﻿<navigation:Page x:Class="SkypeIntlPortfolio.Silverlight.Views.FabricOnboardingsView"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:tk="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+           xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           d:DesignWidth="640" d:DesignHeight="480"
+           Title="Status">
+    <telerik:RadBusyIndicator IsBusy="{Binding Path=IsBusy}">
+        <Grid x:Name="LayoutRoot" Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Count of Product\Project by Phase" FontWeight="Bold" HorizontalAlignment="Center" Margin="10" />
+                <telerik:RadPieChart Palette="Windows8" Name="chart1" Grid.Row="1"
+                                 HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"
+                                 VerticalAlignment="Stretch" VerticalContentAlignment="Stretch">
+                    <telerik:RadPieChart.Series>
+                        <telerik:DoughnutSeries ItemsSource="{Binding Path=FabricOnboardingsTotalProjectByStatusList}" RadiusFactor="0.7">
+                            <telerik:DoughnutSeries.LabelDefinitions>
+                                <telerik:ChartSeriesLabelDefinition  VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <telerik:ChartSeriesLabelDefinition.Binding>
+                                        <telerik:PropertyNameDataPointBinding PropertyName="Total" />
+                                    </telerik:ChartSeriesLabelDefinition.Binding>
+                                </telerik:ChartSeriesLabelDefinition>
+                            </telerik:DoughnutSeries.LabelDefinitions>
+                            <telerik:DoughnutSeries.ValueBinding>
+                                <telerik:PropertyNameDataPointBinding PropertyName="Total" />
+                            </telerik:DoughnutSeries.ValueBinding>
+                            <telerik:DoughnutSeries.LegendSettings>
+                                <telerik:DataPointLegendSettings TitleBinding="Phase"></telerik:DataPointLegendSettings>
+                            </telerik:DoughnutSeries.LegendSettings>
+                        </telerik:DoughnutSeries>
+                    </telerik:RadPieChart.Series>
+                </telerik:RadPieChart>
+                <telerik:RadLegend Background="White"
+                                   Grid.Row="2"
+                                   BorderBrush="Transparent"
+                                   BorderThickness="1"
+                                   Width="auto"
+                                   Height="auto"
+                                   VerticalAlignment="Bottom"
+                                HorizontalAlignment="Center"
+                                   Items="{Binding LegendItems, ElementName=chart1}"
+>
+                    <telerik:RadLegend.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal" />
+                        </ItemsPanelTemplate>
+                    </telerik:RadLegend.ItemsPanel>
+                    <telerik:RadLegend.Resources>
+                        <Style TargetType="ContentPresenter">
+                            <Setter Property="Margin" Value="0 0 7 0" />
+                        </Style>
+                    </telerik:RadLegend.Resources>
+                </telerik:RadLegend>
+            </Grid>
+
+            <Grid Grid.Row="3" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="High-level view on project's FabricOnboarding Phase status"
+                   FontWeight="Bold" HorizontalAlignment="Center" Margin="10" />
+                <telerik:RadGridView Grid.Row="1"
+                             ItemsSource="{Binding FabricOnboardingsHighLevelStatusList}"
+							 Margin="0" GroupRenderMode="Flat"
+							 RowIndicatorVisibility="Collapsed"
+							 IsReadOnly="True"
+                             ShowColumnSortIndexes="True"
+							 AutoGenerateColumns="True"
+							 CanUserFreezeColumns="False"
+							 CanUserResizeColumns="False">
+                </telerik:RadGridView>
+            </Grid>
+
+            <Grid Grid.Row="5" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Low-level view on project's FabricOnboarding PBIs and related dependencies' status"
+                   FontWeight="Bold" HorizontalAlignment="Center" Margin="10" />
+                <telerik:RadGridView Grid.Row="1"
+                             ItemsSource="{Binding FabricOnboardingsLowLevelStatusList}"
+							 Margin="0" GroupRenderMode="Flat"
+							 RowIndicatorVisibility="Collapsed"
+							 IsReadOnly="True"
+                             ShowColumnSortIndexes="True"
+							 AutoGenerateColumns="False"
+							 CanUserFreezeColumns="False"
+							 CanUserResizeColumns="False">
+                    <telerik:RadGridView.Columns>
+                        <telerik:GridViewDataColumn Header="Project"
+											DataMemberBinding="{Binding Project}" />
+                        <telerik:GridViewDataColumn Header="AAAPT Epic Tasks"
+											DataMemberBinding="{Binding AAPTEpicTasks}" />
+
+                        <telerik:GridViewDataColumn Header="LYNCFAB CrawlTest1"
+											DataMemberBinding="{Binding LYNCFABCrawlTest1}" />
+                        <telerik:GridViewDataColumn Header="LYNCFAB CrawlTest2"
+											DataMemberBinding="{Binding LYNCFABCrawlTest2}" />
+                        <telerik:GridViewDataColumn Header="LYNCFAB CrawlTest3"
+											DataMemberBinding="{Binding LYNCFABCrawlTest3}" />
+                        <telerik:GridViewDataColumn Header="LYNCFAB CrawlTest4"
+											DataMemberBinding="{Binding LYNCFABCrawlTest4}" />
+                        <telerik:GridViewDataColumn Header="LYNCFAB CrawlTest5"
+											DataMemberBinding="{Binding LYNCFABCrawlTest5}" />
+                        <telerik:GridViewDataColumn Header="LYNCFAB CrawlTest6"
+											DataMemberBinding="{Binding LYNCFABCrawlTest6}" />
+                        <telerik:GridViewDataColumn Header="LYNCFAB CrawlTest7"
+											DataMemberBinding="{Binding LYNCFABCrawlTest7}" />
+
+                        <telerik:GridViewDataColumn Header="LYNCFAB WalkTest1"
+											DataMemberBinding="{Binding LYNCFABWalkTest1}" />
+                        <telerik:GridViewDataColumn Header="LYNCFAB WalkTest2"
+											DataMemberBinding="{Binding LYNCFABWalkTest2}" />
+                        <telerik:GridViewDataColumn Header="LYNCFAB WalkTest3"
+											DataMemberBinding="{Binding LYNCFABWalkTest3}" />
+                    </telerik:RadGridView.Columns>
+                </telerik:RadGridView>
+            </Grid>
+        </Grid>
+    </telerik:RadBusyIndicator>
+</navigation:Page>

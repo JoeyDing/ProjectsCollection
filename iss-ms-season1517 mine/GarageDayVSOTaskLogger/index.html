@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VSO Task hours Logger App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+
+    <style type="text/css">
+        .Table {
+            display: table;
+        }
+        
+        .Title {
+            display: table-caption;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+        }
+        
+        .Heading {
+            display: table-row;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .Row {
+            display: table-row;
+        }
+        
+        .Cell {
+            display: table-cell;
+            border: solid;
+            border-width: thin;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-xs-10 col-sm-10 col-md-10">
+            <div class="page-header">
+                <h1>VSO Task Logger <small>log hours for daily tasks</small></h1>
+            </div>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2" style="margin-top:55px;float:right;">
+            <label style="float:left;" id="SprintName">Choose your alias</label>
+            <select>
+                  <option value="volvo">Joey</option>
+                  <option value="saab">Gopal</option>
+             </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-8 col-sm-8">
+        </div>
+        <div class="col-xs-4 col-sm-4">
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <button type="button" style="margin-left:15px;" class="btn btn-success">Logged <span class="badge">2 hrs</span></button>
+                <button type="button" class="btn btn-danger">Assign <span class="badge">5 hrs</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
+            <div class="Table" style="float:left;width:100%;margin-top:10px;margin-bottom:10px;">
+                <div class="Title" width:100%" style="margin-bottom:10px;">
+                    <label style="float:left;width:10%" id="SprintName">Sprint </label>
+                    <input style="float:left;width:10%" type="Text" name="SprintID" id="sprintID" size="20" />
+                    <button id="getItemsButton">Get work items list</button>
+                </div>
+                <div class="Heading">
+                    <div class="Cell">
+                        <p>Task ID</p>
+                    </div>
+                    <div class="Cell">
+                        <p>Status</p>
+                    </div>
+                    <div class="Cell">
+                        <p>Estimated Hours</p>
+                    </div>
+                    <div class="Cell">
+                        <p>Remaining Hours</p>
+                    </div>
+                    <div class="Cell">
+                        <p>Completed Hours</p>
+                    </div>
+                </div>
+                <div class="Row">
+                    <div class="Cell">
+                        <input type="checkbox" value="checked" />
+                        <span id="TaskID"><p>Task 1</p></span>
+                    </div>
+                    <div class="Cell">
+                        <span id="TaskStatus"><p>In Progress</p> </span>
+                    </div>
+                    <div class="Cell">
+                        <span id="EstimatedHours"><p >7 hrs</p></span>
+                    </div>
+                    <div class="Cell">
+                        <span id="RemainingHours"><p>5 hrs</p></span>
+                    </div>
+                    <div class="Cell">                        
+                        <span id="CompletedHours"><p></p></span>
+                        <input style="float:left;width:10%" type="text" name="CompletedHoursValue" id="CompletedHoursValueID" size="20" />                                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-10 col-sm-8"></div>
+        <div class="col-xs-2 col-sm-4">
+            <button style="float:right;" type="button">Log your hours</button>
+        </div>
+    </div>
+    <script src="./app/app.js"></script>
+</body>
+
+</html>

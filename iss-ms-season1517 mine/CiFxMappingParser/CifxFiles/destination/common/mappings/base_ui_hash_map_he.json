@@ -1,0 +1,400 @@
+{
+  "QuickCallPanel.CallMultiplePeople": {
+    "accessibility_id": "שיחה לאנשים מרובים",
+    "text": ""
+  },
+  "call_multiple_people_open_dial_pad": {
+    "accessibility_id": "חייג מספר טלפון"
+  },
+  "call_window_dial_pad_number_1": {
+    "accessibility_id": "1",
+    "text": "1"
+  },
+  "call_window_select_participants": {
+    "text": "Select participants"
+  },
+  "call_window_switch_camera": {
+    "accessibility_id": "החלף מצלמה",
+    "text": "החלף מצלמה"
+  },
+  "call_window_gallery_camera": {
+    "accessibility_id": "מצלמה",
+    "text": "מצלמה"
+  },
+  "call_window_accept_audio_call": {
+    "accessibility_id": "Answer call from {0} with voice only",
+    "text": ""
+  },
+  "call_window_accept_video_call": {
+    "accessibility_id": "Answer call from {0} with video",
+    "text": ""
+  },
+  "call_window_reject_call": {
+    "accessibility_id": "דחה",
+    "text": ""
+  },
+  "call_window_menu_toggle": {
+    "accessibility_id": "הצג/הסתר פקדים",
+    "text": "הצג/הסתר פקדים"
+  },
+  "call_window_emoji_menu_toggle": {
+    "accessibility_id": "הצג תגובות",
+    "text": "הצג תגובות"
+  },
+  "call_window_menu_hang_up": {
+    "accessibility_id": "סיים שיחה",
+    "text": ""
+  },
+  "CallControls.CallButtonMute": {
+    "accessibility_id": "השתק",
+    "text": ""
+  },
+  "CallControls.CallButtonSwitchCameraBackwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing backward"
+  },
+  "CallControls.CallButtonSwitchCameraForwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing forward"
+  },
+  "CallControls.CallButtonUnmuteAccessibilityLabel": {
+    "accessibility_id": "בטל השתקה",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOffVideoAccessibilityLabel": {
+    "accessibility_id": "Turn off video",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOnVideoAccessibilityLabel": {
+    "accessibility_id": "Turn on video",
+    "text": ""
+  },
+  "call_window_menu_speakerphone": {
+    "accessibility_id": "רמקול",
+    "text": "רמקול"
+  },
+  "call_window_menu_headset": {
+    "accessibility_id": "אוזניות",
+    "text": "אוזניות"
+  },
+  "capture_window_captured_picture_draw": {
+    "accessibility_id": "Pen draw with ink.",
+    "text": ""
+  },
+  "CapturePanel.MediaPickerAccessibilityLabel": {
+    "accessibility_id": "Open photo gallery",
+    "text": ""
+  },
+  "CapturePanel.SwitchCameraToFrontAccessibilityLabel": {
+    "accessibility_id": "Switch to front-facing camera"
+  },
+  "CapturePanel.SwitchCameraToBackAccessibilityLabel": {
+    "accessibility_id": "Switch to back-facing camera"
+  },
+  "HighlightsTooltipPopup.FollowTooltip": {
+    "text": "Follow some friends here"
+  },
+  "HighlightsTooltipPopup.ShareMyHighlightsTooltip": {
+    "text": "Share your highlights here"
+  },
+  "capture_window_captured_picture_add_text": {
+    "accessibility_id": "הוסף כתובית",
+    "text": "הוסף כתובית"
+  },
+  "MyHighlightsPanel.Title": {
+    "text": "Manage Highlights"
+  },
+  "capture_window_permission": {
+    "text": "הענק ל- Skype הרשאה לגשת למצלמה שלך"
+  },
+  "capture_window_accept_permissions": {
+    "accessibility_id": "הרשאת מצלמה"
+  },
+  "capture_window_send_message": {
+    "accessibility_id": "Send to {0}",
+    "text": ""
+  },
+  "capture_window_captured_media_tutorial": {
+    "text": "שתף עם ה- Highlights שלך"
+  },
+  "CapturePreview.HighlightsAccessibilityLabel": {
+    "accessibility_id": "Send to Highlights",
+    "text": ""
+  },
+  "capture_window_first_time_tutorial": {
+    "text": "הקש לתמונה, החזק לווידאו"
+  },
+  "capture_window_post_to_highlights_ok": {
+    "text": "אישור"
+  },
+  "capture_window_post_to_highlights_sent": {
+    "text": "נשלחה"
+  },
+  "capture_window_captured_picture_add_text_element": {
+    "accessibility_id": "הוסף כתובית",
+    "text": "הוסף כתובית"
+  },
+  "capture_window_captured_picture_add_emoji": {
+    "accessibility_id": "מדבקות",
+    "text": "מדבקות"
+  },
+  "chat_window_call": {
+    "accessibility_id": "התקשר",
+    "text": "התקשר"
+  },
+  "call_multiple_people_start_call": {
+    "accessibility_id": "התחל שיחה קבוצתית חדשה",
+    "text": "התחל שיחה קבוצתית חדשה"
+  },
+  "chat_window_capture": {
+    "accessibility_id": "צלם"
+  },
+  "CallQualityFeedback.Title": {
+    "text": "How would you rate the quality of this call?"
+  },
+  "chat_window_user_online": {
+    "text": "פעיל כעת"
+  },
+  "chat_window_user_offline": {
+    "text": "Offline"
+  },
+  "chat_window_user_do_not_disturb": {
+    "text": "נא לא להפריע"
+  },
+  "chat_window_user_away": {
+    "text": "Away"
+  },
+  "chat_window_user_unknown": {
+    "text": "לא ידוע"
+  },
+  "chat_window_send_message": {
+    "accessibility_id": "שלח הודעה",
+    "text": "שלח הודעה"
+  },
+  "chat_window_video_call": {
+    "accessibility_id": "שיחת וידאו",
+    "text": "שיחת וידאו"
+  },
+  "chat_window_add_emoticon": {
+    "accessibility_id": "פתח את בורר סמלי ההבעה",
+    "text": ""
+  },
+  "chat_window_record_audio": {
+    "accessibility_id": "הקלט הודעה",
+    "text": "הקלט הודעה"
+  },
+  "chat_window_send_audio_message": {
+    "accessibility_id": "שלח הודעת שמע",
+    "text": "שלח הודעת שמע"
+  },
+  "chat_window_open_location_window": {
+    "accessibility_id": "שתף את המיקום שלך",
+    "text": ""
+  },
+  "chat_window_open_moji_window": {
+    "accessibility_id": "פתח את בורר ה- Moji",
+    "text": ""
+  },
+  "chat_window_send_moji": {
+    "accessibility_id": "שלח Moji"
+  },
+  "chat_window_cancel_audio_message": {
+    "accessibility_id": "בטל הקלטה",
+    "text": "בטל הקלטה"
+  },
+  "chat_window_react_button": {
+    "accessibility_id": "הגב להודעה זו",
+    "text": "הגב להודעה זו"
+  },
+  "chat_window_copy_message": {
+    "text": "העתקה"
+  },
+  "chat_window_message": {
+    "text": "הקלד הודעה כאן"
+  },
+  "highlights_skip_tutorial": {
+    "accessibility_id": "דלג",
+    "text": "דלג"
+  },
+  "highlight_window_first_time_tutorial": {
+    "text": "Welcome to Highlights!"
+  },
+  "highlights_window_my_followers": {
+    "text": "My Followers"
+  },
+  "HubHeaderPanel.MyHighlightsButtonLabel": {
+    "accessibility_id": "Manage My Highlights.",
+    "text": ""
+  },
+  "ViewMyHighlights": {
+    "text": "Highlights"
+  },
+  "Highlights_Window_Follow_People": {
+    "accessibility_id": "Follow People"
+  },
+  "highlights_window_add_people": {
+    "text": "Add people"
+  },
+  "location_window_search_places": {
+    "accessibility_id": "חיפוש מקומות",
+    "text": ""
+  },
+  "location_window_share_location": {
+    "text": ""
+  },
+  "location_window_failed_to_get_location": {
+    "text": "מצטערים, לא היתה אפשרות למצוא את המיקום שלך כעת."
+  },
+  "login_window_account_failure": {
+    "accessibility_id": "There was an issue looking up your account. Tap Next to try again."
+  },
+  "login_window_next_button": {
+    "accessibility_id": "הבא",
+    "id": "idSIButton9"
+  },
+  "login_window_terms_of_use": {
+    "text": "Enter password"
+  },
+  "login_window_sign_in_button": {
+    "accessibility_id": "Sign in",
+    "text": "Sign in"
+  },
+  "main_skip_tutorial": {
+    "accessibility_id": "Let’s go!",
+    "text": "Got it, let’s go!"
+  },
+  "main_confidential_accept": {
+    "text": "הבנתי! בוא נתחיל."
+  },
+  "main_username": {
+    "accessibility_id": "Email, phone, or Skype name",
+    "text": "Email, phone, or Skype name",
+    "id": "i0116"
+  },
+  "main_password": {
+    "accessibility_id": "Password",
+    "text": "Password",
+    "id": "i0118"
+  },
+  "main_privacy_policy": {
+    "text": "הבא"
+  },
+  "main_window_action_menu": {
+    "accessibility_id": "שיחה חדשה או איש קשר חדש",
+    "text": "שיחה חדשה או איש קשר חדש"
+  },
+  "main_window_capture_tab": {
+    "accessibility_id": "Capture Tab. 3 of 3.",
+    "text": "צלם"
+  },
+  "main_window_recents_tab": {
+    "text": "צ'אטים"
+  },
+  "main_window_send_feedback": {
+    "accessibility_id": "שלח משוב",
+    "text": ""
+  },
+  "main_window_new_conversation_new_group": {
+    "accessibility_id": "קבוצה חדשה",
+    "text": "קבוצה חדשה",
+    "xpath": "//*[contains(@text,'New Group')]"
+  },
+  "main_window_new_conversation_new_chat": {
+    "accessibility_id": "צ'אט חדש",
+    "text": "צ'אט חדש",
+    "xpath": "//*[contains(@text,'New Chat')]"
+  },
+  "main_window_new_conversation_add_contact": {
+    "accessibility_id": "הזמן אנשים ל- Skype",
+    "text": "הזמן אנשים ל- Skype",
+    "xpath": "//*[contains(@text,'Invite People to Skype')]"
+  },
+  "main_window_new_conversation_add_bot": {
+    "accessibility_id": "מצא בוטים",
+    "text": "מצא בוטים",
+    "xpath": "//*[contains(@text,'Find Bots')]"
+  },
+  "main_window_new_conversation_create_group_done": {
+    "accessibility_id": "סיום",
+    "text": "סיום"
+  },
+  "main_window_action_menu_start_call": {
+    "accessibility_id": "Start a call",
+    "text": "Start a call",
+    "xpath": "//*[contains(@text,'Start a call')]"
+  },
+  "main_window_back_navigation": {
+    "accessibility_id": "הקודם",
+    "text": "הקודם"
+  },
+  "main_window_exit_navigation": {
+    "accessibility_id": "סגור"
+  },
+  "QuickCallPanel.CloseButtonAccessibilityLabel": {
+    "accessibility_id": "Close calls"
+  },
+  "main_window_cancel_navigation": {
+    "accessibility_id": "ביטול",
+    "text": "ביטול"
+  },
+  "main_window_capture_flash": {
+    "accessibility_id": "מבזק",
+    "text": "מבזק"
+  },
+  "main_window_hightlights_tab": {
+    "accessibility_id": "No new highlights. Tab. 1 of 3.",
+    "text": "Highlights"
+  },
+  "main_pre_login_button": {
+    "accessibility_id": "היכנס",
+    "text": "היכנס"
+  },
+  "main_window_new_conversation_user_search": {
+    "accessibility_id": "חיפוש ב- Skype",
+    "text": "חיפוש ב- Skype"
+  },
+  "main_window_new_conversation_contact_search": {
+    "accessibility_id": "אנשים",
+    "text": "אנשים"
+  },
+  "main_window_new_conversation_contact_search_bar": {
+    "accessibility_id": "חיפוש אנשים וקבוצות",
+    "text": "חיפוש אנשים וקבוצות"
+  },
+  "SearchInputControl.ClearTextAccessibilityLabel": {
+    "accessibility_id": "Clear search text",
+    "text": ""
+  },
+  "main_window_new_conversation_chat_person_search": {
+    "accessibility_id": "חיפוש אנשים ובוטים",
+    "text": "חיפוש אנשים ובוטים"
+  },
+  "main_window_new_conversation_name_group": {
+    "accessibility_id": "Chat Name: null",
+    "text": "שם צ'אט"
+  },
+  "main_window_new_conversation_name_group_next": {
+    "accessibility_id": "הבא, מופעל",
+    "text": "הבא"
+  },
+  "my_highlights_confirm_upload_successful": {
+    "text": ".*minutes.*|.*minute ago.*|.*Just now.*"
+  },
+  "no_internet_pre_login": {
+    "text": "Unable to sign in, please check your internet connection and try again."
+  },
+  "profile_window_view_photo": {
+    "text": "הצג תמונה"
+  },
+  "profile_window_signout": {
+    "accessibility_id": "יציאה",
+    "text": "יציאה"
+  },
+  "profile_window_upload_photo": {
+    "text": "העלה תמונה"
+  },
+  "profile_window_remove_photo": {
+    "text": "הסר תמונה"
+  },
+  "send_feedback_window_include_user_data": {
+    "text": "כלול קבצי יומן וצילום מסך של האפליק'."
+  }
+}

@@ -1,0 +1,27 @@
+Total found by value, Total not found by value, Total not changed
+7,7,12
+
+Not found deatails
+sourceMappingKey,Property,Value
+main_username,command,"Email, phone, or Skype name"
+main_password,command,"Password"
+main_submit,accessibility_id,"Go"
+main_window_profile_button,accessibility_id,"My info, No new notifications."
+location_permission_popup,accessibility_id,"Turn On Location Services to Allow"
+location_permission_popup,Accessibility_id,"to Determine Your Location"
+settings_location_services,accessibility_id,"Location Services"
+
+Not changed deatails
+sourceMappingKey,Property,Value
+main_application,xpath,"//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]"
+login_window_next_button,xpath,"//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIAButton[contains(@label,'Next')]"
+login_window_sign_in_button,xpath,"//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIAButton[contains(@label,'Sign in')]"
+first_time_username,text,"email@example.com"
+first_time_username,xpath,"//*[@value='email@example.com']"
+main_window_new_conversation_name_group,command,".textFields()[0]"
+contact_window_search,command,".textFields()[0]"
+profile_window_my_profile,text,""
+profile_window_profile_picture,command,".scrollViews()[1].images()[1]"
+profile_window_empty_profile_picture,text,"?"
+capture_window_captured_picture_add_text_change_position,command,".staticTexts("""")"
+capture_window_captured_picture_add_text_change_position,text,""

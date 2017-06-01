@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"यहाँ एक संदेश लिखें\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "प्रोफ़ाइल साझा करें",
+    "accessibility_id": "प्रोफ़ाइल साझा करें"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"परेशान न करें\")).index(1)",
+    "text": "परेशान न करें"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"लोग और समूह खोजें|लोग और समूह खोजें\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"लोग और बॉट्स खोजें|लोग और बॉट्स खोजें\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"बॉट्स खोजें|Skype खोजें|आपके सवालों का जवाब देने, आपको महत्वपूर्ण बातें याद दिलाने और कई अन्य कामों के लिए Cortana को कुछ जानकारी लेने और उपयोग करने की अनुमति दें, जिसमें शामिल है:\n\nआपका वर्तमान और पहले के स्थान\n\nसंपर्क, कैलेंडर विवरण और संदेशों की सामग्री तथा लेनदेन का इतिहास, इंस्टेंट संदेश और ऐप्स\n\nखोज इतिहास और आपके उपकरण पर स्थित अन्य जानकारियाँ, जिनसे आपका अनुभव अधिक निजी बनाया जा सके|वेब पर खोजें|वेब पर खोजें|फाइलें खोजें|लोगों को खोजें|Skype खोजें|स्थान खोजें|लोग और बॉट्स खोजें|खोजें|लोग और समूह खोजें|लोगों को खोजें|Skype खोजें|खोजें|बॉट्स खोजें|लोगों को खोजें|लोग और बॉट्स खोजें|लोग और समूह खोजें\")",
+    "text": "खोजें"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"लोगों को खोजें|लोग और बॉट्स खोजें|लोग और समूह खोजें|लोगों को खोजें|लोगों को खोजें|लोग और बॉट्स खोजें|लोग और समूह खोजें\")",
+    "text": "लोगों को खोजें"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"बॉट्स खोजें|Skype खोजें|आपके सवालों का जवाब देने, आपको महत्वपूर्ण बातें याद दिलाने और कई अन्य कामों के लिए Cortana को कुछ जानकारी लेने और उपयोग करने की अनुमति दें, जिसमें शामिल है:\n\nआपका वर्तमान और पहले के स्थान\n\nसंपर्क, कैलेंडर विवरण और संदेशों की सामग्री तथा लेनदेन का इतिहास, इंस्टेंट संदेश और ऐप्स\n\nखोज इतिहास और आपके उपकरण पर स्थित अन्य जानकारियाँ, जिनसे आपका अनुभव अधिक निजी बनाया जा सके|वेब पर खोजें|वेब पर खोजें|फाइलें खोजें|लोगों को खोजें|Skype खोजें|स्थान खोजें|लोग और बॉट्स खोजें|खोजें|लोग और समूह खोजें|लोगों को खोजें|Skype खोजें|खोजें|बॉट्स खोजें|लोगों को खोजें|लोग और बॉट्स खोजें|लोग और समूह खोजें\")",
+    "text": "खोजें"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "सेटिंग्स"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"लॉग आउट\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"इसके बारे में\")",
+    "text": "इसके बारे में"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} मिनट, समय सीमा समाप्त {expireDate}|Cortana सेवा से संपर्क विफल रहा. कृपया कुछ मिनटों में पुन: प्रयास करें.|{hours}घं {minutes}मि {seconds}से|{hours}घं {minutes}मि|{minutes}मि|{minutes}मि {seconds}से|{count} मिनट|{count, plural, =1{1 मिनट पहले} other{# मिनट पहले}}|{minutes}मिनट|{count, plural, =1{1 मिनट पहले} other{# मिनट पहले}}|{count, plural, =1{1 मिनट पहले} other{# मिनट पहले}}\")",
+    "text": "{minutes} मिनट, समय सीमा समाप्त {expireDate}|Cortana सेवा से संपर्क विफल रहा. कृपया कुछ मिनटों में पुन: प्रयास करें.|{hours}घं {minutes}मि {seconds}से|{hours}घं {minutes}मि|{minutes}मि|{minutes}मि {seconds}से|{count} मिनट|{count, plural, =1{1 मिनट पहले} other{# मिनट पहले}}|{minutes}मिनट|{count, plural, =1{1 मिनट पहले} other{# मिनट पहले}}|{count, plural, =1{1 मिनट पहले} other{# मिनट पहले}}"
+  }
+}

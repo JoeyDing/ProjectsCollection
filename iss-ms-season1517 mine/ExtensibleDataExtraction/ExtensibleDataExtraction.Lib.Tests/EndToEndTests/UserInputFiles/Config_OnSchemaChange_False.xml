@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensibleConfig>
+  <GlobalConfig>
+    <ConnectionString>
+       Server=skypeintl;Database=Test_ExtensibleDataExtraction;integrated security=True;MultipleActiveResultSets=True;App=ExtensibleDbContext; 
+    </ConnectionString> 
+        <Params>
+          <Param>
+            <Key>Token</Key> 
+            <Value>vwk7rvnwpmh74mmto2aidlepeixsarewkwwlaihtaode7ziwowna</Value> 
+      </Param> 
+          <Param>
+            <Key>RootAccount</Key> 
+            <Value>skype</Value> 
+      </Param> 
+    </Params> 
+  </GlobalConfig>
+  <ExtensibleItems>
+    <ExtensibleItem>
+      <ConnectionString>
+        Server=skypeintl;Database=Test_ExtensibleDataExtraction;integrated security=True;MultipleActiveResultSets=True;App=ExtensibleDbContext;
+      </ConnectionString>
+      <JsonEndPoint>
+        <RequestType>POST</RequestType>
+        <JsonQueryUrl>https://mixpanel.com/api/2.0/jql</JsonQueryUrl>
+        <HeaderContent>application/json</HeaderContent>
+        <FormContent>
+          <BodyFormContent>
+            <Key>script</Key>
+            <Value>
+              function main() {
+              return Events({
+              from_date: '2016-10-10',
+              to_date:   '2016-10-10'
+              })
+              .filter(function(event) {
+              return event.name == 'End Session' || event.name == 'Send Message' || 'Change App Settings' || event.name == 'Create New Event' || event.name == 'Open Attachments' || event.name == 'Add Member' || event.name == 'Start DM' || event.name == 'Start Group';
+              })
+              // for totals
+              // .groupBy(["properties.mp_country_code", "properties.Language", "properties.$model"], mixpanel.reducer.count())
+              // for uniques
+              .groupByUser(["properties.mp_country_code", "properties.Language", "properties.$model"], mixpanel.reducer.count())
+              .groupBy([function(item) { return item.key[1]; }, function(item) { return item.key[2]; }, function(item) { return item.key[3]; }], mixpanel.reducer.count())
+              .map(function(item) {
+              return {
+              'Country': item.key[0],
+              'Language': item.key[1],
+              'Model': item.key[2],
+              'UniqueCount': item.value,
+              }
+              })
+              }
+            </Value>
+          </BodyFormContent>
+        </FormContent>
+        <Token>5e7e771ff845e78fc7d2f942b15800ff</Token>
+        <TimeOut>100</TimeOut>
+      </JsonEndPoint>
+      <Mapping>
+        <SqlTableName>CountryLanguageCount</SqlTableName>
+        <CleanOnSchemaChange>false</CleanOnSchemaChange>
+        <SaveType>Incremental</SaveType>
+        <Fields>
+          <Field>
+            <JsonFieldName>Country</JsonFieldName>
+            <SqlColumnName>Country</SqlColumnName>
+            <IsIdentity>1</IsIdentity>
+          </Field>
+          <Field>
+            <JsonFieldName>Language</JsonFieldName>
+            <SqlColumnName>Language</SqlColumnName>
+            <IsIdentity>1</IsIdentity>
+          </Field>
+          <Field>
+            <JsonFieldName>Model</JsonFieldName>
+            <SqlColumnName>Model</SqlColumnName>
+            <IsIdentity>1</IsIdentity>
+          </Field>
+        </Fields>
+      </Mapping>
+    </ExtensibleItem>
+  </ExtensibleItems>
+</ExtensibleConfig>

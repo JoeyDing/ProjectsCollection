@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkypeVsoWorkItemsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EnablingSpecificationRevisions">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Rev" />
+    </Key>
+    <Property Name="ID" Type="bigint" Nullable="false" />
+    <Property Name="Rev" Type="int" Nullable="false" />
+    <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+    <Property Name="State" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tags" Type="nvarchar(max)" />
+    <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Changed Date" Type="datetime" />
+    <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Closed Date" Type="datetime" />
+    <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Created Date" Type="datetime" />
+    <Property Name="Due Date" Type="datetime" />
+    <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Resolved By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Resolved Date" Type="datetime" />
+    <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+    <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+    <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+    <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+    <Property Name="LocalizationImpact" Type="nvarchar" MaxLength="255" />
+    <Property Name="WorldReadinessImpact" Type="nvarchar" MaxLength="255" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Initiator" Type="nvarchar" MaxLength="255" />
+    <Property Name="Review Required" Type="nvarchar" MaxLength="255" />
+    <Property Name="Blocking" Type="nvarchar" MaxLength="255" />
+    <Property Name="Estimate Points" Type="nvarchar" MaxLength="255" />
+    <Property Name="Estimate TShirt" Type="nvarchar" MaxLength="255" />
+    <Property Name="Keywords" Type="nvarchar" MaxLength="255" />
+    <Property Name="Release" Type="nvarchar" MaxLength="255" />
+    <Property Name="Engineering Effort" Type="nvarchar" MaxLength="255" />
+    <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="EpicRevisions">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Rev" />
+    </Key>
+    <Property Name="ID" Type="bigint" Nullable="false" />
+    <Property Name="Rev" Type="int" Nullable="false" />
+    <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+    <Property Name="State" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tags" Type="nvarchar(max)" />
+    <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Changed Date" Type="datetime" />
+    <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Closed Date" Type="datetime" />
+    <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Created Date" Type="datetime" />
+    <Property Name="Due Date" Type="datetime" />
+    <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Resolved By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Resolved Date" Type="datetime" />
+    <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+    <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+    <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+    <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+    <Property Name="LocalizationImpact" Type="nvarchar" MaxLength="255" />
+    <Property Name="Swag" Type="int" />
+    <Property Name="WorldReadinessImpact" Type="nvarchar" MaxLength="255" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TaskRevisions">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Rev" />
+    </Key>
+    <Property Name="ID" Type="bigint" Nullable="false" />
+    <Property Name="Rev" Type="int" Nullable="false" />
+    <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+    <Property Name="State" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tags" Type="nvarchar(max)" />
+    <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Created Date" Type="datetime" />
+    <Property Name="Resolved By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Resolved Date" Type="datetime" />
+    <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Changed Date" Type="datetime" />
+    <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+    <Property Name="Closed Date" Type="datetime" />
+    <Property Name="Due Date" Type="datetime" />
+    <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+    <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+    <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+    <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+    <Property Name="LocalizationImpact" Type="nvarchar" MaxLength="255" />
+    <Property Name="WorldReadinessImpact" Type="nvarchar" MaxLength="255" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Initiator" Type="nvarchar" MaxLength="255" />
+    <Property Name="Estimate Points" Type="nvarchar" MaxLength="255" />
+    <Property Name="Estimate TShirt" Type="nvarchar" MaxLength="255" />
+    <Property Name="Original Estimate" Type="float" />
+    <Property Name="Completed Work" Type="float" />
+    <Property Name="Remaining Work" Type="float" />
+    <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="WorkItemLinks">
+    <Key>
+      <PropertyRef Name="Source ID" />
+      <PropertyRef Name="Target ID" />
+      <PropertyRef Name="Link Type" />
+      <PropertyRef Name="Is Active" />
+      <PropertyRef Name="Changed Date" />
+    </Key>
+    <Property Name="Source ID" Type="bigint" Nullable="false" />
+    <Property Name="Target ID" Type="bigint" Nullable="false" />
+    <Property Name="Link Type" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Is Active" Type="bit" Nullable="false" />
+    <Property Name="Changed Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SkypeVsoWorkItemsModelStoreContainer">
+    <EntitySet Name="EnablingSpecificationRevisions" EntityType="Self.EnablingSpecificationRevisions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EpicRevisions" EntityType="Self.EpicRevisions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskRevisions" EntityType="Self.TaskRevisions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkItemLinks" EntityType="Self.WorkItemLinks" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

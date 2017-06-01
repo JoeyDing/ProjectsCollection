@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch electron",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/main.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/electron/dist/electron.exe",         
+            "sourceMaps": true            
+        }
+    ]
+}

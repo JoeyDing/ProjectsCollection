@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EOLandProductsModelStoreContainer" CdmEntityContainer="EOLandProductsEntities">
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="EOLandProductsModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Product1" ColumnName="Product" />
+          <ScalarProperty Name="ProductGroupKey" ColumnName="ProductGroupKey" />
+          <ScalarProperty Name="ProductUserTypeKey" ColumnName="ProductUserTypeKey" />
+          <ScalarProperty Name="ProductStatusKey" ColumnName="ProductStatusKey" />
+          <ScalarProperty Name="ParentProjectKey" ColumnName="ParentProjectKey" />
+          <ScalarProperty Name="ProductTypeKey" ColumnName="ProductTypeKey" />
+          <ScalarProperty Name="FabricOnboardingProjectKey" ColumnName="FabricOnboardingProjectKey" />
+          <ScalarProperty Name="ProductStudioLink" ColumnName="ProductStudioLink" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

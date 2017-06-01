@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SkypeIntlPlanningPortfolio_CloneModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="MilestoneCategories">
+          <Key>
+            <PropertyRef Name="MilestoneCategoryKey" />
+          </Key>
+          <Property Name="MilestoneCategoryKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Milestone Category Name" Type="nvarchar" MaxLength="200" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Products_New">
+          <Key>
+            <PropertyRef Name="ProductKey" />
+          </Key>
+          <Property Name="ProductKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Product Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="StatusKey" Type="int" />
+          <Property Name="PVoiceKey" Type="int" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="ProductFamilyKey" Type="int" />
+          <Property Name="FabricTenantKey" Type="int" />
+          <Property Name="ISS Ops Driver" Type="nvarchar" MaxLength="50" />
+          <Property Name="OwnerLocationKey" Type="int" />
+          <Property Name="ReleaseCadenceKey" Type="int" />
+          <Property Name="IPE Owner" Type="nvarchar" MaxLength="50" />
+          <Property Name="Test Owner" Type="nvarchar" MaxLength="50" />
+          <Property Name="Product Owner" Type="nvarchar" MaxLength="50" />
+          <Property Name="LocBuildProcessKey" Type="int" />
+          <Property Name="LocProcessKey" Type="int" />
+          <Property Name="GB Impacting" Type="bit" />
+          <Property Name="French Loc Required" Type="bit" />
+          <Property Name="Privacy Statement Required" Type="bit" />
+          <Property Name="Voice Prompt Loc Required" Type="bit" />
+          <Property Name="Telemetry Data available" Type="bit" />
+          <Property Name="Pseudo Testing" Type="bit" />
+          <Property Name="LCG File Path" Type="nvarchar(max)" />
+          <Property Name="LCT File Path" Type="nvarchar(max)" />
+          <Property Name="Localization VSO Path" Type="nvarchar(max)" />
+          <Property Name="Main Code Branch" Type="nvarchar(max)" />
+          <Property Name="Localization Code Branch" Type="nvarchar(max)" />
+          <Property Name="Loc Team OneNote" Type="nvarchar(max)" />
+          <Property Name="Core PO" Type="nvarchar(max)" />
+          <Property Name="Core Team SharePoint" Type="nvarchar(max)" />
+          <Property Name="Certification Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Cert Location" Type="nvarchar(max)" />
+          <Property Name="Last Release Certified" Type="nvarchar(max)" />
+          <Property Name="ContentPublishedToKey" Type="int" />
+          <Property Name="Release build Location" Type="nvarchar(max)" />
+          <Property Name="Core VSO Backlog URL" Type="nvarchar(max)" />
+          <Property Name="LanguageSettingsKey" Type="int" />
+          <Property Name="CodeReviewUsedKey" Type="int" />
+          <Property Name="BuildSysKey" Type="int" />
+          <Property Name="Localization VSO URL" Type="nvarchar(max)" />
+          <Property Name="Telemetry Contact" Type="nvarchar(max)" />
+          <Property Name="Core Engineering Contact" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Releases">
+          <Key>
+            <PropertyRef Name="VSO ID" />
+          </Key>
+          <Property Name="ProductKey" Type="int" Nullable="false" />
+          <Property Name="VSO ID" Type="int" Nullable="false" />
+          <Property Name="VSO Title" Type="nvarchar" MaxLength="2000" Nullable="false" />
+          <Property Name="VSO Type" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="VSO Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="VSO LocStartDate" Type="datetime" Nullable="false" />
+          <Property Name="VSO DueDate" Type="datetime" Nullable="false" />
+          <Property Name="VSO Assigned To" Type="nvarchar" MaxLength="200" />
+          <Property Name="VSO Family" Type="nvarchar" MaxLength="200" />
+          <Property Name="VSO IterationPath" Type="nvarchar" MaxLength="2000" Nullable="false" />
+          <Property Name="VSO AreaPath" Type="nvarchar" MaxLength="2000" Nullable="false" />
+          <Property Name="VSO ChangedDate" Type="datetime" Nullable="false" />
+          <Property Name="VSO ProductName" Type="nvarchar" MaxLength="200" />
+          <Property Name="VSO Url" Type="nvarchar" MaxLength="2000" Nullable="false" />
+          <Property Name="Deleted" Type="bit" Nullable="false" />
+          <Property Name="VSO Tags" Type="nvarchar" MaxLength="2000" />
+        </EntityType>
+        <EntityType Name="TestSchedules">
+          <Key>
+            <PropertyRef Name="TestScheduleKey" />
+          </Key>
+          <Property Name="ProductKey" Type="int" Nullable="false" />
+          <Property Name="ReleaseKey" Type="int" Nullable="false" />
+          <Property Name="TestScheduleKey" Type="int" Nullable="false" />
+          <Property Name="TestSchedule Name" Type="nvarchar" MaxLength="1000" />
+          <Property Name="TestSchedule Start Date" Type="datetime" />
+          <Property Name="TestSchedule End Date" Type="datetime" />
+          <Property Name="Vso Web Url" Type="nvarchar" MaxLength="1000" />
+          <Property Name="AssignedResources" Type="int" />
+          <Property Name="MilestoneCategoryKey" Type="int" />
+          <Property Name="Deleted" Type="bit" Nullable="false" />
+          <Property Name="VSO ChangedDate" Type="datetime" />
+        </EntityType>
+        <Association Name="FK_Releases_Products">
+          <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+          <End Role="Releases" Type="Self.Releases" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products_New">
+              <PropertyRef Name="ProductKey" />
+            </Principal>
+            <Dependent Role="Releases">
+              <PropertyRef Name="ProductKey" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestSchedule_Releases">
+          <End Role="Releases" Type="Self.Releases" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="TestSchedules" Type="Self.TestSchedules" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Releases">
+              <PropertyRef Name="VSO ID" />
+            </Principal>
+            <Dependent Role="TestSchedules">
+              <PropertyRef Name="ReleaseKey" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestSchedules_MilestoneCategories">
+          <End Role="MilestoneCategories" Type="Self.MilestoneCategories" Multiplicity="0..1" />
+          <End Role="TestSchedules" Type="Self.TestSchedules" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MilestoneCategories">
+              <PropertyRef Name="MilestoneCategoryKey" />
+            </Principal>
+            <Dependent Role="TestSchedules">
+              <PropertyRef Name="MilestoneCategoryKey" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SkypeIntlPlanningPortfolio_CloneModelStoreContainer">
+          <EntitySet Name="MilestoneCategories" EntityType="Self.MilestoneCategories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Products_New" EntityType="Self.Products_New" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Releases" EntityType="Self.Releases" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TestSchedules" EntityType="Self.TestSchedules" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Releases_Products" Association="Self.FK_Releases_Products">
+            <End Role="Products_New" EntitySet="Products_New" />
+            <End Role="Releases" EntitySet="Releases" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestSchedule_Releases" Association="Self.FK_TestSchedule_Releases">
+            <End Role="Releases" EntitySet="Releases" />
+            <End Role="TestSchedules" EntitySet="TestSchedules" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestSchedules_MilestoneCategories" Association="Self.FK_TestSchedules_MilestoneCategories">
+            <End Role="MilestoneCategories" EntitySet="MilestoneCategories" />
+            <End Role="TestSchedules" EntitySet="TestSchedules" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SkypeIntlPortfolio.SyncTool.Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SkypeIntlPortfolioContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="MilestoneCategories" EntityType="SkypeIntlPortfolio.SyncTool.Model.MilestoneCategory" />
+          <EntitySet Name="TestSchedules" EntityType="SkypeIntlPortfolio.SyncTool.Model.TestSchedule" />
+          <AssociationSet Name="FK_TestSchedules_MilestoneCategories" Association="SkypeIntlPortfolio.SyncTool.Model.FK_TestSchedules_MilestoneCategories">
+            <End Role="MilestoneCategory" EntitySet="MilestoneCategories" />
+            <End Role="TestSchedule" EntitySet="TestSchedules" />
+          </AssociationSet>
+          <EntitySet Name="Releases" EntityType="SkypeIntlPortfolio.SyncTool.Model.Release" />
+          <AssociationSet Name="FK_TestSchedule_Releases" Association="SkypeIntlPortfolio.SyncTool.Model.FK_TestSchedule_Releases">
+            <End Role="Release" EntitySet="Releases" />
+            <End Role="TestSchedule" EntitySet="TestSchedules" />
+          </AssociationSet>
+          <EntitySet Name="Products_New" EntityType="SkypeIntlPortfolio.SyncTool.Model.Products_New" />
+          <AssociationSet Name="FK_Releases_Products" Association="SkypeIntlPortfolio.SyncTool.Model.FK_Releases_Products">
+            <End Role="Products_New" EntitySet="Products_New" />
+            <End Role="Release" EntitySet="Releases" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="MilestoneCategory">
+          <Key>
+            <PropertyRef Name="MilestoneCategoryKey" />
+          </Key>
+          <Property Name="MilestoneCategoryKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Milestone_Category_Name" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="TestSchedules" Relationship="SkypeIntlPortfolio.SyncTool.Model.FK_TestSchedules_MilestoneCategories" FromRole="MilestoneCategory" ToRole="TestSchedule" />
+        </EntityType>
+        <EntityType Name="TestSchedule">
+          <Key>
+            <PropertyRef Name="TestScheduleKey" />
+          </Key>
+          <Property Name="ProductKey" Type="Int32" Nullable="false" />
+          <Property Name="ReleaseKey" Type="Int32" Nullable="false" />
+          <Property Name="TestScheduleKey" Type="Int32" Nullable="false" />
+          <Property Name="TestSchedule_Name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="TestSchedule_Start_Date" Type="DateTime" Precision="3" />
+          <Property Name="TestSchedule_End_Date" Type="DateTime" Precision="3" />
+          <Property Name="Vso_Web_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="AssignedResources" Type="Int32" />
+          <Property Name="MilestoneCategoryKey" Type="Int32" />
+          <Property Name="Deleted" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="MilestoneCategory" Relationship="SkypeIntlPortfolio.SyncTool.Model.FK_TestSchedules_MilestoneCategories" FromRole="TestSchedule" ToRole="MilestoneCategory" />
+          <Property Name="VSO_ChangedDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Release" Relationship="SkypeIntlPortfolio.SyncTool.Model.FK_TestSchedule_Releases" FromRole="TestSchedule" ToRole="Release" />
+        </EntityType>
+        <Association Name="FK_TestSchedules_MilestoneCategories">
+          <End Type="SkypeIntlPortfolio.SyncTool.Model.MilestoneCategory" Role="MilestoneCategory" Multiplicity="0..1" />
+          <End Type="SkypeIntlPortfolio.SyncTool.Model.TestSchedule" Role="TestSchedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MilestoneCategory">
+              <PropertyRef Name="MilestoneCategoryKey" />
+            </Principal>
+            <Dependent Role="TestSchedule">
+              <PropertyRef Name="MilestoneCategoryKey" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Release">
+          <Key>
+            <PropertyRef Name="VSO_ID" />
+          </Key>
+          <Property Name="ProductKey" Type="Int32" Nullable="false" />
+          <Property Name="VSO_ID" Type="Int32" Nullable="false" />
+          <Property Name="VSO_Title" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+          <Property Name="VSO_Type" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="VSO_Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VSO_LocStartDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="VSO_DueDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="VSO_Assigned_To" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="VSO_Family" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="VSO_IterationPath" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+          <Property Name="VSO_AreaPath" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+          <Property Name="VSO_ChangedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="VSO_ProductName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="VSO_Url" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+          <Property Name="Deleted" Type="Boolean" Nullable="false" />
+          <Property Name="VSO_Tags" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="TestSchedules" Relationship="SkypeIntlPortfolio.SyncTool.Model.FK_TestSchedule_Releases" FromRole="Release" ToRole="TestSchedule" />
+          <NavigationProperty Name="Products_New" Relationship="SkypeIntlPortfolio.SyncTool.Model.FK_Releases_Products" FromRole="Release" ToRole="Products_New" />
+        </EntityType>
+        <Association Name="FK_TestSchedule_Releases">
+          <End Type="SkypeIntlPortfolio.SyncTool.Model.Release" Role="Release" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="SkypeIntlPortfolio.SyncTool.Model.TestSchedule" Role="TestSchedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Release">
+              <PropertyRef Name="VSO_ID" />
+            </Principal>
+            <Dependent Role="TestSchedule">
+              <PropertyRef Name="ReleaseKey" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Products_New">
+          <Key>
+            <PropertyRef Name="ProductKey" />
+          </Key>
+          <Property Name="ProductKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Product_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="StatusKey" Type="Int32" />
+          <Property Name="PVoiceKey" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ProductFamilyKey" Type="Int32" />
+          <Property Name="FabricTenantKey" Type="Int32" />
+          <Property Name="ISS_Ops_Driver" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OwnerLocationKey" Type="Int32" />
+          <Property Name="ReleaseCadenceKey" Type="Int32" />
+          <Property Name="IPE_Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Test_Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Product_Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LocBuildProcessKey" Type="Int32" />
+          <Property Name="LocProcessKey" Type="Int32" />
+          <Property Name="GB_Impacting" Type="Boolean" />
+          <Property Name="French_Loc_Required" Type="Boolean" />
+          <Property Name="Privacy_Statement_Required" Type="Boolean" />
+          <Property Name="Voice_Prompt_Loc_Required" Type="Boolean" />
+          <Property Name="Telemetry_Data_available" Type="Boolean" />
+          <Property Name="Pseudo_Testing" Type="Boolean" />
+          <Property Name="LCG_File_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LCT_File_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Localization_VSO_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Main_Code_Branch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Localization_Code_Branch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Loc_Team_OneNote" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Core_PO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Team_SharePoint" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Certification_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Cert_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Last_Release_Certified" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ContentPublishedToKey" Type="Int32" />
+          <Property Name="Release_build_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Core_VSO_Backlog_URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LanguageSettingsKey" Type="Int32" />
+          <Property Name="CodeReviewUsedKey" Type="Int32" />
+          <Property Name="BuildSysKey" Type="Int32" />
+          <Property Name="Localization_VSO_URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Telemetry_Contact" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Engineering_Contact" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Releases" Relationship="SkypeIntlPortfolio.SyncTool.Model.FK_Releases_Products" FromRole="Products_New" ToRole="Release" />
+        </EntityType>
+        <Association Name="FK_Releases_Products">
+          <End Type="SkypeIntlPortfolio.SyncTool.Model.Products_New" Role="Products_New" Multiplicity="1" />
+          <End Type="SkypeIntlPortfolio.SyncTool.Model.Release" Role="Release" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products_New">
+              <PropertyRef Name="ProductKey" />
+            </Principal>
+            <Dependent Role="Release">
+              <PropertyRef Name="ProductKey" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SkypeIntlPlanningPortfolio_CloneModelStoreContainer" CdmEntityContainer="SkypeIntlPortfolioContext">
+          <EntitySetMapping Name="MilestoneCategories">
+            <EntityTypeMapping TypeName="SkypeIntlPortfolio.SyncTool.Model.MilestoneCategory">
+              <MappingFragment StoreEntitySet="MilestoneCategories">
+                <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+                <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TestSchedules">
+            <EntityTypeMapping TypeName="SkypeIntlPortfolio.SyncTool.Model.TestSchedule">
+              <MappingFragment StoreEntitySet="TestSchedules">
+                <ScalarProperty Name="VSO_ChangedDate" ColumnName="VSO ChangedDate" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+                <ScalarProperty Name="AssignedResources" ColumnName="AssignedResources" />
+                <ScalarProperty Name="Vso_Web_Url" ColumnName="Vso Web Url" />
+                <ScalarProperty Name="TestSchedule_End_Date" ColumnName="TestSchedule End Date" />
+                <ScalarProperty Name="TestSchedule_Start_Date" ColumnName="TestSchedule Start Date" />
+                <ScalarProperty Name="TestSchedule_Name" ColumnName="TestSchedule Name" />
+                <ScalarProperty Name="TestScheduleKey" ColumnName="TestScheduleKey" />
+                <ScalarProperty Name="ReleaseKey" ColumnName="ReleaseKey" />
+                <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Releases">
+            <EntityTypeMapping TypeName="SkypeIntlPortfolio.SyncTool.Model.Release">
+              <MappingFragment StoreEntitySet="Releases">
+                <ScalarProperty Name="VSO_Tags" ColumnName="VSO Tags" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="VSO_Url" ColumnName="VSO Url" />
+                <ScalarProperty Name="VSO_ProductName" ColumnName="VSO ProductName" />
+                <ScalarProperty Name="VSO_ChangedDate" ColumnName="VSO ChangedDate" />
+                <ScalarProperty Name="VSO_AreaPath" ColumnName="VSO AreaPath" />
+                <ScalarProperty Name="VSO_IterationPath" ColumnName="VSO IterationPath" />
+                <ScalarProperty Name="VSO_Family" ColumnName="VSO Family" />
+                <ScalarProperty Name="VSO_Assigned_To" ColumnName="VSO Assigned To" />
+                <ScalarProperty Name="VSO_DueDate" ColumnName="VSO DueDate" />
+                <ScalarProperty Name="VSO_LocStartDate" ColumnName="VSO LocStartDate" />
+                <ScalarProperty Name="VSO_Status" ColumnName="VSO Status" />
+                <ScalarProperty Name="VSO_Type" ColumnName="VSO Type" />
+                <ScalarProperty Name="VSO_Title" ColumnName="VSO Title" />
+                <ScalarProperty Name="VSO_ID" ColumnName="VSO ID" />
+                <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products_New">
+            <EntityTypeMapping TypeName="SkypeIntlPortfolio.SyncTool.Model.Products_New">
+              <MappingFragment StoreEntitySet="Products_New">
+                <ScalarProperty Name="Core_Engineering_Contact" ColumnName="Core Engineering Contact" />
+                <ScalarProperty Name="Telemetry_Contact" ColumnName="Telemetry Contact" />
+                <ScalarProperty Name="Localization_VSO_URL" ColumnName="Localization VSO URL" />
+                <ScalarProperty Name="BuildSysKey" ColumnName="BuildSysKey" />
+                <ScalarProperty Name="CodeReviewUsedKey" ColumnName="CodeReviewUsedKey" />
+                <ScalarProperty Name="LanguageSettingsKey" ColumnName="LanguageSettingsKey" />
+                <ScalarProperty Name="Core_VSO_Backlog_URL" ColumnName="Core VSO Backlog URL" />
+                <ScalarProperty Name="Release_build_Location" ColumnName="Release build Location" />
+                <ScalarProperty Name="ContentPublishedToKey" ColumnName="ContentPublishedToKey" />
+                <ScalarProperty Name="Last_Release_Certified" ColumnName="Last Release Certified" />
+                <ScalarProperty Name="Cert_Location" ColumnName="Cert Location" />
+                <ScalarProperty Name="Certification_Type" ColumnName="Certification Type" />
+                <ScalarProperty Name="Core_Team_SharePoint" ColumnName="Core Team SharePoint" />
+                <ScalarProperty Name="Core_PO" ColumnName="Core PO" />
+                <ScalarProperty Name="Loc_Team_OneNote" ColumnName="Loc Team OneNote" />
+                <ScalarProperty Name="Localization_Code_Branch" ColumnName="Localization Code Branch" />
+                <ScalarProperty Name="Main_Code_Branch" ColumnName="Main Code Branch" />
+                <ScalarProperty Name="Localization_VSO_Path" ColumnName="Localization VSO Path" />
+                <ScalarProperty Name="LCT_File_Path" ColumnName="LCT File Path" />
+                <ScalarProperty Name="LCG_File_Path" ColumnName="LCG File Path" />
+                <ScalarProperty Name="Pseudo_Testing" ColumnName="Pseudo Testing" />
+                <ScalarProperty Name="Telemetry_Data_available" ColumnName="Telemetry Data available" />
+                <ScalarProperty Name="Voice_Prompt_Loc_Required" ColumnName="Voice Prompt Loc Required" />
+                <ScalarProperty Name="Privacy_Statement_Required" ColumnName="Privacy Statement Required" />
+                <ScalarProperty Name="French_Loc_Required" ColumnName="French Loc Required" />
+                <ScalarProperty Name="GB_Impacting" ColumnName="GB Impacting" />
+                <ScalarProperty Name="LocProcessKey" ColumnName="LocProcessKey" />
+                <ScalarProperty Name="LocBuildProcessKey" ColumnName="LocBuildProcessKey" />
+                <ScalarProperty Name="Product_Owner" ColumnName="Product Owner" />
+                <ScalarProperty Name="Test_Owner" ColumnName="Test Owner" />
+                <ScalarProperty Name="IPE_Owner" ColumnName="IPE Owner" />
+                <ScalarProperty Name="ReleaseCadenceKey" ColumnName="ReleaseCadenceKey" />
+                <ScalarProperty Name="OwnerLocationKey" ColumnName="OwnerLocationKey" />
+                <ScalarProperty Name="ISS_Ops_Driver" ColumnName="ISS Ops Driver" />
+                <ScalarProperty Name="FabricTenantKey" ColumnName="FabricTenantKey" />
+                <ScalarProperty Name="ProductFamilyKey" ColumnName="ProductFamilyKey" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="PVoiceKey" ColumnName="PVoiceKey" />
+                <ScalarProperty Name="StatusKey" ColumnName="StatusKey" />
+                <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+                <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

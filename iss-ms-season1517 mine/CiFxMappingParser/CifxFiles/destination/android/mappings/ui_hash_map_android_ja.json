@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"ここにメッセージを入力\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "プロファイルを共有",
+    "accessibility_id": "プロファイルを共有"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"取り込み中\")).index(1)",
+    "text": "取り込み中"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"ユーザーとグループを検索|ユーザーとグループを検索\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"ユーザーとボットを検索|ユーザーとボットを検索\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"ボットを検索|Skype を検索|ご質問に答え、何が重要かなどの情報を思い出していただくために、いくつか情報が必要です。Cortana に以下のような情報を収集および使用させてください:\n\n場所と場所の履歴\n\n連絡先、予定表の詳細、メッセージ、インスタント メッセージ、およびアプリの内容と通信履歴\n\nあなたの体験をより身近なものにするための検索履歴やその他の情報|Web を検索|Web を検索|ファイルを検索する|ユーザーを検索|Skype を検索|場所の検索|ユーザーとボットを検索|検索|ユーザーとグループを検索|ユーザーを検索|Skype を検索|検索|ボットを検索|ユーザーを検索|ユーザーとボットを検索|ユーザーとグループを検索\")",
+    "text": "検索"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"ユーザーを検索|ユーザーとボットを検索|ユーザーとグループを検索|ユーザーを検索|ユーザーを検索|ユーザーとボットを検索|ユーザーとグループを検索\")",
+    "text": "ユーザーを検索"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"ボットを検索|Skype を検索|ご質問に答え、何が重要かなどの情報を思い出していただくために、いくつか情報が必要です。Cortana に以下のような情報を収集および使用させてください:\n\n場所と場所の履歴\n\n連絡先、予定表の詳細、メッセージ、インスタント メッセージ、およびアプリの内容と通信履歴\n\nあなたの体験をより身近なものにするための検索履歴やその他の情報|Web を検索|Web を検索|ファイルを検索する|ユーザーを検索|Skype を検索|場所の検索|ユーザーとボットを検索|検索|ユーザーとグループを検索|ユーザーを検索|Skype を検索|検索|ボットを検索|ユーザーを検索|ユーザーとボットを検索|ユーザーとグループを検索\")",
+    "text": "検索"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "設定"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"ログアウト\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"バージョン情報\")",
+    "text": "バージョン情報"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} 分、有効期限: {expireDate}|Cortana のサービスに接続できませんでした。数分してからやり直してください。|{hours} 時間 {minutes} 分 {seconds} 秒|{hours} 時間 {minutes} 分|{minutes} 分|{minutes} 分 {seconds} 秒|{count} 分|{count, plural, =1{1 分前} other{# 分前}}|{minutes} 分|{count, plural, =1{1 分前} other{# 分前}}|{count, plural, =1{1 分前} other{# 分前}}\")",
+    "text": "{minutes} 分、有効期限: {expireDate}|Cortana のサービスに接続できませんでした。数分してからやり直してください。|{hours} 時間 {minutes} 分 {seconds} 秒|{hours} 時間 {minutes} 分|{minutes} 分|{minutes} 分 {seconds} 秒|{count} 分|{count, plural, =1{1 分前} other{# 分前}}|{minutes} 分|{count, plural, =1{1 分前} other{# 分前}}|{count, plural, =1{1 分前} other{# 分前}}"
+  }
+}

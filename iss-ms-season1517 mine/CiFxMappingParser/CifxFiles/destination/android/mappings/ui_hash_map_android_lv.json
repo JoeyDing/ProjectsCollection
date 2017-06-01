@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Raksti ziņu šeit\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Kopīgot profilu",
+    "accessibility_id": "Kopīgot profilu"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Netraucēt\")).index(1)",
+    "text": "Netraucēt"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Meklēt personas un grupas|Meklēt personas un grupas\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Meklēt personas un botus|Meklēt personas un botus\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Meklēt botus|Meklēt pakalpojumā Skype|Lai atbildētu uz taviem jautājumiem, palīdzētu atcerēties svarīgāko un paveiktu daudz ko citu, ļaujiet pakalpojumam Cortana apkopot un izmantot tādu informāciju kā tavu:\n\natrašanās vietas un atrašanās vietas vēstures informāciju\n\nKontaktpersonu informāciju, kalendāra informāciju un ziņojumu, tērzēšanas ziņu, un programmu satura un saziņas vēstures informāciju\n\nMeklēšanas vēsturi un cita veida informāciju, kas pieejama tavā ierīcē, un padariet savu pieredzi personalizētāku|Meklēt tīmeklī|Meklēt tīmeklī|Meklēt failus|Meklēt personas|Meklēt pakalpojumā Skype|Meklēt vietas|Meklēt personas un botus|Meklēt|Meklēt personas un grupas|Meklēt personas|Meklēt pakalpojumā Skype|Meklēt|Meklēt botus|Meklēt personas|Meklēt personas un botus|Meklēt personas un grupas\")",
+    "text": "Meklēt"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Meklēt personas|Meklēt personas un botus|Meklēt personas un grupas|Meklēt personas|Meklēt personas|Meklēt personas un botus|Meklēt personas un grupas\")",
+    "text": "Meklēt personas"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Meklēt botus|Meklēt pakalpojumā Skype|Lai atbildētu uz taviem jautājumiem, palīdzētu atcerēties svarīgāko un paveiktu daudz ko citu, ļaujiet pakalpojumam Cortana apkopot un izmantot tādu informāciju kā tavu:\n\natrašanās vietas un atrašanās vietas vēstures informāciju\n\nKontaktpersonu informāciju, kalendāra informāciju un ziņojumu, tērzēšanas ziņu, un programmu satura un saziņas vēstures informāciju\n\nMeklēšanas vēsturi un cita veida informāciju, kas pieejama tavā ierīcē, un padariet savu pieredzi personalizētāku|Meklēt tīmeklī|Meklēt tīmeklī|Meklēt failus|Meklēt personas|Meklēt pakalpojumā Skype|Meklēt vietas|Meklēt personas un botus|Meklēt|Meklēt personas un grupas|Meklēt personas|Meklēt pakalpojumā Skype|Meklēt|Meklēt botus|Meklēt personas|Meklēt personas un botus|Meklēt personas un grupas\")",
+    "text": "Meklēt"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Iestatījumi"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Izrakstīties\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Par\")",
+    "text": "Par"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} min, beidzas {expireDate}|Neizdevās sazināties ar pakalpojumu Cortana. Lūdzu, mēģiniet vēlreiz pēc dažām minūtēm.|{hours} h {minutes} min {seconds} s|{hours} h {minutes} min|{minutes} min|{minutes} min {seconds} s|{count} minūtes(ēm)|{count, plural, =1{Pirms vienas minūtes} zero{Pirms # minūtēm} one{Pirms # minūtes} other{Pirms # minūtēm}}|{minutes}min|{count, plural, =1{Pirms vienas minūtes} zero{Pirms # minūtēm} one{Pirms # minūtes} other{Pirms # minūtēm}}|{count, plural, =1{Pirms vienas minūtes} zero{Pirms # minūtēm} one{Pirms # minūtes} other{Pirms # minūtēm}}\")",
+    "text": "{minutes} min, beidzas {expireDate}|Neizdevās sazināties ar pakalpojumu Cortana. Lūdzu, mēģiniet vēlreiz pēc dažām minūtēm.|{hours} h {minutes} min {seconds} s|{hours} h {minutes} min|{minutes} min|{minutes} min {seconds} s|{count} minūtes(ēm)|{count, plural, =1{Pirms vienas minūtes} zero{Pirms # minūtēm} one{Pirms # minūtes} other{Pirms # minūtēm}}|{minutes}min|{count, plural, =1{Pirms vienas minūtes} zero{Pirms # minūtēm} one{Pirms # minūtes} other{Pirms # minūtēm}}|{count, plural, =1{Pirms vienas minūtes} zero{Pirms # minūtēm} one{Pirms # minūtes} other{Pirms # minūtēm}}"
+  }
+}

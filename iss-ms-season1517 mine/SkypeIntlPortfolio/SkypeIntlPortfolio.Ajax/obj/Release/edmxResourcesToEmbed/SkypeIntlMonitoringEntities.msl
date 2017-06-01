@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SkypeIntlMonitoringModelStoreContainer" CdmEntityContainer="SkypeIntlMonitoringEntities">
+    <EntitySetMapping Name="vw_ProjectBuildInfo">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.vw_ProjectBuildInfo">
+        <MappingFragment StoreEntitySet="vw_ProjectBuildInfo">
+          <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+          <ScalarProperty Name="IsVisible" ColumnName="IsVisible" />
+          <ScalarProperty Name="PDLinks" ColumnName="PDLinks" />
+          <ScalarProperty Name="PDName" ColumnName="PDName" />
+          <ScalarProperty Name="BranchIdentity" ColumnName="BranchIdentity" />
+          <ScalarProperty Name="BuildVersion" ColumnName="BuildVersion" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_ProjectFamilyInfo">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.vw_ProjectFamilyInfo">
+        <MappingFragment StoreEntitySet="vw_ProjectFamilyInfo">
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

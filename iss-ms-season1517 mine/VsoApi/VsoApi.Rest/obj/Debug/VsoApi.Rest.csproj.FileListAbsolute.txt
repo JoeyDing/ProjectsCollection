@@ -1,0 +1,10 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\bin\Debug\VsoApi.Rest.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\bin\Debug\VsoApi.Rest.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\obj\Debug\VsoApi.Rest.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\obj\Debug\VsoApi.Rest.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\obj\Debug\VsoApi.Rest.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\bin\Debug\VsoApi.Rest.dll.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoApi\VsoApi.Rest\bin\Debug\System.Net.Http.Formatting.xml

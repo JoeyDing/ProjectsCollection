@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="oResourcesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'oResources.dbo.vw_ProjectBuildInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vw_ProjectBuildInfo">
+          <Key>
+            <PropertyRef Name="OfficeBuildID" />
+            <PropertyRef Name="BuildVersion" />
+            <PropertyRef Name="BranchID" />
+            <PropertyRef Name="BranchIdentity" />
+            <PropertyRef Name="ProjectID" />
+          </Key>
+          <Property Name="OfficeBuildID" Type="int" Nullable="false" />
+          <Property Name="BuildVersion" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="ProcessedDate" Type="datetime" />
+          <Property Name="ProcessedByAccount" Type="nvarchar" MaxLength="40" />
+          <Property Name="BranchID" Type="int" Nullable="false" />
+          <Property Name="BuildNumberLong" Type="bigint" />
+          <Property Name="BranchIdentity" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ProjectID" Type="int" Nullable="false" />
+          <Property Name="ProjectName" Type="nvarchar" MaxLength="150" />
+        </EntityType>
+        <EntityContainer Name="oResourcesModelStoreContainer">
+          <EntitySet Name="vw_ProjectBuildInfo" EntityType="Self.vw_ProjectBuildInfo" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vw_ProjectBuildInfo].[OfficeBuildID] AS [OfficeBuildID], 
+    [vw_ProjectBuildInfo].[BuildVersion] AS [BuildVersion], 
+    [vw_ProjectBuildInfo].[ProcessedDate] AS [ProcessedDate], 
+    [vw_ProjectBuildInfo].[ProcessedByAccount] AS [ProcessedByAccount], 
+    [vw_ProjectBuildInfo].[BranchID] AS [BranchID], 
+    [vw_ProjectBuildInfo].[BuildNumberLong] AS [BuildNumberLong], 
+    [vw_ProjectBuildInfo].[BranchIdentity] AS [BranchIdentity], 
+    [vw_ProjectBuildInfo].[ProjectID] AS [ProjectID], 
+    [vw_ProjectBuildInfo].[ProjectName] AS [ProjectName]
+    FROM [dbo].[vw_ProjectBuildInfo] AS [vw_ProjectBuildInfo]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="oResourcesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="vw_ProjectBuildInfo">
+          <Key>
+            <PropertyRef Name="OfficeBuildID" />
+            <PropertyRef Name="BuildVersion" />
+            <PropertyRef Name="BranchID" />
+            <PropertyRef Name="BranchIdentity" />
+            <PropertyRef Name="ProjectID" />
+          </Key>
+          <Property Name="OfficeBuildID" Type="Int32" Nullable="false" />
+          <Property Name="BuildVersion" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProcessedDate" Type="DateTime" Precision="3" />
+          <Property Name="ProcessedByAccount" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="BranchID" Type="Int32" Nullable="false" />
+          <Property Name="BuildNumberLong" Type="Int64" />
+          <Property Name="BranchIdentity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProjectID" Type="Int32" Nullable="false" />
+          <Property Name="ProjectName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="oResourcesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="vw_ProjectBuildInfo" EntityType="Self.vw_ProjectBuildInfo" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="oResourcesModelStoreContainer" CdmEntityContainer="oResourcesEntities">
+          <EntitySetMapping Name="vw_ProjectBuildInfo">
+            <EntityTypeMapping TypeName="oResourcesModel.vw_ProjectBuildInfo">
+              <MappingFragment StoreEntitySet="vw_ProjectBuildInfo">
+                <ScalarProperty Name="OfficeBuildID" ColumnName="OfficeBuildID" />
+                <ScalarProperty Name="BuildVersion" ColumnName="BuildVersion" />
+                <ScalarProperty Name="ProcessedDate" ColumnName="ProcessedDate" />
+                <ScalarProperty Name="ProcessedByAccount" ColumnName="ProcessedByAccount" />
+                <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+                <ScalarProperty Name="BuildNumberLong" ColumnName="BuildNumberLong" />
+                <ScalarProperty Name="BranchIdentity" ColumnName="BranchIdentity" />
+                <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+                <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fb5972f5425c4703ab4209e34d838e21" Name="Diagram1">
+        <EntityTypeShape EntityType="SkypeIntlMonitoringModel.vw_ProjectBuildInfo" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlMonitoringModel.vw_ProjectFamilyInfo" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlMonitoringModel.RemoteLogger" Width="1.5" PointX="3.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SkypeIntlMonitoringModel.RemoteStateLogger" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="SkypeIntlMonitoringModel.vw_ToolsJobsStepsInfo" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlMonitoringModel.vw_GetJobExecutionView" Width="1.5" PointX="6.375" PointY="3.75" />
+        <EntityTypeShape EntityType="SkypeIntlMonitoringModel.New_SqlJobs" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlMonitoringModel.RemoteStateLoggerImage" Width="1.5" PointX="3" PointY="7.375" />
+        <AssociationConnector Association="SkypeIntlMonitoringModel.FK__RemoteSta__Remot__1B5E0D89" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

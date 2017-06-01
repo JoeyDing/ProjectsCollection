@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "GetDataFromForm";
+}
+
+<div class="jumbotron">
+    <h1>SkypeIntl Portfolio</h1>
+    <p class="lead">
+        Feedback
+    </p>
+</div>
+
+<div class="layout-control">
+    <div class="panel panel-@ViewBag.contextualState">
+        <div class="panel-heading">
+            <h3 class="panel-title">Feedback page</h3>
+        </div>
+        <div class="panel-body">
+            <form id="dataForm" name="dataForm">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <p>@ViewBag.Message</p><br />
+                        @if (ViewBag.JIRAPbiLink != "")
+                        {
+                            <a href=@ViewBag.JIRAPbiLink>Click here to check out all the PBIs</a>
+                        }
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

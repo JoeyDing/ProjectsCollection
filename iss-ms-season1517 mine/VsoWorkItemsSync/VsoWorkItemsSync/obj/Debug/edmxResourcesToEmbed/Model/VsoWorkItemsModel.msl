@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SkypeVsoWorkItemsModelStoreContainer" CdmEntityContainer="VsoWorkItemsContext">
+    <EntitySetMapping Name="TestRunResults">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestRunResult">
+        <MappingFragment StoreEntitySet="TestRunResults">
+          <ScalarProperty Name="Completed_Date" ColumnName="Completed Date" />
+          <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+          <ScalarProperty Name="Tester_Unique_Name" ColumnName="Tester Unique Name" />
+          <ScalarProperty Name="Tester_Display_Name" ColumnName="Tester Display Name" />
+          <ScalarProperty Name="Test_Outcome" ColumnName="Test Outcome" />
+          <ScalarProperty Name="Test_Run_Name" ColumnName="Test Run Name" />
+          <ScalarProperty Name="Test_Case_ID" ColumnName="Test Case ID" />
+          <ScalarProperty Name="Test_Plan_ID" ColumnName="Test Plan ID" />
+          <ScalarProperty Name="Test_Run_ID" ColumnName="Test Run ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestSuiteRevisions">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestSuiteRevision">
+        <MappingFragment StoreEntitySet="TestSuiteRevisions">
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+          <ScalarProperty Name="Query_Text" ColumnName="Query Text" />
+          <ScalarProperty Name="Test_Suite_Audit" ColumnName="Test Suite Audit" />
+          <ScalarProperty Name="Test_Suite_Type" ColumnName="Test Suite Type" />
+          <ScalarProperty Name="Revised_Date" ColumnName="Revised Date" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestSuiteTestCaseMappings">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestSuiteTestCaseMapping">
+        <MappingFragment StoreEntitySet="TestSuiteTestCaseMapping">
+          <ScalarProperty Name="Test_Suite_Rev" ColumnName="Test Suite Rev" />
+          <ScalarProperty Name="Test_Case_ID" ColumnName="Test Case ID" />
+          <ScalarProperty Name="Test_Suite_ID" ColumnName="Test Suite ID" />
+          <ScalarProperty Name="Test_Plan_ID" ColumnName="Test Plan ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CoreBugInfos">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.CoreBugInfo">
+        <MappingFragment StoreEntitySet="CoreBugInfos">
+          <ScalarProperty Name="Core_Bug_Resolved_Date" ColumnName="Core Bug Resolved Date" />
+          <ScalarProperty Name="Core_Bug_Closed_Date" ColumnName="Core Bug Closed Date" />
+          <ScalarProperty Name="Core_Bug_Created_Date" ColumnName="Core Bug Created Date" />
+          <ScalarProperty Name="Core_Bug_Localization_Impact" ColumnName="Core Bug Localization Impact" />
+          <ScalarProperty Name="Core_Bug_World_Readiness_Impact" ColumnName="Core Bug World Readiness Impact" />
+          <ScalarProperty Name="Core_Bug_Issue_Type" ColumnName="Core Bug Issue Type" />
+          <ScalarProperty Name="Core_Bug_Severity" ColumnName="Core Bug Severity" />
+          <ScalarProperty Name="Core_Bug_Priority" ColumnName="Core Bug Priority" />
+          <ScalarProperty Name="Core_Bug_Created_By" ColumnName="Core Bug Created By" />
+          <ScalarProperty Name="Core_Bug_Reason" ColumnName="Core Bug Reason" />
+          <ScalarProperty Name="Core_Bug_Assigned_To" ColumnName="Core Bug Assigned To" />
+          <ScalarProperty Name="Core_Bug_Title" ColumnName="Core Bug Title" />
+          <ScalarProperty Name="Core_Project_Iteration_Path" ColumnName="Core Project Iteration Path" />
+          <ScalarProperty Name="Core_Project_Area_Path" ColumnName="Core Project Area Path" />
+          <ScalarProperty Name="Core_Project_Name" ColumnName="Core Project Name" />
+          <ScalarProperty Name="Core_Bug_Status" ColumnName="Core Bug Status" />
+          <ScalarProperty Name="Loc_Bug_Status" ColumnName="Loc Bug Status" />
+          <ScalarProperty Name="Core_Bug_ID" ColumnName="Core Bug ID" />
+          <ScalarProperty Name="Loc_Bug_ID" ColumnName="Loc Bug ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImpedimentRevisions">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.ImpedimentRevision">
+        <MappingFragment StoreEntitySet="ImpedimentRevisions">
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+          <ScalarProperty Name="ActionPlan" ColumnName="ActionPlan" />
+          <ScalarProperty Name="Severity" ColumnName="Severity" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+          <ScalarProperty Name="Swag" ColumnName="Swag" />
+          <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskRevisions">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TaskRevision">
+        <MappingFragment StoreEntitySet="TaskRevisions">
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+          <ScalarProperty Name="Remaining_Work" ColumnName="Remaining Work" />
+          <ScalarProperty Name="Completed_Work" ColumnName="Completed Work" />
+          <ScalarProperty Name="Original_Estimate" ColumnName="Original Estimate" />
+          <ScalarProperty Name="Estimate_TShirt" ColumnName="Estimate TShirt" />
+          <ScalarProperty Name="Estimate_Points" ColumnName="Estimate Points" />
+          <ScalarProperty Name="Initiator" ColumnName="Initiator" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+          <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestCaseRevisions">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestCaseRevision">
+        <MappingFragment StoreEntitySet="TestCaseRevisions">
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+          <ScalarProperty Name="PS_ID" ColumnName="PS ID" />
+          <ScalarProperty Name="State_Change_Date" ColumnName="State Change Date" />
+          <ScalarProperty Name="Activated_Date" ColumnName="Activated Date" />
+          <ScalarProperty Name="Activated_By" ColumnName="Activated By" />
+          <ScalarProperty Name="Steps" ColumnName="Steps" />
+          <ScalarProperty Name="Test_Type" ColumnName="Test Type" />
+          <ScalarProperty Name="TestCase_Estimate" ColumnName="TestCase Estimate" />
+          <ScalarProperty Name="Automation_Status" ColumnName="Automation Status" />
+          <ScalarProperty Name="Revised_Date" ColumnName="Revised Date" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestPlanRevisions">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestPlanRevision">
+        <MappingFragment StoreEntitySet="TestPlanRevisions">
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+          <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Revised_Date" ColumnName="Revised Date" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkItemLinks">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.WorkItemLink">
+        <MappingFragment StoreEntitySet="WorkItemLinks">
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Is_Active" ColumnName="Is Active" />
+          <ScalarProperty Name="Link_Type" ColumnName="Link Type" />
+          <ScalarProperty Name="Target_ID" ColumnName="Target ID" />
+          <ScalarProperty Name="Source_ID" ColumnName="Source ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EnablingSpecificationRevisions">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.EnablingSpecificationRevision">
+        <MappingFragment StoreEntitySet="EnablingSpecificationRevisions">
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+          <ScalarProperty Name="Engineering_Effort" ColumnName="Engineering Effort" />
+          <ScalarProperty Name="Release" ColumnName="Release" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="Estimate_TShirt" ColumnName="Estimate TShirt" />
+          <ScalarProperty Name="Estimate_Points" ColumnName="Estimate Points" />
+          <ScalarProperty Name="Blocking" ColumnName="Blocking" />
+          <ScalarProperty Name="Review_Required" ColumnName="Review Required" />
+          <ScalarProperty Name="Initiator" ColumnName="Initiator" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+          <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EpicRevisions">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.EpicRevision">
+        <MappingFragment StoreEntitySet="EpicRevisions">
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+          <ScalarProperty Name="Swag" ColumnName="Swag" />
+          <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BugRevisions">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.BugRevision">
+        <MappingFragment StoreEntitySet="BugRevisions">
+          <ScalarProperty Name="Fix_Type" ColumnName="Fix Type" />
+          <ScalarProperty Name="Suggested_Translation" ColumnName="Suggested Translation" />
+          <ScalarProperty Name="Original_Translation" ColumnName="Original Translation" />
+          <ScalarProperty Name="Source_String" ColumnName="Source String" />
+          <ScalarProperty Name="Resource_ID" ColumnName="Resource ID" />
+          <ScalarProperty Name="File_Name" ColumnName="File Name" />
+          <ScalarProperty Name="Fabric_Project" ColumnName="Fabric Project" />
+          <ScalarProperty Name="Estimated_Test_Impact" ColumnName="Estimated Test Impact" />
+          <ScalarProperty Name="Triaged" ColumnName="Triaged" />
+          <ScalarProperty Name="Issue_Subtype" ColumnName="Issue Subtype" />
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Root_Cause_Category" ColumnName="Root Cause Category" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Severity" ColumnName="Severity" />
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+          <ScalarProperty Name="PS_ID" ColumnName="PS ID" />
+          <ScalarProperty Name="PS_Database" ColumnName="PS Database" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Issue_Type" ColumnName="Issue Type" />
+          <ScalarProperty Name="How_Was_Found" ColumnName="How Was Found" />
+          <ScalarProperty Name="Fixed_Build" ColumnName="Fixed Build" />
+          <ScalarProperty Name="Fix_Provided_By" ColumnName="Fix Provided By" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Build_Found" ColumnName="Build Found" />
+          <ScalarProperty Name="Branch_Found" ColumnName="Branch Found" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkItemAttachments">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.WorkItemAttachment">
+        <MappingFragment StoreEntitySet="WorkItemAttachment">
+          <ScalarProperty Name="AttachmentComment" ColumnName="AttachmentComment" />
+          <ScalarProperty Name="AttachmentName" ColumnName="AttachmentName" />
+          <ScalarProperty Name="WorkItemType" ColumnName="WorkItemType" />
+          <ScalarProperty Name="AttachmentUrl" ColumnName="AttachmentUrl" />
+          <ScalarProperty Name="WorkItemID" ColumnName="WorkItemID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CoreBugInfosFromFeedbacks">
+      <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.CoreBugInfosFromFeedback">
+        <MappingFragment StoreEntitySet="CoreBugInfosFromFeedback">
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Localization_Impact" ColumnName="Localization Impact" />
+          <ScalarProperty Name="World_Readiness_Impact" ColumnName="World Readiness Impact" />
+          <ScalarProperty Name="Issue_Type" ColumnName="Issue Type" />
+          <ScalarProperty Name="Severity" ColumnName="Severity" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Project_Iteration_Path" ColumnName="Project Iteration Path" />
+          <ScalarProperty Name="Project_Area_Path" ColumnName="Project Area Path" />
+          <ScalarProperty Name="Project_Name" ColumnName="Project Name" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

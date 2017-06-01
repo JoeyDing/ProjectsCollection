@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Введите здесь текст сообщения\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Поделиться профилем",
+    "accessibility_id": "Поделиться профилем"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Не беспокоить\")).index(1)",
+    "text": "Не беспокоить"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Поиск людей и групп|Поиск людей и групп\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Поиск людей и ботов|Поиск людей и ботов\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Поиск ботов|Поиск в Skype|Чтобы отвечать на ваши вопросы, помнить важные данные и делать многое другое, Кортане нужна информация. Позвольте Кортане собирать и использовать следующее:\n\n• местоположение и журнал местоположения;\n\n• контакты, данные календаря и журнал содержимого и контактов из сообщений, мгновенных сообщений и приложений;\n\n• журнал поиска и другие данные на вашем устройстве. Это сделает взаимодействие с Кортаной более персонализированным|Поиск в Интернете|Поиск в Интернете|Поиск файлов|Поиск людей|Поиск в Skype|Поиск среди мест|Поиск людей и ботов|Найти|Поиск людей и групп|Поиск людей|Поиск в Skype|Поиск|Поиск ботов|Поиск людей|Поиск людей и ботов|Поиск людей и групп\")",
+    "text": "Найти"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Поиск людей|Поиск людей и ботов|Поиск людей и групп|Поиск людей|Поиск людей|Поиск людей и ботов|Поиск людей и групп\")",
+    "text": "Поиск людей"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Поиск ботов|Поиск в Skype|Чтобы отвечать на ваши вопросы, помнить важные данные и делать многое другое, Кортане нужна информация. Позвольте Кортане собирать и использовать следующее:\n\n• местоположение и журнал местоположения;\n\n• контакты, данные календаря и журнал содержимого и контактов из сообщений, мгновенных сообщений и приложений;\n\n• журнал поиска и другие данные на вашем устройстве. Это сделает взаимодействие с Кортаной более персонализированным|Поиск в Интернете|Поиск в Интернете|Поиск файлов|Поиск людей|Поиск в Skype|Поиск среди мест|Поиск людей и ботов|Найти|Поиск людей и групп|Поиск людей|Поиск в Skype|Поиск|Поиск ботов|Поиск людей|Поиск людей и ботов|Поиск людей и групп\")",
+    "text": "Найти"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Настройки"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Выйти\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"О программе\")",
+    "text": "О программе"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} мин, действует до {expireDate}|Не удалось подключиться к Кортане. Повторите попытку позже.|{hours} ч, {minutes} мин, {seconds} с|{hours} ч, {minutes} мин|{minutes} мин|{minutes} мин, {seconds} с|{count} мин|{count, plural, =1{1 минуту назад} one{# минуту назад} few{# минуты назад} many{# минут назад} other{# минут назад}}|{minutes} мин|{count, plural, =1{1 минуту назад} one{# минуту назад} few{# минуты назад} many{# минут назад} other{# минут назад}}|{count, plural, =1{1 минуту назад} one{# минуту назад} few{# минуты назад} many{# минут назад} other{# минут назад}}\")",
+    "text": "{minutes} мин, действует до {expireDate}|Не удалось подключиться к Кортане. Повторите попытку позже.|{hours} ч, {minutes} мин, {seconds} с|{hours} ч, {minutes} мин|{minutes} мин|{minutes} мин, {seconds} с|{count} мин|{count, plural, =1{1 минуту назад} one{# минуту назад} few{# минуты назад} many{# минут назад} other{# минут назад}}|{minutes} мин|{count, plural, =1{1 минуту назад} one{# минуту назад} few{# минуты назад} many{# минут назад} other{# минут назад}}|{count, plural, =1{1 минуту назад} one{# минуту назад} few{# минуты назад} many{# минут назад} other{# минут назад}}"
+  }
+}

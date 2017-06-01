@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Введіть повідомлення тут\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Надіслати дані профілю",
+    "accessibility_id": "Надіслати дані профілю"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Не турбувати\")).index(1)",
+    "text": "Не турбувати"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Пошук людей і груп|Пошук людей і груп\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Пошук людей і ботів|Пошук людей і ботів\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Пошук ботів|Пошук у Skype|Щоб отримати відповідь на запитання, потрібно пам’ятати важливі фактори, а також надати Cortana дозвіл на збирання та використання даних, зокрема:\n\nданих про розташування і відповідну історію;\n\nконтактів, відомостей календаря, вмісту та історії спілкування в повідомленнях, миттєвих повідомлень і програм;\n\nісторії пошуку та іншої інформації пристрою, щоб персоналізувати роботу програми.|Пошук в Інтернеті|Пошук в Інтернеті|Пошук файлів|Пошук людей|Пошук у Skype|Пошук місць|Пошук людей і ботів|Пошук|Пошук людей і груп|Пошук людей|Пошук у Skype|Пошук|Пошук ботів|Пошук людей|Пошук людей і ботів|Пошук людей і груп\")",
+    "text": "Пошук"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Пошук людей|Пошук людей і ботів|Пошук людей і груп|Пошук людей|Пошук людей|Пошук людей і ботів|Пошук людей і груп\")",
+    "text": "Пошук людей"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Пошук ботів|Пошук у Skype|Щоб отримати відповідь на запитання, потрібно пам’ятати важливі фактори, а також надати Cortana дозвіл на збирання та використання даних, зокрема:\n\nданих про розташування і відповідну історію;\n\nконтактів, відомостей календаря, вмісту та історії спілкування в повідомленнях, миттєвих повідомлень і програм;\n\nісторії пошуку та іншої інформації пристрою, щоб персоналізувати роботу програми.|Пошук в Інтернеті|Пошук в Інтернеті|Пошук файлів|Пошук людей|Пошук у Skype|Пошук місць|Пошук людей і ботів|Пошук|Пошук людей і груп|Пошук людей|Пошук у Skype|Пошук|Пошук ботів|Пошук людей|Пошук людей і ботів|Пошук людей і груп\")",
+    "text": "Пошук"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Параметри"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Вийти\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Про програму\")",
+    "text": "Про програму"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} хв. закінчуються {expireDate}|Не вдалося зв’язатися зі службою Cortana. Повторіть спробу за декілька хвилин.|{hours} год. {minutes} хв. {seconds} с|{hours} год. {minutes} хв.|{minutes} хв.|{minutes} хв. {seconds} с|{count} хв.|{count, plural, =1{Одну хвилину тому} one{# хвилину тому} few{# хвилини тому} many{# хвилин тому} other{# хвилин тому}}|{minutes} хв.|{count, plural, =1{Одну хвилину тому} one{# хвилину тому} few{# хвилини тому} many{# хвилин тому} other{# хвилин тому}}|{count, plural, =1{Одну хвилину тому} one{# хвилину тому} few{# хвилини тому} many{# хвилин тому} other{# хвилин тому}}\")",
+    "text": "{minutes} хв. закінчуються {expireDate}|Не вдалося зв’язатися зі службою Cortana. Повторіть спробу за декілька хвилин.|{hours} год. {minutes} хв. {seconds} с|{hours} год. {minutes} хв.|{minutes} хв.|{minutes} хв. {seconds} с|{count} хв.|{count, plural, =1{Одну хвилину тому} one{# хвилину тому} few{# хвилини тому} many{# хвилин тому} other{# хвилин тому}}|{minutes} хв.|{count, plural, =1{Одну хвилину тому} one{# хвилину тому} few{# хвилини тому} many{# хвилин тому} other{# хвилин тому}}|{count, plural, =1{Одну хвилину тому} one{# хвилину тому} few{# хвилини тому} many{# хвилин тому} other{# хвилин тому}}"
+  }
+}

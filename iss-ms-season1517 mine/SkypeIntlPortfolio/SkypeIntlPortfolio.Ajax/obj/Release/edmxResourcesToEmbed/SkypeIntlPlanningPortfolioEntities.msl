@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SkypeIntlPlanningPortfolioModelStoreContainer" CdmEntityContainer="SkypeIntlPlanningPortfolioEntities">
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="SkypeIntlPlanningPortfolioModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="SkypeIntlPlanningPortfolioModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="SkypeIntlPlanningPortfolioModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="SkypeIntlPlanningPortfolioModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="SkypeIntlPlanningPortfolioModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="SkypeIntlPlanningPortfolioModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="GetUILanguageOfProduct" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetUILanguageOfProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetUILanguageOfProduct_Result">
+          <ScalarProperty Name="FileKey" ColumnName="FileKey" />
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+          <ScalarProperty Name="Language_Released" ColumnName="Language Released" />
+          <ScalarProperty Name="Language_Blocked" ColumnName="Language Blocked" />
+          <ScalarProperty Name="Language_Planned" ColumnName="Language Planned" />
+          <ScalarProperty Name="Blocked_Reason" ColumnName="Blocked Reason" />
+          <ScalarProperty Name="Release_Date" ColumnName="Release Date" />
+          <ScalarProperty Name="UILanguagesKey" ColumnName="UILanguagesKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="File_Name" ColumnName="File Name" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="BasicLanguageLists">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.BasicLanguageList">
+        <MappingFragment StoreEntitySet="BasicLanguageList">
+          <ScalarProperty Name="CultureName" ColumnName="CultureName" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EOLs">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.EOL">
+        <MappingFragment StoreEntitySet="EOLs">
+          <ScalarProperty Name="Language_Support_Level" ColumnName="Language Support Level" />
+          <ScalarProperty Name="Language_Name" ColumnName="Language Name" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="llCC" ColumnName="llCC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FabricOnboardings">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.FabricOnboarding">
+        <MappingFragment StoreEntitySet="FabricOnboarding">
+          <ScalarProperty Name="Sprint" ColumnName="Sprint" />
+          <ScalarProperty Name="ClosedDate" ColumnName="ClosedDate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ParentOnboardingID" ColumnName="ParentOnboardingID" />
+          <ScalarProperty Name="Links" ColumnName="Links" />
+          <ScalarProperty Name="PBI_Status" ColumnName="PBI Status" />
+          <ScalarProperty Name="Label" ColumnName="Label" />
+          <ScalarProperty Name="EpicLabel" ColumnName="EpicLabel" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="JiraPBI" ColumnName="JiraPBI" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="OnboardingID" ColumnName="OnboardingID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FabricTenants">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.FabricTenant">
+        <MappingFragment StoreEntitySet="FabricTenants">
+          <ScalarProperty Name="Fabric_Tenant" ColumnName="Fabric Tenant" />
+          <ScalarProperty Name="TenantKey" ColumnName="TenantKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LanguageSettings">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.LanguageSetting">
+        <MappingFragment StoreEntitySet="LanguageSettings">
+          <ScalarProperty Name="Language_Settings" ColumnName="Language Settings" />
+          <ScalarProperty Name="LangSettingsKey" ColumnName="LangSettingsKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MilestoneCategories">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.MilestoneCategory">
+        <MappingFragment StoreEntitySet="MilestoneCategories">
+          <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Milestones">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Milestone">
+        <MappingFragment StoreEntitySet="Milestones">
+          <ScalarProperty Name="Vso_Api_Url" ColumnName="Vso Api Url" />
+          <ScalarProperty Name="Vso_Web_Url" ColumnName="Vso Web Url" />
+          <ScalarProperty Name="Milestone_Assigned_To" ColumnName="Milestone Assigned To" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+          <ScalarProperty Name="Line_of_Sight" ColumnName="Line of Sight" />
+          <ScalarProperty Name="Milestone_End_Date" ColumnName="Milestone End Date" />
+          <ScalarProperty Name="Milestone_Start_Date" ColumnName="Milestone Start Date" />
+          <ScalarProperty Name="Milestone_Name" ColumnName="Milestone Name" />
+          <ScalarProperty Name="MilestoneKey" ColumnName="MilestoneKey" />
+          <ScalarProperty Name="ReleaseKey" ColumnName="ReleaseKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Platforms">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Platform">
+        <MappingFragment StoreEntitySet="Platform">
+          <ScalarProperty Name="Platform1" ColumnName="Platform" />
+          <ScalarProperty Name="PlatformKey" ColumnName="PlatformKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductContents">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.ProductContent">
+        <MappingFragment StoreEntitySet="ProductContent">
+          <ScalarProperty Name="Product_Content_Published_To" ColumnName="Product Content Published To" />
+          <ScalarProperty Name="ContentKey" ColumnName="ContentKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="Core_Team_Contacts" ColumnName="Core Team Contacts" />
+          <ScalarProperty Name="Resource_File_Path" ColumnName="Resource File Path" />
+          <ScalarProperty Name="Core_Team_s_Location" ColumnName="Core Team's Location" />
+          <ScalarProperty Name="Loc_PM_Location" ColumnName="Loc PM Location" />
+          <ScalarProperty Name="Loc_PM_Alias" ColumnName="Loc PM Alias" />
+          <ScalarProperty Name="Fabric_Onboarding_EpicLabel" ColumnName="Fabric Onboarding EpicLabel" />
+          <ScalarProperty Name="Fabric_Status" ColumnName="Fabric Status" />
+          <ScalarProperty Name="ProductStudioLink" ColumnName="ProductStudioLink" />
+          <ScalarProperty Name="Product_Status" ColumnName="Product Status" />
+          <ScalarProperty Name="Product_Type" ColumnName="Product Type" />
+          <ScalarProperty Name="User_Type" ColumnName="User Type" />
+          <ScalarProperty Name="Family" ColumnName="Family" />
+          <ScalarProperty Name="Product_Description" ColumnName="Product Description" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductVoices">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.ProductVoice">
+        <MappingFragment StoreEntitySet="ProductVoice">
+          <ScalarProperty Name="Product_Voice" ColumnName="Product Voice" />
+          <ScalarProperty Name="VoiceKey" ColumnName="VoiceKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReleaseCadences">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.ReleaseCadence">
+        <MappingFragment StoreEntitySet="ReleaseCadence">
+          <ScalarProperty Name="Release_Cadence" ColumnName="Release Cadence" />
+          <ScalarProperty Name="CadenceKey" ColumnName="CadenceKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReleaseChannels">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.ReleaseChannel">
+        <MappingFragment StoreEntitySet="ReleaseChannel">
+          <ScalarProperty Name="Release_Channel" ColumnName="Release Channel" />
+          <ScalarProperty Name="ReleaseChannelKey" ColumnName="ReleaseChannelKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Source_Control_Interfaces">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Source_Control_Interface">
+        <MappingFragment StoreEntitySet="Source Control Interface">
+          <ScalarProperty Name="Source_Control_Interface1" ColumnName="Source Control Interface" />
+          <ScalarProperty Name="SourceControlIntKey" ColumnName="SourceControlIntKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SourceStorages">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.SourceStorage">
+        <MappingFragment StoreEntitySet="SourceStorage">
+          <ScalarProperty Name="Source_Storage" ColumnName="Source Storage" />
+          <ScalarProperty Name="SourceStorageKey" ColumnName="SourceStorageKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="Status1" ColumnName="Status" />
+          <ScalarProperty Name="StatusKey" ColumnName="StatusKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="suppData_ExtendedEOL">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.suppData_ExtendedEOL">
+        <MappingFragment StoreEntitySet="suppData_ExtendedEOL">
+          <ScalarProperty Name="Text_Direction" ColumnName="Text Direction" />
+          <ScalarProperty Name="Codepage" ColumnName="Codepage" />
+          <ScalarProperty Name="Script" ColumnName="Script" />
+          <ScalarProperty Name="Native_Name" ColumnName="Native Name" />
+          <ScalarProperty Name="Language_Name" ColumnName="Language Name" />
+          <ScalarProperty Name="LCID" ColumnName="LCID" />
+          <ScalarProperty Name="llCC" ColumnName="llCC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Test_Passes">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Test_Pass">
+        <MappingFragment StoreEntitySet="Test Passes">
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Test_Pass_End" ColumnName="Test Pass End" />
+          <ScalarProperty Name="Test_Pass_Start" ColumnName="Test Pass Start" />
+          <ScalarProperty Name="Test_Pass_Name" ColumnName="Test Pass Name" />
+          <ScalarProperty Name="TestPassKey" ColumnName="TestPassKey" />
+          <ScalarProperty Name="ReleaseKey" ColumnName="ReleaseKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestSchedules">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.TestSchedule">
+        <MappingFragment StoreEntitySet="TestSchedules">
+          <ScalarProperty Name="VSO_ChangedDate" ColumnName="VSO ChangedDate" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+          <ScalarProperty Name="AssignedResources" ColumnName="AssignedResources" />
+          <ScalarProperty Name="Vso_Web_Url" ColumnName="Vso Web Url" />
+          <ScalarProperty Name="TestSchedule_End_Date" ColumnName="TestSchedule End Date" />
+          <ScalarProperty Name="TestSchedule_Start_Date" ColumnName="TestSchedule Start Date" />
+          <ScalarProperty Name="TestSchedule_Name" ColumnName="TestSchedule Name" />
+          <ScalarProperty Name="TestScheduleKey" ColumnName="TestScheduleKey" />
+          <ScalarProperty Name="ReleaseKey" ColumnName="ReleaseKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="suppData_EngineeringInfo">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.suppData_EngineeringInfo">
+        <MappingFragment StoreEntitySet="suppData_EngineeringInfo">
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="Intl_Build_Process" ColumnName="Intl Build Process" />
+          <ScalarProperty Name="File_Formats" ColumnName="File Formats" />
+          <ScalarProperty Name="Source_Storage" ColumnName="Source Storage" />
+          <ScalarProperty Name="Source_Control" ColumnName="Source Control" />
+          <ScalarProperty Name="Core_team_location" ColumnName="Core team location" />
+          <ScalarProperty Name="Location_Owned_in" ColumnName="Location Owned in" />
+          <ScalarProperty Name="Ops_Owner" ColumnName="Ops Owner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vm_vsoTaskInfo">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.vm_vsoTaskInfo">
+        <MappingFragment StoreEntitySet="vm_vsoTaskInfo">
+          <ScalarProperty Name="VsoItemHours_Sum" ColumnName="VsoItemHours_Sum" />
+          <ScalarProperty Name="ES_Tag" ColumnName="ES_Tag" />
+          <ScalarProperty Name="ES_Title" ColumnName="ES_Title" />
+          <ScalarProperty Name="ES_ID" ColumnName="ES_ID" />
+          <ScalarProperty Name="Epic_ID" ColumnName="Epic_ID" />
+          <ScalarProperty Name="Key" ColumnName="Key" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_MilestoneInfo">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.vw_MilestoneInfo">
+        <MappingFragment StoreEntitySet="vw_MilestoneInfo">
+          <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+          <ScalarProperty Name="Milestone_Assigned_To" ColumnName="Milestone Assigned To" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+          <ScalarProperty Name="Line_of_Sight" ColumnName="Line of Sight" />
+          <ScalarProperty Name="Milestone_End_Date" ColumnName="Milestone End Date" />
+          <ScalarProperty Name="Milestone_Start_Date" ColumnName="Milestone Start Date" />
+          <ScalarProperty Name="Milestone_Name" ColumnName="Milestone Name" />
+          <ScalarProperty Name="MilestoneKey" ColumnName="MilestoneKey" />
+          <ScalarProperty Name="Release_Url" ColumnName="Release Url" />
+          <ScalarProperty Name="Release_Assigned_To" ColumnName="Release Assigned To" />
+          <ScalarProperty Name="Release_DueDate" ColumnName="Release DueDate" />
+          <ScalarProperty Name="Release_LocStartDate" ColumnName="Release LocStartDate" />
+          <ScalarProperty Name="Release_ID" ColumnName="Release ID" />
+          <ScalarProperty Name="Release_Title" ColumnName="Release Title" />
+          <ScalarProperty Name="Core_Team_Contacts" ColumnName="Core Team Contacts" />
+          <ScalarProperty Name="Resource_File_Path" ColumnName="Resource File Path" />
+          <ScalarProperty Name="Loc_PM_Location" ColumnName="Loc PM Location" />
+          <ScalarProperty Name="Core_Team_s_Location" ColumnName="Core Team's Location" />
+          <ScalarProperty Name="Loc_PM_Alias" ColumnName="Loc PM Alias" />
+          <ScalarProperty Name="Fabric_Status" ColumnName="Fabric Status" />
+          <ScalarProperty Name="Fabric_Onboarding_EpicLabel" ColumnName="Fabric Onboarding EpicLabel" />
+          <ScalarProperty Name="Product_Description" ColumnName="Product Description" />
+          <ScalarProperty Name="User_Type" ColumnName="User Type" />
+          <ScalarProperty Name="Family" ColumnName="Family" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpokenInputOutputs">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.SpokenInputOutput">
+        <MappingFragment StoreEntitySet="SpokenInputOutput">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Spoken_Output" ColumnName="Spoken Output" />
+          <ScalarProperty Name="Spoken_Input" ColumnName="Spoken Input" />
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+          <ScalarProperty Name="FeatureKey" ColumnName="FeatureKey" />
+          <ScalarProperty Name="SpokenInputOutputKey" ColumnName="SpokenInputOutputKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Features">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Feature">
+        <MappingFragment StoreEntitySet="Features">
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="FeatureName" ColumnName="FeatureName" />
+          <ScalarProperty Name="FeatureKey" ColumnName="FeatureKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TextInputOutputs">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.TextInputOutput">
+        <MappingFragment StoreEntitySet="TextInputOutput">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Text_Output" ColumnName="Text Output" />
+          <ScalarProperty Name="Text_Input" ColumnName="Text Input" />
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+          <ScalarProperty Name="FeatureKey" ColumnName="FeatureKey" />
+          <ScalarProperty Name="TextInputOutputKey" ColumnName="TextInputOutputKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetTextInputOutputOfProduct" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetTextInputOutputOfProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetTextInputOutputOfProduct_Result">
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+          <ScalarProperty Name="Text_Input" ColumnName="Text Input" />
+          <ScalarProperty Name="Text_Output" ColumnName="Text Output" />
+          <ScalarProperty Name="TextInputOutputKey" ColumnName="TextInputOutputKey" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSpokenInputOutputOfProduct" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetSpokenInputOutputOfProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetSpokenInputOutputOfProduct_Result">
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+          <ScalarProperty Name="Spoken_Input" ColumnName="Spoken Input" />
+          <ScalarProperty Name="Spoken_Output" ColumnName="Spoken Output" />
+          <ScalarProperty Name="SpokenInputOutputKey" ColumnName="SpokenInputOutputKey" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUILanguageFileOfProductByPage" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetUILanguageFileOfProductByPage">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetUILanguageFileOfProductByPage_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="FileKey" ColumnName="FileKey" />
+          <ScalarProperty Name="File_Name" ColumnName="File Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUILanguageOfProductByFileKey" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetUILanguageOfProductByFileKey">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetUILanguageOfProductByFileKey_Result">
+          <ScalarProperty Name="FileKey" ColumnName="FileKey" />
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+          <ScalarProperty Name="Language_Released" ColumnName="Language Released" />
+          <ScalarProperty Name="Language_Blocked" ColumnName="Language Blocked" />
+          <ScalarProperty Name="Language_Planned" ColumnName="Language Planned" />
+          <ScalarProperty Name="Blocked_Reason" ColumnName="Blocked Reason" />
+          <ScalarProperty Name="Release_Date" ColumnName="Release Date" />
+          <ScalarProperty Name="UILanguagesKey" ColumnName="UILanguagesKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="File_Name" ColumnName="File Name" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTotalNumOfUILanguageFileOfProduct" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetTotalNumOfUILanguageFileOfProduct" />
+    <FunctionImportMapping FunctionImportName="GetFeatureOfProduct" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetFeatureOfProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetFeatureOfProduct_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="FeatureName" ColumnName="FeatureName" />
+          <ScalarProperty Name="FeatureKey" ColumnName="FeatureKey" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTotalFeatureOfProduct" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetTotalFeatureOfProduct" />
+    <FunctionImportMapping FunctionImportName="GetMilestoneOfRelease" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetMilestoneOfRelease">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetMilestoneOfRelease_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="ReleaseKey" ColumnName="ReleaseKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="MilestoneKey" ColumnName="MilestoneKey" />
+          <ScalarProperty Name="Milestone_Name" ColumnName="Milestone Name" />
+          <ScalarProperty Name="Milestone_Start_Date" ColumnName="Milestone Start Date" />
+          <ScalarProperty Name="Milestone_End_Date" ColumnName="Milestone End Date" />
+          <ScalarProperty Name="Vso_Web_Url" ColumnName="Vso Web Url" />
+          <ScalarProperty Name="Vso_Api_Url" ColumnName="Vso Api Url" />
+          <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="vw_MilestoneTestScheduleInfo">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.vw_MilestoneTestScheduleInfo">
+        <MappingFragment StoreEntitySet="vw_MilestoneTestScheduleInfo">
+          <ScalarProperty Name="ItemCategory" ColumnName="ItemCategory" />
+          <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+          <ScalarProperty Name="Milestone_Assigned_To" ColumnName="Milestone Assigned To" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+          <ScalarProperty Name="Line_of_Sight" ColumnName="Line of Sight" />
+          <ScalarProperty Name="Milestone_End_Date" ColumnName="Milestone End Date" />
+          <ScalarProperty Name="Milestone_Start_Date" ColumnName="Milestone Start Date" />
+          <ScalarProperty Name="Milestone_Name" ColumnName="Milestone Name" />
+          <ScalarProperty Name="MilestoneKey" ColumnName="MilestoneKey" />
+          <ScalarProperty Name="TestMilestoneCategoryKey" ColumnName="TestMilestoneCategoryKey" />
+          <ScalarProperty Name="AssignedResources" ColumnName="AssignedResources" />
+          <ScalarProperty Name="Vso_Web_Url" ColumnName="Vso Web Url" />
+          <ScalarProperty Name="TestSchedule_End_Date" ColumnName="TestSchedule End Date" />
+          <ScalarProperty Name="TestSchedule_Start_Date" ColumnName="TestSchedule Start Date" />
+          <ScalarProperty Name="TestSchedule_Name" ColumnName="TestSchedule Name" />
+          <ScalarProperty Name="TestScheduleKey" ColumnName="TestScheduleKey" />
+          <ScalarProperty Name="Release_Url" ColumnName="Release Url" />
+          <ScalarProperty Name="Release_Assigned_To" ColumnName="Release Assigned To" />
+          <ScalarProperty Name="Release_DueDate" ColumnName="Release DueDate" />
+          <ScalarProperty Name="Release_LocStartDate" ColumnName="Release LocStartDate" />
+          <ScalarProperty Name="Release_ID" ColumnName="Release ID" />
+          <ScalarProperty Name="Release_Title" ColumnName="Release Title" />
+          <ScalarProperty Name="Core_Team_Contacts" ColumnName="Core Team Contacts" />
+          <ScalarProperty Name="Resource_File_Path" ColumnName="Resource File Path" />
+          <ScalarProperty Name="Loc_PM_Location" ColumnName="Loc PM Location" />
+          <ScalarProperty Name="Core_Team_s_Location" ColumnName="Core Team's Location" />
+          <ScalarProperty Name="Loc_PM_Alias" ColumnName="Loc PM Alias" />
+          <ScalarProperty Name="Fabric_Status" ColumnName="Fabric Status" />
+          <ScalarProperty Name="Fabric_Onboarding_EpicLabel" ColumnName="Fabric Onboarding EpicLabel" />
+          <ScalarProperty Name="Product_Description" ColumnName="Product Description" />
+          <ScalarProperty Name="User_Type" ColumnName="User Type" />
+          <ScalarProperty Name="Family" ColumnName="Family" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetTestPlanOfRelease" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetTestPlanOfRelease">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetTestPlanOfRelease_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="ReleaseKey" ColumnName="ReleaseKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="TestScheduleKey" ColumnName="TestScheduleKey" />
+          <ScalarProperty Name="TestSchedule_Name" ColumnName="TestSchedule Name" />
+          <ScalarProperty Name="AssignedResources" ColumnName="AssignedResources" />
+          <ScalarProperty Name="TestSchedule_Start_Date" ColumnName="TestSchedule Start Date" />
+          <ScalarProperty Name="TestSchedule_End_Date" ColumnName="TestSchedule End Date" />
+          <ScalarProperty Name="Vso_Web_Url" ColumnName="Vso Web Url" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+          <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="ResourceFiles_Target">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.ResourceFiles_Target">
+        <MappingFragment StoreEntitySet="ResourceFiles_Target">
+          <ScalarProperty Name="Number_of_Strings__Fabric_" ColumnName="Number of Strings (Fabric)" />
+          <ScalarProperty Name="repoType" ColumnName="repoType" />
+          <ScalarProperty Name="repoBranch" ColumnName="repoBranch" />
+          <ScalarProperty Name="RepoURL" ColumnName="RepoURL" />
+          <ScalarProperty Name="Target_File_Location" ColumnName="Target File Location" />
+          <ScalarProperty Name="File_Name" ColumnName="File Name" />
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+          <ScalarProperty Name="TargetFileKey" ColumnName="TargetFileKey" />
+          <ScalarProperty Name="SourceFileKey" ColumnName="SourceFileKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Branches">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Branch">
+        <MappingFragment StoreEntitySet="Branch">
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="Branch_Name" ColumnName="Branch Name" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stringData_MasterResourceList">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.stringData_MasterResourceList">
+        <MappingFragment StoreEntitySet="stringData_MasterResourceList">
+          <ScalarProperty Name="Parser_Identifier" ColumnName="Parser Identifier" />
+          <ScalarProperty Name="ResourceFileKey" ColumnName="ResourceFileKey" />
+          <ScalarProperty Name="ResourceIDkey" ColumnName="ResourceIDkey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stringData_BuildData">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.stringData_BuildData">
+        <MappingFragment StoreEntitySet="stringData_BuildData">
+          <ScalarProperty Name="Build_Date" ColumnName="Build Date" />
+          <ScalarProperty Name="Build" ColumnName="Build" />
+          <ScalarProperty Name="String_Value" ColumnName="String Value" />
+          <ScalarProperty Name="Culture" ColumnName="Culture" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="ResourceIDKey" ColumnName="ResourceIDKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stringData_LCTImportData">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.stringData_LCTImportData">
+        <MappingFragment StoreEntitySet="stringData_LCTImportData">
+          <ScalarProperty Name="oResourcesDB" ColumnName="oResourcesDB" />
+          <ScalarProperty Name="WordCount" ColumnName="WordCount" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="DevLk" ColumnName="DevLk" />
+          <ScalarProperty Name="UsrLk" ColumnName="UsrLk" />
+          <ScalarProperty Name="EnglishValue" ColumnName="EnglishValue" />
+          <ScalarProperty Name="Instructions" ColumnName="Instructions" />
+          <ScalarProperty Name="TransOrigin" ColumnName="TransOrigin" />
+          <ScalarProperty Name="LocStatus" ColumnName="LocStatus" />
+          <ScalarProperty Name="TermNote" ColumnName="TermNote" />
+          <ScalarProperty Name="StringCategory" ColumnName="StringCategory" />
+          <ScalarProperty Name="ResourcesUpdatedDate" ColumnName="ResourcesUpdatedDate" />
+          <ScalarProperty Name="ResourceOrigin" ColumnName="ResourceOrigin" />
+          <ScalarProperty Name="Culture" ColumnName="Culture" />
+          <ScalarProperty Name="Translation" ColumnName="Translation" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="ResourceIDKey" ColumnName="ResourceIDKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stringData_SourceRepoData">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.stringData_SourceRepoData">
+        <MappingFragment StoreEntitySet="stringData_SourceRepoData">
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="ResourceUpdateDate" ColumnName="ResourceUpdateDate" />
+          <ScalarProperty Name="EnglishSourceTerm" ColumnName="EnglishSourceTerm" />
+          <ScalarProperty Name="ResourceIDKey" ColumnName="ResourceIDKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stringData_TargetRepoData">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.stringData_TargetRepoData">
+        <MappingFragment StoreEntitySet="stringData_TargetRepoData">
+          <ScalarProperty Name="TargetFileKey" ColumnName="TargetFileKey" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="ResourceUpdateDate" ColumnName="ResourceUpdateDate" />
+          <ScalarProperty Name="Target_Translation" ColumnName="Target Translation" />
+          <ScalarProperty Name="ResourceIDKey" ColumnName="ResourceIDKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_OfficialMilestoneDates">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.vw_OfficialMilestoneDates">
+        <MappingFragment StoreEntitySet="vw_OfficialMilestoneDates">
+          <ScalarProperty Name="Milestone_End_Date" ColumnName="Milestone End Date" />
+          <ScalarProperty Name="Milestone_Start_Date" ColumnName="Milestone Start Date" />
+          <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+          <ScalarProperty Name="ReleaseKey" ColumnName="ReleaseKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoryResourceFiles">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.HistoryResourceFile">
+        <MappingFragment StoreEntitySet="HistoryResourceFiles">
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="FileKey" ColumnName="FileKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoryResourceFiles_Target">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.HistoryResourceFiles_Target">
+        <MappingFragment StoreEntitySet="HistoryResourceFiles_Target">
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="TargetFileKey" ColumnName="TargetFileKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="multi_ProductPlatform_Backup">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.multi_ProductPlatform_Backup">
+        <MappingFragment StoreEntitySet="multi_ProductPlatform_Backup">
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="PlatformKey" ColumnName="PlatformKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductFamilies">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.ProductFamily">
+        <MappingFragment StoreEntitySet="ProductFamilies">
+          <ScalarProperty Name="Product_Family" ColumnName="Product Family" />
+          <ScalarProperty Name="FamilyKey" ColumnName="FamilyKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocBuildProcesses">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.LocBuildProcess">
+        <MappingFragment StoreEntitySet="LocBuildProcess">
+          <ScalarProperty Name="Loc_Build_Process" ColumnName="Loc Build Process" />
+          <ScalarProperty Name="BuildProcessKey" ColumnName="BuildProcessKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuildSystems">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.BuildSystem">
+        <MappingFragment StoreEntitySet="BuildSystems">
+          <ScalarProperty Name="Build_System_Used" ColumnName="Build System Used" />
+          <ScalarProperty Name="BuildSysKey" ColumnName="BuildSysKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CodeReviews">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.CodeReview">
+        <MappingFragment StoreEntitySet="CodeReview">
+          <ScalarProperty Name="Code_Review_Used" ColumnName="Code Review Used" />
+          <ScalarProperty Name="CodeReviewKey" ColumnName="CodeReviewKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocProcesses">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.LocProcess">
+        <MappingFragment StoreEntitySet="LocProcess">
+          <ScalarProperty Name="Loc_Process" ColumnName="Loc Process" />
+          <ScalarProperty Name="LocProcessKey" ColumnName="LocProcessKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="Location1" ColumnName="Location" />
+          <ScalarProperty Name="LocationKey" ColumnName="LocationKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Releases">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Release">
+        <MappingFragment StoreEntitySet="Releases">
+          <ScalarProperty Name="VSO_Tags" ColumnName="VSO Tags" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="VSO_Url" ColumnName="VSO Url" />
+          <ScalarProperty Name="VSO_ProductName" ColumnName="VSO ProductName" />
+          <ScalarProperty Name="VSO_ChangedDate" ColumnName="VSO ChangedDate" />
+          <ScalarProperty Name="VSO_AreaPath" ColumnName="VSO AreaPath" />
+          <ScalarProperty Name="VSO_IterationPath" ColumnName="VSO IterationPath" />
+          <ScalarProperty Name="VSO_Family" ColumnName="VSO Family" />
+          <ScalarProperty Name="VSO_Assigned_To" ColumnName="VSO Assigned To" />
+          <ScalarProperty Name="VSO_DueDate" ColumnName="VSO DueDate" />
+          <ScalarProperty Name="VSO_LocStartDate" ColumnName="VSO LocStartDate" />
+          <ScalarProperty Name="VSO_Status" ColumnName="VSO Status" />
+          <ScalarProperty Name="VSO_Type" ColumnName="VSO Type" />
+          <ScalarProperty Name="VSO_Title" ColumnName="VSO Title" />
+          <ScalarProperty Name="VSO_ID" ColumnName="VSO ID" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products_New">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.Products_New">
+        <MappingFragment StoreEntitySet="Products_New">
+          <ScalarProperty Name="Core_Engineering_Contact" ColumnName="Core Engineering Contact" />
+          <ScalarProperty Name="Telemetry_Contact" ColumnName="Telemetry Contact" />
+          <ScalarProperty Name="Localization_VSO_URL" ColumnName="Localization VSO URL" />
+          <ScalarProperty Name="BuildSysKey" ColumnName="BuildSysKey" />
+          <ScalarProperty Name="CodeReviewUsedKey" ColumnName="CodeReviewUsedKey" />
+          <ScalarProperty Name="LanguageSettingsKey" ColumnName="LanguageSettingsKey" />
+          <ScalarProperty Name="Core_VSO_Backlog_URL" ColumnName="Core VSO Backlog URL" />
+          <ScalarProperty Name="Release_build_Location" ColumnName="Release build Location" />
+          <ScalarProperty Name="ContentPublishedToKey" ColumnName="ContentPublishedToKey" />
+          <ScalarProperty Name="Last_Release_Certified" ColumnName="Last Release Certified" />
+          <ScalarProperty Name="Cert_Location" ColumnName="Cert Location" />
+          <ScalarProperty Name="Certification_Type" ColumnName="Certification Type" />
+          <ScalarProperty Name="Core_Team_SharePoint" ColumnName="Core Team SharePoint" />
+          <ScalarProperty Name="Core_PO" ColumnName="Core PO" />
+          <ScalarProperty Name="Loc_Team_OneNote" ColumnName="Loc Team OneNote" />
+          <ScalarProperty Name="Localization_Code_Branch" ColumnName="Localization Code Branch" />
+          <ScalarProperty Name="Main_Code_Branch" ColumnName="Main Code Branch" />
+          <ScalarProperty Name="Localization_VSO_Path" ColumnName="Localization VSO Path" />
+          <ScalarProperty Name="LCT_File_Path" ColumnName="LCT File Path" />
+          <ScalarProperty Name="LCG_File_Path" ColumnName="LCG File Path" />
+          <ScalarProperty Name="Pseudo_Testing" ColumnName="Pseudo Testing" />
+          <ScalarProperty Name="Telemetry_Data_available" ColumnName="Telemetry Data available" />
+          <ScalarProperty Name="Voice_Prompt_Loc_Required" ColumnName="Voice Prompt Loc Required" />
+          <ScalarProperty Name="Privacy_Statement_Required" ColumnName="Privacy Statement Required" />
+          <ScalarProperty Name="French_Loc_Required" ColumnName="French Loc Required" />
+          <ScalarProperty Name="GB_Impacting" ColumnName="GB Impacting" />
+          <ScalarProperty Name="LocProcessKey" ColumnName="LocProcessKey" />
+          <ScalarProperty Name="LocBuildProcessKey" ColumnName="LocBuildProcessKey" />
+          <ScalarProperty Name="Product_Owner" ColumnName="Product Owner" />
+          <ScalarProperty Name="Test_Owner" ColumnName="Test Owner" />
+          <ScalarProperty Name="IPE_Owner" ColumnName="IPE Owner" />
+          <ScalarProperty Name="ReleaseCadenceKey" ColumnName="ReleaseCadenceKey" />
+          <ScalarProperty Name="OwnerLocationKey" ColumnName="OwnerLocationKey" />
+          <ScalarProperty Name="ISS_Ops_Driver" ColumnName="ISS Ops Driver" />
+          <ScalarProperty Name="FabricTenantKey" ColumnName="FabricTenantKey" />
+          <ScalarProperty Name="ProductFamilyKey" ColumnName="ProductFamilyKey" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PVoiceKey" ColumnName="PVoiceKey" />
+          <ScalarProperty Name="StatusKey" ColumnName="StatusKey" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="multi_CoreTeamLocations" TypeName="SkypeIntlPlanningPortfolioModel.multi_CoreTeamLocations" StoreEntitySet="multi_CoreTeamLocations">
+      <EndProperty Name="Products_New">
+        <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+      </EndProperty>
+      <EndProperty Name="Location">
+        <ScalarProperty Name="LocationKey" ColumnName="LocationKey" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="multi_ProductPlatform" TypeName="SkypeIntlPlanningPortfolioModel.multi_ProductPlatform" StoreEntitySet="multi_ProductPlatform">
+      <EndProperty Name="Products_New">
+        <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+      </EndProperty>
+      <EndProperty Name="Platform">
+        <ScalarProperty Name="PlatformKey" ColumnName="PlatformKey" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="multi_releaseChannel" TypeName="SkypeIntlPlanningPortfolioModel.multi_releaseChannel" StoreEntitySet="multi_releaseChannel">
+      <EndProperty Name="ReleaseChannel">
+        <ScalarProperty Name="ReleaseChannelKey" ColumnName="ReleaseChannelKey" />
+      </EndProperty>
+      <EndProperty Name="Products_New">
+        <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="multi_SourceControlInterface" TypeName="SkypeIntlPlanningPortfolioModel.multi_SourceControlInterface" StoreEntitySet="multi_SourceControlInterface">
+      <EndProperty Name="Source_Control_Interface">
+        <ScalarProperty Name="SourceControlIntKey" ColumnName="SourceInterfaceKey" />
+      </EndProperty>
+      <EndProperty Name="Products_New">
+        <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="multi_SourceStorage" TypeName="SkypeIntlPlanningPortfolioModel.multi_SourceStorage" StoreEntitySet="multi_SourceStorage">
+      <EndProperty Name="SourceStorage">
+        <ScalarProperty Name="SourceStorageKey" ColumnName="SourceStorageKey" />
+      </EndProperty>
+      <EndProperty Name="Products_New">
+        <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="vw_MilestoneTestScheduleInfo_ForOldSchedule">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.vw_MilestoneTestScheduleInfo_ForOldSchedule">
+        <MappingFragment StoreEntitySet="vw_MilestoneTestScheduleInfo_ForOldSchedule">
+          <ScalarProperty Name="ItemCategory" ColumnName="ItemCategory" />
+          <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+          <ScalarProperty Name="Milestone_Assigned_To" ColumnName="Milestone Assigned To" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+          <ScalarProperty Name="Line_of_Sight" ColumnName="Line of Sight" />
+          <ScalarProperty Name="Milestone_End_Date" ColumnName="Milestone End Date" />
+          <ScalarProperty Name="Milestone_Start_Date" ColumnName="Milestone Start Date" />
+          <ScalarProperty Name="Milestone_Name" ColumnName="Milestone Name" />
+          <ScalarProperty Name="MilestoneKey" ColumnName="MilestoneKey" />
+          <ScalarProperty Name="TestMilestoneCategoryKey" ColumnName="TestMilestoneCategoryKey" />
+          <ScalarProperty Name="AssignedResources" ColumnName="AssignedResources" />
+          <ScalarProperty Name="Vso_Web_Url" ColumnName="Vso Web Url" />
+          <ScalarProperty Name="TestSchedule_End_Date" ColumnName="TestSchedule End Date" />
+          <ScalarProperty Name="TestSchedule_Start_Date" ColumnName="TestSchedule Start Date" />
+          <ScalarProperty Name="TestSchedule_Name" ColumnName="TestSchedule Name" />
+          <ScalarProperty Name="TestScheduleKey" ColumnName="TestScheduleKey" />
+          <ScalarProperty Name="Release_Tags" ColumnName="Release Tags" />
+          <ScalarProperty Name="Release_Url" ColumnName="Release Url" />
+          <ScalarProperty Name="Release_Assigned_To" ColumnName="Release Assigned To" />
+          <ScalarProperty Name="Release_DueDate" ColumnName="Release DueDate" />
+          <ScalarProperty Name="Release_LocStartDate" ColumnName="Release LocStartDate" />
+          <ScalarProperty Name="Release_ID" ColumnName="Release ID" />
+          <ScalarProperty Name="Release_Title" ColumnName="Release Title" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Product_Family" ColumnName="Product Family" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="RowID" ColumnName="RowID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetReleaseOfProduct" FunctionName="SkypeIntlPlanningPortfolioModel.Store.GetReleaseOfProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.GetReleaseOfProduct_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="VSO_Title" ColumnName="VSO Title" />
+          <ScalarProperty Name="VSO_ID" ColumnName="VSO ID" />
+          <ScalarProperty Name="VSO_LocStartDate" ColumnName="VSO LocStartDate" />
+          <ScalarProperty Name="VSO_DueDate" ColumnName="VSO DueDate" />
+          <ScalarProperty Name="VSO_Url" ColumnName="VSO Url" />
+          <ScalarProperty Name="VSO_Tags" ColumnName="VSO Tags" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="ResourceFiles">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.ResourceFile">
+        <MappingFragment StoreEntitySet="ResourceFiles">
+          <ScalarProperty Name="repoType" ColumnName="repoType" />
+          <ScalarProperty Name="repoBranch" ColumnName="repoBranch" />
+          <ScalarProperty Name="RepoURL" ColumnName="RepoURL" />
+          <ScalarProperty Name="ParserID" ColumnName="ParserID" />
+          <ScalarProperty Name="Source_File_Location" ColumnName="Source File Location" />
+          <ScalarProperty Name="FabricTenantKey" ColumnName="FabricTenantKey" />
+          <ScalarProperty Name="Fabric_Project" ColumnName="Fabric Project" />
+          <ScalarProperty Name="LCG_File_Location" ColumnName="LCG File Location" />
+          <ScalarProperty Name="File_Type" ColumnName="File Type" />
+          <ScalarProperty Name="File_Name" ColumnName="File Name" />
+          <ScalarProperty Name="FileKey" ColumnName="FileKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="multi_ProductResourceFiles" TypeName="SkypeIntlPlanningPortfolioModel.multi_ProductResourceFiles" StoreEntitySet="multi_ProductResourceFiles">
+      <EndProperty Name="ResourceFile">
+        <ScalarProperty Name="FileKey" ColumnName="FileKey" />
+      </EndProperty>
+      <EndProperty Name="Products_New">
+        <ScalarProperty Name="ProductKey" ColumnName="Productkey" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="UILanguages">
+      <EntityTypeMapping TypeName="SkypeIntlPlanningPortfolioModel.UILanguage">
+        <MappingFragment StoreEntitySet="UILanguages">
+          <ScalarProperty Name="Blocked_Reason" ColumnName="Blocked Reason" />
+          <ScalarProperty Name="Release_Date" ColumnName="Release Date" />
+          <ScalarProperty Name="Language_Planned" ColumnName="Language Planned" />
+          <ScalarProperty Name="Language_Blocked" ColumnName="Language Blocked" />
+          <ScalarProperty Name="Language_Released" ColumnName="Language Released" />
+          <ScalarProperty Name="LanguageKey" ColumnName="LanguageKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+          <ScalarProperty Name="UILanguagesKey" ColumnName="UILanguagesKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UILanguageFiles" TypeName="SkypeIntlPlanningPortfolioModel.UILanguageFiles" StoreEntitySet="UILanguageFiles">
+      <EndProperty Name="UILanguage">
+        <ScalarProperty Name="UILanguagesKey" ColumnName="UILanguagesKey" />
+      </EndProperty>
+      <EndProperty Name="ResourceFile">
+        <ScalarProperty Name="FileKey" ColumnName="FileKey" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

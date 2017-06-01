@@ -1,0 +1,21 @@
+﻿{
+  "mappId1": {
+    "text": {
+      "MappingSource": ".*value.*",
+      "MatchedBy": "Regex",
+      "ResourcesIds": {
+        "resource1": "value1",
+        "resource2": "value2"
+      }
+    }
+  },
+  "mappId2": {
+    "text": {
+      "MappingSource": "world",
+      "MatchedBy": "Value",
+      "ResourcesIds": {
+        "resource1": "world"
+      }
+    }
+  }
+}

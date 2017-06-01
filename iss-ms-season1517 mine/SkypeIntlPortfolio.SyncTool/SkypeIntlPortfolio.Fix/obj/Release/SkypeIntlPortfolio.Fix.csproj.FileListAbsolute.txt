@@ -1,0 +1,12 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\SkypeIntlPortfolio.Fix.exe.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\SkypeIntlPortfolio.Fix.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\SkypeIntlPortfolio.Fix.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\EntityFramework.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\VsoApi.Rest.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\EntityFramework.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\obj\Release\SkypeIntlPortfolio.Fix.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\obj\Release\SkypeIntlPortfolio.Fix.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio.SyncTool\SkypeIntlPortfolio.Fix\obj\Release\SkypeIntlPortfolio.Fix.csprojResolveAssemblyReference.cache

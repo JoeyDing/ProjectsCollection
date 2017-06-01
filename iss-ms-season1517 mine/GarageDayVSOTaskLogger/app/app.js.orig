@@ -1,0 +1,18 @@
+"use strict";
+var $ = require('jquery');
+$(document).ready(function (jquery) {
+    var jsonText = '{"count":1,"value":[{"id":663888,"rev":4,"fields":{"System.Id":663888,"System.State":"In Progress","System.AssignedTo":"Joey Ding <v-joding@microsoft.com>","System.ChangedDate":"2016-08-19T09:31:57.537Z","Microsoft.VSTS.Scheduling.RemainingWork":3.0,"Microsoft.VSTS.Scheduling.OriginalEstimate":10.0,"Microsoft.VSTS.Scheduling.CompletedWork":14.0}}]}';
+    var jsonObj = jquery.parseJSON(jsonText);
+    $('#SprintName')[0].innerHTML = 'blabla';
+    var id = jsonObj.value[0].fields["System.Id"];
+    var status = jsonObj.value[0].fields["System.State"];
+    var remainingWork = jsonObj.value[0].fields["Microsoft.VSTS.Scheduling.RemainingWork"];
+    var originalEstimate = jsonObj.value[0].fields["Microsoft.VSTS.Scheduling.OriginalEstimate"];
+    var completedWork = jsonObj.value[0].fields["Microsoft.VSTS.Scheduling.CompletedWork"];
+    $('#TaskID').val(id);
+    $('#TaskStatus').val(status);
+    $('#EstimatedHours').val(remainingWork);
+    $('#RemainingHours').val(originalEstimate);
+    $('#CompletedHours').val(completedWork);
+});
+//# sourceMappingURL=app.js.map

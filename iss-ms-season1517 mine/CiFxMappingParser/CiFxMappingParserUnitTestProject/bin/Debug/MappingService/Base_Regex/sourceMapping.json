@@ -1,0 +1,10 @@
+﻿{
+  "mk_aboutTitle": {
+    "text": "static_[\".*About.*\"]",
+    "accessibility_id": "static.startsWith_[\"This string\"]"
+  },
+  "mk_accessibilityLabel": {
+    "id": "i0118",
+    "text": "static_endsWith_[\"message\"]"
+  }
+}

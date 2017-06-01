@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EOLandProductsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ProductGroupKey" Type="Int32" Nullable="false" />
+    <Property Name="ProductUserTypeKey" Type="Int32" Nullable="false" />
+    <Property Name="ProductStatusKey" Type="Int32" Nullable="false" />
+    <Property Name="ParentProjectKey" Type="Int32" />
+    <Property Name="ProductTypeKey" Type="Int32" Nullable="false" />
+    <Property Name="FabricOnboardingProjectKey" Type="Int32" />
+    <Property Name="ProductStudioLink" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products1" Relationship="Self.FK_Products_Products" FromRole="Products" ToRole="Products1" />
+    <NavigationProperty Name="Product2" Relationship="Self.FK_Products_Products" FromRole="Products1" ToRole="Products" />
+  </EntityType>
+  <Association Name="FK_Products_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="Products1" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Products1">
+        <PropertyRef Name="ParentProjectKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EOLandProductsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <AssociationSet Name="FK_Products_Products" Association="Self.FK_Products_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Products1" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

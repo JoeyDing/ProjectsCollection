@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnswerNo" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="AnswerYes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Capabilities" xml:space="preserve">
+    <value>أنا يمكن أن توفر لك مع السلاسل إعادة النظر في اللغة الأصلية الخاصة بك ونقدم لك التغيير إلى اقتراح ترجمة أفضل!</value>
+  </data>
+  <data name="ContactAdded" xml:space="preserve">
+    <value>يا صديقي الجديد! يتيح إمكانية تحسين نوعية الترجمة Skype!</value>
+  </data>
+  <data name="DiscoverUser" xml:space="preserve">
+    <value>أود أن أعرف المزيد عنك!</value>
+  </data>
+  <data name="DiscoverUserGoodReponse" xml:space="preserve">
+    <value>لذلك كنت ماجستير في اللغة {1}</value>
+  </data>
+  <data name="DiscoverUserLanguageGood" xml:space="preserve">
+    <value>ما هي اللغات، سيد أن كنت في مستوى جيد جداً؟</value>
+  </data>
+  <data name="DiscoverUserLanguageNative" xml:space="preserve">
+    <value>ما هي لغتك الأصلية؟</value>
+  </data>
+  <data name="DiscoverUserNativeResponce" xml:space="preserve">
+    <value>من ما فهمت لغتك الأصلية هي {0}</value>
+  </data>
+  <data name="DiscoverUserQualityJudge" xml:space="preserve">
+    <value>هل ترغب في الحكم على جودة الترجمة بين اللغات {0} و {1}؟</value>
+    <comment>Placeholders replaced with language names. For example: {0} - english, {1}  -latvian</comment>
+  </data>
+  <data name="Hack42" xml:space="preserve">
+    <value>معنى الحياة والكون، وكل شيء</value>
+  </data>
+  <data name="QualityCompareStrings" xml:space="preserve">
+    <value>يرجى وضع علامة على جودة الترجمة اللغة {0} (1-10، مع 10-1-الأسوأ والأفضل) عبارة "{1}" (معرف {2}) هو ترجمة مثل "{3}" في اللغة {4}!</value>
+  </data>
+  <data name="QualityExcelent" xml:space="preserve">
+    <value>ياه! التي تبدو كبيرة! سوف نعطي ملف تعريف ارتباط للمترجمين. شكرا!</value>
+  </data>
+  <data name="QualityMedicore" xml:space="preserve">
+    <value>أنها سالكة. هل تريد أن توحي بشيء أفضل؟</value>
+  </data>
+  <data name="QualityYouCanBetter" xml:space="preserve">
+    <value>أوتش، وهذا سيئة للغاية. يمكنك اقتراح ترجمة أفضل؟</value>
+  </data>
+  <data name="RemovedContact" xml:space="preserve">
+    <value>شكرا لكم على جميع الأسماك!</value>
+  </data>
+  <data name="StatusReport" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StatusReportAnswer" xml:space="preserve">
+    <value>قمت بترجمة {0} واستعرض أزواج lanugage {1}</value>
+  </data>
+  <data name="StatusReportExtendedAnswer" xml:space="preserve">
+    <value>يمكنك ترجمة {0} واستعرض أزواج lanugage {1}. وتستخدم في إنتاج {2} الترجمات الخاصة بك! عمل جيد!</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>شكرا لكم، سيجعل مساهمتكم expirence مستخدم أفضل لك وللمستخدمين الآخرين!</value>
+  </data>
+  <data name="ContinueWithEvaluations" xml:space="preserve">
+    <value>هل تريد المتابعة مع تقييم الترجمات؟</value>
+  </data>
+  <data name="EvaluateString_Bad_Action" xml:space="preserve">
+    <value>الرهيب. يمكن ترجمة أفضل!</value>
+  </data>
+  <data name="EvaluateString_Best_Action" xml:space="preserve">
+    <value>الترجمة ممتازة</value>
+  </data>
+  <data name="EvaluateString_Medium_Action" xml:space="preserve">
+    <value>أنها ترجمة دقيقة</value>
+  </data>
+  <data name="EvaluateString_Source" xml:space="preserve">
+    <value>تقييم ترجمة من المصدر '{0}' {1}</value>
+  </data>
+  <data name="Evaluate_EnterSuggestion" xml:space="preserve">
+    <value>الرجاء نوع في اقتراحك! ومن ثم اضغط مفتاح الإدخال Enter (إرسال رسالة)</value>
+  </data>
+  <data name="Evaluate_Init" xml:space="preserve">
+    <value>هل ترغب في تقييم بعض جودة الترجمة؟</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>مهلا، صديق جديد! أنا لوكاليز. يمكنك مساعدتي مع إعطاء التغذية الراجعة على جودة الترجمة. </value>
+  </data>
+  <data name="Command_DoNotUnderstandLangauge" xml:space="preserve">
+    <value>آسف لا يتكلمون هذه اللغة:(</value>
+  </data>
+  <data name="Command_In_What_Language" xml:space="preserve">
+    <value>في اللغة ما كنت تريد التحدث معي؟</value>
+  </data>
+  <data name="Command_Select_One" xml:space="preserve">
+    <value>اختيار لغة واحدة</value>
+  </data>
+  <data name="Command_SwtichToLanguage" xml:space="preserve">
+    <value>أوكي-الدقي-الآن التحول إلى {0}</value>
+  </data>
+  <data name="Discover_Female" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="Discover_Male" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
+  <data name="Discover_Other" xml:space="preserve">
+    <value>غير ذلك</value>
+  </data>
+  <data name="Discover_Unspecified" xml:space="preserve">
+    <value>غير محدد</value>
+  </data>
+  <data name="Discover_What_Gender" xml:space="preserve">
+    <value>ما هو نوع الجنس الخاص بك؟</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>hhhh</value>
+  </data>
+</root>

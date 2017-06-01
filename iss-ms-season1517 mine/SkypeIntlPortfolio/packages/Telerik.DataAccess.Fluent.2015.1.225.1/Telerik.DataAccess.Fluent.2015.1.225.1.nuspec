@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Telerik.DataAccess.Fluent</id>
+    <version>2015.1.225.1</version>
+    <title>Telerik.DataAccess.Fluent</title>
+    <authors>Telerik AD</authors>
+    <owners>Telerik AD</owners>
+    <licenseUrl>http://www.telerik.com/purchase/license-agreement/data-access</licenseUrl>
+    <projectUrl>http://www.telerik.com/data-access</projectUrl>
+    <iconUrl>http://www.telerik.com/sfimages/default-source/productsimages/openaccess-orm/Resources/nuget-telerik-data-access.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The Telerik.DataAccess.Fluent NuGet package is designed for projects containing classes that are stored using Telerik Data Access. It can be utilized for defining your data access model using the code-only Fluent Mapping.
+
+It provides the assembly references and project enhancements made by the Telerik Data Access Enhancer tool during the build process, required by Telerik Data Access runtime.
+
+If you need a NuGet package for a project only consuming Telerik Data Access model from another assembly, the Telerik.DataAccess.Core NuGet package which contains the Telerik Data Access runtime assemblies necessary to work with Telerik Data Access persistent objects is sufficient and can be used instead.
+
+Telerik Data Access helps defining mapping and executing create, retrieve, update and delete operations for your data access classes and database tables. It allows you to consume stored procedures and functions.</description>
+    <summary>The Telerik.DataAccess.CodeFirst NuGet package is designed for projects containing classes that are stored using Telerik Data Access.</summary>
+    <releaseNotes>New
+- Artificial runtime-generated assemblies can be reused - Added the ability to reuse existing runtime-generated artificial assemblies when the defined artificial types are the same. This feature will result in less redundant assemblies that are generated on the disk and should improve the performance of scenarios involving multiple artificial data models.
+- Introduced option to enable/disable saving artificial assemblies on the disk - You can use RuntimeConfiguration.WriteArtificialTypesToDisk to control whether any runtime-created assemblies will be written to the disk or kept just in memory.
+
+Fixed
+- Removed potential unhandled NullReferenceException - In certain LINQ queries involving usage of EXISTS and temporary tables there was a scenario that would cause NullReferenceException.
+- Wrong detection of GetObjectByKey when using LINQ query with filter by the primary key and a boolean flag - Queries like context.Orders.Single(o =&gt; o.OrderId == id &amp;&amp; o.IsActive) previously would result in incorrect behavior because the boolean filter was ignored.
+
+NOTE: These Release Notes include only the runtime changes in the particular Telerik Data Access release. For the full list of changes please refer to the Telerik web site ( http://www.telerik.com/support/whats-new/data-access/release-history ).</releaseNotes>
+    <copyright>Copyright (C) 1996-2015 Telerik AD</copyright>
+    <language>en-US</language>
+    <tags>ORM Fluent CodeOnly Entity Mapping DataAccess Database DAL</tags>
+    <dependencies>
+      <dependency id="Telerik.DataAccess.Core" version="[2015.1.225.1]" />
+    </dependencies>
+  </metadata>
+</package>

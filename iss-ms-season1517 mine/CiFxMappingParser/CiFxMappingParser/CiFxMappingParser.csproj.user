@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>--sourceMappingPath "C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CifxFiles\ui_hash_map_web.json" --englishResourcePath "C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CifxFiles\LocalizedStrings.json" --mappingToLocIdPath "C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CifxFiles\destination\web\UiToResourceID.json" --sourceConfigMappingPath "C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CifxFiles\ui_config_map_web.json" --translatedResourceFolderPath "C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CifxFiles\rawstrings" --DestinationPath "C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CifxFiles\destination\web"</StartArguments>
+    <StartWorkingDirectory>C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\bin\Debug\</StartWorkingDirectory>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+</Project>

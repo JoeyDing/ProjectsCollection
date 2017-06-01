@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Staging_SkypeLocalizationDataWModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Staging_SkypeLocalizationDataW.dbo.Staging_FabricBackup_SteelheadData' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Staging_FabricBackup_SteelheadData">
+          <Property Name="SymbolicName" Type="nvarchar(max)" />
+          <Property Name="ParserIdentifier" Type="nvarchar(max)" />
+          <Property Name="SteelheadData" Type="nvarchar(max)" />
+          <Property Name="Revision" Type="smallint" />
+          <Property Name="Deleted" Type="bit" />
+          <Property Name="Language" Type="nvarchar" MaxLength="16" />
+          <Property Name="ProjectName" Type="nvarchar(max)" />
+          <Property Name="FileName" Type="nvarchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Staging_SkypeLocalizationDataW.dbo.Staging_SteelheadDataParsed' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Staging_SteelheadDataParsed">
+          <Property Name="SymbolicName" Type="nvarchar(max)" />
+          <Property Name="ParserIdentifier" Type="nvarchar(max)" />
+          <Property Name="Revision" Type="smallint" />
+          <Property Name="Deleted" Type="bit" />
+          <Property Name="Language" Type="nvarchar" MaxLength="16" />
+          <Property Name="ProjectName" Type="nvarchar(max)" />
+          <Property Name="FileName" Type="nvarchar(max)" />
+          <Property Name="ResultDate" Type="datetime" />
+          <Property Name="Result" Type="nvarchar(max)" />
+          <Property Name="ResultLoggedBy" Type="nvarchar(max)" />
+          <Property Name="BugNumber" Type="int" />
+        </EntityType>-->
+  <EntityContainer Name="Staging_SkypeLocalizationDataWModelStoreContainer" />
+</Schema>

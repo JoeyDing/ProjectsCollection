@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SkypeIntlMonitoringModelStoreContainer" CdmEntityContainer="SkypeIntlMonitoringContext">
+    <FunctionImportMapping FunctionImportName="Fn_GetSQLJobIterationInfo" FunctionName="SkypeIntlMonitoringModel.Store.Fn_GetSQLJobIterationInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlMonitoring.Data.Fn_GetSQLJobIterationInfo_Result1">
+          <ScalarProperty Name="instance_id" ColumnName="instance_id" />
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+          <ScalarProperty Name="JobName" ColumnName="JobName" />
+          <ScalarProperty Name="run_status" ColumnName="run_status" />
+          <ScalarProperty Name="step_id" ColumnName="step_id" />
+          <ScalarProperty Name="step_name" ColumnName="step_name" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="run_date" ColumnName="run_date" />
+          <ScalarProperty Name="run_time" ColumnName="run_time" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Fn_GetSQLJobStepInfo" FunctionName="SkypeIntlMonitoringModel.Store.Fn_GetSQLJobStepInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SkypeIntlMonitoring.Data.Fn_GetSQLJobStepInfo_Result1">
+          <ScalarProperty Name="step_id" ColumnName="step_id" />
+          <ScalarProperty Name="step_name" ColumnName="step_name" />
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+          <ScalarProperty Name="last_run_outcome" ColumnName="last_run_outcome" />
+          <ScalarProperty Name="last_run_date" ColumnName="last_run_date" />
+          <ScalarProperty Name="last_run_time" ColumnName="last_run_time" />
+          <ScalarProperty Name="command" ColumnName="command" />
+          <ScalarProperty Name="Tool" ColumnName="Tool" />
+          <ScalarProperty Name="output_file_name" ColumnName="output_file_name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="LogFiles">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.LogFile">
+        <MappingFragment StoreEntitySet="LogFiles">
+          <ScalarProperty Name="FullPath" ColumnName="FullPath" />
+          <ScalarProperty Name="ToolID" ColumnName="ToolID" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SqlJobs">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.SqlJob">
+        <MappingFragment StoreEntitySet="SqlJobs">
+          <ScalarProperty Name="LastRunDuration_inMinutes" ColumnName="LastRunDuration_inMinutes" />
+          <ScalarProperty Name="Last_Run_DateTime" ColumnName="Last_Run_DateTime" />
+          <ScalarProperty Name="Last_Outcome_Message" ColumnName="Last_Outcome_Message" />
+          <ScalarProperty Name="Last_Run_Outcome" ColumnName="Last_Run_Outcome" />
+          <ScalarProperty Name="Last_Run_Duration" ColumnName="Last_Run_Duration" />
+          <ScalarProperty Name="Start_Step_ID" ColumnName="Start_Step_ID" />
+          <ScalarProperty Name="Job_Enabled" ColumnName="Job_Enabled" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SqlJobID" ColumnName="SqlJobID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SqlJobStepIterations">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.SqlJobStepIteration">
+        <MappingFragment StoreEntitySet="SqlJobStepIterations">
+          <ScalarProperty Name="ParentIterationID" ColumnName="ParentIterationID" />
+          <ScalarProperty Name="Outcome_Message" ColumnName="Outcome_Message" />
+          <ScalarProperty Name="Job_Run_Status_ID" ColumnName="Job_Run_Status_ID" />
+          <ScalarProperty Name="RunDurationMinutes" ColumnName="RunDurationMinutes" />
+          <ScalarProperty Name="RunDuration" ColumnName="RunDuration" />
+          <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+          <ScalarProperty Name="SqlJobStepID" ColumnName="SqlJobStepID" />
+          <ScalarProperty Name="SqlJobID" ColumnName="SqlJobID" />
+          <ScalarProperty Name="SqlJobStepIterationID" ColumnName="SqlJobStepIterationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SqlJobSteps">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.SqlJobStep">
+        <MappingFragment StoreEntitySet="SqlJobSteps">
+          <ScalarProperty Name="LastRunDurationMinutes" ColumnName="LastRunDurationMinutes" />
+          <ScalarProperty Name="LastRunDuration" ColumnName="LastRunDuration" />
+          <ScalarProperty Name="LastRunDateTime" ColumnName="LastRunDateTime" />
+          <ScalarProperty Name="LastRunOutcome" ColumnName="LastRunOutcome" />
+          <ScalarProperty Name="ToolID" ColumnName="ToolID" />
+          <ScalarProperty Name="Command" ColumnName="Command" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SqlJobID" ColumnName="SqlJobID" />
+          <ScalarProperty Name="SqlJobStepID" ColumnName="SqlJobStepID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tools">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.Tool">
+        <MappingFragment StoreEntitySet="Tools">
+          <ScalarProperty Name="NetworkWorkingDirectory" ColumnName="NetworkWorkingDirectory" />
+          <ScalarProperty Name="LocalWorkingDirectory" ColumnName="LocalWorkingDirectory" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ToolID" ColumnName="ToolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SqlJobLists">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.SqlJobList">
+        <MappingFragment StoreEntitySet="SqlJobList">
+          <ScalarProperty Name="JobName" ColumnName="JobName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobRunStatuses">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.JobRunStatus">
+        <MappingFragment StoreEntitySet="JobRunStatuses">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Job_Run_Status_ID" ColumnName="Job_Run_Status_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientToolsDownloads">
+      <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.ClientToolsDownload">
+        <MappingFragment StoreEntitySet="ClientToolsDownload">
+          <ScalarProperty Name="downloads" ColumnName="downloads" />
+          <ScalarProperty Name="folder_zip" ColumnName="folder_zip" />
+          <ScalarProperty Name="last_updated_datetime" ColumnName="last_updated_datetime" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="folder_binary" ColumnName="folder_binary" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="UpdateDownloadCount" FunctionName="SkypeIntlMonitoringModel.Store.UpdateDownloadCount" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,400 @@
+{
+  "QuickCallPanel.CallMultiplePeople": {
+    "accessibility_id": "एक से अधिक लोगों को कॉल करें",
+    "text": ""
+  },
+  "call_multiple_people_open_dial_pad": {
+    "accessibility_id": "कोई फ़ोन नंबर डायल करें"
+  },
+  "call_window_dial_pad_number_1": {
+    "accessibility_id": "1",
+    "text": "1"
+  },
+  "call_window_select_participants": {
+    "text": "Select participants"
+  },
+  "call_window_switch_camera": {
+    "accessibility_id": "कैमरा स्विच करें",
+    "text": "कैमरा स्विच करें"
+  },
+  "call_window_gallery_camera": {
+    "accessibility_id": "कैमरा",
+    "text": "कैमरा"
+  },
+  "call_window_accept_audio_call": {
+    "accessibility_id": "Answer call from {0} with voice only",
+    "text": ""
+  },
+  "call_window_accept_video_call": {
+    "accessibility_id": "Answer call from {0} with video",
+    "text": ""
+  },
+  "call_window_reject_call": {
+    "accessibility_id": "अस्वीकार करें",
+    "text": ""
+  },
+  "call_window_menu_toggle": {
+    "accessibility_id": "नियंत्रण टॉगल करें",
+    "text": "नियंत्रण टॉगल करें"
+  },
+  "call_window_emoji_menu_toggle": {
+    "accessibility_id": "प्रतिक्रियाएँ दिखाएँ",
+    "text": "प्रतिक्रियाएँ दिखाएँ"
+  },
+  "call_window_menu_hang_up": {
+    "accessibility_id": "कॉल समाप्त करें",
+    "text": ""
+  },
+  "CallControls.CallButtonMute": {
+    "accessibility_id": "म्यूट करें",
+    "text": ""
+  },
+  "CallControls.CallButtonSwitchCameraBackwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing backward"
+  },
+  "CallControls.CallButtonSwitchCameraForwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing forward"
+  },
+  "CallControls.CallButtonUnmuteAccessibilityLabel": {
+    "accessibility_id": "अनम्यूट करें",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOffVideoAccessibilityLabel": {
+    "accessibility_id": "Turn off video",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOnVideoAccessibilityLabel": {
+    "accessibility_id": "Turn on video",
+    "text": ""
+  },
+  "call_window_menu_speakerphone": {
+    "accessibility_id": "स्पीकर",
+    "text": "स्पीकर"
+  },
+  "call_window_menu_headset": {
+    "accessibility_id": "हेडसेट",
+    "text": "हेडसेट"
+  },
+  "capture_window_captured_picture_draw": {
+    "accessibility_id": "Pen draw with ink.",
+    "text": ""
+  },
+  "CapturePanel.MediaPickerAccessibilityLabel": {
+    "accessibility_id": "Open photo gallery",
+    "text": ""
+  },
+  "CapturePanel.SwitchCameraToFrontAccessibilityLabel": {
+    "accessibility_id": "Switch to front-facing camera"
+  },
+  "CapturePanel.SwitchCameraToBackAccessibilityLabel": {
+    "accessibility_id": "Switch to back-facing camera"
+  },
+  "HighlightsTooltipPopup.FollowTooltip": {
+    "text": "Follow some friends here"
+  },
+  "HighlightsTooltipPopup.ShareMyHighlightsTooltip": {
+    "text": "Share your highlights here"
+  },
+  "capture_window_captured_picture_add_text": {
+    "accessibility_id": "कैप्शन जोड़ें",
+    "text": "कैप्शन जोड़ें"
+  },
+  "MyHighlightsPanel.Title": {
+    "text": "Manage Highlights"
+  },
+  "capture_window_permission": {
+    "text": "आपके कैमरे तक पहुँचने के लिए Skype अनुमति दें"
+  },
+  "capture_window_accept_permissions": {
+    "accessibility_id": "कैमरा अनुमति"
+  },
+  "capture_window_send_message": {
+    "accessibility_id": "Send to {0}",
+    "text": ""
+  },
+  "capture_window_captured_media_tutorial": {
+    "text": "अपने हाइलाइट्स का साझा करें"
+  },
+  "CapturePreview.HighlightsAccessibilityLabel": {
+    "accessibility_id": "Send to Highlights",
+    "text": ""
+  },
+  "capture_window_first_time_tutorial": {
+    "text": "फ़ोटो के लिए टैप करें,वीडियो के लिए होल्ड करें"
+  },
+  "capture_window_post_to_highlights_ok": {
+    "text": "ठीक"
+  },
+  "capture_window_post_to_highlights_sent": {
+    "text": "भेजा गया"
+  },
+  "capture_window_captured_picture_add_text_element": {
+    "accessibility_id": "कैप्शन जोड़ें",
+    "text": "कैप्शन जोड़ें"
+  },
+  "capture_window_captured_picture_add_emoji": {
+    "accessibility_id": "स्टिकर्स",
+    "text": "स्टिकर्स"
+  },
+  "chat_window_call": {
+    "accessibility_id": "कॉल करें",
+    "text": "कॉल करें"
+  },
+  "call_multiple_people_start_call": {
+    "accessibility_id": "नई समूह कॉल प्रारंभ करें",
+    "text": "नई समूह कॉल प्रारंभ करें"
+  },
+  "chat_window_capture": {
+    "accessibility_id": "कैप्चर करें"
+  },
+  "CallQualityFeedback.Title": {
+    "text": "How would you rate the quality of this call?"
+  },
+  "chat_window_user_online": {
+    "text": "अभी सक्रिय करें"
+  },
+  "chat_window_user_offline": {
+    "text": "Offline"
+  },
+  "chat_window_user_do_not_disturb": {
+    "text": "परेशान न करें"
+  },
+  "chat_window_user_away": {
+    "text": "Away"
+  },
+  "chat_window_user_unknown": {
+    "text": "अज्ञात"
+  },
+  "chat_window_send_message": {
+    "accessibility_id": "संदेश भेजें",
+    "text": "संदेश भेजें"
+  },
+  "chat_window_video_call": {
+    "accessibility_id": "वीडियो कॉल",
+    "text": "वीडियो कॉल"
+  },
+  "chat_window_add_emoticon": {
+    "accessibility_id": "इमोटिकॉन पिकर खोलें",
+    "text": ""
+  },
+  "chat_window_record_audio": {
+    "accessibility_id": "संदेश रेकॉर्ड करें",
+    "text": "संदेश रेकॉर्ड करें"
+  },
+  "chat_window_send_audio_message": {
+    "accessibility_id": "ऑडियो संदेश भेजें",
+    "text": "ऑडियो संदेश भेजें"
+  },
+  "chat_window_open_location_window": {
+    "accessibility_id": "अपना स्थान शेयर करें",
+    "text": ""
+  },
+  "chat_window_open_moji_window": {
+    "accessibility_id": "मोजी पिकर खोलें",
+    "text": ""
+  },
+  "chat_window_send_moji": {
+    "accessibility_id": "Moji भेजें"
+  },
+  "chat_window_cancel_audio_message": {
+    "accessibility_id": "रिकॉर्डिंग रद्द करें",
+    "text": "रिकॉर्डिंग रद्द करें"
+  },
+  "chat_window_react_button": {
+    "accessibility_id": "इस संदेश पर प्रतिक्रिया दें",
+    "text": "इस संदेश पर प्रतिक्रिया दें"
+  },
+  "chat_window_copy_message": {
+    "text": "कॉपी करें"
+  },
+  "chat_window_message": {
+    "text": "यहाँ एक संदेश लिखें"
+  },
+  "highlights_skip_tutorial": {
+    "accessibility_id": "छोड़ें",
+    "text": "छोड़ें"
+  },
+  "highlight_window_first_time_tutorial": {
+    "text": "Welcome to Highlights!"
+  },
+  "highlights_window_my_followers": {
+    "text": "My Followers"
+  },
+  "HubHeaderPanel.MyHighlightsButtonLabel": {
+    "accessibility_id": "Manage My Highlights.",
+    "text": ""
+  },
+  "ViewMyHighlights": {
+    "text": "हाइलाइट्स"
+  },
+  "Highlights_Window_Follow_People": {
+    "accessibility_id": "Follow People"
+  },
+  "highlights_window_add_people": {
+    "text": "Add people"
+  },
+  "location_window_search_places": {
+    "accessibility_id": "स्थान खोजें",
+    "text": ""
+  },
+  "location_window_share_location": {
+    "text": ""
+  },
+  "location_window_failed_to_get_location": {
+    "text": "क्षमा करें, हम अभी आपके स्थान का पता नहीं लगा पाए."
+  },
+  "login_window_account_failure": {
+    "accessibility_id": "There was an issue looking up your account. Tap Next to try again."
+  },
+  "login_window_next_button": {
+    "accessibility_id": "अगला",
+    "id": "idSIButton9"
+  },
+  "login_window_terms_of_use": {
+    "text": "Enter password"
+  },
+  "login_window_sign_in_button": {
+    "accessibility_id": "Sign in",
+    "text": "Sign in"
+  },
+  "main_skip_tutorial": {
+    "accessibility_id": "Let’s go!",
+    "text": "Got it, let’s go!"
+  },
+  "main_confidential_accept": {
+    "text": "समझ गए! चलिए आगे बढ़ें."
+  },
+  "main_username": {
+    "accessibility_id": "Email, phone, or Skype name",
+    "text": "Email, phone, or Skype name",
+    "id": "i0116"
+  },
+  "main_password": {
+    "accessibility_id": "Password",
+    "text": "Password",
+    "id": "i0118"
+  },
+  "main_privacy_policy": {
+    "text": "अगला"
+  },
+  "main_window_action_menu": {
+    "accessibility_id": "नया वार्तालाप या संपर्क",
+    "text": "नया वार्तालाप या संपर्क"
+  },
+  "main_window_capture_tab": {
+    "accessibility_id": "Capture Tab. 3 of 3.",
+    "text": "कैप्चर करें"
+  },
+  "main_window_recents_tab": {
+    "text": "चैट"
+  },
+  "main_window_send_feedback": {
+    "accessibility_id": "प्रतिक्रिया भेजें",
+    "text": ""
+  },
+  "main_window_new_conversation_new_group": {
+    "accessibility_id": "नया समूह",
+    "text": "नया समूह",
+    "xpath": "//*[contains(@text,'New Group')]"
+  },
+  "main_window_new_conversation_new_chat": {
+    "accessibility_id": "नई चैट",
+    "text": "नई चैट",
+    "xpath": "//*[contains(@text,'New Chat')]"
+  },
+  "main_window_new_conversation_add_contact": {
+    "accessibility_id": "Skype पर लोगों को आमंत्रित करें",
+    "text": "Skype पर लोगों को आमंत्रित करें",
+    "xpath": "//*[contains(@text,'Invite People to Skype')]"
+  },
+  "main_window_new_conversation_add_bot": {
+    "accessibility_id": "बॉट्स ढूँढें",
+    "text": "बॉट्स ढूँढें",
+    "xpath": "//*[contains(@text,'Find Bots')]"
+  },
+  "main_window_new_conversation_create_group_done": {
+    "accessibility_id": "पूर्ण",
+    "text": "पूर्ण"
+  },
+  "main_window_action_menu_start_call": {
+    "accessibility_id": "Start a call",
+    "text": "Start a call",
+    "xpath": "//*[contains(@text,'Start a call')]"
+  },
+  "main_window_back_navigation": {
+    "accessibility_id": "वापस",
+    "text": "वापस"
+  },
+  "main_window_exit_navigation": {
+    "accessibility_id": "बंद करें"
+  },
+  "QuickCallPanel.CloseButtonAccessibilityLabel": {
+    "accessibility_id": "Close calls"
+  },
+  "main_window_cancel_navigation": {
+    "accessibility_id": "रद्द करें",
+    "text": "रद्द करें"
+  },
+  "main_window_capture_flash": {
+    "accessibility_id": "फ़्लैश",
+    "text": "फ़्लैश"
+  },
+  "main_window_hightlights_tab": {
+    "accessibility_id": "No new highlights. Tab. 1 of 3.",
+    "text": "हाइलाइट्स"
+  },
+  "main_pre_login_button": {
+    "accessibility_id": "लॉग इन करें",
+    "text": "लॉग इन करें"
+  },
+  "main_window_new_conversation_user_search": {
+    "accessibility_id": "Skype खोजें",
+    "text": "Skype खोजें"
+  },
+  "main_window_new_conversation_contact_search": {
+    "accessibility_id": "लोग",
+    "text": "लोग"
+  },
+  "main_window_new_conversation_contact_search_bar": {
+    "accessibility_id": "लोग और समूह खोजें",
+    "text": "लोग और समूह खोजें"
+  },
+  "SearchInputControl.ClearTextAccessibilityLabel": {
+    "accessibility_id": "Clear search text",
+    "text": ""
+  },
+  "main_window_new_conversation_chat_person_search": {
+    "accessibility_id": "लोग और बॉट्स खोजें",
+    "text": "लोग और बॉट्स खोजें"
+  },
+  "main_window_new_conversation_name_group": {
+    "accessibility_id": "Chat Name: null",
+    "text": "चैट का नाम"
+  },
+  "main_window_new_conversation_name_group_next": {
+    "accessibility_id": "अगला, सक्षम",
+    "text": "अगला"
+  },
+  "my_highlights_confirm_upload_successful": {
+    "text": ".*minutes.*|.*minute ago.*|.*Just now.*"
+  },
+  "no_internet_pre_login": {
+    "text": "Unable to sign in, please check your internet connection and try again."
+  },
+  "profile_window_view_photo": {
+    "text": "फ़ोटो देखें"
+  },
+  "profile_window_signout": {
+    "accessibility_id": "लॉग आउट",
+    "text": "लॉग आउट"
+  },
+  "profile_window_upload_photo": {
+    "text": "फोटो अपलोड करें"
+  },
+  "profile_window_remove_photo": {
+    "text": "फ़ोटो निकालें"
+  },
+  "send_feedback_window_include_user_data": {
+    "text": "लॉग फाइल्स और ऐप स्क्रीनशॉट शामिल करें."
+  }
+}

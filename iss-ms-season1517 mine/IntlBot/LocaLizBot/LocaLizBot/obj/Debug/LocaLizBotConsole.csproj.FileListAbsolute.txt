@@ -1,0 +1,6 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\IntlBot\LocaLizBot\LocaLizBot\bin\Debug\LocaLizBot.exe.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\IntlBot\LocaLizBot\LocaLizBot\bin\Debug\LocaLizBot.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\IntlBot\LocaLizBot\LocaLizBot\bin\Debug\LocaLizBot.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\IntlBot\LocaLizBot\LocaLizBot\obj\Debug\LocaLizBotConsole.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\IntlBot\LocaLizBot\LocaLizBot\obj\Debug\LocaLizBot.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\IntlBot\LocaLizBot\LocaLizBot\obj\Debug\LocaLizBot.pdb

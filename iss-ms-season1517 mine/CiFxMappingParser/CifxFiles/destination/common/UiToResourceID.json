@@ -1,0 +1,376 @@
+{
+  "call_multiple_people_open_dial_pad": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "Pstn|OpenDialpadButtonAccessibilityLabel"
+    }
+  ],
+  "call_window_reject_call": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonDeclineAccessibilityLabel"
+    }
+  ],
+  "call_window_menu_toggle": [
+    {
+      "Property": "text",
+      "ResourceId": "CallControls|CallButtonToggle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonToggle"
+    }
+  ],
+  "call_window_emoji_menu_toggle": [
+    {
+      "Property": "text",
+      "ResourceId": "ReactionsStream|ReactionBarOpenDrawerTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "ReactionsStream|ReactionBarOpenDrawerTitle"
+    }
+  ],
+  "call_window_menu_hang_up": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonEndCall"
+    }
+  ],
+  "call_window_menu_speakerphone": [
+    {
+      "Property": "text",
+      "ResourceId": "CallControls|CallButtonSpeaker"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonSpeaker"
+    }
+  ],
+  "call_window_menu_headset": [
+    {
+      "Property": "text",
+      "ResourceId": "CallControls|CallButtonHeadset"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonHeadset"
+    }
+  ],
+  "capture_window_permission": [
+    {
+      "Property": "text",
+      "ResourceId": "CapturePermissions|PermissionCameraPrePrompt"
+    }
+  ],
+  "capture_window_accept_permissions": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CapturePanel|CameraPermissionTitle"
+    }
+  ],
+  "capture_window_captured_media_tutorial": [
+    {
+      "Property": "text",
+      "ResourceId": "CapturePreview|HighlightsButtonTooltip"
+    }
+  ],
+  "capture_window_first_time_tutorial": [
+    {
+      "Property": "text",
+      "ResourceId": "CapturePanel|CaptureButtonTooltip"
+    }
+  ],
+  "capture_window_post_to_highlights_sent": [
+    {
+      "Property": "text",
+      "ResourceId": "MoneyNode|TransferSent"
+    }
+  ],
+  "capture_window_captured_picture_add_emoji": [
+    {
+      "Property": "text",
+      "ResourceId": "CapturePreview|AddStickersTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CapturePreview|AddStickersTitle"
+    }
+  ],
+  "call_multiple_people_start_call": [
+    {
+      "Property": "text",
+      "ResourceId": "QuickCallPanel|StartCallHoverText"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "QuickCallPanel|StartCallHoverText"
+    }
+  ],
+  "chat_window_user_online": [
+    {
+      "Property": "text",
+      "ResourceId": "UserPresence|ActiveCaps"
+    }
+  ],
+  "chat_window_video_call": [
+    {
+      "Property": "text",
+      "ResourceId": "ContentPanelHeader|VideoCallButtonTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "ContentPanelHeader|VideoCallButtonTitle"
+    }
+  ],
+  "chat_window_add_emoticon": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "MediaBar|EmoticonPickerTitle"
+    }
+  ],
+  "chat_window_record_audio": [
+    {
+      "Property": "text",
+      "ResourceId": "MessageComposer|RecordButtonTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "MessageComposer|RecordButtonTitle"
+    }
+  ],
+  "chat_window_send_audio_message": [
+    {
+      "Property": "text",
+      "ResourceId": "AudioMessageComposer|SendButtonTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "AudioMessageComposer|SendButtonTitle"
+    }
+  ],
+  "chat_window_open_location_window": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "MediaBar|LocationPickerTitle"
+    }
+  ],
+  "chat_window_open_moji_window": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "MediaBar|MojiPickerTitle"
+    }
+  ],
+  "chat_window_send_moji": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "Moji|SendButtonTitle"
+    }
+  ],
+  "chat_window_cancel_audio_message": [
+    {
+      "Property": "text",
+      "ResourceId": "AudioMessageComposer|CancelButtonTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "AudioMessageComposer|CancelButtonTitle"
+    }
+  ],
+  "chat_window_react_button": [
+    {
+      "Property": "text",
+      "ResourceId": "StreamItem|ReactButtonTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "StreamItem|ReactButtonTitle"
+    }
+  ],
+  "chat_window_message": [
+    {
+      "Property": "text",
+      "ResourceId": "MessageComposer|MessagePlaceholderText"
+    }
+  ],
+  "highlights_skip_tutorial": [
+    {
+      "Property": "text",
+      "ResourceId": "Global|SkipLabel"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "Global|SkipLabel"
+    }
+  ],
+  "highlight_window_first_time_tutorial": [
+    {
+      "Property": "text",
+      "ResourceId": "HighlightsFrePanel|Title"
+    }
+  ],
+  "location_window_search_places": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "LocationPicker|SearchPlacesPlaceholder"
+    }
+  ],
+  "location_window_failed_to_get_location": [
+    {
+      "Property": "text",
+      "ResourceId": "LocationPicker|UnableToFetchLocationMessage"
+    }
+  ],
+  "main_confidential_accept": [
+    {
+      "Property": "text",
+      "ResourceId": "MicrosoftConfidentialDialog|ButtonText"
+    }
+  ],
+  "main_window_action_menu": [
+    {
+      "Property": "text",
+      "ResourceId": "HubHeaderPanel|NewConversationOrContactTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "HubHeaderPanel|NewConversationOrContactTitle"
+    }
+  ],
+  "main_window_capture_flash": [
+    {
+      "Property": "text",
+      "ResourceId": "CapturePanel|ToggleFlashButtonAccessibilityLabel"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CapturePanel|ToggleFlashButtonAccessibilityLabel"
+    }
+  ],
+  "main_window_new_conversation_name_group": [
+    {
+      "Property": "text",
+      "ResourceId": "SetConversationInfoPanel|ConversationNamePlaceHolder"
+    }
+  ],
+  "main_window_new_conversation_name_group_next": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "SetConversationInfoPanel|NextButtonEnabledLabel"
+    }
+  ],
+  "profile_window_view_photo": [
+    {
+      "Property": "text",
+      "ResourceId": "MyProfilePanel|ViewPhoto"
+    }
+  ],
+  "profile_window_upload_photo": [
+    {
+      "Property": "text",
+      "ResourceId": "MyProfilePanel|UploadPhoto"
+    }
+  ],
+  "profile_window_remove_photo": [
+    {
+      "Property": "text",
+      "ResourceId": "MyProfilePanel|RemovePhoto"
+    }
+  ],
+  "send_feedback_window_include_user_data": [
+    {
+      "Property": "text",
+      "ResourceId": "FeedbackMechanism|IncludeLogsAndScreenshot"
+    }
+  ],
+  "callcontrols.callbuttonswitchcamerabackwardaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonSwitchCameraBackwardAccessibilityLabel"
+    }
+  ],
+  "callcontrols.callbuttonswitchcameraforwardaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonSwitchCameraForwardAccessibilityLabel"
+    }
+  ],
+  "callcontrols.callbuttonturnoffvideoaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonTurnOffVideoAccessibilityLabel"
+    }
+  ],
+  "callcontrols.callbuttonturnonvideoaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CallControls|CallButtonTurnOnVideoAccessibilityLabel"
+    }
+  ],
+  "capturepanel.mediapickeraccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CapturePanel|MediaPickerAccessibilityLabel"
+    }
+  ],
+  "capturepanel.switchcameratofrontaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CapturePanel|SwitchCameraToFrontAccessibilityLabel"
+    }
+  ],
+  "capturepanel.switchcameratobackaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CapturePanel|SwitchCameraToBackAccessibilityLabel"
+    }
+  ],
+  "highlightstooltippopup.followtooltip": [
+    {
+      "Property": "text",
+      "ResourceId": "HighlightsTooltipPopup|FollowTooltip"
+    }
+  ],
+  "highlightstooltippopup.sharemyhighlightstooltip": [
+    {
+      "Property": "text",
+      "ResourceId": "HighlightsTooltipPopup|ShareMyHighlightsTooltip"
+    }
+  ],
+  "capturepreview.highlightsaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "CapturePreview|HighlightsAccessibilityLabel"
+    }
+  ],
+  "callqualityfeedback.title": [
+    {
+      "Property": "text",
+      "ResourceId": "CallQualityFeedback|Title"
+    }
+  ],
+  "hubheaderpanel.myhighlightsbuttonlabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "HubHeaderPanel|MyHighlightsButtonLabel"
+    }
+  ],
+  "highlights_window_follow_people": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "HighlightsFollow|FollowPeopleLabel"
+    }
+  ],
+  "quickcallpanel.closebuttonaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "QuickCallPanel|CloseButtonAccessibilityLabel"
+    }
+  ],
+  "searchinputcontrol.cleartextaccessibilitylabel": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "SearchInputControl|ClearTextAccessibilityLabel"
+    }
+  ]
+}

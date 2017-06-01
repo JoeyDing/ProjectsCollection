@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsoApi.TestConsole", "VsoApi.TestConsole\VsoApi.TestConsole.csproj", "{D521A3E0-C945-4BDB-AFD6-E9E6A1C48DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsoApi.TFS", "VsoApi.TFS\VsoApi.TFS.csproj", "{AE228AF4-BC87-4E96-B910-5038EA498C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsoApi.Rest", "VsoApi.Rest\VsoApi.Rest.csproj", "{04CA8864-B8EA-4A56-AFB0-83DC921B1D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsoApi.UnitTest", "VsoApi.UnitTest\VsoApi.UnitTest.csproj", "{BDC1AB68-12E9-48BC-ACC5-3265843FE7F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3394267C-54AF-428A-81DF-60331F1F1290}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsoApi.Report.Wpf", "VsoApi.Report.Wpf\VsoApi.Report.Wpf.csproj", "{BF2E1FE7-0CA6-49FA-AE61-BE5BDF923E8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{864472C7-735E-4655-A8DF-0AB0A442FA99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{CF025B24-70CE-4092-AF92-C10E14987C73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D521A3E0-C945-4BDB-AFD6-E9E6A1C48DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D521A3E0-C945-4BDB-AFD6-E9E6A1C48DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D521A3E0-C945-4BDB-AFD6-E9E6A1C48DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D521A3E0-C945-4BDB-AFD6-E9E6A1C48DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE228AF4-BC87-4E96-B910-5038EA498C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE228AF4-BC87-4E96-B910-5038EA498C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE228AF4-BC87-4E96-B910-5038EA498C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE228AF4-BC87-4E96-B910-5038EA498C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04CA8864-B8EA-4A56-AFB0-83DC921B1D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CA8864-B8EA-4A56-AFB0-83DC921B1D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CA8864-B8EA-4A56-AFB0-83DC921B1D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CA8864-B8EA-4A56-AFB0-83DC921B1D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC1AB68-12E9-48BC-ACC5-3265843FE7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC1AB68-12E9-48BC-ACC5-3265843FE7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC1AB68-12E9-48BC-ACC5-3265843FE7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC1AB68-12E9-48BC-ACC5-3265843FE7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2E1FE7-0CA6-49FA-AE61-BE5BDF923E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2E1FE7-0CA6-49FA-AE61-BE5BDF923E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2E1FE7-0CA6-49FA-AE61-BE5BDF923E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2E1FE7-0CA6-49FA-AE61-BE5BDF923E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D521A3E0-C945-4BDB-AFD6-E9E6A1C48DCC} = {864472C7-735E-4655-A8DF-0AB0A442FA99}
+		{AE228AF4-BC87-4E96-B910-5038EA498C1C} = {CF025B24-70CE-4092-AF92-C10E14987C73}
+		{04CA8864-B8EA-4A56-AFB0-83DC921B1D4F} = {CF025B24-70CE-4092-AF92-C10E14987C73}
+		{BDC1AB68-12E9-48BC-ACC5-3265843FE7F5} = {864472C7-735E-4655-A8DF-0AB0A442FA99}
+		{BF2E1FE7-0CA6-49FA-AE61-BE5BDF923E8F} = {864472C7-735E-4655-A8DF-0AB0A442FA99}
+	EndGlobalSection
+EndGlobal

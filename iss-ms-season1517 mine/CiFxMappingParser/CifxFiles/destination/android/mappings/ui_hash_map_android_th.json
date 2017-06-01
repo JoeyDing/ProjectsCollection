@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"พิมพ์ข้อความที่นี่\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "แชร์โพรไฟล์",
+    "accessibility_id": "แชร์โพรไฟล์"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"ห้ามรบกวน\")).index(1)",
+    "text": "ห้ามรบกวน"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"ค้นหาบุคคลและกลุ่ม|ค้นหาบุคคลและกลุ่ม\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"ค้นหาบุคคลและบอท|ค้นหาบุคคลและบอท\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"ค้นหาบอท|ค้นหาทาง Skype|เมื่อต้องการตอบคำถามของคุณและเพิ่มเติมมากมาย ช่วยให้คุณจำสิ่งสำคัญได้ ให้ Cortana รวบรวมและใช้ข้อมูล รวมถึง: \n\nตำแหน่งที่ตั้งและประวัติตำแหน่งที่ตั้งประวัติ\n\nที่ติดต่อ รายละเอียดปฏิทิน และเนื้อหาและประวัติการสื่อสารของคุณจากข้อความ ข้อความโต้ตอบแบบทันที และประวัติการค้นหา\n\nแอป และข้อมูลอื่น ๆ บนอุปกรณ์ของคุณเพื่อทำให้ประสบการณ์ของคุณเป็นส่วนตัวยิ่งขึ้น|ค้นหาเว็บ|ค้นหาเว็บ|ค้นหาไฟล์|ค้นหาบุคคล|ค้นหาทาง Skype|ค้นหาสถานที่|ค้นหาบุคคลและบอท|ค้นหา|ค้นหาบุคคลและกลุ่ม|ค้นหาบุคคล|ค้นหาทาง Skype|ค้นหา|ค้นหาบอท|ค้นหาบุคคล|ค้นหาบุคคลและบอท|ค้นหาบุคคลและกลุ่ม\")",
+    "text": "ค้นหา"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"ค้นหาบุคคล|ค้นหาบุคคลและบอท|ค้นหาบุคคลและกลุ่ม|ค้นหาบุคคล|ค้นหาบุคคล|ค้นหาบุคคลและบอท|ค้นหาบุคคลและกลุ่ม\")",
+    "text": "ค้นหาบุคคล"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"ค้นหาบอท|ค้นหาทาง Skype|เมื่อต้องการตอบคำถามของคุณและเพิ่มเติมมากมาย ช่วยให้คุณจำสิ่งสำคัญได้ ให้ Cortana รวบรวมและใช้ข้อมูล รวมถึง: \n\nตำแหน่งที่ตั้งและประวัติตำแหน่งที่ตั้งประวัติ\n\nที่ติดต่อ รายละเอียดปฏิทิน และเนื้อหาและประวัติการสื่อสารของคุณจากข้อความ ข้อความโต้ตอบแบบทันที และประวัติการค้นหา\n\nแอป และข้อมูลอื่น ๆ บนอุปกรณ์ของคุณเพื่อทำให้ประสบการณ์ของคุณเป็นส่วนตัวยิ่งขึ้น|ค้นหาเว็บ|ค้นหาเว็บ|ค้นหาไฟล์|ค้นหาบุคคล|ค้นหาทาง Skype|ค้นหาสถานที่|ค้นหาบุคคลและบอท|ค้นหา|ค้นหาบุคคลและกลุ่ม|ค้นหาบุคคล|ค้นหาทาง Skype|ค้นหา|ค้นหาบอท|ค้นหาบุคคล|ค้นหาบุคคลและบอท|ค้นหาบุคคลและกลุ่ม\")",
+    "text": "ค้นหา"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "การตั้งค่า"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"ออกจากระบบ\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"เกี่ยวกับ\")",
+    "text": "เกี่ยวกับ"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} นาที หมดอายุ {expireDate}|ไม่สามารถติดต่อบริการ Cortana ได้ โปรดลองอีกครั้งในอีกสักครู่|{hours} ชั่วโมง {minutes} นาที {seconds} วินาที|{hours} ชั่วโมง {minutes} นาที|{minutes} นาที|{minutes} นาที {seconds} วินาที|{count} นาที|{count, plural, =1{1 นาทีที่ผ่านมา} other{# นาทีที่ผ่านมา}}|{minutes}m|{count, plural, =1{1 นาทีที่ผ่านมา} other{# นาทีที่ผ่านมา}}|{count, plural, =1{1 นาทีที่ผ่านมา} other{# นาทีที่ผ่านมา}}\")",
+    "text": "{minutes} นาที หมดอายุ {expireDate}|ไม่สามารถติดต่อบริการ Cortana ได้ โปรดลองอีกครั้งในอีกสักครู่|{hours} ชั่วโมง {minutes} นาที {seconds} วินาที|{hours} ชั่วโมง {minutes} นาที|{minutes} นาที|{minutes} นาที {seconds} วินาที|{count} นาที|{count, plural, =1{1 นาทีที่ผ่านมา} other{# นาทีที่ผ่านมา}}|{minutes}m|{count, plural, =1{1 นาทีที่ผ่านมา} other{# นาทีที่ผ่านมา}}|{count, plural, =1{1 นาทีที่ผ่านมา} other{# นาทีที่ผ่านมา}}"
+  }
+}

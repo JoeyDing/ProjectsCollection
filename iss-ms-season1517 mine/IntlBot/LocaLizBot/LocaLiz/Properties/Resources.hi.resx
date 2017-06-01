@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnswerNo" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="AnswerYes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="Capabilities" xml:space="preserve">
+    <value>मैं अपनी मूल भाषा में की समीक्षा करें और आप बेहतर अनुवाद सुझाएँ करने के लिए परिवर्तन की पेशकश करने के लिए तार के साथ आप प्रदान कर सकते हैं!</value>
+  </data>
+  <data name="ContactAdded" xml:space="preserve">
+    <value>अरे, मेरे नए दोस्त! Skype की imporve स्थानीयकरण गुणवत्ता देता है!</value>
+  </data>
+  <data name="DiscoverUser" xml:space="preserve">
+    <value>मैं आप के बारे में अधिक जानने के लिए की तरह होगा!</value>
+  </data>
+  <data name="DiscoverUserGoodReponse" xml:space="preserve">
+    <value>तो क्या आप {1} भाषा के मास्टर हैं</value>
+  </data>
+  <data name="DiscoverUserLanguageGood" xml:space="preserve">
+    <value>क्या भाषाएँ, कि आप बहुत अच्छे स्तर पर मास्टर हैं?</value>
+  </data>
+  <data name="DiscoverUserLanguageNative" xml:space="preserve">
+    <value>अपने देशी भाषा क्या है?</value>
+  </data>
+  <data name="DiscoverUserNativeResponce" xml:space="preserve">
+    <value>क्या मैं समझ से अपने मूल भाषा है {0}</value>
+  </data>
+  <data name="DiscoverUserQualityJudge" xml:space="preserve">
+    <value>आप वर्तमान {0} और {1} भाषाओं के बीच अनुवाद की गुणवत्ता पर जज को चाहेंगे?</value>
+    <comment>Placeholders replaced with language names. For example: {0} - english, {1}  -latvian</comment>
+  </data>
+  <data name="Hack42" xml:space="preserve">
+    <value>जीवन, ब्रह्मांड, और सब कुछ का अर्थ</value>
+  </data>
+  <data name="QualityCompareStrings" xml:space="preserve">
+    <value>कृपया चिह्न रखें (1-10, 10 - 1 - सबसे बुरा और सबसे अच्छा के साथ) {0} भाषा अनुवाद की गुणवत्ता पर वाक्यांश '{1}' (id {2}) {4} भाषा में '{3}' के रूप में अनुवाद किया है!</value>
+  </data>
+  <data name="QualityExcelent" xml:space="preserve">
+    <value>वाह! यह बढ़िया लगता है! हम एक कुकी अनुवादकों को दे देंगे। धन्यवाद!</value>
+  </data>
+  <data name="QualityMedicore" xml:space="preserve">
+    <value>यह प्रचलित है। आप बेहतर कुछ सुझाव देना चाहेंगे?</value>
+  </data>
+  <data name="QualityYouCanBetter" xml:space="preserve">
+    <value>आहा, यह बहुत बुरा है। आप बेहतर अनुवाद सुझाएँ कर सकते हैं?</value>
+  </data>
+  <data name="RemovedContact" xml:space="preserve">
+    <value>आप सभी मछली के लिए धन्यवाद!</value>
+  </data>
+  <data name="StatusReport" xml:space="preserve">
+    <value>Not Started</value>
+  </data>
+  <data name="StatusReportAnswer" xml:space="preserve">
+    <value>आप अनुवाद {0} और {1} भाषा जोड़े की समीक्षा की</value>
+  </data>
+  <data name="StatusReportExtendedAnswer" xml:space="preserve">
+    <value>आप अनुवाद {0} और {1} भाषा जोड़े की समीक्षा की है। {2} अपने अनुवाद के उत्पादन में इस्तेमाल कर रहे हैं! बढ़िया काम!</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>शुक्रिया, आपके योगदान आप और अन्य उपयोगकर्ताओं के लिए एक बेहतर उपयोगकर्ता expirence कर देगा!</value>
+  </data>
+  <data name="ContinueWithEvaluations" xml:space="preserve">
+    <value>आप अनुवाद का मूल्यांकन के साथ जारी रखने के लिए चाहते हैं?</value>
+  </data>
+  <data name="EvaluateString_Bad_Action" xml:space="preserve">
+    <value>भयानक। मैं बेहतर अनुवाद कर सकते हैं!</value>
+  </data>
+  <data name="EvaluateString_Best_Action" xml:space="preserve">
+    <value>बहुत बढ़िया अनुवाद</value>
+  </data>
+  <data name="EvaluateString_Medium_Action" xml:space="preserve">
+    <value>यह ठीक अनुवाद है</value>
+  </data>
+  <data name="EvaluateString_Source" xml:space="preserve">
+    <value>स्रोत '{0}' {1} से एक अनुवाद का मूल्यांकन</value>
+  </data>
+  <data name="Evaluate_EnterSuggestion" xml:space="preserve">
+    <value>कृपया प्रकार-आपके सुझाव में! और उसके बाद दबाएँ Enter (संदेश भेजें)</value>
+  </data>
+  <data name="Evaluate_Init" xml:space="preserve">
+    <value>आप कुछ अनुवाद की गुणवत्ता का मूल्यांकन करने के लिए चाहते हैं?</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>अरे, नया दोस्त! मैं LocaLiz हूँ। आप अनुवाद की गुणवत्ता पर फीडबैक देने के साथ मेरी मदद करो। </value>
+  </data>
+  <data name="Command_DoNotUnderstandLangauge" xml:space="preserve">
+    <value>क्षमा करें कि भाषा बोलते नहीं :(</value>
+  </data>
+  <data name="Command_In_What_Language" xml:space="preserve">
+    <value>किस भाषा में आप मेरे साथ बात करने के लिए चाहते हैं?</value>
+  </data>
+  <data name="Command_Select_One" xml:space="preserve">
+    <value>एक भाषा चुनें</value>
+  </data>
+  <data name="Command_SwtichToLanguage" xml:space="preserve">
+    <value>Oki-नाड़ी-अब {0} के लिए स्विचन</value>
+  </data>
+  <data name="Discover_Female" xml:space="preserve">
+    <value>महिला</value>
+  </data>
+  <data name="Discover_Male" xml:space="preserve">
+    <value>पुरुष</value>
+  </data>
+  <data name="Discover_Other" xml:space="preserve">
+    <value>अन्य</value>
+  </data>
+  <data name="Discover_Unspecified" xml:space="preserve">
+    <value>अनिर्दिष्ट</value>
+  </data>
+  <data name="Discover_What_Gender" xml:space="preserve">
+    <value>आपका लिंग क्या है?</value>
+  </data>
+</root>

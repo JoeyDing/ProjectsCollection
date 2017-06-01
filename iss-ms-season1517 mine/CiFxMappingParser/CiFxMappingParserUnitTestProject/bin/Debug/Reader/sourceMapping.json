@@ -1,0 +1,10 @@
+﻿{
+  "mk_aboutText": {
+    "text": "about title"
+  },
+  "main_password": {
+    "text": "Password",
+    "id": "i0118",
+    "accessibility_id": "Password1"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Type a message here\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Share profile",
+    "accessibility_id": "Share profile"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Do not disturb\")).index(1)",
+    "text": "Do not disturb"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Search People and Groups|Search People and Groups\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Search People and Bots|Search People and Bots\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Search bots|Search Skype|To answer your questions, help you remember what’s important, and much more, let Cortana collect and use information including your:\n\nLocation and location history\n\nContacts, calendar details, and content and communication history from messages, instant messages, and apps\n\nSearch history and other info on your device to make your experience more personal|Search the web|Search the web|Search files|Search People|Search Skype|Search places|Search People and Bots|Search|Search People and Groups|Search People|Search Skype|Search|Search bots|Search People|Search People and Bots|Search People and Groups\")",
+    "text": "Search"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Search People|Search People and Bots|Search People and Groups|Search People|Search People|Search People and Bots|Search People and Groups\")",
+    "text": "Search People"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Search bots|Search Skype|To answer your questions, help you remember what’s important, and much more, let Cortana collect and use information including your:\n\nLocation and location history\n\nContacts, calendar details, and content and communication history from messages, instant messages, and apps\n\nSearch history and other info on your device to make your experience more personal|Search the web|Search the web|Search files|Search People|Search Skype|Search places|Search People and Bots|Search|Search People and Groups|Search People|Search Skype|Search|Search bots|Search People|Search People and Bots|Search People and Groups\")",
+    "text": "Search"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Settings"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Log out\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"About\")",
+    "text": "About"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} mins, expires {expireDate}|Describes subscription available minutes and expiration date|Failed to contact Cortana service. Please try again in a few minutes.|{hours}h {minutes}m {seconds}s|Label displaying number of hours, minutes and seconds for a duration.|{hours}h {minutes}m|Label displaying number of hours and minutes for a duration.|{minutes}m|Label displaying number of minutes for a duration.|{minutes}m {seconds}s|Label displaying number of minutes and seconds for a duration.|Relative time, in the future. Example: in 5 minutes|Relative time, in the past. Example: 5 minutes ago|{count} minutes|Relative time, in minutes|{count, plural, =1{1 minute ago} other{# minutes ago}}|Shows when a highlight was posted. Shown when posted 59 minutes to 1 minute ago|{minutes}m|Formatted string for the number of minutes elapsed time.|Shows when a highlight was posted. Shown when less than 1 minute ago|{count, plural, =1{1 minute ago} other{# minutes ago}}|Shows when a highlight was posted. Shown when posted 59 minutes to 1 minute ago|Shows when a highlight was posted. Shown when less than 1 minute ago|{count, plural, =1{1 minute ago} other{# minutes ago}}|Shows when a highlight was posted. Shown when posted 59 minutes to 1 minute ago\")",
+    "text": "{minutes} mins, expires {expireDate}|Describes subscription available minutes and expiration date|Failed to contact Cortana service. Please try again in a few minutes.|{hours}h {minutes}m {seconds}s|Label displaying number of hours, minutes and seconds for a duration.|{hours}h {minutes}m|Label displaying number of hours and minutes for a duration.|{minutes}m|Label displaying number of minutes for a duration.|{minutes}m {seconds}s|Label displaying number of minutes and seconds for a duration.|Relative time, in the future. Example: in 5 minutes|Relative time, in the past. Example: 5 minutes ago|{count} minutes|Relative time, in minutes|{count, plural, =1{1 minute ago} other{# minutes ago}}|Shows when a highlight was posted. Shown when posted 59 minutes to 1 minute ago|{minutes}m|Formatted string for the number of minutes elapsed time.|Shows when a highlight was posted. Shown when less than 1 minute ago|{count, plural, =1{1 minute ago} other{# minutes ago}}|Shows when a highlight was posted. Shown when posted 59 minutes to 1 minute ago|Shows when a highlight was posted. Shown when less than 1 minute ago|{count, plural, =1{1 minute ago} other{# minutes ago}}|Shows when a highlight was posted. Shown when posted 59 minutes to 1 minute ago"
+  }
+}

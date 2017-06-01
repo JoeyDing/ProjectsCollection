@@ -1,0 +1,178 @@
+﻿using SkypeIntlPortfolio.Ajax.Model;
+using SkypeIntlPortfolio.Ajax.Model.Mock;
+using SkypeIntlPortfolio.Ajax.UserControls.Eol;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Telerik.Web.UI;
+
+namespace SkypeIntlPortfolio.Ajax.UserControls.Eol
+{
+    public partial class UILanguageControl : System.Web.UI.UserControl, ICustomProjectControl, IUILanguageBridge
+    {
+        public ProductInfo ProductInfo { get; set; }
+
+        public void Refresh()
+        {
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (this.UILanguagesOfProduct == null)
+                this.UILanguagesOfProduct = new List<GetUILanguageOfProduct_Result>();
+            if (this.BasicLanguageList == null)
+                this.BasicLanguageList = new List<BasicLanguageList>();
+            if (!this.IsPostBack && this.Visible)
+            {
+                if (this.onGetUILanguage != null)
+                    this.onGetUILanguage(sender, this.UILanguagesOfProduct);
+
+                if (this.onGetBasicLanguage != null)
+                    this.onGetBasicLanguage(sender, this.BasicLanguageList);
+            }
+        }
+
+        protected void RadGridUILanguage_DetailTableDataBind(object sender, GridDetailTableDataBindEventArgs e)
+        {
+            GridDataItem dataItem = (GridDataItem)e.DetailTableView.ParentItem;
+            int fileKey = int.Parse(dataItem.GetDataKeyValue("FileKey").ToString());
+            e.DetailTableView.DataSource = this.UILanguagesOfProduct.Where(u => u.FileKey == fileKey).OrderBy(u => u.Language).ToList();
+        }
+
+        protected void RadGridUILanguage_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
+        {
+<<<<<<< HEAD:SkypeIntlPortfolio/SkypeIntlPortfolio.Ajax/UserControls/Eol/UILanguageControl.ascx.cs
+            if(onGetUILanguage!=null)
+                 this.onGetUILanguage(sender,this.UILanguagesOfProduct);
+            int startPage = this.RadGridUILanguage.CurrentPageIndex;
+=======
+            if (onGetUILanguage != null)
+                this.onGetUILanguage(sender, this.UILanguagesOfProduct);
+>>>>>>> master:SkypeIntlPortfolio/SkypeIntlPortfolio.Ajax/UserControls/Eol/UILanguage/UILanguageControl.ascx.cs
+            var uiFiles = this.UILanguagesOfProduct.Select(u => new { File_Name = u.File_Name, FileKey = u.FileKey }).Distinct().ToList();
+            this.RadGridUILanguage.DataSource = uiFiles;
+        }
+
+        protected void RadGridUILanguage_UpdateCommand(object sender, GridCommandEventArgs e)
+        {
+            var editableItem = ((GridEditableItem)e.Item);
+            var hash = new Dictionary<object, object>();
+            editableItem.ExtractValues(hash);
+
+            string sUILanguagesKey = editableItem.GetDataKeyValue("UILanguagesKey").ToString();
+            int UILanguagesKey = int.Parse(sUILanguagesKey);
+
+            DropDownList ddlLanguage = (DropDownList)editableItem.FindControl("DDLLanguage");
+            int language = int.Parse(ddlLanguage.SelectedValue);
+
+            GridDataItem parentItem = (GridDataItem)e.Item.OwnerTableView.ParentItem;
+            int fileKey = int.Parse(parentItem.GetDataKeyValue("FileKey").ToString());
+            SkypeIntlPortfolio.Ajax.UILanguage uilanguage = new UILanguage();
+            uilanguage.UILanguagesKey = UILanguagesKey;
+            uilanguage.LanguageKey = language;
+            uilanguage.Language_Released = bool.Parse(hash["Language_Released"].ToString());
+            uilanguage.Language_Blocked = bool.Parse(hash["Language_Blocked"].ToString());
+            uilanguage.Language_Planned = bool.Parse(hash["Language_Planned"].ToString());
+            uilanguage.Release_Date = DateTime.Parse(hash["Release_Date"].ToString());
+            uilanguage.Blocked_Reason = hash["Blocked_Reason"].ToString();
+            uilanguage.FileKey = fileKey;
+
+            if (this.onUpdateLanguage != null)
+                this.onUpdateLanguage(sender, uilanguage);
+        }
+
+        protected void RadGridUILanguage_ItemDataBound(object sender, GridItemEventArgs e)
+        {
+            if ((e.Item is GridEditableItem && e.Item.IsInEditMode))
+            {
+                GridEditableItem item = (GridEditableItem)e.Item;
+                DropDownList ddlLanguage = (DropDownList)item.FindControl("DDLLanguage");
+                ddlLanguage.DataSource = this.BasicLanguageList;
+                ddlLanguage.DataTextField = "Language";
+                ddlLanguage.DataValueField = "LanguageKey";
+                ddlLanguage.DataBind();
+
+                string language = (string)DataBinder.Eval(e.Item.DataItem, "Language").ToString();
+                if (!String.IsNullOrEmpty(language))
+                    ddlLanguage.SelectedValue = this.BasicLanguageList.Where(l => l.Language.Equals(language)).FirstOrDefault().LanguageKey.ToString();
+            }
+        }
+
+        protected void RadGridUILanguage_InsertCommand(object sender, GridCommandEventArgs e)
+        {
+            if ((e.Item is GridEditableItem && e.Item.IsInEditMode))
+            {
+                var editableItem = ((GridEditableItem)e.Item);
+                var hash = new Dictionary<object, object>();
+                editableItem.ExtractValues(hash);
+
+                SkypeIntlPortfolio.Ajax.UILanguage uilanguage = new SkypeIntlPortfolio.Ajax.UILanguage();
+                DropDownList ddlLanguage = (DropDownList)editableItem.FindControl("DDLLanguage");
+                int language = int.Parse(ddlLanguage.SelectedValue);
+
+                GridDataItem parentItem = (GridDataItem)e.Item.OwnerTableView.ParentItem;
+                int fileKey = int.Parse(parentItem.GetDataKeyValue("FileKey").ToString());
+                uilanguage.LanguageKey = language;
+                uilanguage.FileKey = fileKey;
+                uilanguage.Language_Released = bool.Parse(hash["Language_Released"].ToString());
+                uilanguage.Language_Blocked = bool.Parse(hash["Language_Blocked"].ToString());
+                uilanguage.Language_Planned = bool.Parse(hash["Language_Planned"].ToString());
+                uilanguage.Release_Date = DateTime.Parse(hash["Release_Date"].ToString());
+                uilanguage.Blocked_Reason = hash["Blocked_Reason"] == null ? "" : hash["Blocked_Reason"].ToString();
+
+                if (this.onInsertLanguage != null)
+                    this.onInsertLanguage(sender, uilanguage);
+            }
+        }
+
+        protected void RadGridUILanguage_ItemCommand1(object sender, GridCommandEventArgs e)
+        {
+            if (e.CommandName.Equals("Delete"))
+            {
+                var editableItem = ((GridEditableItem)e.Item);
+                string sUILanguagesKey = editableItem.GetDataKeyValue("UILanguagesKey").ToString();
+                int UILanguagesKey = int.Parse(sUILanguagesKey);
+
+                if (this.onDeleteLanguage != null)
+                    this.onDeleteLanguage(sender, UILanguagesKey);
+            }
+        }
+
+        public List<GetUILanguageOfProduct_Result> UILanguagesOfProduct
+        {
+            get
+            {
+                return this.ViewState["UILanguageOfProduct_Result"] as List<GetUILanguageOfProduct_Result>;
+            }
+            set
+            {
+                this.ViewState["UILanguageOfProduct_Result"] = value;
+            }
+        }
+
+        public List<BasicLanguageList> BasicLanguageList
+        {
+            get
+            {
+                return this.ViewState["BasicLanguageList"] as List<BasicLanguageList>;
+            }
+            set
+            {
+                this.ViewState["BasicLanguageList"] = value;
+            }
+        }
+
+        public event EventHandler<UILanguage> onUpdateLanguage;
+
+        public event EventHandler<UILanguage> onInsertLanguage;
+
+        public event EventHandler<List<GetUILanguageOfProduct_Result>> onGetUILanguage;
+
+        public event EventHandler<List<BasicLanguageList>> onGetBasicLanguage;
+
+        public event EventHandler<int> onDeleteLanguage;
+    }
+}

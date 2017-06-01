@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnswerNo" xml:space="preserve">
+    <value>Nē</value>
+  </data>
+  <data name="AnswerYes" xml:space="preserve">
+    <value>Jā</value>
+  </data>
+  <data name="Capabilities" xml:space="preserve">
+    <value>Novērtējiet tulkojumus savā dzimtajā valodā un piedāvājiet labākus!</value>
+  </data>
+  <data name="Command_DoNotUnderstandLangauge" xml:space="preserve">
+    <value>Diemžēl nerunāju šajā valodā :(</value>
+  </data>
+  <data name="Command_In_What_Language" xml:space="preserve">
+    <value>Kādā valodā vēlēties runāt ar mani?</value>
+  </data>
+  <data name="Command_Select_One" xml:space="preserve">
+    <value>Izvēlēties vienu valodu!</value>
+  </data>
+  <data name="Command_SwtichToLanguage" xml:space="preserve">
+    <value>Oki-doki, tagad runāsim {0} valodā</value>
+  </data>
+  <data name="ContactAdded" xml:space="preserve">
+    <value>Hei, mans jaunais draugs! Ļauj uzlabot lokalizāciju Skype!</value>
+  </data>
+  <data name="ContinueWithEvaluations" xml:space="preserve">
+    <value>Vai vēlies novērtēt tulkojumu?</value>
+  </data>
+  <data name="DiscoverUser" xml:space="preserve">
+    <value>Es vēlētos uzzināt vairāk par jums!</value>
+  </data>
+  <data name="DiscoverUserGoodReponse" xml:space="preserve">
+    <value>Tātad jūs esat {1} valodas meistars.</value>
+  </data>
+  <data name="DiscoverUserLanguageGood" xml:space="preserve">
+    <value>Kādas ir valodas, ka vispārējo ļoti labā līmenī?</value>
+  </data>
+  <data name="DiscoverUserLanguageNative" xml:space="preserve">
+    <value>Kāda ir jūsu dzimtā valoda?</value>
+  </data>
+  <data name="DiscoverUserNativeResponce" xml:space="preserve">
+    <value>No ko es sapratu jūsu dzimtā valoda ir {0}.</value>
+  </data>
+  <data name="DiscoverUserQualityJudge" xml:space="preserve">
+    <value>Vai jūs vēlētos spriest pašreizējā tulkojuma kvalitāti līdz {0} {1}?</value>
+    <comment>Placeholders replaced with language names. For example: {0} - english, {1}  -latvian</comment>
+  </data>
+  <data name="Discover_Female" xml:space="preserve">
+    <value>Sieviete</value>
+  </data>
+  <data name="Discover_Male" xml:space="preserve">
+    <value>Vīrietis</value>
+  </data>
+  <data name="Discover_Other" xml:space="preserve">
+    <value>Cits</value>
+  </data>
+  <data name="Discover_Unspecified" xml:space="preserve">
+    <value>Nenorādīts</value>
+  </data>
+  <data name="Discover_What_Gender" xml:space="preserve">
+    <value>Kāda ir jūsu dzimums?</value>
+  </data>
+  <data name="EvaluateString_Bad_Action" xml:space="preserve">
+    <value>Briesmīgi. Es varu labāk!</value>
+  </data>
+  <data name="EvaluateString_Best_Action" xml:space="preserve">
+    <value>Izcils tulkojums</value>
+  </data>
+  <data name="EvaluateString_Medium_Action" xml:space="preserve">
+    <value>Visu var saprast</value>
+  </data>
+  <data name="EvaluateString_Source" xml:space="preserve">
+    <value>Novērtēt tulkojumu no avota '{0}' {1}</value>
+  </data>
+  <data name="Evaluate_EnterSuggestion" xml:space="preserve">
+    <value>Lūdzu ierakstiet, jūsu ierosinājumu! Un pēc tam nospiediet Enter (nosūtat ziņu)</value>
+  </data>
+  <data name="Evaluate_Init" xml:space="preserve">
+    <value>Vēlētos, lai novērtētu dažas tulkojuma kvalitāti</value>
+  </data>
+  <data name="Hack42" xml:space="preserve">
+    <value>Par dzīvi, Visumu un viss nozīmē</value>
+  </data>
+  <data name="QualityCompareStrings" xml:space="preserve">
+    <value>Lūdzu ievietot atzīmi par tulkojuma kvalitāti (1-10, 10 - labāko un 1 - sliktākais) {0} valodas frāzes "{1}" (id {2}) tiek tulkots kā "{3}" {4} valodā!</value>
+  </data>
+  <data name="QualityExcelent" xml:space="preserve">
+    <value>Wow! Izklausās lieliski! Mēs sniegsim sīkfailu tulkotājiem. paldies!</value>
+  </data>
+  <data name="QualityMedicore" xml:space="preserve">
+    <value>Tas ir ciešami. Vai jūs vēlētos ieteikt kaut ko labāku?</value>
+  </data>
+  <data name="QualityYouCanBetter" xml:space="preserve">
+    <value>Sakta, tas ir pārāk slikti. Vai jūs varat ieteikt labāku tulkojumu?</value>
+  </data>
+  <data name="RemovedContact" xml:space="preserve">
+    <value>Paldies jums par visu zivju!</value>
+  </data>
+  <data name="StatusReport" xml:space="preserve">
+    <value>STATUS</value>
+  </data>
+  <data name="StatusReportAnswer" xml:space="preserve">
+    <value>Ir tulkots {0} un jāpārskata {1} valodu pārus</value>
+  </data>
+  <data name="StatusReportExtendedAnswer" xml:space="preserve">
+    <value>Ir tulkots {0} un pārskata {1} valodu pārus. ražošanā tiek izmantotas {2} jūsu tulkojumu! labs darbs!</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Paldies, jūsu ieguldījums dos labāku lietotāja pieredzi, lai jūs un citi lietotāji!</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Hei, jaunais draugs! Es esmu LocaLiz. Jūs man palīdzēt, sniedzot atsauksmi par tulkojuma kvalitāti. </value>
+  </data>
+</root>

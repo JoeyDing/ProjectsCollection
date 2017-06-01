@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /*width: 100%;
+    height: 100%;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+#silverlightControlHost {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+div.container.body-content div.jumbotron {
+    background-color: rgb(49, 190, 243);
+    padding-bottom: 5px;
+}
+
+div.jumbotron p, div.jumbotron h1 {
+    color: white;
+}
+
+.layout-control > .panel-info > .panel-heading {
+    background-color: white;
+    color: rgb(49, 190, 243);
+    border-color: rgb(49, 190, 243);
+    border-bottom: 0px solid transparent;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.layout-control > .panel-danger > .panel-heading {
+    background-color: white;
+    color: #ff0000;
+    border-color: #ff0000;
+    border-bottom: 0px solid transparent;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.layout-control > panel-body > .k-textbox {
+    width: 100%;
+}

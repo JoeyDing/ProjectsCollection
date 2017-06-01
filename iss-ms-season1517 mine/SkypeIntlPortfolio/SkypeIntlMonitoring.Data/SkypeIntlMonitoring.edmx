@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SkypeIntlMonitoringModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ClientToolsDownload">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="description" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="folder_binary" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="version" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="last_updated_datetime" Type="datetime" Nullable="false" />
+          <Property Name="folder_zip" Type="varchar" MaxLength="100" />
+          <Property Name="downloads" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="JobRunStatuses">
+          <Key>
+            <PropertyRef Name="Job_Run_Status_ID" />
+          </Key>
+          <Property Name="Job_Run_Status_ID" Type="int" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="LogFiles">
+          <Key>
+            <PropertyRef Name="LogID" />
+          </Key>
+          <Property Name="LogID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ToolID" Type="int" Nullable="false" />
+          <Property Name="FullPath" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlMonitoring.dbo.SqlJobList' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="SqlJobList">
+          <Key>
+            <PropertyRef Name="JobName" />
+          </Key>
+          <Property Name="JobName" Type="nvarchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SqlJobs">
+          <Key>
+            <PropertyRef Name="SqlJobID" />
+          </Key>
+          <Property Name="SqlJobID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Job_Enabled" Type="int" />
+          <Property Name="Start_Step_ID" Type="int" Nullable="false" />
+          <Property Name="Last_Run_Duration" Type="int" />
+          <Property Name="Last_Run_Outcome" Type="int" />
+          <Property Name="Last_Outcome_Message" Type="nvarchar(max)" />
+          <Property Name="Last_Run_DateTime" Type="datetime" />
+          <Property Name="LastRunDuration_inMinutes" Type="int" />
+        </EntityType>
+        <EntityType Name="SqlJobStepIterations">
+          <Key>
+            <PropertyRef Name="SqlJobStepIterationID" />
+          </Key>
+          <Property Name="SqlJobStepIterationID" Type="int" Nullable="false" />
+          <Property Name="SqlJobID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="SqlJobStepID" Type="int" Nullable="false" />
+          <Property Name="RunDateTime" Type="datetime" />
+          <Property Name="RunDuration" Type="int" />
+          <Property Name="RunDurationMinutes" Type="int" />
+          <Property Name="Job_Run_Status_ID" Type="int" />
+          <Property Name="Outcome_Message" Type="nvarchar(max)" />
+          <Property Name="ParentIterationID" Type="int" />
+        </EntityType>
+        <EntityType Name="SqlJobSteps">
+          <Key>
+            <PropertyRef Name="SqlJobStepID" />
+            <PropertyRef Name="SqlJobID" />
+          </Key>
+          <Property Name="SqlJobStepID" Type="int" Nullable="false" />
+          <Property Name="SqlJobID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Command" Type="nvarchar(max)" />
+          <Property Name="ToolID" Type="int" />
+          <Property Name="LastRunOutcome" Type="int" />
+          <Property Name="LastRunDateTime" Type="datetime" />
+          <Property Name="LastRunDuration" Type="int" />
+          <Property Name="LastRunDurationMinutes" Type="int" />
+        </EntityType>
+        <EntityType Name="Tools">
+          <Key>
+            <PropertyRef Name="ToolID" />
+          </Key>
+          <Property Name="ToolID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="LocalWorkingDirectory" Type="nvarchar(max)" />
+          <Property Name="NetworkWorkingDirectory" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK_LogFiles_Tools">
+          <End Role="Tools" Type="Self.Tools" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LogFiles" Type="Self.LogFiles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tools">
+              <PropertyRef Name="ToolID" />
+            </Principal>
+            <Dependent Role="LogFiles">
+              <PropertyRef Name="ToolID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJob_SqlJobStep">
+          <End Role="SqlJobs" Type="Self.SqlJobs" Multiplicity="1" />
+          <End Role="SqlJobSteps" Type="Self.SqlJobSteps" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SqlJobs">
+              <PropertyRef Name="SqlJobID" />
+            </Principal>
+            <Dependent Role="SqlJobSteps">
+              <PropertyRef Name="SqlJobID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJobIterations_JobRunStatus">
+          <End Role="JobRunStatuses" Type="Self.JobRunStatuses" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="SqlJobStepIterations" Type="Self.SqlJobStepIterations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JobRunStatuses">
+              <PropertyRef Name="Job_Run_Status_ID" />
+            </Principal>
+            <Dependent Role="SqlJobStepIterations">
+              <PropertyRef Name="Job_Run_Status_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJobs_JobRunStatuses">
+          <End Role="JobRunStatuses" Type="Self.JobRunStatuses" Multiplicity="0..1" />
+          <End Role="SqlJobs" Type="Self.SqlJobs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JobRunStatuses">
+              <PropertyRef Name="Job_Run_Status_ID" />
+            </Principal>
+            <Dependent Role="SqlJobs">
+              <PropertyRef Name="Last_Run_Outcome" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJobStep_Tool">
+          <End Role="Tools" Type="Self.Tools" Multiplicity="0..1" />
+          <End Role="SqlJobSteps" Type="Self.SqlJobSteps" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tools">
+              <PropertyRef Name="ToolID" />
+            </Principal>
+            <Dependent Role="SqlJobSteps">
+              <PropertyRef Name="ToolID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJobStepIterations_SqlJobSteps">
+          <End Role="SqlJobSteps" Type="Self.SqlJobSteps" Multiplicity="1" />
+          <End Role="SqlJobStepIterations" Type="Self.SqlJobStepIterations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SqlJobSteps">
+              <PropertyRef Name="SqlJobStepID" />
+              <PropertyRef Name="SqlJobID" />
+            </Principal>
+            <Dependent Role="SqlJobStepIterations">
+              <PropertyRef Name="SqlJobStepID" />
+              <PropertyRef Name="SqlJobID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="Fn_GetSQLJobIterationInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Job_Name" Type="nvarchar" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="instance_id" Type="int" />
+                <Property Name="JobID" Type="uniqueidentifier" Nullable="false" />
+                <Property Name="JobName" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="run_status" Type="int" />
+                <Property Name="step_id" Type="int" />
+                <Property Name="step_name" Type="nvarchar" MaxLength="128" />
+                <Property Name="message" Type="nvarchar" MaxLength="4000" />
+                <Property Name="run_date" Type="int" />
+                <Property Name="run_time" Type="int" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_GetSQLJobStepInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Job_Name" Type="nvarchar" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="step_id" Type="int" Nullable="false" />
+                <Property Name="step_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="job_id" Type="uniqueidentifier" Nullable="false" />
+                <Property Name="last_run_outcome" Type="int" Nullable="false" />
+                <Property Name="last_run_date" Type="int" Nullable="false" />
+                <Property Name="last_run_time" Type="int" Nullable="false" />
+                <Property Name="command" Type="nvarchar(max)" />
+                <Property Name="Tool" Type="nvarchar(max)" />
+                <Property Name="output_file_name" Type="nvarchar" MaxLength="200" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="UpdateDownloadCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fullpath" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="SkypeIntlMonitoringModelStoreContainer">
+          <EntitySet Name="ClientToolsDownload" EntityType="Self.ClientToolsDownload" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="JobRunStatuses" EntityType="Self.JobRunStatuses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LogFiles" EntityType="Self.LogFiles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SqlJobs" EntityType="Self.SqlJobs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SqlJobStepIterations" EntityType="Self.SqlJobStepIterations" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SqlJobSteps" EntityType="Self.SqlJobSteps" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tools" EntityType="Self.Tools" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SqlJobList" EntityType="Self.SqlJobList" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [SqlJobList].[JobName] AS [JobName]
+    FROM [dbo].[SqlJobList] AS [SqlJobList]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_LogFiles_Tools" Association="Self.FK_LogFiles_Tools">
+            <End Role="Tools" EntitySet="Tools" />
+            <End Role="LogFiles" EntitySet="LogFiles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJob_SqlJobStep" Association="Self.FK_SqlJob_SqlJobStep">
+            <End Role="SqlJobs" EntitySet="SqlJobs" />
+            <End Role="SqlJobSteps" EntitySet="SqlJobSteps" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJobIterations_JobRunStatus" Association="Self.FK_SqlJobIterations_JobRunStatus">
+            <End Role="JobRunStatuses" EntitySet="JobRunStatuses" />
+            <End Role="SqlJobStepIterations" EntitySet="SqlJobStepIterations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJobs_JobRunStatuses" Association="Self.FK_SqlJobs_JobRunStatuses">
+            <End Role="JobRunStatuses" EntitySet="JobRunStatuses" />
+            <End Role="SqlJobs" EntitySet="SqlJobs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJobStep_Tool" Association="Self.FK_SqlJobStep_Tool">
+            <End Role="Tools" EntitySet="Tools" />
+            <End Role="SqlJobSteps" EntitySet="SqlJobSteps" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJobStepIterations_SqlJobSteps" Association="Self.FK_SqlJobStepIterations_SqlJobSteps">
+            <End Role="SqlJobSteps" EntitySet="SqlJobSteps" />
+            <End Role="SqlJobStepIterations" EntitySet="SqlJobStepIterations" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SkypeIntlMonitoring.Data" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <ComplexType Name="Fn_GetSQLJobIterationInfo_Result">
+          <Property Name="JobID" Type="Guid" Nullable="false" />
+          <Property Name="JobName" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="run_status" Type="Int32" />
+          <Property Name="step_id" Type="Int32" />
+          <Property Name="step_name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="last_outcome_message" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+          <Property Name="run_date" Type="Int32" />
+          <Property Name="run_time" Type="Int32" />
+        </ComplexType>
+        <ComplexType Name="Fn_GetSQLJobStepInfo_Result">
+          <Property Name="step_id" Type="Int32" Nullable="false" />
+          <Property Name="step_name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="job_id" Type="Guid" Nullable="false" />
+          <Property Name="last_run_outcome" Type="Int32" Nullable="false" />
+          <Property Name="last_run_date" Type="Int32" Nullable="false" />
+          <Property Name="last_run_time" Type="Int32" Nullable="false" />
+          <Property Name="command" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tool" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="output_file_name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+        </ComplexType>
+        <EntityContainer Name="SkypeIntlMonitoringContext" annotation:LazyLoadingEnabled="true">
+          <FunctionImport Name="storedProc_Add_Update_SqlJobInfo">
+          <Parameter Name="SqlJobName" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="storedProc_Add_Update_SqlJobStepInfo">
+            </FunctionImport>
+          <FunctionImport Name="storedProc_Add_Update_SqlJobStepIteration" />
+          <FunctionImport Name="Fn_GetSQLJobIterationInfo" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoring.Data.Fn_GetSQLJobIterationInfo_Result1)">
+          <Parameter Name="Job_Name" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Fn_GetSQLJobStepInfo" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoring.Data.Fn_GetSQLJobStepInfo_Result1)">
+          <Parameter Name="Job_Name" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="LogFiles" EntityType="SkypeIntlMonitoring.Data.LogFile" />
+          <EntitySet Name="SqlJobs" EntityType="SkypeIntlMonitoring.Data.SqlJob" />
+          <EntitySet Name="SqlJobStepIterations" EntityType="SkypeIntlMonitoring.Data.SqlJobStepIteration" />
+          <EntitySet Name="SqlJobSteps" EntityType="SkypeIntlMonitoring.Data.SqlJobStep" />
+          <EntitySet Name="Tools" EntityType="SkypeIntlMonitoring.Data.Tool" />
+          <AssociationSet Name="FK_LogFiles_Tools" Association="SkypeIntlMonitoring.Data.FK_LogFiles_Tools">
+            <End Role="Tool" EntitySet="Tools" />
+            <End Role="LogFile" EntitySet="LogFiles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJob_SqlJobStep" Association="SkypeIntlMonitoring.Data.FK_SqlJob_SqlJobStep">
+            <End Role="SqlJob" EntitySet="SqlJobs" />
+            <End Role="SqlJobStep" EntitySet="SqlJobSteps" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJobStepIterations_SqlJobSteps" Association="SkypeIntlMonitoring.Data.FK_SqlJobStepIterations_SqlJobSteps">
+            <End Role="SqlJobStep" EntitySet="SqlJobSteps" />
+            <End Role="SqlJobStepIteration" EntitySet="SqlJobStepIterations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJobStep_Tool" Association="SkypeIntlMonitoring.Data.FK_SqlJobStep_Tool">
+            <End Role="Tool" EntitySet="Tools" />
+            <End Role="SqlJobStep" EntitySet="SqlJobSteps" />
+          </AssociationSet>
+          <EntitySet Name="SqlJobLists" EntityType="SkypeIntlMonitoring.Data.SqlJobList" />
+          <EntitySet Name="JobRunStatuses" EntityType="SkypeIntlMonitoring.Data.JobRunStatus" />
+          <AssociationSet Name="FK_SqlJobIterations_JobRunStatus" Association="SkypeIntlMonitoring.Data.FK_SqlJobIterations_JobRunStatus">
+            <End Role="JobRunStatus" EntitySet="JobRunStatuses" />
+            <End Role="SqlJobStepIteration" EntitySet="SqlJobStepIterations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SqlJobs_JobRunStatuses" Association="SkypeIntlMonitoring.Data.FK_SqlJobs_JobRunStatuses">
+            <End Role="JobRunStatus" EntitySet="JobRunStatuses" />
+            <End Role="SqlJob" EntitySet="SqlJobs" />
+          </AssociationSet>
+          <EntitySet Name="ClientToolsDownloads" EntityType="SkypeIntlMonitoring.Data.ClientToolsDownload" />
+          <FunctionImport Name="UpdateDownloadCount">
+            <Parameter Name="fullpath" Mode="In" Type="String" />
+          </FunctionImport>
+          </EntityContainer>
+        <ComplexType Name="Fn_GetSQLJobIterationInfo_Result1">
+          <Property Type="Int32" Name="instance_id" Nullable="true" />
+          <Property Type="Guid" Name="JobID" Nullable="false" />
+          <Property Type="String" Name="JobName" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="run_status" Nullable="true" />
+          <Property Type="Int32" Name="step_id" Nullable="true" />
+          <Property Type="String" Name="step_name" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="message" Nullable="true" MaxLength="4000" />
+          <Property Type="Int32" Name="run_date" Nullable="true" />
+          <Property Type="Int32" Name="run_time" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="Fn_GetSQLJobStepInfo_Result1">
+          <Property Type="Int32" Name="step_id" Nullable="false" />
+          <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+          <Property Type="Guid" Name="job_id" Nullable="false" />
+          <Property Type="Int32" Name="last_run_outcome" Nullable="false" />
+          <Property Type="Int32" Name="last_run_date" Nullable="false" />
+          <Property Type="Int32" Name="last_run_time" Nullable="false" />
+          <Property Type="String" Name="command" Nullable="true" />
+          <Property Type="String" Name="Tool" Nullable="true" />
+          <Property Type="String" Name="output_file_name" Nullable="true" MaxLength="200" />
+        </ComplexType>
+        <EntityType Name="LogFile">
+          <Key>
+            <PropertyRef Name="LogID" />
+          </Key>
+          <Property Name="LogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ToolID" Type="Int32" Nullable="false" />
+          <Property Name="FullPath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Tool" Relationship="SkypeIntlMonitoring.Data.FK_LogFiles_Tools" FromRole="LogFile" ToRole="Tool" />
+        </EntityType>
+        <EntityType Name="SqlJob">
+          <Key>
+            <PropertyRef Name="SqlJobID" />
+          </Key>
+          <Property Name="SqlJobID" Type="Guid" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Job_Enabled" Type="Int32" />
+          <Property Name="Start_Step_ID" Type="Int32" Nullable="false" />
+          <Property Name="Last_Run_Duration" Type="Int32" />
+          <Property Name="Last_Run_Outcome" Type="Int32" />
+          <Property Name="Last_Outcome_Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="SqlJobSteps" Relationship="SkypeIntlMonitoring.Data.FK_SqlJob_SqlJobStep" FromRole="SqlJob" ToRole="SqlJobStep" />
+          <Property Name="Last_Run_DateTime" Type="DateTime" Precision="3" />
+          <Property Name="LastRunDuration_inMinutes" Type="Int32" />
+          <NavigationProperty Name="JobRunStatus" Relationship="SkypeIntlMonitoring.Data.FK_SqlJobs_JobRunStatuses" FromRole="SqlJob" ToRole="JobRunStatus" />
+        </EntityType>
+        <EntityType Name="SqlJobStepIteration">
+          <Key>
+            <PropertyRef Name="SqlJobStepIterationID" />
+          </Key>
+          <Property Name="SqlJobStepIterationID" Type="Int32" Nullable="false" />
+          <Property Name="SqlJobID" Type="Guid" Nullable="false" />
+          <Property Name="SqlJobStepID" Type="Int32" Nullable="false" />
+          <Property Name="RunDateTime" Type="DateTime" Precision="3" />
+          <Property Name="RunDuration" Type="Int32" />
+          <Property Name="RunDurationMinutes" Type="Int32" />
+          <Property Name="Job_Run_Status_ID" Type="Int32" />
+          <Property Name="Outcome_Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ParentIterationID" Type="Int32" />
+          <NavigationProperty Name="SqlJobStep" Relationship="SkypeIntlMonitoring.Data.FK_SqlJobStepIterations_SqlJobSteps" FromRole="SqlJobStepIteration" ToRole="SqlJobStep" />
+          <NavigationProperty Name="JobRunStatus" Relationship="SkypeIntlMonitoring.Data.FK_SqlJobIterations_JobRunStatus" FromRole="SqlJobStepIteration" ToRole="JobRunStatus" />
+        </EntityType>
+        <EntityType Name="SqlJobStep">
+          <Key>
+            <PropertyRef Name="SqlJobStepID" />
+            <PropertyRef Name="SqlJobID" />
+          </Key>
+          <Property Name="SqlJobStepID" Type="Int32" Nullable="false" />
+          <Property Name="SqlJobID" Type="Guid" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Command" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ToolID" Type="Int32" />
+          <Property Name="LastRunOutcome" Type="Int32" />
+          <Property Name="LastRunDateTime" Type="DateTime" Precision="3" />
+          <Property Name="LastRunDuration" Type="Int32" />
+          <Property Name="LastRunDurationMinutes" Type="Int32" />
+          <NavigationProperty Name="SqlJob" Relationship="SkypeIntlMonitoring.Data.FK_SqlJob_SqlJobStep" FromRole="SqlJobStep" ToRole="SqlJob" />
+          <NavigationProperty Name="SqlJobStepIterations" Relationship="SkypeIntlMonitoring.Data.FK_SqlJobStepIterations_SqlJobSteps" FromRole="SqlJobStep" ToRole="SqlJobStepIteration" />
+          <NavigationProperty Name="Tool" Relationship="SkypeIntlMonitoring.Data.FK_SqlJobStep_Tool" FromRole="SqlJobStep" ToRole="Tool" />
+        </EntityType>
+        <EntityType Name="Tool">
+          <Key>
+            <PropertyRef Name="ToolID" />
+          </Key>
+          <Property Name="ToolID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LocalWorkingDirectory" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NetworkWorkingDirectory" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="LogFiles" Relationship="SkypeIntlMonitoring.Data.FK_LogFiles_Tools" FromRole="Tool" ToRole="LogFile" />
+          <NavigationProperty Name="SqlJobSteps" Relationship="SkypeIntlMonitoring.Data.FK_SqlJobStep_Tool" FromRole="Tool" ToRole="SqlJobStep" />
+        </EntityType>
+        <Association Name="FK_LogFiles_Tools">
+          <End Type="SkypeIntlMonitoring.Data.Tool" Role="Tool" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="SkypeIntlMonitoring.Data.LogFile" Role="LogFile" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tool">
+              <PropertyRef Name="ToolID" />
+            </Principal>
+            <Dependent Role="LogFile">
+              <PropertyRef Name="ToolID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJob_SqlJobStep">
+          <End Type="SkypeIntlMonitoring.Data.SqlJob" Role="SqlJob" Multiplicity="1" />
+          <End Type="SkypeIntlMonitoring.Data.SqlJobStep" Role="SqlJobStep" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SqlJob">
+              <PropertyRef Name="SqlJobID" />
+            </Principal>
+            <Dependent Role="SqlJobStep">
+              <PropertyRef Name="SqlJobID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJobStepIterations_SqlJobSteps">
+          <End Type="SkypeIntlMonitoring.Data.SqlJobStep" Role="SqlJobStep" Multiplicity="1" />
+          <End Type="SkypeIntlMonitoring.Data.SqlJobStepIteration" Role="SqlJobStepIteration" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SqlJobStep">
+              <PropertyRef Name="SqlJobStepID" />
+              <PropertyRef Name="SqlJobID" />
+            </Principal>
+            <Dependent Role="SqlJobStepIteration">
+              <PropertyRef Name="SqlJobStepID" />
+              <PropertyRef Name="SqlJobID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJobStep_Tool">
+          <End Type="SkypeIntlMonitoring.Data.Tool" Role="Tool" Multiplicity="0..1" />
+          <End Type="SkypeIntlMonitoring.Data.SqlJobStep" Role="SqlJobStep" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tool">
+              <PropertyRef Name="ToolID" />
+            </Principal>
+            <Dependent Role="SqlJobStep">
+              <PropertyRef Name="ToolID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="SqlJobList">
+          <Key>
+            <PropertyRef Name="JobName" />
+          </Key>
+          <Property Name="JobName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="JobRunStatus">
+          <Key>
+            <PropertyRef Name="Job_Run_Status_ID" />
+          </Key>
+          <Property Name="Job_Run_Status_ID" Type="Int32" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="SqlJobStepIterations" Relationship="SkypeIntlMonitoring.Data.FK_SqlJobIterations_JobRunStatus" FromRole="JobRunStatus" ToRole="SqlJobStepIteration" />
+          <NavigationProperty Name="SqlJobs" Relationship="SkypeIntlMonitoring.Data.FK_SqlJobs_JobRunStatuses" FromRole="JobRunStatus" ToRole="SqlJob" />
+        </EntityType>
+        <Association Name="FK_SqlJobIterations_JobRunStatus">
+          <End Type="SkypeIntlMonitoring.Data.JobRunStatus" Role="JobRunStatus" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="SkypeIntlMonitoring.Data.SqlJobStepIteration" Role="SqlJobStepIteration" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JobRunStatus">
+              <PropertyRef Name="Job_Run_Status_ID" />
+            </Principal>
+            <Dependent Role="SqlJobStepIteration">
+              <PropertyRef Name="Job_Run_Status_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SqlJobs_JobRunStatuses">
+          <End Type="SkypeIntlMonitoring.Data.JobRunStatus" Role="JobRunStatus" Multiplicity="0..1" />
+          <End Type="SkypeIntlMonitoring.Data.SqlJob" Role="SqlJob" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="JobRunStatus">
+              <PropertyRef Name="Job_Run_Status_ID" />
+            </Principal>
+            <Dependent Role="SqlJob">
+              <PropertyRef Name="Last_Run_Outcome" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ClientToolsDownload">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="description" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="folder_binary" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="version" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="last_updated_datetime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="folder_zip" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="downloads" Type="Int32" Nullable="false" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SkypeIntlMonitoringModelStoreContainer" CdmEntityContainer="SkypeIntlMonitoringContext">
+          <FunctionImportMapping FunctionImportName="Fn_GetSQLJobIterationInfo" FunctionName="SkypeIntlMonitoringModel.Store.Fn_GetSQLJobIterationInfo">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoring.Data.Fn_GetSQLJobIterationInfo_Result1">
+                <ScalarProperty Name="instance_id" ColumnName="instance_id" />
+                <ScalarProperty Name="JobID" ColumnName="JobID" />
+                <ScalarProperty Name="JobName" ColumnName="JobName" />
+                <ScalarProperty Name="run_status" ColumnName="run_status" />
+                <ScalarProperty Name="step_id" ColumnName="step_id" />
+                <ScalarProperty Name="step_name" ColumnName="step_name" />
+                <ScalarProperty Name="message" ColumnName="message" />
+                <ScalarProperty Name="run_date" ColumnName="run_date" />
+                <ScalarProperty Name="run_time" ColumnName="run_time" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Fn_GetSQLJobStepInfo" FunctionName="SkypeIntlMonitoringModel.Store.Fn_GetSQLJobStepInfo">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoring.Data.Fn_GetSQLJobStepInfo_Result1">
+                <ScalarProperty Name="step_id" ColumnName="step_id" />
+                <ScalarProperty Name="step_name" ColumnName="step_name" />
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="last_run_outcome" ColumnName="last_run_outcome" />
+                <ScalarProperty Name="last_run_date" ColumnName="last_run_date" />
+                <ScalarProperty Name="last_run_time" ColumnName="last_run_time" />
+                <ScalarProperty Name="command" ColumnName="command" />
+                <ScalarProperty Name="Tool" ColumnName="Tool" />
+                <ScalarProperty Name="output_file_name" ColumnName="output_file_name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="LogFiles">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.LogFile">
+              <MappingFragment StoreEntitySet="LogFiles">
+                <ScalarProperty Name="FullPath" ColumnName="FullPath" />
+                <ScalarProperty Name="ToolID" ColumnName="ToolID" />
+                <ScalarProperty Name="LogID" ColumnName="LogID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SqlJobs">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.SqlJob">
+              <MappingFragment StoreEntitySet="SqlJobs">
+                <ScalarProperty Name="LastRunDuration_inMinutes" ColumnName="LastRunDuration_inMinutes" />
+                <ScalarProperty Name="Last_Run_DateTime" ColumnName="Last_Run_DateTime" />
+                <ScalarProperty Name="Last_Outcome_Message" ColumnName="Last_Outcome_Message" />
+                <ScalarProperty Name="Last_Run_Outcome" ColumnName="Last_Run_Outcome" />
+                <ScalarProperty Name="Last_Run_Duration" ColumnName="Last_Run_Duration" />
+                <ScalarProperty Name="Start_Step_ID" ColumnName="Start_Step_ID" />
+                <ScalarProperty Name="Job_Enabled" ColumnName="Job_Enabled" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="SqlJobID" ColumnName="SqlJobID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SqlJobStepIterations">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.SqlJobStepIteration">
+              <MappingFragment StoreEntitySet="SqlJobStepIterations">
+                <ScalarProperty Name="ParentIterationID" ColumnName="ParentIterationID" />
+                <ScalarProperty Name="Outcome_Message" ColumnName="Outcome_Message" />
+                <ScalarProperty Name="Job_Run_Status_ID" ColumnName="Job_Run_Status_ID" />
+                <ScalarProperty Name="RunDurationMinutes" ColumnName="RunDurationMinutes" />
+                <ScalarProperty Name="RunDuration" ColumnName="RunDuration" />
+                <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+                <ScalarProperty Name="SqlJobStepID" ColumnName="SqlJobStepID" />
+                <ScalarProperty Name="SqlJobID" ColumnName="SqlJobID" />
+                <ScalarProperty Name="SqlJobStepIterationID" ColumnName="SqlJobStepIterationID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SqlJobSteps">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.SqlJobStep">
+              <MappingFragment StoreEntitySet="SqlJobSteps">
+                <ScalarProperty Name="LastRunDurationMinutes" ColumnName="LastRunDurationMinutes" />
+                <ScalarProperty Name="LastRunDuration" ColumnName="LastRunDuration" />
+                <ScalarProperty Name="LastRunDateTime" ColumnName="LastRunDateTime" />
+                <ScalarProperty Name="LastRunOutcome" ColumnName="LastRunOutcome" />
+                <ScalarProperty Name="ToolID" ColumnName="ToolID" />
+                <ScalarProperty Name="Command" ColumnName="Command" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="SqlJobID" ColumnName="SqlJobID" />
+                <ScalarProperty Name="SqlJobStepID" ColumnName="SqlJobStepID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tools">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.Tool">
+              <MappingFragment StoreEntitySet="Tools">
+                <ScalarProperty Name="NetworkWorkingDirectory" ColumnName="NetworkWorkingDirectory" />
+                <ScalarProperty Name="LocalWorkingDirectory" ColumnName="LocalWorkingDirectory" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ToolID" ColumnName="ToolID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SqlJobLists">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.SqlJobList">
+              <MappingFragment StoreEntitySet="SqlJobList">
+                <ScalarProperty Name="JobName" ColumnName="JobName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="JobRunStatuses">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.JobRunStatus">
+              <MappingFragment StoreEntitySet="JobRunStatuses">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Job_Run_Status_ID" ColumnName="Job_Run_Status_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ClientToolsDownloads">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoring.Data.ClientToolsDownload">
+              <MappingFragment StoreEntitySet="ClientToolsDownload">
+                <ScalarProperty Name="downloads" ColumnName="downloads" />
+                <ScalarProperty Name="folder_zip" ColumnName="folder_zip" />
+                <ScalarProperty Name="last_updated_datetime" ColumnName="last_updated_datetime" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="folder_binary" ColumnName="folder_binary" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="UpdateDownloadCount" FunctionName="SkypeIntlMonitoringModel.Store.UpdateDownloadCount" />
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

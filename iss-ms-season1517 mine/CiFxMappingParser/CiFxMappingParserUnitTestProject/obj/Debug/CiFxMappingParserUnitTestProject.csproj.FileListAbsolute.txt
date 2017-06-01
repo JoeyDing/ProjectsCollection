@@ -1,0 +1,34 @@
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CiFxMappingParserUnitTestProject.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CiFxMappingParserUnitTestProject.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CiFxMappingParser.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CiFxMappingParser.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\obj\Debug\CiFxMappingParserUnitTestProject.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\obj\Debug\CiFxMappingParserUnitTestProject.dll
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParserUnitTestProject\obj\Debug\CiFxMappingParserUnitTestProject.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base\mappingToLocId.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base\resource_en-us.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base\resource_fr.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base\sourceMapping.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base_Regex\mappingToLocId.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base_Regex\resource_en-us.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base_Regex\resource_fr.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base_Regex\sourceConfigMapping.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\MappingService\Base_Regex\sourceMapping.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\Reader\mappingToLocId.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\Reader\resource_en-us.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\Reader\sourceMapping.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\ui_hash_map.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\ui_hash_map_Config.json
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CiFxMappingParserUnitTestProject.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CiFxMappingParserUnitTestProject.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CiFxMappingParser.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CommandLine.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CiFxMappingParser.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\bin\Debug\CommandLine.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\obj\Debug\CiFxMappingParserUnitTestProject.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\obj\Debug\CiFxMappingParserUnitTestProject.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParserUnitTestProject\obj\Debug\CiFxMappingParserUnitTestProject.pdb

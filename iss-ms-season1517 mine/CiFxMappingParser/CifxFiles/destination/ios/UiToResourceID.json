@@ -1,0 +1,38 @@
+{
+  "profile_window_settings": [
+    {
+      "Property": "text",
+      "ResourceId": "ProfileCard|ShareProfileLink"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "ProfileCard|ShareProfileLink"
+    }
+  ],
+  "profile_window_signout_confirm": [
+    {
+      "Property": "text",
+      "ResourceId": "SignOutConfirmation|SignOutContent"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "SignOutConfirmation|SignOutContent"
+    }
+  ],
+  "profile_about_information_link": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "UserSettingsPanel|AboutButton"
+    }
+  ],
+  "location_permission_popup": [
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "WindowControls|AppTitle"
+    },
+    {
+      "Property": "Accessibility_id",
+      "ResourceId": "WindowControls|AppTitle"
+    }
+  ]
+}

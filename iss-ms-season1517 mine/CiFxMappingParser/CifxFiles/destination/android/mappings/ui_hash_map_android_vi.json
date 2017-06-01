@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Nhập tin nhắn vào đây\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Chia sẻ hồ sơ",
+    "accessibility_id": "Chia sẻ hồ sơ"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Đừng làm phiền\")).index(1)",
+    "text": "Đừng làm phiền"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Tìm kiếm mọi người và nhóm|Tìm kiếm mọi người và nhóm\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Tìm kiếm mọi người và bot|Tìm kiếm mọi người và bot\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Tìm kiếm bot|Tìm kiếm trên Skype|Để trả lời câu hỏi của bạn, giúp bạn nhớ những nội dung quan trọng và nhiều tính năng khác nữa, hãy cho phép Cortana thu thập và sử dụng thông tin bao gồm:\n\nVị trí và lịch sử vị trí\n\nDanh bạ, chi tiết lịch cũng như lịch sử giao tiếp và nội dung từ tin nhắn, tin nhắn tức thì và ứng dụng của bạn\n\nLịch sử tìm kiếm và các thông tin khác trên thiết bị để khiến trải nghiệm của bạn trở nên cá nhân hơn|Tìm kiếm trên web|Tìm kiếm trên web|Tìm kiếm tệp|Tìm kiếm mọi người|Tìm kiếm trên Skype|Tìm kiếm địa điểm|Tìm kiếm mọi người và bot|Tìm kiếm|Tìm kiếm mọi người và nhóm|Tìm kiếm mọi người|Tìm kiếm trên Skype|Tìm kiếm|Tìm kiếm bot|Tìm kiếm mọi người|Tìm kiếm mọi người và bot|Tìm kiếm mọi người và nhóm\")",
+    "text": "Tìm kiếm"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Tìm kiếm mọi người|Tìm kiếm mọi người và bot|Tìm kiếm mọi người và nhóm|Tìm kiếm mọi người|Tìm kiếm mọi người|Tìm kiếm mọi người và bot|Tìm kiếm mọi người và nhóm\")",
+    "text": "Tìm kiếm mọi người"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Tìm kiếm bot|Tìm kiếm trên Skype|Để trả lời câu hỏi của bạn, giúp bạn nhớ những nội dung quan trọng và nhiều tính năng khác nữa, hãy cho phép Cortana thu thập và sử dụng thông tin bao gồm:\n\nVị trí và lịch sử vị trí\n\nDanh bạ, chi tiết lịch cũng như lịch sử giao tiếp và nội dung từ tin nhắn, tin nhắn tức thì và ứng dụng của bạn\n\nLịch sử tìm kiếm và các thông tin khác trên thiết bị để khiến trải nghiệm của bạn trở nên cá nhân hơn|Tìm kiếm trên web|Tìm kiếm trên web|Tìm kiếm tệp|Tìm kiếm mọi người|Tìm kiếm trên Skype|Tìm kiếm địa điểm|Tìm kiếm mọi người và bot|Tìm kiếm|Tìm kiếm mọi người và nhóm|Tìm kiếm mọi người|Tìm kiếm trên Skype|Tìm kiếm|Tìm kiếm bot|Tìm kiếm mọi người|Tìm kiếm mọi người và bot|Tìm kiếm mọi người và nhóm\")",
+    "text": "Tìm kiếm"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Thiết đặt"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Đăng xuất\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Giới thiệu\")",
+    "text": "Giới thiệu"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} phút, hết hạn vào {expireDate}|Không thể liên hệ với dịch vụ Cortana. Xin vui lòng thử lại sau vài phút.|{hours} giờ {minutes} phút {seconds} giây|{hours} giờ {minutes} phút|{minutes} phút|{minutes} phút {seconds} giây|{count} phút|{count, plural, =1{1 phút trước} other{# phút trước}}|{minutes} phút|{count, plural, =1{1 phút trước} other{# phút trước}}|{count, plural, =1{1 phút trước} other{# phút trước}}\")",
+    "text": "{minutes} phút, hết hạn vào {expireDate}|Không thể liên hệ với dịch vụ Cortana. Xin vui lòng thử lại sau vài phút.|{hours} giờ {minutes} phút {seconds} giây|{hours} giờ {minutes} phút|{minutes} phút|{minutes} phút {seconds} giây|{count} phút|{count, plural, =1{1 phút trước} other{# phút trước}}|{minutes} phút|{count, plural, =1{1 phút trước} other{# phút trước}}|{count, plural, =1{1 phút trước} other{# phút trước}}"
+  }
+}

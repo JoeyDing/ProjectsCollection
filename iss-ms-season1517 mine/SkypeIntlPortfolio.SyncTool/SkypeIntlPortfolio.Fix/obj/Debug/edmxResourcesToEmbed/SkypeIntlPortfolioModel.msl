@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SkypeIntlPlanningPortfolio_CloneModelStoreContainer" CdmEntityContainer="SkypeIntlPortfolioContext">
+    <EntitySetMapping Name="MilestoneCategories">
+      <EntityTypeMapping TypeName="SkypeIntlPortfolio.SyncTool.Model.MilestoneCategory">
+        <MappingFragment StoreEntitySet="MilestoneCategories">
+          <ScalarProperty Name="Milestone_Category_Name" ColumnName="Milestone Category Name" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestSchedules">
+      <EntityTypeMapping TypeName="SkypeIntlPortfolio.SyncTool.Model.TestSchedule">
+        <MappingFragment StoreEntitySet="TestSchedules">
+          <ScalarProperty Name="VSO_ChangedDate" ColumnName="VSO ChangedDate" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="MilestoneCategoryKey" ColumnName="MilestoneCategoryKey" />
+          <ScalarProperty Name="AssignedResources" ColumnName="AssignedResources" />
+          <ScalarProperty Name="Vso_Web_Url" ColumnName="Vso Web Url" />
+          <ScalarProperty Name="TestSchedule_End_Date" ColumnName="TestSchedule End Date" />
+          <ScalarProperty Name="TestSchedule_Start_Date" ColumnName="TestSchedule Start Date" />
+          <ScalarProperty Name="TestSchedule_Name" ColumnName="TestSchedule Name" />
+          <ScalarProperty Name="TestScheduleKey" ColumnName="TestScheduleKey" />
+          <ScalarProperty Name="ReleaseKey" ColumnName="ReleaseKey" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Releases">
+      <EntityTypeMapping TypeName="SkypeIntlPortfolio.SyncTool.Model.Release">
+        <MappingFragment StoreEntitySet="Releases">
+          <ScalarProperty Name="VSO_Tags" ColumnName="VSO Tags" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="VSO_Url" ColumnName="VSO Url" />
+          <ScalarProperty Name="VSO_ProductName" ColumnName="VSO ProductName" />
+          <ScalarProperty Name="VSO_ChangedDate" ColumnName="VSO ChangedDate" />
+          <ScalarProperty Name="VSO_AreaPath" ColumnName="VSO AreaPath" />
+          <ScalarProperty Name="VSO_IterationPath" ColumnName="VSO IterationPath" />
+          <ScalarProperty Name="VSO_Family" ColumnName="VSO Family" />
+          <ScalarProperty Name="VSO_Assigned_To" ColumnName="VSO Assigned To" />
+          <ScalarProperty Name="VSO_DueDate" ColumnName="VSO DueDate" />
+          <ScalarProperty Name="VSO_LocStartDate" ColumnName="VSO LocStartDate" />
+          <ScalarProperty Name="VSO_Status" ColumnName="VSO Status" />
+          <ScalarProperty Name="VSO_Type" ColumnName="VSO Type" />
+          <ScalarProperty Name="VSO_Title" ColumnName="VSO Title" />
+          <ScalarProperty Name="VSO_ID" ColumnName="VSO ID" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products_New">
+      <EntityTypeMapping TypeName="SkypeIntlPortfolio.SyncTool.Model.Products_New">
+        <MappingFragment StoreEntitySet="Products_New">
+          <ScalarProperty Name="Core_Engineering_Contact" ColumnName="Core Engineering Contact" />
+          <ScalarProperty Name="Telemetry_Contact" ColumnName="Telemetry Contact" />
+          <ScalarProperty Name="Localization_VSO_URL" ColumnName="Localization VSO URL" />
+          <ScalarProperty Name="BuildSysKey" ColumnName="BuildSysKey" />
+          <ScalarProperty Name="CodeReviewUsedKey" ColumnName="CodeReviewUsedKey" />
+          <ScalarProperty Name="LanguageSettingsKey" ColumnName="LanguageSettingsKey" />
+          <ScalarProperty Name="Core_VSO_Backlog_URL" ColumnName="Core VSO Backlog URL" />
+          <ScalarProperty Name="Release_build_Location" ColumnName="Release build Location" />
+          <ScalarProperty Name="ContentPublishedToKey" ColumnName="ContentPublishedToKey" />
+          <ScalarProperty Name="Last_Release_Certified" ColumnName="Last Release Certified" />
+          <ScalarProperty Name="Cert_Location" ColumnName="Cert Location" />
+          <ScalarProperty Name="Certification_Type" ColumnName="Certification Type" />
+          <ScalarProperty Name="Core_Team_SharePoint" ColumnName="Core Team SharePoint" />
+          <ScalarProperty Name="Core_PO" ColumnName="Core PO" />
+          <ScalarProperty Name="Loc_Team_OneNote" ColumnName="Loc Team OneNote" />
+          <ScalarProperty Name="Localization_Code_Branch" ColumnName="Localization Code Branch" />
+          <ScalarProperty Name="Main_Code_Branch" ColumnName="Main Code Branch" />
+          <ScalarProperty Name="Localization_VSO_Path" ColumnName="Localization VSO Path" />
+          <ScalarProperty Name="LCT_File_Path" ColumnName="LCT File Path" />
+          <ScalarProperty Name="LCG_File_Path" ColumnName="LCG File Path" />
+          <ScalarProperty Name="Pseudo_Testing" ColumnName="Pseudo Testing" />
+          <ScalarProperty Name="Telemetry_Data_available" ColumnName="Telemetry Data available" />
+          <ScalarProperty Name="Voice_Prompt_Loc_Required" ColumnName="Voice Prompt Loc Required" />
+          <ScalarProperty Name="Privacy_Statement_Required" ColumnName="Privacy Statement Required" />
+          <ScalarProperty Name="French_Loc_Required" ColumnName="French Loc Required" />
+          <ScalarProperty Name="GB_Impacting" ColumnName="GB Impacting" />
+          <ScalarProperty Name="LocProcessKey" ColumnName="LocProcessKey" />
+          <ScalarProperty Name="LocBuildProcessKey" ColumnName="LocBuildProcessKey" />
+          <ScalarProperty Name="Product_Owner" ColumnName="Product Owner" />
+          <ScalarProperty Name="Test_Owner" ColumnName="Test Owner" />
+          <ScalarProperty Name="IPE_Owner" ColumnName="IPE Owner" />
+          <ScalarProperty Name="ReleaseCadenceKey" ColumnName="ReleaseCadenceKey" />
+          <ScalarProperty Name="OwnerLocationKey" ColumnName="OwnerLocationKey" />
+          <ScalarProperty Name="ISS_Ops_Driver" ColumnName="ISS Ops Driver" />
+          <ScalarProperty Name="FabricTenantKey" ColumnName="FabricTenantKey" />
+          <ScalarProperty Name="ProductFamilyKey" ColumnName="ProductFamilyKey" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PVoiceKey" ColumnName="PVoiceKey" />
+          <ScalarProperty Name="StatusKey" ColumnName="StatusKey" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="ProductKey" ColumnName="ProductKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

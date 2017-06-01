@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"הקלד הודעה כאן\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "שתף פרופיל",
+    "accessibility_id": "שתף פרופיל"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"נא לא להפריע\")).index(1)",
+    "text": "נא לא להפריע"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"חיפוש אנשים וקבוצות|חיפוש אנשים וקבוצות\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"חיפוש אנשים ובוטים|חפש אנשים ותוכניות Bot\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"חיפוש בוטים|חיפוש ב- Skype|כדי לענות על שאלותיך, לעזור לך לזכור דברים חשובים ועוד הרבה יותר, אפשר ל- Cortana לאסוף את הנתונים שלך ולהשתמש בהם, כולל:\n\nמיקום והיסטוריית מיקומים\n\nאנשי קשר, פרטי לוח שנה ותוכן והיסטוריית תקשורת מהודעות, מהודעות מיידיות ומאפליקציות\n\nהיסטוריית חיפוש ומידע אחר בהתקן שלך, כדי להתאים אישית את חוויית השימוש שלך|חפש באינטרנט|חפש באינטרנט|חפש קבצים|חיפוש אנשים|חפש ב- Skype|חיפוש מקומות|חיפוש אנשים ובוטים|חיפוש|חיפוש אנשים וקבוצות|חיפוש אנשים|חיפוש ב- Skype|חיפוש|חיפוש בוטים|חיפוש אנשים|חפש אנשים ותוכניות Bot|חיפוש אנשים וקבוצות\")",
+    "text": "חיפוש"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"חיפוש אנשים|חיפוש אנשים ובוטים|חיפוש אנשים וקבוצות|חיפוש אנשים|חיפוש אנשים|חפש אנשים ותוכניות Bot|חיפוש אנשים וקבוצות\")",
+    "text": "חיפוש אנשים"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"חיפוש בוטים|חיפוש ב- Skype|כדי לענות על שאלותיך, לעזור לך לזכור דברים חשובים ועוד הרבה יותר, אפשר ל- Cortana לאסוף את הנתונים שלך ולהשתמש בהם, כולל:\n\nמיקום והיסטוריית מיקומים\n\nאנשי קשר, פרטי לוח שנה ותוכן והיסטוריית תקשורת מהודעות, מהודעות מיידיות ומאפליקציות\n\nהיסטוריית חיפוש ומידע אחר בהתקן שלך, כדי להתאים אישית את חוויית השימוש שלך|חפש באינטרנט|חפש באינטרנט|חפש קבצים|חיפוש אנשים|חפש ב- Skype|חיפוש מקומות|חיפוש אנשים ובוטים|חיפוש|חיפוש אנשים וקבוצות|חיפוש אנשים|חיפוש ב- Skype|חיפוש|חיפוש בוטים|חיפוש אנשים|חפש אנשים ותוכניות Bot|חיפוש אנשים וקבוצות\")",
+    "text": "חיפוש"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "הגדרות"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"יציאה\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"אודות\")",
+    "text": "אודות"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} דקות, התוקף פג ב- {expireDate}|יצירת קשר עם שירות Cortana נכשלה. נסה שוב בעוד כמה דקות.|{hours} שע' {minutes} דק' {seconds} שנ'|{hours} שע' {minutes} דק'|{minutes} דק'|{minutes} דק' {seconds} שנ'|{count} דקות|{count, plural, =1{לפני דקה אחת} two{לפני # דקות} many{לפני # דקות} other{לפני # דקות}}|{minutes}דק'|{count, plural, =1{לפני דקה אחת} two{לפני # דקות} many{לפני # דקות} other{לפני # דקות}}|{count, plural, =1{לפני דקה אחת} two{לפני # דקות} many{לפני # דקות} other{לפני # דקות}}\")",
+    "text": "{minutes} דקות, התוקף פג ב- {expireDate}|יצירת קשר עם שירות Cortana נכשלה. נסה שוב בעוד כמה דקות.|{hours} שע' {minutes} דק' {seconds} שנ'|{hours} שע' {minutes} דק'|{minutes} דק'|{minutes} דק' {seconds} שנ'|{count} דקות|{count, plural, =1{לפני דקה אחת} two{לפני # דקות} many{לפני # דקות} other{לפני # דקות}}|{minutes}דק'|{count, plural, =1{לפני דקה אחת} two{לפני # דקות} many{לפני # דקות} other{לפני # דקות}}|{count, plural, =1{לפני דקה אחת} two{לפני # דקות} many{לפני # דקות} other{לפני # דקות}}"
+  }
+}

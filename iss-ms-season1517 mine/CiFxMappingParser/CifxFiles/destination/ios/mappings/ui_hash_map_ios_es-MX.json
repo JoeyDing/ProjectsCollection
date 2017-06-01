@@ -1,0 +1,86 @@
+{
+  "main_application": {
+    "xpath": "//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]"
+  },
+  "main_username": {
+    "command": ".scrollViews()[0].webViews()[0].textFields()[\"Email, phone, or Skype name\"]"
+  },
+  "main_password": {
+    "command": ".scrollViews()[0].webViews()[0].secureTextFields()[\"Password\"]"
+  },
+  "main_submit": {
+    "accessibility_id": "Go"
+  },
+  "main_privacy_policy": {
+    "text": "Siguiente"
+  },
+  "login_window_next_button": {
+    "xpath": "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIAButton[contains(@label,'Next')]"
+  },
+  "login_window_sign_in_button": {
+    "xpath": "//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]/UIAButton[contains(@label,'Sign in')]"
+  },
+  "first_time_username": {
+    "text": "email@example.com",
+    "xpath": "//*[@value='email@example.com']"
+  },
+  "first_time_submit": {
+    "text": "Listo"
+  },
+  "profile_window_settings": {
+    "text": "Compartir perfil",
+    "accessibility_id": "Compartir perfil"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "text": "Ocupado"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": ".textFields()[0]"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "text": "Buscar personas y bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "accessibility_id": "Buscar"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "main_window_search": {
+    "text": "Buscar"
+  },
+  "contact_window_search": {
+    "text": "Buscar",
+    "command": ".textFields()[0]"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Configuración"
+  },
+  "profile_window_signout_confirm": {
+    "text": "¿Estás seguro de que quieres cerrar la sesión?",
+    "accessibility_id": "¿Estás seguro de que quieres cerrar la sesión?"
+  },
+  "profile_window_profile_picture": {
+    "command": ".scrollViews()[1].images()[1]"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?"
+  },
+  "profile_about_information_link": {
+    "accessibility_id": "Acerca de"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "text": "",
+    "command": ".staticTexts(\"\")"
+  },
+  "location_permission_popup": {
+    "accessibility_id": "Skype Preview “Skype Preview” Skype Preview"
+  },
+  "settings_button_permission": {
+    "accessibility_id": "Configuración"
+  },
+  "settings_location_services": {
+    "accessibility_id": "Location Services"
+  }
+}

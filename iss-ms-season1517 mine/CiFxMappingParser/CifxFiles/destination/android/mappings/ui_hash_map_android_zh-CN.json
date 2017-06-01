@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"在此处键入消息\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "共享个人资料",
+    "accessibility_id": "共享个人资料"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"请勿打搅\")).index(1)",
+    "text": "请勿打搅"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"搜索联系人和群组|搜索联系人和群组\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"搜索联系人和聊天机器人|搜索联系人和智能机器人\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"搜索聊天机器人|搜索 Skype|为了回答你的问题、帮助你记住哪些是重要内容以及其他内容，请让 Cortana 收集和使用包括以下内容在内的信息:\n\n位置和位置历史记录\n\n联系人、日历详细信息以及来自消息、即时消息和应用的内容和通信历史记录\n\n你的设备上的搜索历史记录和其他信息，以使你的体验更有个性|搜索 Web|搜索 Web|搜索文件|搜索联系人|搜索 Skype|搜索地点|搜索联系人和聊天机器人|搜索|搜索联系人和群组|搜索联系人|搜索 Skype|搜索|搜索聊天机器人|搜索联系人|搜索联系人和智能机器人|搜索联系人和群组\")",
+    "text": "搜索"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"搜索联系人|搜索联系人和聊天机器人|搜索联系人和群组|搜索联系人|搜索联系人|搜索联系人和智能机器人|搜索联系人和群组\")",
+    "text": "搜索联系人"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"搜索聊天机器人|搜索 Skype|为了回答你的问题、帮助你记住哪些是重要内容以及其他内容，请让 Cortana 收集和使用包括以下内容在内的信息:\n\n位置和位置历史记录\n\n联系人、日历详细信息以及来自消息、即时消息和应用的内容和通信历史记录\n\n你的设备上的搜索历史记录和其他信息，以使你的体验更有个性|搜索 Web|搜索 Web|搜索文件|搜索联系人|搜索 Skype|搜索地点|搜索联系人和聊天机器人|搜索|搜索联系人和群组|搜索联系人|搜索 Skype|搜索|搜索聊天机器人|搜索联系人|搜索联系人和智能机器人|搜索联系人和群组\")",
+    "text": "搜索"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "设置"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"注销\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"关于\")",
+    "text": "关于"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} 分钟，到期时间 {expireDate}|无法联系 Cortana 服务。请在几分钟后重试。|{hours} 小时 {minutes} 分 {seconds} 秒|{hours} 小时 {minutes} 分|{minutes} 分|{minutes} 分 {seconds} 秒|{count} 分钟|{count, plural, =1{1 分钟以前} other{# 分钟以前}}|{minutes}m|{count, plural, =1{1 分钟以前} other{# 分钟以前}}|{count, plural, =1{1 分钟以前} other{# 分钟以前}}\")",
+    "text": "{minutes} 分钟，到期时间 {expireDate}|无法联系 Cortana 服务。请在几分钟后重试。|{hours} 小时 {minutes} 分 {seconds} 秒|{hours} 小时 {minutes} 分|{minutes} 分|{minutes} 分 {seconds} 秒|{count} 分钟|{count, plural, =1{1 分钟以前} other{# 分钟以前}}|{minutes}m|{count, plural, =1{1 分钟以前} other{# 分钟以前}}|{count, plural, =1{1 分钟以前} other{# 分钟以前}}"
+  }
+}

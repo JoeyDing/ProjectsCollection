@@ -1,0 +1,110 @@
+{
+  "login_window_sign_in_button": {
+    "xpath": "//*[@id=\"idSIButton9\"]"
+  },
+  "main_application": {
+    "xpath": "/html/body/div"
+  },
+  "main_pre_login_button": {
+    "text": "Email, phone, or Skype name",
+    "id": "i0116",
+    "xpath": "//*[@id='i0116']"
+  },
+  "main_submit": {
+    "id": "idSIButton9",
+    "xpath": "//*[@id='idSIButton9']"
+  },
+  "first_time_username": {
+    "text": "E-post",
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "main_window_action_menu": {
+    "text": "Ny samtale",
+    "accessibility_id": "Ny samtale",
+    "xpath": "/html/body/div/div/div/div/div/div/div/div/div[1]/div[2]/div/button"
+  },
+  "main_window_search": {
+    "text": ""
+  },
+  "contact_window_search": {
+    "text": "Søk",
+    "xpath": "//*[@placeholder='Search']"
+  },
+  "contact_window_search_cancel": {
+    "text": "Søk",
+    "xpath": "//div[contains(text(), 'Cancel')]"
+  },
+  "call_window_menu_toggle": {
+    "xpath": "/html/body/div/div/div/div/div/div/div/div/div[2]/div"
+  },
+  "main_window_hightlights_tab": {
+    "xpath": "/html/body/div/div/div/div/div/div/div/div[1]/div[1]/div[2]/button[1]/div/div"
+  },
+  "main_window_recents_tab": {
+    "xpath": "//div[text()='Chats' and contains(@style,'color: rgb(255, 255, 255)')]"
+  },
+  "main_window_new_conversation_name_group": {
+    "xpath": "//input[@placeholder='Chat Name']"
+  },
+  "main_window_new_conversation_user_search_input": {
+    "accessibility_id": "Søk på Skype",
+    "xpath": "//input[@placeholder='Search Skype']"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "xpath": "//div[contains(text(),'Search People and Bots')]"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "xpath": "//input[@placeholder='Search People and Bots']"
+  },
+  "main_window_profile_button": {
+    "text": "",
+    "xpath": "/html/body/div/div/div[1]/div/div/div/div/div[1]/div[1]/div[1]/button/div[2]/div"
+  },
+  "profile_window_my_highlights": {
+    "text": "Min info",
+    "xpath": "/html/body/div/div/div/div[2]/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/div[1]/div/div/div/div/div"
+  },
+  "profile_window_my_profile": {
+    "text": "Administrer profil",
+    "xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[7]/button[2]/div"
+  },
+  "profile_window_settings": {
+    "text": "Rediger innstillinger",
+    "xpath": "/html/body/div/div/div[2]/div/div/div/div/div/div[4]/div[1]/div[2]"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "text": "Opptatt",
+    "xpath": "(//div[text()='Do not disturb'])/following-sibling::div[1]"
+  },
+  "profile_window_user_settings": {
+    "text": "Administrer profil",
+    "xpath": "//div[text()='Manage Profile']"
+  },
+  "profile_window_signout_confirm": {
+    "xpath": "//button[not(@title)]//div[contains(text(),'Log out')]"
+  },
+  "profile_window_profile_picture": {
+    "text": "",
+    "xpath": "/html/body/div/div/div[2]/div/div[2]/div/div/div[2]/button"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "",
+    "xpath": "/html/body/div/div/div[2]/div/div[2]/div/div/div[2]/div[1]"
+  },
+  "profile_about_information_link": {
+    "text": "Om Skype"
+  },
+  "chat_window_message": {
+    "xpath": "//textarea[@placeholder='Type a message here']"
+  },
+  "chat_window_send_message": {
+    "text": "",
+    "xpath": "/html/body/div/div/div/div/div/div/div/div[2]/div[1]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div/div/div/div[2]/button"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "text": ""
+  }
+}

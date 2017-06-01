@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDiagrams>
+  <entityDiagramsDiagram dslVersion="2.0.0.0" absoluteBounds="0, 0, 11, 9.25" name="EOLandProductsEntitiles" fillColor="62, 62, 65" isDefault="true">
+    <DomainModelMoniker name="/EOLandProductsEntities" />
+    <nestedChildShapes>
+      <classShape Id="8b285811-1552-4d11-b4a5-872cf95efaf5" absoluteBounds="0.75, 0.75, 4.125, 3.8780875651041651">
+        <DomainClassMoniker name="/EOLandProductsEntities/FabricOnboarding" />
+        <nestedChildShapes>
+          <elementListCompartment Id="abe8d542-90c2-49ec-9a45-65ee828b8694" absoluteBounds="0.765, 1.26, 4.0950000000000006, 2.364705403645833" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="6e620025-05dd-4e80-9de5-807f1cca84c8" absoluteBounds="0.765, 3.6347054036458326, 4.0950000000000006, 0.2493896484375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="c87bef43-20bf-49f4-8b15-7eed91d30e1f" absoluteBounds="0.765, 3.8940950520833324, 4.0950000000000006, 0.633992513020833" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <associationConnector edgePoints="[(2.20879987605168 : 4.62808756510417); (2.20879987605168 : 4.87808756510417); (3.44494774889824 : 4.87808756510417); (3.44494774889824 : 4.62808756510417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+        <AssociationMoniker Id="eaa7646c-d61a-4559-998a-e9bb8bf36d0f" />
+        <relativeChildShapes />
+        <nodes>
+          <classShapeMoniker Id="8b285811-1552-4d11-b4a5-872cf95efaf5" />
+          <classShapeMoniker Id="8b285811-1552-4d11-b4a5-872cf95efaf5" />
+        </nodes>
+      </associationConnector>
+      <classShape Id="299bae7a-0731-41da-be55-8ad8ce90b5ce" absoluteBounds="0.5, 5.125, 1.5, 3.8780875651041651">
+        <DomainClassMoniker name="/EOLandProductsEntities/FabricOnboardingsLowLevelStatus" />
+        <nestedChildShapes>
+          <elementListCompartment Id="a34dc5ba-12a2-4b07-9b25-317f4bb16413" absoluteBounds="0.515, 5.635, 1.4700000000000002, 2.749308268229167" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="46575779-b9a2-4c94-afea-4fc332678e22" absoluteBounds="0.515, 8.3943082682291674, 1.4700000000000002, 0.2493896484375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="19f1ac5a-44a6-4742-8afe-91a8b2f38aca" absoluteBounds="0.515, 8.6536979166666654, 1.4700000000000002, 0.2493896484375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+      <classShape Id="eb48ca8a-6658-4ab0-b5d7-24394975d194" absoluteBounds="2.5, 5.125, 1.5, 1.7627718098958329">
+        <DomainClassMoniker name="/EOLandProductsEntities/FabricOnboardingsHighLevelStatus" />
+        <nestedChildShapes>
+          <elementListCompartment Id="0f2ad6e6-4fb2-42df-a708-aaee3dc1c47c" absoluteBounds="2.515, 5.635, 1.4700000000000002, 0.63399251302083326" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="5c9cddd8-47c5-4e37-b29b-728b30d9c97c" absoluteBounds="2.515, 6.2789925130208335, 1.4700000000000002, 0.2493896484375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="413ab512-0aca-44b0-831c-8b1fea8a70e6" absoluteBounds="2.515, 6.5383821614583333, 1.4700000000000002, 0.2493896484375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+    </nestedChildShapes>
+  </entityDiagramsDiagram>
+</EntityDiagrams>

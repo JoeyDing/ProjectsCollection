@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnswerNo" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="AnswerYes" xml:space="preserve">
+    <value>Jah</value>
+  </data>
+  <data name="Capabilities" xml:space="preserve">
+    <value>Ma saaks teile strings läbi vaatama oma emakeelt ja pakkuda teile soovitada parem tõlge muutus!</value>
+  </data>
+  <data name="Command_DoNotUnderstandLangauge" xml:space="preserve">
+    <value>Sorry ei räägi seda keelt :(</value>
+  </data>
+  <data name="Command_In_What_Language" xml:space="preserve">
+    <value>Mis keeles soovite räägi minuga?</value>
+  </data>
+  <data name="Command_Select_One" xml:space="preserve">
+    <value>Vali üks keel</value>
+  </data>
+  <data name="Command_SwtichToLanguage" xml:space="preserve">
+    <value>Oki-doki-nüüd, üleminek {0}</value>
+  </data>
+  <data name="ContactAdded" xml:space="preserve">
+    <value>Hei, minu uus sõber! Võimaldab parandada lokaliseerimine Skype!</value>
+  </data>
+  <data name="ContinueWithEvaluations" xml:space="preserve">
+    <value>Kas soovite jätkata hindamise tõlkeid?</value>
+  </data>
+  <data name="DiscoverUser" xml:space="preserve">
+    <value>Tahaksin rohkem teada teile!</value>
+  </data>
+  <data name="DiscoverUserGoodReponse" xml:space="preserve">
+    <value>Sa oled kapten {1} keel.</value>
+  </data>
+  <data name="DiscoverUserLanguageGood" xml:space="preserve">
+    <value>Millised keeled, et te kapten väga heal tasemel?</value>
+  </data>
+  <data name="DiscoverUserLanguageNative" xml:space="preserve">
+    <value>Mis on sinu emakeeles?</value>
+  </data>
+  <data name="DiscoverUserNativeResponce" xml:space="preserve">
+    <value>Alates mida ma aru oma emakeeles on {0}.</value>
+  </data>
+  <data name="DiscoverUserQualityJudge" xml:space="preserve">
+    <value>Kas soovite praeguse tõlkekvaliteet {0} ja {1} vahel kohtunik?</value>
+    <comment>Placeholders replaced with language names. For example: {0} - english, {1}  -latvian</comment>
+  </data>
+  <data name="Discover_Female" xml:space="preserve">
+    <value>Naine</value>
+  </data>
+  <data name="Discover_Male" xml:space="preserve">
+    <value>Mees</value>
+  </data>
+  <data name="Discover_Other" xml:space="preserve">
+    <value>Muu</value>
+  </data>
+  <data name="Discover_Unspecified" xml:space="preserve">
+    <value>Määramata</value>
+  </data>
+  <data name="Discover_What_Gender" xml:space="preserve">
+    <value>Mis on teie sugu?</value>
+  </data>
+  <data name="EvaluateString_Bad_Action" xml:space="preserve">
+    <value>Kohutav. Võin tõlkida paremini!</value>
+  </data>
+  <data name="EvaluateString_Best_Action" xml:space="preserve">
+    <value>Suurepärane tõlge</value>
+  </data>
+  <data name="EvaluateString_Medium_Action" xml:space="preserve">
+    <value>See on hea tõlke</value>
+  </data>
+  <data name="EvaluateString_Source" xml:space="preserve">
+    <value>Hinnake tõlkesuuna allikas {0} {1}</value>
+  </data>
+  <data name="Evaluate_EnterSuggestion" xml:space="preserve">
+    <value>Palun tüüp-in ehdotuksestasi! Ja vajutage Enter (saada sõnum)</value>
+  </data>
+  <data name="Evaluate_Init" xml:space="preserve">
+    <value>Kas soovite mõned tõlke kvaliteedi hindamiseks?</value>
+  </data>
+  <data name="Hack42" xml:space="preserve">
+    <value>Life, the Universe and Everything tähenduse</value>
+  </data>
+  <data name="QualityCompareStrings" xml:space="preserve">
+    <value>Palun pane märk tõlke kvaliteedi (1-10, 10 - parim ja 1 - halvim) {0} keele lause "{1}" (id {2}) on tõlgitud kui "{3}" {4} keeles!</value>
+  </data>
+  <data name="QualityExcelent" xml:space="preserve">
+    <value>Wow! See kõlab hästi! Anname küpsise tõlkijatele. Aitäh!</value>
+  </data>
+  <data name="QualityMedicore" xml:space="preserve">
+    <value>See on vastuvõetav. Kas soovite soovitada midagi paremat?</value>
+  </data>
+  <data name="QualityYouCanBetter" xml:space="preserve">
+    <value>Ai, see on liiga halb. Kas oskate pakkuda paremat tõlget?</value>
+  </data>
+  <data name="RemovedContact" xml:space="preserve">
+    <value>Täname kõiki kalu!</value>
+  </data>
+  <data name="StatusReport" xml:space="preserve">
+    <value>Seisund</value>
+  </data>
+  <data name="StatusReportAnswer" xml:space="preserve">
+    <value>On tõlgitud {0} ja {1} keelekombinatsioonides üle vaadata</value>
+  </data>
+  <data name="StatusReportExtendedAnswer" xml:space="preserve">
+    <value>On tõlgitud {0} ja {1} keelekombinatsioonides üle vaadata. (2) oma tõlked on mitmeid olulisi! Hästi tehtud!</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Tänan teid teie panuse teeb parem kasutaja kogemus sulle ja teistele kasutajatele!</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Hei, uus sõber! Ma olen LocaLiz. Te mind aidata, andes tagasisidet tõlke kvaliteedi. </value>
+  </data>
+</root>

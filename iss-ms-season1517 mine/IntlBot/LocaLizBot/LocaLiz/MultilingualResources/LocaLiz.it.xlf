@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="it" original="LOCALIZ/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="LOCALIZ/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="AnswerNo" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">No</target>
+        </trans-unit>
+        <trans-unit id="AnswerYes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Sì</target>
+        </trans-unit>
+        <trans-unit id="Capabilities" translate="yes" xml:space="preserve">
+          <source>I can provide you with strings to review in your native language and offer you the change to suggest better translations!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Posso fornirvi stringhe da rivedere nella tua lingua nativa e offrirvi il cambiamento per suggerire meglio le traduzioni!</target>
+        </trans-unit>
+        <trans-unit id="ContactAdded" translate="yes" xml:space="preserve">
+          <source>Hey, my new Friend! Lets improve the localization quality of Skype!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ehi, il mio nuovo amico! Consente di imporve qualità di localizzazione di Skype!</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="DiscoverUser" translate="yes" xml:space="preserve">
+          <source>I would like to learn more about you!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mi piacerebbe saperne di più su di te!</target>
+        </trans-unit>
+        <trans-unit id="DiscoverUserGoodReponse" translate="yes" xml:space="preserve">
+          <source>So you are a master of the {1} language.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Così tu sei padrone della lingua {1}</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="DiscoverUserLanguageGood" translate="yes" xml:space="preserve">
+          <source>What are the languages, that you master at a very good level?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Quali sono le lingue, quello padrone a livello molto buono?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="DiscoverUserLanguageNative" translate="yes" xml:space="preserve">
+          <source>What is your native language?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Qual è la vostra lingua madre?</target>
+        </trans-unit>
+        <trans-unit id="DiscoverUserNativeResponce" translate="yes" xml:space="preserve">
+          <source>From what I understood your native language is {0}.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Da quello che ho capito la tua lingua nativa è {0}</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="DiscoverUserQualityJudge" translate="yes" xml:space="preserve">
+          <source>Would you like to judge the current translation quality between {0} and {1}?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vuoi giudicare sulla qualità della traduzione corrente tra {0} e {1} lingue?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <note from="MultilingualBuild" annotates="source" priority="2">Placeholders replaced with language names. For example: {0} - english, {1}  -latvian</note>
+        </trans-unit>
+        <trans-unit id="Hack42" translate="yes" xml:space="preserve">
+          <source>The Meaning of Life, the Universe, and Everything</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Il significato della vita, l'universo e tutto</target>
+        </trans-unit>
+        <trans-unit id="QualityCompareStrings" translate="yes" xml:space="preserve">
+          <source>Please put a mark on translation quality (1-10, with 10 - the best and 1 - the worst) {0} language phrase "{1}" (id {2}) is translated as "{3}" in {4} language!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Si prega di mettere mark sulla qualità della traduzione lingua {0} (1-10, con 10 - il migliore e 1 - il peggiore) frase "{1}" (id {2}) è tradotto come "{3}" in lingua {4}!</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="QualityExcelent" translate="yes" xml:space="preserve">
+          <source>Wow! That sounds great! We will give a cookie to the translators. Thank you!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wow! Sembra fantastico! Daremo un cookie ai traduttori. Grazie!</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="QualityMedicore" translate="yes" xml:space="preserve">
+          <source>It is passable. Would you like to suggest something better?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">È passabile. Vuoi suggerire qualcosa di meglio?</target>
+        </trans-unit>
+        <trans-unit id="QualityYouCanBetter" translate="yes" xml:space="preserve">
+          <source>Ouch, thats too bad. Can you suggest a better translation?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ahi, che è troppo male. Potete suggerire traduzione migliore?</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="RemovedContact" translate="yes" xml:space="preserve">
+          <source>Thank you for all the fish!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grazie per tutto il pesce!</target>
+        </trans-unit>
+        <trans-unit id="StatusReport" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Stato</target>
+        </trans-unit>
+        <trans-unit id="StatusReportAnswer" translate="yes" xml:space="preserve">
+          <source>You have translated {0} and reviewed {1} language pairs</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Avete tradotto {0} e {1} lanugage paia di recensione</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="StatusReportExtendedAnswer" translate="yes" xml:space="preserve">
+          <source>You have translated {0} and reviewed {1} language pairs. {2} of your translations are used in production! Good job!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hai tradotto {0} e {1} lanugage paia di recensione. {2} delle vostre traduzioni sono utilizzati in produzione! Ottimo lavoro!</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ThankYou" translate="yes" xml:space="preserve">
+          <source>Thank you, your contribution will make a better user experience for you and other users!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grazie, il tuo contributo farà un expirence utente migliore per voi e per gli altri utenti!</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ContinueWithEvaluations" translate="yes" xml:space="preserve">
+          <source>Would you like to continue with evaluating translations?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vuoi continuare con valutiamo traduzioni?</target>
+        </trans-unit>
+        <trans-unit id="EvaluateString_Bad_Action" translate="yes" xml:space="preserve">
+          <source>Terrible. I can translate better!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Terribile. Posso tradurre meglio!</target>
+        </trans-unit>
+        <trans-unit id="EvaluateString_Best_Action" translate="yes" xml:space="preserve">
+          <source>Excellent translation</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Traduzione eccellente</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="EvaluateString_Medium_Action" translate="yes" xml:space="preserve">
+          <source>It is fine translation</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">È bella traduzione</target>
+        </trans-unit>
+        <trans-unit id="EvaluateString_Source" translate="yes" xml:space="preserve">
+          <source>Evaluate a Translation from source '{0}'  | {1}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valutare una traduzione da origine '{0}' {1}</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Evaluate_EnterSuggestion" translate="yes" xml:space="preserve">
+          <source>Please type-in your suggestion! And then press Enter (Send message)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Per favore tipo-nel tuo suggerimento! E quindi premere INVIO (Invia messaggio)</target>
+        </trans-unit>
+        <trans-unit id="Evaluate_Init" translate="yes" xml:space="preserve">
+          <source>Would you like to evaluate some translation quality?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vuoi valutare alcune qualità di traduzione?</target>
+        </trans-unit>
+        <trans-unit id="WelcomeMessage" translate="yes" xml:space="preserve">
+          <source>Hey, new friend! I am LocaLiz. You help me with giving feedback on translation quality. </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ehi, nuovo amico! Io sono di attuazione. Mi potete aiutare con dando un feedback sulla qualità della traduzione. </target>
+        </trans-unit>
+        <trans-unit id="Command_DoNotUnderstandLangauge" translate="yes" xml:space="preserve">
+          <source>Sorry do not speak that language :(</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Siamo spiacenti non parla quella lingua :(</target>
+        </trans-unit>
+        <trans-unit id="Command_In_What_Language" translate="yes" xml:space="preserve">
+          <source>In what language you would like to speak with me?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">In quale lingua si desidera parlare con me?</target>
+        </trans-unit>
+        <trans-unit id="Command_Select_One" translate="yes" xml:space="preserve">
+          <source>Pick one Language</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Scegli una lingua</target>
+        </trans-unit>
+        <trans-unit id="Command_SwtichToLanguage" translate="yes" xml:space="preserve">
+          <source>Oki-doki-now switching to {0}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oki-doki-ora passare a {0}</target>
+        </trans-unit>
+        <trans-unit id="Discover_Female" translate="yes" xml:space="preserve">
+          <source>Female</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Femminile</target>
+        </trans-unit>
+        <trans-unit id="Discover_Male" translate="yes" xml:space="preserve">
+          <source>Male</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Maschile</target>
+        </trans-unit>
+        <trans-unit id="Discover_Other" translate="yes" xml:space="preserve">
+          <source>Other</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Altro</target>
+        </trans-unit>
+        <trans-unit id="Discover_Unspecified" translate="yes" xml:space="preserve">
+          <source>Unspecified</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Non specificato</target>
+        </trans-unit>
+        <trans-unit id="Discover_What_Gender" translate="yes" xml:space="preserve">
+          <source>What is your gender?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Qual è il tuo genere?</target>
+        </trans-unit>
+        <trans-unit id="String" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="String10" translate="yes" xml:space="preserve">
+          <source>Male</source>
+          <target state="new">Male</target>
+        </trans-unit>
+        <trans-unit id="String11" translate="yes" xml:space="preserve">
+          <source>Other</source>
+          <target state="new">Other</target>
+        </trans-unit>
+        <trans-unit id="String12" translate="yes" xml:space="preserve">
+          <source>Unspecified</source>
+          <target state="new">Unspecified</target>
+        </trans-unit>
+        <trans-unit id="String13" translate="yes" xml:space="preserve">
+          <source>What is your gender?</source>
+          <target state="new">What is your gender?</target>
+        </trans-unit>
+        <trans-unit id="String14" translate="yes" xml:space="preserve">
+          <source>I would like to learn more about you!</source>
+          <target state="new">I would like to learn more about you!</target>
+        </trans-unit>
+        <trans-unit id="String15" translate="yes" xml:space="preserve">
+          <source>So you are a master of the {1} language.</source>
+          <target state="new">So you are a master of the {1} language.</target>
+        </trans-unit>
+        <trans-unit id="String16" translate="yes" xml:space="preserve">
+          <source>What are the languages, that you master at a very good level?</source>
+          <target state="new">What are the languages, that you master at a very good level?</target>
+        </trans-unit>
+        <trans-unit id="String17" translate="yes" xml:space="preserve">
+          <source>What is your native language?</source>
+          <target state="new">What is your native language?</target>
+        </trans-unit>
+        <trans-unit id="String18" translate="yes" xml:space="preserve">
+          <source>From what I understood your native language is {0}.</source>
+          <target state="new">From what I understood your native language is {0}.</target>
+        </trans-unit>
+        <trans-unit id="String19" translate="yes" xml:space="preserve">
+          <source>Would you like to judge the current translation quality between {0} and {1}?</source>
+          <target state="new">Would you like to judge the current translation quality between {0} and {1}?</target>
+        </trans-unit>
+        <trans-unit id="String2" translate="yes" xml:space="preserve">
+          <source>I can provide you with strings to review in your native language and offer you the change to suggest better translations!</source>
+          <target state="new">I can provide you with strings to review in your native language and offer you the change to suggest better translations!</target>
+        </trans-unit>
+        <trans-unit id="String20" translate="yes" xml:space="preserve">
+          <source>Please type-in your suggestion! And then press Enter (Send message)</source>
+          <target state="new">Please type-in your suggestion! And then press Enter (Send message)</target>
+        </trans-unit>
+        <trans-unit id="String21" translate="yes" xml:space="preserve">
+          <source>Would you like to evaluate some translation quality?</source>
+          <target state="new">Would you like to evaluate some translation quality?</target>
+        </trans-unit>
+        <trans-unit id="String22" translate="yes" xml:space="preserve">
+          <source>Terrible. I can translate better!</source>
+          <target state="new">Terrible. I can translate better!</target>
+        </trans-unit>
+        <trans-unit id="String23" translate="yes" xml:space="preserve">
+          <source>Excellent translation</source>
+          <target state="new">Excellent translation</target>
+        </trans-unit>
+        <trans-unit id="String24" translate="yes" xml:space="preserve">
+          <source>It is fine translation</source>
+          <target state="new">It is fine translation</target>
+        </trans-unit>
+        <trans-unit id="String25" translate="yes" xml:space="preserve">
+          <source>Evaluate a Translation from source '{0}'  | {1}</source>
+          <target state="new">Evaluate a Translation from source '{0}'  | {1}</target>
+        </trans-unit>
+        <trans-unit id="String26" translate="yes" xml:space="preserve">
+          <source>The Meaning of Life, the Universe, and Everything</source>
+          <target state="new">The Meaning of Life, the Universe, and Everything</target>
+        </trans-unit>
+        <trans-unit id="String27" translate="yes" xml:space="preserve">
+          <source>Please put a mark on translation quality (1-10, with 10 - the best and 1 - the worst) {0} language phrase "{1}" (id {2}) is translated as "{3}" in {4} language!</source>
+          <target state="new">Please put a mark on translation quality (1-10, with 10 - the best and 1 - the worst) {0} language phrase "{1}" (id {2}) is translated as "{3}" in {4} language!</target>
+        </trans-unit>
+        <trans-unit id="String28" translate="yes" xml:space="preserve">
+          <source>Wow! That sounds great! We will give a cookie to the translators. Thank you!</source>
+          <target state="new">Wow! That sounds great! We will give a cookie to the translators. Thank you!</target>
+        </trans-unit>
+        <trans-unit id="String29" translate="yes" xml:space="preserve">
+          <source>It is passable. Would you like to suggest something better?</source>
+          <target state="new">It is passable. Would you like to suggest something better?</target>
+        </trans-unit>
+        <trans-unit id="String3" translate="yes" xml:space="preserve">
+          <source>Sorry do not speak that language :(</source>
+          <target state="new">Sorry do not speak that language :(</target>
+        </trans-unit>
+        <trans-unit id="String30" translate="yes" xml:space="preserve">
+          <source>Ouch, that's too bad. Can you suggest a better translation?</source>
+          <target state="new">Ouch, that's too bad. Can you suggest a better translation?</target>
+        </trans-unit>
+        <trans-unit id="String31" translate="yes" xml:space="preserve">
+          <source>Thank you for all the fish!</source>
+          <target state="new">Thank you for all the fish!</target>
+        </trans-unit>
+        <trans-unit id="String32" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="new">Status</target>
+        </trans-unit>
+        <trans-unit id="String33" translate="yes" xml:space="preserve">
+          <source>You have translated {0} and reviewed {1} language pairs</source>
+          <target state="new">You have translated {0} and reviewed {1} language pairs</target>
+        </trans-unit>
+        <trans-unit id="String34" translate="yes" xml:space="preserve">
+          <source>You have translated {0} and reviewed {1} language pairs. {2} of your translations are used in production! Good job!</source>
+          <target state="new">You have translated {0} and reviewed {1} language pairs. {2} of your translations are used in production! Good job!</target>
+        </trans-unit>
+        <trans-unit id="String35" translate="yes" xml:space="preserve">
+          <source>Thank you, your contribution will make a better user experience for you and other users!</source>
+          <target state="new">Thank you, your contribution will make a better user experience for you and other users!</target>
+        </trans-unit>
+        <trans-unit id="String36" translate="yes" xml:space="preserve">
+          <source>Hey, new friend! I am LocaLiz. You help me with giving feedback on translation quality.</source>
+          <target state="new">Hey, new friend! I am LocaLiz. You help me with giving feedback on translation quality.</target>
+        </trans-unit>
+        <trans-unit id="String4" translate="yes" xml:space="preserve">
+          <source>In what language you would like to speak with me?</source>
+          <target state="new">In what language you would like to speak with me?</target>
+        </trans-unit>
+        <trans-unit id="String5" translate="yes" xml:space="preserve">
+          <source>Pick one Language</source>
+          <target state="new">Pick one Language</target>
+        </trans-unit>
+        <trans-unit id="String6" translate="yes" xml:space="preserve">
+          <source>Oki-doki-now switching to {0}</source>
+          <target state="new">Oki-doki-now switching to {0}</target>
+        </trans-unit>
+        <trans-unit id="String7" translate="yes" xml:space="preserve">
+          <source>Hey, my new Friend! Lets improve the localization quality of Skype!</source>
+          <target state="new">Hey, my new Friend! Lets improve the localization quality of Skype!</target>
+        </trans-unit>
+        <trans-unit id="String8" translate="yes" xml:space="preserve">
+          <source>Would you like to continue with evaluating translations?</source>
+          <target state="new">Would you like to continue with evaluating translations?</target>
+        </trans-unit>
+        <trans-unit id="String9" translate="yes" xml:space="preserve">
+          <source>Female</source>
+          <target state="new">Female</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

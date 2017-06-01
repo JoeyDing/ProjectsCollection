@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Nachricht hier eingeben\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Profil freigeben",
+    "accessibility_id": "Profil freigeben"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Beschäftigt\")).index(1)",
+    "text": "Beschäftigt"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Kontakte und Gruppen durchsuchen|Kontakte und Gruppen durchsuchen\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Kontakte und Bots durchsuchen|Kontakte und Bots suchen\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Bots durchsuchen|Skype durchsuchen|Lassen Sie zu, dass Cortana Ihre Informationen erfasst und verwendet, um Ihre Fragen zu beantworten, Sie an Wichtiges zu erinnern und Ihnen viele weitere Funktionen zu bieten. Diese Informationen sind u. a.:\n\nStandort und Standortverlauf\n\nKontakte, Kalenderdetails sowie Inhalts- und Kommunikationsverlauf aus Nachrichten, Chatnachrichten und Apps\n\nSuchverlauf und andere Informationen auf Ihrem Gerät, um Ihre Nutzungserfahrung persönlicher zu gestalten|Im Web suchen|Im Web suchen|Dateien durchsuchen|Kontakte suchen|Skype durchsuchen|Orte durchsuchen|Kontakte und Bots durchsuchen|Suchen|Kontakte und Gruppen durchsuchen|Kontakte suchen|Skype durchsuchen|Suchen|Bots durchsuchen|Kontakte suchen|Kontakte und Bots suchen|Kontakte und Gruppen durchsuchen\")",
+    "text": "Suchen"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Kontakte suchen|Kontakte und Bots durchsuchen|Kontakte und Gruppen durchsuchen|Kontakte suchen|Kontakte suchen|Kontakte und Bots suchen|Kontakte und Gruppen durchsuchen\")",
+    "text": "Kontakte suchen"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Bots durchsuchen|Skype durchsuchen|Lassen Sie zu, dass Cortana Ihre Informationen erfasst und verwendet, um Ihre Fragen zu beantworten, Sie an Wichtiges zu erinnern und Ihnen viele weitere Funktionen zu bieten. Diese Informationen sind u. a.:\n\nStandort und Standortverlauf\n\nKontakte, Kalenderdetails sowie Inhalts- und Kommunikationsverlauf aus Nachrichten, Chatnachrichten und Apps\n\nSuchverlauf und andere Informationen auf Ihrem Gerät, um Ihre Nutzungserfahrung persönlicher zu gestalten|Im Web suchen|Im Web suchen|Dateien durchsuchen|Kontakte suchen|Skype durchsuchen|Orte durchsuchen|Kontakte und Bots durchsuchen|Suchen|Kontakte und Gruppen durchsuchen|Kontakte suchen|Skype durchsuchen|Suchen|Bots durchsuchen|Kontakte suchen|Kontakte und Bots suchen|Kontakte und Gruppen durchsuchen\")",
+    "text": "Suchen"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Einstellungen"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Abmelden\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Info\")",
+    "text": "Info"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} Min., läuft am {expireDate} ab|Fehler beim Kontaktieren des Cortana-Dienstes. Versuchen Sie es in einigen Minuten erneut.|{hours} Std. {minutes} Min. {seconds} Sek.|{hours} Std. {minutes} Min.|{minutes} Min.|{minutes}Min. {seconds} Sek.|{count} Minuten|{count, plural, =1{vor 1 Minute} other{vor # Minuten}}|{minutes}m|{count, plural, =1{vor 1 Minute} other{vor # Minuten}}|{count, plural, =1{vor 1 Minute} other{vor # Minuten}}\")",
+    "text": "{minutes} Min., läuft am {expireDate} ab|Fehler beim Kontaktieren des Cortana-Dienstes. Versuchen Sie es in einigen Minuten erneut.|{hours} Std. {minutes} Min. {seconds} Sek.|{hours} Std. {minutes} Min.|{minutes} Min.|{minutes}Min. {seconds} Sek.|{count} Minuten|{count, plural, =1{vor 1 Minute} other{vor # Minuten}}|{minutes}m|{count, plural, =1{vor 1 Minute} other{vor # Minuten}}|{count, plural, =1{vor 1 Minute} other{vor # Minuten}}"
+  }
+}

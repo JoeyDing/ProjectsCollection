@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Staging_SkypeLocalizationDataWModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Staging_FabricBackup_SteelheadDataParsed">
+          <Key>
+            <PropertyRef Name="SteelHeadDataParsedKey" />
+          </Key>
+          <Property Name="SteelHeadDataParsedKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SymbolicName" Type="nvarchar(max)" />
+          <Property Name="ParserIdentifier" Type="nvarchar(max)" />
+          <Property Name="Revision" Type="smallint" />
+          <Property Name="Deleted" Type="bit" />
+          <Property Name="Language" Type="nvarchar" MaxLength="16" />
+          <Property Name="ProjectName" Type="nvarchar(max)" />
+          <Property Name="FileName" Type="nvarchar(max)" />
+          <Property Name="ResultDate" Type="datetime" />
+          <Property Name="Result" Type="nvarchar(max)" />
+          <Property Name="ResultLoggedBy" Type="nvarchar(max)" />
+          <Property Name="BugNumber" Type="int" />
+          <Property Name="ResourceIdentity" Type="int" />
+        </EntityType>
+        <Function Name="GetStagingFabricBackupSteelheadData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="Staging_SkypeLocalizationDataWModelStoreContainer">
+          <EntitySet Name="Staging_FabricBackup_SteelheadDataParsed" EntityType="Self.Staging_FabricBackup_SteelheadDataParsed" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Staging_SkypeLocalizationDataWModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Staging_FabricBackup_SteelheadDataParsed">
+          <Key>
+            <PropertyRef Name="SteelHeadDataParsedKey" />
+          </Key>
+          <Property Name="SteelHeadDataParsedKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SymbolicName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ParserIdentifier" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Revision" Type="Int16" />
+          <Property Name="Deleted" Type="Boolean" />
+          <Property Name="Language" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+          <Property Name="ProjectName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ResultDate" Type="DateTime" Precision="3" />
+          <Property Name="Result" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ResultLoggedBy" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="BugNumber" Type="Int32" />
+          <Property Name="ResourceIdentity" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="Staging_SkypeLocalizationDataWEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Staging_FabricBackup_SteelheadDataParsed" EntityType="Self.Staging_FabricBackup_SteelheadDataParsed" />
+          <FunctionImport Name="GetStagingFabricBackupSteelheadData" ReturnType="Collection(Staging_SkypeLocalizationDataWModel.GetStagingFabricBackupSteelheadData_Result)" />
+        </EntityContainer>
+        <ComplexType Name="GetStagingFabricBackupSteelheadData_Result">
+          <Property Type="String" Name="SymbolicName" Nullable="true" />
+          <Property Type="String" Name="ParserIdentifier" Nullable="true" />
+          <Property Type="String" Name="SteelheadData" Nullable="true" />
+          <Property Type="Int16" Name="Revision" Nullable="true" />
+          <Property Type="Boolean" Name="Deleted" Nullable="true" />
+          <Property Type="String" Name="Language" Nullable="true" MaxLength="16" />
+          <Property Type="String" Name="ProjectName" Nullable="true" />
+          <Property Type="String" Name="FileName" Nullable="true" />
+          <Property Type="Int32" Name="ResourceIdentity" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Staging_SkypeLocalizationDataWModelStoreContainer" CdmEntityContainer="Staging_SkypeLocalizationDataWEntities">
+          <EntitySetMapping Name="Staging_FabricBackup_SteelheadDataParsed">
+            <EntityTypeMapping TypeName="Staging_SkypeLocalizationDataWModel.Staging_FabricBackup_SteelheadDataParsed">
+              <MappingFragment StoreEntitySet="Staging_FabricBackup_SteelheadDataParsed">
+                <ScalarProperty Name="SteelHeadDataParsedKey" ColumnName="SteelHeadDataParsedKey" />
+                <ScalarProperty Name="SymbolicName" ColumnName="SymbolicName" />
+                <ScalarProperty Name="ParserIdentifier" ColumnName="ParserIdentifier" />
+                <ScalarProperty Name="Revision" ColumnName="Revision" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="Language" ColumnName="Language" />
+                <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="ResultDate" ColumnName="ResultDate" />
+                <ScalarProperty Name="Result" ColumnName="Result" />
+                <ScalarProperty Name="ResultLoggedBy" ColumnName="ResultLoggedBy" />
+                <ScalarProperty Name="BugNumber" ColumnName="BugNumber" />
+                <ScalarProperty Name="ResourceIdentity" ColumnName="ResourceIdentity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="GetStagingFabricBackupSteelheadData" FunctionName="Staging_SkypeLocalizationDataWModel.Store.GetStagingFabricBackupSteelheadData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Staging_SkypeLocalizationDataWModel.GetStagingFabricBackupSteelheadData_Result">
+                <ScalarProperty Name="SymbolicName" ColumnName="SymbolicName" />
+                <ScalarProperty Name="ParserIdentifier" ColumnName="ParserIdentifier" />
+                <ScalarProperty Name="SteelheadData" ColumnName="SteelheadData" />
+                <ScalarProperty Name="Revision" ColumnName="Revision" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="Language" ColumnName="Language" />
+                <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="ResourceIdentity" ColumnName="ResourceIdentity" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

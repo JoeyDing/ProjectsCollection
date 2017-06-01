@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="09a1ef4ff06e4c31b36b4b487c4e6520" Name="Diagram1" ZoomLevel="60">
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.BasicLanguageList" Width="1.5" PointX="8.25" PointY="6.375" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.EOL" Width="1.5" PointX="15" PointY="13.375" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.FabricOnboarding" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.FabricTenant" Width="1.5" PointX="0.75" PointY="36" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.LanguageSetting" Width="1.5" PointX="0.75" PointY="24.25" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.MilestoneCategory" Width="1.5" PointX="15" PointY="4.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Milestone" Width="1.5" PointX="17.25" PointY="6.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Platform" Width="1.5" PointX="0.75" PointY="19.5" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ProductContent" Width="1.5" PointX="0.75" PointY="38.5" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Product" Width="1.5" PointX="12.75" PointY="4.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ProductVoice" Width="1.5" PointX="0.75" PointY="14.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ReleaseCadence" Width="1.5" PointX="0.75" PointY="17.25" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ReleaseChannel" Width="1.5" PointX="5.25" PointY="17.5" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Source_Control_Interface" Width="2.375" PointX="4.375" PointY="22.25" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.SourceStorage" Width="1.5" PointX="5.25" PointY="19.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Status" Width="1.5" PointX="0.75" PointY="21.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.suppData_ExtendedEOL" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.sysdiagram" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Test_Pass" Width="1.5" PointX="5.75" PointY="12.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.TestSchedule" Width="1.5" PointX="20.25" PointY="7" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.suppData_EngineeringInfo" Width="1.5" PointX="7.75" PointY="12.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.vm_vsoTaskInfo" Width="1.5" PointX="9.75" PointY="12.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.vw_MilestoneInfo" Width="2.25" PointX="11.75" PointY="12.75" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_EOL_Products" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_FabricOnboarding_FabricOnboarding" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Milestones_MilestoneCategories" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_TestSchedules_MilestoneCategories" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Milestones_Products" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_TestSchedule_Products" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.SpokenInputOutput" Width="1.5" PointX="14.5" PointY="1.375" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_SpokenInputOutput_BasicLanguageList" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Feature" Width="1.5" PointX="5.25" PointY="4.875" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_SpokenInputOutput_Features" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.TextInputOutput" Width="1.5" PointX="10.5" PointY="5.375" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_TextInputOutput_BasicLanguageList" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_TextInputOutput_Features" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.vw_MilestoneTestScheduleInfo" Width="1.5" PointX="7.375" PointY="16.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ResourceFiles_Target" Width="1.875" PointX="10.5" PointY="21.75" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_Target_BasicLanguageList" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Branch" Width="1.5" PointX="5.25" PointY="26" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.stringData_MasterResourceList" Width="1.5" PointX="5.25" PointY="35.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.stringData_BuildData" Width="1.5" PointX="7.5" PointY="40" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.stringData_LCTImportData" Width="1.5" PointX="7.5" PointY="29.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.stringData_SourceRepoData" Width="1.5" PointX="7.5" PointY="43.125" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.stringData_TargetRepoData" Width="1.5" PointX="12.75" PointY="28.875" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_stringData_LCTImportData_Branch" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_stringData_TargetRepoData_ResourceFiles_Target" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_stringData_BuildData_stringData_MasterResourceList" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_stringData_LCTImportData_stringData_MasterResourceList" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_stringData_SourceRepoData_stringData_MasterResourceList" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_stringData_TargetRepoData_stringData_MasterResourceList" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.vw_OfficialMilestoneDates" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.HistoryResourceFile" Width="1.5" PointX="12.5" PointY="32.25" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.HistoryResourceFiles_Target" Width="1.5" PointX="13.125" PointY="24.625" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_HistoryResourceFiles_Target_ResourceFiles_Target" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.multi_ProductPlatform_Backup" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ProductFamily" Width="1.5" PointX="0.75" PointY="6.625" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.LocBuildProcess" Width="1.5" PointX="0.75" PointY="12.125" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.BuildSystem" Width="1.5" PointX="5.375" PointY="2.375" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.CodeReview" Width="1.5" PointX="3.75" PointY="26.5" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.LocProcess" Width="1.5" PointX="16.75" PointY="22.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Location" Width="1.5" PointX="3.75" PointY="9.125" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Release" Width="1.5" PointX="3.375" PointY="29.5" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Milestones_Releases" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_TestSchedule_Releases" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.vw_MilestoneTestScheduleInfo_ForOldSchedule" Width="1.5" PointX="21.375" PointY="11.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ResourceFile" Width="1.5" PointX="21.25" PointY="22.625" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_FabricTenants" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_HistoryResourceFiles_ResourceFiles" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_Target_ResourceFiles" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.UILanguage" Width="1.5" PointX="24.5" PointY="15" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_UILanguages_BasicLanguageList" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.UILanguageFiles" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.VSO_Products" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.VSoWorkItem" Width="1.5" PointX="15.75" PointY="16.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ProductPillar" Width="1.5" PointX="17.125" PointY="25.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.ProductThread" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.Products_New" Width="1.5" PointX="24.375" PointY="1" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Branch_Products" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_BuildSystems" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_CodeReview" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Features_Products_New" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_Location" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_LocBuildProcess" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_LocProcess" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_ProductFamilies" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_Releases_Products" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_UILanguages_Products_New" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.multi_CoreTeamLocations" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.multi_ProductPillar" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.multi_ProductPlatform" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.multi_ProductResourceFiles" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.multi_releaseChannel" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.multi_SourceControlInterface" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.multi_SourceStorage" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.UIVacationCategory" Width="1.5" PointX="24.375" PointY="19.875" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.VacationInfo" Width="1.5" PointX="26.625" PointY="6.375" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_VacationInfo_UIVacationCategory" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.VacationAffectedProducts" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.VacationAffectedLocations" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.GitProjectDocumentation" Width="1.5" PointX="6.375" PointY="9.75" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.UALanguage" Width="1.5" PointX="27.625" PointY="12.25" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.UAQuality" Width="1.5" PointX="25.375" PointY="23.125" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_UALanguages_BasicLanguageList" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_UALanguages_Products_New" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.FK_UALanguages_UAQuality" />
+        <AssociationConnector Association="SkypeIntlPlanningPortfolioModel.UALanguageFiles" />
+        <EntityTypeShape EntityType="SkypeIntlPlanningPortfolioModel.BuildRequest" Width="1.5" PointX="17.375" PointY="0.75" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

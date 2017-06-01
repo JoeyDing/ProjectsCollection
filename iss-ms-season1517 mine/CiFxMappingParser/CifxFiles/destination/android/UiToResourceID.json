@@ -1,0 +1,76 @@
+{
+  "chat_window_message": [
+    {
+      "Property": "command",
+      "ResourceId": "MessageComposer|MessagePlaceholderText"
+    }
+  ],
+  "profile_window_settings": [
+    {
+      "Property": "text",
+      "ResourceId": "ProfileCard|ShareProfileLink"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "ProfileCard|ShareProfileLink"
+    }
+  ],
+  "main_window_new_conversation_contact_search_bar_input": [
+    {
+      "Property": "command",
+      "ResourceId": "QuickCallPanel|SearchButtonText"
+    }
+  ],
+  "main_window_new_group_conversation_user_search": [
+    {
+      "Property": "command",
+      "ResourceId": "PeoplePanel|SearchButtonText"
+    }
+  ],
+  "main_window_new_group_conversation_user_search_input": [
+    {
+      "Property": "command",
+      "ResourceId": "AgentsDiscoveryPanel|SearchBoxPlaceholder"
+    }
+  ],
+  "main_window_people_search": [
+    {
+      "Property": "command",
+      "ResourceId": "HighlightsFollow|InputPlaceholderTextPeople"
+    }
+  ],
+  "contact_window_search": [
+    {
+      "Property": "command",
+      "ResourceId": "AgentsDiscoveryPanel|SearchBoxPlaceholder"
+    }
+  ],
+  "profile_about_information_link": [
+    {
+      "Property": "command",
+      "ResourceId": "UserSettingsPanel|AboutButton"
+    },
+    {
+      "Property": "text",
+      "ResourceId": "UserSettingsPanel|AboutButton"
+    }
+  ],
+  "my_highlights_confirm_upload_successful": [
+    {
+      "Property": "command",
+      "ResourceId": "BalanceStatePanel|SubscriptionInfo"
+    },
+    {
+      "Property": "Command",
+      "ResourceId": "HighlightItemView|_MediaPostedJustNow.comment"
+    },
+    {
+      "Property": "text",
+      "ResourceId": "BalanceStatePanel|SubscriptionInfo"
+    },
+    {
+      "Property": "Text",
+      "ResourceId": "HighlightItemView|_MediaPostedJustNow.comment"
+    }
+  ]
+}

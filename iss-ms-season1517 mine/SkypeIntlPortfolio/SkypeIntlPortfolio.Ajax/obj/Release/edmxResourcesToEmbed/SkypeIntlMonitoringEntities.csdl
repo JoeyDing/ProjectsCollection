@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkypeIntlMonitoringModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SkypeIntlMonitoringEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="vw_ProjectBuildInfo" EntityType="SkypeIntlMonitoringModel.vw_ProjectBuildInfo" />
+    <EntitySet Name="vw_ProjectFamilyInfo" EntityType="SkypeIntlMonitoringModel.vw_ProjectFamilyInfo" />
+  </EntityContainer>
+  <EntityType Name="vw_ProjectBuildInfo">
+    <Key>
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="ProjectID" />
+      <PropertyRef Name="IsVisible" />
+    </Key>
+    <Property Name="BranchID" Type="Int32" Nullable="false" />
+    <Property Name="ProjectID" Type="Int32" Nullable="false" />
+    <Property Name="BuildVersion" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="BranchIdentity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PDName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="PDLinks" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="IsVisible" Type="Boolean" Nullable="false" />
+    <Property Name="SyncDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="vw_ProjectFamilyInfo">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="Int32" Nullable="false" />
+    <Property Name="ProjectName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="DisplayName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Taip mesej di sini\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Kongsi profil",
+    "accessibility_id": "Kongsi profil"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Jangan ganggu\")).index(1)",
+    "text": "Jangan ganggu"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Cari Individu dan Kumpulan|Cari Individu dan Kumpulan\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Cari Individu dan Bot|Cari Individu dan Bot\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Cari bot|Cari di Skype|Untuk menjawab pertanyaan anda, membantu anda mengingati perkara penting, dan banyak lagi, benarkan Cortana mengumpul dan menggunakan maklumat termasuk:\n\nLokasi dan sejarah lokasi\n\nKenalan, butiran kalendar, dan kandungan dan sejarah komunikasi daripada mesej, mesej segera, dan sejarah\n\nCarian aplikasi dan maklumat lain pada peranti anda bagi menjadikan pengalaman anda lebih peribadi|Cari di web|Cari di web|Cari fail|Cari Individu|Cari di Skype|Cari tempat|Cari Individu dan Bot|Cari|Cari Individu dan Kumpulan|Cari Individu|Cari di Skype|Cari|Cari bot|Cari Individu|Cari Individu dan Bot|Cari Individu dan Kumpulan\")",
+    "text": "Cari"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Cari Individu|Cari Individu dan Bot|Cari Individu dan Kumpulan|Cari Individu|Cari Individu|Cari Individu dan Bot|Cari Individu dan Kumpulan\")",
+    "text": "Cari Individu"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Cari bot|Cari di Skype|Untuk menjawab pertanyaan anda, membantu anda mengingati perkara penting, dan banyak lagi, benarkan Cortana mengumpul dan menggunakan maklumat termasuk:\n\nLokasi dan sejarah lokasi\n\nKenalan, butiran kalendar, dan kandungan dan sejarah komunikasi daripada mesej, mesej segera, dan sejarah\n\nCarian aplikasi dan maklumat lain pada peranti anda bagi menjadikan pengalaman anda lebih peribadi|Cari di web|Cari di web|Cari fail|Cari Individu|Cari di Skype|Cari tempat|Cari Individu dan Bot|Cari|Cari Individu dan Kumpulan|Cari Individu|Cari di Skype|Cari|Cari bot|Cari Individu|Cari Individu dan Bot|Cari Individu dan Kumpulan\")",
+    "text": "Cari"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Tetapan"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Log keluar\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Mengenai\")",
+    "text": "Mengenai"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} min, tamat tempoh {expireDate}|Gagal menghubungi Perkhidmatan Cortana. Sila cuba lagi dalam beberapa minit.|{hours}h {minutes}m {seconds}s|{hours}h {minutes}m|{minutes}m|{minutes}m {seconds}s|{count} minit|{count, plural, =1{1 minit yang lalu} other{# minit yang lalu}}|{minutes}m|{count, plural, =1{1 minit yang lalu} other{# minit yang lalu}}|{count, plural, =1{1 minit yang lalu} other{# minit yang lalu}}\")",
+    "text": "{minutes} min, tamat tempoh {expireDate}|Gagal menghubungi Perkhidmatan Cortana. Sila cuba lagi dalam beberapa minit.|{hours}h {minutes}m {seconds}s|{hours}h {minutes}m|{minutes}m|{minutes}m {seconds}s|{count} minit|{count, plural, =1{1 minit yang lalu} other{# minit yang lalu}}|{minutes}m|{count, plural, =1{1 minit yang lalu} other{# minit yang lalu}}|{count, plural, =1{1 minit yang lalu} other{# minit yang lalu}}"
+  }
+}

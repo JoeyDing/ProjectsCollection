@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Typ hier een bericht\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Profiel delen",
+    "accessibility_id": "Profiel delen"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Niet storen\")).index(1)",
+    "text": "Niet storen"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Personen en groepen zoeken|Personen en groepen zoeken\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Personen en bots zoeken|Personen en bots zoeken\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Bots zoeken|Zoeken in Skype|Laat Cortana uw informatie verzamelen en gebruiken om uw vragen te beantwoorden, u te helpen herinneren aan belangrijke dingen en nog veel meer, zoals:\n\nLocatie en locatiegeschiedenis,\n\nContacten, agendadetails en inhoud en communicatiegeschiedenis van berichten, instant-berichten en apps.\n\nZoek in de geschiedenis en andere informatie op uw apparaat om uw ervaring nog persoonlijker te maken|Op internet zoeken|Op internet zoeken|Bestanden zoeken|Personen zoeken|Zoeken in Skype|Plaatsen zoeken|Personen en bots zoeken|Zoeken|Personen en groepen zoeken|Personen zoeken|Zoeken in Skype|Zoeken|Bots zoeken|Personen zoeken|Personen en bots zoeken|Personen en groepen zoeken\")",
+    "text": "Zoeken"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Personen zoeken|Personen en bots zoeken|Personen en groepen zoeken|Personen zoeken|Personen zoeken|Personen en bots zoeken|Personen en groepen zoeken\")",
+    "text": "Personen zoeken"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Bots zoeken|Zoeken in Skype|Laat Cortana uw informatie verzamelen en gebruiken om uw vragen te beantwoorden, u te helpen herinneren aan belangrijke dingen en nog veel meer, zoals:\n\nLocatie en locatiegeschiedenis,\n\nContacten, agendadetails en inhoud en communicatiegeschiedenis van berichten, instant-berichten en apps.\n\nZoek in de geschiedenis en andere informatie op uw apparaat om uw ervaring nog persoonlijker te maken|Op internet zoeken|Op internet zoeken|Bestanden zoeken|Personen zoeken|Zoeken in Skype|Plaatsen zoeken|Personen en bots zoeken|Zoeken|Personen en groepen zoeken|Personen zoeken|Zoeken in Skype|Zoeken|Bots zoeken|Personen zoeken|Personen en bots zoeken|Personen en groepen zoeken\")",
+    "text": "Zoeken"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Instellingen"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Afmelden\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Over\")",
+    "text": "Over"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} minuten, verloopt {expireDate}|Contact opnemen met Cortana-service is mislukt. Probeer het opnieuw over een paar minuten.|{hours}u {minutes}m {seconds}s|{hours}u {minutes}m|{minutes}m|{minutes}m {seconds}s|{count} minuten|{count, plural, =1{1 minuut geleden} other{# minuten geleden}}|{minutes} m|{count, plural, =1{1 minuut geleden} other{# minuten geleden}}|{count, plural, =1{1 minuut geleden} other{# minuten geleden}}\")",
+    "text": "{minutes} minuten, verloopt {expireDate}|Contact opnemen met Cortana-service is mislukt. Probeer het opnieuw over een paar minuten.|{hours}u {minutes}m {seconds}s|{hours}u {minutes}m|{minutes}m|{minutes}m {seconds}s|{count} minuten|{count, plural, =1{1 minuut geleden} other{# minuten geleden}}|{minutes} m|{count, plural, =1{1 minuut geleden} other{# minuten geleden}}|{count, plural, =1{1 minuut geleden} other{# minuten geleden}}"
+  }
+}

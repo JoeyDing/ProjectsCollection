@@ -1,0 +1,27 @@
+﻿{
+  "mk_aboutTitle": {
+    "text": {
+      "MappingSource": "About Skype Preview",
+      "MatchedBy": "Value",
+      "ResourcesIds": {
+        "AboutPanel|AboutTitle": "About Skype Preview"
+      }
+    },
+    "accessibility_id": {
+      "MappingSource": "This string is the title of About panel.",
+      "MatchedBy": "Value",
+      "ResourcesIds": {
+        "AboutPanel|_AboutTitle.comment": "This string is the title of About panel."
+      }
+    }
+  },
+  "mk_accessibilityLabel": {
+    "text": {
+      "MappingSource": "an audio message",
+      "MatchedBy": "Value",
+      "ResourcesIds": {
+        "AccessibilityLabel|Audio": "an audio message"
+      }
+    }
+  }
+}

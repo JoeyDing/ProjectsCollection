@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Escreva uma mensagem aqui\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Partilhar perfil",
+    "accessibility_id": "Partilhar perfil"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Ocupado\")).index(1)",
+    "text": "Ocupado"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Procurar Pessoas e Grupos|Procurar Pessoas e Grupos\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Procurar Pessoas e Bots|Procurar Pessoas e Bots\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Procurar bots|Procurar no Skype|De modo a responder às suas perguntas, ajudar a recordar o que é mais importante e muito mais, dê permissão à Cortana para recolher e utilizar as suas informações como:\n\nLocalização e histórico de localização\n\nContactos, detalhes do calendário e conteúdos e histórico de comunicação das mensagens, mensagens instantâneas e aplicações\n\nHistórico de pesquisa e outras informações no seu dispositivo para proporcionar uma experiência mais pessoal|Procurar na Web|Procurar na Web|Procurar ficheiros|Procurar Pessoas|Procurar no Skype|Procurar locais|Procurar Pessoas e Bots|Procurar|Procurar Pessoas e Grupos|Procurar Pessoas|Procurar no Skype|Procurar|Procurar bots|Procurar Pessoas|Procurar Pessoas e Bots|Procurar Pessoas e Grupos\")",
+    "text": "Procurar"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Procurar Pessoas|Procurar Pessoas e Bots|Procurar Pessoas e Grupos|Procurar Pessoas|Procurar Pessoas|Procurar Pessoas e Bots|Procurar Pessoas e Grupos\")",
+    "text": "Procurar Pessoas"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Procurar bots|Procurar no Skype|De modo a responder às suas perguntas, ajudar a recordar o que é mais importante e muito mais, dê permissão à Cortana para recolher e utilizar as suas informações como:\n\nLocalização e histórico de localização\n\nContactos, detalhes do calendário e conteúdos e histórico de comunicação das mensagens, mensagens instantâneas e aplicações\n\nHistórico de pesquisa e outras informações no seu dispositivo para proporcionar uma experiência mais pessoal|Procurar na Web|Procurar na Web|Procurar ficheiros|Procurar Pessoas|Procurar no Skype|Procurar locais|Procurar Pessoas e Bots|Procurar|Procurar Pessoas e Grupos|Procurar Pessoas|Procurar no Skype|Procurar|Procurar bots|Procurar Pessoas|Procurar Pessoas e Bots|Procurar Pessoas e Grupos\")",
+    "text": "Procurar"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Definições"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Terminar sessão\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Acerca de\")",
+    "text": "Acerca de"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} minutos, expira a {expireDate}|Falha ao contactar o serviço Cortana. Tente novamente dentro de alguns minutos.|{hours} h {minutes} min {seconds} s|{hours} h {minutes} min|{minutes} m|{minutes} m {seconds} s|{count} minutos|{count, plural, =1{Há 1 minuto} other{Há # minutos}}|{minutes} m|{count, plural, =1{Há 1 minuto} other{Há # minutos}}|{count, plural, =1{Há 1 minuto} other{Há # minutos}}\")",
+    "text": "{minutes} minutos, expira a {expireDate}|Falha ao contactar o serviço Cortana. Tente novamente dentro de alguns minutos.|{hours} h {minutes} min {seconds} s|{hours} h {minutes} min|{minutes} m|{minutes} m {seconds} s|{count} minutos|{count, plural, =1{Há 1 minuto} other{Há # minutos}}|{minutes} m|{count, plural, =1{Há 1 minuto} other{Há # minutos}}|{count, plural, =1{Há 1 minuto} other{Há # minutos}}"
+  }
+}

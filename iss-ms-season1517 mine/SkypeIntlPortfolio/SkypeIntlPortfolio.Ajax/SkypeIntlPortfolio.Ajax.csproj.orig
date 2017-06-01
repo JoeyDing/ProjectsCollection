@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31AA0727-3A06-43A8-AD0C-A5C84DFB8716}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkypeIntlPortfolio.Ajax</RootNamespace>
+    <AssemblyName>SkypeIntlPortfolio.Ajax</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UpgradeBackupLocation />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="JiraApi">
+      <HintPath>..\Dependencies\Jira\JiraApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Vso\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2014.1.224.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Fixed, Version=2014.1.224.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Documents.Fixed.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2014.1.224.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Documents.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow.FormatProviders.Pdf">
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2014.1.224.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2014.1.224.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf">
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Maths, Version=2014.1.224.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Maths.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2014.1.224.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Telerik-Ajax\Telerik.Windows.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="VsoApi.Rest, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Vso\VsoApi.Rest.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicLanguageList.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuildSystem.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CodeReview.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EOL.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FabricOnboarding.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FabricTenant.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Feature.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetSpokenInputOutputOfProduct_Result.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetTextInputOutputOfProduct_Result.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetUILanguageOfProduct_Result.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageSetting.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Location.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocBuildProcess.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LocProcess.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Milestone.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MilestoneCategory.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CheckedLang.cs" />
+    <Compile Include="Model\CompressViewState.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+<<<<<<< HEAD
+    <Compile Include="Model\Extensions\GetUILanguageOfProduct_Result - Copy.cs" />
+    <Compile Include="Model\Extensions\BasicLanguageList.cs" />
+=======
+    <Compile Include="Model\Extensions\BasicLanguageList.cs" />
+    <Compile Include="Model\Extensions\GetSpokenInputOutputOfProduct_Result.cs" />
+>>>>>>> master
+    <Compile Include="Model\Extensions\GetTextInputOutputOfProducts_Result.cs" />
+    <Compile Include="Model\FabricOnboardingInfo.cs" />
+    <Compile Include="Model\GanttMilestoneProvider.cs" />
+    <Compile Include="Model\ICustomProductControl.cs" />
+    <Compile Include="Model\Mock\PortfolioContext.cs" />
+    <Compile Include="Model\Monitor\SqlJobIterationsViewModel.cs" />
+    <Compile Include="Model\Monitor\SqlJobsViewModel.cs" />
+    <Compile Include="Model\ProductInfo.cs" />
+    <Compile Include="Model\ProjectInfo.cs" />
+    <Compile Include="Model\SchedulerMilestoneProvider.cs" />
+    <Compile Include="Model\Utils.cs" />
+    <Compile Include="Model\VsoTaskInfo.cs" />
+    <Compile Include="Model\VsoTaskInfoComparer.cs.cs" />
+    <Compile Include="Pages\AddNewProduct.aspx.cs">
+      <DependentUpon>AddNewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AddNewProduct.aspx.designer.cs">
+      <DependentUpon>AddNewProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InternalTools\listviewTest.aspx.cs">
+      <DependentUpon>listviewTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InternalTools\listviewTest.aspx.designer.cs">
+      <DependentUpon>listviewTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InternalTools\MultiLanguageBugLogger.aspx.cs">
+      <DependentUpon>MultiLanguageBugLogger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InternalTools\MultiLanguageBugLogger.aspx.designer.cs">
+      <DependentUpon>MultiLanguageBugLogger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InternalTools\ProjectBuildInfo.aspx.cs">
+      <DependentUpon>ProjectBuildInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InternalTools\ProjectBuildInfo.aspx.designer.cs">
+      <DependentUpon>ProjectBuildInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InternalTools\TestCasePublisher.aspx.cs">
+      <DependentUpon>TestCasePublisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InternalTools\TestCasePublisher.aspx.designer.cs">
+      <DependentUpon>TestCasePublisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ManagementSystem_old.aspx.cs">
+      <DependentUpon>ManagementSystem_old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ManagementSystem_old.aspx.designer.cs">
+      <DependentUpon>ManagementSystem_old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InternalTools\Downloader.ashx.cs">
+      <DependentUpon>Downloader.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Monitor\FileLoader.ashx.cs">
+      <DependentUpon>FileLoader.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Monitor\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Monitor\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Monitor\JobCurrentStatus.aspx.cs">
+      <DependentUpon>JobCurrentStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Monitor\JobCurrentStatus.aspx.designer.cs">
+      <DependentUpon>JobCurrentStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Monitor\JobDetails.aspx.cs">
+      <DependentUpon>JobDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Monitor\JobDetails.aspx.designer.cs">
+      <DependentUpon>JobDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InternalTools\ClientTools.aspx.cs">
+      <DependentUpon>ClientTools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InternalTools\ClientTools.aspx.designer.cs">
+      <DependentUpon>ClientTools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Monitor\JobLog.aspx.cs">
+      <DependentUpon>JobLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Monitor\JobLog.aspx.designer.cs">
+      <DependentUpon>JobLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OnbardingProject.aspx.cs">
+      <DependentUpon>OnbardingProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OnbardingProject.aspx.designer.cs">
+      <DependentUpon>OnbardingProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ManagementSystem.aspx.cs">
+      <DependentUpon>ManagementSystem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ManagementSystem.aspx.designer.cs">
+      <DependentUpon>ManagementSystem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ProductEOL.aspx.cs">
+      <DependentUpon>ProductEOL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ProductEOL.aspx.designer.cs">
+      <DependentUpon>ProductEOL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ReportingSystem.aspx.cs">
+      <DependentUpon>ReportingSystem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ReportingSystem.aspx.designer.cs">
+      <DependentUpon>ReportingSystem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\UtilsReleasesInfo.aspx.cs">
+      <DependentUpon>UtilsReleasesInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\UtilsReleasesInfo.aspx.designer.cs">
+      <DependentUpon>UtilsReleasesInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Platform.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductContent.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductFamily.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Products_New.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductVoice.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Release.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReleaseCadence.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReleaseChannel.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceFile.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleControlLight.ascx.designer.cs" />
+    <Compile Include="SkypeIntlMonitoring.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SkypeIntlMonitoring.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SkypeIntlMonitoring.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SkypeIntlMonitoring.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SkypeIntlMonitoringEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SkypeIntlMonitoringEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="SkypeIntlPlanningPortfolioEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SkypeIntlPlanningPortfolioEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SkypeIntlPlanningPortfolioEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="SourceStorage.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Source_Control_Interface.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpokenInputOutput.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Status.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="suppData_EngineeringInfo.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="suppData_ExtendedEOL.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TestSchedule.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Test_Pass.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TextInputOutput.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UILanguage.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EOLControl.ascx.cs">
+      <DependentUpon>EOLControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EOLControl.ascx.designer.cs">
+      <DependentUpon>EOLControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Eol\ISpokenInputOutputView.cs" />
+    <Compile Include="UserControls\Eol\SpokenInputOutputControl.ascx.cs">
+      <DependentUpon>SpokenInputOutputControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Eol\SpokenInputOutputControl.ascx.designer.cs">
+      <DependentUpon>SpokenInputOutputControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Eol\SpokenInputOutputPresenter.cs" />
+    <Compile Include="UserControls\Eol\TextInputOutputPresenter.cs" />
+    <Compile Include="UserControls\Eol\UILanguageControl.ascx.cs">
+      <DependentUpon>UILanguageControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Eol\UILanguageControl.ascx.designer.cs">
+      <DependentUpon>UILanguageControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Eol\ITextInputOutputView.cs" />
+<<<<<<< HEAD
+    <Compile Include="UserControls\Eol\IUILanguageBridge.cs" />
+    <Compile Include="UserControls\Eol\TextInputOutputPresenter.cs" />
+=======
+    <Compile Include="UserControls\Eol\IUILanguageView.cs" />
+>>>>>>> master
+    <Compile Include="UserControls\Eol\UILanguagePresenter.cs" />
+    <Compile Include="UserControls\LineOfSightControl.ascx.cs">
+      <DependentUpon>LineOfSightControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\LineOfSightControl.ascx.designer.cs">
+      <DependentUpon>LineOfSightControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OnboardingProjectControl.ascx.cs">
+      <DependentUpon>OnboardingProjectControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\OnboardingProjectControl.ascx.designer.cs">
+      <DependentUpon>OnboardingProjectControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductInfoControl.ascx.cs">
+      <DependentUpon>ProductInfoControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductInfoControl.ascx.designer.cs">
+      <DependentUpon>ProductInfoControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductInfoNewControl.ascx.cs">
+      <DependentUpon>ProductInfoNewControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductInfoNewControl.ascx.designer.cs">
+      <DependentUpon>ProductInfoNewControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\CertsAndSignoff\CertsAndSignoffControl.ascx.cs">
+      <DependentUpon>CertsAndSignoffControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\CertsAndSignoff\CertsAndSignoffControl.ascx.designer.cs">
+      <DependentUpon>CertsAndSignoffControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\CertsAndSignoff\CertsAndSignoffPresenter.cs" />
+    <Compile Include="UserControls\ProductProfile\CertsAndSignoff\ICertsAndSignoffView.cs" />
+    <Compile Include="UserControls\ProductProfile\IPPLinksView.cs" />
+    <Compile Include="UserControls\ProductProfile\IPPLocalizationView.cs" />
+    <Compile Include="UserControls\ProductProfile\IPPPeopleView.cs" />
+    <Compile Include="UserControls\ProductProfile\IPPReleaseInfoView.cs" />
+    <Compile Include="UserControls\ProductProfile\PPLinks.ascx.cs">
+      <DependentUpon>PPLinks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\PPLinks.ascx.designer.cs">
+      <DependentUpon>PPLinks.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\PPLinksPresenter.cs" />
+    <Compile Include="UserControls\ProductProfile\PPLocalization.ascx.cs">
+      <DependentUpon>PPLocalization.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\PPLocalization.ascx.designer.cs">
+      <DependentUpon>PPLocalization.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\PPLocalizationPresenter.cs" />
+    <Compile Include="UserControls\ProductProfile\PPPeople.ascx.cs">
+      <DependentUpon>PPPeople.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\PPPeople.ascx.designer.cs">
+      <DependentUpon>PPPeople.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\PPPeoplePresenter.cs" />
+    <Compile Include="UserControls\ProductProfile\PPReleaseInfo.ascx.cs">
+      <DependentUpon>PPReleaseInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\PPReleaseInfo.ascx.designer.cs">
+      <DependentUpon>PPReleaseInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductProfile\PPReleaseInfoPresenter.cs" />
+    <Compile Include="UserControls\ScheduleControl.ascx.cs">
+      <DependentUpon>ScheduleControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ScheduleControl.ascx.designer.cs">
+      <DependentUpon>ScheduleControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ScheduleControlLight.ascx.cs">
+      <DependentUpon>ScheduleControlLight.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ScheduleControlLight.ascx.designer.cs">
+      <DependentUpon>ScheduleControlLight.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ScheduleWindows.ascx.cs">
+      <DependentUpon>ScheduleWindows.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ScheduleWindows.ascx.designer.cs">
+      <DependentUpon>ScheduleWindows.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TestControl.ascx.cs">
+      <DependentUpon>TestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\TestControl.ascx.designer.cs">
+      <DependentUpon>TestControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Eol\TextInputOutputControl.ascx.cs">
+      <DependentUpon>TextInputOutputControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Eol\TextInputOutputControl.ascx.designer.cs">
+      <DependentUpon>TextInputOutputControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMode.cs" />
+    <Compile Include="vm_vsoTaskInfo.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_MilestoneInfo.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_MilestoneTestScheduleInfo.cs">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vw_ProjectBuildInfo.cs">
+      <DependentUpon>SkypeIntlMonitoring.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-theme.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\radTabStrip.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\site.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Icon.png" />
+    <Content Include="Images\1448014031_stock_data-link.png" />
+    <Content Include="Images\blue_plus.png" />
+    <Content Include="Images\red_x_mark.png" />
+    <Content Include="Pages\AddNewProduct.aspx" />
+    <Content Include="Pages\Home.aspx" />
+    <Content Include="Pages\InternalTools\listviewTest.aspx" />
+    <Content Include="Pages\InternalTools\MultiLanguageBugLogger.aspx" />
+    <Content Include="Pages\InternalTools\ProjectBuildInfo.aspx" />
+    <Content Include="Pages\InternalTools\TestCasePublisher.aspx" />
+    <Content Include="Pages\ManagementSystem_old.aspx" />
+    <Content Include="Pages\Monitor\Home.aspx" />
+    <Content Include="Pages\Monitor\JobCurrentStatus.aspx" />
+    <Content Include="Pages\Monitor\JobDetails.aspx" />
+    <Content Include="Pages\InternalTools\ClientTools.aspx" />
+    <Content Include="Pages\Monitor\JobLog.aspx" />
+    <Content Include="Pages\OnbardingProject.aspx" />
+    <Content Include="Pages\ManagementSystem.aspx" />
+    <Content Include="Pages\ProductEOL.aspx" />
+    <Content Include="Pages\ReportingSystem.aspx" />
+    <Content Include="Pages\UtilsReleasesInfo.aspx" />
+    <Content Include="Scripts\bootstrap.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\bootstrap.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="UserControls\Eol\SpokenInputOutputControl.ascx" />
+    <Content Include="UserControls\Eol\UILanguageControl.ascx" />
+    <Content Include="UserControls\LineOfSightControl.js" />
+    <Content Include="UserControls\ProductInfoNewControl.ascx" />
+    <Content Include="UserControls\ProductProfile\CertsAndSignoff\CertsAndSignoffControl.ascx" />
+    <Content Include="UserControls\ProductProfile\PPLinks.ascx" />
+    <Content Include="UserControls\ProductProfile\PPLocalization.ascx" />
+    <Content Include="UserControls\ProductProfile\PPPeople.ascx" />
+    <Content Include="UserControls\ProductProfile\PPReleaseInfo.ascx" />
+    <Content Include="UserControls\ScheduleControlLight.ascx" />
+    <Content Include="UserControls\ScheduleWindows.ascx" />
+    <Content Include="UserControls\Eol\TextInputOutputControl.ascx" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Monitor\FileLoader.ashx" />
+    <Content Include="Pages\InternalTools\Downloader.ashx" />
+    <None Include="Properties\PublishProfiles\portfolio local.pubxml" />
+    <None Include="Properties\PublishProfiles\portfolio skypeintl.pubxml" />
+    <None Include="Scripts\jquery-2.1.3.intellisense.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Scripts\jquery-2.1.3.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\jquery-2.1.3.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\npm.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.css.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages.config" />
+    <EntityDeploy Include="SkypeIntlMonitoringEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SkypeIntlMonitoringEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="SkypeIntlMonitoring.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SkypeIntlMonitoringEntities.edmx</DependentUpon>
+      <LastGenOutput>SkypeIntlMonitoring.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="SkypeIntlMonitoringEntities.edmx.diagram">
+      <DependentUpon>SkypeIntlMonitoringEntities.edmx</DependentUpon>
+    </Content>
+    <Content Include="SkypeIntlMonitoring.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SkypeIntlMonitoringEntities.edmx</DependentUpon>
+      <LastGenOutput>SkypeIntlMonitoring.cs</LastGenOutput>
+    </Content>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\sitescript.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UserControls\EOLControl.ascx" />
+    <Content Include="UserControls\LineOfSightControl.ascx" />
+    <Content Include="UserControls\OnboardingProjectControl.ascx" />
+    <Content Include="UserControls\ProductInfoControl.ascx" />
+    <Content Include="UserControls\ScheduleControl.ascx" />
+    <Content Include="UserControls\ScheduleControl.js" />
+    <Content Include="UserControls\TestControl.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="Scripts\jquery-2.1.3.min.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EntityDeploy Include="SkypeIntlPlanningPortfolioEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SkypeIntlPlanningPortfolioEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="SkypeIntlPlanningPortfolioEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.edmx</DependentUpon>
+      <LastGenOutput>SkypeIntlPlanningPortfolioEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="SkypeIntlPlanningPortfolioEntities.edmx.diagram">
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.edmx</DependentUpon>
+    </Content>
+    <Content Include="SkypeIntlPlanningPortfolioEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SkypeIntlPlanningPortfolioEntities.edmx</DependentUpon>
+      <LastGenOutput>SkypeIntlPlanningPortfolioEntities.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SkypeIntlMonitoring.Data\SkypeIntlMonitoring.Data.csproj">
+      <Project>{c084606c-0699-494b-ac15-5a676e6c3488}</Project>
+      <Name>SkypeIntlMonitoring.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkypeIntlPortfolio.Data\SkypeIntlPortfolio.Data.csproj">
+      <Project>{bf8a98f3-abf6-428d-b3e5-3807fdceb360}</Project>
+      <Name>SkypeIntlPortfolio.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49573</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52769/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <PropertyGroup>
+    <SsdtUnitTestVersion>2.0</SsdtUnitTestVersion>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="New_SkypeIntlMonitoringEntitiesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="New_SqlJobs">
+    <Key>
+      <PropertyRef Name="New_SqlJobsID" />
+    </Key>
+    <Property Name="New_SqlJobsID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Job_Enabled" Type="int" />
+    <Property Name="Start_Step_ID" Type="int" Nullable="false" />
+    <Property Name="Last_Run_Duration" Type="int" />
+    <Property Name="Last_Run_Outcome" Type="int" />
+    <Property Name="Last_Outcome_Message" Type="nvarchar(max)" />
+    <Property Name="Last_Run_DateTime" Type="datetime" />
+    <Property Name="LastRunDuration_inMinutes" Type="int" />
+  </EntityType>
+  <EntityType Name="New_SqlJobSteps">
+    <Key>
+      <PropertyRef Name="New_SqlJobStepID" />
+      <PropertyRef Name="New_SqlJobID" />
+    </Key>
+    <Property Name="New_SqlJobStepID" Type="int" Nullable="false" />
+    <Property Name="New_SqlJobID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Command" Type="nvarchar(max)" />
+    <Property Name="ToolID" Type="int" />
+    <Property Name="LastRunOutcome" Type="int" />
+    <Property Name="LastRunDateTime" Type="datetime" />
+    <Property Name="LastRunDuration" Type="int" />
+    <Property Name="LastRunDurationMinutes" Type="int" />
+  </EntityType>
+  <EntityType Name="SqlJobHistory">
+    <Key>
+      <PropertyRef Name="JobHistoryId" />
+    </Key>
+    <Property Name="JobHistoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SqlJobStepIterationID" Type="int" Nullable="false" />
+    <Property Name="RunDateTime" Type="datetime" />
+    <Property Name="Outcome_Message" Type="nvarchar(max)" />
+    <Property Name="ParentIterationID" Type="int" />
+    <Property Name="SqlJobStepName" Type="nvarchar(max)" />
+    <Property Name="SqlJobName" Type="nvarchar(max)" />
+    <Property Name="SqlJobStepID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UpdateRecord">
+    <Key>
+      <PropertyRef Name="UpdateRecordId" />
+    </Key>
+    <Property Name="UpdateRecordId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameOfTool" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="LastUpdatePlace" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="New_SkypeIntlMonitoringEntitiesModelStoreContainer">
+    <EntitySet Name="New_SqlJobs" EntityType="Self.New_SqlJobs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="New_SqlJobSteps" EntityType="Self.New_SqlJobSteps" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SqlJobHistory" EntityType="Self.SqlJobHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UpdateRecord" EntityType="Self.UpdateRecord" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
