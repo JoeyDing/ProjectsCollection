@@ -1,0 +1,1782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkypeIntlPlanningPortfolioModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SkypeIntlPlanningPortfolioEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetUILanguageOfProduct" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetUILanguageOfProduct_Result)">
+      <Parameter Name="productKey" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="BasicLanguageLists" EntityType="SkypeIntlPlanningPortfolioModel.BasicLanguageList" />
+    <EntitySet Name="EOLs" EntityType="SkypeIntlPlanningPortfolioModel.EOL" />
+    <EntitySet Name="FabricOnboardings" EntityType="SkypeIntlPlanningPortfolioModel.FabricOnboarding" />
+    <EntitySet Name="FabricTenants" EntityType="SkypeIntlPlanningPortfolioModel.FabricTenant" />
+    <EntitySet Name="LanguageSettings" EntityType="SkypeIntlPlanningPortfolioModel.LanguageSetting" />
+    <EntitySet Name="MilestoneCategories" EntityType="SkypeIntlPlanningPortfolioModel.MilestoneCategory" />
+    <EntitySet Name="Milestones" EntityType="SkypeIntlPlanningPortfolioModel.Milestone" />
+    <EntitySet Name="Platforms" EntityType="SkypeIntlPlanningPortfolioModel.Platform" />
+    <EntitySet Name="ProductContents" EntityType="SkypeIntlPlanningPortfolioModel.ProductContent" />
+    <EntitySet Name="Products" EntityType="SkypeIntlPlanningPortfolioModel.Product" />
+    <EntitySet Name="ProductVoices" EntityType="SkypeIntlPlanningPortfolioModel.ProductVoice" />
+    <EntitySet Name="ReleaseCadences" EntityType="SkypeIntlPlanningPortfolioModel.ReleaseCadence" />
+    <EntitySet Name="ReleaseChannels" EntityType="SkypeIntlPlanningPortfolioModel.ReleaseChannel" />
+    <EntitySet Name="Source_Control_Interfaces" EntityType="SkypeIntlPlanningPortfolioModel.Source_Control_Interface" />
+    <EntitySet Name="SourceStorages" EntityType="SkypeIntlPlanningPortfolioModel.SourceStorage" />
+    <EntitySet Name="Status" EntityType="SkypeIntlPlanningPortfolioModel.Status" />
+    <EntitySet Name="suppData_ExtendedEOL" EntityType="SkypeIntlPlanningPortfolioModel.suppData_ExtendedEOL" />
+    <EntitySet Name="sysdiagrams" EntityType="SkypeIntlPlanningPortfolioModel.sysdiagram" />
+    <EntitySet Name="Test_Passes" EntityType="SkypeIntlPlanningPortfolioModel.Test_Pass" />
+    <EntitySet Name="TestSchedules" EntityType="SkypeIntlPlanningPortfolioModel.TestSchedule" />
+    <EntitySet Name="suppData_EngineeringInfo" EntityType="SkypeIntlPlanningPortfolioModel.suppData_EngineeringInfo" />
+    <EntitySet Name="vm_vsoTaskInfo" EntityType="SkypeIntlPlanningPortfolioModel.vm_vsoTaskInfo" />
+    <EntitySet Name="vw_MilestoneInfo" EntityType="SkypeIntlPlanningPortfolioModel.vw_MilestoneInfo" />
+    <AssociationSet Name="FK_EOL_Products" Association="SkypeIntlPlanningPortfolioModel.FK_EOL_Products">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="EOL" EntitySet="EOLs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FabricOnboarding_FabricOnboarding" Association="SkypeIntlPlanningPortfolioModel.FK_FabricOnboarding_FabricOnboarding">
+      <End Role="FabricOnboarding" EntitySet="FabricOnboardings" />
+      <End Role="FabricOnboarding1" EntitySet="FabricOnboardings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Milestones_MilestoneCategories" Association="SkypeIntlPlanningPortfolioModel.FK_Milestones_MilestoneCategories">
+      <End Role="MilestoneCategory" EntitySet="MilestoneCategories" />
+      <End Role="Milestone" EntitySet="Milestones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestSchedules_MilestoneCategories" Association="SkypeIntlPlanningPortfolioModel.FK_TestSchedules_MilestoneCategories">
+      <End Role="MilestoneCategory" EntitySet="MilestoneCategories" />
+      <End Role="TestSchedule" EntitySet="TestSchedules" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Milestones_Products" Association="SkypeIntlPlanningPortfolioModel.FK_Milestones_Products">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Milestone" EntitySet="Milestones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestSchedule_Products" Association="SkypeIntlPlanningPortfolioModel.FK_TestSchedule_Products">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="TestSchedule" EntitySet="TestSchedules" />
+    </AssociationSet>
+    <EntitySet Name="SpokenInputOutputs" EntityType="SkypeIntlPlanningPortfolioModel.SpokenInputOutput" />
+    <AssociationSet Name="FK_SpokenInputOutput_BasicLanguageList" Association="SkypeIntlPlanningPortfolioModel.FK_SpokenInputOutput_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageLists" />
+      <End Role="SpokenInputOutput" EntitySet="SpokenInputOutputs" />
+    </AssociationSet>
+    <EntitySet Name="Features" EntityType="SkypeIntlPlanningPortfolioModel.Feature" />
+    <AssociationSet Name="FK_SpokenInputOutput_Features" Association="SkypeIntlPlanningPortfolioModel.FK_SpokenInputOutput_Features">
+      <End Role="Feature" EntitySet="Features" />
+      <End Role="SpokenInputOutput" EntitySet="SpokenInputOutputs" />
+    </AssociationSet>
+    <EntitySet Name="TextInputOutputs" EntityType="SkypeIntlPlanningPortfolioModel.TextInputOutput" />
+    <AssociationSet Name="FK_TextInputOutput_BasicLanguageList" Association="SkypeIntlPlanningPortfolioModel.FK_TextInputOutput_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageLists" />
+      <End Role="TextInputOutput" EntitySet="TextInputOutputs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TextInputOutput_Features" Association="SkypeIntlPlanningPortfolioModel.FK_TextInputOutput_Features">
+      <End Role="Feature" EntitySet="Features" />
+      <End Role="TextInputOutput" EntitySet="TextInputOutputs" />
+    </AssociationSet>
+    <FunctionImport Name="GetTextInputOutputOfProduct" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetTextInputOutputOfProduct_Result)">
+      <Parameter Name="featureKey" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetSpokenInputOutputOfProduct" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetSpokenInputOutputOfProduct_Result)">
+      <Parameter Name="featureKey" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetUILanguageFileOfProductByPage" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetUILanguageFileOfProductByPage_Result)">
+      <Parameter Name="productKey" Mode="In" Type="Int32" />
+      <Parameter Name="startRow" Mode="In" Type="Int32" />
+      <Parameter Name="endRow" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetUILanguageOfProductByFileKey" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetUILanguageOfProductByFileKey_Result)">
+      <Parameter Name="fileKey" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetTotalNumOfUILanguageFileOfProduct" ReturnType="Collection(Int32)">
+      <Parameter Name="productKey" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetFeatureOfProduct" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetFeatureOfProduct_Result)">
+      <Parameter Name="productKey" Mode="In" Type="Int32" />
+      <Parameter Name="startRow" Mode="In" Type="Int32" />
+      <Parameter Name="endRow" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetTotalFeatureOfProduct" ReturnType="Collection(Int32)">
+      <Parameter Name="productKey" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetMilestoneOfRelease" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetMilestoneOfRelease_Result)">
+      <Parameter Name="releaseKey" Mode="In" Type="Int32" />
+      <Parameter Name="startRow" Mode="In" Type="Int32" />
+      <Parameter Name="endRow" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="vw_MilestoneTestScheduleInfo" EntityType="SkypeIntlPlanningPortfolioModel.vw_MilestoneTestScheduleInfo" />
+    <FunctionImport Name="GetTestPlanOfRelease" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetTestPlanOfRelease_Result)">
+      <Parameter Name="releaseKey" Mode="In" Type="Int32" />
+      <Parameter Name="startRow" Mode="In" Type="Int32" />
+      <Parameter Name="endRow" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="ResourceFiles_Target" EntityType="SkypeIntlPlanningPortfolioModel.ResourceFiles_Target" />
+    <AssociationSet Name="FK_ResourceFiles_Target_BasicLanguageList" Association="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_Target_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageLists" />
+      <End Role="ResourceFiles_Target" EntitySet="ResourceFiles_Target" />
+    </AssociationSet>
+    <EntitySet Name="Branches" EntityType="SkypeIntlPlanningPortfolioModel.Branch" />
+    <EntitySet Name="stringData_MasterResourceList" EntityType="SkypeIntlPlanningPortfolioModel.stringData_MasterResourceList" />
+    <EntitySet Name="stringData_BuildData" EntityType="SkypeIntlPlanningPortfolioModel.stringData_BuildData" />
+    <EntitySet Name="stringData_LCTImportData" EntityType="SkypeIntlPlanningPortfolioModel.stringData_LCTImportData" />
+    <EntitySet Name="stringData_SourceRepoData" EntityType="SkypeIntlPlanningPortfolioModel.stringData_SourceRepoData" />
+    <EntitySet Name="stringData_TargetRepoData" EntityType="SkypeIntlPlanningPortfolioModel.stringData_TargetRepoData" />
+    <AssociationSet Name="FK_stringData_LCTImportData_Branch" Association="SkypeIntlPlanningPortfolioModel.FK_stringData_LCTImportData_Branch">
+      <End Role="Branch" EntitySet="Branches" />
+      <End Role="stringData_LCTImportData" EntitySet="stringData_LCTImportData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_TargetRepoData_ResourceFiles_Target" Association="SkypeIntlPlanningPortfolioModel.FK_stringData_TargetRepoData_ResourceFiles_Target">
+      <End Role="ResourceFiles_Target" EntitySet="ResourceFiles_Target" />
+      <End Role="stringData_TargetRepoData" EntitySet="stringData_TargetRepoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_BuildData_stringData_MasterResourceList" Association="SkypeIntlPlanningPortfolioModel.FK_stringData_BuildData_stringData_MasterResourceList">
+      <End Role="stringData_MasterResourceList" EntitySet="stringData_MasterResourceList" />
+      <End Role="stringData_BuildData" EntitySet="stringData_BuildData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_LCTImportData_stringData_MasterResourceList" Association="SkypeIntlPlanningPortfolioModel.FK_stringData_LCTImportData_stringData_MasterResourceList">
+      <End Role="stringData_MasterResourceList" EntitySet="stringData_MasterResourceList" />
+      <End Role="stringData_LCTImportData" EntitySet="stringData_LCTImportData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_SourceRepoData_stringData_MasterResourceList" Association="SkypeIntlPlanningPortfolioModel.FK_stringData_SourceRepoData_stringData_MasterResourceList">
+      <End Role="stringData_MasterResourceList" EntitySet="stringData_MasterResourceList" />
+      <End Role="stringData_SourceRepoData" EntitySet="stringData_SourceRepoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_TargetRepoData_stringData_MasterResourceList" Association="SkypeIntlPlanningPortfolioModel.FK_stringData_TargetRepoData_stringData_MasterResourceList">
+      <End Role="stringData_MasterResourceList" EntitySet="stringData_MasterResourceList" />
+      <End Role="stringData_TargetRepoData" EntitySet="stringData_TargetRepoData" />
+    </AssociationSet>
+    <EntitySet Name="vw_OfficialMilestoneDates" EntityType="SkypeIntlPlanningPortfolioModel.vw_OfficialMilestoneDates" />
+    <EntitySet Name="HistoryResourceFiles" EntityType="SkypeIntlPlanningPortfolioModel.HistoryResourceFile" />
+    <EntitySet Name="HistoryResourceFiles_Target" EntityType="SkypeIntlPlanningPortfolioModel.HistoryResourceFiles_Target" />
+    <AssociationSet Name="FK_HistoryResourceFiles_Target_ResourceFiles_Target" Association="SkypeIntlPlanningPortfolioModel.FK_HistoryResourceFiles_Target_ResourceFiles_Target">
+      <End Role="ResourceFiles_Target" EntitySet="ResourceFiles_Target" />
+      <End Role="HistoryResourceFiles_Target" EntitySet="HistoryResourceFiles_Target" />
+    </AssociationSet>
+    <EntitySet Name="multi_ProductPlatform_Backup" EntityType="SkypeIntlPlanningPortfolioModel.multi_ProductPlatform_Backup" />
+    <EntitySet Name="ProductFamilies" EntityType="SkypeIntlPlanningPortfolioModel.ProductFamily" />
+    <EntitySet Name="LocBuildProcesses" EntityType="SkypeIntlPlanningPortfolioModel.LocBuildProcess" />
+    <EntitySet Name="BuildSystems" EntityType="SkypeIntlPlanningPortfolioModel.BuildSystem" />
+    <EntitySet Name="CodeReviews" EntityType="SkypeIntlPlanningPortfolioModel.CodeReview" />
+    <EntitySet Name="LocProcesses" EntityType="SkypeIntlPlanningPortfolioModel.LocProcess" />
+    <EntitySet Name="Locations" EntityType="SkypeIntlPlanningPortfolioModel.Location" />
+    <EntitySet Name="Releases" EntityType="SkypeIntlPlanningPortfolioModel.Release" />
+    <AssociationSet Name="FK_Milestones_Releases" Association="SkypeIntlPlanningPortfolioModel.FK_Milestones_Releases">
+      <End Role="Release" EntitySet="Releases" />
+      <End Role="Milestone" EntitySet="Milestones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestSchedule_Releases" Association="SkypeIntlPlanningPortfolioModel.FK_TestSchedule_Releases">
+      <End Role="Release" EntitySet="Releases" />
+      <End Role="TestSchedule" EntitySet="TestSchedules" />
+    </AssociationSet>
+    <EntitySet Name="vw_MilestoneTestScheduleInfo_ForOldSchedule" EntityType="SkypeIntlPlanningPortfolioModel.vw_MilestoneTestScheduleInfo_ForOldSchedule" />
+    <FunctionImport Name="GetReleaseOfProduct" ReturnType="Collection(SkypeIntlPlanningPortfolioModel.GetReleaseOfProduct_Result)">
+      <Parameter Name="productKey" Mode="In" Type="Int32" />
+      <Parameter Name="startRow" Mode="In" Type="Int32" />
+      <Parameter Name="endRow" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="ResourceFiles" EntityType="SkypeIntlPlanningPortfolioModel.ResourceFile" />
+    <AssociationSet Name="FK_ResourceFiles_FabricTenants" Association="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_FabricTenants">
+      <End Role="FabricTenant" EntitySet="FabricTenants" />
+      <End Role="ResourceFile" EntitySet="ResourceFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryResourceFiles_ResourceFiles" Association="SkypeIntlPlanningPortfolioModel.FK_HistoryResourceFiles_ResourceFiles">
+      <End Role="ResourceFile" EntitySet="ResourceFiles" />
+      <End Role="HistoryResourceFile" EntitySet="HistoryResourceFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResourceFiles_Target_ResourceFiles" Association="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_Target_ResourceFiles">
+      <End Role="ResourceFile" EntitySet="ResourceFiles" />
+      <End Role="ResourceFiles_Target" EntitySet="ResourceFiles_Target" />
+    </AssociationSet>
+    <EntitySet Name="UILanguages" EntityType="SkypeIntlPlanningPortfolioModel.UILanguage" />
+    <AssociationSet Name="FK_UILanguages_BasicLanguageList" Association="SkypeIntlPlanningPortfolioModel.FK_UILanguages_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageLists" />
+      <End Role="UILanguage" EntitySet="UILanguages" />
+    </AssociationSet>
+    <AssociationSet Name="UILanguageFiles" Association="SkypeIntlPlanningPortfolioModel.UILanguageFiles">
+      <End Role="ResourceFile" EntitySet="ResourceFiles" />
+      <End Role="UILanguage" EntitySet="UILanguages" />
+    </AssociationSet>
+    <EntitySet Name="VSO_Products" EntityType="SkypeIntlPlanningPortfolioModel.VSO_Products" />
+    <EntitySet Name="VSoWorkItems" EntityType="SkypeIntlPlanningPortfolioModel.VSoWorkItem" />
+    <EntitySet Name="ProductPillars" EntityType="SkypeIntlPlanningPortfolioModel.ProductPillar" />
+    <EntitySet Name="ProductThreads" EntityType="SkypeIntlPlanningPortfolioModel.ProductThread" />
+    <EntitySet Name="Products_New" EntityType="SkypeIntlPlanningPortfolioModel.Products_New" />
+    <AssociationSet Name="FK_Branch_Products" Association="SkypeIntlPlanningPortfolioModel.FK_Branch_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="Branch" EntitySet="Branches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_BuildSystems" Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_BuildSystems">
+      <End Role="BuildSystem" EntitySet="BuildSystems" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_CodeReview" Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_CodeReview">
+      <End Role="CodeReview" EntitySet="CodeReviews" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Features_Products_New" Association="SkypeIntlPlanningPortfolioModel.FK_Features_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="Feature" EntitySet="Features" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_Location" Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_Location">
+      <End Role="Location" EntitySet="Locations" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_LocBuildProcess" Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_LocBuildProcess">
+      <End Role="LocBuildProcess" EntitySet="LocBuildProcesses" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_LocProcess" Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_LocProcess">
+      <End Role="LocProcess" EntitySet="LocProcesses" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_ProductFamilies" Association="SkypeIntlPlanningPortfolioModel.FK_Products_New_ProductFamilies">
+      <End Role="ProductFamily" EntitySet="ProductFamilies" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Releases_Products" Association="SkypeIntlPlanningPortfolioModel.FK_Releases_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="Release" EntitySet="Releases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UILanguages_Products_New" Association="SkypeIntlPlanningPortfolioModel.FK_UILanguages_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="UILanguage" EntitySet="UILanguages" />
+    </AssociationSet>
+    <AssociationSet Name="multi_CoreTeamLocations" Association="SkypeIntlPlanningPortfolioModel.multi_CoreTeamLocations">
+      <End Role="Location" EntitySet="Locations" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="multi_ProductPillar" Association="SkypeIntlPlanningPortfolioModel.multi_ProductPillar">
+      <End Role="ProductPillar" EntitySet="ProductPillars" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="multi_ProductPlatform" Association="SkypeIntlPlanningPortfolioModel.multi_ProductPlatform">
+      <End Role="Platform" EntitySet="Platforms" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="multi_ProductResourceFiles" Association="SkypeIntlPlanningPortfolioModel.multi_ProductResourceFiles">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="ResourceFile" EntitySet="ResourceFiles" />
+    </AssociationSet>
+    <AssociationSet Name="multi_releaseChannel" Association="SkypeIntlPlanningPortfolioModel.multi_releaseChannel">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="ReleaseChannel" EntitySet="ReleaseChannels" />
+    </AssociationSet>
+    <AssociationSet Name="multi_SourceControlInterface" Association="SkypeIntlPlanningPortfolioModel.multi_SourceControlInterface">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="Source_Control_Interface" EntitySet="Source_Control_Interfaces" />
+    </AssociationSet>
+    <AssociationSet Name="multi_SourceStorage" Association="SkypeIntlPlanningPortfolioModel.multi_SourceStorage">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="SourceStorage" EntitySet="SourceStorages" />
+    </AssociationSet>
+    <EntitySet Name="UIVacationCategories" EntityType="SkypeIntlPlanningPortfolioModel.UIVacationCategory" />
+    <EntitySet Name="VacationInfoes" EntityType="SkypeIntlPlanningPortfolioModel.VacationInfo" />
+    <AssociationSet Name="FK_VacationInfo_UIVacationCategory" Association="SkypeIntlPlanningPortfolioModel.FK_VacationInfo_UIVacationCategory">
+      <End Role="UIVacationCategory" EntitySet="UIVacationCategories" />
+      <End Role="VacationInfo" EntitySet="VacationInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="VacationAffectedProducts" Association="SkypeIntlPlanningPortfolioModel.VacationAffectedProducts">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="VacationInfo" EntitySet="VacationInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="VacationAffectedLocations" Association="SkypeIntlPlanningPortfolioModel.VacationAffectedLocations">
+      <End Role="Location" EntitySet="Locations" />
+      <End Role="VacationInfo" EntitySet="VacationInfoes" />
+    </AssociationSet>
+    <EntitySet Name="GitProjectDocumentations" EntityType="SkypeIntlPlanningPortfolioModel.GitProjectDocumentation" />
+    <EntitySet Name="UALanguages" EntityType="SkypeIntlPlanningPortfolioModel.UALanguage" />
+    <EntitySet Name="UAQualities" EntityType="SkypeIntlPlanningPortfolioModel.UAQuality" />
+    <AssociationSet Name="FK_UALanguages_BasicLanguageList" Association="SkypeIntlPlanningPortfolioModel.FK_UALanguages_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageLists" />
+      <End Role="UALanguage" EntitySet="UALanguages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UALanguages_Products_New" Association="SkypeIntlPlanningPortfolioModel.FK_UALanguages_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="UALanguage" EntitySet="UALanguages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UALanguages_UAQuality" Association="SkypeIntlPlanningPortfolioModel.FK_UALanguages_UAQuality">
+      <End Role="UAQuality" EntitySet="UAQualities" />
+      <End Role="UALanguage" EntitySet="UALanguages" />
+    </AssociationSet>
+    <AssociationSet Name="UALanguageFiles" Association="SkypeIntlPlanningPortfolioModel.UALanguageFiles">
+      <End Role="ResourceFile" EntitySet="ResourceFiles" />
+      <End Role="UALanguage" EntitySet="UALanguages" />
+    </AssociationSet>
+    <EntitySet Name="BuildRequests" EntityType="SkypeIntlPlanningPortfolioModel.BuildRequest" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetUILanguageOfProduct_Result">
+    <Property Type="Int32" Name="FileKey" Nullable="true" />
+    <Property Type="Int32" Name="LanguageKey" Nullable="true" />
+    <Property Type="Boolean" Name="Language_Released" Nullable="true" />
+    <Property Type="Boolean" Name="Language_Blocked" Nullable="true" />
+    <Property Type="Boolean" Name="Language_Planned" Nullable="true" />
+    <Property Type="String" Name="Blocked_Reason" Nullable="true" />
+    <Property Type="DateTime" Name="Release_Date" Nullable="true" />
+    <Property Type="Int32" Name="UILanguagesKey" Nullable="false" />
+    <Property Type="Int32" Name="ProductKey" Nullable="false" />
+    <Property Type="String" Name="Product_Name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="File_Name" Nullable="true" />
+    <Property Type="String" Name="Language" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <EntityType Name="BasicLanguageList">
+    <Key>
+      <PropertyRef Name="LanguageKey" />
+    </Key>
+    <Property Name="LanguageKey" Type="Int32" Nullable="false" />
+    <Property Name="Language" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SpokenInputOutputs" Relationship="SkypeIntlPlanningPortfolioModel.FK_SpokenInputOutput_BasicLanguageList" FromRole="BasicLanguageList" ToRole="SpokenInputOutput" />
+    <NavigationProperty Name="TextInputOutputs" Relationship="SkypeIntlPlanningPortfolioModel.FK_TextInputOutput_BasicLanguageList" FromRole="BasicLanguageList" ToRole="TextInputOutput" />
+    <Property Name="CultureName" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ResourceFiles_Target" Relationship="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_Target_BasicLanguageList" FromRole="BasicLanguageList" ToRole="ResourceFiles_Target" />
+    <NavigationProperty Name="UILanguages" Relationship="SkypeIntlPlanningPortfolioModel.FK_UILanguages_BasicLanguageList" FromRole="BasicLanguageList" ToRole="UILanguage" />
+    <NavigationProperty Name="UALanguages" Relationship="SkypeIntlPlanningPortfolioModel.FK_UALanguages_BasicLanguageList" FromRole="BasicLanguageList" ToRole="UALanguage" />
+  </EntityType>
+  <EntityType Name="EOL">
+    <Key>
+      <PropertyRef Name="llCC" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="llCC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="Language_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Language_Support_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Product" Relationship="SkypeIntlPlanningPortfolioModel.FK_EOL_Products" FromRole="EOL" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="FabricOnboarding">
+    <Key>
+      <PropertyRef Name="OnboardingID" />
+    </Key>
+    <Property Name="OnboardingID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="JiraPBI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Summary" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EpicLabel" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Label" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PBI_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Links" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ParentOnboardingID" Type="Int32" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="0" />
+    <Property Name="ClosedDate" Type="DateTime" Precision="0" />
+    <Property Name="Sprint" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="FabricOnboarding1" Relationship="SkypeIntlPlanningPortfolioModel.FK_FabricOnboarding_FabricOnboarding" FromRole="FabricOnboarding" ToRole="FabricOnboarding1" />
+    <NavigationProperty Name="FabricOnboarding2" Relationship="SkypeIntlPlanningPortfolioModel.FK_FabricOnboarding_FabricOnboarding" FromRole="FabricOnboarding1" ToRole="FabricOnboarding" />
+  </EntityType>
+  <EntityType Name="FabricTenant">
+    <Key>
+      <PropertyRef Name="TenantKey" />
+    </Key>
+    <Property Name="TenantKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fabric_Tenant" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ResourceFiles" Relationship="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_FabricTenants" FromRole="FabricTenant" ToRole="ResourceFile" />
+  </EntityType>
+  <EntityType Name="LanguageSetting">
+    <Key>
+      <PropertyRef Name="LangSettingsKey" />
+    </Key>
+    <Property Name="LangSettingsKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Language_Settings" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MilestoneCategory">
+    <Key>
+      <PropertyRef Name="MilestoneCategoryKey" />
+    </Key>
+    <Property Name="MilestoneCategoryKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Milestone_Category_Name" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Milestones" Relationship="SkypeIntlPlanningPortfolioModel.FK_Milestones_MilestoneCategories" FromRole="MilestoneCategory" ToRole="Milestone" />
+    <NavigationProperty Name="TestSchedules" Relationship="SkypeIntlPlanningPortfolioModel.FK_TestSchedules_MilestoneCategories" FromRole="MilestoneCategory" ToRole="TestSchedule" />
+  </EntityType>
+  <EntityType Name="Milestone">
+    <Key>
+      <PropertyRef Name="MilestoneKey" />
+    </Key>
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="ReleaseKey" Type="Int32" Nullable="false" />
+    <Property Name="MilestoneKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Milestone_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Milestone_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="Milestone_End_Date" Type="DateTime" Precision="3" />
+    <Property Name="Line_of_Sight" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MilestoneCategoryKey" Type="Int32" Nullable="false" />
+    <Property Name="Milestone_Assigned_To" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Vso_Web_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Vso_Api_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MilestoneCategory" Relationship="SkypeIntlPlanningPortfolioModel.FK_Milestones_MilestoneCategories" FromRole="Milestone" ToRole="MilestoneCategory" />
+    <NavigationProperty Name="Product" Relationship="SkypeIntlPlanningPortfolioModel.FK_Milestones_Products" FromRole="Milestone" ToRole="Product" />
+    <NavigationProperty Name="Release" Relationship="SkypeIntlPlanningPortfolioModel.FK_Milestones_Releases" FromRole="Milestone" ToRole="Release" />
+  </EntityType>
+  <EntityType Name="Platform">
+    <Key>
+      <PropertyRef Name="PlatformKey" />
+    </Key>
+    <Property Name="PlatformKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Platform1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.multi_ProductPlatform" FromRole="Platform" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="ProductContent">
+    <Key>
+      <PropertyRef Name="ContentKey" />
+    </Key>
+    <Property Name="ContentKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Content_Published_To" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="ProductKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Family" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="User_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProductStudioLink" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fabric_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fabric_Onboarding_EpicLabel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Loc_PM_Alias" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Loc_PM_Location" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Core_Team_s_Location" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Resource_File_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Core_Team_Contacts" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="EOLs" Relationship="SkypeIntlPlanningPortfolioModel.FK_EOL_Products" FromRole="Product" ToRole="EOL" />
+    <NavigationProperty Name="Milestones" Relationship="SkypeIntlPlanningPortfolioModel.FK_Milestones_Products" FromRole="Product" ToRole="Milestone" />
+    <NavigationProperty Name="TestSchedules" Relationship="SkypeIntlPlanningPortfolioModel.FK_TestSchedule_Products" FromRole="Product" ToRole="TestSchedule" />
+  </EntityType>
+  <EntityType Name="ProductVoice">
+    <Key>
+      <PropertyRef Name="VoiceKey" />
+    </Key>
+    <Property Name="VoiceKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Voice" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ReleaseCadence">
+    <Key>
+      <PropertyRef Name="CadenceKey" />
+    </Key>
+    <Property Name="CadenceKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Release_Cadence" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ReleaseChannel">
+    <Key>
+      <PropertyRef Name="ReleaseChannelKey" />
+    </Key>
+    <Property Name="ReleaseChannelKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Release_Channel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.multi_releaseChannel" FromRole="ReleaseChannel" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="Source_Control_Interface">
+    <Key>
+      <PropertyRef Name="SourceControlIntKey" />
+    </Key>
+    <Property Name="SourceControlIntKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Source_Control_Interface1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.multi_SourceControlInterface" FromRole="Source_Control_Interface" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="SourceStorage">
+    <Key>
+      <PropertyRef Name="SourceStorageKey" />
+    </Key>
+    <Property Name="SourceStorageKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Source_Storage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.multi_SourceStorage" FromRole="SourceStorage" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusKey" />
+    </Key>
+    <Property Name="StatusKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status1" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="suppData_ExtendedEOL">
+    <Key>
+      <PropertyRef Name="llCC" />
+    </Key>
+    <Property Name="llCC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LCID" Type="Int32" />
+    <Property Name="Language_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Native_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Script" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Codepage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Text_Direction" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Test_Pass">
+    <Key>
+      <PropertyRef Name="TestPassKey" />
+    </Key>
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="ReleaseKey" Type="Int32" Nullable="false" />
+    <Property Name="TestPassKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Test_Pass_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Pass_Start" Type="DateTime" Precision="0" />
+    <Property Name="Test_Pass_End" Type="DateTime" Precision="0" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TestSchedule">
+    <Key>
+      <PropertyRef Name="TestScheduleKey" />
+    </Key>
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="ReleaseKey" Type="Int32" Nullable="false" />
+    <Property Name="TestScheduleKey" Type="Int32" Nullable="false" />
+    <Property Name="TestSchedule_Name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TestSchedule_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="TestSchedule_End_Date" Type="DateTime" Precision="3" />
+    <Property Name="Vso_Web_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="AssignedResources" Type="Int32" />
+    <Property Name="MilestoneCategoryKey" Type="Int32" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="MilestoneCategory" Relationship="SkypeIntlPlanningPortfolioModel.FK_TestSchedules_MilestoneCategories" FromRole="TestSchedule" ToRole="MilestoneCategory" />
+    <NavigationProperty Name="Product" Relationship="SkypeIntlPlanningPortfolioModel.FK_TestSchedule_Products" FromRole="TestSchedule" ToRole="Product" />
+    <Property Name="VSO_ChangedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Release" Relationship="SkypeIntlPlanningPortfolioModel.FK_TestSchedule_Releases" FromRole="TestSchedule" ToRole="Release" />
+  </EntityType>
+  <EntityType Name="suppData_EngineeringInfo">
+    <Key>
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="Ops_Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Location_Owned_in" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Core_team_location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Source_Control" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Source_Storage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="File_Formats" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Intl_Build_Process" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vm_vsoTaskInfo">
+    <Key>
+      <PropertyRef Name="Key" />
+      <PropertyRef Name="Epic_ID" />
+    </Key>
+    <Property Name="Key" Type="String" Nullable="false" MaxLength="37" FixedLength="false" Unicode="false" />
+    <Property Name="Epic_ID" Type="Int32" Nullable="false" />
+    <Property Name="ES_ID" Type="Int64" />
+    <Property Name="ES_Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ES_Tag" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="VsoItemHours_Sum" Type="Double" />
+  </EntityType>
+  <EntityType Name="vw_MilestoneInfo">
+    <Key>
+      <PropertyRef Name="RowID" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="RowID" Type="Int32" Nullable="false" />
+    <Property Name="Product_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="Family" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="User_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fabric_Onboarding_EpicLabel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fabric_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Loc_PM_Alias" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Core_Team_s_Location" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Loc_PM_Location" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Resource_File_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Core_Team_Contacts" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Release_Title" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Release_ID" Type="Int32" />
+    <Property Name="Release_LocStartDate" Type="DateTime" Precision="3" />
+    <Property Name="Release_DueDate" Type="DateTime" Precision="3" />
+    <Property Name="Release_Assigned_To" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Release_Url" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="MilestoneKey" Type="Int32" />
+    <Property Name="Milestone_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Milestone_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="Milestone_End_Date" Type="DateTime" Precision="3" />
+    <Property Name="Line_of_Sight" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MilestoneCategoryKey" Type="Int32" />
+    <Property Name="Milestone_Assigned_To" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Milestone_Category_Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_EOL_Products">
+    <End Type="SkypeIntlPlanningPortfolioModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.EOL" Role="EOL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="EOL">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FabricOnboarding_FabricOnboarding">
+    <End Type="SkypeIntlPlanningPortfolioModel.FabricOnboarding" Role="FabricOnboarding" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.FabricOnboarding" Role="FabricOnboarding1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FabricOnboarding">
+        <PropertyRef Name="OnboardingID" />
+      </Principal>
+      <Dependent Role="FabricOnboarding1">
+        <PropertyRef Name="ParentOnboardingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Milestones_MilestoneCategories">
+    <End Type="SkypeIntlPlanningPortfolioModel.MilestoneCategory" Role="MilestoneCategory" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Milestone" Role="Milestone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilestoneCategory">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Principal>
+      <Dependent Role="Milestone">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestSchedules_MilestoneCategories">
+    <End Type="SkypeIntlPlanningPortfolioModel.MilestoneCategory" Role="MilestoneCategory" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.TestSchedule" Role="TestSchedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilestoneCategory">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Principal>
+      <Dependent Role="TestSchedule">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Milestones_Products">
+    <End Type="SkypeIntlPlanningPortfolioModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Milestone" Role="Milestone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="Milestone">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestSchedule_Products">
+    <End Type="SkypeIntlPlanningPortfolioModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.TestSchedule" Role="TestSchedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="TestSchedule">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="SpokenInputOutput">
+    <Key>
+      <PropertyRef Name="SpokenInputOutputKey" />
+    </Key>
+    <Property Name="SpokenInputOutputKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FeatureKey" Type="Int32" />
+    <Property Name="LanguageKey" Type="Int32" />
+    <Property Name="Spoken_Input" Type="Boolean" />
+    <Property Name="Spoken_Output" Type="Boolean" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BasicLanguageList" Relationship="SkypeIntlPlanningPortfolioModel.FK_SpokenInputOutput_BasicLanguageList" FromRole="SpokenInputOutput" ToRole="BasicLanguageList" />
+    <NavigationProperty Name="Feature" Relationship="SkypeIntlPlanningPortfolioModel.FK_SpokenInputOutput_Features" FromRole="SpokenInputOutput" ToRole="Feature" />
+  </EntityType>
+  <Association Name="FK_SpokenInputOutput_BasicLanguageList">
+    <End Type="SkypeIntlPlanningPortfolioModel.BasicLanguageList" Role="BasicLanguageList" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.SpokenInputOutput" Role="SpokenInputOutput" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="SpokenInputOutput">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Feature">
+    <Key>
+      <PropertyRef Name="FeatureKey" />
+    </Key>
+    <Property Name="FeatureKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FeatureName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ProductKey" Type="Int32" />
+    <NavigationProperty Name="SpokenInputOutputs" Relationship="SkypeIntlPlanningPortfolioModel.FK_SpokenInputOutput_Features" FromRole="Feature" ToRole="SpokenInputOutput" />
+    <NavigationProperty Name="TextInputOutputs" Relationship="SkypeIntlPlanningPortfolioModel.FK_TextInputOutput_Features" FromRole="Feature" ToRole="TextInputOutput" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Features_Products_New" FromRole="Feature" ToRole="Products_New" />
+  </EntityType>
+  <Association Name="FK_SpokenInputOutput_Features">
+    <End Type="SkypeIntlPlanningPortfolioModel.Feature" Role="Feature" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.SpokenInputOutput" Role="SpokenInputOutput" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Feature">
+        <PropertyRef Name="FeatureKey" />
+      </Principal>
+      <Dependent Role="SpokenInputOutput">
+        <PropertyRef Name="FeatureKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="TextInputOutput">
+    <Key>
+      <PropertyRef Name="TextInputOutputKey" />
+    </Key>
+    <Property Name="TextInputOutputKey" Type="Int32" Nullable="false" />
+    <Property Name="FeatureKey" Type="Int32" />
+    <Property Name="LanguageKey" Type="Int32" />
+    <Property Name="Text_Input" Type="Boolean" />
+    <Property Name="Text_Output" Type="Boolean" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BasicLanguageList" Relationship="SkypeIntlPlanningPortfolioModel.FK_TextInputOutput_BasicLanguageList" FromRole="TextInputOutput" ToRole="BasicLanguageList" />
+    <NavigationProperty Name="Feature" Relationship="SkypeIntlPlanningPortfolioModel.FK_TextInputOutput_Features" FromRole="TextInputOutput" ToRole="Feature" />
+  </EntityType>
+  <Association Name="FK_TextInputOutput_BasicLanguageList">
+    <End Type="SkypeIntlPlanningPortfolioModel.BasicLanguageList" Role="BasicLanguageList" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.TextInputOutput" Role="TextInputOutput" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="TextInputOutput">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TextInputOutput_Features">
+    <End Type="SkypeIntlPlanningPortfolioModel.Feature" Role="Feature" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.TextInputOutput" Role="TextInputOutput" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Feature">
+        <PropertyRef Name="FeatureKey" />
+      </Principal>
+      <Dependent Role="TextInputOutput">
+        <PropertyRef Name="FeatureKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="GetTextInputOutputOfProduct_Result">
+    <Property Type="Int32" Name="LanguageKey" Nullable="true" />
+    <Property Type="Boolean" Name="Text_Input" Nullable="true" />
+    <Property Type="Boolean" Name="Text_Output" Nullable="true" />
+    <Property Type="Int32" Name="TextInputOutputKey" Nullable="false" />
+    <Property Type="String" Name="Comments" Nullable="true" />
+    <Property Type="String" Name="Language" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetSpokenInputOutputOfProduct_Result">
+    <Property Type="Int32" Name="LanguageKey" Nullable="true" />
+    <Property Type="Boolean" Name="Spoken_Input" Nullable="true" />
+    <Property Type="Boolean" Name="Spoken_Output" Nullable="true" />
+    <Property Type="Int32" Name="SpokenInputOutputKey" Nullable="false" />
+    <Property Type="String" Name="Comments" Nullable="true" />
+    <Property Type="String" Name="Language" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetUILanguageFileOfProductByPage_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="FileKey" Nullable="true" />
+    <Property Type="String" Name="File_Name" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetUILanguageOfProductByFileKey_Result">
+    <Property Type="Int32" Name="FileKey" Nullable="true" />
+    <Property Type="Int32" Name="LanguageKey" Nullable="true" />
+    <Property Type="Boolean" Name="Language_Released" Nullable="true" />
+    <Property Type="Boolean" Name="Language_Blocked" Nullable="true" />
+    <Property Type="Boolean" Name="Language_Planned" Nullable="true" />
+    <Property Type="String" Name="Blocked_Reason" Nullable="true" />
+    <Property Type="DateTime" Name="Release_Date" Nullable="true" />
+    <Property Type="Int32" Name="UILanguagesKey" Nullable="false" />
+    <Property Type="Int32" Name="ProductKey" Nullable="false" />
+    <Property Type="String" Name="Product_Name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="File_Name" Nullable="true" />
+    <Property Type="String" Name="Language" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetFeatureOfProduct_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="ProductKey" Nullable="false" />
+    <Property Type="String" Name="Product_Name" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="FeatureName" Nullable="true" />
+    <Property Type="Int32" Name="FeatureKey" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetMilestoneOfRelease_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="ReleaseKey" Nullable="false" />
+    <Property Type="Int32" Name="ProductKey" Nullable="false" />
+    <Property Type="Int32" Name="MilestoneKey" Nullable="false" />
+    <Property Type="String" Name="Milestone_Name" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="Milestone_Start_Date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Milestone_End_Date" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Vso_Web_Url" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="Vso_Api_Url" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="Milestone_Category_Name" Nullable="false" MaxLength="200" />
+    <Property Type="Int32" Name="MilestoneCategoryKey" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="vw_MilestoneTestScheduleInfo">
+    <Key>
+      <PropertyRef Name="RowID" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="RowID" Type="Int32" Nullable="false" />
+    <Property Name="Product_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="Family" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="User_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fabric_Onboarding_EpicLabel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fabric_Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Loc_PM_Alias" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Core_Team_s_Location" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Loc_PM_Location" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Resource_File_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Core_Team_Contacts" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Release_Title" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Release_ID" Type="Int32" />
+    <Property Name="Release_LocStartDate" Type="DateTime" Precision="3" />
+    <Property Name="Release_DueDate" Type="DateTime" Precision="3" />
+    <Property Name="Release_Assigned_To" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Release_Url" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="TestScheduleKey" Type="Int32" />
+    <Property Name="TestSchedule_Name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TestSchedule_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="TestSchedule_End_Date" Type="DateTime" Precision="3" />
+    <Property Name="Vso_Web_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="AssignedResources" Type="Int32" />
+    <Property Name="TestMilestoneCategoryKey" Type="Int32" />
+    <Property Name="MilestoneKey" Type="Int32" />
+    <Property Name="Milestone_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Milestone_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="Milestone_End_Date" Type="DateTime" Precision="3" />
+    <Property Name="Line_of_Sight" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MilestoneCategoryKey" Type="Int32" />
+    <Property Name="Milestone_Assigned_To" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Milestone_Category_Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ItemCategory" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="GetTestPlanOfRelease_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="ReleaseKey" Nullable="false" />
+    <Property Type="Int32" Name="ProductKey" Nullable="false" />
+    <Property Type="Int32" Name="TestScheduleKey" Nullable="false" />
+    <Property Type="String" Name="TestSchedule_Name" Nullable="true" MaxLength="1000" />
+    <Property Type="Int32" Name="AssignedResources" Nullable="true" />
+    <Property Type="DateTime" Name="TestSchedule_Start_Date" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="TestSchedule_End_Date" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Vso_Web_Url" Nullable="true" MaxLength="1000" />
+    <Property Type="Int32" Name="MilestoneCategoryKey" Nullable="false" />
+    <Property Type="String" Name="Milestone_Category_Name" Nullable="false" MaxLength="200" />
+  </ComplexType>
+  <EntityType Name="ResourceFiles_Target">
+    <Key>
+      <PropertyRef Name="TargetFileKey" />
+    </Key>
+    <Property Name="SourceFileKey" Type="Int32" Nullable="false" />
+    <Property Name="TargetFileKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LanguageKey" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="BasicLanguageList" Relationship="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_Target_BasicLanguageList" FromRole="ResourceFiles_Target" ToRole="BasicLanguageList" />
+    <NavigationProperty Name="stringData_TargetRepoData" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_TargetRepoData_ResourceFiles_Target" FromRole="ResourceFiles_Target" ToRole="stringData_TargetRepoData" />
+    <Property Name="File_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Target_File_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RepoURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="repoBranch" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="repoType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Number_of_Strings__Fabric_" Type="Int32" />
+    <NavigationProperty Name="HistoryResourceFiles_Target" Relationship="SkypeIntlPlanningPortfolioModel.FK_HistoryResourceFiles_Target_ResourceFiles_Target" FromRole="ResourceFiles_Target" ToRole="HistoryResourceFiles_Target" />
+    <NavigationProperty Name="ResourceFile" Relationship="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_Target_ResourceFiles" FromRole="ResourceFiles_Target" ToRole="ResourceFile" />
+  </EntityType>
+  <Association Name="FK_ResourceFiles_Target_BasicLanguageList">
+    <End Type="SkypeIntlPlanningPortfolioModel.BasicLanguageList" Role="BasicLanguageList" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFiles_Target" Role="ResourceFiles_Target" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="ResourceFiles_Target">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Branch">
+    <Key>
+      <PropertyRef Name="BranchID" />
+    </Key>
+    <Property Name="BranchID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Branch_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="stringData_LCTImportData" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_LCTImportData_Branch" FromRole="Branch" ToRole="stringData_LCTImportData" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Branch_Products" FromRole="Branch" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="stringData_MasterResourceList">
+    <Key>
+      <PropertyRef Name="ResourceIDkey" />
+    </Key>
+    <Property Name="ResourceIDkey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceFileKey" Type="Int32" Nullable="false" />
+    <Property Name="Parser_Identifier" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="stringData_BuildData" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_BuildData_stringData_MasterResourceList" FromRole="stringData_MasterResourceList" ToRole="stringData_BuildData" />
+    <NavigationProperty Name="stringData_LCTImportData" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_LCTImportData_stringData_MasterResourceList" FromRole="stringData_MasterResourceList" ToRole="stringData_LCTImportData" />
+    <NavigationProperty Name="stringData_SourceRepoData" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_SourceRepoData_stringData_MasterResourceList" FromRole="stringData_MasterResourceList" ToRole="stringData_SourceRepoData" />
+    <NavigationProperty Name="stringData_TargetRepoData" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_TargetRepoData_stringData_MasterResourceList" FromRole="stringData_MasterResourceList" ToRole="stringData_TargetRepoData" />
+  </EntityType>
+  <EntityType Name="stringData_BuildData">
+    <Key>
+      <PropertyRef Name="ResourceIDKey" />
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="Culture" />
+    </Key>
+    <Property Name="ResourceIDKey" Type="Int32" Nullable="false" />
+    <Property Name="BranchID" Type="Int32" Nullable="false" />
+    <Property Name="Culture" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Name="String_Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Build" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Build_Date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="stringData_MasterResourceList" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_BuildData_stringData_MasterResourceList" FromRole="stringData_BuildData" ToRole="stringData_MasterResourceList" />
+  </EntityType>
+  <EntityType Name="stringData_LCTImportData">
+    <Key>
+      <PropertyRef Name="ResourceIDKey" />
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="Culture" />
+      <PropertyRef Name="Locked" />
+      <PropertyRef Name="WordCount" />
+      <PropertyRef Name="oResourcesDB" />
+    </Key>
+    <Property Name="ResourceIDKey" Type="Int32" Nullable="false" />
+    <Property Name="BranchID" Type="Int32" Nullable="false" />
+    <Property Name="Translation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Culture" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Name="ResourceOrigin" Type="Int32" />
+    <Property Name="ResourcesUpdatedDate" Type="DateTime" Precision="3" />
+    <Property Name="StringCategory" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TermNote" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LocStatus" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TransOrigin" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Instructions" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EnglishValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UsrLk" Type="Boolean" />
+    <Property Name="DevLk" Type="Boolean" />
+    <Property Name="Locked" Type="Boolean" Nullable="false" />
+    <Property Name="WordCount" Type="Int32" Nullable="false" />
+    <Property Name="oResourcesDB" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Branch" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_LCTImportData_Branch" FromRole="stringData_LCTImportData" ToRole="Branch" />
+    <NavigationProperty Name="stringData_MasterResourceList" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_LCTImportData_stringData_MasterResourceList" FromRole="stringData_LCTImportData" ToRole="stringData_MasterResourceList" />
+  </EntityType>
+  <EntityType Name="stringData_SourceRepoData">
+    <Key>
+      <PropertyRef Name="ResourceIDKey" />
+      <PropertyRef Name="ResourceUpdateDate" />
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="Deleted" />
+    </Key>
+    <Property Name="ResourceIDKey" Type="Int32" Nullable="false" />
+    <Property Name="EnglishSourceTerm" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ResourceUpdateDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="BranchID" Type="Int32" Nullable="false" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="stringData_MasterResourceList" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_SourceRepoData_stringData_MasterResourceList" FromRole="stringData_SourceRepoData" ToRole="stringData_MasterResourceList" />
+  </EntityType>
+  <EntityType Name="stringData_TargetRepoData">
+    <Key>
+      <PropertyRef Name="ResourceIDKey" />
+      <PropertyRef Name="ResourceUpdateDate" />
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="Deleted" />
+      <PropertyRef Name="TargetFileKey" />
+    </Key>
+    <Property Name="ResourceIDKey" Type="Int32" Nullable="false" />
+    <Property Name="Target_Translation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ResourceUpdateDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="BranchID" Type="Int32" Nullable="false" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <Property Name="TargetFileKey" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ResourceFiles_Target" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_TargetRepoData_ResourceFiles_Target" FromRole="stringData_TargetRepoData" ToRole="ResourceFiles_Target" />
+    <NavigationProperty Name="stringData_MasterResourceList" Relationship="SkypeIntlPlanningPortfolioModel.FK_stringData_TargetRepoData_stringData_MasterResourceList" FromRole="stringData_TargetRepoData" ToRole="stringData_MasterResourceList" />
+  </EntityType>
+  <Association Name="FK_stringData_LCTImportData_Branch">
+    <End Type="SkypeIntlPlanningPortfolioModel.Branch" Role="Branch" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_LCTImportData" Role="stringData_LCTImportData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Branch">
+        <PropertyRef Name="BranchID" />
+      </Principal>
+      <Dependent Role="stringData_LCTImportData">
+        <PropertyRef Name="BranchID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_TargetRepoData_ResourceFiles_Target">
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFiles_Target" Role="ResourceFiles_Target" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_TargetRepoData" Role="stringData_TargetRepoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles_Target">
+        <PropertyRef Name="TargetFileKey" />
+      </Principal>
+      <Dependent Role="stringData_TargetRepoData">
+        <PropertyRef Name="TargetFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_BuildData_stringData_MasterResourceList">
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_MasterResourceList" Role="stringData_MasterResourceList" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_BuildData" Role="stringData_BuildData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stringData_MasterResourceList">
+        <PropertyRef Name="ResourceIDkey" />
+      </Principal>
+      <Dependent Role="stringData_BuildData">
+        <PropertyRef Name="ResourceIDKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_LCTImportData_stringData_MasterResourceList">
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_MasterResourceList" Role="stringData_MasterResourceList" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_LCTImportData" Role="stringData_LCTImportData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stringData_MasterResourceList">
+        <PropertyRef Name="ResourceIDkey" />
+      </Principal>
+      <Dependent Role="stringData_LCTImportData">
+        <PropertyRef Name="ResourceIDKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_SourceRepoData_stringData_MasterResourceList">
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_MasterResourceList" Role="stringData_MasterResourceList" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_SourceRepoData" Role="stringData_SourceRepoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stringData_MasterResourceList">
+        <PropertyRef Name="ResourceIDkey" />
+      </Principal>
+      <Dependent Role="stringData_SourceRepoData">
+        <PropertyRef Name="ResourceIDKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_TargetRepoData_stringData_MasterResourceList">
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_MasterResourceList" Role="stringData_MasterResourceList" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.stringData_TargetRepoData" Role="stringData_TargetRepoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stringData_MasterResourceList">
+        <PropertyRef Name="ResourceIDkey" />
+      </Principal>
+      <Dependent Role="stringData_TargetRepoData">
+        <PropertyRef Name="ResourceIDKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="vw_OfficialMilestoneDates">
+    <Key>
+      <PropertyRef Name="ReleaseKey" />
+      <PropertyRef Name="Milestone_Category_Name" />
+    </Key>
+    <Property Name="ReleaseKey" Type="Int32" Nullable="false" />
+    <Property Name="Milestone_Category_Name" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Milestone_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="Milestone_End_Date" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="HistoryResourceFile">
+    <Key>
+      <PropertyRef Name="FileKey" />
+      <PropertyRef Name="UpdateDate" />
+    </Key>
+    <Property Name="FileKey" Type="Int32" Nullable="false" />
+    <Property Name="UpdateDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Deleted" Type="Boolean" />
+    <NavigationProperty Name="ResourceFile" Relationship="SkypeIntlPlanningPortfolioModel.FK_HistoryResourceFiles_ResourceFiles" FromRole="HistoryResourceFile" ToRole="ResourceFile" />
+  </EntityType>
+  <EntityType Name="HistoryResourceFiles_Target">
+    <Key>
+      <PropertyRef Name="TargetFileKey" />
+      <PropertyRef Name="UpdateDate" />
+    </Key>
+    <Property Name="TargetFileKey" Type="Int32" Nullable="false" />
+    <Property Name="UpdateDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Deleted" Type="Boolean" />
+    <NavigationProperty Name="ResourceFiles_Target" Relationship="SkypeIntlPlanningPortfolioModel.FK_HistoryResourceFiles_Target_ResourceFiles_Target" FromRole="HistoryResourceFiles_Target" ToRole="ResourceFiles_Target" />
+  </EntityType>
+  <Association Name="FK_HistoryResourceFiles_Target_ResourceFiles_Target">
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFiles_Target" Role="ResourceFiles_Target" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.HistoryResourceFiles_Target" Role="HistoryResourceFiles_Target" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles_Target">
+        <PropertyRef Name="TargetFileKey" />
+      </Principal>
+      <Dependent Role="HistoryResourceFiles_Target">
+        <PropertyRef Name="TargetFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="multi_ProductPlatform_Backup">
+    <Key>
+      <PropertyRef Name="PlatformKey" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="PlatformKey" Type="Int32" Nullable="false" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductFamily">
+    <Key>
+      <PropertyRef Name="FamilyKey" />
+    </Key>
+    <Property Name="FamilyKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Family" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_ProductFamilies" FromRole="ProductFamily" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="LocBuildProcess">
+    <Key>
+      <PropertyRef Name="BuildProcessKey" />
+    </Key>
+    <Property Name="BuildProcessKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Loc_Build_Process" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_LocBuildProcess" FromRole="LocBuildProcess" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="BuildSystem">
+    <Key>
+      <PropertyRef Name="BuildSysKey" />
+    </Key>
+    <Property Name="BuildSysKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Build_System_Used" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_BuildSystems" FromRole="BuildSystem" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="CodeReview">
+    <Key>
+      <PropertyRef Name="CodeReviewKey" />
+    </Key>
+    <Property Name="CodeReviewKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code_Review_Used" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_CodeReview" FromRole="CodeReview" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="LocProcess">
+    <Key>
+      <PropertyRef Name="LocProcessKey" />
+    </Key>
+    <Property Name="LocProcessKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Loc_Process" Type="String" MaxLength="45" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_LocProcess" FromRole="LocProcess" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="LocationKey" />
+    </Key>
+    <Property Name="LocationKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Location1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_Location" FromRole="Location" ToRole="Products_New" />
+    <NavigationProperty Name="Products_New1" Relationship="SkypeIntlPlanningPortfolioModel.multi_CoreTeamLocations" FromRole="Location" ToRole="Products_New" />
+    <NavigationProperty Name="VacationInfoes" Relationship="SkypeIntlPlanningPortfolioModel.VacationAffectedLocations" FromRole="Location" ToRole="VacationInfo" />
+  </EntityType>
+  <EntityType Name="Release">
+    <Key>
+      <PropertyRef Name="VSO_ID" />
+    </Key>
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="VSO_ID" Type="Int32" Nullable="false" />
+    <Property Name="VSO_Title" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_Type" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_LocStartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="VSO_DueDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="VSO_Assigned_To" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_Family" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_IterationPath" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_AreaPath" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_ChangedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="VSO_ProductName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_Url" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <Property Name="VSO_Tags" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Milestones" Relationship="SkypeIntlPlanningPortfolioModel.FK_Milestones_Releases" FromRole="Release" ToRole="Milestone" />
+    <NavigationProperty Name="TestSchedules" Relationship="SkypeIntlPlanningPortfolioModel.FK_TestSchedule_Releases" FromRole="Release" ToRole="TestSchedule" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_Releases_Products" FromRole="Release" ToRole="Products_New" />
+  </EntityType>
+  <Association Name="FK_Milestones_Releases">
+    <End Type="SkypeIntlPlanningPortfolioModel.Release" Role="Release" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="SkypeIntlPlanningPortfolioModel.Milestone" Role="Milestone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Release">
+        <PropertyRef Name="VSO_ID" />
+      </Principal>
+      <Dependent Role="Milestone">
+        <PropertyRef Name="ReleaseKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestSchedule_Releases">
+    <End Type="SkypeIntlPlanningPortfolioModel.Release" Role="Release" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="SkypeIntlPlanningPortfolioModel.TestSchedule" Role="TestSchedule" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Release">
+        <PropertyRef Name="VSO_ID" />
+      </Principal>
+      <Dependent Role="TestSchedule">
+        <PropertyRef Name="ReleaseKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="vw_MilestoneTestScheduleInfo_ForOldSchedule">
+    <Key>
+      <PropertyRef Name="RowID" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="RowID" Type="Int32" Nullable="false" />
+    <Property Name="Product_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="Product_Family" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Release_Title" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Release_ID" Type="Int32" />
+    <Property Name="Release_LocStartDate" Type="DateTime" Precision="3" />
+    <Property Name="Release_DueDate" Type="DateTime" Precision="3" />
+    <Property Name="Release_Assigned_To" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Release_Url" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="Release_Tags" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="TestScheduleKey" Type="Int32" />
+    <Property Name="TestSchedule_Name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TestSchedule_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="TestSchedule_End_Date" Type="DateTime" Precision="3" />
+    <Property Name="Vso_Web_Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="AssignedResources" Type="Int32" />
+    <Property Name="TestMilestoneCategoryKey" Type="Int32" />
+    <Property Name="MilestoneKey" Type="Int32" />
+    <Property Name="Milestone_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Milestone_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="Milestone_End_Date" Type="DateTime" Precision="3" />
+    <Property Name="Line_of_Sight" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MilestoneCategoryKey" Type="Int32" />
+    <Property Name="Milestone_Assigned_To" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Milestone_Category_Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ItemCategory" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="GetReleaseOfProduct_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="ProductKey" Nullable="false" />
+    <Property Type="String" Name="VSO_Title" Nullable="false" MaxLength="2000" />
+    <Property Type="Int32" Name="VSO_ID" Nullable="false" />
+    <Property Type="DateTime" Name="VSO_LocStartDate" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="VSO_DueDate" Nullable="false" Precision="23" />
+    <Property Type="String" Name="VSO_Url" Nullable="false" MaxLength="2000" />
+    <Property Type="String" Name="VSO_Tags" Nullable="true" MaxLength="2000" />
+  </ComplexType>
+  <EntityType Name="ResourceFile">
+    <Key>
+      <PropertyRef Name="FileKey" />
+    </Key>
+    <Property Name="FileKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="File_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="File_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LCG_File_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fabric_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FabricTenantKey" Type="Int32" />
+    <Property Name="Source_File_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ParserID" Type="Int32" />
+    <Property Name="RepoURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="repoBranch" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="repoType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="FabricTenant" Relationship="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_FabricTenants" FromRole="ResourceFile" ToRole="FabricTenant" />
+    <NavigationProperty Name="HistoryResourceFiles" Relationship="SkypeIntlPlanningPortfolioModel.FK_HistoryResourceFiles_ResourceFiles" FromRole="ResourceFile" ToRole="HistoryResourceFile" />
+    <NavigationProperty Name="ResourceFiles_Target" Relationship="SkypeIntlPlanningPortfolioModel.FK_ResourceFiles_Target_ResourceFiles" FromRole="ResourceFile" ToRole="ResourceFiles_Target" />
+    <NavigationProperty Name="UILanguages" Relationship="SkypeIntlPlanningPortfolioModel.UILanguageFiles" FromRole="ResourceFile" ToRole="UILanguage" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.multi_ProductResourceFiles" FromRole="ResourceFile" ToRole="Products_New" />
+    <NavigationProperty Name="UALanguages" Relationship="SkypeIntlPlanningPortfolioModel.UALanguageFiles" FromRole="ResourceFile" ToRole="UALanguage" />
+  </EntityType>
+  <Association Name="FK_ResourceFiles_FabricTenants">
+    <End Type="SkypeIntlPlanningPortfolioModel.FabricTenant" Role="FabricTenant" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFile" Role="ResourceFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FabricTenant">
+        <PropertyRef Name="TenantKey" />
+      </Principal>
+      <Dependent Role="ResourceFile">
+        <PropertyRef Name="FabricTenantKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryResourceFiles_ResourceFiles">
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFile" Role="ResourceFile" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.HistoryResourceFile" Role="HistoryResourceFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFile">
+        <PropertyRef Name="FileKey" />
+      </Principal>
+      <Dependent Role="HistoryResourceFile">
+        <PropertyRef Name="FileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResourceFiles_Target_ResourceFiles">
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFile" Role="ResourceFile" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFiles_Target" Role="ResourceFiles_Target" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFile">
+        <PropertyRef Name="FileKey" />
+      </Principal>
+      <Dependent Role="ResourceFiles_Target">
+        <PropertyRef Name="SourceFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="UILanguage">
+    <Key>
+      <PropertyRef Name="UILanguagesKey" />
+    </Key>
+    <Property Name="UILanguagesKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductKey" Type="Int32" />
+    <Property Name="LanguageKey" Type="Int32" />
+    <Property Name="Language_Released" Type="Boolean" />
+    <Property Name="Language_Blocked" Type="Boolean" />
+    <Property Name="Language_Planned" Type="Boolean" />
+    <Property Name="Release_Date" Type="DateTime" Precision="0" />
+    <Property Name="Blocked_Reason" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BasicLanguageList" Relationship="SkypeIntlPlanningPortfolioModel.FK_UILanguages_BasicLanguageList" FromRole="UILanguage" ToRole="BasicLanguageList" />
+    <NavigationProperty Name="ResourceFiles" Relationship="SkypeIntlPlanningPortfolioModel.UILanguageFiles" FromRole="UILanguage" ToRole="ResourceFile" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_UILanguages_Products_New" FromRole="UILanguage" ToRole="Products_New" />
+  </EntityType>
+  <Association Name="FK_UILanguages_BasicLanguageList">
+    <End Type="SkypeIntlPlanningPortfolioModel.BasicLanguageList" Role="BasicLanguageList" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.UILanguage" Role="UILanguage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="UILanguage">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UILanguageFiles">
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFile" Role="ResourceFile" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.UILanguage" Role="UILanguage" Multiplicity="*" />
+  </Association>
+  <EntityType Name="VSO_Products">
+    <Key>
+      <PropertyRef Name="Product_Name" />
+      <PropertyRef Name="Family" />
+    </Key>
+    <Property Name="Product_Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Family" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="VSoWorkItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="VSO_Title" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_Type" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_ProductName" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_IterationPath" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_AreaPath" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_Family" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="VSO_StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="VSO_DueDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="VSO_ChangedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="VSO_Assigned_To" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ProductPillar">
+    <Key>
+      <PropertyRef Name="PillarKey" />
+    </Key>
+    <Property Name="PillarKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Pillar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.multi_ProductPillar" FromRole="ProductPillar" ToRole="Products_New" />
+  </EntityType>
+  <EntityType Name="ProductThread">
+    <Key>
+      <PropertyRef Name="ThreadKey" />
+    </Key>
+    <Property Name="ThreadKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Thread" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Products_New">
+    <Key>
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="ProductKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="StatusKey" Type="Int32" />
+    <Property Name="PVoiceKey" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ProductFamilyKey" Type="Int32" />
+    <Property Name="FabricTenantKey" Type="Int32" />
+    <Property Name="ThreadKey" Type="Int32" />
+    <Property Name="ISS_Ops_Driver" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OwnerLocationKey" Type="Int32" />
+    <Property Name="ReleaseCadenceKey" Type="Int32" />
+    <Property Name="IPE_Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Owner" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LocBuildProcessKey" Type="Int32" />
+    <Property Name="LocProcessKey" Type="Int32" />
+    <Property Name="GB_Impacting" Type="Boolean" />
+    <Property Name="French_Loc_Required" Type="Boolean" />
+    <Property Name="Privacy_Statement_Required" Type="Boolean" />
+    <Property Name="Voice_Prompt_Loc_Required" Type="Boolean" />
+    <Property Name="Telemetry_Data_available" Type="Boolean" />
+    <Property Name="Pseudo_Build_Enabled" Type="Boolean" />
+    <Property Name="Pseudo_Testing_Run_Regular" Type="Boolean" />
+    <Property Name="Pseudo_Testing_And_Loc_Checks" Type="Boolean" />
+    <Property Name="Pseudo_Run_Beofre_Check_In" Type="Boolean" />
+    <Property Name="LCG_File_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LCT_File_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LCL_File_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Localization_VSO_Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Main_Code_Branch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Localization_Code_Branch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Loc_Team_OneNote" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Core_PO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Core_Team_SharePoint" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Certification_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Cert_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Last_Release_Certified" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ContentPublishedToKey" Type="Int32" />
+    <Property Name="Release_build_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Core_VSO_Backlog_URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LanguageSettingsKey" Type="Int32" />
+    <Property Name="CodeReviewUsedKey" Type="Int32" />
+    <Property Name="BuildSysKey" Type="Int32" />
+    <Property Name="Localization_VSO_URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Telemetry_Contact" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Core_Engineering_Contact" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Branches" Relationship="SkypeIntlPlanningPortfolioModel.FK_Branch_Products" FromRole="Products_New" ToRole="Branch" />
+    <NavigationProperty Name="BuildSystem" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_BuildSystems" FromRole="Products_New" ToRole="BuildSystem" />
+    <NavigationProperty Name="CodeReview" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_CodeReview" FromRole="Products_New" ToRole="CodeReview" />
+    <NavigationProperty Name="Features" Relationship="SkypeIntlPlanningPortfolioModel.FK_Features_Products_New" FromRole="Products_New" ToRole="Feature" />
+    <NavigationProperty Name="Location" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_Location" FromRole="Products_New" ToRole="Location" />
+    <NavigationProperty Name="LocBuildProcess" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_LocBuildProcess" FromRole="Products_New" ToRole="LocBuildProcess" />
+    <NavigationProperty Name="LocProcess" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_LocProcess" FromRole="Products_New" ToRole="LocProcess" />
+    <NavigationProperty Name="ProductFamily" Relationship="SkypeIntlPlanningPortfolioModel.FK_Products_New_ProductFamilies" FromRole="Products_New" ToRole="ProductFamily" />
+    <NavigationProperty Name="Releases" Relationship="SkypeIntlPlanningPortfolioModel.FK_Releases_Products" FromRole="Products_New" ToRole="Release" />
+    <NavigationProperty Name="UILanguages" Relationship="SkypeIntlPlanningPortfolioModel.FK_UILanguages_Products_New" FromRole="Products_New" ToRole="UILanguage" />
+    <NavigationProperty Name="Locations" Relationship="SkypeIntlPlanningPortfolioModel.multi_CoreTeamLocations" FromRole="Products_New" ToRole="Location" />
+    <NavigationProperty Name="ProductPillars" Relationship="SkypeIntlPlanningPortfolioModel.multi_ProductPillar" FromRole="Products_New" ToRole="ProductPillar" />
+    <NavigationProperty Name="Platforms" Relationship="SkypeIntlPlanningPortfolioModel.multi_ProductPlatform" FromRole="Products_New" ToRole="Platform" />
+    <NavigationProperty Name="ResourceFiles" Relationship="SkypeIntlPlanningPortfolioModel.multi_ProductResourceFiles" FromRole="Products_New" ToRole="ResourceFile" />
+    <NavigationProperty Name="ReleaseChannels" Relationship="SkypeIntlPlanningPortfolioModel.multi_releaseChannel" FromRole="Products_New" ToRole="ReleaseChannel" />
+    <NavigationProperty Name="Source_Control_Interface" Relationship="SkypeIntlPlanningPortfolioModel.multi_SourceControlInterface" FromRole="Products_New" ToRole="Source_Control_Interface" />
+    <NavigationProperty Name="SourceStorages" Relationship="SkypeIntlPlanningPortfolioModel.multi_SourceStorage" FromRole="Products_New" ToRole="SourceStorage" />
+    <NavigationProperty Name="VacationInfoes" Relationship="SkypeIntlPlanningPortfolioModel.VacationAffectedProducts" FromRole="Products_New" ToRole="VacationInfo" />
+    <Property Name="Core_Design_Contact" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UALanguages" Relationship="SkypeIntlPlanningPortfolioModel.FK_UALanguages_Products_New" FromRole="Products_New" ToRole="UALanguage" />
+  </EntityType>
+  <Association Name="FK_Branch_Products">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Branch" Role="Branch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="Branch">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_BuildSystems">
+    <End Type="SkypeIntlPlanningPortfolioModel.BuildSystem" Role="BuildSystem" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BuildSystem">
+        <PropertyRef Name="BuildSysKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="BuildSysKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_CodeReview">
+    <End Type="SkypeIntlPlanningPortfolioModel.CodeReview" Role="CodeReview" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CodeReview">
+        <PropertyRef Name="CodeReviewKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="CodeReviewUsedKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Features_Products_New">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Feature" Role="Feature" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="Feature">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_Location">
+    <End Type="SkypeIntlPlanningPortfolioModel.Location" Role="Location" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="LocationKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="OwnerLocationKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_LocBuildProcess">
+    <End Type="SkypeIntlPlanningPortfolioModel.LocBuildProcess" Role="LocBuildProcess" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocBuildProcess">
+        <PropertyRef Name="BuildProcessKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="LocBuildProcessKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_LocProcess">
+    <End Type="SkypeIntlPlanningPortfolioModel.LocProcess" Role="LocProcess" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocProcess">
+        <PropertyRef Name="LocProcessKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="LocProcessKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_ProductFamilies">
+    <End Type="SkypeIntlPlanningPortfolioModel.ProductFamily" Role="ProductFamily" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductFamily">
+        <PropertyRef Name="FamilyKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="ProductFamilyKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Releases_Products">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Release" Role="Release" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="Release">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UILanguages_Products_New">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.UILanguage" Role="UILanguage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="UILanguage">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="multi_CoreTeamLocations">
+    <End Type="SkypeIntlPlanningPortfolioModel.Location" Role="Location" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+  </Association>
+  <Association Name="multi_ProductPillar">
+    <End Type="SkypeIntlPlanningPortfolioModel.ProductPillar" Role="ProductPillar" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+  </Association>
+  <Association Name="multi_ProductPlatform">
+    <End Type="SkypeIntlPlanningPortfolioModel.Platform" Role="Platform" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+  </Association>
+  <Association Name="multi_ProductResourceFiles">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFile" Role="ResourceFile" Multiplicity="*" />
+  </Association>
+  <Association Name="multi_releaseChannel">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.ReleaseChannel" Role="ReleaseChannel" Multiplicity="*" />
+  </Association>
+  <Association Name="multi_SourceControlInterface">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.Source_Control_Interface" Role="Source_Control_Interface" Multiplicity="*" />
+  </Association>
+  <Association Name="multi_SourceStorage">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.SourceStorage" Role="SourceStorage" Multiplicity="*" />
+  </Association>
+  <EntityType Name="UIVacationCategory">
+    <Key>
+      <PropertyRef Name="UICategoryID" />
+    </Key>
+    <Property Name="UICategoryID" Type="Int32" Nullable="false" />
+    <Property Name="UIVacationCategory1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="VacationInfoes" Relationship="SkypeIntlPlanningPortfolioModel.FK_VacationInfo_UIVacationCategory" FromRole="UIVacationCategory" ToRole="VacationInfo" />
+  </EntityType>
+  <EntityType Name="VacationInfo">
+    <Key>
+      <PropertyRef Name="VacationID" />
+    </Key>
+    <Property Name="VacationID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VacationName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="VacationDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="VacationStartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="VacationEndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UICategoryID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="UIVacationCategory" Relationship="SkypeIntlPlanningPortfolioModel.FK_VacationInfo_UIVacationCategory" FromRole="VacationInfo" ToRole="UIVacationCategory" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.VacationAffectedProducts" FromRole="VacationInfo" ToRole="Products_New" />
+    <NavigationProperty Name="Locations" Relationship="SkypeIntlPlanningPortfolioModel.VacationAffectedLocations" FromRole="VacationInfo" ToRole="Location" />
+  </EntityType>
+  <Association Name="FK_VacationInfo_UIVacationCategory">
+    <End Type="SkypeIntlPlanningPortfolioModel.UIVacationCategory" Role="UIVacationCategory" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.VacationInfo" Role="VacationInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UIVacationCategory">
+        <PropertyRef Name="UICategoryID" />
+      </Principal>
+      <Dependent Role="VacationInfo">
+        <PropertyRef Name="UICategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="VacationAffectedProducts">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.VacationInfo" Role="VacationInfo" Multiplicity="*" />
+  </Association>
+  <Association Name="VacationAffectedLocations">
+    <End Type="SkypeIntlPlanningPortfolioModel.Location" Role="Location" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.VacationInfo" Role="VacationInfo" Multiplicity="*" />
+  </Association>
+  <EntityType Name="GitProjectDocumentation">
+    <Key>
+      <PropertyRef Name="ProjectDocID" />
+    </Key>
+    <Property Name="ProjectDocID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Project_Name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Repository_Name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Document_Path" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Branch" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UALanguage">
+    <Key>
+      <PropertyRef Name="UALanguagesKey" />
+    </Key>
+    <Property Name="UALanguagesKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductKey" Type="Int32" Nullable="false" />
+    <Property Name="LanguageKey" Type="Int32" Nullable="false" />
+    <Property Name="Language_Released" Type="Boolean" />
+    <Property Name="Language_Blocked" Type="Boolean" />
+    <Property Name="Language_Planned" Type="Boolean" />
+    <Property Name="Release_Date" Type="DateTime" Precision="0" />
+    <Property Name="Blocked_Reason" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="QualityID" Type="Int32" />
+    <NavigationProperty Name="BasicLanguageList" Relationship="SkypeIntlPlanningPortfolioModel.FK_UALanguages_BasicLanguageList" FromRole="UALanguage" ToRole="BasicLanguageList" />
+    <NavigationProperty Name="Products_New" Relationship="SkypeIntlPlanningPortfolioModel.FK_UALanguages_Products_New" FromRole="UALanguage" ToRole="Products_New" />
+    <NavigationProperty Name="UAQuality" Relationship="SkypeIntlPlanningPortfolioModel.FK_UALanguages_UAQuality" FromRole="UALanguage" ToRole="UAQuality" />
+    <NavigationProperty Name="ResourceFiles" Relationship="SkypeIntlPlanningPortfolioModel.UALanguageFiles" FromRole="UALanguage" ToRole="ResourceFile" />
+  </EntityType>
+  <EntityType Name="UAQuality">
+    <Key>
+      <PropertyRef Name="QualityID" />
+    </Key>
+    <Property Name="QualityID" Type="Int32" Nullable="false" />
+    <Property Name="QualityName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UALanguages" Relationship="SkypeIntlPlanningPortfolioModel.FK_UALanguages_UAQuality" FromRole="UAQuality" ToRole="UALanguage" />
+  </EntityType>
+  <Association Name="FK_UALanguages_BasicLanguageList">
+    <End Type="SkypeIntlPlanningPortfolioModel.BasicLanguageList" Role="BasicLanguageList" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.UALanguage" Role="UALanguage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="UALanguage">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UALanguages_Products_New">
+    <End Type="SkypeIntlPlanningPortfolioModel.Products_New" Role="Products_New" Multiplicity="1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.UALanguage" Role="UALanguage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="UALanguage">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UALanguages_UAQuality">
+    <End Type="SkypeIntlPlanningPortfolioModel.UAQuality" Role="UAQuality" Multiplicity="0..1" />
+    <End Type="SkypeIntlPlanningPortfolioModel.UALanguage" Role="UALanguage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UAQuality">
+        <PropertyRef Name="QualityID" />
+      </Principal>
+      <Dependent Role="UALanguage">
+        <PropertyRef Name="QualityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UALanguageFiles">
+    <End Type="SkypeIntlPlanningPortfolioModel.ResourceFile" Role="ResourceFile" Multiplicity="*" />
+    <End Type="SkypeIntlPlanningPortfolioModel.UALanguage" Role="UALanguage" Multiplicity="*" />
+  </Association>
+  <EntityType Name="BuildRequest">
+    <Key>
+      <PropertyRef Name="RequestID" />
+    </Key>
+    <Property Name="RequestID" Type="String" Nullable="false" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="BuildType" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="SourcePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FromBuildVersion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProductName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BranchID" Type="Int32" />
+    <Property Name="BranchName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tenant" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SkypeLctFilePaths" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LyncServerComponentList" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsComponentListAll" Type="Boolean" />
+    <Property Name="BuildToKeep" Type="Int32" />
+    <Property Name="DestinationPath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

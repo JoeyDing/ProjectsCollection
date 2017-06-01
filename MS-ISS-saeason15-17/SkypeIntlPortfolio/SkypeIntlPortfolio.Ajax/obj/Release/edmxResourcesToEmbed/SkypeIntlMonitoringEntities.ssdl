@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkypeIntlMonitoringModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlMonitoring.dbo.vw_ProjectBuildInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_ProjectBuildInfo">
+    <Key>
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="ProjectID" />
+      <PropertyRef Name="IsVisible" />
+    </Key>
+    <Property Name="BranchID" Type="int" Nullable="false" />
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="BuildVersion" Type="nvarchar" MaxLength="20" />
+    <Property Name="BranchIdentity" Type="nvarchar" MaxLength="50" />
+    <Property Name="PDName" Type="nvarchar" MaxLength="200" />
+    <Property Name="PDLinks" Type="nvarchar" MaxLength="300" />
+    <Property Name="IsVisible" Type="bit" Nullable="false" />
+    <Property Name="SyncDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlMonitoring.dbo.vw_ProjectFamilyInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_ProjectFamilyInfo">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="int" Nullable="false" />
+    <Property Name="ProjectName" Type="nvarchar" MaxLength="150" />
+    <Property Name="DisplayName" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityContainer Name="SkypeIntlMonitoringModelStoreContainer">
+    <EntitySet Name="vw_ProjectBuildInfo" EntityType="Self.vw_ProjectBuildInfo" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_ProjectBuildInfo].[BranchID] AS [BranchID], 
+    [vw_ProjectBuildInfo].[ProjectID] AS [ProjectID], 
+    [vw_ProjectBuildInfo].[BuildVersion] AS [BuildVersion], 
+    [vw_ProjectBuildInfo].[BranchIdentity] AS [BranchIdentity], 
+    [vw_ProjectBuildInfo].[PDName] AS [PDName], 
+    [vw_ProjectBuildInfo].[PDLinks] AS [PDLinks], 
+    [vw_ProjectBuildInfo].[IsVisible] AS [IsVisible], 
+    [vw_ProjectBuildInfo].[SyncDate] AS [SyncDate]
+    FROM [dbo].[vw_ProjectBuildInfo] AS [vw_ProjectBuildInfo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_ProjectFamilyInfo" EntityType="Self.vw_ProjectFamilyInfo" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_ProjectFamilyInfo].[ProjectID] AS [ProjectID], 
+    [vw_ProjectFamilyInfo].[ProjectName] AS [ProjectName], 
+    [vw_ProjectFamilyInfo].[DisplayName] AS [DisplayName]
+    FROM [dbo].[vw_ProjectFamilyInfo] AS [vw_ProjectFamilyInfo]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

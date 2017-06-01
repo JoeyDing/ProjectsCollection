@@ -1,0 +1,48 @@
+{
+  "first_time_username": [
+    {
+      "Property": "text",
+      "ResourceId": "ProfileCard|EmailLabel"
+    }
+  ],
+  "main_window_action_menu": [
+    {
+      "Property": "text",
+      "ResourceId": "HubHeaderPanel|NewConversationTitle"
+    },
+    {
+      "Property": "accessibility_id",
+      "ResourceId": "HubHeaderPanel|NewConversationTitle"
+    }
+  ],
+  "profile_window_my_highlights": [
+    {
+      "Property": "text",
+      "ResourceId": "MyProfilePanel|MyInfoTitle"
+    }
+  ],
+  "profile_window_my_profile": [
+    {
+      "Property": "text",
+      "ResourceId": "DesktopProfileMenu|ManageProfileButton"
+    }
+  ],
+  "profile_window_settings": [
+    {
+      "Property": "text",
+      "ResourceId": "DesktopProfileMenu|SettingsTitle"
+    }
+  ],
+  "profile_window_user_settings": [
+    {
+      "Property": "text",
+      "ResourceId": "DesktopProfileMenu|ManageProfileButton"
+    }
+  ],
+  "profile_about_information_link": [
+    {
+      "Property": "text",
+      "ResourceId": "DesktopProfileMenu|AboutButtonTitle"
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+
+--[BEGIN]	 3/6/2017 12:06:02 PM: Start Time is : 3/6/2017 12:06:02 PM
+
+--[END]	 3/6/2017 12:06:17 PM: End Time is : 3/6/2017 12:06:17 PM
+
+--[BEGIN]	 3/6/2017 12:17:11 PM: Start Time is : 3/6/2017 12:17:11 PM
+
+--[BEGIN]	 3/6/2017 12:18:49 PM: Start Time is : 3/6/2017 12:18:49 PM
+
+--[BEGIN]	 3/6/2017 12:20:12 PM: Start Time is : 3/6/2017 12:20:12 PM
+
+--[BEGIN]	 3/6/2017 12:26:21 PM: Start Time is : 3/6/2017 12:26:21 PM
+
+--[BEGIN]	 3/6/2017 12:28:08 PM: Start Time is : 3/6/2017 12:28:08 PM
+
+--[BEGIN]	 3/6/2017 12:32:00 PM: Start Time is : 3/6/2017 12:32:00 PM
+
+--[BEGIN]	 3/6/2017 12:37:32 PM: Start Time is : 3/6/2017 12:37:32 PM
+
+--[BEGIN]	 3/6/2017 12:38:27 PM: Start Time is : 3/6/2017 12:38:27 PM
+
+--[BEGIN]	 3/6/2017 12:39:25 PM: Start Time is : 3/6/2017 12:39:25 PM
+
+--[BEGIN]	 3/6/2017 12:40:18 PM: Start Time is : 3/6/2017 12:40:18 PM
+
+--[END]	 3/6/2017 12:40:35 PM: End Time is : 3/6/2017 12:40:35 PM
+
+--[EXCEPTION]	 3/6/2017 2:28:56 PM: JsonFieldName or SqlColumnName can't be null
+
+--[BEGIN]	 3/6/2017 2:39:32 PM: Start Time is : 3/6/2017 2:39:32 PM
+
+--[END]	 3/6/2017 2:39:32 PM: End Time is : 3/6/2017 2:39:32 PM
+
+--[EXCEPTION]	 3/6/2017 2:39:32 PM: JsonFieldName or SqlColumnName can't be null
+
+--[BEGIN]	 3/6/2017 2:39:35 PM: Start Time is : 3/6/2017 2:39:35 PM
+
+--[END]	 3/6/2017 2:39:35 PM: End Time is : 3/6/2017 2:39:35 PM
+
+--[BEGIN]	 3/6/2017 2:40:32 PM: Start Time is : 3/6/2017 2:40:32 PM
+
+--[END]	 3/6/2017 2:40:32 PM: End Time is : 3/6/2017 2:40:32 PM
+
+--[EXCEPTION]	 3/6/2017 2:40:32 PM: JsonFieldName or SqlColumnName can't be null
+
+--[BEGIN]	 3/6/2017 2:43:06 PM: Start Time is : 3/6/2017 2:43:06 PM
+
+--[END]	 3/6/2017 2:43:06 PM: End Time is : 3/6/2017 2:43:06 PM
+
+--[EXCEPTION]	 3/6/2017 2:43:06 PM: JsonFieldName or SqlColumnName can't be null
+
+--[BEGIN]	 3/6/2017 2:43:08 PM: Start Time is : 3/6/2017 2:43:08 PM
+
+--[END]	 3/6/2017 2:43:09 PM: End Time is : 3/6/2017 2:43:09 PM
+
+--[BEGIN]	 3/6/2017 3:01:04 PM: Start Time is : 3/6/2017 3:01:04 PM
+
+--[END]	 3/6/2017 3:01:04 PM: End Time is : 3/6/2017 3:01:04 PM
+
+--[EXCEPTION]	 3/6/2017 3:01:04 PM: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+
+--[BEGIN]	 3/6/2017 3:01:06 PM: Start Time is : 3/6/2017 3:01:06 PM
+
+--[END]	 3/6/2017 3:01:07 PM: End Time is : 3/6/2017 3:01:07 PM
+
+--[BEGIN]	 3/6/2017 3:20:01 PM: Start Time is : 3/6/2017 3:20:01 PM
+
+--[END]	 3/6/2017 3:20:01 PM: End Time is : 3/6/2017 3:20:01 PM
+
+--[EXCEPTION]	 3/6/2017 3:20:01 PM: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+
+--[BEGIN]	 3/6/2017 3:20:03 PM: Start Time is : 3/6/2017 3:20:03 PM
+
+--[END]	 3/6/2017 3:20:04 PM: End Time is : 3/6/2017 3:20:04 PM
+
+--[BEGIN]	 3/6/2017 3:30:33 PM: Start Time is : 3/6/2017 3:30:33 PM
+
+--[END]	 3/6/2017 3:30:34 PM: End Time is : 3/6/2017 3:30:34 PM
+
+--[EXCEPTION]	 3/6/2017 3:30:34 PM: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+
+--[BEGIN]	 3/6/2017 3:30:36 PM: Start Time is : 3/6/2017 3:30:36 PM
+
+--[END]	 3/6/2017 3:30:37 PM: End Time is : 3/6/2017 3:30:37 PM
+
+--[BEGIN]	 3/6/2017 4:47:09 PM: Start Time is : 3/6/2017 4:47:09 PM
+
+--[END]	 3/6/2017 4:47:09 PM: End Time is : 3/6/2017 4:47:09 PM
+
+--[BEGIN]	 3/6/2017 4:47:11 PM: Start Time is : 3/6/2017 4:47:11 PM
+
+--[END]	 3/6/2017 4:47:12 PM: End Time is : 3/6/2017 4:47:12 PM
+
+--[EXCEPTION]	 3/7/2017 9:49:47 AM: Value cannot be null.
+Parameter name: value
+
+--[EXCEPTION]	 3/7/2017 9:52:46 AM: Value cannot be null.
+Parameter name: value
+
+--[BEGIN]	 3/7/2017 10:47:26 AM: Start Time is : 3/7/2017 10:47:26 AM
+
+--[END]	 3/7/2017 10:47:29 AM: End Time is : 3/7/2017 10:47:29 AM
+
+--[BEGIN]	 3/7/2017 10:47:34 AM: Start Time is : 3/7/2017 10:47:34 AM
+
+--[END]	 3/7/2017 10:47:35 AM: End Time is : 3/7/2017 10:47:35 AM
+
+--[BEGIN]	 3/7/2017 10:47:38 AM: Start Time is : 3/7/2017 10:47:38 AM
+
+--[END]	 3/7/2017 10:47:39 AM: End Time is : 3/7/2017 10:47:39 AM
+
+--[BEGIN]	 3/7/2017 10:51:26 AM: Start Time is : 3/7/2017 10:51:26 AM
+
+--[END]	 3/7/2017 10:51:28 AM: End Time is : 3/7/2017 10:51:28 AM
+
+--[BEGIN]	 3/7/2017 10:51:33 AM: Start Time is : 3/7/2017 10:51:33 AM
+
+--[END]	 3/7/2017 10:51:34 AM: End Time is : 3/7/2017 10:51:34 AM
+
+--[BEGIN]	 3/7/2017 10:51:37 AM: Start Time is : 3/7/2017 10:51:37 AM
+
+--[END]	 3/7/2017 10:51:38 AM: End Time is : 3/7/2017 10:51:38 AM
+
+--[BEGIN]	 3/7/2017 12:06:54 PM: Start Time is : 3/7/2017 12:06:54 PM
+
+--[END]	 3/7/2017 12:06:57 PM: End Time is : 3/7/2017 12:06:57 PM
+
+--[BEGIN]	 3/7/2017 12:07:02 PM: Start Time is : 3/7/2017 12:07:02 PM
+
+--[END]	 3/7/2017 12:07:03 PM: End Time is : 3/7/2017 12:07:03 PM
+
+--[BEGIN]	 3/7/2017 12:07:06 PM: Start Time is : 3/7/2017 12:07:06 PM
+
+--[END]	 3/7/2017 12:07:07 PM: End Time is : 3/7/2017 12:07:07 PM
+
+--[BEGIN]	 3/7/2017 12:16:59 PM: Start Time is : 3/7/2017 12:16:59 PM
+
+--[END]	 3/7/2017 12:17:02 PM: End Time is : 3/7/2017 12:17:02 PM
+
+--[BEGIN]	 3/7/2017 12:17:08 PM: Start Time is : 3/7/2017 12:17:08 PM
+
+--[END]	 3/7/2017 12:17:09 PM: End Time is : 3/7/2017 12:17:09 PM
+
+--[BEGIN]	 3/7/2017 12:17:12 PM: Start Time is : 3/7/2017 12:17:12 PM
+
+--[END]	 3/7/2017 12:17:13 PM: End Time is : 3/7/2017 12:17:13 PM
+
+--[BEGIN]	 3/7/2017 12:23:02 PM: Start Time is : 3/7/2017 12:23:02 PM
+
+--[INFO]	 3/7/2017 12:23:02 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 12:23:05 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 12:23:05 PM: End Time is : 3/7/2017 12:23:05 PM
+
+--[BEGIN]	 3/7/2017 12:23:11 PM: Start Time is : 3/7/2017 12:23:11 PM
+
+--[INFO]	 3/7/2017 12:23:11 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 12:23:12 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 12:23:12 PM: End Time is : 3/7/2017 12:23:12 PM
+
+--[BEGIN]	 3/7/2017 12:23:15 PM: Start Time is : 3/7/2017 12:23:15 PM
+
+--[INFO]	 3/7/2017 12:23:15 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 12:23:15 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 12:23:15 PM: End Time is : 3/7/2017 12:23:15 PM
+
+--[BEGIN]	 3/7/2017 12:32:05 PM: Start Time is : 3/7/2017 12:32:05 PM
+
+--[INFO]	 3/7/2017 12:32:05 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 12:32:11 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 12:32:17 PM: End Time is : 3/7/2017 12:32:17 PM
+
+--[BEGIN]	 3/7/2017 12:32:26 PM: Start Time is : 3/7/2017 12:32:26 PM
+
+--[END]	 3/7/2017 12:32:26 PM: End Time is : 3/7/2017 12:32:26 PM
+
+--[BEGIN]	 3/7/2017 12:32:27 PM: Start Time is : 3/7/2017 12:32:27 PM
+
+--[INFO]	 3/7/2017 12:32:27 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 12:32:28 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 12:32:28 PM: End Time is : 3/7/2017 12:32:28 PM
+
+--[BEGIN]	 3/7/2017 12:32:32 PM: Start Time is : 3/7/2017 12:32:32 PM
+
+--[INFO]	 3/7/2017 12:32:32 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 12:32:32 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 12:32:32 PM: End Time is : 3/7/2017 12:32:32 PM
+
+--[BEGIN]	 3/7/2017 2:32:21 PM: Start Time is : 3/7/2017 2:32:21 PM
+
+--[INFO]	 3/7/2017 2:32:21 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 2:32:24 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 2:32:24 PM: End Time is : 3/7/2017 2:32:24 PM
+
+--[BEGIN]	 3/7/2017 2:32:31 PM: Start Time is : 3/7/2017 2:32:31 PM
+
+--[END]	 3/7/2017 2:32:31 PM: End Time is : 3/7/2017 2:32:31 PM
+
+--[BEGIN]	 3/7/2017 2:32:32 PM: Start Time is : 3/7/2017 2:32:32 PM
+
+--[INFO]	 3/7/2017 2:32:32 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 2:32:32 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 2:32:33 PM: End Time is : 3/7/2017 2:32:33 PM
+
+--[BEGIN]	 3/7/2017 2:32:51 PM: Start Time is : 3/7/2017 2:32:51 PM
+
+--[INFO]	 3/7/2017 2:32:51 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 2:32:52 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 2:32:52 PM: End Time is : 3/7/2017 2:32:52 PM
+
+--[BEGIN]	 3/7/2017 3:54:51 PM: Start Time is : 3/7/2017 3:54:51 PM
+
+--[END]	 3/7/2017 3:54:52 PM: End Time is : 3/7/2017 3:54:52 PM
+
+--[BEGIN]	 3/7/2017 3:54:53 PM: Start Time is : 3/7/2017 3:54:53 PM
+
+--[INFO]	 3/7/2017 3:54:53 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 3:54:53 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 3:54:53 PM: End Time is : 3/7/2017 3:54:53 PM
+
+--[BEGIN]	 3/7/2017 3:54:57 PM: Start Time is : 3/7/2017 3:54:57 PM
+
+--[INFO]	 3/7/2017 3:54:57 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 3:54:57 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 3:54:58 PM: End Time is : 3/7/2017 3:54:58 PM
+
+--[BEGIN]	 3/7/2017 4:18:09 PM: Start Time is : 3/7/2017 4:18:09 PM
+
+--[END]	 3/7/2017 4:18:10 PM: End Time is : 3/7/2017 4:18:10 PM
+
+--[BEGIN]	 3/7/2017 4:18:11 PM: Start Time is : 3/7/2017 4:18:11 PM
+
+--[INFO]	 3/7/2017 4:18:11 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 4:18:11 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 4:18:11 PM: End Time is : 3/7/2017 4:18:11 PM
+
+--[BEGIN]	 3/7/2017 4:18:15 PM: Start Time is : 3/7/2017 4:18:15 PM
+
+--[INFO]	 3/7/2017 4:18:15 PM: Data are ready to be added...
+
+--[INFO]	 3/7/2017 4:18:16 PM: Data are ready to be added...
+
+--[END]	 3/7/2017 4:18:16 PM: End Time is : 3/7/2017 4:18:16 PM
+
+--[BEGIN]	 3/8/2017 11:36:38 AM: Start Time is : 3/8/2017 11:36:38 AM
+
+--[END]	 3/8/2017 11:36:38 AM: End Time is : 3/8/2017 11:36:38 AM
+
+--[BEGIN]	 3/8/2017 11:36:39 AM: Start Time is : 3/8/2017 11:36:39 AM
+
+--[INFO]	 3/8/2017 11:36:39 AM: Data are ready to be added...
+
+--[INFO]	 3/8/2017 11:36:40 AM: Data are ready to be added...
+
+--[END]	 3/8/2017 11:36:40 AM: End Time is : 3/8/2017 11:36:40 AM
+
+--[BEGIN]	 3/8/2017 11:36:44 AM: Start Time is : 3/8/2017 11:36:44 AM
+
+--[INFO]	 3/8/2017 11:36:44 AM: Data are ready to be added...
+
+--[INFO]	 3/8/2017 11:36:45 AM: Data are ready to be added...
+
+--[END]	 3/8/2017 11:36:45 AM: End Time is : 3/8/2017 11:36:45 AM
+
+--[BEGIN]	 3/14/2017 11:51:22 AM: Start Time is : 3/14/2017 11:51:22 AM
+
+--[INFO]	 3/14/2017 11:51:26 AM: Data are ready to be added...
+
+--[INFO]	 3/14/2017 11:51:30 AM: Data are ready to be added...
+
+--[END]	 3/14/2017 11:51:33 AM: End Time is : 3/14/2017 11:51:33 AM
+
+--[BEGIN]	 3/14/2017 12:04:19 PM: Start Time is : 3/14/2017 12:04:19 PM
+
+--[INFO]	 3/14/2017 12:04:19 PM: Data are ready to be added...
+
+--[INFO]	 3/14/2017 12:04:20 PM: Data are ready to be added...
+
+--[END]	 3/14/2017 12:04:20 PM: End Time is : 3/14/2017 12:04:20 PM
+
+--[BEGIN]	 3/14/2017 12:05:39 PM: Start Time is : 3/14/2017 12:05:39 PM
+
+--[INFO]	 3/14/2017 12:05:39 PM: Data are ready to be added...
+
+--[INFO]	 3/14/2017 12:05:40 PM: Data are ready to be added...
+
+--[END]	 3/14/2017 12:05:40 PM: End Time is : 3/14/2017 12:05:40 PM
+
+--[BEGIN]	 3/14/2017 12:16:17 PM: Start Time is : 3/14/2017 12:16:17 PM
+
+--[INFO]	 3/14/2017 12:16:17 PM: Data are ready to be added...
+
+--[INFO]	 3/14/2017 12:16:18 PM: Data are ready to be added...
+
+--[END]	 3/14/2017 12:16:18 PM: End Time is : 3/14/2017 12:16:18 PM
+
+--[BEGIN]	 3/14/2017 12:32:40 PM: Start Time is : 3/14/2017 12:32:40 PM
+
+--[INFO]	 3/14/2017 12:32:40 PM: Data are ready to be added...
+
+--[BEGIN]	 3/14/2017 12:41:24 PM: Start Time is : 3/14/2017 12:41:24 PM
+
+--[INFO]	 3/14/2017 12:41:26 PM: Data are ready to be added...
+
+--[BEGIN]	 3/14/2017 2:04:49 PM: Start Time is : 3/14/2017 2:04:49 PM
+
+--[INFO]	 3/14/2017 2:05:53 PM: Data are ready to be added...
+
+--[BEGIN]	 3/14/2017 2:10:08 PM: Start Time is : 3/14/2017 2:10:08 PM
+
+--[INFO]	 3/14/2017 2:10:19 PM: Data are ready to be added...
+
+--[BEGIN]	 3/14/2017 2:12:07 PM: Start Time is : 3/14/2017 2:12:07 PM
+
+--[INFO]	 3/14/2017 2:12:13 PM: Data are ready to be added...
+
+--[BEGIN]	 3/14/2017 2:28:29 PM: Start Time is : 3/14/2017 2:28:29 PM
+
+--[INFO]	 3/14/2017 2:29:00 PM: Data are ready to be added...
+
+--[BEGIN]	 3/14/2017 2:30:09 PM: Start Time is : 3/14/2017 2:30:09 PM
+
+--[INFO]	 3/14/2017 2:30:09 PM: Data are ready to be added...
+
+--[BEGIN]	 3/14/2017 2:42:36 PM: Start Time is : 3/14/2017 2:42:36 PM
+
+--[INFO]	 3/14/2017 2:42:36 PM: Data are ready to be removed...
+
+--[BEGIN]	 3/23/2017 3:19:17 PM: Start Time is : 3/23/2017 3:19:17 PM
+
+--[BEGIN]	 3/23/2017 3:20:56 PM: Start Time is : 3/23/2017 3:20:56 PM
+
+--[INFO]	 3/23/2017 3:20:56 PM: Data are ready to be added...
+
+--[INFO]	 3/23/2017 3:21:02 PM: Data are ready to be added...
+
+--[END]	 3/23/2017 3:21:02 PM: End Time is : 3/23/2017 3:21:02 PM
+
+--[BEGIN]	 3/23/2017 3:25:56 PM: Start Time is : 3/23/2017 3:25:56 PM
+
+--[INFO]	 3/23/2017 3:25:56 PM: Data are ready to be added...
+
+--[INFO]	 3/23/2017 3:25:56 PM: Data are ready to be added...
+
+--[END]	 3/23/2017 3:25:56 PM: End Time is : 3/23/2017 3:25:56 PM
+
+--[BEGIN]	 3/23/2017 3:26:46 PM: Start Time is : 3/23/2017 3:26:46 PM
+
+--[INFO]	 3/23/2017 3:26:46 PM: Data are ready to be added...
+
+--[INFO]	 3/23/2017 3:26:47 PM: Data are ready to be added...
+
+--[END]	 3/23/2017 3:26:47 PM: End Time is : 3/23/2017 3:26:47 PM
+
+--[BEGIN]	 3/23/2017 3:30:08 PM: Start Time is : 3/23/2017 3:30:08 PM
+
+--[INFO]	 3/23/2017 3:30:08 PM: Data are ready to be added...
+
+--[INFO]	 3/23/2017 3:30:09 PM: Data are ready to be added...
+
+--[END]	 3/23/2017 3:30:09 PM: End Time is : 3/23/2017 3:30:09 PM
+
+--[BEGIN]	 3/23/2017 3:30:44 PM: Start Time is : 3/23/2017 3:30:44 PM
+
+--[INFO]	 3/23/2017 3:30:44 PM: Data are ready to be added...
+
+--[INFO]	 3/23/2017 3:30:45 PM: Data are ready to be added...
+
+--[END]	 3/23/2017 3:30:45 PM: End Time is : 3/23/2017 3:30:45 PM
+
+--[BEGIN]	 3/23/2017 5:03:04 PM: Start Time is : 3/23/2017 5:03:04 PM
+
+--[INFO]	 3/23/2017 5:03:04 PM: Data are ready to be added...
+
+--[BEGIN]	 3/23/2017 5:43:27 PM: Start Time is : 3/23/2017 5:43:27 PM
+
+--[INFO]	 3/23/2017 5:43:27 PM: Data are ready to be added...
+
+--[BEGIN]	 3/24/2017 11:54:54 AM: Start Time is : 3/24/2017 11:54:54 AM
+
+--[INFO]	 3/24/2017 11:54:54 AM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 11:55:07 AM: Data are ready to be added...
+
+--[END]	 3/24/2017 11:55:07 AM: End Time is : 3/24/2017 11:55:07 AM
+
+--[BEGIN]	 3/24/2017 12:07:58 PM: Start Time is : 3/24/2017 12:07:58 PM
+
+--[INFO]	 3/24/2017 12:07:58 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 12:07:59 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 12:07:59 PM: End Time is : 3/24/2017 12:07:59 PM
+
+--[BEGIN]	 3/24/2017 12:09:21 PM: Start Time is : 3/24/2017 12:09:21 PM
+
+--[INFO]	 3/24/2017 12:09:21 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 12:09:24 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 12:09:24 PM: End Time is : 3/24/2017 12:09:24 PM
+
+--[BEGIN]	 3/24/2017 12:09:31 PM: Start Time is : 3/24/2017 12:09:31 PM
+
+--[INFO]	 3/24/2017 12:09:31 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 12:09:32 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 12:09:32 PM: End Time is : 3/24/2017 12:09:32 PM
+
+--[BEGIN]	 3/24/2017 12:09:34 PM: Start Time is : 3/24/2017 12:09:34 PM
+
+--[END]	 3/24/2017 12:09:34 PM: End Time is : 3/24/2017 12:09:34 PM
+
+--[BEGIN]	 3/24/2017 12:09:36 PM: Start Time is : 3/24/2017 12:09:36 PM
+
+--[INFO]	 3/24/2017 12:09:36 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 12:09:36 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 12:09:36 PM: End Time is : 3/24/2017 12:09:36 PM
+
+--[BEGIN]	 3/24/2017 3:54:02 PM: Start Time is : 3/24/2017 3:54:02 PM
+
+--[INFO]	 3/24/2017 3:54:02 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:54:04 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:54:05 PM: End Time is : 3/24/2017 3:54:05 PM
+
+--[BEGIN]	 3/24/2017 3:54:12 PM: Start Time is : 3/24/2017 3:54:12 PM
+
+--[INFO]	 3/24/2017 3:54:12 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:54:13 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:54:13 PM: End Time is : 3/24/2017 3:54:13 PM
+
+--[BEGIN]	 3/24/2017 3:54:19 PM: Start Time is : 3/24/2017 3:54:19 PM
+
+--[END]	 3/24/2017 3:54:19 PM: End Time is : 3/24/2017 3:54:19 PM
+
+--[BEGIN]	 3/24/2017 3:54:20 PM: Start Time is : 3/24/2017 3:54:20 PM
+
+--[INFO]	 3/24/2017 3:54:20 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:54:21 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:54:21 PM: End Time is : 3/24/2017 3:54:21 PM
+
+--[BEGIN]	 3/24/2017 3:54:25 PM: Start Time is : 3/24/2017 3:54:25 PM
+
+--[INFO]	 3/24/2017 3:54:25 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:54:26 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:54:26 PM: End Time is : 3/24/2017 3:54:26 PM
+
+--[BEGIN]	 3/24/2017 3:57:22 PM: Start Time is : 3/24/2017 3:57:22 PM
+
+--[INFO]	 3/24/2017 3:57:22 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:57:24 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:57:24 PM: End Time is : 3/24/2017 3:57:24 PM
+
+--[BEGIN]	 3/24/2017 3:57:32 PM: Start Time is : 3/24/2017 3:57:32 PM
+
+--[INFO]	 3/24/2017 3:57:32 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:57:33 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:57:33 PM: End Time is : 3/24/2017 3:57:33 PM
+
+--[BEGIN]	 3/24/2017 3:57:39 PM: Start Time is : 3/24/2017 3:57:39 PM
+
+--[END]	 3/24/2017 3:57:39 PM: End Time is : 3/24/2017 3:57:39 PM
+
+--[BEGIN]	 3/24/2017 3:57:40 PM: Start Time is : 3/24/2017 3:57:40 PM
+
+--[INFO]	 3/24/2017 3:57:40 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:57:40 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:57:41 PM: End Time is : 3/24/2017 3:57:41 PM
+
+--[BEGIN]	 3/24/2017 3:57:45 PM: Start Time is : 3/24/2017 3:57:45 PM
+
+--[INFO]	 3/24/2017 3:57:45 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:57:45 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:57:46 PM: End Time is : 3/24/2017 3:57:46 PM
+
+--[BEGIN]	 3/24/2017 3:58:17 PM: Start Time is : 3/24/2017 3:58:17 PM
+
+--[INFO]	 3/24/2017 3:58:17 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:58:20 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:58:20 PM: End Time is : 3/24/2017 3:58:20 PM
+
+--[BEGIN]	 3/24/2017 3:58:28 PM: Start Time is : 3/24/2017 3:58:28 PM
+
+--[INFO]	 3/24/2017 3:58:28 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:58:28 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:58:28 PM: End Time is : 3/24/2017 3:58:28 PM
+
+--[BEGIN]	 3/24/2017 3:58:34 PM: Start Time is : 3/24/2017 3:58:34 PM
+
+--[END]	 3/24/2017 3:58:34 PM: End Time is : 3/24/2017 3:58:34 PM
+
+--[BEGIN]	 3/24/2017 3:58:35 PM: Start Time is : 3/24/2017 3:58:35 PM
+
+--[INFO]	 3/24/2017 3:58:35 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:58:36 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:58:36 PM: End Time is : 3/24/2017 3:58:36 PM
+
+--[BEGIN]	 3/24/2017 3:58:40 PM: Start Time is : 3/24/2017 3:58:40 PM
+
+--[INFO]	 3/24/2017 3:58:40 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 3:58:41 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 3:58:41 PM: End Time is : 3/24/2017 3:58:41 PM
+
+--[BEGIN]	 3/24/2017 4:29:48 PM: Start Time is : 3/24/2017 4:29:48 PM
+
+--[INFO]	 3/24/2017 4:29:48 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 4:29:50 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 4:29:51 PM: End Time is : 3/24/2017 4:29:51 PM
+
+--[BEGIN]	 3/24/2017 4:29:58 PM: Start Time is : 3/24/2017 4:29:58 PM
+
+--[INFO]	 3/24/2017 4:29:58 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 4:29:58 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 4:29:58 PM: End Time is : 3/24/2017 4:29:58 PM
+
+--[BEGIN]	 3/24/2017 4:30:04 PM: Start Time is : 3/24/2017 4:30:04 PM
+
+--[END]	 3/24/2017 4:30:04 PM: End Time is : 3/24/2017 4:30:04 PM
+
+--[BEGIN]	 3/24/2017 4:30:05 PM: Start Time is : 3/24/2017 4:30:05 PM
+
+--[INFO]	 3/24/2017 4:30:05 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 4:30:06 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 4:30:06 PM: End Time is : 3/24/2017 4:30:06 PM
+
+--[BEGIN]	 3/24/2017 4:30:10 PM: Start Time is : 3/24/2017 4:30:10 PM
+
+--[INFO]	 3/24/2017 4:30:10 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 4:30:11 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 4:30:11 PM: End Time is : 3/24/2017 4:30:11 PM
+
+--[BEGIN]	 3/24/2017 4:30:33 PM: Start Time is : 3/24/2017 4:30:33 PM
+
+--[INFO]	 3/24/2017 4:30:33 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 4:30:35 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 4:30:35 PM: End Time is : 3/24/2017 4:30:35 PM
+
+--[BEGIN]	 3/24/2017 4:30:44 PM: Start Time is : 3/24/2017 4:30:44 PM
+
+--[INFO]	 3/24/2017 4:30:44 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 4:30:44 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 4:30:44 PM: End Time is : 3/24/2017 4:30:44 PM
+
+--[BEGIN]	 3/24/2017 4:30:50 PM: Start Time is : 3/24/2017 4:30:50 PM
+
+--[END]	 3/24/2017 4:30:50 PM: End Time is : 3/24/2017 4:30:50 PM
+
+--[BEGIN]	 3/24/2017 4:30:51 PM: Start Time is : 3/24/2017 4:30:51 PM
+
+--[INFO]	 3/24/2017 4:30:51 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 4:30:52 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 4:30:52 PM: End Time is : 3/24/2017 4:30:52 PM
+
+--[BEGIN]	 3/24/2017 4:30:56 PM: Start Time is : 3/24/2017 4:30:56 PM
+
+--[INFO]	 3/24/2017 4:30:56 PM: Data are ready to be added...
+
+--[INFO]	 3/24/2017 4:30:57 PM: Data are ready to be added...
+
+--[END]	 3/24/2017 4:30:57 PM: End Time is : 3/24/2017 4:30:57 PM
+
+--[BEGIN]	 3/29/2017 10:40:05 AM: Start Time is : 3/29/2017 10:40:05 AM
+
+--[INFO]	 3/29/2017 10:40:05 AM: Data are ready to be added...
+
+--[INFO]	 3/29/2017 10:40:08 AM: Data are ready to be added...
+
+--[END]	 3/29/2017 10:40:08 AM: End Time is : 3/29/2017 10:40:08 AM
+
+--[BEGIN]	 3/29/2017 10:40:17 AM: Start Time is : 3/29/2017 10:40:17 AM
+
+--[INFO]	 3/29/2017 10:40:17 AM: Data are ready to be added...
+
+--[INFO]	 3/29/2017 10:40:17 AM: Data are ready to be added...
+
+--[END]	 3/29/2017 10:40:17 AM: End Time is : 3/29/2017 10:40:17 AM
+
+--[BEGIN]	 3/29/2017 10:40:25 AM: Start Time is : 3/29/2017 10:40:25 AM
+
+--[INFO]	 3/29/2017 10:40:25 AM: Data are ready to be removed...
+
+--[INFO]	 3/29/2017 10:40:27 AM: Data have been removed...
+
+--[END]	 3/29/2017 10:40:27 AM: End Time is : 3/29/2017 10:40:27 AM
+
+--[BEGIN]	 3/29/2017 10:40:28 AM: Start Time is : 3/29/2017 10:40:28 AM
+
+--[INFO]	 3/29/2017 10:40:28 AM: Data are ready to be added...
+
+--[INFO]	 3/29/2017 10:40:29 AM: Data are ready to be added...
+
+--[END]	 3/29/2017 10:40:29 AM: End Time is : 3/29/2017 10:40:29 AM
+
+--[BEGIN]	 3/29/2017 10:40:33 AM: Start Time is : 3/29/2017 10:40:33 AM
+
+--[INFO]	 3/29/2017 10:40:33 AM: Data are ready to be added...
+
+--[INFO]	 3/29/2017 10:40:34 AM: Data are ready to be added...
+
+--[END]	 3/29/2017 10:40:34 AM: End Time is : 3/29/2017 10:40:34 AM
+
+--[BEGIN]	 3/29/2017 10:42:20 AM: Start Time is : 3/29/2017 10:42:20 AM
+
+--[INFO]	 3/29/2017 10:42:20 AM: Data are ready to be added...
+
+--[INFO]	 3/29/2017 10:42:20 AM: Data are ready to be added...
+
+--[END]	 3/29/2017 10:42:20 AM: End Time is : 3/29/2017 10:42:20 AM

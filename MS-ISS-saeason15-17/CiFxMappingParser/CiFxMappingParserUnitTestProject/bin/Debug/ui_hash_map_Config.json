@@ -1,0 +1,24 @@
+{
+  "chat_window_message": { "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"[contains]\")" },
+  "main_application": { "command": "[nopattern]" },
+  "main_submit": {
+    "id": "idSIButton9",
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"[equals]\")"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "text": "]loc[",
+    "command": "new UiSelector().textStartsWith(\"[startswith]\")"
+  },
+  "profile_about_information_link": {
+    "text": "]loc[",
+    "command": "new UiSelector().text(\"[equals]\")"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "text": "[nopattern]",
+    "command": "[nopattern]"
+  },
+  "my_highlights_confirm_upload_successful": {
+    "text": "[regex]|[regex]|[regex]",
+    "command": "new UiSelector().textMatches(\"[regex]|[regex]|[regex]\")"
+  }
+}

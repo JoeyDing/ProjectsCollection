@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"여기에 메시지 입력\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "프로필 공유",
+    "accessibility_id": "프로필 공유"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"다른 용무 중\")).index(1)",
+    "text": "다른 용무 중"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"사람 및 그룹 검색|사람 및 그룹 검색\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"사용자 및 봇 검색|사럼 및 봇 검색\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"봇 검색|Skype 검색|질문에 답변하고 중요한 내용을 기억하도록 도와주는 등 여러 가지 도움을 주려면 Cortana에서 사용자의 \n\n위치 및 위치 기록\n\n연락처, 일정 세부 정보메시지 콘텐츠 및 커뮤니케이션 기록, 인스턴트 메시지, 앱\n\n검색 기록, 그 외 장치 정보를 수집하고 이용하여 맞춤형 환경을 설정할 수 있도록 해주어야 합니다.|웹 검색|웹 검색|파일 검색|사람 검색|Skype 검색|장소 검색|사용자 및 봇 검색|검색|사람 및 그룹 검색|사람 검색|Skype 검색|검색|봇 검색|사람 검색|사럼 및 봇 검색|사람 및 그룹 검색\")",
+    "text": "검색"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"사람 검색|사용자 및 봇 검색|사람 및 그룹 검색|사람 검색|사람 검색|사럼 및 봇 검색|사람 및 그룹 검색\")",
+    "text": "사람 검색"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"봇 검색|Skype 검색|질문에 답변하고 중요한 내용을 기억하도록 도와주는 등 여러 가지 도움을 주려면 Cortana에서 사용자의 \n\n위치 및 위치 기록\n\n연락처, 일정 세부 정보메시지 콘텐츠 및 커뮤니케이션 기록, 인스턴트 메시지, 앱\n\n검색 기록, 그 외 장치 정보를 수집하고 이용하여 맞춤형 환경을 설정할 수 있도록 해주어야 합니다.|웹 검색|웹 검색|파일 검색|사람 검색|Skype 검색|장소 검색|사용자 및 봇 검색|검색|사람 및 그룹 검색|사람 검색|Skype 검색|검색|봇 검색|사람 검색|사럼 및 봇 검색|사람 및 그룹 검색\")",
+    "text": "검색"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "설정"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"로그아웃\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"정보\")",
+    "text": "정보"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes}분, 만료 날짜: {expireDate}|Cortana 서비스에 연결하지 못했습니다. 잠시 후에 다시 시도하세요.|{hours}시간 {minutes}분 {seconds}초|{hours}시간 {minutes}분|{minutes}분|{minutes}분 {seconds}초|{count}분|{count, plural, =1{1분 전} other{#분 전}}|{minutes}분|{count, plural, =1{1분 전} other{#분 전}}|{count, plural, =1{1분 전} other{#분 전}}\")",
+    "text": "{minutes}분, 만료 날짜: {expireDate}|Cortana 서비스에 연결하지 못했습니다. 잠시 후에 다시 시도하세요.|{hours}시간 {minutes}분 {seconds}초|{hours}시간 {minutes}분|{minutes}분|{minutes}분 {seconds}초|{count}분|{count, plural, =1{1분 전} other{#분 전}}|{minutes}분|{count, plural, =1{1분 전} other{#분 전}}|{count, plural, =1{1분 전} other{#분 전}}"
+  }
+}

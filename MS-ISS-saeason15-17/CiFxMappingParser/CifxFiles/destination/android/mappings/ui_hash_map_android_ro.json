@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Scrie un mesaj aici\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Distribuie profilul",
+    "accessibility_id": "Distribuie profilul"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Nu deranjați\")).index(1)",
+    "text": "Nu deranjați"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Caută persoane și grupuri|Caută persoane și grupuri\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Caută persoane și chatbot-uri|Caută persoane și chatbot-uri\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Caută chatbot-uri|Caută pe Skype|Pentru a răspunde la întrebările tale, a te ajuta să-ți amintești lucrurile importante și multe altele, permite aplicației Cortana să colecteze și să utilizeze informații inclusiv despre:\n\nLocația ta și istoricul locației\n\nPersoanele de contact, detaliile calendarului, precum și istoricul de conținut și comunicație din mesaje, mesaje instantanee și aplicații\n\nIstoricul de căutare și alte informații de pe dispozitivul tău, pentru ca experiența ta să fie mai personală|Caută pe web|Caută pe web|Caută fișiere|Caută persoane|Caută pe Skype|Caută locuri|Caută persoane și chatbot-uri|Caută|Caută persoane și grupuri|Caută persoane|Caută pe Skype|Caută|Caută chatbot-uri|Caută persoane|Caută persoane și chatbot-uri|Caută persoane și grupuri\")",
+    "text": "Caută"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Caută persoane|Caută persoane și chatbot-uri|Caută persoane și grupuri|Caută persoane|Caută persoane|Caută persoane și chatbot-uri|Caută persoane și grupuri\")",
+    "text": "Caută persoane"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Caută chatbot-uri|Caută pe Skype|Pentru a răspunde la întrebările tale, a te ajuta să-ți amintești lucrurile importante și multe altele, permite aplicației Cortana să colecteze și să utilizeze informații inclusiv despre:\n\nLocația ta și istoricul locației\n\nPersoanele de contact, detaliile calendarului, precum și istoricul de conținut și comunicație din mesaje, mesaje instantanee și aplicații\n\nIstoricul de căutare și alte informații de pe dispozitivul tău, pentru ca experiența ta să fie mai personală|Caută pe web|Caută pe web|Caută fișiere|Caută persoane|Caută pe Skype|Caută locuri|Caută persoane și chatbot-uri|Caută|Caută persoane și grupuri|Caută persoane|Caută pe Skype|Caută|Caută chatbot-uri|Caută persoane|Caută persoane și chatbot-uri|Caută persoane și grupuri\")",
+    "text": "Caută"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Setări"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Deconectează-te\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Despre\")",
+    "text": "Despre"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} minute, expiră pe {expireDate}|Nu am reușit să contactăm serviciul Cortana. Încearcă din nou în câteva minute.|{hours} h {minutes} m {seconds} s|{hours} h {minutes} m|{minutes} m|{minutes} m {seconds} s|{count} minute|{count, plural, =1{În urmă cu 1 minut} few{În urmă cu # minute} other{În urmă cu # minute}}|{minutes} min.|{count, plural, =1{În urmă cu 1 minut} few{În urmă cu # minute} other{În urmă cu # minute}}|{count, plural, =1{În urmă cu 1 minut} few{În urmă cu # minute} other{În urmă cu # minute}}\")",
+    "text": "{minutes} minute, expiră pe {expireDate}|Nu am reușit să contactăm serviciul Cortana. Încearcă din nou în câteva minute.|{hours} h {minutes} m {seconds} s|{hours} h {minutes} m|{minutes} m|{minutes} m {seconds} s|{count} minute|{count, plural, =1{În urmă cu 1 minut} few{În urmă cu # minute} other{În urmă cu # minute}}|{minutes} min.|{count, plural, =1{În urmă cu 1 minut} few{În urmă cu # minute} other{În urmă cu # minute}}|{count, plural, =1{În urmă cu 1 minut} few{În urmă cu # minute} other{În urmă cu # minute}}"
+  }
+}

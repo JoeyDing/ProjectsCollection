@@ -1,0 +1,3 @@
+﻿swxautomation.module,SWX Automation
+sfb.ui.shell.module,Skype Desktop Automation
+sfbwebappautomation.module, Skype Web Automation

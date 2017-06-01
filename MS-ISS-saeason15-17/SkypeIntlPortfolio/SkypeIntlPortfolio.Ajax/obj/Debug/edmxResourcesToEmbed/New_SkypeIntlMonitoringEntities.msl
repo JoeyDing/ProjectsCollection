@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="New_SkypeIntlMonitoringEntitiesModelStoreContainer" CdmEntityContainer="New_SkypeIntlMonitoringEntities">
+    <EntitySetMapping Name="New_SqlJobs">
+      <EntityTypeMapping TypeName="New_SkypeIntlMonitoringEntitiesModel.New_SqlJobs">
+        <MappingFragment StoreEntitySet="New_SqlJobs">
+          <ScalarProperty Name="New_SqlJobsID" ColumnName="New_SqlJobsID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Job_Enabled" ColumnName="Job_Enabled" />
+          <ScalarProperty Name="Start_Step_ID" ColumnName="Start_Step_ID" />
+          <ScalarProperty Name="Last_Run_Duration" ColumnName="Last_Run_Duration" />
+          <ScalarProperty Name="Last_Run_Outcome" ColumnName="Last_Run_Outcome" />
+          <ScalarProperty Name="Last_Outcome_Message" ColumnName="Last_Outcome_Message" />
+          <ScalarProperty Name="Last_Run_DateTime" ColumnName="Last_Run_DateTime" />
+          <ScalarProperty Name="LastRunDuration_inMinutes" ColumnName="LastRunDuration_inMinutes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="New_SqlJobSteps">
+      <EntityTypeMapping TypeName="New_SkypeIntlMonitoringEntitiesModel.New_SqlJobSteps">
+        <MappingFragment StoreEntitySet="New_SqlJobSteps">
+          <ScalarProperty Name="New_SqlJobStepID" ColumnName="New_SqlJobStepID" />
+          <ScalarProperty Name="New_SqlJobID" ColumnName="New_SqlJobID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Command" ColumnName="Command" />
+          <ScalarProperty Name="ToolID" ColumnName="ToolID" />
+          <ScalarProperty Name="LastRunOutcome" ColumnName="LastRunOutcome" />
+          <ScalarProperty Name="LastRunDateTime" ColumnName="LastRunDateTime" />
+          <ScalarProperty Name="LastRunDuration" ColumnName="LastRunDuration" />
+          <ScalarProperty Name="LastRunDurationMinutes" ColumnName="LastRunDurationMinutes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SqlJobHistory">
+      <EntityTypeMapping TypeName="New_SkypeIntlMonitoringEntitiesModel.SqlJobHistory">
+        <MappingFragment StoreEntitySet="SqlJobHistory">
+          <ScalarProperty Name="JobHistoryId" ColumnName="JobHistoryId" />
+          <ScalarProperty Name="SqlJobStepIterationID" ColumnName="SqlJobStepIterationID" />
+          <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+          <ScalarProperty Name="Outcome_Message" ColumnName="Outcome_Message" />
+          <ScalarProperty Name="ParentIterationID" ColumnName="ParentIterationID" />
+          <ScalarProperty Name="SqlJobStepName" ColumnName="SqlJobStepName" />
+          <ScalarProperty Name="SqlJobName" ColumnName="SqlJobName" />
+          <ScalarProperty Name="SqlJobStepID" ColumnName="SqlJobStepID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UpdateRecord">
+      <EntityTypeMapping TypeName="New_SkypeIntlMonitoringEntitiesModel.UpdateRecord">
+        <MappingFragment StoreEntitySet="UpdateRecord">
+          <ScalarProperty Name="UpdateRecordId" ColumnName="UpdateRecordId" />
+          <ScalarProperty Name="NameOfTool" ColumnName="NameOfTool" />
+          <ScalarProperty Name="LastUpdatePlace" ColumnName="LastUpdatePlace" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

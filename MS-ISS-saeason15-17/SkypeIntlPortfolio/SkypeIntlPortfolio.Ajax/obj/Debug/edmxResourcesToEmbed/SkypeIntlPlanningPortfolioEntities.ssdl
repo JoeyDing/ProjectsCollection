@@ -1,0 +1,2096 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkypeIntlPlanningPortfolioModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BasicLanguageList">
+    <Key>
+      <PropertyRef Name="LanguageKey" />
+    </Key>
+    <Property Name="LanguageKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Language" Type="nvarchar" MaxLength="50" />
+    <Property Name="CultureName" Type="nvarchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="Branch">
+    <Key>
+      <PropertyRef Name="BranchID" />
+    </Key>
+    <Property Name="BranchID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Branch Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BuildRequest">
+    <Key>
+      <PropertyRef Name="RequestID" />
+    </Key>
+    <Property Name="RequestID" Type="nvarchar" MaxLength="450" Nullable="false" />
+    <Property Name="BuildType" Type="nvarchar" MaxLength="20" />
+    <Property Name="SourcePath" Type="nvarchar(max)" />
+    <Property Name="DestinationPath" Type="nvarchar(max)" />
+    <Property Name="FromBuildVersion" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="50" />
+    <Property Name="BranchID" Type="int" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tenant" Type="nvarchar" MaxLength="50" />
+    <Property Name="SkypeLctFilePaths" Type="nvarchar(max)" />
+    <Property Name="LyncServerComponentList" Type="nvarchar(max)" />
+    <Property Name="IsComponentListAll" Type="bit" />
+    <Property Name="BuildToKeep" Type="int" />
+  </EntityType>
+  <EntityType Name="BuildSystems">
+    <Key>
+      <PropertyRef Name="BuildSysKey" />
+    </Key>
+    <Property Name="BuildSysKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Build System Used" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CodeReview">
+    <Key>
+      <PropertyRef Name="CodeReviewKey" />
+    </Key>
+    <Property Name="CodeReviewKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code Review Used" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="EOLs">
+    <Key>
+      <PropertyRef Name="llCC" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="llCC" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="Language Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Language Support Level" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FabricOnboarding">
+    <Key>
+      <PropertyRef Name="OnboardingID" />
+    </Key>
+    <Property Name="OnboardingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="JiraPBI" Type="nvarchar" MaxLength="50" />
+    <Property Name="Summary" Type="nvarchar(max)" />
+    <Property Name="EpicLabel" Type="nvarchar" MaxLength="100" />
+    <Property Name="Label" Type="nvarchar(max)" />
+    <Property Name="PBI Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="Links" Type="nvarchar" MaxLength="100" />
+    <Property Name="ParentOnboardingID" Type="int" />
+    <Property Name="CreatedDate" Type="date" />
+    <Property Name="ClosedDate" Type="date" />
+    <Property Name="Sprint" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FabricTenants">
+    <Key>
+      <PropertyRef Name="TenantKey" />
+    </Key>
+    <Property Name="TenantKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fabric Tenant" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Features">
+    <Key>
+      <PropertyRef Name="FeatureKey" />
+    </Key>
+    <Property Name="FeatureKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeatureName" Type="nvarchar(max)" />
+    <Property Name="ProductKey" Type="int" />
+  </EntityType>
+  <EntityType Name="GitProjectDocumentation">
+    <Key>
+      <PropertyRef Name="ProjectDocID" />
+    </Key>
+    <Property Name="ProjectDocID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Project Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Repository Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Document Path" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Branch" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="HistoryResourceFiles">
+    <Key>
+      <PropertyRef Name="FileKey" />
+      <PropertyRef Name="UpdateDate" />
+    </Key>
+    <Property Name="FileKey" Type="int" Nullable="false" />
+    <Property Name="UpdateDate" Type="datetime" Nullable="false" />
+    <Property Name="Deleted" Type="bit" />
+  </EntityType>
+  <EntityType Name="HistoryResourceFiles_Target">
+    <Key>
+      <PropertyRef Name="TargetFileKey" />
+      <PropertyRef Name="UpdateDate" />
+    </Key>
+    <Property Name="TargetFileKey" Type="int" Nullable="false" />
+    <Property Name="UpdateDate" Type="datetime" Nullable="false" />
+    <Property Name="Deleted" Type="bit" />
+  </EntityType>
+  <EntityType Name="LanguageSettings">
+    <Key>
+      <PropertyRef Name="LangSettingsKey" />
+    </Key>
+    <Property Name="LangSettingsKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Language Settings" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="LocationKey" />
+    </Key>
+    <Property Name="LocationKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Location" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LocBuildProcess">
+    <Key>
+      <PropertyRef Name="BuildProcessKey" />
+    </Key>
+    <Property Name="BuildProcessKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Loc Build Process" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="LocProcess">
+    <Key>
+      <PropertyRef Name="LocProcessKey" />
+    </Key>
+    <Property Name="LocProcessKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Loc Process" Type="nvarchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="MilestoneCategories">
+    <Key>
+      <PropertyRef Name="MilestoneCategoryKey" />
+    </Key>
+    <Property Name="MilestoneCategoryKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Milestone Category Name" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Milestones">
+    <Key>
+      <PropertyRef Name="MilestoneKey" />
+    </Key>
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="ReleaseKey" Type="int" Nullable="false" />
+    <Property Name="MilestoneKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Milestone Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Milestone Start Date" Type="datetime" />
+    <Property Name="Milestone End Date" Type="datetime" />
+    <Property Name="Line of Sight" Type="nchar" MaxLength="10" />
+    <Property Name="MilestoneCategoryKey" Type="int" Nullable="false" />
+    <Property Name="Milestone Assigned To" Type="nvarchar" MaxLength="50" />
+    <Property Name="Vso Web Url" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Vso Api Url" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="multi_CoreTeamLocations">
+    <Key>
+      <PropertyRef Name="LocationKey" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="LocationKey" Type="int" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="multi_ProductPillar">
+    <Key>
+      <PropertyRef Name="PillarKey" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="PillarKey" Type="int" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="multi_ProductPlatform">
+    <Key>
+      <PropertyRef Name="PlatformKey" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="PlatformKey" Type="int" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.multi_ProductPlatform_Backup' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="multi_ProductPlatform_Backup">
+    <Key>
+      <PropertyRef Name="PlatformKey" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="PlatformKey" Type="int" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="multi_ProductResourceFiles">
+    <Key>
+      <PropertyRef Name="FileKey" />
+      <PropertyRef Name="Productkey" />
+    </Key>
+    <Property Name="FileKey" Type="int" Nullable="false" />
+    <Property Name="Productkey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="multi_releaseChannel">
+    <Key>
+      <PropertyRef Name="ReleaseChannelKey" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="ReleaseChannelKey" Type="int" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="multi_SourceControlInterface">
+    <Key>
+      <PropertyRef Name="SourceInterfaceKey" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="SourceInterfaceKey" Type="int" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="multi_SourceStorage">
+    <Key>
+      <PropertyRef Name="SourceStorageKey" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="SourceStorageKey" Type="int" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Platform">
+    <Key>
+      <PropertyRef Name="PlatformKey" />
+    </Key>
+    <Property Name="PlatformKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Platform" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProductContent">
+    <Key>
+      <PropertyRef Name="ContentKey" />
+    </Key>
+    <Property Name="ContentKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product Content Published To" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProductFamilies">
+    <Key>
+      <PropertyRef Name="FamilyKey" />
+    </Key>
+    <Property Name="FamilyKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product Family" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ProductPillars">
+    <Key>
+      <PropertyRef Name="PillarKey" />
+    </Key>
+    <Property Name="PillarKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product Pillar" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="ProductKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Product Description" Type="nvarchar(max)" />
+    <Property Name="Family" Type="nvarchar" MaxLength="50" />
+    <Property Name="User Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Product Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Product Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductStudioLink" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fabric Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fabric Onboarding EpicLabel" Type="nvarchar" MaxLength="50" />
+    <Property Name="Loc PM Alias" Type="nvarchar" MaxLength="100" />
+    <Property Name="Loc PM Location" Type="nvarchar" MaxLength="100" />
+    <Property Name="Core Team's Location" Type="nvarchar" MaxLength="100" />
+    <Property Name="Resource File Path" Type="nvarchar(max)" />
+    <Property Name="Core Team Contacts" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Products_New">
+    <Key>
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="ProductKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="StatusKey" Type="int" />
+    <Property Name="PVoiceKey" Type="int" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="ProductFamilyKey" Type="int" />
+    <Property Name="FabricTenantKey" Type="int" />
+    <Property Name="ThreadKey" Type="int" />
+    <Property Name="ISS Ops Driver" Type="nvarchar" MaxLength="50" />
+    <Property Name="OwnerLocationKey" Type="int" />
+    <Property Name="ReleaseCadenceKey" Type="int" />
+    <Property Name="IPE Owner" Type="nvarchar" MaxLength="50" />
+    <Property Name="Test Owner" Type="nvarchar" MaxLength="50" />
+    <Property Name="Product Owner" Type="nvarchar" MaxLength="50" />
+    <Property Name="LocBuildProcessKey" Type="int" />
+    <Property Name="LocProcessKey" Type="int" />
+    <Property Name="GB Impacting" Type="bit" />
+    <Property Name="French Loc Required" Type="bit" />
+    <Property Name="Privacy Statement Required" Type="bit" />
+    <Property Name="Voice Prompt Loc Required" Type="bit" />
+    <Property Name="Telemetry Data available" Type="bit" />
+    <Property Name="Pseudo Build Enabled" Type="bit" />
+    <Property Name="Pseudo Testing Run Regular" Type="bit" />
+    <Property Name="Pseudo Testing And Loc Checks" Type="bit" />
+    <Property Name="Pseudo Run Beofre Check In" Type="bit" />
+    <Property Name="LCG File Path" Type="nvarchar(max)" />
+    <Property Name="LCT File Path" Type="nvarchar(max)" />
+    <Property Name="LCL File Path" Type="nvarchar(max)" />
+    <Property Name="Localization VSO Path" Type="nvarchar(max)" />
+    <Property Name="Main Code Branch" Type="nvarchar(max)" />
+    <Property Name="Localization Code Branch" Type="nvarchar(max)" />
+    <Property Name="Loc Team OneNote" Type="nvarchar(max)" />
+    <Property Name="Core PO" Type="nvarchar(max)" />
+    <Property Name="Core Team SharePoint" Type="nvarchar(max)" />
+    <Property Name="Certification Type" Type="nvarchar" MaxLength="255" />
+    <Property Name="Cert Location" Type="nvarchar(max)" />
+    <Property Name="Last Release Certified" Type="nvarchar(max)" />
+    <Property Name="ContentPublishedToKey" Type="int" />
+    <Property Name="Release build Location" Type="nvarchar(max)" />
+    <Property Name="Core VSO Backlog URL" Type="nvarchar(max)" />
+    <Property Name="LanguageSettingsKey" Type="int" />
+    <Property Name="CodeReviewUsedKey" Type="int" />
+    <Property Name="BuildSysKey" Type="int" />
+    <Property Name="Localization VSO URL" Type="nvarchar(max)" />
+    <Property Name="Telemetry Contact" Type="nvarchar(max)" />
+    <Property Name="Core Engineering Contact" Type="nvarchar(max)" />
+    <Property Name="Core Design Contact" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ProductThreads">
+    <Key>
+      <PropertyRef Name="ThreadKey" />
+    </Key>
+    <Property Name="ThreadKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product Thread" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProductVoice">
+    <Key>
+      <PropertyRef Name="VoiceKey" />
+    </Key>
+    <Property Name="VoiceKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product Voice" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ReleaseCadence">
+    <Key>
+      <PropertyRef Name="CadenceKey" />
+    </Key>
+    <Property Name="CadenceKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Release Cadence" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ReleaseChannel">
+    <Key>
+      <PropertyRef Name="ReleaseChannelKey" />
+    </Key>
+    <Property Name="ReleaseChannelKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Release Channel" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Releases">
+    <Key>
+      <PropertyRef Name="VSO ID" />
+    </Key>
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="VSO ID" Type="int" Nullable="false" />
+    <Property Name="VSO Title" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO Type" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="VSO Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="VSO LocStartDate" Type="datetime" Nullable="false" />
+    <Property Name="VSO DueDate" Type="datetime" Nullable="false" />
+    <Property Name="VSO Assigned To" Type="nvarchar" MaxLength="200" />
+    <Property Name="VSO Family" Type="nvarchar" MaxLength="200" />
+    <Property Name="VSO IterationPath" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO AreaPath" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO ChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="VSO ProductName" Type="nvarchar" MaxLength="200" />
+    <Property Name="VSO Url" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="VSO Tags" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="ResourceFiles">
+    <Key>
+      <PropertyRef Name="FileKey" />
+    </Key>
+    <Property Name="FileKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="File Name" Type="nvarchar(max)" />
+    <Property Name="File Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="LCG File Location" Type="nvarchar(max)" />
+    <Property Name="Fabric Project" Type="nvarchar" MaxLength="255" />
+    <Property Name="FabricTenantKey" Type="int" />
+    <Property Name="Source File Location" Type="nvarchar(max)" />
+    <Property Name="ParserID" Type="int" />
+    <Property Name="RepoURL" Type="nvarchar(max)" />
+    <Property Name="repoBranch" Type="nvarchar" MaxLength="50" />
+    <Property Name="repoType" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ResourceFiles_Target">
+    <Key>
+      <PropertyRef Name="TargetFileKey" />
+    </Key>
+    <Property Name="SourceFileKey" Type="int" Nullable="false" />
+    <Property Name="TargetFileKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="File Name" Type="nvarchar(max)" />
+    <Property Name="LanguageKey" Type="int" Nullable="false" />
+    <Property Name="Target File Location" Type="nvarchar(max)" />
+    <Property Name="RepoURL" Type="nvarchar(max)" />
+    <Property Name="repoBranch" Type="nvarchar" MaxLength="50" />
+    <Property Name="repoType" Type="nvarchar" MaxLength="50" />
+    <Property Name="Number of Strings (Fabric)" Type="int" />
+  </EntityType>
+  <EntityType Name="Source Control Interface">
+    <Key>
+      <PropertyRef Name="SourceControlIntKey" />
+    </Key>
+    <Property Name="SourceControlIntKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Source Control Interface" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SourceStorage">
+    <Key>
+      <PropertyRef Name="SourceStorageKey" />
+    </Key>
+    <Property Name="SourceStorageKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Source Storage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SpokenInputOutput">
+    <Key>
+      <PropertyRef Name="SpokenInputOutputKey" />
+    </Key>
+    <Property Name="SpokenInputOutputKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeatureKey" Type="int" />
+    <Property Name="LanguageKey" Type="int" />
+    <Property Name="Spoken Input" Type="bit" />
+    <Property Name="Spoken Output" Type="bit" />
+    <Property Name="Comments" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusKey" />
+    </Key>
+    <Property Name="StatusKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.stringData_BuildData' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="stringData_BuildData">
+    <Key>
+      <PropertyRef Name="ResourceIDKey" />
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="Culture" />
+    </Key>
+    <Property Name="ResourceIDKey" Type="int" Nullable="false" />
+    <Property Name="BranchID" Type="int" Nullable="false" />
+    <Property Name="Culture" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="String Value" Type="nvarchar(max)" />
+    <Property Name="Build" Type="nvarchar(max)" />
+    <Property Name="Build Date" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.stringData_LCTImportData' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="stringData_LCTImportData">
+    <Key>
+      <PropertyRef Name="ResourceIDKey" />
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="Culture" />
+      <PropertyRef Name="Locked" />
+      <PropertyRef Name="WordCount" />
+      <PropertyRef Name="oResourcesDB" />
+    </Key>
+    <Property Name="ResourceIDKey" Type="int" Nullable="false" />
+    <Property Name="BranchID" Type="int" Nullable="false" />
+    <Property Name="Translation" Type="nvarchar(max)" />
+    <Property Name="Culture" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="ResourceOrigin" Type="int" />
+    <Property Name="ResourcesUpdatedDate" Type="datetime" />
+    <Property Name="StringCategory" Type="nvarchar(max)" />
+    <Property Name="TermNote" Type="nvarchar(max)" />
+    <Property Name="LocStatus" Type="nvarchar" MaxLength="200" />
+    <Property Name="TransOrigin" Type="nvarchar" MaxLength="200" />
+    <Property Name="Instructions" Type="nvarchar(max)" />
+    <Property Name="EnglishValue" Type="nvarchar(max)" />
+    <Property Name="UsrLk" Type="bit" />
+    <Property Name="DevLk" Type="bit" />
+    <Property Name="Locked" Type="bit" Nullable="false" />
+    <Property Name="WordCount" Type="int" Nullable="false" />
+    <Property Name="oResourcesDB" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="stringData_MasterResourceList">
+    <Key>
+      <PropertyRef Name="ResourceIDkey" />
+    </Key>
+    <Property Name="ResourceIDkey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ResourceFileKey" Type="int" Nullable="false" />
+    <Property Name="Parser Identifier" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.stringData_SourceRepoData' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="stringData_SourceRepoData">
+    <Key>
+      <PropertyRef Name="ResourceIDKey" />
+      <PropertyRef Name="ResourceUpdateDate" />
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="Deleted" />
+    </Key>
+    <Property Name="ResourceIDKey" Type="int" Nullable="false" />
+    <Property Name="EnglishSourceTerm" Type="nvarchar(max)" />
+    <Property Name="ResourceUpdateDate" Type="datetime" Nullable="false" />
+    <Property Name="BranchID" Type="int" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.stringData_TargetRepoData' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="stringData_TargetRepoData">
+    <Key>
+      <PropertyRef Name="ResourceIDKey" />
+      <PropertyRef Name="ResourceUpdateDate" />
+      <PropertyRef Name="BranchID" />
+      <PropertyRef Name="Deleted" />
+      <PropertyRef Name="TargetFileKey" />
+    </Key>
+    <Property Name="ResourceIDKey" Type="int" Nullable="false" />
+    <Property Name="Target Translation" Type="nvarchar(max)" />
+    <Property Name="ResourceUpdateDate" Type="datetime" Nullable="false" />
+    <Property Name="BranchID" Type="int" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="TargetFileKey" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.suppData_EngineeringInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="suppData_EngineeringInfo">
+    <Key>
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="Ops Owner" Type="nvarchar" MaxLength="50" />
+    <Property Name="Location Owned in" Type="nvarchar" MaxLength="50" />
+    <Property Name="Core team location" Type="nvarchar" MaxLength="50" />
+    <Property Name="Source Control" Type="nvarchar" MaxLength="50" />
+    <Property Name="Source Storage" Type="nvarchar" MaxLength="50" />
+    <Property Name="File Formats" Type="nvarchar" MaxLength="255" />
+    <Property Name="Intl Build Process" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="suppData_ExtendedEOL">
+    <Key>
+      <PropertyRef Name="llCC" />
+    </Key>
+    <Property Name="llCC" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LCID" Type="int" />
+    <Property Name="Language Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Native Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Script" Type="nvarchar" MaxLength="50" />
+    <Property Name="Codepage" Type="nvarchar" MaxLength="50" />
+    <Property Name="Text Direction" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Test Passes">
+    <Key>
+      <PropertyRef Name="TestPassKey" />
+    </Key>
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="ReleaseKey" Type="int" Nullable="false" />
+    <Property Name="TestPassKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Test Pass Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Test Pass Start" Type="date" />
+    <Property Name="Test Pass End" Type="date" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TestSchedules">
+    <Key>
+      <PropertyRef Name="TestScheduleKey" />
+    </Key>
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="ReleaseKey" Type="int" Nullable="false" />
+    <Property Name="TestScheduleKey" Type="int" Nullable="false" />
+    <Property Name="TestSchedule Name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="TestSchedule Start Date" Type="datetime" />
+    <Property Name="TestSchedule End Date" Type="datetime" />
+    <Property Name="Vso Web Url" Type="nvarchar" MaxLength="1000" />
+    <Property Name="AssignedResources" Type="int" />
+    <Property Name="MilestoneCategoryKey" Type="int" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="VSO ChangedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TextInputOutput">
+    <Key>
+      <PropertyRef Name="TextInputOutputKey" />
+    </Key>
+    <Property Name="TextInputOutputKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeatureKey" Type="int" />
+    <Property Name="LanguageKey" Type="int" />
+    <Property Name="Text Input" Type="bit" />
+    <Property Name="Text Output" Type="bit" />
+    <Property Name="Comments" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="UALanguageFiles">
+    <Key>
+      <PropertyRef Name="FileKey" />
+      <PropertyRef Name="UALanguagesKey" />
+    </Key>
+    <Property Name="FileKey" Type="int" Nullable="false" />
+    <Property Name="UALanguagesKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UALanguages">
+    <Key>
+      <PropertyRef Name="UALanguagesKey" />
+    </Key>
+    <Property Name="UALanguagesKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="LanguageKey" Type="int" Nullable="false" />
+    <Property Name="Language Released" Type="bit" />
+    <Property Name="Language Blocked" Type="bit" />
+    <Property Name="Language Planned" Type="bit" />
+    <Property Name="Release Date" Type="date" />
+    <Property Name="Blocked Reason" Type="nvarchar(max)" />
+    <Property Name="QualityID" Type="int" />
+  </EntityType>
+  <EntityType Name="UAQuality">
+    <Key>
+      <PropertyRef Name="QualityID" />
+    </Key>
+    <Property Name="QualityID" Type="int" Nullable="false" />
+    <Property Name="QualityName" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="UILanguageFiles">
+    <Key>
+      <PropertyRef Name="FileKey" />
+      <PropertyRef Name="UILanguagesKey" />
+    </Key>
+    <Property Name="FileKey" Type="int" Nullable="false" />
+    <Property Name="UILanguagesKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UILanguages">
+    <Key>
+      <PropertyRef Name="UILanguagesKey" />
+    </Key>
+    <Property Name="UILanguagesKey" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductKey" Type="int" />
+    <Property Name="LanguageKey" Type="int" />
+    <Property Name="Language Released" Type="bit" />
+    <Property Name="Language Blocked" Type="bit" />
+    <Property Name="Language Planned" Type="bit" />
+    <Property Name="Release Date" Type="date" />
+    <Property Name="Blocked Reason" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="UIVacationCategory">
+    <Key>
+      <PropertyRef Name="UICategoryID" />
+    </Key>
+    <Property Name="UICategoryID" Type="int" Nullable="false" />
+    <Property Name="UIVacationCategory" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="VacationAffectedLocations">
+    <Key>
+      <PropertyRef Name="VacationID" />
+      <PropertyRef Name="LocationKey" />
+    </Key>
+    <Property Name="VacationID" Type="int" Nullable="false" />
+    <Property Name="LocationKey" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VacationAffectedProducts">
+    <Key>
+      <PropertyRef Name="VacationAffectedProductID" />
+      <PropertyRef Name="VacationID" />
+    </Key>
+    <Property Name="VacationAffectedProductID" Type="int" Nullable="false" />
+    <Property Name="VacationID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VacationInfo">
+    <Key>
+      <PropertyRef Name="VacationID" />
+    </Key>
+    <Property Name="VacationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VacationName" Type="nvarchar" MaxLength="250" />
+    <Property Name="VacationDescription" Type="nvarchar" MaxLength="500" />
+    <Property Name="VacationStartDate" Type="datetime" Nullable="false" />
+    <Property Name="VacationEndDate" Type="datetime" Nullable="false" />
+    <Property Name="UICategoryID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VSO_Products">
+    <Key>
+      <PropertyRef Name="Product Name" />
+      <PropertyRef Name="Family" />
+    </Key>
+    <Property Name="Product Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Family" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VSoWorkItems">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="VSO Title" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO Type" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="VSO ProductName" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="VSO IterationPath" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO AreaPath" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="VSO Family" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="VSO StartDate" Type="datetime" Nullable="false" />
+    <Property Name="VSO DueDate" Type="datetime" Nullable="false" />
+    <Property Name="VSO ChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="VSO Assigned To" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.vm_vsoTaskInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vm_vsoTaskInfo">
+    <Key>
+      <PropertyRef Name="Key" />
+      <PropertyRef Name="Epic_ID" />
+    </Key>
+    <Property Name="Key" Type="varchar" MaxLength="37" Nullable="false" />
+    <Property Name="Epic_ID" Type="int" Nullable="false" />
+    <Property Name="ES_ID" Type="bigint" />
+    <Property Name="ES_Title" Type="nvarchar(max)" />
+    <Property Name="ES_Tag" Type="nvarchar(max)" />
+    <Property Name="VsoItemHours_Sum" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.vw_MilestoneInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_MilestoneInfo">
+    <Key>
+      <PropertyRef Name="RowID" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="RowID" Type="int" Nullable="false" />
+    <Property Name="Product Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="Family" Type="nvarchar" MaxLength="50" />
+    <Property Name="User Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Product Description" Type="nvarchar(max)" />
+    <Property Name="Fabric Onboarding EpicLabel" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fabric Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="Loc PM Alias" Type="nvarchar" MaxLength="100" />
+    <Property Name="Core Team's Location" Type="nvarchar" MaxLength="100" />
+    <Property Name="Loc PM Location" Type="nvarchar" MaxLength="100" />
+    <Property Name="Resource File Path" Type="nvarchar(max)" />
+    <Property Name="Core Team Contacts" Type="nvarchar(max)" />
+    <Property Name="Release Title" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Release ID" Type="int" />
+    <Property Name="Release LocStartDate" Type="datetime" />
+    <Property Name="Release DueDate" Type="datetime" />
+    <Property Name="Release Assigned To" Type="nvarchar" MaxLength="200" />
+    <Property Name="Release Url" Type="nvarchar" MaxLength="2000" />
+    <Property Name="MilestoneKey" Type="int" />
+    <Property Name="Milestone Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Milestone Start Date" Type="datetime" />
+    <Property Name="Milestone End Date" Type="datetime" />
+    <Property Name="Line of Sight" Type="nchar" MaxLength="10" />
+    <Property Name="MilestoneCategoryKey" Type="int" />
+    <Property Name="Milestone Assigned To" Type="nvarchar" MaxLength="50" />
+    <Property Name="Milestone Category Name" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.vw_MilestoneTestScheduleInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_MilestoneTestScheduleInfo">
+    <Key>
+      <PropertyRef Name="RowID" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="RowID" Type="int" Nullable="false" />
+    <Property Name="Product Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="Family" Type="nvarchar" MaxLength="50" />
+    <Property Name="User Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Product Description" Type="nvarchar(max)" />
+    <Property Name="Fabric Onboarding EpicLabel" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fabric Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="Loc PM Alias" Type="nvarchar" MaxLength="100" />
+    <Property Name="Core Team's Location" Type="nvarchar" MaxLength="100" />
+    <Property Name="Loc PM Location" Type="nvarchar" MaxLength="100" />
+    <Property Name="Resource File Path" Type="nvarchar(max)" />
+    <Property Name="Core Team Contacts" Type="nvarchar(max)" />
+    <Property Name="Release Title" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Release ID" Type="int" />
+    <Property Name="Release LocStartDate" Type="datetime" />
+    <Property Name="Release DueDate" Type="datetime" />
+    <Property Name="Release Assigned To" Type="nvarchar" MaxLength="200" />
+    <Property Name="Release Url" Type="nvarchar" MaxLength="2000" />
+    <Property Name="TestScheduleKey" Type="int" />
+    <Property Name="TestSchedule Name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="TestSchedule Start Date" Type="datetime" />
+    <Property Name="TestSchedule End Date" Type="datetime" />
+    <Property Name="Vso Web Url" Type="nvarchar" MaxLength="1000" />
+    <Property Name="AssignedResources" Type="int" />
+    <Property Name="TestMilestoneCategoryKey" Type="int" />
+    <Property Name="MilestoneKey" Type="int" />
+    <Property Name="Milestone Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Milestone Start Date" Type="datetime" />
+    <Property Name="Milestone End Date" Type="datetime" />
+    <Property Name="Line of Sight" Type="nchar" MaxLength="10" />
+    <Property Name="MilestoneCategoryKey" Type="int" />
+    <Property Name="Milestone Assigned To" Type="nvarchar" MaxLength="50" />
+    <Property Name="Milestone Category Name" Type="nvarchar" MaxLength="200" />
+    <Property Name="ItemCategory" Type="varchar" MaxLength="12" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.vw_MilestoneTestScheduleInfo_ForOldSchedule' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_MilestoneTestScheduleInfo_ForOldSchedule">
+    <Key>
+      <PropertyRef Name="RowID" />
+      <PropertyRef Name="ProductKey" />
+    </Key>
+    <Property Name="RowID" Type="int" Nullable="false" />
+    <Property Name="Product Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="ProductKey" Type="int" Nullable="false" />
+    <Property Name="Product Family" Type="nvarchar" MaxLength="100" />
+    <Property Name="Location" Type="nvarchar" MaxLength="50" />
+    <Property Name="Release Title" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Release ID" Type="int" />
+    <Property Name="Release LocStartDate" Type="datetime" />
+    <Property Name="Release DueDate" Type="datetime" />
+    <Property Name="Release Assigned To" Type="nvarchar" MaxLength="200" />
+    <Property Name="Release Url" Type="nvarchar" MaxLength="2000" />
+    <Property Name="Release Tags" Type="nvarchar" MaxLength="2000" />
+    <Property Name="TestScheduleKey" Type="int" />
+    <Property Name="TestSchedule Name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="TestSchedule Start Date" Type="datetime" />
+    <Property Name="TestSchedule End Date" Type="datetime" />
+    <Property Name="Vso Web Url" Type="nvarchar" MaxLength="1000" />
+    <Property Name="AssignedResources" Type="int" />
+    <Property Name="TestMilestoneCategoryKey" Type="int" />
+    <Property Name="MilestoneKey" Type="int" />
+    <Property Name="Milestone Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Milestone Start Date" Type="datetime" />
+    <Property Name="Milestone End Date" Type="datetime" />
+    <Property Name="Line of Sight" Type="nchar" MaxLength="10" />
+    <Property Name="MilestoneCategoryKey" Type="int" />
+    <Property Name="Milestone Assigned To" Type="nvarchar" MaxLength="50" />
+    <Property Name="Milestone Category Name" Type="nvarchar" MaxLength="200" />
+    <Property Name="ItemCategory" Type="varchar" MaxLength="12" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlPlanningPortfolio.dbo.vw_OfficialMilestoneDates' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vw_OfficialMilestoneDates">
+    <Key>
+      <PropertyRef Name="ReleaseKey" />
+      <PropertyRef Name="Milestone Category Name" />
+    </Key>
+    <Property Name="ReleaseKey" Type="int" Nullable="false" />
+    <Property Name="Milestone Category Name" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Milestone Start Date" Type="datetime" />
+    <Property Name="Milestone End Date" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_Branch_Products">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="Branch" Type="Self.Branch" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="Branch">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EOL_Products">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="EOLs" Type="Self.EOLs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="EOLs">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FabricOnboarding_FabricOnboarding">
+    <End Role="FabricOnboarding" Type="Self.FabricOnboarding" Multiplicity="0..1" />
+    <End Role="FabricOnboarding1" Type="Self.FabricOnboarding" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FabricOnboarding">
+        <PropertyRef Name="OnboardingID" />
+      </Principal>
+      <Dependent Role="FabricOnboarding1">
+        <PropertyRef Name="ParentOnboardingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Features_Products_New">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="0..1" />
+    <End Role="Features" Type="Self.Features" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="Features">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryResourceFiles_ResourceFiles">
+    <End Role="ResourceFiles" Type="Self.ResourceFiles" Multiplicity="1" />
+    <End Role="HistoryResourceFiles" Type="Self.HistoryResourceFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles">
+        <PropertyRef Name="FileKey" />
+      </Principal>
+      <Dependent Role="HistoryResourceFiles">
+        <PropertyRef Name="FileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryResourceFiles_Target_ResourceFiles_Target">
+    <End Role="ResourceFiles_Target" Type="Self.ResourceFiles_Target" Multiplicity="1" />
+    <End Role="HistoryResourceFiles_Target" Type="Self.HistoryResourceFiles_Target" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles_Target">
+        <PropertyRef Name="TargetFileKey" />
+      </Principal>
+      <Dependent Role="HistoryResourceFiles_Target">
+        <PropertyRef Name="TargetFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Milestones_MilestoneCategories">
+    <End Role="MilestoneCategories" Type="Self.MilestoneCategories" Multiplicity="1" />
+    <End Role="Milestones" Type="Self.Milestones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilestoneCategories">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Principal>
+      <Dependent Role="Milestones">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Milestones_Releases">
+    <End Role="Releases" Type="Self.Releases" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Milestones" Type="Self.Milestones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Releases">
+        <PropertyRef Name="VSO ID" />
+      </Principal>
+      <Dependent Role="Milestones">
+        <PropertyRef Name="ReleaseKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_CoreTeamLocations_Location">
+    <End Role="Location" Type="Self.Location" Multiplicity="1" />
+    <End Role="multi_CoreTeamLocations" Type="Self.multi_CoreTeamLocations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="LocationKey" />
+      </Principal>
+      <Dependent Role="multi_CoreTeamLocations">
+        <PropertyRef Name="LocationKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_CoreTeamLocations_Products">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="multi_CoreTeamLocations" Type="Self.multi_CoreTeamLocations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="multi_CoreTeamLocations">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_ProductPillar_ProductPillars">
+    <End Role="ProductPillars" Type="Self.ProductPillars" Multiplicity="1" />
+    <End Role="multi_ProductPillar" Type="Self.multi_ProductPillar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductPillars">
+        <PropertyRef Name="PillarKey" />
+      </Principal>
+      <Dependent Role="multi_ProductPillar">
+        <PropertyRef Name="PillarKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_ProductPillar_Products_New">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="multi_ProductPillar" Type="Self.multi_ProductPillar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="multi_ProductPillar">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_ProductPlatform_Platform">
+    <End Role="Platform" Type="Self.Platform" Multiplicity="1" />
+    <End Role="multi_ProductPlatform" Type="Self.multi_ProductPlatform" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Platform">
+        <PropertyRef Name="PlatformKey" />
+      </Principal>
+      <Dependent Role="multi_ProductPlatform">
+        <PropertyRef Name="PlatformKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_ProductPlatform_Products_New">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="multi_ProductPlatform" Type="Self.multi_ProductPlatform" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="multi_ProductPlatform">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_ProductResourceFiles_Products">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="multi_ProductResourceFiles" Type="Self.multi_ProductResourceFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="multi_ProductResourceFiles">
+        <PropertyRef Name="Productkey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_ProductResourceFiles_ResourceFiles">
+    <End Role="ResourceFiles" Type="Self.ResourceFiles" Multiplicity="1" />
+    <End Role="multi_ProductResourceFiles" Type="Self.multi_ProductResourceFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles">
+        <PropertyRef Name="FileKey" />
+      </Principal>
+      <Dependent Role="multi_ProductResourceFiles">
+        <PropertyRef Name="FileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_releaseChannel_Products">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="multi_releaseChannel" Type="Self.multi_releaseChannel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="multi_releaseChannel">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_releaseChannel_ReleaseChannel">
+    <End Role="ReleaseChannel" Type="Self.ReleaseChannel" Multiplicity="1" />
+    <End Role="multi_releaseChannel" Type="Self.multi_releaseChannel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReleaseChannel">
+        <PropertyRef Name="ReleaseChannelKey" />
+      </Principal>
+      <Dependent Role="multi_releaseChannel">
+        <PropertyRef Name="ReleaseChannelKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_SourceControlInterface_Products">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="multi_SourceControlInterface" Type="Self.multi_SourceControlInterface" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="multi_SourceControlInterface">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_SourceControlInterface_Source Control Interface">
+    <End Role="Source Control Interface" Type="Self.Source Control Interface" Multiplicity="1" />
+    <End Role="multi_SourceControlInterface" Type="Self.multi_SourceControlInterface" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Source Control Interface">
+        <PropertyRef Name="SourceControlIntKey" />
+      </Principal>
+      <Dependent Role="multi_SourceControlInterface">
+        <PropertyRef Name="SourceInterfaceKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_SourceStorage_Products">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="multi_SourceStorage" Type="Self.multi_SourceStorage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="multi_SourceStorage">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_multi_SourceStorage_SourceStorage">
+    <End Role="SourceStorage" Type="Self.SourceStorage" Multiplicity="1" />
+    <End Role="multi_SourceStorage" Type="Self.multi_SourceStorage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SourceStorage">
+        <PropertyRef Name="SourceStorageKey" />
+      </Principal>
+      <Dependent Role="multi_SourceStorage">
+        <PropertyRef Name="SourceStorageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_BuildSystems">
+    <End Role="BuildSystems" Type="Self.BuildSystems" Multiplicity="0..1" />
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BuildSystems">
+        <PropertyRef Name="BuildSysKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="BuildSysKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_CodeReview">
+    <End Role="CodeReview" Type="Self.CodeReview" Multiplicity="0..1" />
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CodeReview">
+        <PropertyRef Name="CodeReviewKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="CodeReviewUsedKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_Location">
+    <End Role="Location" Type="Self.Location" Multiplicity="0..1" />
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="LocationKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="OwnerLocationKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_LocBuildProcess">
+    <End Role="LocBuildProcess" Type="Self.LocBuildProcess" Multiplicity="0..1" />
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocBuildProcess">
+        <PropertyRef Name="BuildProcessKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="LocBuildProcessKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_LocProcess">
+    <End Role="LocProcess" Type="Self.LocProcess" Multiplicity="0..1" />
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocProcess">
+        <PropertyRef Name="LocProcessKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="LocProcessKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_New_ProductFamilies">
+    <End Role="ProductFamilies" Type="Self.ProductFamilies" Multiplicity="0..1" />
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductFamilies">
+        <PropertyRef Name="FamilyKey" />
+      </Principal>
+      <Dependent Role="Products_New">
+        <PropertyRef Name="ProductFamilyKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Releases_Products">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="Releases" Type="Self.Releases" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="Releases">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResourceFiles_FabricTenants">
+    <End Role="FabricTenants" Type="Self.FabricTenants" Multiplicity="0..1" />
+    <End Role="ResourceFiles" Type="Self.ResourceFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FabricTenants">
+        <PropertyRef Name="TenantKey" />
+      </Principal>
+      <Dependent Role="ResourceFiles">
+        <PropertyRef Name="FabricTenantKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResourceFiles_Target_BasicLanguageList">
+    <End Role="BasicLanguageList" Type="Self.BasicLanguageList" Multiplicity="1" />
+    <End Role="ResourceFiles_Target" Type="Self.ResourceFiles_Target" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="ResourceFiles_Target">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResourceFiles_Target_ResourceFiles">
+    <End Role="ResourceFiles" Type="Self.ResourceFiles" Multiplicity="1" />
+    <End Role="ResourceFiles_Target" Type="Self.ResourceFiles_Target" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles">
+        <PropertyRef Name="FileKey" />
+      </Principal>
+      <Dependent Role="ResourceFiles_Target">
+        <PropertyRef Name="SourceFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SpokenInputOutput_BasicLanguageList">
+    <End Role="BasicLanguageList" Type="Self.BasicLanguageList" Multiplicity="0..1" />
+    <End Role="SpokenInputOutput" Type="Self.SpokenInputOutput" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="SpokenInputOutput">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SpokenInputOutput_Features">
+    <End Role="Features" Type="Self.Features" Multiplicity="0..1" />
+    <End Role="SpokenInputOutput" Type="Self.SpokenInputOutput" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Features">
+        <PropertyRef Name="FeatureKey" />
+      </Principal>
+      <Dependent Role="SpokenInputOutput">
+        <PropertyRef Name="FeatureKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_BuildData_stringData_MasterResourceList">
+    <End Role="stringData_MasterResourceList" Type="Self.stringData_MasterResourceList" Multiplicity="1" />
+    <End Role="stringData_BuildData" Type="Self.stringData_BuildData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stringData_MasterResourceList">
+        <PropertyRef Name="ResourceIDkey" />
+      </Principal>
+      <Dependent Role="stringData_BuildData">
+        <PropertyRef Name="ResourceIDKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_LCTImportData_Branch">
+    <End Role="Branch" Type="Self.Branch" Multiplicity="1" />
+    <End Role="stringData_LCTImportData" Type="Self.stringData_LCTImportData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Branch">
+        <PropertyRef Name="BranchID" />
+      </Principal>
+      <Dependent Role="stringData_LCTImportData">
+        <PropertyRef Name="BranchID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_LCTImportData_stringData_MasterResourceList">
+    <End Role="stringData_MasterResourceList" Type="Self.stringData_MasterResourceList" Multiplicity="1" />
+    <End Role="stringData_LCTImportData" Type="Self.stringData_LCTImportData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stringData_MasterResourceList">
+        <PropertyRef Name="ResourceIDkey" />
+      </Principal>
+      <Dependent Role="stringData_LCTImportData">
+        <PropertyRef Name="ResourceIDKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_SourceRepoData_stringData_MasterResourceList">
+    <End Role="stringData_MasterResourceList" Type="Self.stringData_MasterResourceList" Multiplicity="1" />
+    <End Role="stringData_SourceRepoData" Type="Self.stringData_SourceRepoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stringData_MasterResourceList">
+        <PropertyRef Name="ResourceIDkey" />
+      </Principal>
+      <Dependent Role="stringData_SourceRepoData">
+        <PropertyRef Name="ResourceIDKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_TargetRepoData_ResourceFiles_Target">
+    <End Role="ResourceFiles_Target" Type="Self.ResourceFiles_Target" Multiplicity="1" />
+    <End Role="stringData_TargetRepoData" Type="Self.stringData_TargetRepoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles_Target">
+        <PropertyRef Name="TargetFileKey" />
+      </Principal>
+      <Dependent Role="stringData_TargetRepoData">
+        <PropertyRef Name="TargetFileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stringData_TargetRepoData_stringData_MasterResourceList">
+    <End Role="stringData_MasterResourceList" Type="Self.stringData_MasterResourceList" Multiplicity="1" />
+    <End Role="stringData_TargetRepoData" Type="Self.stringData_TargetRepoData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="stringData_MasterResourceList">
+        <PropertyRef Name="ResourceIDkey" />
+      </Principal>
+      <Dependent Role="stringData_TargetRepoData">
+        <PropertyRef Name="ResourceIDKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestSchedule_Releases">
+    <End Role="Releases" Type="Self.Releases" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TestSchedules" Type="Self.TestSchedules" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Releases">
+        <PropertyRef Name="VSO ID" />
+      </Principal>
+      <Dependent Role="TestSchedules">
+        <PropertyRef Name="ReleaseKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestSchedules_MilestoneCategories">
+    <End Role="MilestoneCategories" Type="Self.MilestoneCategories" Multiplicity="0..1" />
+    <End Role="TestSchedules" Type="Self.TestSchedules" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MilestoneCategories">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Principal>
+      <Dependent Role="TestSchedules">
+        <PropertyRef Name="MilestoneCategoryKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TextInputOutput_BasicLanguageList">
+    <End Role="BasicLanguageList" Type="Self.BasicLanguageList" Multiplicity="0..1" />
+    <End Role="TextInputOutput" Type="Self.TextInputOutput" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="TextInputOutput">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TextInputOutput_Features">
+    <End Role="Features" Type="Self.Features" Multiplicity="0..1" />
+    <End Role="TextInputOutput" Type="Self.TextInputOutput" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Features">
+        <PropertyRef Name="FeatureKey" />
+      </Principal>
+      <Dependent Role="TextInputOutput">
+        <PropertyRef Name="FeatureKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UALanguageFiles_ResourceFiles">
+    <End Role="ResourceFiles" Type="Self.ResourceFiles" Multiplicity="1" />
+    <End Role="UALanguageFiles" Type="Self.UALanguageFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles">
+        <PropertyRef Name="FileKey" />
+      </Principal>
+      <Dependent Role="UALanguageFiles">
+        <PropertyRef Name="FileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UALanguageFiles_UALanguages">
+    <End Role="UALanguages" Type="Self.UALanguages" Multiplicity="1" />
+    <End Role="UALanguageFiles" Type="Self.UALanguageFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UALanguages">
+        <PropertyRef Name="UALanguagesKey" />
+      </Principal>
+      <Dependent Role="UALanguageFiles">
+        <PropertyRef Name="UALanguagesKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UALanguages_BasicLanguageList">
+    <End Role="BasicLanguageList" Type="Self.BasicLanguageList" Multiplicity="1" />
+    <End Role="UALanguages" Type="Self.UALanguages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="UALanguages">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UALanguages_Products_New">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="UALanguages" Type="Self.UALanguages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="UALanguages">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UALanguages_UAQuality">
+    <End Role="UAQuality" Type="Self.UAQuality" Multiplicity="0..1" />
+    <End Role="UALanguages" Type="Self.UALanguages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UAQuality">
+        <PropertyRef Name="QualityID" />
+      </Principal>
+      <Dependent Role="UALanguages">
+        <PropertyRef Name="QualityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UILanguageFiles_ResourceFiles">
+    <End Role="ResourceFiles" Type="Self.ResourceFiles" Multiplicity="1" />
+    <End Role="UILanguageFiles" Type="Self.UILanguageFiles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResourceFiles">
+        <PropertyRef Name="FileKey" />
+      </Principal>
+      <Dependent Role="UILanguageFiles">
+        <PropertyRef Name="FileKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UILanguages_BasicLanguageList">
+    <End Role="BasicLanguageList" Type="Self.BasicLanguageList" Multiplicity="0..1" />
+    <End Role="UILanguages" Type="Self.UILanguages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BasicLanguageList">
+        <PropertyRef Name="LanguageKey" />
+      </Principal>
+      <Dependent Role="UILanguages">
+        <PropertyRef Name="LanguageKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UILanguages_Products_New">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="0..1" />
+    <End Role="UILanguages" Type="Self.UILanguages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="UILanguages">
+        <PropertyRef Name="ProductKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VacationAffectedLocations_Location">
+    <End Role="Location" Type="Self.Location" Multiplicity="1" />
+    <End Role="VacationAffectedLocations" Type="Self.VacationAffectedLocations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="LocationKey" />
+      </Principal>
+      <Dependent Role="VacationAffectedLocations">
+        <PropertyRef Name="LocationKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VacationAffectedLocations_VacationInfo">
+    <End Role="VacationInfo" Type="Self.VacationInfo" Multiplicity="1" />
+    <End Role="VacationAffectedLocations" Type="Self.VacationAffectedLocations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VacationInfo">
+        <PropertyRef Name="VacationID" />
+      </Principal>
+      <Dependent Role="VacationAffectedLocations">
+        <PropertyRef Name="VacationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VacationAffectedProducts_Products_New">
+    <End Role="Products_New" Type="Self.Products_New" Multiplicity="1" />
+    <End Role="VacationAffectedProducts" Type="Self.VacationAffectedProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products_New">
+        <PropertyRef Name="ProductKey" />
+      </Principal>
+      <Dependent Role="VacationAffectedProducts">
+        <PropertyRef Name="VacationAffectedProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VacationAffectedProducts_VacationInfo">
+    <End Role="VacationInfo" Type="Self.VacationInfo" Multiplicity="1" />
+    <End Role="VacationAffectedProducts" Type="Self.VacationAffectedProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VacationInfo">
+        <PropertyRef Name="VacationID" />
+      </Principal>
+      <Dependent Role="VacationAffectedProducts">
+        <PropertyRef Name="VacationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VacationInfo_UIVacationCategory">
+    <End Role="UIVacationCategory" Type="Self.UIVacationCategory" Multiplicity="1" />
+    <End Role="VacationInfo" Type="Self.VacationInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UIVacationCategory">
+        <PropertyRef Name="UICategoryID" />
+      </Principal>
+      <Dependent Role="VacationInfo">
+        <PropertyRef Name="UICategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="GetFeatureOfProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="productKey" Type="int" Mode="In" />
+    <Parameter Name="startRow" Type="int" Mode="In" />
+    <Parameter Name="endRow" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetMilestoneOfRelease" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="releaseKey" Type="int" Mode="In" />
+    <Parameter Name="startRow" Type="int" Mode="In" />
+    <Parameter Name="endRow" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetReleaseOfProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="productKey" Type="int" Mode="In" />
+    <Parameter Name="startRow" Type="int" Mode="In" />
+    <Parameter Name="endRow" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetSpokenInputOutputOfProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="featureKey" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetTestPlanOfRelease" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="releaseKey" Type="int" Mode="In" />
+    <Parameter Name="startRow" Type="int" Mode="In" />
+    <Parameter Name="endRow" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetTextInputOutputOfProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="featureKey" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetTotalFeatureOfProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="productKey" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetTotalNumOfUILanguageFileOfProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="productKey" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetUILanguageFileOfProductByPage" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="productKey" Type="int" Mode="In" />
+    <Parameter Name="startRow" Type="int" Mode="In" />
+    <Parameter Name="endRow" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetUILanguageOfProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="productKey" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetUILanguageOfProductByFileKey" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="fileKey" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="SkypeIntlPlanningPortfolioModelStoreContainer">
+    <EntitySet Name="BasicLanguageList" EntityType="Self.BasicLanguageList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Branch" EntityType="Self.Branch" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BuildRequest" EntityType="Self.BuildRequest" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BuildSystems" EntityType="Self.BuildSystems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CodeReview" EntityType="Self.CodeReview" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EOLs" EntityType="Self.EOLs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FabricOnboarding" EntityType="Self.FabricOnboarding" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FabricTenants" EntityType="Self.FabricTenants" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Features" EntityType="Self.Features" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GitProjectDocumentation" EntityType="Self.GitProjectDocumentation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistoryResourceFiles" EntityType="Self.HistoryResourceFiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistoryResourceFiles_Target" EntityType="Self.HistoryResourceFiles_Target" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LanguageSettings" EntityType="Self.LanguageSettings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Location" EntityType="Self.Location" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LocBuildProcess" EntityType="Self.LocBuildProcess" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LocProcess" EntityType="Self.LocProcess" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MilestoneCategories" EntityType="Self.MilestoneCategories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Milestones" EntityType="Self.Milestones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="multi_CoreTeamLocations" EntityType="Self.multi_CoreTeamLocations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="multi_ProductPillar" EntityType="Self.multi_ProductPillar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="multi_ProductPlatform" EntityType="Self.multi_ProductPlatform" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="multi_ProductResourceFiles" EntityType="Self.multi_ProductResourceFiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="multi_releaseChannel" EntityType="Self.multi_releaseChannel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="multi_SourceControlInterface" EntityType="Self.multi_SourceControlInterface" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="multi_SourceStorage" EntityType="Self.multi_SourceStorage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Platform" EntityType="Self.Platform" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductContent" EntityType="Self.ProductContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductFamilies" EntityType="Self.ProductFamilies" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductPillars" EntityType="Self.ProductPillars" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products_New" EntityType="Self.Products_New" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductThreads" EntityType="Self.ProductThreads" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductVoice" EntityType="Self.ProductVoice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReleaseCadence" EntityType="Self.ReleaseCadence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ReleaseChannel" EntityType="Self.ReleaseChannel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Releases" EntityType="Self.Releases" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ResourceFiles" EntityType="Self.ResourceFiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ResourceFiles_Target" EntityType="Self.ResourceFiles_Target" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Source Control Interface" EntityType="Self.Source Control Interface" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SourceStorage" EntityType="Self.SourceStorage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SpokenInputOutput" EntityType="Self.SpokenInputOutput" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="stringData_MasterResourceList" EntityType="Self.stringData_MasterResourceList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="suppData_ExtendedEOL" EntityType="Self.suppData_ExtendedEOL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Test Passes" EntityType="Self.Test Passes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TestSchedules" EntityType="Self.TestSchedules" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TextInputOutput" EntityType="Self.TextInputOutput" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UALanguageFiles" EntityType="Self.UALanguageFiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UALanguages" EntityType="Self.UALanguages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UAQuality" EntityType="Self.UAQuality" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UILanguageFiles" EntityType="Self.UILanguageFiles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UILanguages" EntityType="Self.UILanguages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UIVacationCategory" EntityType="Self.UIVacationCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VacationAffectedLocations" EntityType="Self.VacationAffectedLocations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VacationAffectedProducts" EntityType="Self.VacationAffectedProducts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VacationInfo" EntityType="Self.VacationInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VSO_Products" EntityType="Self.VSO_Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VSoWorkItems" EntityType="Self.VSoWorkItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="multi_ProductPlatform_Backup" EntityType="Self.multi_ProductPlatform_Backup" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [multi_ProductPlatform_Backup].[PlatformKey] AS [PlatformKey], 
+    [multi_ProductPlatform_Backup].[ProductKey] AS [ProductKey]
+    FROM [dbo].[multi_ProductPlatform_Backup] AS [multi_ProductPlatform_Backup]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="stringData_BuildData" EntityType="Self.stringData_BuildData" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [stringData_BuildData].[ResourceIDKey] AS [ResourceIDKey], 
+    [stringData_BuildData].[BranchID] AS [BranchID], 
+    [stringData_BuildData].[Culture] AS [Culture], 
+    [stringData_BuildData].[String Value] AS [String Value], 
+    [stringData_BuildData].[Build] AS [Build], 
+    [stringData_BuildData].[Build Date] AS [Build Date]
+    FROM [dbo].[stringData_BuildData] AS [stringData_BuildData]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="stringData_LCTImportData" EntityType="Self.stringData_LCTImportData" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [stringData_LCTImportData].[ResourceIDKey] AS [ResourceIDKey], 
+    [stringData_LCTImportData].[BranchID] AS [BranchID], 
+    [stringData_LCTImportData].[Translation] AS [Translation], 
+    [stringData_LCTImportData].[Culture] AS [Culture], 
+    [stringData_LCTImportData].[ResourceOrigin] AS [ResourceOrigin], 
+    [stringData_LCTImportData].[ResourcesUpdatedDate] AS [ResourcesUpdatedDate], 
+    [stringData_LCTImportData].[StringCategory] AS [StringCategory], 
+    [stringData_LCTImportData].[TermNote] AS [TermNote], 
+    [stringData_LCTImportData].[LocStatus] AS [LocStatus], 
+    [stringData_LCTImportData].[TransOrigin] AS [TransOrigin], 
+    [stringData_LCTImportData].[Instructions] AS [Instructions], 
+    [stringData_LCTImportData].[EnglishValue] AS [EnglishValue], 
+    [stringData_LCTImportData].[UsrLk] AS [UsrLk], 
+    [stringData_LCTImportData].[DevLk] AS [DevLk], 
+    [stringData_LCTImportData].[Locked] AS [Locked], 
+    [stringData_LCTImportData].[WordCount] AS [WordCount], 
+    [stringData_LCTImportData].[oResourcesDB] AS [oResourcesDB]
+    FROM [dbo].[stringData_LCTImportData] AS [stringData_LCTImportData]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="stringData_SourceRepoData" EntityType="Self.stringData_SourceRepoData" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [stringData_SourceRepoData].[ResourceIDKey] AS [ResourceIDKey], 
+    [stringData_SourceRepoData].[EnglishSourceTerm] AS [EnglishSourceTerm], 
+    [stringData_SourceRepoData].[ResourceUpdateDate] AS [ResourceUpdateDate], 
+    [stringData_SourceRepoData].[BranchID] AS [BranchID], 
+    [stringData_SourceRepoData].[Deleted] AS [Deleted]
+    FROM [dbo].[stringData_SourceRepoData] AS [stringData_SourceRepoData]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="stringData_TargetRepoData" EntityType="Self.stringData_TargetRepoData" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [stringData_TargetRepoData].[ResourceIDKey] AS [ResourceIDKey], 
+    [stringData_TargetRepoData].[Target Translation] AS [Target Translation], 
+    [stringData_TargetRepoData].[ResourceUpdateDate] AS [ResourceUpdateDate], 
+    [stringData_TargetRepoData].[BranchID] AS [BranchID], 
+    [stringData_TargetRepoData].[Deleted] AS [Deleted], 
+    [stringData_TargetRepoData].[TargetFileKey] AS [TargetFileKey]
+    FROM [dbo].[stringData_TargetRepoData] AS [stringData_TargetRepoData]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="suppData_EngineeringInfo" EntityType="Self.suppData_EngineeringInfo" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [suppData_EngineeringInfo].[Ops Owner] AS [Ops Owner], 
+    [suppData_EngineeringInfo].[Location Owned in] AS [Location Owned in], 
+    [suppData_EngineeringInfo].[Core team location] AS [Core team location], 
+    [suppData_EngineeringInfo].[Source Control] AS [Source Control], 
+    [suppData_EngineeringInfo].[Source Storage] AS [Source Storage], 
+    [suppData_EngineeringInfo].[File Formats] AS [File Formats], 
+    [suppData_EngineeringInfo].[Intl Build Process] AS [Intl Build Process], 
+    [suppData_EngineeringInfo].[ProductKey] AS [ProductKey]
+    FROM [dbo].[suppData_EngineeringInfo] AS [suppData_EngineeringInfo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vm_vsoTaskInfo" EntityType="Self.vm_vsoTaskInfo" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vm_vsoTaskInfo].[Key] AS [Key], 
+    [vm_vsoTaskInfo].[Epic_ID] AS [Epic_ID], 
+    [vm_vsoTaskInfo].[ES_ID] AS [ES_ID], 
+    [vm_vsoTaskInfo].[ES_Title] AS [ES_Title], 
+    [vm_vsoTaskInfo].[ES_Tag] AS [ES_Tag], 
+    [vm_vsoTaskInfo].[VsoItemHours_Sum] AS [VsoItemHours_Sum]
+    FROM [dbo].[vm_vsoTaskInfo] AS [vm_vsoTaskInfo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_MilestoneInfo" EntityType="Self.vw_MilestoneInfo" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_MilestoneInfo].[RowID] AS [RowID], 
+    [vw_MilestoneInfo].[Product Name] AS [Product Name], 
+    [vw_MilestoneInfo].[ProductKey] AS [ProductKey], 
+    [vw_MilestoneInfo].[Family] AS [Family], 
+    [vw_MilestoneInfo].[User Type] AS [User Type], 
+    [vw_MilestoneInfo].[Product Description] AS [Product Description], 
+    [vw_MilestoneInfo].[Fabric Onboarding EpicLabel] AS [Fabric Onboarding EpicLabel], 
+    [vw_MilestoneInfo].[Fabric Status] AS [Fabric Status], 
+    [vw_MilestoneInfo].[Loc PM Alias] AS [Loc PM Alias], 
+    [vw_MilestoneInfo].[Core Team's Location] AS [Core Team's Location], 
+    [vw_MilestoneInfo].[Loc PM Location] AS [Loc PM Location], 
+    [vw_MilestoneInfo].[Resource File Path] AS [Resource File Path], 
+    [vw_MilestoneInfo].[Core Team Contacts] AS [Core Team Contacts], 
+    [vw_MilestoneInfo].[Release Title] AS [Release Title], 
+    [vw_MilestoneInfo].[Release ID] AS [Release ID], 
+    [vw_MilestoneInfo].[Release LocStartDate] AS [Release LocStartDate], 
+    [vw_MilestoneInfo].[Release DueDate] AS [Release DueDate], 
+    [vw_MilestoneInfo].[Release Assigned To] AS [Release Assigned To], 
+    [vw_MilestoneInfo].[Release Url] AS [Release Url], 
+    [vw_MilestoneInfo].[MilestoneKey] AS [MilestoneKey], 
+    [vw_MilestoneInfo].[Milestone Name] AS [Milestone Name], 
+    [vw_MilestoneInfo].[Milestone Start Date] AS [Milestone Start Date], 
+    [vw_MilestoneInfo].[Milestone End Date] AS [Milestone End Date], 
+    [vw_MilestoneInfo].[Line of Sight] AS [Line of Sight], 
+    [vw_MilestoneInfo].[MilestoneCategoryKey] AS [MilestoneCategoryKey], 
+    [vw_MilestoneInfo].[Milestone Assigned To] AS [Milestone Assigned To], 
+    [vw_MilestoneInfo].[Milestone Category Name] AS [Milestone Category Name]
+    FROM [dbo].[vw_MilestoneInfo] AS [vw_MilestoneInfo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_MilestoneTestScheduleInfo" EntityType="Self.vw_MilestoneTestScheduleInfo" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_MilestoneTestScheduleInfo].[RowID] AS [RowID], 
+    [vw_MilestoneTestScheduleInfo].[Product Name] AS [Product Name], 
+    [vw_MilestoneTestScheduleInfo].[ProductKey] AS [ProductKey], 
+    [vw_MilestoneTestScheduleInfo].[Family] AS [Family], 
+    [vw_MilestoneTestScheduleInfo].[User Type] AS [User Type], 
+    [vw_MilestoneTestScheduleInfo].[Product Description] AS [Product Description], 
+    [vw_MilestoneTestScheduleInfo].[Fabric Onboarding EpicLabel] AS [Fabric Onboarding EpicLabel], 
+    [vw_MilestoneTestScheduleInfo].[Fabric Status] AS [Fabric Status], 
+    [vw_MilestoneTestScheduleInfo].[Loc PM Alias] AS [Loc PM Alias], 
+    [vw_MilestoneTestScheduleInfo].[Core Team's Location] AS [Core Team's Location], 
+    [vw_MilestoneTestScheduleInfo].[Loc PM Location] AS [Loc PM Location], 
+    [vw_MilestoneTestScheduleInfo].[Resource File Path] AS [Resource File Path], 
+    [vw_MilestoneTestScheduleInfo].[Core Team Contacts] AS [Core Team Contacts], 
+    [vw_MilestoneTestScheduleInfo].[Release Title] AS [Release Title], 
+    [vw_MilestoneTestScheduleInfo].[Release ID] AS [Release ID], 
+    [vw_MilestoneTestScheduleInfo].[Release LocStartDate] AS [Release LocStartDate], 
+    [vw_MilestoneTestScheduleInfo].[Release DueDate] AS [Release DueDate], 
+    [vw_MilestoneTestScheduleInfo].[Release Assigned To] AS [Release Assigned To], 
+    [vw_MilestoneTestScheduleInfo].[Release Url] AS [Release Url], 
+    [vw_MilestoneTestScheduleInfo].[TestScheduleKey] AS [TestScheduleKey], 
+    [vw_MilestoneTestScheduleInfo].[TestSchedule Name] AS [TestSchedule Name], 
+    [vw_MilestoneTestScheduleInfo].[TestSchedule Start Date] AS [TestSchedule Start Date], 
+    [vw_MilestoneTestScheduleInfo].[TestSchedule End Date] AS [TestSchedule End Date], 
+    [vw_MilestoneTestScheduleInfo].[Vso Web Url] AS [Vso Web Url], 
+    [vw_MilestoneTestScheduleInfo].[AssignedResources] AS [AssignedResources], 
+    [vw_MilestoneTestScheduleInfo].[TestMilestoneCategoryKey] AS [TestMilestoneCategoryKey], 
+    [vw_MilestoneTestScheduleInfo].[MilestoneKey] AS [MilestoneKey], 
+    [vw_MilestoneTestScheduleInfo].[Milestone Name] AS [Milestone Name], 
+    [vw_MilestoneTestScheduleInfo].[Milestone Start Date] AS [Milestone Start Date], 
+    [vw_MilestoneTestScheduleInfo].[Milestone End Date] AS [Milestone End Date], 
+    [vw_MilestoneTestScheduleInfo].[Line of Sight] AS [Line of Sight], 
+    [vw_MilestoneTestScheduleInfo].[MilestoneCategoryKey] AS [MilestoneCategoryKey], 
+    [vw_MilestoneTestScheduleInfo].[Milestone Assigned To] AS [Milestone Assigned To], 
+    [vw_MilestoneTestScheduleInfo].[Milestone Category Name] AS [Milestone Category Name], 
+    [vw_MilestoneTestScheduleInfo].[ItemCategory] AS [ItemCategory]
+    FROM [dbo].[vw_MilestoneTestScheduleInfo] AS [vw_MilestoneTestScheduleInfo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_MilestoneTestScheduleInfo_ForOldSchedule" EntityType="Self.vw_MilestoneTestScheduleInfo_ForOldSchedule" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[RowID] AS [RowID], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Product Name] AS [Product Name], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[ProductKey] AS [ProductKey], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Product Family] AS [Product Family], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Location] AS [Location], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Release Title] AS [Release Title], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Release ID] AS [Release ID], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Release LocStartDate] AS [Release LocStartDate], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Release DueDate] AS [Release DueDate], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Release Assigned To] AS [Release Assigned To], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Release Url] AS [Release Url], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Release Tags] AS [Release Tags], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[TestScheduleKey] AS [TestScheduleKey], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[TestSchedule Name] AS [TestSchedule Name], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[TestSchedule Start Date] AS [TestSchedule Start Date], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[TestSchedule End Date] AS [TestSchedule End Date], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Vso Web Url] AS [Vso Web Url], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[AssignedResources] AS [AssignedResources], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[TestMilestoneCategoryKey] AS [TestMilestoneCategoryKey], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[MilestoneKey] AS [MilestoneKey], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Milestone Name] AS [Milestone Name], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Milestone Start Date] AS [Milestone Start Date], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Milestone End Date] AS [Milestone End Date], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Line of Sight] AS [Line of Sight], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[MilestoneCategoryKey] AS [MilestoneCategoryKey], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Milestone Assigned To] AS [Milestone Assigned To], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[Milestone Category Name] AS [Milestone Category Name], 
+    [vw_MilestoneTestScheduleInfo_ForOldSchedule].[ItemCategory] AS [ItemCategory]
+    FROM [dbo].[vw_MilestoneTestScheduleInfo_ForOldSchedule] AS [vw_MilestoneTestScheduleInfo_ForOldSchedule]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vw_OfficialMilestoneDates" EntityType="Self.vw_OfficialMilestoneDates" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_OfficialMilestoneDates].[ReleaseKey] AS [ReleaseKey], 
+    [vw_OfficialMilestoneDates].[Milestone Category Name] AS [Milestone Category Name], 
+    [vw_OfficialMilestoneDates].[Milestone Start Date] AS [Milestone Start Date], 
+    [vw_OfficialMilestoneDates].[Milestone End Date] AS [Milestone End Date]
+    FROM [dbo].[vw_OfficialMilestoneDates] AS [vw_OfficialMilestoneDates]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Branch_Products" Association="Self.FK_Branch_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="Branch" EntitySet="Branch" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EOL_Products" Association="Self.FK_EOL_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="EOLs" EntitySet="EOLs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FabricOnboarding_FabricOnboarding" Association="Self.FK_FabricOnboarding_FabricOnboarding">
+      <End Role="FabricOnboarding" EntitySet="FabricOnboarding" />
+      <End Role="FabricOnboarding1" EntitySet="FabricOnboarding" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Features_Products_New" Association="Self.FK_Features_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="Features" EntitySet="Features" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryResourceFiles_ResourceFiles" Association="Self.FK_HistoryResourceFiles_ResourceFiles">
+      <End Role="ResourceFiles" EntitySet="ResourceFiles" />
+      <End Role="HistoryResourceFiles" EntitySet="HistoryResourceFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryResourceFiles_Target_ResourceFiles_Target" Association="Self.FK_HistoryResourceFiles_Target_ResourceFiles_Target">
+      <End Role="ResourceFiles_Target" EntitySet="ResourceFiles_Target" />
+      <End Role="HistoryResourceFiles_Target" EntitySet="HistoryResourceFiles_Target" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Milestones_MilestoneCategories" Association="Self.FK_Milestones_MilestoneCategories">
+      <End Role="MilestoneCategories" EntitySet="MilestoneCategories" />
+      <End Role="Milestones" EntitySet="Milestones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Milestones_Releases" Association="Self.FK_Milestones_Releases">
+      <End Role="Releases" EntitySet="Releases" />
+      <End Role="Milestones" EntitySet="Milestones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_CoreTeamLocations_Location" Association="Self.FK_multi_CoreTeamLocations_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="multi_CoreTeamLocations" EntitySet="multi_CoreTeamLocations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_CoreTeamLocations_Products" Association="Self.FK_multi_CoreTeamLocations_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="multi_CoreTeamLocations" EntitySet="multi_CoreTeamLocations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_ProductPillar_ProductPillars" Association="Self.FK_multi_ProductPillar_ProductPillars">
+      <End Role="ProductPillars" EntitySet="ProductPillars" />
+      <End Role="multi_ProductPillar" EntitySet="multi_ProductPillar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_ProductPillar_Products_New" Association="Self.FK_multi_ProductPillar_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="multi_ProductPillar" EntitySet="multi_ProductPillar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_ProductPlatform_Platform" Association="Self.FK_multi_ProductPlatform_Platform">
+      <End Role="Platform" EntitySet="Platform" />
+      <End Role="multi_ProductPlatform" EntitySet="multi_ProductPlatform" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_ProductPlatform_Products_New" Association="Self.FK_multi_ProductPlatform_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="multi_ProductPlatform" EntitySet="multi_ProductPlatform" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_ProductResourceFiles_Products" Association="Self.FK_multi_ProductResourceFiles_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="multi_ProductResourceFiles" EntitySet="multi_ProductResourceFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_ProductResourceFiles_ResourceFiles" Association="Self.FK_multi_ProductResourceFiles_ResourceFiles">
+      <End Role="ResourceFiles" EntitySet="ResourceFiles" />
+      <End Role="multi_ProductResourceFiles" EntitySet="multi_ProductResourceFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_releaseChannel_Products" Association="Self.FK_multi_releaseChannel_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="multi_releaseChannel" EntitySet="multi_releaseChannel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_releaseChannel_ReleaseChannel" Association="Self.FK_multi_releaseChannel_ReleaseChannel">
+      <End Role="ReleaseChannel" EntitySet="ReleaseChannel" />
+      <End Role="multi_releaseChannel" EntitySet="multi_releaseChannel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_SourceControlInterface_Products" Association="Self.FK_multi_SourceControlInterface_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="multi_SourceControlInterface" EntitySet="multi_SourceControlInterface" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_SourceControlInterface_Source Control Interface" Association="Self.FK_multi_SourceControlInterface_Source Control Interface">
+      <End Role="Source Control Interface" EntitySet="Source Control Interface" />
+      <End Role="multi_SourceControlInterface" EntitySet="multi_SourceControlInterface" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_SourceStorage_Products" Association="Self.FK_multi_SourceStorage_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="multi_SourceStorage" EntitySet="multi_SourceStorage" />
+    </AssociationSet>
+    <AssociationSet Name="FK_multi_SourceStorage_SourceStorage" Association="Self.FK_multi_SourceStorage_SourceStorage">
+      <End Role="SourceStorage" EntitySet="SourceStorage" />
+      <End Role="multi_SourceStorage" EntitySet="multi_SourceStorage" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_BuildSystems" Association="Self.FK_Products_New_BuildSystems">
+      <End Role="BuildSystems" EntitySet="BuildSystems" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_CodeReview" Association="Self.FK_Products_New_CodeReview">
+      <End Role="CodeReview" EntitySet="CodeReview" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_Location" Association="Self.FK_Products_New_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_LocBuildProcess" Association="Self.FK_Products_New_LocBuildProcess">
+      <End Role="LocBuildProcess" EntitySet="LocBuildProcess" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_LocProcess" Association="Self.FK_Products_New_LocProcess">
+      <End Role="LocProcess" EntitySet="LocProcess" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_New_ProductFamilies" Association="Self.FK_Products_New_ProductFamilies">
+      <End Role="ProductFamilies" EntitySet="ProductFamilies" />
+      <End Role="Products_New" EntitySet="Products_New" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Releases_Products" Association="Self.FK_Releases_Products">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="Releases" EntitySet="Releases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResourceFiles_FabricTenants" Association="Self.FK_ResourceFiles_FabricTenants">
+      <End Role="FabricTenants" EntitySet="FabricTenants" />
+      <End Role="ResourceFiles" EntitySet="ResourceFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResourceFiles_Target_BasicLanguageList" Association="Self.FK_ResourceFiles_Target_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageList" />
+      <End Role="ResourceFiles_Target" EntitySet="ResourceFiles_Target" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResourceFiles_Target_ResourceFiles" Association="Self.FK_ResourceFiles_Target_ResourceFiles">
+      <End Role="ResourceFiles" EntitySet="ResourceFiles" />
+      <End Role="ResourceFiles_Target" EntitySet="ResourceFiles_Target" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SpokenInputOutput_BasicLanguageList" Association="Self.FK_SpokenInputOutput_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageList" />
+      <End Role="SpokenInputOutput" EntitySet="SpokenInputOutput" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SpokenInputOutput_Features" Association="Self.FK_SpokenInputOutput_Features">
+      <End Role="Features" EntitySet="Features" />
+      <End Role="SpokenInputOutput" EntitySet="SpokenInputOutput" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_BuildData_stringData_MasterResourceList" Association="Self.FK_stringData_BuildData_stringData_MasterResourceList">
+      <End Role="stringData_MasterResourceList" EntitySet="stringData_MasterResourceList" />
+      <End Role="stringData_BuildData" EntitySet="stringData_BuildData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_LCTImportData_Branch" Association="Self.FK_stringData_LCTImportData_Branch">
+      <End Role="Branch" EntitySet="Branch" />
+      <End Role="stringData_LCTImportData" EntitySet="stringData_LCTImportData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_LCTImportData_stringData_MasterResourceList" Association="Self.FK_stringData_LCTImportData_stringData_MasterResourceList">
+      <End Role="stringData_MasterResourceList" EntitySet="stringData_MasterResourceList" />
+      <End Role="stringData_LCTImportData" EntitySet="stringData_LCTImportData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_SourceRepoData_stringData_MasterResourceList" Association="Self.FK_stringData_SourceRepoData_stringData_MasterResourceList">
+      <End Role="stringData_MasterResourceList" EntitySet="stringData_MasterResourceList" />
+      <End Role="stringData_SourceRepoData" EntitySet="stringData_SourceRepoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_TargetRepoData_ResourceFiles_Target" Association="Self.FK_stringData_TargetRepoData_ResourceFiles_Target">
+      <End Role="ResourceFiles_Target" EntitySet="ResourceFiles_Target" />
+      <End Role="stringData_TargetRepoData" EntitySet="stringData_TargetRepoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stringData_TargetRepoData_stringData_MasterResourceList" Association="Self.FK_stringData_TargetRepoData_stringData_MasterResourceList">
+      <End Role="stringData_MasterResourceList" EntitySet="stringData_MasterResourceList" />
+      <End Role="stringData_TargetRepoData" EntitySet="stringData_TargetRepoData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestSchedule_Releases" Association="Self.FK_TestSchedule_Releases">
+      <End Role="Releases" EntitySet="Releases" />
+      <End Role="TestSchedules" EntitySet="TestSchedules" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestSchedules_MilestoneCategories" Association="Self.FK_TestSchedules_MilestoneCategories">
+      <End Role="MilestoneCategories" EntitySet="MilestoneCategories" />
+      <End Role="TestSchedules" EntitySet="TestSchedules" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TextInputOutput_BasicLanguageList" Association="Self.FK_TextInputOutput_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageList" />
+      <End Role="TextInputOutput" EntitySet="TextInputOutput" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TextInputOutput_Features" Association="Self.FK_TextInputOutput_Features">
+      <End Role="Features" EntitySet="Features" />
+      <End Role="TextInputOutput" EntitySet="TextInputOutput" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UALanguageFiles_ResourceFiles" Association="Self.FK_UALanguageFiles_ResourceFiles">
+      <End Role="ResourceFiles" EntitySet="ResourceFiles" />
+      <End Role="UALanguageFiles" EntitySet="UALanguageFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UALanguageFiles_UALanguages" Association="Self.FK_UALanguageFiles_UALanguages">
+      <End Role="UALanguages" EntitySet="UALanguages" />
+      <End Role="UALanguageFiles" EntitySet="UALanguageFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UALanguages_BasicLanguageList" Association="Self.FK_UALanguages_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageList" />
+      <End Role="UALanguages" EntitySet="UALanguages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UALanguages_Products_New" Association="Self.FK_UALanguages_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="UALanguages" EntitySet="UALanguages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UALanguages_UAQuality" Association="Self.FK_UALanguages_UAQuality">
+      <End Role="UAQuality" EntitySet="UAQuality" />
+      <End Role="UALanguages" EntitySet="UALanguages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UILanguageFiles_ResourceFiles" Association="Self.FK_UILanguageFiles_ResourceFiles">
+      <End Role="ResourceFiles" EntitySet="ResourceFiles" />
+      <End Role="UILanguageFiles" EntitySet="UILanguageFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UILanguages_BasicLanguageList" Association="Self.FK_UILanguages_BasicLanguageList">
+      <End Role="BasicLanguageList" EntitySet="BasicLanguageList" />
+      <End Role="UILanguages" EntitySet="UILanguages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UILanguages_Products_New" Association="Self.FK_UILanguages_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="UILanguages" EntitySet="UILanguages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VacationAffectedLocations_Location" Association="Self.FK_VacationAffectedLocations_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="VacationAffectedLocations" EntitySet="VacationAffectedLocations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VacationAffectedLocations_VacationInfo" Association="Self.FK_VacationAffectedLocations_VacationInfo">
+      <End Role="VacationInfo" EntitySet="VacationInfo" />
+      <End Role="VacationAffectedLocations" EntitySet="VacationAffectedLocations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VacationAffectedProducts_Products_New" Association="Self.FK_VacationAffectedProducts_Products_New">
+      <End Role="Products_New" EntitySet="Products_New" />
+      <End Role="VacationAffectedProducts" EntitySet="VacationAffectedProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VacationAffectedProducts_VacationInfo" Association="Self.FK_VacationAffectedProducts_VacationInfo">
+      <End Role="VacationInfo" EntitySet="VacationInfo" />
+      <End Role="VacationAffectedProducts" EntitySet="VacationAffectedProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VacationInfo_UIVacationCategory" Association="Self.FK_VacationInfo_UIVacationCategory">
+      <End Role="UIVacationCategory" EntitySet="UIVacationCategory" />
+      <End Role="VacationInfo" EntitySet="VacationInfo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

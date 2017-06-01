@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SkypeIntlMonitoringModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlMonitoring.dbo.New_SqlJobs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="New_SqlJobs">
+          <Key>
+            <PropertyRef Name="JobName" />
+          </Key>
+          <Property Name="JobName" Type="nvarchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RemoteLogger">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ApplicationName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Exception" Type="text" Nullable="false" />
+          <Property Name="ExceptionStackTrace" Type="text" Nullable="false" />
+          <Property Name="UpdateDate" Type="datetime" Nullable="false" />
+          <Property Name="UserIdentity" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="BatchID" Type="nvarchar" MaxLength="50" />
+          <Property Name="StateID" Type="int" />
+        </EntityType>
+        <EntityType Name="RemoteStateLogger">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TestcaseName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="LanguageName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="State" Type="bit" Nullable="false" />
+          <Property Name="UpdateDate" Type="datetime" Nullable="false" />
+          <Property Name="ApplicationName" Type="nvarchar" MaxLength="50" />
+          <Property Name="BatchID" Type="nvarchar" MaxLength="50" />
+          <Property Name="UserIdentity" Type="nvarchar" MaxLength="50" />
+          <Property Name="StartDate" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RemoteStateLoggerImage">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RemoteStateLoggerID" Type="int" Nullable="false" />
+          <Property Name="ImagePath" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlMonitoring.dbo.vw_GetJobExecutionView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vw_GetJobExecutionView">
+          <Key>
+            <PropertyRef Name="run_status" />
+            <PropertyRef Name="instance_id" />
+            <PropertyRef Name="job_name" />
+          </Key>
+          <Property Name="message" Type="nvarchar" MaxLength="4000" />
+          <Property Name="run_status" Type="int" Nullable="false" />
+          <Property Name="instance_id" Type="int" Nullable="false" />
+          <Property Name="job_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="RunDurationMinutes" Type="int" />
+          <Property Name="RunDateTime" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlMonitoring.dbo.vw_ProjectBuildInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vw_ProjectBuildInfo">
+          <Key>
+            <PropertyRef Name="BranchID" />
+            <PropertyRef Name="ProjectID" />
+            <PropertyRef Name="IsVisible" />
+          </Key>
+          <Property Name="BranchID" Type="int" Nullable="false" />
+          <Property Name="ProjectID" Type="int" Nullable="false" />
+          <Property Name="BuildVersion" Type="nvarchar" MaxLength="20" />
+          <Property Name="BranchIdentity" Type="nvarchar" MaxLength="50" />
+          <Property Name="PDName" Type="nvarchar" MaxLength="200" />
+          <Property Name="PDLinks" Type="nvarchar" MaxLength="300" />
+          <Property Name="IsVisible" Type="bit" Nullable="false" />
+          <Property Name="SyncDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlMonitoring.dbo.vw_ProjectFamilyInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vw_ProjectFamilyInfo">
+          <Key>
+            <PropertyRef Name="ProjectID" />
+          </Key>
+          <Property Name="ProjectID" Type="int" Nullable="false" />
+          <Property Name="ProjectName" Type="nvarchar" MaxLength="150" />
+          <Property Name="DisplayName" Type="nvarchar" MaxLength="150" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'SkypeIntlMonitoring.dbo.vw_ToolsJobsStepsInfo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vw_ToolsJobsStepsInfo">
+          <Key>
+            <PropertyRef Name="Job Name" />
+            <PropertyRef Name="Step Name" />
+          </Key>
+          <Property Name="Tool Name" Type="nvarchar(max)" />
+          <Property Name="Job Name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Step Name" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__RemoteSta__Remot__1B5E0D89">
+          <End Role="RemoteStateLogger" Type="Self.RemoteStateLogger" Multiplicity="1" />
+          <End Role="RemoteStateLoggerImage" Type="Self.RemoteStateLoggerImage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RemoteStateLogger">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RemoteStateLoggerImage">
+              <PropertyRef Name="RemoteStateLoggerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="Fn_New_GetJobListForHistory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fromDate" Type="datetime" Mode="In" />
+          <Parameter Name="endDate" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="MaxId" Type="int" />
+                <Property Name="job_id" Type="uniqueidentifier" Nullable="false" />
+                <Property Name="RunDurationMinutes" Type="int" />
+                <Property Name="RunDateTime" Type="datetime" />
+                <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_New_GetJobsExecution" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="jobName" Type="nvarchar" Mode="In" />
+          <Parameter Name="fromDate" Type="datetime" Mode="In" />
+          <Parameter Name="endDate" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="message" Type="nvarchar" MaxLength="4000" />
+                <Property Name="run_status" Type="int" Nullable="false" />
+                <Property Name="instance_id" Type="int" Nullable="false" />
+                <Property Name="job_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="RunDurationMinutes" Type="int" />
+                <Property Name="RunDateTime" Type="datetime" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_New_GetJobsLatestStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fromDate" Type="datetime" Mode="In" />
+          <Parameter Name="endDate" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="job_name" Type="nvarchar" MaxLength="100" Nullable="false" />
+                <Property Name="PreviouslyFailed" Type="int" />
+                <Property Name="LatestInstanceId" Type="int" />
+                <Property Name="job_id" Type="uniqueidentifier" Nullable="false" />
+                <Property Name="LatestRunDateTime" Type="datetime" />
+                <Property Name="LatestRunStatus" Type="int" Nullable="false" />
+                <Property Name="LatestRunDurationMinutes" Type="int" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_New_GetJobStepsforExecution" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="jobName" Type="nvarchar" Mode="In" />
+          <Parameter Name="jobInstanceId" Type="int" Mode="In" />
+          <Parameter Name="jobStartTime" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="instance_id" Type="int" Nullable="false" />
+                <Property Name="run_status" Type="int" Nullable="false" />
+                <Property Name="job_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="message" Type="nvarchar" MaxLength="4000" />
+                <Property Name="step_id" Type="int" Nullable="false" />
+                <Property Name="step_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="RunDurationMinutes" Type="int" />
+                <Property Name="RunDateTime" Type="datetime" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_New_GetJobStepsForNotification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="LastNotificationJobInstanceId" Type="int" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="instance_id" Type="int" Nullable="false" />
+                <Property Name="job_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="step_id" Type="int" Nullable="false" />
+                <Property Name="step_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="message" Type="nvarchar" MaxLength="4000" />
+                <Property Name="run_status" Type="int" Nullable="false" />
+                <Property Name="RunDurationMinutes" Type="int" />
+                <Property Name="RunDateTime" Type="datetime" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_New_GetRunningJobs" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="job_id" Type="uniqueidentifier" Nullable="false" />
+                <Property Name="job_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="start_execution_date" Type="datetime" />
+                <Property Name="current_executed_step_id" Type="int" />
+                <Property Name="step_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_New_GetServerTime" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="serverTime" Type="datetime" Nullable="false" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_New_GetStepForRunningJob" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="JobName" Type="nvarchar" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="instance_id" Type="int" Nullable="false" />
+                <Property Name="run_status" Type="int" Nullable="false" />
+                <Property Name="job_id" Type="uniqueidentifier" Nullable="false" />
+                <Property Name="step_id" Type="int" Nullable="false" />
+                <Property Name="step_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="RunDurationTimeSeconds" Type="int" />
+                <Property Name="RunDateTime" Type="datetime" />
+                <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Fn_New_GetStepInPeriod" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="PeriodTime_Minutes" Type="int" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="instance_id" Type="int" Nullable="false" />
+                <Property Name="run_status" Type="int" Nullable="false" />
+                <Property Name="job_id" Type="uniqueidentifier" Nullable="false" />
+                <Property Name="step_id" Type="int" Nullable="false" />
+                <Property Name="step_name" Type="nvarchar" MaxLength="128" Nullable="false" />
+                <Property Name="RunDurationTimeSeconds" Type="int" />
+                <Property Name="RunDateTime" Type="datetime" />
+                <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <EntityContainer Name="SkypeIntlMonitoringModelStoreContainer">
+          <EntitySet Name="RemoteLogger" EntityType="Self.RemoteLogger" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RemoteStateLogger" EntityType="Self.RemoteStateLogger" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RemoteStateLoggerImage" EntityType="Self.RemoteStateLoggerImage" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="New_SqlJobs" EntityType="Self.New_SqlJobs" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [New_SqlJobs].[JobName] AS [JobName]
+    FROM [dbo].[New_SqlJobs] AS [New_SqlJobs]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vw_GetJobExecutionView" EntityType="Self.vw_GetJobExecutionView" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vw_GetJobExecutionView].[message] AS [message], 
+    [vw_GetJobExecutionView].[run_status] AS [run_status], 
+    [vw_GetJobExecutionView].[instance_id] AS [instance_id], 
+    [vw_GetJobExecutionView].[job_name] AS [job_name], 
+    [vw_GetJobExecutionView].[RunDurationMinutes] AS [RunDurationMinutes], 
+    [vw_GetJobExecutionView].[RunDateTime] AS [RunDateTime]
+    FROM [dbo].[vw_GetJobExecutionView] AS [vw_GetJobExecutionView]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vw_ProjectBuildInfo" EntityType="Self.vw_ProjectBuildInfo" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vw_ProjectBuildInfo].[BranchID] AS [BranchID], 
+    [vw_ProjectBuildInfo].[ProjectID] AS [ProjectID], 
+    [vw_ProjectBuildInfo].[BuildVersion] AS [BuildVersion], 
+    [vw_ProjectBuildInfo].[BranchIdentity] AS [BranchIdentity], 
+    [vw_ProjectBuildInfo].[PDName] AS [PDName], 
+    [vw_ProjectBuildInfo].[PDLinks] AS [PDLinks], 
+    [vw_ProjectBuildInfo].[IsVisible] AS [IsVisible], 
+    [vw_ProjectBuildInfo].[SyncDate] AS [SyncDate]
+    FROM [dbo].[vw_ProjectBuildInfo] AS [vw_ProjectBuildInfo]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vw_ProjectFamilyInfo" EntityType="Self.vw_ProjectFamilyInfo" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vw_ProjectFamilyInfo].[ProjectID] AS [ProjectID], 
+    [vw_ProjectFamilyInfo].[ProjectName] AS [ProjectName], 
+    [vw_ProjectFamilyInfo].[DisplayName] AS [DisplayName]
+    FROM [dbo].[vw_ProjectFamilyInfo] AS [vw_ProjectFamilyInfo]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vw_ToolsJobsStepsInfo" EntityType="Self.vw_ToolsJobsStepsInfo" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [vw_ToolsJobsStepsInfo].[Tool Name] AS [Tool Name], 
+    [vw_ToolsJobsStepsInfo].[Job Name] AS [Job Name], 
+    [vw_ToolsJobsStepsInfo].[Step Name] AS [Step Name]
+    FROM [dbo].[vw_ToolsJobsStepsInfo] AS [vw_ToolsJobsStepsInfo]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK__RemoteSta__Remot__1B5E0D89" Association="Self.FK__RemoteSta__Remot__1B5E0D89">
+            <End Role="RemoteStateLogger" EntitySet="RemoteStateLogger" />
+            <End Role="RemoteStateLoggerImage" EntitySet="RemoteStateLoggerImage" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SkypeIntlMonitoringModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SkypeIntlMonitoringEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="vw_ProjectBuildInfo" EntityType="SkypeIntlMonitoringModel.vw_ProjectBuildInfo" />
+          <EntitySet Name="vw_ProjectFamilyInfo" EntityType="SkypeIntlMonitoringModel.vw_ProjectFamilyInfo" />
+          <EntitySet Name="RemoteLoggers" EntityType="SkypeIntlMonitoringModel.RemoteLogger" />
+          <EntitySet Name="RemoteStateLoggers" EntityType="SkypeIntlMonitoringModel.RemoteStateLogger" />
+          <EntitySet Name="vw_ToolsJobsStepsInfo" EntityType="SkypeIntlMonitoringModel.vw_ToolsJobsStepsInfo" />
+          <EntitySet Name="vw_GetJobExecutionView" EntityType="SkypeIntlMonitoringModel.vw_GetJobExecutionView" />
+          <FunctionImport Name="Fn_New_GetJobListForHistory" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobListForHistory_Result)">
+            <Parameter Name="fromDate" Mode="In" Type="DateTime" />
+            <Parameter Name="endDate" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="Fn_New_GetJobsExecution" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobsExecution_Result)">
+            <Parameter Name="jobName" Mode="In" Type="String" />
+            <Parameter Name="fromDate" Mode="In" Type="DateTime" />
+            <Parameter Name="endDate" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="Fn_New_GetJobsLatestStatus" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobsLatestStatus_Result)">
+            <Parameter Name="fromDate" Mode="In" Type="DateTime" />
+            <Parameter Name="endDate" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="Fn_New_GetJobStepsforExecution" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobStepsforExecution_Result)">
+            <Parameter Name="jobName" Mode="In" Type="String" />
+            <Parameter Name="jobInstanceId" Mode="In" Type="Int32" />
+            <Parameter Name="jobStartTime" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="Fn_New_GetJobStepsForNotification" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetJobStepsForNotification_Result)">
+          <Parameter Name="LastNotificationJobInstanceId" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="Fn_New_GetRunningJobs" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetRunningJobs_Result)" />
+          <EntitySet Name="New_SqlJobs" EntityType="SkypeIntlMonitoringModel.New_SqlJobs" />
+          <FunctionImport Name="Fn_New_GetServerTime" IsComposable="true" ReturnType="Collection(DateTime)" />
+          <FunctionImport Name="Fn_New_GetStepInPeriod" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetStepInPeriod_Result)">
+          <Parameter Name="PeriodTime_Minutes" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="Fn_New_GetStepForRunningJob" IsComposable="true" ReturnType="Collection(SkypeIntlMonitoringModel.Fn_New_GetStepForRunningJob_Result)">
+          <Parameter Name="JobName" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="RemoteStateLoggerImages" EntityType="SkypeIntlMonitoringModel.RemoteStateLoggerImage" />
+          <AssociationSet Name="FK__RemoteSta__Remot__1B5E0D89" Association="SkypeIntlMonitoringModel.FK__RemoteSta__Remot__1B5E0D89">
+            <End Role="RemoteStateLogger" EntitySet="RemoteStateLoggers" />
+            <End Role="RemoteStateLoggerImage" EntitySet="RemoteStateLoggerImages" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="vw_ProjectBuildInfo">
+          <Key>
+            <PropertyRef Name="BranchID" />
+            <PropertyRef Name="ProjectID" />
+            <PropertyRef Name="IsVisible" />
+          </Key>
+          <Property Name="BranchID" Type="Int32" Nullable="false" />
+          <Property Name="ProjectID" Type="Int32" Nullable="false" />
+          <Property Name="BuildVersion" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="BranchIdentity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PDName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="PDLinks" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="IsVisible" Type="Boolean" Nullable="false" />
+          <Property Name="SyncDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="vw_ProjectFamilyInfo">
+          <Key>
+            <PropertyRef Name="ProjectID" />
+          </Key>
+          <Property Name="ProjectID" Type="Int32" Nullable="false" />
+          <Property Name="ProjectName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="DisplayName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="RemoteLogger">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApplicationName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Exception" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ExceptionStackTrace" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="UpdateDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UserIdentity" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BatchID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="StateID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="RemoteStateLogger">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TestcaseName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LanguageName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <Property Name="UpdateDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ApplicationName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BatchID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UserIdentity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="RemoteStateLoggerImages" Relationship="SkypeIntlMonitoringModel.FK__RemoteSta__Remot__1B5E0D89" FromRole="RemoteStateLogger" ToRole="RemoteStateLoggerImage" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="vw_ToolsJobsStepsInfo">
+          <Key>
+            <PropertyRef Name="Job_Name" />
+            <PropertyRef Name="Step_Name" />
+          </Key>
+          <Property Name="Tool_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Job_Name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Step_Name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="vw_GetJobExecutionView">
+          <Key>
+            <PropertyRef Name="run_status" />
+            <PropertyRef Name="instance_id" />
+            <PropertyRef Name="job_name" />
+          </Key>
+          <Property Name="message" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+          <Property Name="run_status" Type="Int32" Nullable="false" />
+          <Property Name="instance_id" Type="Int32" Nullable="false" />
+          <Property Name="job_name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="RunDurationMinutes" Type="Int32" />
+          <Property Name="RunDateTime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <ComplexType Name="Fn_New_GetJobListForHistory_Result">
+          <Property Type="Int32" Name="MaxId" Nullable="true" />
+          <Property Type="Guid" Name="job_id" Nullable="false" />
+          <Property Type="Int32" Name="RunDurationMinutes" Nullable="true" />
+          <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+          <Property Type="String" Name="name" Nullable="false" MaxLength="128" />
+        </ComplexType>
+        <ComplexType Name="Fn_New_GetJobsExecution_Result">
+          <Property Type="String" Name="message" Nullable="true" MaxLength="4000" />
+          <Property Type="Int32" Name="run_status" Nullable="false" />
+          <Property Type="Int32" Name="instance_id" Nullable="false" />
+          <Property Type="String" Name="job_name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="RunDurationMinutes" Nullable="true" />
+          <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="Fn_New_GetJobsLatestStatus_Result">
+          <Property Type="String" Name="job_name" Nullable="false" MaxLength="100" />
+          <Property Type="Int32" Name="PreviouslyFailed" Nullable="true" />
+          <Property Type="Int32" Name="LatestInstanceId" Nullable="true" />
+          <Property Type="Guid" Name="job_id" Nullable="false" />
+          <Property Type="DateTime" Name="LatestRunDateTime" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="LatestRunStatus" Nullable="false" />
+          <Property Type="Int32" Name="LatestRunDurationMinutes" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="Fn_New_GetJobStepsforExecution_Result">
+          <Property Type="Int32" Name="instance_id" Nullable="false" />
+          <Property Type="Int32" Name="run_status" Nullable="false" />
+          <Property Type="String" Name="job_name" Nullable="false" MaxLength="128" />
+          <Property Type="String" Name="message" Nullable="true" MaxLength="4000" />
+          <Property Type="Int32" Name="step_id" Nullable="false" />
+          <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="RunDurationMinutes" Nullable="true" />
+          <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="Fn_New_GetJobStepsForNotification_Result">
+          <Property Type="Int32" Name="instance_id" Nullable="false" />
+          <Property Type="String" Name="job_name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="step_id" Nullable="false" />
+          <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+          <Property Type="String" Name="message" Nullable="true" MaxLength="4000" />
+          <Property Type="Int32" Name="run_status" Nullable="false" />
+          <Property Type="Int32" Name="RunDurationMinutes" Nullable="true" />
+          <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="Fn_New_GetRunningJobs_Result">
+          <Property Type="Guid" Name="job_id" Nullable="false" />
+          <Property Type="String" Name="job_name" Nullable="false" MaxLength="128" />
+          <Property Type="DateTime" Name="start_execution_date" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="current_executed_step_id" Nullable="true" />
+          <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+        </ComplexType>
+        <EntityType Name="New_SqlJobs">
+          <Key>
+            <PropertyRef Name="JobName" />
+          </Key>
+          <Property Name="JobName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <ComplexType Name="Fn_New_GetStepInPeriod_Result">
+          <Property Type="Int32" Name="instance_id" Nullable="false" />
+          <Property Type="Int32" Name="run_status" Nullable="false" />
+          <Property Type="Guid" Name="job_id" Nullable="false" />
+          <Property Type="Int32" Name="step_id" Nullable="false" />
+          <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="RunDurationTimeSeconds" Nullable="true" />
+          <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+          <Property Type="String" Name="name" Nullable="false" MaxLength="128" />
+        </ComplexType>
+        <ComplexType Name="Fn_New_GetStepForRunningJob_Result">
+          <Property Type="Int32" Name="instance_id" Nullable="false" />
+          <Property Type="Int32" Name="run_status" Nullable="false" />
+          <Property Type="Guid" Name="job_id" Nullable="false" />
+          <Property Type="Int32" Name="step_id" Nullable="false" />
+          <Property Type="String" Name="step_name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="RunDurationTimeSeconds" Nullable="true" />
+          <Property Type="DateTime" Name="RunDateTime" Nullable="true" Precision="23" />
+          <Property Type="String" Name="name" Nullable="false" MaxLength="128" />
+        </ComplexType>
+        <EntityType Name="RemoteStateLoggerImage">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RemoteStateLoggerID" Type="Int32" Nullable="false" />
+          <Property Name="ImagePath" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="RemoteStateLogger" Relationship="SkypeIntlMonitoringModel.FK__RemoteSta__Remot__1B5E0D89" FromRole="RemoteStateLoggerImage" ToRole="RemoteStateLogger" />
+        </EntityType>
+        <Association Name="FK__RemoteSta__Remot__1B5E0D89">
+          <End Type="SkypeIntlMonitoringModel.RemoteStateLogger" Role="RemoteStateLogger" Multiplicity="1" />
+          <End Type="SkypeIntlMonitoringModel.RemoteStateLoggerImage" Role="RemoteStateLoggerImage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RemoteStateLogger">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RemoteStateLoggerImage">
+              <PropertyRef Name="RemoteStateLoggerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SkypeIntlMonitoringModelStoreContainer" CdmEntityContainer="SkypeIntlMonitoringEntities">
+          <EntitySetMapping Name="vw_ProjectBuildInfo">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.vw_ProjectBuildInfo">
+              <MappingFragment StoreEntitySet="vw_ProjectBuildInfo">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="IsVisible" ColumnName="IsVisible" />
+                <ScalarProperty Name="PDLinks" ColumnName="PDLinks" />
+                <ScalarProperty Name="PDName" ColumnName="PDName" />
+                <ScalarProperty Name="BranchIdentity" ColumnName="BranchIdentity" />
+                <ScalarProperty Name="BuildVersion" ColumnName="BuildVersion" />
+                <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+                <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vw_ProjectFamilyInfo">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.vw_ProjectFamilyInfo">
+              <MappingFragment StoreEntitySet="vw_ProjectFamilyInfo">
+                <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+                <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+                <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RemoteLoggers">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.RemoteLogger">
+              <MappingFragment StoreEntitySet="RemoteLogger">
+                <ScalarProperty Name="StateID" ColumnName="StateID" />
+                <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+                <ScalarProperty Name="UserIdentity" ColumnName="UserIdentity" />
+                <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+                <ScalarProperty Name="ExceptionStackTrace" ColumnName="ExceptionStackTrace" />
+                <ScalarProperty Name="Exception" ColumnName="Exception" />
+                <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RemoteStateLoggers">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.RemoteStateLogger">
+              <MappingFragment StoreEntitySet="RemoteStateLogger">
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="UserIdentity" ColumnName="UserIdentity" />
+                <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+                <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+                <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="LanguageName" ColumnName="LanguageName" />
+                <ScalarProperty Name="TestcaseName" ColumnName="TestcaseName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vw_ToolsJobsStepsInfo">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.vw_ToolsJobsStepsInfo">
+              <MappingFragment StoreEntitySet="vw_ToolsJobsStepsInfo">
+                <ScalarProperty Name="Step_Name" ColumnName="Step Name" />
+                <ScalarProperty Name="Job_Name" ColumnName="Job Name" />
+                <ScalarProperty Name="Tool_Name" ColumnName="Tool Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vw_GetJobExecutionView">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.vw_GetJobExecutionView">
+              <MappingFragment StoreEntitySet="vw_GetJobExecutionView">
+                <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+                <ScalarProperty Name="RunDurationMinutes" ColumnName="RunDurationMinutes" />
+                <ScalarProperty Name="job_name" ColumnName="job_name" />
+                <ScalarProperty Name="instance_id" ColumnName="instance_id" />
+                <ScalarProperty Name="run_status" ColumnName="run_status" />
+                <ScalarProperty Name="message" ColumnName="message" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="Fn_New_GetJobListForHistory" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetJobListForHistory">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoringModel.Fn_New_GetJobListForHistory_Result">
+                <ScalarProperty Name="MaxId" ColumnName="MaxId" />
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="RunDurationMinutes" ColumnName="RunDurationMinutes" />
+                <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Fn_New_GetJobsExecution" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetJobsExecution">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoringModel.Fn_New_GetJobsExecution_Result">
+                <ScalarProperty Name="message" ColumnName="message" />
+                <ScalarProperty Name="run_status" ColumnName="run_status" />
+                <ScalarProperty Name="instance_id" ColumnName="instance_id" />
+                <ScalarProperty Name="job_name" ColumnName="job_name" />
+                <ScalarProperty Name="RunDurationMinutes" ColumnName="RunDurationMinutes" />
+                <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Fn_New_GetJobsLatestStatus" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetJobsLatestStatus">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoringModel.Fn_New_GetJobsLatestStatus_Result">
+                <ScalarProperty Name="job_name" ColumnName="job_name" />
+                <ScalarProperty Name="PreviouslyFailed" ColumnName="PreviouslyFailed" />
+                <ScalarProperty Name="LatestInstanceId" ColumnName="LatestInstanceId" />
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="LatestRunDateTime" ColumnName="LatestRunDateTime" />
+                <ScalarProperty Name="LatestRunStatus" ColumnName="LatestRunStatus" />
+                <ScalarProperty Name="LatestRunDurationMinutes" ColumnName="LatestRunDurationMinutes" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Fn_New_GetJobStepsforExecution" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetJobStepsforExecution">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoringModel.Fn_New_GetJobStepsforExecution_Result">
+                <ScalarProperty Name="instance_id" ColumnName="instance_id" />
+                <ScalarProperty Name="run_status" ColumnName="run_status" />
+                <ScalarProperty Name="job_name" ColumnName="job_name" />
+                <ScalarProperty Name="message" ColumnName="message" />
+                <ScalarProperty Name="step_id" ColumnName="step_id" />
+                <ScalarProperty Name="step_name" ColumnName="step_name" />
+                <ScalarProperty Name="RunDurationMinutes" ColumnName="RunDurationMinutes" />
+                <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Fn_New_GetJobStepsForNotification" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetJobStepsForNotification">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoringModel.Fn_New_GetJobStepsForNotification_Result">
+                <ScalarProperty Name="instance_id" ColumnName="instance_id" />
+                <ScalarProperty Name="job_name" ColumnName="job_name" />
+                <ScalarProperty Name="step_id" ColumnName="step_id" />
+                <ScalarProperty Name="step_name" ColumnName="step_name" />
+                <ScalarProperty Name="message" ColumnName="message" />
+                <ScalarProperty Name="run_status" ColumnName="run_status" />
+                <ScalarProperty Name="RunDurationMinutes" ColumnName="RunDurationMinutes" />
+                <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Fn_New_GetRunningJobs" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetRunningJobs">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoringModel.Fn_New_GetRunningJobs_Result">
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="job_name" ColumnName="job_name" />
+                <ScalarProperty Name="start_execution_date" ColumnName="start_execution_date" />
+                <ScalarProperty Name="current_executed_step_id" ColumnName="current_executed_step_id" />
+                <ScalarProperty Name="step_name" ColumnName="step_name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="New_SqlJobs">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.New_SqlJobs">
+              <MappingFragment StoreEntitySet="New_SqlJobs">
+                <ScalarProperty Name="JobName" ColumnName="JobName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="Fn_New_GetServerTime" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetServerTime" />
+          <FunctionImportMapping FunctionImportName="Fn_New_GetStepInPeriod" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetStepInPeriod">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoringModel.Fn_New_GetStepInPeriod_Result">
+                <ScalarProperty Name="instance_id" ColumnName="instance_id" />
+                <ScalarProperty Name="run_status" ColumnName="run_status" />
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="step_id" ColumnName="step_id" />
+                <ScalarProperty Name="step_name" ColumnName="step_name" />
+                <ScalarProperty Name="RunDurationTimeSeconds" ColumnName="RunDurationTimeSeconds" />
+                <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Fn_New_GetStepForRunningJob" FunctionName="SkypeIntlMonitoringModel.Store.Fn_New_GetStepForRunningJob">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SkypeIntlMonitoringModel.Fn_New_GetStepForRunningJob_Result">
+                <ScalarProperty Name="instance_id" ColumnName="instance_id" />
+                <ScalarProperty Name="run_status" ColumnName="run_status" />
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="step_id" ColumnName="step_id" />
+                <ScalarProperty Name="step_name" ColumnName="step_name" />
+                <ScalarProperty Name="RunDurationTimeSeconds" ColumnName="RunDurationTimeSeconds" />
+                <ScalarProperty Name="RunDateTime" ColumnName="RunDateTime" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="RemoteStateLoggerImages">
+            <EntityTypeMapping TypeName="SkypeIntlMonitoringModel.RemoteStateLoggerImage">
+              <MappingFragment StoreEntitySet="RemoteStateLoggerImage">
+                <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+                <ScalarProperty Name="RemoteStateLoggerID" ColumnName="RemoteStateLoggerID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,26 @@
+Total found by value, Total not found by value, Total not changed
+14,4,14
+
+Not found deatails
+sourceMappingKey,Property,Value
+main_submit,command,"Sign in"
+main_window_new_conversation_name_group,command,"Name this group chat"
+main_window_new_group_conversation_user_search,text,"Search People and bots"
+profile_window_signout_confirm,text,"LOG OUT"
+
+Not changed deatails
+sourceMappingKey,Property,Value
+main_application,command,"new UiSelector().className(""android.widget.FrameLayout"")"
+main_username,command,"new UiSelector().className(""android.widget.EditText"").instance(0)"
+main_password,command,"new UiSelector().className(""android.widget.EditText"").instance(0)"
+main_submit,id,"idSIButton9"
+first_time_username,id,"com.microsoft.skype.android.s4l.df:id/input_email"
+first_time_submit,id,"com.microsoft.skype.android.s4l.df:id/button_login"
+main_window_new_conversation_user_search,command,"new UiSelector().className(""android.widget.EditText"").instance(0)"
+main_window_profile_button,accessibility_id,"My info, No new notifications."
+profile_window_my_profile,text,""
+profile_window_profile_picture,command,"new UiSelector().className(""android.widget.Button"").instance(0)"
+profile_window_empty_profile_picture,text,"?"
+profile_window_empty_profile_picture,xpath,"?"
+capture_window_captured_picture_add_text_change_position,command,"new UiSelector().text("""")"
+capture_window_captured_picture_add_text_change_position,text,""

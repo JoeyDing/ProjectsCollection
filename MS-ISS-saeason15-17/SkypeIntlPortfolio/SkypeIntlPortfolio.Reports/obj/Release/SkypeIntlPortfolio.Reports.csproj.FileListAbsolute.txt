@@ -1,0 +1,10 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\bin\Release\SkypeIntlPortfolio.Reports.dll.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\bin\Release\SkypeIntlPortfolio.Reports.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\bin\Release\SkypeIntlPortfolio.Reports.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\bin\Release\Telerik.Reporting.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\obj\Release\SkypeIntlPortfolio.Reports.FabricOnboardingDetails.resources
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\obj\Release\SkypeIntlPortfolio.Reports.FabricOnboardingReport.resources
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\obj\Release\SkypeIntlPortfolio.Reports.csproj.GenerateResource.Cache
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\obj\Release\SkypeIntlPortfolio.Reports.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\obj\Release\SkypeIntlPortfolio.Reports.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Reports\obj\Release\SkypeIntlPortfolio.Reports.csprojResolveAssemblyReference.cache

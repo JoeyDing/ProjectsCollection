@@ -1,0 +1,395 @@
+{
+  "QuickCallPanel.CallMultiplePeople": {
+    "accessibility_id": "Call Multiple People",
+    "text":"\ue212"
+  },
+  "call_multiple_people_open_dial_pad": {
+    "accessibility_id": "Dial a phone number"
+  },
+  "call_window_dial_pad_number_1":{
+    "accessibility_id":"1",
+    "text":"1"
+  },
+  "call_window_select_participants": {
+    "text": "Select participants"
+  },
+  "call_window_switch_camera": {
+    "accessibility_id": "Switch Camera",
+    "text": "Switch Camera"
+  },
+  "call_window_gallery_camera": {
+    "text": "Camera",
+    "accessibility_id": "Camera"
+  },
+  "call_window_accept_audio_call": {
+    "accessibility_id": "Answer call from {0} with voice only",
+    "text": "\ue100"
+  },
+  "call_window_accept_video_call": {
+    "accessibility_id": "Answer call from {0} with video",
+    "text": "\ue102"
+  },
+  "call_window_reject_call": {
+    "accessibility_id": "Decline",
+    "text": "\ue101"
+  },
+  "call_window_menu_toggle": {
+    "accessibility_id": "Toggle controls",
+    "text": "Toggle controls"
+  },
+  "call_window_emoji_menu_toggle": {
+    "accessibility_id": "Show reactions",
+    "text":"Show reactions"
+  },
+  "call_window_menu_hang_up": {
+    "accessibility_id": "End Call",
+    "text": "\ue101"
+  },
+  "CallControls.CallButtonMute":{
+    "accessibility_id":"Mute",
+    "text":"\ue102"
+  },
+  "CallControls.CallButtonSwitchCameraBackwardAccessibilityLabel":{
+    "accessibility_id":"Switch camera, facing backward"
+  },
+  "CallControls.CallButtonSwitchCameraForwardAccessibilityLabel":{
+    "accessibility_id":"Switch camera, facing forward"
+  },
+  "CallControls.CallButtonUnmuteAccessibilityLabel":{
+    "accessibility_id":"Unmute",
+    "text":"\ue103"
+  },
+
+  "CallControls.CallButtonTurnOffVideoAccessibilityLabel":{
+    "accessibility_id":"Turn off video",
+    "text":"\ue102"
+  },
+  "CallControls.CallButtonTurnOnVideoAccessibilityLabel":{
+    "accessibility_id":"Turn on video",
+    "text":"\ue103"
+  },
+  "call_window_menu_speakerphone": {
+    "accessibility_id": "Speaker",
+    "text": "Speaker"
+  },
+  "call_window_menu_headset": {
+    "accessibility_id": "Headset",
+    "text": "Headset"
+  },
+  "capture_window_captured_picture_draw": {
+    "accessibility_id": "Pen draw with ink.",
+    "text": "\ue40d"
+  },
+  "CapturePanel.MediaPickerAccessibilityLabel":{
+    "accessibility_id":"Open photo gallery",
+    "text":"\ue422"
+  },
+  "CapturePanel.SwitchCameraToFrontAccessibilityLabel":{"accessibility_id":"Switch to front-facing camera"},
+  "CapturePanel.SwitchCameraToBackAccessibilityLabel":{"accessibility_id":"Switch to back-facing camera"},
+  "HighlightsTooltipPopup.FollowTooltip":{
+    "text":"Follow some friends here"
+  },
+  "HighlightsTooltipPopup.ShareMyHighlightsTooltip":{
+    "text":"Share your highlights here"
+  },
+  "capture_window_captured_picture_add_text": {
+    "accessibility_id": "Add caption",
+    "text": "Add caption"
+  },
+  "MyHighlightsPanel.Title":{
+    "text":"Manage Highlights"
+  },
+  "capture_window_permission":{
+    "text":"Grant Skype permission to access your camera"
+  },
+  "capture_window_accept_permissions": {
+    "accessibility_id": "Camera Permission"
+  },
+  "capture_window_send_message": {
+    "accessibility_id": "Send to {0}",
+    "text": "\ue323"
+  },
+  "capture_window_captured_media_tutorial" : {
+    "text" : "Share to your Highlights"
+  },
+  "CapturePreview.HighlightsAccessibilityLabel": {
+    "accessibility_id" : "Send to Highlights",
+    "text": "\ue215"
+  },
+  "capture_window_first_time_tutorial":{
+    "text" : "Tap for photo, hold for video"
+  },
+  "capture_window_post_to_highlights_ok": {
+    "text": "OK"
+  },
+  "capture_window_post_to_highlights_sent": {
+    "text": "Sent"
+  },
+  "capture_window_captured_picture_add_text_element" :
+  {
+    "accessibility_id" : "Add caption",
+    "text" : "Add caption"
+  },
+  "capture_window_captured_picture_add_emoji" :
+  {
+    "accessibility_id": "Stickers",
+    "text":"Stickers"
+  },
+  "chat_window_call": {
+    "accessibility_id": "Call",
+    "text": "Call"
+  },
+  "call_multiple_people_start_call":
+  {
+    "accessibility_id": "Start new group call",
+    "text":"Start new group call"
+  },
+  "chat_window_capture": {
+    "accessibility_id": "Capture"
+  },
+  "CallQualityFeedback.Title":{
+    "text":"How would you rate the quality of this call?"
+  },
+  "chat_window_user_online": {
+    "text": "ACTIVE NOW"
+  },
+  "chat_window_user_offline": {
+    "text": "Offline"
+  },
+  "chat_window_user_do_not_disturb": {
+    "text": "Do not disturb"
+  },
+  "chat_window_user_away": {
+    "text": "Away"
+  },
+  "chat_window_user_unknown": {
+    "text": "Unknown"
+  },
+  "chat_window_send_message":{
+    "accessibility_id" :  "Send message",
+    "text":"Send message"
+  },
+  "chat_window_video_call": {
+    "accessibility_id": "Video Call",
+    "text": "Video Call"
+  },
+  "chat_window_add_emoticon":{
+    "accessibility_id":"Add an Emoticon",
+    "text":"\ue30d"
+  },
+  "chat_window_record_audio": {
+    "accessibility_id": "Record message",
+    "text": "Record message"
+  },
+  "chat_window_send_audio_message": {
+    "accessibility_id": "Send audio message",
+    "text": "Send audio message"
+  },
+  "chat_window_open_location_window":{
+    "accessibility_id":"Share your location",
+    "text":"\ue610"
+  },
+  "chat_window_open_moji_window":{
+    "accessibility_id": "Send a Moji",
+    "text":"\uf305"
+  },
+  "chat_window_send_moji":{
+    "accessibility_id":"Send Moji"
+  },
+  "chat_window_cancel_audio_message": {
+    "accessibility_id": "Cancel recording",
+    "text": "Cancel recording"
+  },
+  "chat_window_react_button": {
+    "accessibility_id": "React to this message",
+    "text": "React to this message"
+  },
+  "chat_window_copy_message": {
+    "text": "Copy"
+  },
+  "chat_window_message":{
+    "text":"Type a message here"
+  },
+  "highlights_skip_tutorial": {
+    "text": "Skip",
+    "accessibility_id":"Skip"
+  },
+  "highlight_window_first_time_tutorial": {
+    "text": "Welcome to Highlights!"
+  },
+  "highlights_window_my_followers": {
+    "text": "My Followers"
+  },
+  "HubHeaderPanel.MyHighlightsButtonLabel":{
+    "accessibility_id":"Manage My Highlights.",
+    "text":"\ue135"
+  },
+  "ViewMyHighlights":{
+    "text":"Highlights"
+  },
+  "Highlights_Window_Follow_People":{
+    "accessibility_id":"Follow People"
+  },
+  "highlights_window_add_people": {
+    "text": "Add people"
+  },
+  "location_window_search_places":{
+    "accessibility_id" : "Search places",
+    "text":"\ue406"
+  },
+  "location_window_share_location":{
+    "text":"\ue323"
+  },
+  "location_window_failed_to_get_location":
+  {
+    "text":"Sorry, we could not find your location right now."
+  },
+  "login_window_account_failure": {
+    "accessibility_id": "There was an issue looking up your account. Tap Next to try again."
+  },
+  "login_window_next_button": {
+    "accessibility_id": "Next",
+    "id": "idSIButton9"
+  },
+  "login_window_terms_of_use": {
+    "text": "Enter password"
+  },
+  "login_window_sign_in_button": {
+    "text": "Sign in",
+    "accessibility_id": "Sign in"
+  },
+  "main_skip_tutorial": {
+    "accessibility_id": "Let\u2019s go!",
+    "text": "Got it, let\u2019s go!"
+  },
+  "main_confidential_accept":{
+    "text":"Got it! Let's go."
+  },
+  "main_username":{
+    "text": "Email, phone, or Skype name",
+    "accessibility_id":"Email, phone, or Skype name",
+    "id":  "i0116"
+  },
+  "main_password":{
+    "text": "Password",
+    "id":  "i0118",
+    "accessibility_id":"Password"
+  },
+  "main_privacy_policy": {
+    "text": "Next"
+  },
+  "main_window_action_menu": {
+    "accessibility_id": "New Conversation or Contact",
+    "text": "New Conversation or Contact"
+  },
+  "main_window_capture_tab": {
+    "accessibility_id": "Capture Tab. 3 of 3.",
+    "text": "Capture"
+  },
+  "main_window_recents_tab":{
+    "text":  "Chats"
+  },
+  "main_window_send_feedback": {
+    "accessibility_id": "Send Feedback",
+    "text":"\ue441"
+  },
+  "main_window_new_conversation_new_group": {
+    "accessibility_id": "New Group",
+    "text": "New Group",
+    "xpath": "//*[contains(@text,'New Group')]"
+  },
+  "main_window_new_conversation_new_chat": {
+    "accessibility_id": "New Chat",
+    "text": "New Chat",
+    "xpath": "//*[contains(@text,'New Chat')]"
+  },
+  "main_window_new_conversation_add_contact": {
+    "accessibility_id": "Invite People to Skype",
+    "text": "Invite People to Skype",
+    "xpath": "//*[contains(@text,'Invite People to Skype')]"
+  },
+  "main_window_new_conversation_add_bot": {
+    "accessibility_id": "Find Bots",
+    "text": "Find Bots",
+    "xpath": "//*[contains(@text,'Find Bots')]"
+  },
+  "main_window_new_conversation_create_group_done":{
+    "accessibility_id": "Done",
+    "text": "Done"
+  },
+  "main_window_action_menu_start_call": {
+    "accessibility_id": "Start a call",
+    "text": "Start a call",
+    "xpath": "//*[contains(@text,'Start a call')]"
+  },
+  "main_window_back_navigation": {
+    "text": "Back",
+    "accessibility_id": "Back"
+  },
+  "main_window_exit_navigation": {
+    "accessibility_id": "Close"
+  },
+  "QuickCallPanel.CloseButtonAccessibilityLabel":{
+    "accessibility_id":"Close calls"
+  },
+  "main_window_cancel_navigation": {
+    "accessibility_id": "Cancel",
+    "text": "Cancel"
+  },
+  "main_window_capture_flash": {
+    "accessibility_id": "Flash",
+    "text": "Flash"
+  },
+  "main_window_hightlights_tab": {
+    "accessibility_id": "No new highlights. Tab. 1 of 3.",
+    "text": "Highlights"
+  },
+  "main_pre_login_button": {
+    "accessibility_id": "Log In",
+    "text": "Log In"
+  },
+  "main_window_new_conversation_user_search": {
+    "accessibility_id": "Search Skype",
+    "text": "Search Skype"
+  },
+  "main_window_new_conversation_contact_search": {
+    "accessibility_id": "People",
+    "text": "People"
+  },
+  "main_window_new_conversation_contact_search_bar": {
+    "accessibility_id": "Search People and Groups",
+    "text": "Search People and Groups"
+  },
+  "SearchInputControl.ClearTextAccessibilityLabel":{
+    "accessibility_id":"Clear search text",
+    "text":"\ue302"
+  },
+  "main_window_new_conversation_chat_person_search": {
+    "accessibility_id": "Search People and Bots",
+    "text": "Search People and Bots"
+  },
+  "main_window_new_conversation_name_group":{
+    "text": "Chat Name",
+    "accessibility_id":"Chat Name: null"
+  },
+  "main_window_new_conversation_name_group_next":{
+    "accessibility_id": "Next, enabled",
+    "text":"Next"
+  },
+  "my_highlights_confirm_upload_successful": {
+    "text": ".*minutes.*|.*minute ago.*|.*Just now.*"
+  },
+  "no_internet_pre_login": {
+    "text": "Unable to sign in, please check your internet connection and try again."
+  },
+  "profile_window_view_photo":{
+    "text": "View Photo"
+  },
+  "profile_window_signout": {"accessibility_id":"Log out",
+    "text":  "Log out" },
+  "profile_window_upload_photo": {"text":  "Upload Photo"},
+  "profile_window_remove_photo": {"text": "Remove Photo"},
+  "send_feedback_window_include_user_data": {
+    "text": "Include log files and app screenshot."
+  }
+}

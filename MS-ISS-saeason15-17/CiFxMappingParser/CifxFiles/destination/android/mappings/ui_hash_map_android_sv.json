@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Skriv ett meddelande här\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Dela profil",
+    "accessibility_id": "Dela profil"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Stör ej\")).index(1)",
+    "text": "Stör ej"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Sök efter personer och grupper|Sök efter personer och grupper\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Sök efter personer och robotar|Sök efter personer och robotar\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Sök efter robotar|Sök i Skype|För att få svar dina frågor, hjälp med att komma ihåg det som är viktigt och mycket mer ska du tillåta att Cortana samlar in och använder information, däribland följande:\n\nDin plats och platshistorik\n\nDina kontakter, kalenderuppgifter och innehåll och kommunikationshistorik från meddelanden, snabbmeddelanden och appar\n\nSökhistorik och annan information på enheten för att göra upplevelsen mer personlig|Sök på webben|Sök på webben|Sök efter filer|Sök efter personer|Sök i Skype|Sök efter platser|Sök efter personer och robotar|Sök|Sök efter personer och grupper|Sök efter personer|Sök i Skype|Sök|Sök efter robotar|Sök efter personer|Sök efter personer och robotar|Sök efter personer och grupper\")",
+    "text": "Sök"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Sök efter personer|Sök efter personer och robotar|Sök efter personer och grupper|Sök efter personer|Sök efter personer|Sök efter personer och robotar|Sök efter personer och grupper\")",
+    "text": "Sök efter personer"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Sök efter robotar|Sök i Skype|För att få svar dina frågor, hjälp med att komma ihåg det som är viktigt och mycket mer ska du tillåta att Cortana samlar in och använder information, däribland följande:\n\nDin plats och platshistorik\n\nDina kontakter, kalenderuppgifter och innehåll och kommunikationshistorik från meddelanden, snabbmeddelanden och appar\n\nSökhistorik och annan information på enheten för att göra upplevelsen mer personlig|Sök på webben|Sök på webben|Sök efter filer|Sök efter personer|Sök i Skype|Sök efter platser|Sök efter personer och robotar|Sök|Sök efter personer och grupper|Sök efter personer|Sök i Skype|Sök|Sök efter robotar|Sök efter personer|Sök efter personer och robotar|Sök efter personer och grupper\")",
+    "text": "Sök"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Inställningar"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Logga ut\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Om\")",
+    "text": "Om"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} minuter, upphör att gälla {expireDate}|Det gick inte att kontakta tjänsten för Cortana. Försök igen om några minuter.|{hours} h {minutes} m {seconds}s|{hours} h {minutes} m|{minutes} m|{minutes} m {seconds} s|{count} minuter|{count, plural, =1{1 minut sedan} other{# minuter sedan}}|{minutes} m|{count, plural, =1{1 minut sedan} other{# minuter sedan}}|{count, plural, =1{1 minut sedan} other{# minuter sedan}}\")",
+    "text": "{minutes} minuter, upphör att gälla {expireDate}|Det gick inte att kontakta tjänsten för Cortana. Försök igen om några minuter.|{hours} h {minutes} m {seconds}s|{hours} h {minutes} m|{minutes} m|{minutes} m {seconds} s|{count} minuter|{count, plural, =1{1 minut sedan} other{# minuter sedan}}|{minutes} m|{count, plural, =1{1 minut sedan} other{# minuter sedan}}|{count, plural, =1{1 minut sedan} other{# minuter sedan}}"
+  }
+}

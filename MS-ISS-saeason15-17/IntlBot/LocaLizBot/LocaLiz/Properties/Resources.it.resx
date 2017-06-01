@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnswerNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="AnswerYes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="Capabilities" xml:space="preserve">
+    <value>Posso fornirvi stringhe da rivedere nella tua lingua nativa e offrirvi il cambiamento per suggerire meglio le traduzioni!</value>
+  </data>
+  <data name="ContactAdded" xml:space="preserve">
+    <value>Ehi, il mio nuovo amico! Consente di imporve qualità di localizzazione di Skype!</value>
+  </data>
+  <data name="DiscoverUser" xml:space="preserve">
+    <value>Mi piacerebbe saperne di più su di te!</value>
+  </data>
+  <data name="DiscoverUserGoodReponse" xml:space="preserve">
+    <value>Così tu sei padrone della lingua {1}</value>
+  </data>
+  <data name="DiscoverUserLanguageGood" xml:space="preserve">
+    <value>Quali sono le lingue, quello padrone a livello molto buono?</value>
+  </data>
+  <data name="DiscoverUserLanguageNative" xml:space="preserve">
+    <value>Qual è la vostra lingua madre?</value>
+  </data>
+  <data name="DiscoverUserNativeResponce" xml:space="preserve">
+    <value>Da quello che ho capito la tua lingua nativa è {0}</value>
+  </data>
+  <data name="DiscoverUserQualityJudge" xml:space="preserve">
+    <value>Vuoi giudicare sulla qualità della traduzione corrente tra {0} e {1} lingue?</value>
+    <comment>Placeholders replaced with language names. For example: {0} - english, {1}  -latvian</comment>
+  </data>
+  <data name="Hack42" xml:space="preserve">
+    <value>Il significato della vita, l'universo e tutto</value>
+  </data>
+  <data name="QualityCompareStrings" xml:space="preserve">
+    <value>Si prega di mettere mark sulla qualità della traduzione lingua {0} (1-10, con 10 - il migliore e 1 - il peggiore) frase "{1}" (id {2}) è tradotto come "{3}" in lingua {4}!</value>
+  </data>
+  <data name="QualityExcelent" xml:space="preserve">
+    <value>Wow! Sembra fantastico! Daremo un cookie ai traduttori. Grazie!</value>
+  </data>
+  <data name="QualityMedicore" xml:space="preserve">
+    <value>È passabile. Vuoi suggerire qualcosa di meglio?</value>
+  </data>
+  <data name="QualityYouCanBetter" xml:space="preserve">
+    <value>Ahi, che è troppo male. Potete suggerire traduzione migliore?</value>
+  </data>
+  <data name="RemovedContact" xml:space="preserve">
+    <value>Grazie per tutto il pesce!</value>
+  </data>
+  <data name="StatusReport" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="StatusReportAnswer" xml:space="preserve">
+    <value>Avete tradotto {0} e {1} lanugage paia di recensione</value>
+  </data>
+  <data name="StatusReportExtendedAnswer" xml:space="preserve">
+    <value>Hai tradotto {0} e {1} lanugage paia di recensione. {2} delle vostre traduzioni sono utilizzati in produzione! Ottimo lavoro!</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Grazie, il tuo contributo farà un expirence utente migliore per voi e per gli altri utenti!</value>
+  </data>
+  <data name="ContinueWithEvaluations" xml:space="preserve">
+    <value>Vuoi continuare con valutiamo traduzioni?</value>
+  </data>
+  <data name="EvaluateString_Bad_Action" xml:space="preserve">
+    <value>Terribile. Posso tradurre meglio!</value>
+  </data>
+  <data name="EvaluateString_Best_Action" xml:space="preserve">
+    <value>Traduzione eccellente</value>
+  </data>
+  <data name="EvaluateString_Medium_Action" xml:space="preserve">
+    <value>È bella traduzione</value>
+  </data>
+  <data name="EvaluateString_Source" xml:space="preserve">
+    <value>Valutare una traduzione da origine '{0}' {1}</value>
+  </data>
+  <data name="Evaluate_EnterSuggestion" xml:space="preserve">
+    <value>Per favore tipo-nel tuo suggerimento! E quindi premere INVIO (Invia messaggio)</value>
+  </data>
+  <data name="Evaluate_Init" xml:space="preserve">
+    <value>Vuoi valutare alcune qualità di traduzione?</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Ehi, nuovo amico! Io sono di attuazione. Mi potete aiutare con dando un feedback sulla qualità della traduzione. </value>
+  </data>
+  <data name="Command_DoNotUnderstandLangauge" xml:space="preserve">
+    <value>Siamo spiacenti non parla quella lingua :(</value>
+  </data>
+  <data name="Command_In_What_Language" xml:space="preserve">
+    <value>In quale lingua si desidera parlare con me?</value>
+  </data>
+  <data name="Command_Select_One" xml:space="preserve">
+    <value>Scegli una lingua</value>
+  </data>
+  <data name="Command_SwtichToLanguage" xml:space="preserve">
+    <value>Oki-doki-ora passare a {0}</value>
+  </data>
+  <data name="Discover_Female" xml:space="preserve">
+    <value>Femminile</value>
+  </data>
+  <data name="Discover_Male" xml:space="preserve">
+    <value>Maschile</value>
+  </data>
+  <data name="Discover_Other" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="Discover_Unspecified" xml:space="preserve">
+    <value>Non specificato</value>
+  </data>
+  <data name="Discover_What_Gender" xml:space="preserve">
+    <value>Qual è il tuo genere?</value>
+  </data>
+</root>

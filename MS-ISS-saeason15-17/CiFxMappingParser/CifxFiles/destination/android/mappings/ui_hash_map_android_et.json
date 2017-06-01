@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Sisesta oma sõnum siin\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Jaga profiili",
+    "accessibility_id": "Jaga profiili"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Hõivatud\")).index(1)",
+    "text": "Hõivatud"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Otsi inimesi ja gruppe|Otsi inimesi ja gruppe\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Otsi inimesi ja roboteid|Otsi inimesi ja botte\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Otsi roboteid|Otsi Skype'ist|Selleks, et Cortana saaks su küsimustele vastata, aidata sul olulist meeles pidada ja palju muud teha, luba Cortanal koguda ja kasutada oma teavet, sealhulgas järgmist:\n\nasukoht ja asukohtade ajalugu;\n\nkontaktid, kalendri üksikasjad, sõnumite, kiirsõnumite ja rakenduste sisu ning suhtlusajalugu;\n\notsinguajalugu ja muu seadmes olev teave, mille abil saab sinu kogemuse isiklikumaks muuta|Veebiotsing|Veebiotsing|Otsi faile|Otsi inimesi|Otsi Skype'ist|Otsi kohti|Otsi inimesi ja roboteid|Otsi|Otsi inimesi ja gruppe|Otsi inimesi|Otsi Skype'ist|Otsi|Otsi botte|Otsi inimesi|Otsi inimesi ja botte|Otsi inimesi ja gruppe\")",
+    "text": "Otsi"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Otsi inimesi|Otsi inimesi ja roboteid|Otsi inimesi ja gruppe|Otsi inimesi|Otsi inimesi|Otsi inimesi ja botte|Otsi inimesi ja gruppe\")",
+    "text": "Otsi inimesi"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Otsi roboteid|Otsi Skype'ist|Selleks, et Cortana saaks su küsimustele vastata, aidata sul olulist meeles pidada ja palju muud teha, luba Cortanal koguda ja kasutada oma teavet, sealhulgas järgmist:\n\nasukoht ja asukohtade ajalugu;\n\nkontaktid, kalendri üksikasjad, sõnumite, kiirsõnumite ja rakenduste sisu ning suhtlusajalugu;\n\notsinguajalugu ja muu seadmes olev teave, mille abil saab sinu kogemuse isiklikumaks muuta|Veebiotsing|Veebiotsing|Otsi faile|Otsi inimesi|Otsi Skype'ist|Otsi kohti|Otsi inimesi ja roboteid|Otsi|Otsi inimesi ja gruppe|Otsi inimesi|Otsi Skype'ist|Otsi|Otsi botte|Otsi inimesi|Otsi inimesi ja botte|Otsi inimesi ja gruppe\")",
+    "text": "Otsi"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Sätted"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Logi välja\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Teave\")",
+    "text": "Teave"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} minutit, aegub {expireDate}|Ühenduse loomine teenusega Cortana nurjus. Proovige mõne minuti pärast uuesti.|{hours} h {minutes} min {seconds} s|{hours} h {minutes} min|{minutes} min|{minutes} min {seconds} s|{count} minutit|{count, plural, =1{1 minut tagasi} other{# minutit tagasi}}|{minutes} min|{count, plural, =1{1 minut tagasi} other{# minutit tagasi}}|{count, plural, =1{1 minut tagasi} other{# minutit tagasi}}\")",
+    "text": "{minutes} minutit, aegub {expireDate}|Ühenduse loomine teenusega Cortana nurjus. Proovige mõne minuti pärast uuesti.|{hours} h {minutes} min {seconds} s|{hours} h {minutes} min|{minutes} min|{minutes} min {seconds} s|{count} minutit|{count, plural, =1{1 minut tagasi} other{# minutit tagasi}}|{minutes} min|{count, plural, =1{1 minut tagasi} other{# minutit tagasi}}|{count, plural, =1{1 minut tagasi} other{# minutit tagasi}}"
+  }
+}

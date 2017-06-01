@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigurationMappings
+  VsoPrivateKey="dcdli5jw6xteqs43ojlzlucoiy53tywckvyxckgmqtqdjybxd6gq"
+  VsoRootAccount="VsoRootAccount"
+  VsoProjectName ="VsoProjectName"
+  DbConnectionString="DbConnectionString">
+  <Mappings>
+    <Mapping VsoWorkItemName="VsoWorkItemName1" DbTableName="DbTableName1">
+      <Fields>
+        <Field DataType="DataType" VsoField="VsoField11" DbField="DbField11" />
+        <Field DataType="DataType" VsoField="VsoField12" DbField="DbField12" />
+      </Fields>
+    </Mapping>
+    <Mapping VsoWorkItemName="VsoWorkItemName2" DbTableName="DbTableName2">
+      <Fields>
+        <Field DataType="DataType" VsoField="VsoField21" DbField="DbField21" />
+        <Field DataType="DataType" VsoField="VsoField22" DbField="DbField22" />
+      </Fields>
+    </Mapping>
+  </Mappings>
+</ConfigurationMappings>

@@ -1,0 +1,400 @@
+{
+  "QuickCallPanel.CallMultiplePeople": {
+    "accessibility_id": "Soita usealle henkilölle",
+    "text": ""
+  },
+  "call_multiple_people_open_dial_pad": {
+    "accessibility_id": "Soita puhelinnumeroon"
+  },
+  "call_window_dial_pad_number_1": {
+    "accessibility_id": "1",
+    "text": "1"
+  },
+  "call_window_select_participants": {
+    "text": "Select participants"
+  },
+  "call_window_switch_camera": {
+    "accessibility_id": "Vaihda kameraa",
+    "text": "Vaihda kameraa"
+  },
+  "call_window_gallery_camera": {
+    "accessibility_id": "Kamera",
+    "text": "Kamera"
+  },
+  "call_window_accept_audio_call": {
+    "accessibility_id": "Answer call from {0} with voice only",
+    "text": ""
+  },
+  "call_window_accept_video_call": {
+    "accessibility_id": "Answer call from {0} with video",
+    "text": ""
+  },
+  "call_window_reject_call": {
+    "accessibility_id": "Hylkää",
+    "text": ""
+  },
+  "call_window_menu_toggle": {
+    "accessibility_id": "Näytä tai piilota ohjaimet",
+    "text": "Näytä tai piilota ohjaimet"
+  },
+  "call_window_emoji_menu_toggle": {
+    "accessibility_id": "Näytä reaktiot",
+    "text": "Näytä reaktiot"
+  },
+  "call_window_menu_hang_up": {
+    "accessibility_id": "Lopeta puhelu",
+    "text": ""
+  },
+  "CallControls.CallButtonMute": {
+    "accessibility_id": "Mykistä",
+    "text": ""
+  },
+  "CallControls.CallButtonSwitchCameraBackwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing backward"
+  },
+  "CallControls.CallButtonSwitchCameraForwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing forward"
+  },
+  "CallControls.CallButtonUnmuteAccessibilityLabel": {
+    "accessibility_id": "Poista mykistys",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOffVideoAccessibilityLabel": {
+    "accessibility_id": "Turn off video",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOnVideoAccessibilityLabel": {
+    "accessibility_id": "Turn on video",
+    "text": ""
+  },
+  "call_window_menu_speakerphone": {
+    "accessibility_id": "Kaiutin",
+    "text": "Kaiutin"
+  },
+  "call_window_menu_headset": {
+    "accessibility_id": "Kuulokemikrofoni",
+    "text": "Kuulokemikrofoni"
+  },
+  "capture_window_captured_picture_draw": {
+    "accessibility_id": "Pen draw with ink.",
+    "text": ""
+  },
+  "CapturePanel.MediaPickerAccessibilityLabel": {
+    "accessibility_id": "Open photo gallery",
+    "text": ""
+  },
+  "CapturePanel.SwitchCameraToFrontAccessibilityLabel": {
+    "accessibility_id": "Switch to front-facing camera"
+  },
+  "CapturePanel.SwitchCameraToBackAccessibilityLabel": {
+    "accessibility_id": "Switch to back-facing camera"
+  },
+  "HighlightsTooltipPopup.FollowTooltip": {
+    "text": "Follow some friends here"
+  },
+  "HighlightsTooltipPopup.ShareMyHighlightsTooltip": {
+    "text": "Share your highlights here"
+  },
+  "capture_window_captured_picture_add_text": {
+    "accessibility_id": "Lisää kuvaus",
+    "text": "Lisää kuvaus"
+  },
+  "MyHighlightsPanel.Title": {
+    "text": "Manage Highlights"
+  },
+  "capture_window_permission": {
+    "text": "Anna Skypelle kameran käyttöoikeus"
+  },
+  "capture_window_accept_permissions": {
+    "accessibility_id": "Kameran käyttöoikeus"
+  },
+  "capture_window_send_message": {
+    "accessibility_id": "Send to {0}",
+    "text": ""
+  },
+  "capture_window_captured_media_tutorial": {
+    "text": "Jaa omiin kohokohtiin"
+  },
+  "CapturePreview.HighlightsAccessibilityLabel": {
+    "accessibility_id": "Send to Highlights",
+    "text": ""
+  },
+  "capture_window_first_time_tutorial": {
+    "text": "Ota kuva napauttamalla, ota video pitämällä painettuna"
+  },
+  "capture_window_post_to_highlights_ok": {
+    "text": "OK"
+  },
+  "capture_window_post_to_highlights_sent": {
+    "text": "Lähetetty"
+  },
+  "capture_window_captured_picture_add_text_element": {
+    "accessibility_id": "Lisää kuvaus",
+    "text": "Lisää kuvaus"
+  },
+  "capture_window_captured_picture_add_emoji": {
+    "accessibility_id": "Tarrat",
+    "text": "Tarrat"
+  },
+  "chat_window_call": {
+    "accessibility_id": "Soita",
+    "text": "Soita"
+  },
+  "call_multiple_people_start_call": {
+    "accessibility_id": "Aloita uusi ryhmäpuhelu",
+    "text": "Aloita uusi ryhmäpuhelu"
+  },
+  "chat_window_capture": {
+    "accessibility_id": "Sieppaus"
+  },
+  "CallQualityFeedback.Title": {
+    "text": "How would you rate the quality of this call?"
+  },
+  "chat_window_user_online": {
+    "text": "AKTIIVINEN TÄLLÄ HETKELLÄ"
+  },
+  "chat_window_user_offline": {
+    "text": "Offline"
+  },
+  "chat_window_user_do_not_disturb": {
+    "text": "Älä häiritse"
+  },
+  "chat_window_user_away": {
+    "text": "Away"
+  },
+  "chat_window_user_unknown": {
+    "text": "Tuntematon"
+  },
+  "chat_window_send_message": {
+    "accessibility_id": "Lähetä viesti",
+    "text": "Lähetä viesti"
+  },
+  "chat_window_video_call": {
+    "accessibility_id": "Videopuhelu",
+    "text": "Videopuhelu"
+  },
+  "chat_window_add_emoticon": {
+    "accessibility_id": "Avaa hymiövalitsin",
+    "text": ""
+  },
+  "chat_window_record_audio": {
+    "accessibility_id": "Nauhoita viesti",
+    "text": "Nauhoita viesti"
+  },
+  "chat_window_send_audio_message": {
+    "accessibility_id": "Lähetä ääniviesti",
+    "text": "Lähetä ääniviesti"
+  },
+  "chat_window_open_location_window": {
+    "accessibility_id": "Jaa oma sijainti",
+    "text": ""
+  },
+  "chat_window_open_moji_window": {
+    "accessibility_id": "Avaa Moji-valitsin",
+    "text": ""
+  },
+  "chat_window_send_moji": {
+    "accessibility_id": "Lähetä Moji"
+  },
+  "chat_window_cancel_audio_message": {
+    "accessibility_id": "Peruuta tallennus",
+    "text": "Peruuta tallennus"
+  },
+  "chat_window_react_button": {
+    "accessibility_id": "Reagoi tähän viestiin",
+    "text": "Reagoi tähän viestiin"
+  },
+  "chat_window_copy_message": {
+    "text": "Kopioi"
+  },
+  "chat_window_message": {
+    "text": "Kirjoita viesti tähän"
+  },
+  "highlights_skip_tutorial": {
+    "accessibility_id": "Ohita",
+    "text": "Ohita"
+  },
+  "highlight_window_first_time_tutorial": {
+    "text": "Welcome to Highlights!"
+  },
+  "highlights_window_my_followers": {
+    "text": "My Followers"
+  },
+  "HubHeaderPanel.MyHighlightsButtonLabel": {
+    "accessibility_id": "Manage My Highlights.",
+    "text": ""
+  },
+  "ViewMyHighlights": {
+    "text": "Kohokohdat"
+  },
+  "Highlights_Window_Follow_People": {
+    "accessibility_id": "Follow People"
+  },
+  "highlights_window_add_people": {
+    "text": "Add people"
+  },
+  "location_window_search_places": {
+    "accessibility_id": "Etsi paikkoja",
+    "text": ""
+  },
+  "location_window_share_location": {
+    "text": ""
+  },
+  "location_window_failed_to_get_location": {
+    "text": "Sijaintiasi ei valitettavasti löydy juuri nyt."
+  },
+  "login_window_account_failure": {
+    "accessibility_id": "There was an issue looking up your account. Tap Next to try again."
+  },
+  "login_window_next_button": {
+    "accessibility_id": "Seuraava",
+    "id": "idSIButton9"
+  },
+  "login_window_terms_of_use": {
+    "text": "Enter password"
+  },
+  "login_window_sign_in_button": {
+    "accessibility_id": "Sign in",
+    "text": "Sign in"
+  },
+  "main_skip_tutorial": {
+    "accessibility_id": "Let’s go!",
+    "text": "Got it, let’s go!"
+  },
+  "main_confidential_accept": {
+    "text": "Selvä, aloitetaan."
+  },
+  "main_username": {
+    "accessibility_id": "Email, phone, or Skype name",
+    "text": "Email, phone, or Skype name",
+    "id": "i0116"
+  },
+  "main_password": {
+    "accessibility_id": "Password",
+    "text": "Password",
+    "id": "i0118"
+  },
+  "main_privacy_policy": {
+    "text": "Seuraava"
+  },
+  "main_window_action_menu": {
+    "accessibility_id": "Uusi keskustelu tai yhteyshenkilö",
+    "text": "Uusi keskustelu tai yhteyshenkilö"
+  },
+  "main_window_capture_tab": {
+    "accessibility_id": "Capture Tab. 3 of 3.",
+    "text": "Sieppaus"
+  },
+  "main_window_recents_tab": {
+    "text": "Keskustelut"
+  },
+  "main_window_send_feedback": {
+    "accessibility_id": "Lähetä palautetta",
+    "text": ""
+  },
+  "main_window_new_conversation_new_group": {
+    "accessibility_id": "Uusi ryhmä",
+    "text": "Uusi ryhmä",
+    "xpath": "//*[contains(@text,'New Group')]"
+  },
+  "main_window_new_conversation_new_chat": {
+    "accessibility_id": "Uusi keskustelu",
+    "text": "Uusi keskustelu",
+    "xpath": "//*[contains(@text,'New Chat')]"
+  },
+  "main_window_new_conversation_add_contact": {
+    "accessibility_id": "Kutsu henkilöitä Skypeen",
+    "text": "Kutsu henkilöitä Skypeen",
+    "xpath": "//*[contains(@text,'Invite People to Skype')]"
+  },
+  "main_window_new_conversation_add_bot": {
+    "accessibility_id": "Etsi botteja",
+    "text": "Etsi botteja",
+    "xpath": "//*[contains(@text,'Find Bots')]"
+  },
+  "main_window_new_conversation_create_group_done": {
+    "accessibility_id": "Valmis",
+    "text": "Valmis"
+  },
+  "main_window_action_menu_start_call": {
+    "accessibility_id": "Start a call",
+    "text": "Start a call",
+    "xpath": "//*[contains(@text,'Start a call')]"
+  },
+  "main_window_back_navigation": {
+    "accessibility_id": "Takaisin",
+    "text": "Takaisin"
+  },
+  "main_window_exit_navigation": {
+    "accessibility_id": "Sulje"
+  },
+  "QuickCallPanel.CloseButtonAccessibilityLabel": {
+    "accessibility_id": "Close calls"
+  },
+  "main_window_cancel_navigation": {
+    "accessibility_id": "Peruuta",
+    "text": "Peruuta"
+  },
+  "main_window_capture_flash": {
+    "accessibility_id": "Salama",
+    "text": "Salama"
+  },
+  "main_window_hightlights_tab": {
+    "accessibility_id": "No new highlights. Tab. 1 of 3.",
+    "text": "Kohokohdat"
+  },
+  "main_pre_login_button": {
+    "accessibility_id": "Kirjaudu sisään",
+    "text": "Kirjaudu sisään"
+  },
+  "main_window_new_conversation_user_search": {
+    "accessibility_id": "Hae Skypestä",
+    "text": "Hae Skypestä"
+  },
+  "main_window_new_conversation_contact_search": {
+    "accessibility_id": "Ihmiset",
+    "text": "Ihmiset"
+  },
+  "main_window_new_conversation_contact_search_bar": {
+    "accessibility_id": "Etsi henkilöitä ja ryhmiä",
+    "text": "Etsi henkilöitä ja ryhmiä"
+  },
+  "SearchInputControl.ClearTextAccessibilityLabel": {
+    "accessibility_id": "Clear search text",
+    "text": ""
+  },
+  "main_window_new_conversation_chat_person_search": {
+    "accessibility_id": "Hae henkilöitä ja botteja",
+    "text": "Hae henkilöitä ja botteja"
+  },
+  "main_window_new_conversation_name_group": {
+    "accessibility_id": "Chat Name: null",
+    "text": "Keskustelun nimi"
+  },
+  "main_window_new_conversation_name_group_next": {
+    "accessibility_id": "Seuraava, käytössä",
+    "text": "Seuraava"
+  },
+  "my_highlights_confirm_upload_successful": {
+    "text": ".*minutes.*|.*minute ago.*|.*Just now.*"
+  },
+  "no_internet_pre_login": {
+    "text": "Unable to sign in, please check your internet connection and try again."
+  },
+  "profile_window_view_photo": {
+    "text": "Näytä valokuva"
+  },
+  "profile_window_signout": {
+    "accessibility_id": "Kirjaudu ulos",
+    "text": "Kirjaudu ulos"
+  },
+  "profile_window_upload_photo": {
+    "text": "Lataa valokuva"
+  },
+  "profile_window_remove_photo": {
+    "text": "Poista kuva"
+  },
+  "send_feedback_window_include_user_data": {
+    "text": "Sisällytä lokitiedostot ja sovelluksen näyttökuva."
+  }
+}

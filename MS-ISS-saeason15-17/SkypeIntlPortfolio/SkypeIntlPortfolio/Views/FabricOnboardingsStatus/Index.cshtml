@@ -1,0 +1,99 @@
+﻿@model SkypeIntlPortfolio.ViewModel.FabricOnboardingsHighLevelViewModel
+@section styles
+{
+
+
+
+    @*<style>
+        #reportViewer1 {
+            position: absolute;
+            left: 5px;
+            right: 5px;
+            top: 5px;
+            bottom: 5px;
+            overflow: hidden;
+            font-family: Verdana, Arial;
+        }
+    </style>*@
+    <style>
+        #reportViewer1 {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            height: 100vh;
+            width: 100%;
+            overflow:auto;
+        }
+    </style>
+
+    <link href="@Url.Content("~/ReportViewer/styles/telerikReportViewer-9.0.15.225.css")" rel="stylesheet" />
+}
+@{
+    var typeReportSource = new TypeReportSource() { TypeName = typeof(SkypeIntlPortfolio.Reports.FabricOnboardingReport).AssemblyQualifiedName };
+    typeReportSource.Parameters.Add("FabricOnboardingsDetailsUrl", Model.FabricOnboardingsDetailsUrl);
+}
+
+<div class="jumbotron">
+    <h1>SkypeIntl Portfolio</h1>
+    <p class="lead">
+        Fabric Onboarding Status
+    </p>
+</div>
+
+
+@(Html.TelerikReporting().ReportViewer()
+        // Each report viewer must have an id - it will be used by the initialization script
+        // to find the element and initialize the report viewer.
+        .Id("reportViewer1")
+        // The URL of the service which will serve reports.
+        // The URL corresponds to the name of the controller class (ReportsController).
+        // For more information on how to configure the service please check http://www.telerik.com/help/reporting/telerik-reporting-rest-conception.html.
+        .ServiceUrl(Url.Content("~/api/reports/"))
+        // The URL for the report viewer template. The template can be edited -
+        // new functionalities can be added and unneeded ones can be removed.
+        // For more information please check http://www.telerik.com/help/reporting/html5-report-viewer-templates.html.
+        .TemplateUrl(Url.Content("~/ReportViewer/templates/telerikReportViewerTemplate-9.0.15.225.html"))
+        // Strongly typed ReportSource - TypeReportSource or UriReportSource.
+        .ReportSource(typeReportSource)
+        // Specifies whether the viewer is in interactive or print preview mode.
+        // PRINT_PREVIEW - Displays the paginated report as if it is printed on paper. Interactivity is not enabled.
+        // INTERACTIVE - Displays the report in its original width and height with no paging. Additionally interactivity is enabled.
+        .ViewMode(ViewModes.INTERACTIVE)
+        // Sets the scale mode of the viewer.
+        // Three modes exist currently:
+        // FIT_PAGE - The whole report will fit on the page (will zoom in or out), regardless of its width and height.
+        // FIT_PAGE_WIDTH - The report will be zoomed in or out so that the width of the screen and the width of the report match.
+        // SPECIFIC - Uses the scale to zoom in and out the report.
+        .ScaleMode(ScaleModes.FIT_PAGE_WIDTH)
+        // Zoom in and out the report using the scale
+        // 1.0 is equal to 100%, i.e. the original size of the report
+        .Scale(1.0)
+        // Sets whether the viewer’s client session to be persisted between the page’s refreshes(ex. postback).
+        // The session is stored in the browser’s sessionStorage and is available for the duration of the page session.
+        .PersistSession(false)
+        // Sets the print mode of the viewer.
+        .PrintMode(PrintMode.AutoSelect)
+        // Defers the script initialization statement. Check the scripts section below -
+        // each deferred script will be rendered at the place of TelerikReporting().DeferredScripts().
+        .Deferred()
+)
+
+@section custom_script
+{
+    <!--kendo.all.min.js can be used as well instead of kendo.web.min.js and kendo.mobile.min.js-->
+    <script src="@Url.Content("~/ReportViewer/js/telerikReportViewer-9.0.15.225.js")"></script>
+
+    @*<script src="http://cdn.kendostatic.com/2013.2.918/js/kendo.web.min.js"></script>*@
+    <!--kendo.mobile.min.js - optional, if gestures/touch support is required-->
+    @*<script src="http://cdn.kendostatic.com/2013.2.918/js/kendo.mobile.min.js"></script>*@
+
+
+    @(
+
+
+        // All deferred initialization statements will be rendered here
+        Html.TelerikReporting().DeferredScripts()
+    )
+
+<script type="text/javascript" src="~/Scripts/Custom/fabricOnboardingsStatus.js"></script>
+
+}

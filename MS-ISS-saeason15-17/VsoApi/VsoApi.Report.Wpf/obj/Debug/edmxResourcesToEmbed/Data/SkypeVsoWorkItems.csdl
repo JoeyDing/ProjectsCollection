@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkypeVsoWorkItemsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="EnablingSpecificationRevision">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Rev" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Rev" Type="Int32" Nullable="false" />
+    <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+    <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+    <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Created_Date" Type="DateTime" Precision="3" />
+    <Property Name="Due_Date" Type="DateTime" Precision="3" />
+    <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Resolved_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+    <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LocalizationImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="WorldReadinessImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Initiator" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Review_Required" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Blocking" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Estimate_Points" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Estimate_TShirt" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Keywords" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Release" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Engineering_Effort" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="EpicRevision">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Rev" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Rev" Type="Int32" Nullable="false" />
+    <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+    <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+    <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Created_Date" Type="DateTime" Precision="3" />
+    <Property Name="Due_Date" Type="DateTime" Precision="3" />
+    <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Resolved_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+    <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LocalizationImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Swag" Type="Int32" />
+    <Property Name="WorldReadinessImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TaskRevision">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Rev" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Rev" Type="Int32" Nullable="false" />
+    <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Created_Date" Type="DateTime" Precision="3" />
+    <Property Name="Resolved_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+    <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+    <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+    <Property Name="Due_Date" Type="DateTime" Precision="3" />
+    <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LocalizationImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="WorldReadinessImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Initiator" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Estimate_Points" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Estimate_TShirt" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Original_Estimate" Type="Double" />
+    <Property Name="Completed_Work" Type="Double" />
+    <Property Name="Remaining_Work" Type="Double" />
+    <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="WorkItemLink">
+    <Key>
+      <PropertyRef Name="Source_ID" />
+      <PropertyRef Name="Target_ID" />
+      <PropertyRef Name="Link_Type" />
+      <PropertyRef Name="Is_Active" />
+      <PropertyRef Name="Changed_Date" />
+    </Key>
+    <Property Name="Source_ID" Type="Int64" Nullable="false" />
+    <Property Name="Target_ID" Type="Int64" Nullable="false" />
+    <Property Name="Link_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Is_Active" Type="Boolean" Nullable="false" />
+    <Property Name="Changed_Date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="SkypeVsoWorkItemsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EnablingSpecificationRevisions" EntityType="Self.EnablingSpecificationRevision" />
+    <EntitySet Name="EpicRevisions" EntityType="Self.EpicRevision" />
+    <EntitySet Name="TaskRevisions" EntityType="Self.TaskRevision" />
+    <EntitySet Name="WorkItemLinks" EntityType="Self.WorkItemLink" />
+  </EntityContainer>
+</Schema>

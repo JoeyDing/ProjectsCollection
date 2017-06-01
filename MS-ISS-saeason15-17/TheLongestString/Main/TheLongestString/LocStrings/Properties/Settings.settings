@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TheLongestString.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FileSearchPattern" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LyncImmStrings.rest.lcl</Value>
+    </Setting>
+    <Setting Name="LcxFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\LCL</Value>
+    </Setting>
+    <Setting Name="FontToRender" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Segoe UI</Value>
+    </Setting>
+    <Setting Name="FontSizeToRender" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

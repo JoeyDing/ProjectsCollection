@@ -1,0 +1,144 @@
+﻿<Window x:Class="TheLongestString.MainWindow"
+        x:Name="Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:clr="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:TheLongestString"
+        Title="The Longest String" Height="600" Width="800"
+        Loaded="Window_Loaded" WindowState="Maximized">
+
+    <Window.Resources>
+        <Style x:Key="InfoBox" TargetType="Border">
+            <Setter Property="Padding" Value="7,4,7,4" />
+            <Setter Property="Margin" Value="2" />
+        </Style>
+
+        <Style x:Key="TranslationTextCellStyle" TargetType="DataGridCell">
+            <Setter Property="FontSize" Value="{Binding ElementName=Window,Path=DataContext.RenderFontSize}" />
+            <Setter Property="FontFamily" Value="{Binding ElementName=Window,Path=DataContext.RenderTypeface.FontFamily}" />
+        </Style>
+    </Window.Resources>
+
+    <local:CustomBusyIndicator IsBusy="{Binding Path=IsBusy}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid>
+                <TextBlock x:Name="StatusBar" Text="Status bar." Padding="5,2,5,10" />
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0">
+
+                        <Border Background="#BFEE4037" Style="{StaticResource InfoBox}">
+                            <TextBlock VerticalAlignment="Center">Build: <Run Text="{Binding BuildNumber,Mode=OneWay}" /></TextBlock>
+                        </Border>
+
+                        <Border Background="#E5F47737" Style="{StaticResource InfoBox}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Source Culture: " VerticalAlignment="Center" />
+                                <Button VerticalAlignment="Center" Click="SourceDictionaryButton_Click" Padding="5,2,5,2">
+                                    <TextBlock><Run Text="{Binding SourceDictionary.CultureName,Mode=OneWay}" /> strings</TextBlock>
+                                </Button>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Background="#F0ED7A" Style="{StaticResource InfoBox}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Save list of longest strings: " VerticalAlignment="Center" />
+                                <Button VerticalAlignment="Center" Click="SaveLongestStringsButton_Click" Padding="5,2,5,2" Content="Save..." />
+                            </StackPanel>
+                        </Border>
+
+                        <Border Background="#81BC44" Style="{StaticResource InfoBox}">
+                            <TextBlock VerticalAlignment="Center">Viewport Width: <Run Text="{Binding ElementName=TranslationColumn,Path=ActualWidth,Mode=OneWay,StringFormat=\{0:0.00\}}" /></TextBlock>
+                        </Border>
+
+                        <Border Background="#A8D7EB" Style="{StaticResource InfoBox}">
+                            <StackPanel>
+                                <Grid Margin="0 0 0 5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30"/>
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center">Font:</TextBlock>
+                                    <ComboBox Grid.Row="0" Grid.Column="1"
+                                      ItemsSource="{Binding Path=FontNames}"
+                                      SelectedItem="{Binding Path=SelectedFontName, Mode=TwoWay}"/>
+                                    <TextBlock Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">Size:</TextBlock>
+                                    <ComboBox Grid.Row="2" Grid.Column="1" 
+                                      ItemsSource="{Binding Path=FontSizes}"
+                                      SelectedItem="{Binding Path=RenderFontSize, Mode=TwoWay}"/>
+                                </Grid>
+                                <TextBlock><Run Text="{Binding SourceDictionary.CultureName,Mode=OneWay}" /> Width: <Run Text="{Binding Localizations.SourceCultureWidth,Mode=OneWay,StringFormat=\{0:0.00\}}" /></TextBlock>
+                                <TextBlock>Max Width: <Run Text="{Binding Localizations.MaximumWidth,Mode=OneWay,StringFormat=\{0:0.00\}}" /></TextBlock>
+                                <TextBlock>Average Width: <Run Text="{Binding Localizations.AverageWidth,Mode=OneWay,StringFormat=\{0:0.00\}}" /></TextBlock>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- List of all the IDs -->
+                    <Border Style="{StaticResource InfoBox}" Grid.Row="1" VerticalAlignment="Stretch">
+                        <ListBox ItemsSource="{Binding Ids}" 
+                             SelectedIndex="{Binding SelectedLocIdIndex,Mode=TwoWay}" 
+                             ScrollViewer.VerticalScrollBarVisibility="Auto"
+                             SelectionChanged="ListBox_SelectionChanged" 
+                             Name="ids_lb"/>
+                    </Border>
+                </Grid>
+
+                <DataGrid x:Name="DataGrid" Grid.Column="2" ItemsSource="{Binding Localizations,Mode=OneWay}" AutoGenerateColumns="False" HorizontalAlignment="Stretch" IsReadOnly="True">
+                    <DataGrid.Resources>
+                        <Style x:Key="TextCellStyle" TargetType="DataGridCell">
+                            <Setter Property="VerticalAlignment" Value="Stretch" />
+                        </Style>
+
+                        <Style TargetType="DataGridRow">
+                            <Style.Triggers>
+                                <!-- Highlight any rows that are max width -->
+                                <DataTrigger Binding="{Binding IsMaxWidth}" Value="True">
+                                    <Setter Property="Background" Value="Pink" />
+                                </DataTrigger>
+
+                                <!-- Highlight the row that is the source dictionary -->
+                                <DataTrigger Binding="{Binding Dictionary.CultureName}" Value="en-US">
+                                    <Setter Property="Background" Value="Gold" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+
+                        <DataTemplate x:Key="BasicCellTemplate">
+                            <Border VerticalAlignment="Stretch">
+                                <TextBlock VerticalAlignment="Bottom" Text="{Binding Language}" />
+                            </Border>
+                        </DataTemplate>
+                    </DataGrid.Resources>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Culture" Binding="{Binding Dictionary.CultureName}" CellStyle="{StaticResource TextCellStyle}" />
+                        <DataGridTextColumn Header="Width" Binding="{Binding Width,StringFormat=\{0:0.00\}}" CellStyle="{StaticResource TextCellStyle}" />
+                        <DataGridTextColumn x:Name="TranslationColumn" Header="String" Binding="{Binding String}" CellStyle="{StaticResource TranslationTextCellStyle}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+    </local:CustomBusyIndicator>
+</Window>

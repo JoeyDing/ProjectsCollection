@@ -1,0 +1,14 @@
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParser\bin\Debug\CiFxMappingParser.exe.config
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParser\bin\Debug\CiFxMappingParser.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParser\bin\Debug\CiFxMappingParser.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParser\obj\Debug\CiFxMappingParser.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\CiFxMappingParser\CiFxMappingParser\obj\Debug\CiFxMappingParser.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\bin\Debug\CiFxMappingParser.exe.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\bin\Debug\CiFxMappingParser.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\bin\Debug\CiFxMappingParser.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\bin\Debug\CommandLine.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\bin\Debug\CommandLine.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\bin\Debug\Newtonsoft.Json.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\obj\Debug\CiFxMappingParser.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\CiFxMappingParser\CiFxMappingParser\obj\Debug\CiFxMappingParser.pdb

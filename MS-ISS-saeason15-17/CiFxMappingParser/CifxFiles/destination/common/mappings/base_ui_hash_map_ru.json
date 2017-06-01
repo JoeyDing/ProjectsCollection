@@ -1,0 +1,400 @@
+{
+  "QuickCallPanel.CallMultiplePeople": {
+    "accessibility_id": "Групповой звонок",
+    "text": ""
+  },
+  "call_multiple_people_open_dial_pad": {
+    "accessibility_id": "Набрать номер телефона"
+  },
+  "call_window_dial_pad_number_1": {
+    "accessibility_id": "1",
+    "text": "1"
+  },
+  "call_window_select_participants": {
+    "text": "Select participants"
+  },
+  "call_window_switch_camera": {
+    "accessibility_id": "Переключение на другую камеру",
+    "text": "Переключение на другую камеру"
+  },
+  "call_window_gallery_camera": {
+    "accessibility_id": "Камера",
+    "text": "Камера"
+  },
+  "call_window_accept_audio_call": {
+    "accessibility_id": "Answer call from {0} with voice only",
+    "text": ""
+  },
+  "call_window_accept_video_call": {
+    "accessibility_id": "Answer call from {0} with video",
+    "text": ""
+  },
+  "call_window_reject_call": {
+    "accessibility_id": "Отклонить",
+    "text": ""
+  },
+  "call_window_menu_toggle": {
+    "accessibility_id": "Переключатели",
+    "text": "Переключатели"
+  },
+  "call_window_emoji_menu_toggle": {
+    "accessibility_id": "Показать реакции",
+    "text": "Показать реакции"
+  },
+  "call_window_menu_hang_up": {
+    "accessibility_id": "Завершить звонок",
+    "text": ""
+  },
+  "CallControls.CallButtonMute": {
+    "accessibility_id": "Отключить звук",
+    "text": ""
+  },
+  "CallControls.CallButtonSwitchCameraBackwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing backward"
+  },
+  "CallControls.CallButtonSwitchCameraForwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing forward"
+  },
+  "CallControls.CallButtonUnmuteAccessibilityLabel": {
+    "accessibility_id": "Включить звук",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOffVideoAccessibilityLabel": {
+    "accessibility_id": "Turn off video",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOnVideoAccessibilityLabel": {
+    "accessibility_id": "Turn on video",
+    "text": ""
+  },
+  "call_window_menu_speakerphone": {
+    "accessibility_id": "Динамик",
+    "text": "Динамик"
+  },
+  "call_window_menu_headset": {
+    "accessibility_id": "Гарнитура",
+    "text": "Гарнитура"
+  },
+  "capture_window_captured_picture_draw": {
+    "accessibility_id": "Pen draw with ink.",
+    "text": ""
+  },
+  "CapturePanel.MediaPickerAccessibilityLabel": {
+    "accessibility_id": "Open photo gallery",
+    "text": ""
+  },
+  "CapturePanel.SwitchCameraToFrontAccessibilityLabel": {
+    "accessibility_id": "Switch to front-facing camera"
+  },
+  "CapturePanel.SwitchCameraToBackAccessibilityLabel": {
+    "accessibility_id": "Switch to back-facing camera"
+  },
+  "HighlightsTooltipPopup.FollowTooltip": {
+    "text": "Follow some friends here"
+  },
+  "HighlightsTooltipPopup.ShareMyHighlightsTooltip": {
+    "text": "Share your highlights here"
+  },
+  "capture_window_captured_picture_add_text": {
+    "accessibility_id": "Добавить текст",
+    "text": "Добавить текст"
+  },
+  "MyHighlightsPanel.Title": {
+    "text": "Manage Highlights"
+  },
+  "capture_window_permission": {
+    "text": "Предоставьте Skype доступ к вашей камере"
+  },
+  "capture_window_accept_permissions": {
+    "accessibility_id": "Разрешение камеры"
+  },
+  "capture_window_send_message": {
+    "accessibility_id": "Send to {0}",
+    "text": ""
+  },
+  "capture_window_captured_media_tutorial": {
+    "text": "Отправить в Хайлайты"
+  },
+  "CapturePreview.HighlightsAccessibilityLabel": {
+    "accessibility_id": "Send to Highlights",
+    "text": ""
+  },
+  "capture_window_first_time_tutorial": {
+    "text": "Касание — фото, удержание — видео"
+  },
+  "capture_window_post_to_highlights_ok": {
+    "text": "ОК"
+  },
+  "capture_window_post_to_highlights_sent": {
+    "text": "Отправлено"
+  },
+  "capture_window_captured_picture_add_text_element": {
+    "accessibility_id": "Добавить текст",
+    "text": "Добавить текст"
+  },
+  "capture_window_captured_picture_add_emoji": {
+    "accessibility_id": "Наклейки",
+    "text": "Наклейки"
+  },
+  "chat_window_call": {
+    "accessibility_id": "Позвонить",
+    "text": "Позвонить"
+  },
+  "call_multiple_people_start_call": {
+    "accessibility_id": "Новый групповой звонок",
+    "text": "Новый групповой звонок"
+  },
+  "chat_window_capture": {
+    "accessibility_id": "Камера"
+  },
+  "CallQualityFeedback.Title": {
+    "text": "How would you rate the quality of this call?"
+  },
+  "chat_window_user_online": {
+    "text": "Активен сейчас"
+  },
+  "chat_window_user_offline": {
+    "text": "Offline"
+  },
+  "chat_window_user_do_not_disturb": {
+    "text": "Не беспокоить"
+  },
+  "chat_window_user_away": {
+    "text": "Away"
+  },
+  "chat_window_user_unknown": {
+    "text": "Неизвестно"
+  },
+  "chat_window_send_message": {
+    "accessibility_id": "Отправить сообщение",
+    "text": "Отправить сообщение"
+  },
+  "chat_window_video_call": {
+    "accessibility_id": "Видеозвонок",
+    "text": "Видеозвонок"
+  },
+  "chat_window_add_emoticon": {
+    "accessibility_id": "Открытие средства выбора эмотиконов",
+    "text": ""
+  },
+  "chat_window_record_audio": {
+    "accessibility_id": "Записать сообщение",
+    "text": "Записать сообщение"
+  },
+  "chat_window_send_audio_message": {
+    "accessibility_id": "Отправка голосовых сообщений",
+    "text": "Отправка голосовых сообщений"
+  },
+  "chat_window_open_location_window": {
+    "accessibility_id": "Предоставление доступа к данным о местоположении",
+    "text": ""
+  },
+  "chat_window_open_moji_window": {
+    "accessibility_id": "Открытие средства выбора Модзи",
+    "text": ""
+  },
+  "chat_window_send_moji": {
+    "accessibility_id": "Отправить модзи"
+  },
+  "chat_window_cancel_audio_message": {
+    "accessibility_id": "Отменить запись",
+    "text": "Отменить запись"
+  },
+  "chat_window_react_button": {
+    "accessibility_id": "Отреагировать на сообщение",
+    "text": "Отреагировать на сообщение"
+  },
+  "chat_window_copy_message": {
+    "text": "Копировать"
+  },
+  "chat_window_message": {
+    "text": "Введите здесь текст сообщения"
+  },
+  "highlights_skip_tutorial": {
+    "accessibility_id": "Пропустить",
+    "text": "Пропустить"
+  },
+  "highlight_window_first_time_tutorial": {
+    "text": "Welcome to Highlights!"
+  },
+  "highlights_window_my_followers": {
+    "text": "My Followers"
+  },
+  "HubHeaderPanel.MyHighlightsButtonLabel": {
+    "accessibility_id": "Manage My Highlights.",
+    "text": ""
+  },
+  "ViewMyHighlights": {
+    "text": "Хайлайты"
+  },
+  "Highlights_Window_Follow_People": {
+    "accessibility_id": "Follow People"
+  },
+  "highlights_window_add_people": {
+    "text": "Add people"
+  },
+  "location_window_search_places": {
+    "accessibility_id": "Поиск среди мест",
+    "text": ""
+  },
+  "location_window_share_location": {
+    "text": ""
+  },
+  "location_window_failed_to_get_location": {
+    "text": "К сожалению, сейчас не удалось установить, где вы."
+  },
+  "login_window_account_failure": {
+    "accessibility_id": "There was an issue looking up your account. Tap Next to try again."
+  },
+  "login_window_next_button": {
+    "accessibility_id": "Далее",
+    "id": "idSIButton9"
+  },
+  "login_window_terms_of_use": {
+    "text": "Enter password"
+  },
+  "login_window_sign_in_button": {
+    "accessibility_id": "Sign in",
+    "text": "Sign in"
+  },
+  "main_skip_tutorial": {
+    "accessibility_id": "Let’s go!",
+    "text": "Got it, let’s go!"
+  },
+  "main_confidential_accept": {
+    "text": "Есть! Поехали."
+  },
+  "main_username": {
+    "accessibility_id": "Email, phone, or Skype name",
+    "text": "Email, phone, or Skype name",
+    "id": "i0116"
+  },
+  "main_password": {
+    "accessibility_id": "Password",
+    "text": "Password",
+    "id": "i0118"
+  },
+  "main_privacy_policy": {
+    "text": "Далее"
+  },
+  "main_window_action_menu": {
+    "accessibility_id": "Создать беседу или контакт",
+    "text": "Создать беседу или контакт"
+  },
+  "main_window_capture_tab": {
+    "accessibility_id": "Capture Tab. 3 of 3.",
+    "text": "Камера"
+  },
+  "main_window_recents_tab": {
+    "text": "Чаты"
+  },
+  "main_window_send_feedback": {
+    "accessibility_id": "Отправить отзыв",
+    "text": ""
+  },
+  "main_window_new_conversation_new_group": {
+    "accessibility_id": "Новая группа",
+    "text": "Новая группа",
+    "xpath": "//*[contains(@text,'New Group')]"
+  },
+  "main_window_new_conversation_new_chat": {
+    "accessibility_id": "Новый чат",
+    "text": "Новый чат",
+    "xpath": "//*[contains(@text,'New Chat')]"
+  },
+  "main_window_new_conversation_add_contact": {
+    "accessibility_id": "Позвать других в Skype",
+    "text": "Позвать других в Skype",
+    "xpath": "//*[contains(@text,'Invite People to Skype')]"
+  },
+  "main_window_new_conversation_add_bot": {
+    "accessibility_id": "Найти боты",
+    "text": "Найти боты",
+    "xpath": "//*[contains(@text,'Find Bots')]"
+  },
+  "main_window_new_conversation_create_group_done": {
+    "accessibility_id": "Готово",
+    "text": "Готово"
+  },
+  "main_window_action_menu_start_call": {
+    "accessibility_id": "Start a call",
+    "text": "Start a call",
+    "xpath": "//*[contains(@text,'Start a call')]"
+  },
+  "main_window_back_navigation": {
+    "accessibility_id": "Назад",
+    "text": "Назад"
+  },
+  "main_window_exit_navigation": {
+    "accessibility_id": "Закрыть"
+  },
+  "QuickCallPanel.CloseButtonAccessibilityLabel": {
+    "accessibility_id": "Close calls"
+  },
+  "main_window_cancel_navigation": {
+    "accessibility_id": "Отмена",
+    "text": "Отмена"
+  },
+  "main_window_capture_flash": {
+    "accessibility_id": "Вспышка",
+    "text": "Вспышка"
+  },
+  "main_window_hightlights_tab": {
+    "accessibility_id": "No new highlights. Tab. 1 of 3.",
+    "text": "Хайлайты"
+  },
+  "main_pre_login_button": {
+    "accessibility_id": "Войти",
+    "text": "Войти"
+  },
+  "main_window_new_conversation_user_search": {
+    "accessibility_id": "Поиск в Skype",
+    "text": "Поиск в Skype"
+  },
+  "main_window_new_conversation_contact_search": {
+    "accessibility_id": "Люди",
+    "text": "Люди"
+  },
+  "main_window_new_conversation_contact_search_bar": {
+    "accessibility_id": "Поиск людей и групп",
+    "text": "Поиск людей и групп"
+  },
+  "SearchInputControl.ClearTextAccessibilityLabel": {
+    "accessibility_id": "Clear search text",
+    "text": ""
+  },
+  "main_window_new_conversation_chat_person_search": {
+    "accessibility_id": "Поиск людей и ботов",
+    "text": "Поиск людей и ботов"
+  },
+  "main_window_new_conversation_name_group": {
+    "accessibility_id": "Chat Name: null",
+    "text": "Имя чата"
+  },
+  "main_window_new_conversation_name_group_next": {
+    "accessibility_id": "Далее, включено",
+    "text": "Далее"
+  },
+  "my_highlights_confirm_upload_successful": {
+    "text": ".*minutes.*|.*minute ago.*|.*Just now.*"
+  },
+  "no_internet_pre_login": {
+    "text": "Unable to sign in, please check your internet connection and try again."
+  },
+  "profile_window_view_photo": {
+    "text": "Просмотреть фотографию"
+  },
+  "profile_window_signout": {
+    "accessibility_id": "Выйти",
+    "text": "Выйти"
+  },
+  "profile_window_upload_photo": {
+    "text": "Загрузить фото"
+  },
+  "profile_window_remove_photo": {
+    "text": "Удалить фотографию"
+  },
+  "send_feedback_window_include_user_data": {
+    "text": "Добавьте журнал и снимок экрана."
+  }
+}

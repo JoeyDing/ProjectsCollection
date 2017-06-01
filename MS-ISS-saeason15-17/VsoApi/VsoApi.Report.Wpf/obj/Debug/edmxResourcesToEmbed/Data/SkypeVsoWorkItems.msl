@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SkypeVsoWorkItemsModelStoreContainer" CdmEntityContainer="SkypeVsoWorkItemsEntities">
+    <EntitySetMapping Name="EnablingSpecificationRevisions">
+      <EntityTypeMapping TypeName="SkypeVsoWorkItemsModel.EnablingSpecificationRevision">
+        <MappingFragment StoreEntitySet="EnablingSpecificationRevisions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+          <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Initiator" ColumnName="Initiator" />
+          <ScalarProperty Name="Review_Required" ColumnName="Review Required" />
+          <ScalarProperty Name="Blocking" ColumnName="Blocking" />
+          <ScalarProperty Name="Estimate_Points" ColumnName="Estimate Points" />
+          <ScalarProperty Name="Estimate_TShirt" ColumnName="Estimate TShirt" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="Release" ColumnName="Release" />
+          <ScalarProperty Name="Engineering_Effort" ColumnName="Engineering Effort" />
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EpicRevisions">
+      <EntityTypeMapping TypeName="SkypeVsoWorkItemsModel.EpicRevision">
+        <MappingFragment StoreEntitySet="EpicRevisions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+          <ScalarProperty Name="Swag" ColumnName="Swag" />
+          <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskRevisions">
+      <EntityTypeMapping TypeName="SkypeVsoWorkItemsModel.TaskRevision">
+        <MappingFragment StoreEntitySet="TaskRevisions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Rev" ColumnName="Rev" />
+          <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Tags" ColumnName="Tags" />
+          <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+          <ScalarProperty Name="Created_By" ColumnName="Created By" />
+          <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+          <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+          <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+          <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+          <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+          <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+          <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+          <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+          <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+          <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Initiator" ColumnName="Initiator" />
+          <ScalarProperty Name="Estimate_Points" ColumnName="Estimate Points" />
+          <ScalarProperty Name="Estimate_TShirt" ColumnName="Estimate TShirt" />
+          <ScalarProperty Name="Original_Estimate" ColumnName="Original Estimate" />
+          <ScalarProperty Name="Completed_Work" ColumnName="Completed Work" />
+          <ScalarProperty Name="Remaining_Work" ColumnName="Remaining Work" />
+          <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkItemLinks">
+      <EntityTypeMapping TypeName="SkypeVsoWorkItemsModel.WorkItemLink">
+        <MappingFragment StoreEntitySet="WorkItemLinks">
+          <ScalarProperty Name="Source_ID" ColumnName="Source ID" />
+          <ScalarProperty Name="Target_ID" ColumnName="Target ID" />
+          <ScalarProperty Name="Link_Type" ColumnName="Link Type" />
+          <ScalarProperty Name="Is_Active" ColumnName="Is Active" />
+          <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

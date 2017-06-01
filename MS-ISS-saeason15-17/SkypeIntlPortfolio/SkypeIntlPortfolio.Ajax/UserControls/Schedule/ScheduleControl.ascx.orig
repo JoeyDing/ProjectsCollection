@@ -1,0 +1,209 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ScheduleControl.ascx.cs" Inherits="SkypeIntlPortfolio.Ajax.UserControls.Schedule.ScheduleControl" %>
+
+<telerik:RadAjaxManagerProxy ID="RadAjaxManagerProxy1" runat="server">
+    <AjaxSettings>
+        <telerik:AjaxSetting AjaxControlID="RadGridSchedule">
+            <UpdatedControls>
+                <telerik:AjaxUpdatedControl ControlID="RadGridSchedule" LoadingPanelID="RadAjaxLoadingPanel1"></telerik:AjaxUpdatedControl>
+            </UpdatedControls>
+        </telerik:AjaxSetting>
+    </AjaxSettings>
+</telerik:RadAjaxManagerProxy>
+<telerik:RadGrid ID="RadGridSchedule"
+    runat="server"
+    AllowPaging="True"
+    AllowSorting="True"
+    CellSpacing="0"
+    GridLines="None"
+    OnNeedDataSource="RadGridSchedule_NeedDataSource"
+    OnItemDataBound="RadGridSchedule_ItemDataBound"
+    EnableViewState="true"
+    ViewStateMode="Enabled"
+    RenderMode="Lightweight"
+    AllowCustomPaging="true"
+<<<<<<< HEAD
+    PageSize="2"
+    OnDetailTableDataBind="RadGridSchedule_DetailTableDataBind" 
+    OnItemCommand="RadGridSchedule_ItemCommand">
+=======
+    PageSize="10"
+    OnDetailTableDataBind="RadGridSchedule_DetailTableDataBind">
+>>>>>>> a3d791154751ea836e086b8eb62fd97f67beaac1
+    <MasterTableView
+        AutoGenerateColumns="false"
+        EnableGroupsExpandAll="true"
+        EditMode="InPlace"
+        ViewStateMode="Enabled"
+        DataKeyNames="ProductID"
+        Name="Product"
+        ShowHeader="false">
+        <Columns>
+            <telerik:GridTemplateColumn>
+                <ItemTemplate>
+                    <span><%#Eval("ProductName") %></span>
+                    <asp:HyperLink
+                        ID="HyperLinkToLineOfSight"
+                        runat="server" Target="_blank"
+                        Text="Go to 'Line of Sight' page for this project"
+                        ForeColor="#336699"
+                        NavigateUrl='<%# "~/Pages/ReportingSystem.aspx?Tab=LineofSight&Products=" + Eval("ProductID")%>'
+                        Style="margin-left: 165px; font-weight: bold; font-size: medium" Font-Italic="true" Font-Underline="true">
+                    </asp:HyperLink>
+                </ItemTemplate>
+            </telerik:GridTemplateColumn>
+        </Columns>
+        <DetailTables>
+            <telerik:GridTableView
+                runat="server"
+                AllowSorting="True"
+                AutoGenerateColumns="False"
+                GridLines="none"
+                EnableViewState="true"
+                ViewStateMode="Enabled"
+                DataKeyNames="VSO_ID"
+                Name="ReleaseDetails"
+                CommandItemDisplay="Top"
+                ShowHeader="false">
+                <Columns>
+                    <telerik:GridEditCommandColumn UpdateText="Update" EditText="Edit" CancelText="Cancel" UniqueName="EditCommandColumn2">
+                        <HeaderStyle Width="50px" />
+                        <ItemStyle CssClass="editStyle"></ItemStyle>
+                    </telerik:GridEditCommandColumn>
+
+                    <telerik:GridBoundColumn DataField="VSO_Title">
+                        <HeaderStyle Width="200px" />
+                    </telerik:GridBoundColumn>
+                    <telerik:GridTemplateColumn>
+                        <HeaderStyle Width="200px" />
+                        <ItemTemplate>
+<<<<<<< HEAD
+                            VSO Epic: 
+                            <asp:HyperLink runat="server" ID="lnkVSO" Target="_blank" NavigateUrl='<%#Eval("VSO_Url") %>' ForeColor="#336699"><%#Eval("VSO_ID") %></asp:HyperLink>
+=======
+                            VSO Epic:
+                            <asp:HyperLink runat="server" ID="lnkVSO" NavigateUrl='<%#Eval("VSO_Url") %>' ForeColor="#336699"><%#Eval("VSO_ID") %></asp:HyperLink>
+>>>>>>> a3d791154751ea836e086b8eb62fd97f67beaac1
+                        </ItemTemplate>
+                    </telerik:GridTemplateColumn>
+                    <telerik:GridDateTimeColumn DataField="VSO_LocStartDate">
+                        <HeaderStyle Width="200px" />
+                    </telerik:GridDateTimeColumn>
+                    <telerik:GridDateTimeColumn DataField="VSO_DueDate">
+                        <HeaderStyle Width="200px" />
+                    </telerik:GridDateTimeColumn>
+                    <telerik:GridButtonColumn ConfirmText="Delete this Release?" CommandName="Delete" Text="Delete">
+                        <HeaderStyle Width="100px"></HeaderStyle>
+                        <ItemStyle HorizontalAlign="Center" CssClass="deleteStyle"></ItemStyle>
+                    </telerik:GridButtonColumn>
+                </Columns>
+                <EditFormSettings EditFormType="Template">
+                    <FormTemplate>
+                        <table style="padding-left: 10px; padding-top: 10px; padding-bottom:10px" runat="server" id="tbRelease" >
+                            <tr>
+                                <td>
+                                    <asp:Label ID="Label7" runat="server" Text="Release Name:"></asp:Label>
+                                    <telerik:RadTextBox ID="radtextbox_ReleaseName" runat="server" Width="100px"></telerik:RadTextBox>
+                                    <asp:HiddenField ID="hdReleaseKey" runat="server" Value="-1" />
+                                </td>
+                                <td >
+                                    <asp:Label ID="Label3" runat="server" Text="From:" Style="margin-left: 48px;"></asp:Label>
+                                    <telerik:RadDatePicker ID="raddatepicker_ReleaseStartDate" runat="server" Width="100px"></telerik:RadDatePicker>
+                                    <asp:Label ID="Label4" runat="server" Text="To:"></asp:Label>
+                                    <telerik:RadDatePicker ID="raddatepicker_ReleaseEndDate" runat="server" Width="100px"></telerik:RadDatePicker>
+                                </td>
+                                <td >
+                                    <asp:Label runat="server" Text="Copy from a previous release:" Font-Bold="true" Font-Italic="true"></asp:Label>
+                                </td>
+                                <td >
+                                    <telerik:RadAutoCompleteBox runat="server" AutoPostBack="true" ID="RadAutoCompleteBox_existingRelease" TextSettings-SelectionMode="Single" EmptyMessage="Please type here" InputType="Token" Width="200" DropDownWidth="180px" Delimiter=" " OnEntryAdded="RadAutoCompleteBox_existingRelease_EntryAdded">
+                                        <WebServiceSettings Method="search_existingReleasesNames" Path="UtilsReleasesInfo.aspx" />
+                                    </telerik:RadAutoCompleteBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" ></td>
+                                <td></td>
+                                <td style="float:right;">
+                                    <asp:Button ID="btnUpdate" Text='<%# (Container is GridEditFormInsertItem) ? "Insert" : "Update" %>'
+                                        runat="server" CommandName='<%# (Container is GridEditFormInsertItem) ? "PerformInsert" : "Update" %>'></asp:Button>&nbsp;
+
+                                    <asp:Button ID="btnCancel" Text="Cancel" runat="server" CausesValidation="False"
+                                        CommandName="Cancel"></asp:Button>
+                                </td>
+                            </tr>
+                        </table>
+                    </FormTemplate>
+                </EditFormSettings>
+                <DetailTables>
+                    <telerik:GridTableView
+                        runat="server"
+                        AllowSorting="True"
+                        AutoGenerateColumns="False"
+                        GridLines="none"
+                        EnableViewState="true"
+                        ViewStateMode="Enabled"
+                        DataKeyNames="Milestone_ID"
+                        Name="MilestoneDetails"
+                        CommandItemDisplay="Top"
+                        ShowHeader="false"
+                        Caption="Details about the milestone">
+                        <Columns>
+                            <telerik:GridEditCommandColumn UpdateText="Update" EditText="Edit" CancelText="Cancel" UniqueName="EditCommandColumn2">
+                                <HeaderStyle Width="50px" />
+                                <ItemStyle CssClass="editStyle"></ItemStyle>
+                            </telerik:GridEditCommandColumn>
+                            <telerik:GridBoundColumn DataField="MilestoneName">
+                                <HeaderStyle Width="200px" />
+                            </telerik:GridBoundColumn>
+                            <telerik:GridTemplateColumn>
+                                <HeaderStyle Width="200px" />
+                                <ItemTemplate>
+                                    VSO Query:
+			                        <asp:HyperLink runat="server" ID="lnkVSO" NavigateUrl='<%#Eval("VSO_Url") %>' ForeColor="#336699"><%#Eval("VSO_ID") %></asp:HyperLink>
+                                </ItemTemplate>
+                            </telerik:GridTemplateColumn>
+                            <telerik:GridTemplateColumn HeaderText="MilestoneCategory">
+                                <HeaderStyle Width="8%" />
+                                <ItemTemplate>
+                                    <%# DataBinder.Eval(Container.DataItem, "MilestoneCategory") %>
+                                </ItemTemplate>
+                                <EditItemTemplate>
+                                    <asp:DropDownList ID="DropDownList_MilestoneCategory" AppendDataBoundItems="True" runat="server" Width="150px"></asp:DropDownList>
+                                </EditItemTemplate>
+                            </telerik:GridTemplateColumn>
+                            <telerik:GridDateTimeColumn DataField="Milestone_StartDate">
+                                <HeaderStyle Width="200px" />
+                            </telerik:GridDateTimeColumn>
+                            <telerik:GridDateTimeColumn DataField="Milestone_EndDate">
+                                <HeaderStyle Width="200px" />
+                            </telerik:GridDateTimeColumn>
+                            <telerik:GridButtonColumn ConfirmText="Delete this Milestone?" CommandName="Delete" Text="Delete">
+                                <HeaderStyle Width="100px"></HeaderStyle>
+                                <ItemStyle HorizontalAlign="Center" CssClass="deleteStyle"></ItemStyle>
+                            </telerik:GridButtonColumn>
+                        </Columns>
+                    </telerik:GridTableView>
+                    <telerik:GridTableView
+                        runat="server"
+                        AllowSorting="True"
+                        AutoGenerateColumns="False"
+                        GridLines="none"
+                        EnableViewState="true"
+                        ViewStateMode="Enabled"
+                        DataKeyNames="TestPlan_ID"
+                        Name="TestPlanDetails"
+                        CommandItemDisplay="Top"
+                        ShowHeader="false"
+                        Caption="Details about the test plan">
+                        <Columns>
+                            <telerik:GridButtonColumn ConfirmText="Delete this Test Plan?" CommandName="Delete" Text="Delete">
+                                <HeaderStyle Width="100px"></HeaderStyle>
+                                <ItemStyle HorizontalAlign="Center" CssClass="deleteStyle"></ItemStyle>
+                            </telerik:GridButtonColumn>
+                        </Columns>
+                    </telerik:GridTableView>
+                </DetailTables>
+            </telerik:GridTableView>
+        </DetailTables>
+    </MasterTableView>
+</telerik:RadGrid>

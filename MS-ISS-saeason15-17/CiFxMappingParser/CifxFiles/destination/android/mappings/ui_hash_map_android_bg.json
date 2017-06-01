@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Въведете съобщението си тук\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Споделяне на профил",
+    "accessibility_id": "Споделяне на профил"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Не ме безпокойте\")).index(1)",
+    "text": "Не ме безпокойте"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Търсене на хора и групи|Търсене на хора и групи\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Търсене на хора и ботове|Търсене на хора и ботове\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Търсене на ботове|Търсене в Skype|За да отговори на въпросите ви, да ви припомня важните неща, както и за още много други, позволете на Cortana да събира и използва информация, включително:\n\nМестоположение и хронология на местоположенията ви\n\nАбонати, данни за календара и хронология за съдържанието и комуникацията от съобщенията, не забавните съобщения и приложенията\n\nТърси хронологични и други данни на устройството, за да персонализира работата ви|Търсене в интернет|Търсене в интернет|Търсене на файлове|Търсене на хора|Търсене в Skype|Търсене на места|Търсене на хора и ботове|Търсене|Търсене на хора и групи|Търсене на хора|Търсене в Skype|Търсене|Търсене на ботове|Търсене на хора|Търсене на хора и ботове|Търсене на хора и групи\")",
+    "text": "Търсене"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Търсене на хора|Търсене на хора и ботове|Търсене на хора и групи|Търсене на хора|Търсене на хора|Търсене на хора и ботове|Търсене на хора и групи\")",
+    "text": "Търсене на хора"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Търсене на ботове|Търсене в Skype|За да отговори на въпросите ви, да ви припомня важните неща, както и за още много други, позволете на Cortana да събира и използва информация, включително:\n\nМестоположение и хронология на местоположенията ви\n\nАбонати, данни за календара и хронология за съдържанието и комуникацията от съобщенията, не забавните съобщения и приложенията\n\nТърси хронологични и други данни на устройството, за да персонализира работата ви|Търсене в интернет|Търсене в интернет|Търсене на файлове|Търсене на хора|Търсене в Skype|Търсене на места|Търсене на хора и ботове|Търсене|Търсене на хора и групи|Търсене на хора|Търсене в Skype|Търсене|Търсене на ботове|Търсене на хора|Търсене на хора и ботове|Търсене на хора и групи\")",
+    "text": "Търсене"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Настройки"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Излизане\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Информация\")",
+    "text": "Информация"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} минути, изтича на {expireDate}|Неуспешно свързване с Cortana. Моля, опитайте отново след няколко минути.|{hours}ч {minutes}м {seconds}с|{hours}ч {minutes}м|{minutes}м|{minutes}м {seconds}с|{count} минути|{count, plural, =1{Преди 1 минута} other{Преди # минута}}|{minutes} мин|{count, plural, =1{Преди 1 минута} other{Преди # минута}}|{count, plural, =1{Преди 1 минута} other{Преди # минута}}\")",
+    "text": "{minutes} минути, изтича на {expireDate}|Неуспешно свързване с Cortana. Моля, опитайте отново след няколко минути.|{hours}ч {minutes}м {seconds}с|{hours}ч {minutes}м|{minutes}м|{minutes}м {seconds}с|{count} минути|{count, plural, =1{Преди 1 минута} other{Преди # минута}}|{minutes} мин|{count, plural, =1{Преди 1 минута} other{Преди # минута}}|{count, plural, =1{Преди 1 минута} other{Преди # минута}}"
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\Config.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\App.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\TechnicalDocument.md
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\UserManual.md
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\ExtensibleVSOAPI.Lib.exe.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\ExtensibleVSOAPI.Lib.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\ExtensibleVSOAPI.Lib.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\EntityFramework.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\ExtensibleDataExtraction.Lib.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\VsoApi.Rest.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\EntityFramework.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\obj\Debug\ExtensibleVSOAPI.Lib.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\obj\Debug\ExtensibleVSOAPI.Lib.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleVSOAPI\ExtensibleVSOAPI.Lib\obj\Debug\ExtensibleVSOAPI.Lib.pdb

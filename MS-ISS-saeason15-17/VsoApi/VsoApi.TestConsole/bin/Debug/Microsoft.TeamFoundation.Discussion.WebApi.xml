@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.TeamFoundation.Discussion.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.AddCommentAsync(Microsoft.TeamFoundation.Discussion.WebApi.DiscussionComment,System.Int32,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Create a discussion comment POST /_apis/discussion/threads/{discussionId}/comments
+            </summary>
+            <param name="newComment"></param>
+            <param name="discussionId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.AddCommentsByDiscussionIdAsync(Microsoft.VisualStudio.Services.WebApi.VssJsonCollectionWrapper{System.Collections.Generic.IEnumerable{Microsoft.TeamFoundation.Discussion.WebApi.DiscussionComment}},System.Int32,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Create multiple discussion comments for a discussion thread PATCH /_apis/discussion/threads/{discussionId}/comments
+            </summary>
+            <param name="newComments"></param>
+            <param name="discussionId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.DeleteCommentAsync(System.Int32,System.Int16,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Remove a discussion comment DELETE /_apis/discussion/threads/{discussionId}/comments/{commentId}
+            </summary>
+            <param name="discussionId"></param>
+            <param name="commentId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.GetCommentAsync(System.Int32,System.Int16,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Read a comment by id GET /_apis/discussion/threads/{discussionId}/comments/{commentId}
+            </summary>
+            <param name="discussionId"></param>
+            <param name="commentId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.GetCommentsAsync(System.Int32,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Read all comments for a discussion thread GET /_apis/discussion/threads/{discussionId}/comments
+            </summary>
+            <param name="discussionId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.UpdateCommentAsync(Microsoft.TeamFoundation.Discussion.WebApi.DiscussionComment,System.Int32,System.Int16,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Update a discussion comment PATCH /_apis/discussion/threads/{discussionId}/comments/{commentId}
+            </summary>
+            <param name="newComment"></param>
+            <param name="discussionId"></param>
+            <param name="commentId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.AddCommentsAsync(Microsoft.VisualStudio.Services.WebApi.VssJsonCollectionWrapper{System.Collections.Generic.IEnumerable{Microsoft.TeamFoundation.Discussion.WebApi.DiscussionComment}},System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Create multiple comments across discussion threads PATCH /_apis/discussion/comments
+            </summary>
+            <param name="newComments"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.CreateThreadAsync(Microsoft.TeamFoundation.Discussion.WebApi.DiscussionThread,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Create a discussion thread POST /_apis/discussion/threads
+            </summary>
+            <param name="newThread"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.CreateThreadsAsync(Microsoft.VisualStudio.Services.WebApi.VssJsonCollectionWrapper{Microsoft.TeamFoundation.Discussion.WebApi.DiscussionThreadCollection},System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Create multiple discussion threads PATCH /_apis/discussion/threads
+            </summary>
+            <param name="newThreads"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.GetThreadsByWorkItemIdAsync(System.Int32,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Query discussion threads by work item id GET /_apis/discussion/threads?workItemId={workItemId}
+            </summary>
+            <param name="workItemId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.GetThreadAsync(System.Int32,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Read a discussion thread by id GET /_apis/discussion/threads/{discussionId}
+            </summary>
+            <param name="discussionId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.UpdateThreadAsync(Microsoft.TeamFoundation.Discussion.WebApi.DiscussionThread,System.Int32,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Update a discussion thread PATCH /_apis/discussion/threads/{discussionId}
+            </summary>
+            <param name="newThread"></param>
+            <param name="discussionId"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClientBase.GetThreadsAsync(System.String[],System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Query discussion threads by artifact uri POST /_apis/discussion/threadsBatch
+            </summary>
+            <param name="artifactUris"></param>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClient.AddCommentsAsync(System.Collections.Generic.IEnumerable{Microsoft.TeamFoundation.Discussion.WebApi.DiscussionComment},System.Object,System.Threading.CancellationToken)">
+            <summary>
+            Add a discussion comment
+            </summary>
+            <param name="newComments"></param>
+            <param name="userState"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClient.AddCommentsByDiscussionIdAsync(System.Collections.Generic.IEnumerable{Microsoft.TeamFoundation.Discussion.WebApi.DiscussionComment},System.Int32,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            Create multiple discussion comments for a discussion thread
+            </summary>
+            <param name="newComments"></param>
+            <param name="discussionId"></param>
+            <param name="userState"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionHttpClient.UpdateThreadAsync(Microsoft.TeamFoundation.Discussion.WebApi.DiscussionThread,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            Update a discussion thread
+            </summary>
+            <param name="newThread"></param>
+            <param name="userState"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionStatus">
+            <summary>
+            The status of a discussion.
+            </summary>
+        </member>
+        <member name="T:Microsoft.TeamFoundation.Discussion.WebApi.DiscussionSeverity">
+            <summary>
+            The severity of a discussion.
+            </summary>
+        </member>
+        <member name="T:Microsoft.TeamFoundation.Discussion.WebApi.CommentType">
+            <summary>
+            The type of a comment.
+            </summary>
+        </member>
+    </members>
+</doc>

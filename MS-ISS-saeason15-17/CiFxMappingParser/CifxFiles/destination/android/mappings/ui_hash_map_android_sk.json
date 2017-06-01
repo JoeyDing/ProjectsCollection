@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Sem napíšte správu\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Zdieľať profil",
+    "accessibility_id": "Zdieľať profil"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Nerušiť\")).index(1)",
+    "text": "Nerušiť"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Hľadať ľudí a skupiny|Vyhľadajte ľudí a skupiny\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Hľadanie ľudí a robotov|Vyhľadajte ľudí a robotov\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Hľadať roboty|Hľadať v aplikácii Skype|Aby sme mohli zodpovedať vaše otázky, pomôcť vám pripomenúť dôležité veci a oveľa viac, nechajte Cortanu zhromažďovať a používať informácie vrátane:\n\nPolohy a histórie polôh\n\nKontaktov, podrobností kalendára a obsahu a histórie komunikácií zo správ, okamžitých správ a aplikácií\n\nHistórie vyhľadávania a iných informácií vo vašom zariadení na zaistenie osobnejších skúseností|Hľadanie na webe|Hľadanie na webe|Vyhľadávanie súborov|Hľadať ľudí|Hľadať v aplikácii Skype|Vyhľadávanie miest|Hľadanie ľudí a robotov|Vyhľadať|Hľadať ľudí a skupiny|Hľadať ľudí|Hľadať v aplikácii Skype|Hľadanie|Hľadať roboty|Hľadať ľudí|Vyhľadajte ľudí a robotov|Vyhľadajte ľudí a skupiny\")",
+    "text": "Vyhľadať"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Hľadať ľudí|Hľadanie ľudí a robotov|Hľadať ľudí a skupiny|Hľadať ľudí|Hľadať ľudí|Vyhľadajte ľudí a robotov|Vyhľadajte ľudí a skupiny\")",
+    "text": "Hľadať ľudí"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Hľadať roboty|Hľadať v aplikácii Skype|Aby sme mohli zodpovedať vaše otázky, pomôcť vám pripomenúť dôležité veci a oveľa viac, nechajte Cortanu zhromažďovať a používať informácie vrátane:\n\nPolohy a histórie polôh\n\nKontaktov, podrobností kalendára a obsahu a histórie komunikácií zo správ, okamžitých správ a aplikácií\n\nHistórie vyhľadávania a iných informácií vo vašom zariadení na zaistenie osobnejších skúseností|Hľadanie na webe|Hľadanie na webe|Vyhľadávanie súborov|Hľadať ľudí|Hľadať v aplikácii Skype|Vyhľadávanie miest|Hľadanie ľudí a robotov|Vyhľadať|Hľadať ľudí a skupiny|Hľadať ľudí|Hľadať v aplikácii Skype|Hľadanie|Hľadať roboty|Hľadať ľudí|Vyhľadajte ľudí a robotov|Vyhľadajte ľudí a skupiny\")",
+    "text": "Vyhľadať"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Nastavenia"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Odhlásiť sa\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Informácie\")",
+    "text": "Informácie"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} minút, koniec platnosti {expireDate}|Nepodarilo sa kontaktovať službu Cortana. Skúste to znova o niekoľko minút.|{hours} hod. {minutes} min. {seconds} s|{hours} hod. {minutes} min.|{minutes} min.|{minutes} min. {seconds} s|{count} minút|{count, plural, =1{Pred 1 minútou} few{Pred # minútami} other{Pred # minútami}}|{minutes} m|{count, plural, =1{Pred 1 minútou} few{Pred # minútami} other{Pred # minútami}}|{count, plural, =1{Pred 1 minútou} few{Pred # minútami} other{Pred # minútami}}\")",
+    "text": "{minutes} minút, koniec platnosti {expireDate}|Nepodarilo sa kontaktovať službu Cortana. Skúste to znova o niekoľko minút.|{hours} hod. {minutes} min. {seconds} s|{hours} hod. {minutes} min.|{minutes} min.|{minutes} min. {seconds} s|{count} minút|{count, plural, =1{Pred 1 minútou} few{Pred # minútami} other{Pred # minútami}}|{minutes} m|{count, plural, =1{Pred 1 minútou} few{Pred # minútami} other{Pred # minútami}}|{count, plural, =1{Pred 1 minútou} few{Pred # minútami} other{Pred # minútami}}"
+  }
+}

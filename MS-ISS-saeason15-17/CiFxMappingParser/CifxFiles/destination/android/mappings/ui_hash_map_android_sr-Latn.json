@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Otkucajte poruku ovde\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Deli profil",
+    "accessibility_id": "Deli profil"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Ne uznemiravaj\")).index(1)",
+    "text": "Ne uznemiravaj"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Pretražite osobe i grupe|Pretražite osobe i grupe\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Pretražite osobe i robote|Pretražite osobe i robote\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Pretraži robote|Pretraži Skype|Da bi vam odgovorila na pitanja, pomogla vam da zapamtite važne stvari i uradila još toga za vas, omogućite pomoćniku Cortana da prikuplja i koristi vaše informacije uključujući i:\n\nLokaciju i istoriju lokacija\n\nKontakte, podatke iz kalendara i istoriju sadržaja i komunikacije iz poruka, trenutnih poruka i aplikacija\n\nIstoriju pretrage i druge informacije sa vašeg uređaja koje vam omogućavaju personalizovani doživljaj|Pretraži veb|Pretraži veb|Pretraži datoteke|Pretražite osobe|Pretraži Skype|Pretraži mesta|Pretražite osobe i robote|Pretraži|Pretražite osobe i grupe|Pretraži osobe|Pretraži Skype|Pretraži|Pretraži botove|Pretražite osobe|Pretražite osobe i robote|Pretražite osobe i grupe\")",
+    "text": "Pretraži"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Pretražite osobe|Pretražite osobe i robote|Pretražite osobe i grupe|Pretraži osobe|Pretražite osobe|Pretražite osobe i robote|Pretražite osobe i grupe\")",
+    "text": "Pretražite osobe"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Pretraži robote|Pretraži Skype|Da bi vam odgovorila na pitanja, pomogla vam da zapamtite važne stvari i uradila još toga za vas, omogućite pomoćniku Cortana da prikuplja i koristi vaše informacije uključujući i:\n\nLokaciju i istoriju lokacija\n\nKontakte, podatke iz kalendara i istoriju sadržaja i komunikacije iz poruka, trenutnih poruka i aplikacija\n\nIstoriju pretrage i druge informacije sa vašeg uređaja koje vam omogućavaju personalizovani doživljaj|Pretraži veb|Pretraži veb|Pretraži datoteke|Pretražite osobe|Pretraži Skype|Pretraži mesta|Pretražite osobe i robote|Pretraži|Pretražite osobe i grupe|Pretraži osobe|Pretraži Skype|Pretraži|Pretraži botove|Pretražite osobe|Pretražite osobe i robote|Pretražite osobe i grupe\")",
+    "text": "Pretraži"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Postavke"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Odjavljivanje\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Osnovni podaci\")",
+    "text": "Osnovni podaci"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} min., ističe {expireDate}|Kontaktiranje usluge Cortana nije uspelo. Pokušajte ponovo za nekoliko minuta.|{hours} č. {minutes} min. {seconds} sek.|{hours} č. {minutes} min.|{minutes} min.|{minutes} min. {seconds} sek.|Minuta: {count}|{count, plural, =1{Pre 1 minut} one{Pre # minut} few{Pre # minuta} other{Pre # minuta}}|{minutes} min.|{count, plural, =1{Pre 1 minut} one{Pre # minut} few{Pre # minuta} other{Pre # minuta}}|{count, plural, =1{Pre 1 minut} one{Pre # minut} few{Pre # minuta} other{Pre # minuta}}\")",
+    "text": "{minutes} min., ističe {expireDate}|Kontaktiranje usluge Cortana nije uspelo. Pokušajte ponovo za nekoliko minuta.|{hours} č. {minutes} min. {seconds} sek.|{hours} č. {minutes} min.|{minutes} min.|{minutes} min. {seconds} sek.|Minuta: {count}|{count, plural, =1{Pre 1 minut} one{Pre # minut} few{Pre # minuta} other{Pre # minuta}}|{minutes} min.|{count, plural, =1{Pre 1 minut} one{Pre # minut} few{Pre # minuta} other{Pre # minuta}}|{count, plural, =1{Pre 1 minut} one{Pre # minut} few{Pre # minuta} other{Pre # minuta}}"
+  }
+}

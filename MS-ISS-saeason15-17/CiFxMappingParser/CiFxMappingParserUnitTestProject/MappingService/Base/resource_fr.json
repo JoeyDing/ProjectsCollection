@@ -1,0 +1,9 @@
+﻿{
+  "AboutPanel": {
+    "AboutTitle": "A propos de Skype Preview",
+    "_AboutTitle.comment": "Ce texte est a propos de About panel."
+  },
+  "AccessibilityLabel": {
+    "Audio": "un message audio"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Kirjoita viesti tähän\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Jaa profiili",
+    "accessibility_id": "Jaa profiili"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Älä häiritse\")).index(1)",
+    "text": "Älä häiritse"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Etsi henkilöitä ja ryhmiä|Etsi henkilöitä ja ryhmiä\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Hae henkilöitä ja botteja|Hae henkilöitä ja botteja\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Hae botteja|Hae Skypestä|Jotta Cortana voisi vastata kysymyksiisi, auttaa sinua muistamaan tärkeitä asioita ja paljon muuta, anna Cortanan kerätä ja käyttää tietojasi, mukaan lukien:\n\nSijaintitiedot ja sijaintihistoria\n\nYhteystiedot, kalenterin tiedot sekä viestien, pikaviestien ja sovellusten sisältö ja viestintähistoria\n\nHakuhistoria ja muut laitteesi tiedot, jotka auttavat tekemään kokemuksestasi personoidumman|Hae verkosta|Hae verkosta|Etsi tiedostoja|Etsi henkilöitä|Hae Skypestä|Etsi paikkoja|Hae henkilöitä ja botteja|Haku|Etsi henkilöitä ja ryhmiä|Etsi henkilöitä|Hae Skypestä|Haku|Hae botteja|Etsi henkilöitä|Hae henkilöitä ja botteja|Etsi henkilöitä ja ryhmiä\")",
+    "text": "Haku"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Etsi henkilöitä|Hae henkilöitä ja botteja|Etsi henkilöitä ja ryhmiä|Etsi henkilöitä|Etsi henkilöitä|Hae henkilöitä ja botteja|Etsi henkilöitä ja ryhmiä\")",
+    "text": "Etsi henkilöitä"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Hae botteja|Hae Skypestä|Jotta Cortana voisi vastata kysymyksiisi, auttaa sinua muistamaan tärkeitä asioita ja paljon muuta, anna Cortanan kerätä ja käyttää tietojasi, mukaan lukien:\n\nSijaintitiedot ja sijaintihistoria\n\nYhteystiedot, kalenterin tiedot sekä viestien, pikaviestien ja sovellusten sisältö ja viestintähistoria\n\nHakuhistoria ja muut laitteesi tiedot, jotka auttavat tekemään kokemuksestasi personoidumman|Hae verkosta|Hae verkosta|Etsi tiedostoja|Etsi henkilöitä|Hae Skypestä|Etsi paikkoja|Hae henkilöitä ja botteja|Haku|Etsi henkilöitä ja ryhmiä|Etsi henkilöitä|Hae Skypestä|Haku|Hae botteja|Etsi henkilöitä|Hae henkilöitä ja botteja|Etsi henkilöitä ja ryhmiä\")",
+    "text": "Haku"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Asetukset"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Kirjaudu ulos\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"Tietoja\")",
+    "text": "Tietoja"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} minuuttia, vanhenee {expireDate}|Yhteyden muodostaminen Cortanaan epäonnistui. Yritä uudelleen muutaman minuutin kuluttua.|{hours} t {minutes} min {seconds} s|{hours} t {minutes} min|{minutes} min|{minutes} min {seconds} s|{count} min|{count, plural, =1{1 minuutti sitten} other{# minuuttia sitten}}|{minutes} min|{count, plural, =1{1 minuutti sitten} other{# minuuttia sitten}}|{count, plural, =1{1 minuutti sitten} other{# minuuttia sitten}}\")",
+    "text": "{minutes} minuuttia, vanhenee {expireDate}|Yhteyden muodostaminen Cortanaan epäonnistui. Yritä uudelleen muutaman minuutin kuluttua.|{hours} t {minutes} min {seconds} s|{hours} t {minutes} min|{minutes} min|{minutes} min {seconds} s|{count} min|{count, plural, =1{1 minuutti sitten} other{# minuuttia sitten}}|{minutes} min|{count, plural, =1{1 minuutti sitten} other{# minuuttia sitten}}|{count, plural, =1{1 minuutti sitten} other{# minuuttia sitten}}"
+  }
+}

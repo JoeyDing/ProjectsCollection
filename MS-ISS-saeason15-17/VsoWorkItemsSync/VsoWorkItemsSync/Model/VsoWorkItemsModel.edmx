@@ -1,0 +1,1241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SkypeVsoWorkItemsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BugRevisions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" />
+          <Property Name="Rev" Type="int" Nullable="false" />
+          <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tags" Type="nvarchar(max)" />
+          <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Branch Found" Type="nvarchar" MaxLength="255" />
+          <Property Name="Build Found" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed Date" Type="datetime" />
+          <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Closed Date" Type="datetime" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Start Date" Type="datetime" />
+          <Property Name="Due Date" Type="datetime" />
+          <Property Name="Fix Provided By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Fixed Build" Type="nvarchar" MaxLength="255" />
+          <Property Name="How Was Found" Type="nvarchar" MaxLength="255" />
+          <Property Name="Issue Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Keywords" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Language" Type="nvarchar" MaxLength="255" />
+          <Property Name="Priority" Type="float" />
+          <Property Name="PS Database" Type="nvarchar" MaxLength="255" />
+          <Property Name="PS ID" Type="nvarchar" MaxLength="255" />
+          <Property Name="Resolved By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Resolved Date" Type="datetime" />
+          <Property Name="Severity" Type="nvarchar" MaxLength="255" />
+          <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+          <Property Name="Source" Type="nvarchar" MaxLength="255" />
+          <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="Root Cause Category" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="Issue Subtype" Type="nvarchar" MaxLength="255" />
+          <Property Name="Triaged" Type="nvarchar" MaxLength="255" />
+          <Property Name="Estimated Test Impact" Type="int" />
+          <Property Name="Fabric Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="File Name" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Resource ID" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Source String" Type="nvarchar(max)" />
+          <Property Name="Original Translation" Type="nvarchar(max)" />
+          <Property Name="Suggested Translation" Type="nvarchar(max)" />
+          <Property Name="Fix Type" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="CoreBugInfos">
+          <Key>
+            <PropertyRef Name="Loc Bug ID" />
+            <PropertyRef Name="Core Bug ID" />
+          </Key>
+          <Property Name="Loc Bug ID" Type="int" Nullable="false" />
+          <Property Name="Core Bug ID" Type="int" Nullable="false" />
+          <Property Name="Loc Bug Status" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Status" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Project Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Project Area Path" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Project Iteration Path" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Title" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Priority" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Severity" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Issue Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug World Readiness Impact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Localization Impact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Core Bug Created Date" Type="datetime" />
+          <Property Name="Core Bug Closed Date" Type="datetime" />
+          <Property Name="Core Bug Resolved Date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="CoreBugInfosFromFeedback">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Status" Type="nvarchar" MaxLength="255" />
+          <Property Name="Project Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="Project Area Path" Type="nvarchar" MaxLength="255" />
+          <Property Name="Project Iteration Path" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar" MaxLength="255" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Priority" Type="nvarchar" MaxLength="255" />
+          <Property Name="Severity" Type="nvarchar" MaxLength="255" />
+          <Property Name="Issue Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="World Readiness Impact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Localization Impact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Closed Date" Type="datetime" />
+          <Property Name="Resolved Date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="EnablingSpecificationRevisions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" />
+          <Property Name="Rev" Type="int" Nullable="false" />
+          <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tags" Type="nvarchar(max)" />
+          <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed Date" Type="datetime" />
+          <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Closed Date" Type="datetime" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Start Date" Type="date" />
+          <Property Name="Due Date" Type="datetime" />
+          <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Resolved By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Resolved Date" Type="datetime" />
+          <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+          <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+          <Property Name="LocalizationImpact" Type="nvarchar" MaxLength="255" />
+          <Property Name="WorldReadinessImpact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Initiator" Type="nvarchar" MaxLength="255" />
+          <Property Name="Review Required" Type="nvarchar" MaxLength="255" />
+          <Property Name="Blocking" Type="nvarchar" MaxLength="255" />
+          <Property Name="Estimate Points" Type="nvarchar" MaxLength="255" />
+          <Property Name="Estimate TShirt" Type="nvarchar" MaxLength="255" />
+          <Property Name="Keywords" Type="nvarchar" MaxLength="255" />
+          <Property Name="Release" Type="nvarchar" MaxLength="255" />
+          <Property Name="Engineering Effort" Type="nvarchar" MaxLength="255" />
+          <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="EpicRevisions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" />
+          <Property Name="Rev" Type="int" Nullable="false" />
+          <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tags" Type="nvarchar(max)" />
+          <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed Date" Type="datetime" />
+          <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Closed Date" Type="datetime" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Start Date" Type="datetime" />
+          <Property Name="Due Date" Type="datetime" />
+          <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Resolved By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Resolved Date" Type="datetime" />
+          <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+          <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+          <Property Name="LocalizationImpact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Swag" Type="int" />
+          <Property Name="WorldReadinessImpact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="ImpedimentRevisions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" />
+          <Property Name="Rev" Type="int" Nullable="false" />
+          <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tags" Type="nvarchar(max)" />
+          <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed Date" Type="datetime" />
+          <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Closed Date" Type="datetime" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Due Date" Type="datetime" />
+          <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Resolved By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Resolved Date" Type="datetime" />
+          <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+          <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+          <Property Name="LocalizationImpact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Swag" Type="int" />
+          <Property Name="WorldReadinessImpact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Severity" Type="nvarchar" MaxLength="255" />
+          <Property Name="ActionPlan" Type="nvarchar(max)" />
+          <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="TaskRevisions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" />
+          <Property Name="Rev" Type="int" Nullable="false" />
+          <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tags" Type="nvarchar(max)" />
+          <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Resolved By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Resolved Date" Type="datetime" />
+          <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed Date" Type="datetime" />
+          <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Closed Date" Type="datetime" />
+          <Property Name="Due Date" Type="datetime" />
+          <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+          <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+          <Property Name="LocalizationImpact" Type="nvarchar" MaxLength="255" />
+          <Property Name="WorldReadinessImpact" Type="nvarchar" MaxLength="255" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Initiator" Type="nvarchar" MaxLength="255" />
+          <Property Name="Estimate Points" Type="nvarchar" MaxLength="255" />
+          <Property Name="Estimate TShirt" Type="nvarchar" MaxLength="255" />
+          <Property Name="Original Estimate" Type="float" />
+          <Property Name="Completed Work" Type="float" />
+          <Property Name="Remaining Work" Type="float" />
+          <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="TestCaseRevisions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" />
+          <Property Name="Rev" Type="int" Nullable="false" />
+          <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tags" Type="nvarchar(max)" />
+          <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed Date" Type="datetime" />
+          <Property Name="Closed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Closed Date" Type="datetime" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Skype Priority" Type="nvarchar" MaxLength="255" />
+          <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Revised Date" Type="datetime" />
+          <Property Name="Automation Status" Type="nvarchar" MaxLength="255" />
+          <Property Name="TestCase Estimate" Type="int" Nullable="false" />
+          <Property Name="Test Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Steps" Type="nvarchar(max)" />
+          <Property Name="Activated By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Activated Date" Type="datetime" />
+          <Property Name="State Change Date" Type="datetime" />
+          <Property Name="PS ID" Type="int" />
+          <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="TestPlanRevisions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" />
+          <Property Name="Rev" Type="int" Nullable="false" />
+          <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tags" Type="nvarchar(max)" />
+          <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed Date" Type="datetime" />
+          <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Revised Date" Type="datetime" />
+          <Property Name="StartDate" Type="datetime" />
+          <Property Name="FinishDate" Type="datetime" />
+          <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="TestRunResults">
+          <Key>
+            <PropertyRef Name="Test Run ID" />
+            <PropertyRef Name="Test Case ID" />
+          </Key>
+          <Property Name="Test Run ID" Type="bigint" Nullable="false" />
+          <Property Name="Test Plan ID" Type="bigint" Nullable="false" />
+          <Property Name="Test Case ID" Type="bigint" Nullable="false" />
+          <Property Name="Test Run Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="Test Outcome" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tester Display Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tester Unique Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="Start Date" Type="datetime" />
+          <Property Name="Completed Date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="TestSuiteRevisions">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" />
+          <Property Name="Rev" Type="int" Nullable="false" />
+          <Property Name="Work Item Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Assigned To" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tags" Type="nvarchar(max)" />
+          <Property Name="Area Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Created By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Created Date" Type="datetime" />
+          <Property Name="Changed By" Type="nvarchar" MaxLength="255" />
+          <Property Name="Changed Date" Type="datetime" />
+          <Property Name="Iteration Path" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Team Project" Type="nvarchar" MaxLength="255" />
+          <Property Name="Reason" Type="nvarchar" MaxLength="255" />
+          <Property Name="DevSignoff" Type="nvarchar" MaxLength="255" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Revised Date" Type="datetime" />
+          <Property Name="Test Suite Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Test Suite Audit" Type="nvarchar(max)" />
+          <Property Name="Query Text" Type="nvarchar(max)" />
+          <Property Name="Resolved Reason" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="TestSuiteTestCaseMapping">
+          <Key>
+            <PropertyRef Name="Test Plan ID" />
+            <PropertyRef Name="Test Suite ID" />
+            <PropertyRef Name="Test Case ID" />
+          </Key>
+          <Property Name="Test Plan ID" Type="int" Nullable="false" />
+          <Property Name="Test Suite ID" Type="int" Nullable="false" />
+          <Property Name="Test Case ID" Type="int" Nullable="false" />
+          <Property Name="Test Suite Rev" Type="int" />
+        </EntityType>
+        <EntityType Name="WorkItemAttachment">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="WorkItemID" Type="int" Nullable="false" />
+          <Property Name="AttachmentUrl" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="WorkItemType" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="AttachmentName" Type="nvarchar(max)" />
+          <Property Name="AttachmentComment" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="WorkItemLinks">
+          <Key>
+            <PropertyRef Name="Source ID" />
+            <PropertyRef Name="Target ID" />
+            <PropertyRef Name="Link Type" />
+            <PropertyRef Name="Is Active" />
+            <PropertyRef Name="Changed Date" />
+          </Key>
+          <Property Name="Source ID" Type="bigint" Nullable="false" />
+          <Property Name="Target ID" Type="bigint" Nullable="false" />
+          <Property Name="Link Type" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Is Active" Type="bit" Nullable="false" />
+          <Property Name="Changed Date" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="SkypeVsoWorkItemsModelStoreContainer">
+          <EntitySet Name="BugRevisions" EntityType="Self.BugRevisions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CoreBugInfos" EntityType="Self.CoreBugInfos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CoreBugInfosFromFeedback" EntityType="Self.CoreBugInfosFromFeedback" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EnablingSpecificationRevisions" EntityType="Self.EnablingSpecificationRevisions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EpicRevisions" EntityType="Self.EpicRevisions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ImpedimentRevisions" EntityType="Self.ImpedimentRevisions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TaskRevisions" EntityType="Self.TaskRevisions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TestCaseRevisions" EntityType="Self.TestCaseRevisions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TestPlanRevisions" EntityType="Self.TestPlanRevisions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TestRunResults" EntityType="Self.TestRunResults" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TestSuiteRevisions" EntityType="Self.TestSuiteRevisions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TestSuiteTestCaseMapping" EntityType="Self.TestSuiteTestCaseMapping" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WorkItemAttachment" EntityType="Self.WorkItemAttachment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WorkItemLinks" EntityType="Self.WorkItemLinks" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VsoWorkItemsSync.Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="VsoWorkItemsContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TestRunResults" EntityType="VsoWorkItemsSync.Model.TestRunResult" />
+          <EntitySet Name="TestSuiteRevisions" EntityType="VsoWorkItemsSync.Model.TestSuiteRevision" />
+          <EntitySet Name="TestSuiteTestCaseMappings" EntityType="VsoWorkItemsSync.Model.TestSuiteTestCaseMapping" />
+          <EntitySet Name="CoreBugInfos" EntityType="VsoWorkItemsSync.Model.CoreBugInfo" />
+          <EntitySet Name="ImpedimentRevisions" EntityType="VsoWorkItemsSync.Model.ImpedimentRevision" />
+          <EntitySet Name="TaskRevisions" EntityType="VsoWorkItemsSync.Model.TaskRevision" />
+          <EntitySet Name="TestCaseRevisions" EntityType="VsoWorkItemsSync.Model.TestCaseRevision" />
+          <EntitySet Name="TestPlanRevisions" EntityType="VsoWorkItemsSync.Model.TestPlanRevision" />
+          <EntitySet Name="WorkItemLinks" EntityType="VsoWorkItemsSync.Model.WorkItemLink" />
+          <EntitySet Name="EnablingSpecificationRevisions" EntityType="VsoWorkItemsSync.Model.EnablingSpecificationRevision" />
+          <EntitySet Name="EpicRevisions" EntityType="VsoWorkItemsSync.Model.EpicRevision" />
+          <EntitySet Name="BugRevisions" EntityType="VsoWorkItemsSync.Model.BugRevision" />
+          <EntitySet Name="WorkItemAttachments" EntityType="VsoWorkItemsSync.Model.WorkItemAttachment" />
+          <EntitySet Name="CoreBugInfosFromFeedbacks" EntityType="VsoWorkItemsSync.Model.CoreBugInfosFromFeedback" />
+        </EntityContainer>
+        <EntityType Name="TestRunResult">
+          <Key>
+            <PropertyRef Name="Test_Run_ID" />
+            <PropertyRef Name="Test_Case_ID" />
+          </Key>
+          <Property Name="Test_Run_ID" Type="Int64" Nullable="false" />
+          <Property Name="Test_Plan_ID" Type="Int64" Nullable="false" />
+          <Property Name="Test_Case_ID" Type="Int64" Nullable="false" />
+          <Property Name="Test_Run_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Test_Outcome" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tester_Display_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tester_Unique_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Start_Date" Type="DateTime" Precision="3" />
+          <Property Name="Completed_Date" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="TestSuiteRevision">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="Rev" Type="Int32" Nullable="false" />
+          <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Revised_Date" Type="DateTime" Precision="3" />
+          <Property Name="Test_Suite_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Test_Suite_Audit" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Query_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TestSuiteTestCaseMapping">
+          <Key>
+            <PropertyRef Name="Test_Plan_ID" />
+            <PropertyRef Name="Test_Suite_ID" />
+            <PropertyRef Name="Test_Case_ID" />
+          </Key>
+          <Property Name="Test_Plan_ID" Type="Int32" Nullable="false" />
+          <Property Name="Test_Suite_ID" Type="Int32" Nullable="false" />
+          <Property Name="Test_Case_ID" Type="Int32" Nullable="false" />
+          <Property Name="Test_Suite_Rev" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CoreBugInfo">
+          <Key>
+            <PropertyRef Name="Loc_Bug_ID" />
+            <PropertyRef Name="Core_Bug_ID" />
+          </Key>
+          <Property Name="Loc_Bug_ID" Type="Int32" Nullable="false" />
+          <Property Name="Core_Bug_ID" Type="Int32" Nullable="false" />
+          <Property Name="Loc_Bug_Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Project_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Project_Area_Path" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Project_Iteration_Path" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Severity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Issue_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_World_Readiness_Impact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Localization_Impact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Core_Bug_Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Core_Bug_Closed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Core_Bug_Resolved_Date" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="ImpedimentRevision">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="Rev" Type="Int32" Nullable="false" />
+          <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Due_Date" Type="DateTime" Precision="3" />
+          <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+          <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="LocalizationImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Swag" Type="Int32" />
+          <Property Name="WorldReadinessImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Severity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ActionPlan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TaskRevision">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="Rev" Type="Int32" Nullable="false" />
+          <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Resolved_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+          <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Due_Date" Type="DateTime" Precision="3" />
+          <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="LocalizationImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="WorldReadinessImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Initiator" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Estimate_Points" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Estimate_TShirt" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Original_Estimate" Type="Double" />
+          <Property Name="Completed_Work" Type="Double" />
+          <Property Name="Remaining_Work" Type="Double" />
+          <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TestCaseRevision">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="Rev" Type="Int32" Nullable="false" />
+          <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Revised_Date" Type="DateTime" Precision="3" />
+          <Property Name="Automation_Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="TestCase_Estimate" Type="Int32" Nullable="false" />
+          <Property Name="Test_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Steps" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Activated_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Activated_Date" Type="DateTime" Precision="3" />
+          <Property Name="State_Change_Date" Type="DateTime" Precision="3" />
+          <Property Name="PS_ID" Type="Int32" />
+          <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TestPlanRevision">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="Rev" Type="Int32" Nullable="false" />
+          <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Revised_Date" Type="DateTime" Precision="3" />
+          <Property Name="StartDate" Type="DateTime" Precision="3" />
+          <Property Name="FinishDate" Type="DateTime" Precision="3" />
+          <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="WorkItemLink">
+          <Key>
+            <PropertyRef Name="Source_ID" />
+            <PropertyRef Name="Target_ID" />
+            <PropertyRef Name="Link_Type" />
+            <PropertyRef Name="Is_Active" />
+            <PropertyRef Name="Changed_Date" />
+          </Key>
+          <Property Name="Source_ID" Type="Int64" Nullable="false" />
+          <Property Name="Target_ID" Type="Int64" Nullable="false" />
+          <Property Name="Link_Type" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Is_Active" Type="Boolean" Nullable="false" />
+          <Property Name="Changed_Date" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="EnablingSpecificationRevision">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="Rev" Type="Int32" Nullable="false" />
+          <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Start_Date" Type="DateTime" Precision="0" />
+          <Property Name="Due_Date" Type="DateTime" Precision="3" />
+          <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+          <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="LocalizationImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="WorldReadinessImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Initiator" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Review_Required" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Blocking" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Estimate_Points" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Estimate_TShirt" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Keywords" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Release" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Engineering_Effort" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="EpicRevision">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="Rev" Type="Int32" Nullable="false" />
+          <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Start_Date" Type="DateTime" Precision="3" />
+          <Property Name="Due_Date" Type="DateTime" Precision="3" />
+          <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+          <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DevSignoff" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="LocalizationImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Swag" Type="Int32" />
+          <Property Name="WorldReadinessImpact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="BugRevision">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="Rev" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" />
+          <Property Name="Rev" Type="Int32" Nullable="false" />
+          <Property Name="Work_Item_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tags" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Area_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Branch_Found" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Build_Found" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Changed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Closed_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Start_Date" Type="DateTime" Precision="3" />
+          <Property Name="Due_Date" Type="DateTime" Precision="3" />
+          <Property Name="Fix_Provided_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Fixed_Build" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="How_Was_Found" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Issue_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Iteration_Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Keywords" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Language" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Priority" Type="Double" />
+          <Property Name="PS_Database" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="PS_ID" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+          <Property Name="Severity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Skype_Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Source" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Team_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Root_Cause_Category" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Resolved_Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Issue_Subtype" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Triaged" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Estimated_Test_Impact" Type="Int32" />
+          <Property Name="Fabric_Project" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="File_Name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Resource_ID" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Source_String" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Original_Translation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Suggested_Translation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Fix_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="WorkItemAttachment">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="WorkItemID" Type="Int32" Nullable="false" />
+          <Property Name="AttachmentUrl" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="WorkItemType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="AttachmentName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="AttachmentComment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CoreBugInfosFromFeedback">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Project_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Project_Area_Path" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Project_Iteration_Path" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Assigned_To" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_By" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Priority" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Severity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Issue_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="World_Readiness_Impact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Localization_Impact" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Closed_Date" Type="DateTime" Precision="3" />
+          <Property Name="Resolved_Date" Type="DateTime" Precision="3" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SkypeVsoWorkItemsModelStoreContainer" CdmEntityContainer="VsoWorkItemsContext">
+          <EntitySetMapping Name="TestRunResults">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestRunResult">
+              <MappingFragment StoreEntitySet="TestRunResults">
+                <ScalarProperty Name="Completed_Date" ColumnName="Completed Date" />
+                <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+                <ScalarProperty Name="Tester_Unique_Name" ColumnName="Tester Unique Name" />
+                <ScalarProperty Name="Tester_Display_Name" ColumnName="Tester Display Name" />
+                <ScalarProperty Name="Test_Outcome" ColumnName="Test Outcome" />
+                <ScalarProperty Name="Test_Run_Name" ColumnName="Test Run Name" />
+                <ScalarProperty Name="Test_Case_ID" ColumnName="Test Case ID" />
+                <ScalarProperty Name="Test_Plan_ID" ColumnName="Test Plan ID" />
+                <ScalarProperty Name="Test_Run_ID" ColumnName="Test Run ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TestSuiteRevisions">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestSuiteRevision">
+              <MappingFragment StoreEntitySet="TestSuiteRevisions">
+                <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+                <ScalarProperty Name="Query_Text" ColumnName="Query Text" />
+                <ScalarProperty Name="Test_Suite_Audit" ColumnName="Test Suite Audit" />
+                <ScalarProperty Name="Test_Suite_Type" ColumnName="Test Suite Type" />
+                <ScalarProperty Name="Revised_Date" ColumnName="Revised Date" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+                <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+                <ScalarProperty Name="Rev" ColumnName="Rev" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TestSuiteTestCaseMappings">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestSuiteTestCaseMapping">
+              <MappingFragment StoreEntitySet="TestSuiteTestCaseMapping">
+                <ScalarProperty Name="Test_Suite_Rev" ColumnName="Test Suite Rev" />
+                <ScalarProperty Name="Test_Case_ID" ColumnName="Test Case ID" />
+                <ScalarProperty Name="Test_Suite_ID" ColumnName="Test Suite ID" />
+                <ScalarProperty Name="Test_Plan_ID" ColumnName="Test Plan ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CoreBugInfos">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.CoreBugInfo">
+              <MappingFragment StoreEntitySet="CoreBugInfos">
+                <ScalarProperty Name="Core_Bug_Resolved_Date" ColumnName="Core Bug Resolved Date" />
+                <ScalarProperty Name="Core_Bug_Closed_Date" ColumnName="Core Bug Closed Date" />
+                <ScalarProperty Name="Core_Bug_Created_Date" ColumnName="Core Bug Created Date" />
+                <ScalarProperty Name="Core_Bug_Localization_Impact" ColumnName="Core Bug Localization Impact" />
+                <ScalarProperty Name="Core_Bug_World_Readiness_Impact" ColumnName="Core Bug World Readiness Impact" />
+                <ScalarProperty Name="Core_Bug_Issue_Type" ColumnName="Core Bug Issue Type" />
+                <ScalarProperty Name="Core_Bug_Severity" ColumnName="Core Bug Severity" />
+                <ScalarProperty Name="Core_Bug_Priority" ColumnName="Core Bug Priority" />
+                <ScalarProperty Name="Core_Bug_Created_By" ColumnName="Core Bug Created By" />
+                <ScalarProperty Name="Core_Bug_Reason" ColumnName="Core Bug Reason" />
+                <ScalarProperty Name="Core_Bug_Assigned_To" ColumnName="Core Bug Assigned To" />
+                <ScalarProperty Name="Core_Bug_Title" ColumnName="Core Bug Title" />
+                <ScalarProperty Name="Core_Project_Iteration_Path" ColumnName="Core Project Iteration Path" />
+                <ScalarProperty Name="Core_Project_Area_Path" ColumnName="Core Project Area Path" />
+                <ScalarProperty Name="Core_Project_Name" ColumnName="Core Project Name" />
+                <ScalarProperty Name="Core_Bug_Status" ColumnName="Core Bug Status" />
+                <ScalarProperty Name="Loc_Bug_Status" ColumnName="Loc Bug Status" />
+                <ScalarProperty Name="Core_Bug_ID" ColumnName="Core Bug ID" />
+                <ScalarProperty Name="Loc_Bug_ID" ColumnName="Loc Bug ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ImpedimentRevisions">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.ImpedimentRevision">
+              <MappingFragment StoreEntitySet="ImpedimentRevisions">
+                <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+                <ScalarProperty Name="ActionPlan" ColumnName="ActionPlan" />
+                <ScalarProperty Name="Severity" ColumnName="Severity" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+                <ScalarProperty Name="Swag" ColumnName="Swag" />
+                <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+                <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+                <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+                <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+                <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+                <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+                <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+                <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+                <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+                <ScalarProperty Name="Rev" ColumnName="Rev" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TaskRevisions">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TaskRevision">
+              <MappingFragment StoreEntitySet="TaskRevisions">
+                <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+                <ScalarProperty Name="Remaining_Work" ColumnName="Remaining Work" />
+                <ScalarProperty Name="Completed_Work" ColumnName="Completed Work" />
+                <ScalarProperty Name="Original_Estimate" ColumnName="Original Estimate" />
+                <ScalarProperty Name="Estimate_TShirt" ColumnName="Estimate TShirt" />
+                <ScalarProperty Name="Estimate_Points" ColumnName="Estimate Points" />
+                <ScalarProperty Name="Initiator" ColumnName="Initiator" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+                <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+                <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+                <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+                <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+                <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+                <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+                <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+                <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+                <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+                <ScalarProperty Name="Rev" ColumnName="Rev" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TestCaseRevisions">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestCaseRevision">
+              <MappingFragment StoreEntitySet="TestCaseRevisions">
+                <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+                <ScalarProperty Name="PS_ID" ColumnName="PS ID" />
+                <ScalarProperty Name="State_Change_Date" ColumnName="State Change Date" />
+                <ScalarProperty Name="Activated_Date" ColumnName="Activated Date" />
+                <ScalarProperty Name="Activated_By" ColumnName="Activated By" />
+                <ScalarProperty Name="Steps" ColumnName="Steps" />
+                <ScalarProperty Name="Test_Type" ColumnName="Test Type" />
+                <ScalarProperty Name="TestCase_Estimate" ColumnName="TestCase Estimate" />
+                <ScalarProperty Name="Automation_Status" ColumnName="Automation Status" />
+                <ScalarProperty Name="Revised_Date" ColumnName="Revised Date" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+                <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+                <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+                <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+                <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+                <ScalarProperty Name="Rev" ColumnName="Rev" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TestPlanRevisions">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.TestPlanRevision">
+              <MappingFragment StoreEntitySet="TestPlanRevisions">
+                <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+                <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="Revised_Date" ColumnName="Revised Date" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+                <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+                <ScalarProperty Name="Rev" ColumnName="Rev" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WorkItemLinks">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.WorkItemLink">
+              <MappingFragment StoreEntitySet="WorkItemLinks">
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Is_Active" ColumnName="Is Active" />
+                <ScalarProperty Name="Link_Type" ColumnName="Link Type" />
+                <ScalarProperty Name="Target_ID" ColumnName="Target ID" />
+                <ScalarProperty Name="Source_ID" ColumnName="Source ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EnablingSpecificationRevisions">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.EnablingSpecificationRevision">
+              <MappingFragment StoreEntitySet="EnablingSpecificationRevisions">
+                <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+                <ScalarProperty Name="Engineering_Effort" ColumnName="Engineering Effort" />
+                <ScalarProperty Name="Release" ColumnName="Release" />
+                <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+                <ScalarProperty Name="Estimate_TShirt" ColumnName="Estimate TShirt" />
+                <ScalarProperty Name="Estimate_Points" ColumnName="Estimate Points" />
+                <ScalarProperty Name="Blocking" ColumnName="Blocking" />
+                <ScalarProperty Name="Review_Required" ColumnName="Review Required" />
+                <ScalarProperty Name="Initiator" ColumnName="Initiator" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+                <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+                <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+                <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+                <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+                <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+                <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+                <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+                <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+                <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+                <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+                <ScalarProperty Name="Rev" ColumnName="Rev" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EpicRevisions">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.EpicRevision">
+              <MappingFragment StoreEntitySet="EpicRevisions">
+                <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="WorldReadinessImpact" ColumnName="WorldReadinessImpact" />
+                <ScalarProperty Name="Swag" ColumnName="Swag" />
+                <ScalarProperty Name="LocalizationImpact" ColumnName="LocalizationImpact" />
+                <ScalarProperty Name="DevSignoff" ColumnName="DevSignoff" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+                <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+                <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+                <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+                <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+                <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+                <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+                <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+                <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+                <ScalarProperty Name="Rev" ColumnName="Rev" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BugRevisions">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.BugRevision">
+              <MappingFragment StoreEntitySet="BugRevisions">
+                <ScalarProperty Name="Fix_Type" ColumnName="Fix Type" />
+                <ScalarProperty Name="Suggested_Translation" ColumnName="Suggested Translation" />
+                <ScalarProperty Name="Original_Translation" ColumnName="Original Translation" />
+                <ScalarProperty Name="Source_String" ColumnName="Source String" />
+                <ScalarProperty Name="Resource_ID" ColumnName="Resource ID" />
+                <ScalarProperty Name="File_Name" ColumnName="File Name" />
+                <ScalarProperty Name="Fabric_Project" ColumnName="Fabric Project" />
+                <ScalarProperty Name="Estimated_Test_Impact" ColumnName="Estimated Test Impact" />
+                <ScalarProperty Name="Triaged" ColumnName="Triaged" />
+                <ScalarProperty Name="Issue_Subtype" ColumnName="Issue Subtype" />
+                <ScalarProperty Name="Resolved_Reason" ColumnName="Resolved Reason" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Root_Cause_Category" ColumnName="Root Cause Category" />
+                <ScalarProperty Name="Team_Project" ColumnName="Team Project" />
+                <ScalarProperty Name="Source" ColumnName="Source" />
+                <ScalarProperty Name="Skype_Priority" ColumnName="Skype Priority" />
+                <ScalarProperty Name="Severity" ColumnName="Severity" />
+                <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+                <ScalarProperty Name="Resolved_By" ColumnName="Resolved By" />
+                <ScalarProperty Name="PS_ID" ColumnName="PS ID" />
+                <ScalarProperty Name="PS_Database" ColumnName="PS Database" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="Language" ColumnName="Language" />
+                <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+                <ScalarProperty Name="Iteration_Path" ColumnName="Iteration Path" />
+                <ScalarProperty Name="Issue_Type" ColumnName="Issue Type" />
+                <ScalarProperty Name="How_Was_Found" ColumnName="How Was Found" />
+                <ScalarProperty Name="Fixed_Build" ColumnName="Fixed Build" />
+                <ScalarProperty Name="Fix_Provided_By" ColumnName="Fix Provided By" />
+                <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+                <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+                <ScalarProperty Name="Closed_By" ColumnName="Closed By" />
+                <ScalarProperty Name="Changed_Date" ColumnName="Changed Date" />
+                <ScalarProperty Name="Changed_By" ColumnName="Changed By" />
+                <ScalarProperty Name="Build_Found" ColumnName="Build Found" />
+                <ScalarProperty Name="Branch_Found" ColumnName="Branch Found" />
+                <ScalarProperty Name="Area_Path" ColumnName="Area Path" />
+                <ScalarProperty Name="Tags" ColumnName="Tags" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Work_Item_Type" ColumnName="Work Item Type" />
+                <ScalarProperty Name="Rev" ColumnName="Rev" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WorkItemAttachments">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.WorkItemAttachment">
+              <MappingFragment StoreEntitySet="WorkItemAttachment">
+                <ScalarProperty Name="AttachmentComment" ColumnName="AttachmentComment" />
+                <ScalarProperty Name="AttachmentName" ColumnName="AttachmentName" />
+                <ScalarProperty Name="WorkItemType" ColumnName="WorkItemType" />
+                <ScalarProperty Name="AttachmentUrl" ColumnName="AttachmentUrl" />
+                <ScalarProperty Name="WorkItemID" ColumnName="WorkItemID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CoreBugInfosFromFeedbacks">
+            <EntityTypeMapping TypeName="VsoWorkItemsSync.Model.CoreBugInfosFromFeedback">
+              <MappingFragment StoreEntitySet="CoreBugInfosFromFeedback">
+                <ScalarProperty Name="Resolved_Date" ColumnName="Resolved Date" />
+                <ScalarProperty Name="Closed_Date" ColumnName="Closed Date" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created Date" />
+                <ScalarProperty Name="Localization_Impact" ColumnName="Localization Impact" />
+                <ScalarProperty Name="World_Readiness_Impact" ColumnName="World Readiness Impact" />
+                <ScalarProperty Name="Issue_Type" ColumnName="Issue Type" />
+                <ScalarProperty Name="Severity" ColumnName="Severity" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="Created_By" ColumnName="Created By" />
+                <ScalarProperty Name="Reason" ColumnName="Reason" />
+                <ScalarProperty Name="Assigned_To" ColumnName="Assigned To" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Project_Iteration_Path" ColumnName="Project Iteration Path" />
+                <ScalarProperty Name="Project_Area_Path" ColumnName="Project Area Path" />
+                <ScalarProperty Name="Project_Name" ColumnName="Project Name" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

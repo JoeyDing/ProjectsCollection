@@ -1,0 +1,87 @@
+{
+  "chat_window_message": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Entrer un message ici\")"
+  },
+  "main_application": {
+    "command": "new UiSelector().className(\"android.widget.FrameLayout\")"
+  },
+  "main_username": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_password": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_submit": {
+    "command": "new UiSelector().className(\"android.widget.Button\").description(\"Sign in\")",
+    "id": "idSIButton9"
+  },
+  "first_time_username": {
+    "id": "com.microsoft.skype.android.s4l.df:id/input_email"
+  },
+  "first_time_submit": {
+    "id": "com.microsoft.skype.android.s4l.df:id/button_login"
+  },
+  "profile_window_settings": {
+    "text": "Partager le profil",
+    "accessibility_id": "Partager le profil"
+  },
+  "profile_window_settings_do_not_disturb": {
+    "command": "new UiSelector().childSelector( new UiSelector().textContains(\"Ne pas déranger\")).index(1)",
+    "text": "Ne pas déranger"
+  },
+  "main_window_new_conversation_name_group": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Name this group chat\")"
+  },
+  "main_window_new_conversation_user_search": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").instance(0)"
+  },
+  "main_window_new_conversation_contact_search_bar_input": {
+    "command": "new UiSelector().className(\"android.widget.EditText\").textContains(\"Rechercher des contacts et des groupes|Rechercher des contacts et des groupes\")"
+  },
+  "main_window_new_group_conversation_user_search": {
+    "command": "new UiSelector().textStartsWith(\"Rechercher des personnes et des bots|Rechercher des contacts et des bots\")",
+    "text": "Search People and bots"
+  },
+  "main_window_new_group_conversation_user_search_input": {
+    "command": "new UiSelector().textStartsWith(\"Rechercher des robots|Rechercher dans Skype|Pour répondre à vos questions, vous rappeler les événements importants et bien plus encore, laissez Cortana recueillir et utiliser des informations, notamment :\n\nVos informations d’emplacement et historique d’emplacements\n\nVos contacts, détails de calendrier, ainsi que le contenu et l’historique de communications de vos messages, messages instantanés et applications\n\nVotre historique de recherche et toute autre information sur votre appareil pour personnaliser davantage votre utilisation|Rechercher sur le Web|Rechercher sur le Web|Rechercher des fichiers|Rechercher des contacts|Rechercher dans Skype|Rechercher des lieux|Rechercher des personnes et des bots|Rechercher|Rechercher des contacts et des groupes|Rechercher des contacts|Rechercher dans Skype|Rechercher|Rechercher des bots|Rechercher des contacts|Rechercher des contacts et des bots|Rechercher des contacts et des groupes\")",
+    "text": "Rechercher"
+  },
+  "main_window_people_search": {
+    "command": "new UiSelector().textStartsWith(\"Rechercher des contacts|Rechercher des personnes et des bots|Rechercher des contacts et des groupes|Rechercher des contacts|Rechercher des contacts|Rechercher des contacts et des bots|Rechercher des contacts et des groupes\")",
+    "text": "Rechercher des contacts"
+  },
+  "main_window_profile_button": {
+    "accessibility_id": "My info, No new notifications."
+  },
+  "contact_window_search": {
+    "command": "new UiSelector().textStartsWith(\"Rechercher des robots|Rechercher dans Skype|Pour répondre à vos questions, vous rappeler les événements importants et bien plus encore, laissez Cortana recueillir et utiliser des informations, notamment :\n\nVos informations d’emplacement et historique d’emplacements\n\nVos contacts, détails de calendrier, ainsi que le contenu et l’historique de communications de vos messages, messages instantanés et applications\n\nVotre historique de recherche et toute autre information sur votre appareil pour personnaliser davantage votre utilisation|Rechercher sur le Web|Rechercher sur le Web|Rechercher des fichiers|Rechercher des contacts|Rechercher dans Skype|Rechercher des lieux|Rechercher des personnes et des bots|Rechercher|Rechercher des contacts et des groupes|Rechercher des contacts|Rechercher dans Skype|Rechercher|Rechercher des bots|Rechercher des contacts|Rechercher des contacts et des bots|Rechercher des contacts et des groupes\")",
+    "text": "Rechercher"
+  },
+  "profile_window_my_profile": {
+    "text": "",
+    "accessibility_id": "Paramètres"
+  },
+  "profile_window_signout_confirm": {
+    "command": "new UiSelector().text(\"Déconnexion\").instance(1)",
+    "text": "LOG OUT"
+  },
+  "profile_window_profile_picture": {
+    "command": "new UiSelector().className(\"android.widget.Button\").instance(0)"
+  },
+  "profile_window_empty_profile_picture": {
+    "text": "?",
+    "xpath": "?"
+  },
+  "profile_about_information_link": {
+    "command": "new UiSelector().text(\"À propos de\")",
+    "text": "À propos de"
+  },
+  "capture_window_captured_picture_add_text_change_position": {
+    "command": "new UiSelector().text(\"\")",
+    "text": ""
+  },
+  "my_highlights_confirm_upload_successful": {
+    "command": "new UiSelector().textMatches(\"{minutes} min, expiration le {expireDate}|Impossible de contacter le service Cortana. Réessayez dans quelques minutes.|{hours} h {minutes} m {seconds} s|{hours} h {minutes} m|{minutes} m|{minutes} m {seconds} s|{count} minutes|{count, plural, =1{il y a 1 minute} other{il y a # minutes}}|{minutes} min|{count, plural, =1{il y a 1 minute} other{il y a # minutes}}|{count, plural, =1{il y a 1 minute} other{il y a # minutes}}\")",
+    "text": "{minutes} min, expiration le {expireDate}|Impossible de contacter le service Cortana. Réessayez dans quelques minutes.|{hours} h {minutes} m {seconds} s|{hours} h {minutes} m|{minutes} m|{minutes} m {seconds} s|{count} minutes|{count, plural, =1{il y a 1 minute} other{il y a # minutes}}|{minutes} min|{count, plural, =1{il y a 1 minute} other{il y a # minutes}}|{count, plural, =1{il y a 1 minute} other{il y a # minutes}}"
+  }
+}

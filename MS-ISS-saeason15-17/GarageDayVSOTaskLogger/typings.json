@@ -1,0 +1,9 @@
+{
+  "name": "tasklogger",
+  "dependencies": {},
+  "globalDependencies": {
+    "electron": "registry:env/electron#0.37.6+20160723033700",
+    "jquery": "registry:dt/jquery#1.10.0+20160704162008",
+    "node": "registry:dt/node#6.0.0+20160818175514"
+  }
+}

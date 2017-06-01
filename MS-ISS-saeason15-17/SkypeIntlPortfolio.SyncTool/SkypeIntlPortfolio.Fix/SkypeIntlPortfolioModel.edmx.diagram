@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="61bdcd23d2b440cb94a129ae59f03359" Name="Diagram1">
+        <EntityTypeShape EntityType="SkypeIntlPortfolio.SyncTool.Model.MilestoneCategory" Width="1.5" PointX="0.75" PointY="6.875" />
+        <EntityTypeShape EntityType="SkypeIntlPortfolio.SyncTool.Model.TestSchedule" Width="1.5" PointX="5.25" PointY="3" />
+        <AssociationConnector Association="SkypeIntlPortfolio.SyncTool.Model.FK_TestSchedules_MilestoneCategories" />
+        <EntityTypeShape EntityType="SkypeIntlPortfolio.SyncTool.Model.Release" Width="1.5" PointX="3" PointY="12.375" />
+        <AssociationConnector Association="SkypeIntlPortfolio.SyncTool.Model.FK_TestSchedule_Releases" />
+        <EntityTypeShape EntityType="SkypeIntlPortfolio.SyncTool.Model.Products_New" Width="1.5" PointX="0.75" PointY="10.125" />
+        <AssociationConnector Association="SkypeIntlPortfolio.SyncTool.Model.FK_Releases_Products" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

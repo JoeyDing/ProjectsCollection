@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensibleConfig>
+  <GlobalConfig>
+    <ConnectionString>
+       Server=skypeintl;Database=Test_ExtensibleDataExtraction;integrated security=True;MultipleActiveResultSets=True;App=ExtensibleDbContext; 
+    </ConnectionString> 
+       <Params>
+          <Param>
+            <Key>Token</Key> 
+            <Value>vwk7rvnwpmh74mmto2aidlepeixsarewkwwlaihtaode7ziwowna</Value> 
+      </Param> 
+          <Param>
+            <Key>RootAccount</Key> 
+            <Value>skype-test2</Value> 
+      </Param> 
+    </Params> 
+    <LogName>VSOAPI.log</LogName>
+  </GlobalConfig>
+  <ExtensibleItems>
+    <ExtensibleItem>
+      <ConnectionString>
+        Server=skypeintl;Database=Test_ExtensibleDataExtraction;integrated security=True;user id=lowLevelReader;password=M1cr0s0ft;MultipleActiveResultSets=True;App=ExtensibleDbContext;
+      </ConnectionString>
+      <JsonEndPoint>
+        <CustomLib>
+          <DllName>ExtensibleVSOAPI</DllName>
+          <FetchClass>ExtensibleVSOAPI.Services.FetchService</FetchClass>
+          <Params>
+            <Param>
+              <Key>Type</Key>
+              <Value>Task</Value>
+            </Param>
+            <Param>
+              <Key>FromDate</Key>
+              <Value>[CurrentDate-1]</Value>
+            </Param>
+          </Params>
+        </CustomLib>
+        <ResultTemplate>values</ResultTemplate>
+        <ResultItemTemplate>fields</ResultItemTemplate>
+      </JsonEndPoint>
+      <Mapping>
+        <SqlTableName>CountryLanguageCount</SqlTableName>
+        <CleanOnSchemaChange>false</CleanOnSchemaChange>
+        <SaveType>Incremental</SaveType>
+        <Fields>
+          <Field>
+            <JsonFieldName>System.Id</JsonFieldName>
+            <SqlColumnName>SystemId</SqlColumnName>
+            <IsIdentity>1</IsIdentity>
+          </Field>
+          <Field>
+            <JsonFieldName>System.AreaId</JsonFieldName>
+            <SqlColumnName>SystemAreaId</SqlColumnName>
+            <IsIdentity>0</IsIdentity>
+          </Field>
+          <Field>
+            <JsonFieldName>System.AreaPath</JsonFieldName>
+            <SqlColumnName>SystemAreaPath</SqlColumnName>
+            <IsIdentity>0</IsIdentity>
+          </Field>
+        </Fields>
+      </Mapping>
+    </ExtensibleItem>
+  </ExtensibleItems>
+</ExtensibleConfig>

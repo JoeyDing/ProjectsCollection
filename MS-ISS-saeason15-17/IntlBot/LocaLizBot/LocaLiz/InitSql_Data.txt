@@ -1,0 +1,22 @@
+﻿USE [LocalizData]
+GO
+
+INSERT INTO [dbo].[LanguageModels]
+           ([ISO]
+           ,[NameInEnglish]
+           ,[OriginalName])
+     VALUES
+('ar','Arabic','العربية'),
+('de','German','Deutsch'),
+('en','English','English'),
+('es','Spanish','español'),
+('hi','Hindi','हिंदी'),
+('lv','Latvian','latviešu'),
+('ru','Russian','русский'),
+('et','Estonian','eesti'),
+('it','Italian','italiano')
+
+GO
+
+
+

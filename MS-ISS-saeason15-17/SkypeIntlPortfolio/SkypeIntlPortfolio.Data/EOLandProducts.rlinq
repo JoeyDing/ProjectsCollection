@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DomainModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="2.0.0.0" name="EOLandProductsEntities" namespace="SkypeIntlPortfolio.Data" showPropertiesCompartment="true" xmlns="http://www.telerik.com/ORM">
+  <orm:orm name="EOLandProductsEntities" backend="mssql" default-schema="dbo" xmlns:orm="http://tempuri.org/ORM">
+    <orm:namespace name="SkypeIntlPortfolio.Data" default="true">
+      <orm:class name="FabricOnboarding" uniqueId="3c83ed3f-27f9-47ff-b3b3-b2974f3cd614">
+        <orm:table name="FabricOnboarding" />
+        <orm:identity>
+          <orm:key-generator name="autoinc">
+            <orm:key-generator-member property-name="ID" />
+          </orm:key-generator>
+          <orm:single-field field-name="_iD" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_jiraPBI" property="JiraPBI" behavior="readwrite" uniqueId="06d105f9-abf3-42b5-b0a6-6522bac9c08e" type="System.String">
+          <orm:column name="JiraPBI" sql-type="nvarchar" nullable="true" length="50" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_iD" property="ID" behavior="readwrite" uniqueId="e3a647b4-0c2a-45ba-90f5-0d0223f4c299" type="System.Int32">
+          <orm:column name="ID" sql-type="int" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_summary" property="Summary" behavior="readwrite" uniqueId="2fd6ac76-ccf4-4b6e-973e-200e7435d0ae" type="System.String">
+          <orm:column name="Summary" sql-type="nvarchar(max)" nullable="true" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_epicLabels" property="EpicLabels" behavior="readwrite" uniqueId="503b96b3-4b24-4c00-9690-2c9373d4607c" type="System.String">
+          <orm:column name="EpicLabels" sql-type="nvarchar" nullable="true" length="100" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_labels" property="Labels" behavior="readwrite" uniqueId="073b707d-2ffd-4207-affd-ba0f3d2d14d9" type="System.String">
+          <orm:column name="Labels" sql-type="nvarchar(max)" nullable="true" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_status" property="Status" behavior="readwrite" uniqueId="32ca7c3b-46e0-4dbf-82d7-0caede7ce8d0" type="System.String">
+          <orm:column name="Status" sql-type="nvarchar" nullable="true" length="50" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_sprint" property="Sprint" behavior="readwrite" uniqueId="7a076dc3-b604-46e3-94f5-1743c2059de5" type="System.String">
+          <orm:column name="Sprint" sql-type="nvarchar" nullable="true" length="100" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_links" property="Links" behavior="readwrite" uniqueId="2985b388-95d6-4cbc-b889-b7d879bbf7f4" type="System.String">
+          <orm:column name="Links" sql-type="nvarchar(max)" nullable="true" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_parentOnboardingTaskID" property="ParentOnboardingTaskID" behavior="readwrite" uniqueId="6f440209-cd31-4c0f-ab4a-e4399378c69b" type="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="ParentOnboardingTaskID" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_createdDate" property="CreatedDate" behavior="readwrite" uniqueId="6984da13-5cc0-4731-9746-c8bd2bd11b9e" type="System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="CreatedDate" sql-type="datetime" nullable="true" length="0" scale="0" ado-type="DateTime" />
+        </orm:field>
+        <orm:field name="_closedDate" property="ClosedDate" behavior="readwrite" uniqueId="a59289c1-2649-4265-be9c-ac20ff38f114" type="System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="ClosedDate" sql-type="datetime" nullable="true" length="0" scale="0" ado-type="DateTime" />
+        </orm:field>
+        <orm:field name="_fabricOnboarding1" property="FabricOnboardingParent" behavior="readwrite" uniqueId="a4a3c40c-69c9-4be4-8996-caa387e7ef13" type="SkypeIntlPortfolio.Data.FabricOnboarding" default-fetch-group="true">
+          <orm:reference uniqueId="eaa7646c-d61a-4559-998a-e9bb8bf36d0f" association-name="FabricOnboardingHasFabricOnboarding">
+            <orm:sharedfield name="_parentOnboardingTaskID" target-class="SkypeIntlPortfolio.Data.FabricOnboarding" target-field="_iD" />
+            <orm:constraint name="FK_FabricOnboarding_FabricOnboarding" delete-action="dbdefaultrule" destination-table="FabricOnboarding" />
+          </orm:reference>
+        </orm:field>
+        <orm:field name="_fabricOnboardings" property="FabricOnboardings" behavior="readwrite" uniqueId="a2d4508e-5c80-4d03-930e-1c970804a951" type="SkypeIntlPortfolio.Data.FabricOnboarding">
+          <orm:collection element-class="SkypeIntlPortfolio.Data.FabricOnboarding" inverse-field="_fabricOnboarding1" order-by="" uniqueId="eaa7646c-d61a-4559-998a-e9bb8bf36d0f" />
+        </orm:field>
+      </orm:class>
+      <orm:class name="FabricOnboardingsLowLevelStatus" uniqueId="e3954b55-1338-48b9-9b8c-fc648e5ba8a1">
+        <orm:table name="FabricOnboardingsLowLevelStatus" view="true" />
+        <orm:identity>
+          <orm:single-field field-name="_project" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_project" property="Project" behavior="readwrite" uniqueId="bd870bab-ffa2-44d7-94f3-c82394315f4c" type="System.String">
+          <orm:column name="Project" sql-type="nvarchar" nullable="false" length="100" scale="0" primary-key="true" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABWalkTest3" property="LYNCFABWalkTest3" behavior="readwrite" uniqueId="a2b0f746-12af-4452-953e-fc2dd655a78b" type="System.String">
+          <orm:column name="LYNCFAB WalkTest3" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABWalkTest2" property="LYNCFABWalkTest2" behavior="readwrite" uniqueId="ac8424a8-5633-4fda-9910-01f0b9a9afc5" type="System.String">
+          <orm:column name="LYNCFAB WalkTest2" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABWalkTest1" property="LYNCFABWalkTest1" behavior="readwrite" uniqueId="2c68042d-7555-40e1-9111-2760424c4ac5" type="System.String">
+          <orm:column name="LYNCFAB WalkTest1" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABCrawlTest7" property="LYNCFABCrawlTest7" behavior="readwrite" uniqueId="0d3b4399-b724-4823-833f-91a3dde750b8" type="System.String">
+          <orm:column name="LYNCFAB CrawlTest7" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABCrawlTest6" property="LYNCFABCrawlTest6" behavior="readwrite" uniqueId="92db17da-d4ae-4d8e-8b12-105cec8cbdcd" type="System.String">
+          <orm:column name="LYNCFAB CrawlTest6" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABCrawlTest5" property="LYNCFABCrawlTest5" behavior="readwrite" uniqueId="2aa392a7-a230-40b9-bc6b-2181326abc27" type="System.String">
+          <orm:column name="LYNCFAB CrawlTest5" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABCrawlTest4" property="LYNCFABCrawlTest4" behavior="readwrite" uniqueId="f969f140-7341-4c0e-b42a-f040f1cd1443" type="System.String">
+          <orm:column name="LYNCFAB CrawlTest4" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABCrawlTest3" property="LYNCFABCrawlTest3" behavior="readwrite" uniqueId="003c6f1a-bbc0-45e2-88e1-781e38b80c1b" type="System.String">
+          <orm:column name="LYNCFAB CrawlTest3" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABCrawlTest2" property="LYNCFABCrawlTest2" behavior="readwrite" uniqueId="10e66eb0-40e5-489c-8131-2e913965b1dd" type="System.String">
+          <orm:column name="LYNCFAB CrawlTest2" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_lYNCFABCrawlTest1" property="LYNCFABCrawlTest1" behavior="readwrite" uniqueId="729946fc-343b-43c2-92f2-78ffda2d8291" type="System.String">
+          <orm:column name="LYNCFAB CrawlTest1" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_jiraLink" property="JiraLink" behavior="readwrite" uniqueId="7523f8cc-a0f9-4d3c-a8c5-095ba2a63556" type="System.String">
+          <orm:column name="Jira Link" sql-type="nvarchar" nullable="true" length="157" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_aAPTEpicTasks" property="AAPTEpicTasks" behavior="readwrite" uniqueId="d981404c-9cc5-4ed3-97bc-6a720ba55447" type="System.String">
+          <orm:column name="AAPT-Epic Tasks" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        </orm:field>
+      </orm:class>
+      <orm:class name="FabricOnboardingsHighLevelStatus" uniqueId="12438ad4-b487-4101-8039-e80830fb0e28">
+        <orm:table name="FabricOnboardingsHighLevelStatus" view="true" />
+        <orm:identity>
+          <orm:single-field field-name="_project" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_project" property="Project" behavior="readwrite" uniqueId="0243cbdc-90b0-4619-b712-a68bd9d985ae" type="System.String">
+          <orm:column name="Project" sql-type="nvarchar" nullable="false" length="100" scale="0" primary-key="true" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_phase" property="Phase" behavior="readwrite" uniqueId="73f7554c-68c5-48c6-bd2d-9bb8658856cd" type="System.String">
+          <orm:column name="Phase" sql-type="varchar" nullable="false" length="6" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+      </orm:class>
+    </orm:namespace>
+    <orm:schema schema="">
+      <orm:table name="FabricOnboarding">
+        <orm:column name="JiraPBI" sql-type="nvarchar" nullable="true" length="50" scale="0" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="ID" sql-type="int" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        <orm:column name="Summary" sql-type="nvarchar(max)" nullable="true" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="EpicLabels" sql-type="nvarchar" nullable="true" length="100" scale="0" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="Labels" sql-type="nvarchar(max)" nullable="true" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="Status" sql-type="nvarchar" nullable="true" length="50" scale="0" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="Sprint" sql-type="nvarchar" nullable="true" length="100" scale="0" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="Links" sql-type="nvarchar(max)" nullable="true" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="ParentOnboardingTaskID" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="CreatedDate" sql-type="datetime" nullable="true" length="0" scale="0" ado-type="DateTime" />
+        <orm:column name="ClosedDate" sql-type="datetime" nullable="true" length="0" scale="0" ado-type="DateTime" />
+        <orm:constraint name="FK_FabricOnboarding_FabricOnboarding" delete-action="dbdefaultrule" destination-table="FabricOnboarding">
+          <orm:column name="ParentOnboardingTaskID" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        </orm:constraint>
+      </orm:table>
+      <orm:table name="FabricOnboardingsLowLevelStatus" view="true">
+        <orm:column name="Project" sql-type="nvarchar" nullable="false" length="100" scale="0" primary-key="true" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="LYNCFAB WalkTest3" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB WalkTest2" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB WalkTest1" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB CrawlTest7" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB CrawlTest6" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB CrawlTest5" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB CrawlTest4" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB CrawlTest3" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB CrawlTest2" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="LYNCFAB CrawlTest1" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+        <orm:column name="Jira Link" sql-type="nvarchar" nullable="true" length="157" scale="0" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="AAPT-Epic Tasks" sql-type="nvarchar(max)" nullable="false" length="0" scale="0" ado-type="UnicodeStringInfiniteLength" />
+      </orm:table>
+      <orm:table name="FabricOnboardingsHighLevelStatus" view="true">
+        <orm:column name="Project" sql-type="nvarchar" nullable="false" length="100" scale="0" primary-key="true" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="Phase" sql-type="varchar" nullable="false" length="6" scale="0" ado-type="StringVariableLength" />
+      </orm:table>
+    </orm:schema>
+    <orm:relational-naming-settings>
+      <orm:source-strategy>Property</orm:source-strategy>
+      <orm:remove-camel-case>False</orm:remove-camel-case>
+    </orm:relational-naming-settings>
+  </orm:orm>
+  <ModelSettings xmlns="">
+    <AppConfigConnectionPropertyName>EOLandProductsConnection</AppConfigConnectionPropertyName>
+    <AppConfigConnectionString>data source=skypeintl;initial catalog=EOLandProducts;integrated security=True</AppConfigConnectionString>
+    <InitialCatalog>EOLandProducts</InitialCatalog>
+    <NamingSettings>
+      <ClassRules>
+        <CaseMode>PascalCase</CaseMode>
+        <PluralizationMode>Singularize</PluralizationMode>
+      </ClassRules>
+      <FieldRules>
+        <AddPrefix>_</AddPrefix>
+        <CaseMode>CamelCase</CaseMode>
+      </FieldRules>
+      <PropertyRules>
+        <CaseMode>PascalCase</CaseMode>
+      </PropertyRules>
+      <NavigationPropertyRules />
+    </NamingSettings>
+    <CodeGenerationSettings>
+      <MappingDefinitionType>Xml</MappingDefinitionType>
+    </CodeGenerationSettings>
+    <SchemaUpdateSettings />
+    <BackendConfigurationSettings>
+      <BackendConfiguration>
+        <Backend>MsSql</Backend>
+        <ProviderName>System.Data.SqlClient</ProviderName>
+      </BackendConfiguration>
+    </BackendConfigurationSettings>
+  </ModelSettings>
+  <Types>
+    <DomainClass Id="3c83ed3f-27f9-47ff-b3b3-b2974f3cd614" name="FabricOnboarding" namespace="SkypeIntlPortfolio.Data" showPropertiesCompartment="true" identityMechanism="DatabaseServerCalculated" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true" identityMechanismMember="ID">
+      <Property Id="e3a647b4-0c2a-45ba-90f5-0d0223f4c299" name="ID" type="Int32" label="ID : Int32" kind="Persistent" identity="true" fieldName="_iD" />
+      <Property Id="a59289c1-2649-4265-be9c-ac20ff38f114" name="ClosedDate" type="DateTime" label="ClosedDate : DateTime" nullable="true" kind="Persistent" fieldName="_closedDate" />
+      <Property Id="6984da13-5cc0-4731-9746-c8bd2bd11b9e" name="CreatedDate" type="DateTime" label="CreatedDate : DateTime" nullable="true" kind="Persistent" fieldName="_createdDate" />
+      <Property Id="503b96b3-4b24-4c00-9690-2c9373d4607c" name="EpicLabels" label="EpicLabels : String" kind="Persistent" fieldName="_epicLabels" />
+      <Property Id="06d105f9-abf3-42b5-b0a6-6522bac9c08e" name="JiraPBI" label="JiraPBI : String" kind="Persistent" fieldName="_jiraPBI" />
+      <Property Id="073b707d-2ffd-4207-affd-ba0f3d2d14d9" name="Labels" label="Labels : String" kind="Persistent" fieldName="_labels" />
+      <Property Id="2985b388-95d6-4cbc-b889-b7d879bbf7f4" name="Links" label="Links : String" kind="Persistent" fieldName="_links" />
+      <Property Id="6f440209-cd31-4c0f-ab4a-e4399378c69b" name="ParentOnboardingTaskID" type="Int32" label="ParentOnboardingTaskID : Int32" nullable="true" kind="Persistent" fieldName="_parentOnboardingTaskID" />
+      <Property Id="7a076dc3-b604-46e3-94f5-1743c2059de5" name="Sprint" label="Sprint : String" kind="Persistent" fieldName="_sprint" />
+      <Property Id="32ca7c3b-46e0-4dbf-82d7-0caede7ce8d0" name="Status" label="Status : String" kind="Persistent" fieldName="_status" />
+      <Property Id="2fd6ac76-ccf4-4b6e-973e-200e7435d0ae" name="Summary" label="Summary : String" kind="Persistent" fieldName="_summary" />
+      <AssociationTargets>
+        <Association Id="eaa7646c-d61a-4559-998a-e9bb8bf36d0f" SourceMultiplicity="ZeroOne" name="FabricOnboardingHasFabricOnboarding">
+          <DomainClassMoniker name="/EOLandProductsEntities/FabricOnboarding" />
+          <targetNavigationalProperty>
+            <associationDefinesTargetProperty Id="03e6966e-be64-4332-9697-2850438bbc42">
+              <NavigationalPropertyMoniker name="/EOLandProductsEntities/FabricOnboarding/FabricOnboardings" />
+            </associationDefinesTargetProperty>
+          </targetNavigationalProperty>
+          <sourceNavigationalProperty>
+            <associationDefinesSourceProperty Id="13a4b435-0abf-488d-89b9-ee980d771756">
+              <NavigationalPropertyMoniker name="/EOLandProductsEntities/FabricOnboarding/FabricOnboardingParent" />
+            </associationDefinesSourceProperty>
+          </sourceNavigationalProperty>
+        </Association>
+      </AssociationTargets>
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="cddb4d1b-cd4a-413e-98e7-2b4eda2cc5d0">
+          <NavigationalProperty Id="a4a3c40c-69c9-4be4-8996-caa387e7ef13" name="FabricOnboardingParent" type="FabricOnboarding" label="FabricOnboardingParent : FabricOnboarding" nullable="true" kind="Persistent" loadBehavior="Eager" fieldName="_fabricOnboarding1" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+        <classHasNavigationalProperties Id="e77af467-bec7-49f1-ab83-36b6e46630f2">
+          <NavigationalProperty Id="a2d4508e-5c80-4d03-930e-1c970804a951" name="FabricOnboardings" type="IList&lt;FabricOnboarding&gt;" label="FabricOnboardings : IList&lt;FabricOnboarding&gt;" nullable="true" kind="Persistent" fieldName="_fabricOnboardings" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+    <DomainClass Id="e3954b55-1338-48b9-9b8c-fc648e5ba8a1" name="FabricOnboardingsLowLevelStatus" namespace="SkypeIntlPortfolio.Data" showPropertiesCompartment="true" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="d981404c-9cc5-4ed3-97bc-6a720ba55447" name="AAPTEpicTasks" label="AAPTEpicTasks : String" kind="Persistent" fieldName="_aAPTEpicTasks" />
+      <Property Id="7523f8cc-a0f9-4d3c-a8c5-095ba2a63556" name="JiraLink" label="JiraLink : String" kind="Persistent" fieldName="_jiraLink" />
+      <Property Id="729946fc-343b-43c2-92f2-78ffda2d8291" name="LYNCFABCrawlTest1" label="LYNCFABCrawlTest1 : String" kind="Persistent" fieldName="_lYNCFABCrawlTest1" />
+      <Property Id="10e66eb0-40e5-489c-8131-2e913965b1dd" name="LYNCFABCrawlTest2" label="LYNCFABCrawlTest2 : String" kind="Persistent" fieldName="_lYNCFABCrawlTest2" />
+      <Property Id="003c6f1a-bbc0-45e2-88e1-781e38b80c1b" name="LYNCFABCrawlTest3" label="LYNCFABCrawlTest3 : String" kind="Persistent" fieldName="_lYNCFABCrawlTest3" />
+      <Property Id="f969f140-7341-4c0e-b42a-f040f1cd1443" name="LYNCFABCrawlTest4" label="LYNCFABCrawlTest4 : String" kind="Persistent" fieldName="_lYNCFABCrawlTest4" />
+      <Property Id="2aa392a7-a230-40b9-bc6b-2181326abc27" name="LYNCFABCrawlTest5" label="LYNCFABCrawlTest5 : String" kind="Persistent" fieldName="_lYNCFABCrawlTest5" />
+      <Property Id="92db17da-d4ae-4d8e-8b12-105cec8cbdcd" name="LYNCFABCrawlTest6" label="LYNCFABCrawlTest6 : String" kind="Persistent" fieldName="_lYNCFABCrawlTest6" />
+      <Property Id="0d3b4399-b724-4823-833f-91a3dde750b8" name="LYNCFABCrawlTest7" label="LYNCFABCrawlTest7 : String" kind="Persistent" fieldName="_lYNCFABCrawlTest7" />
+      <Property Id="2c68042d-7555-40e1-9111-2760424c4ac5" name="LYNCFABWalkTest1" label="LYNCFABWalkTest1 : String" kind="Persistent" fieldName="_lYNCFABWalkTest1" />
+      <Property Id="ac8424a8-5633-4fda-9910-01f0b9a9afc5" name="LYNCFABWalkTest2" label="LYNCFABWalkTest2 : String" kind="Persistent" fieldName="_lYNCFABWalkTest2" />
+      <Property Id="a2b0f746-12af-4452-953e-fc2dd655a78b" name="LYNCFABWalkTest3" label="LYNCFABWalkTest3 : String" kind="Persistent" fieldName="_lYNCFABWalkTest3" />
+      <Property Id="bd870bab-ffa2-44d7-94f3-c82394315f4c" name="Project" label="Project : String" kind="Persistent" identity="true" fieldName="_project" />
+    </DomainClass>
+    <DomainClass Id="12438ad4-b487-4101-8039-e80830fb0e28" name="FabricOnboardingsHighLevelStatus" namespace="SkypeIntlPortfolio.Data" showPropertiesCompartment="true" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="73f7554c-68c5-48c6-bd2d-9bb8658856cd" name="Phase" label="Phase : String" kind="Persistent" fieldName="_phase" />
+      <Property Id="0243cbdc-90b0-4619-b712-a68bd9d985ae" name="Project" label="Project : String" kind="Persistent" identity="true" fieldName="_project" />
+    </DomainClass>
+  </Types>
+  <domainContext>
+    <domainModelHasDomainContext Id="4969a4ca-d37c-43dd-b774-c0fbd896baeb">
+      <domainContainer name="EOLandProductsEntities" namespace="SkypeIntlPortfolio.Data" showPropertiesCompartment="true">
+        <entitySetProperty name="FabricOnboardings" namespace="SkypeIntlPortfolio.Data" type="FabricOnboarding" label="FabricOnboardings : IQueryable&lt;SkypeIntlPortfolio.Data.FabricOnboarding&gt;" />
+        <entitySetProperty name="FabricOnboardingsLowLevelStatus" namespace="SkypeIntlPortfolio.Data" type="FabricOnboardingsLowLevelStatus" label="FabricOnboardingsLowLevelStatus : IQueryable&lt;SkypeIntlPortfolio.Data.FabricOnboardingsLowLevelStatus&gt;" />
+        <entitySetProperty name="FabricOnboardingsHighLevelStatus" namespace="SkypeIntlPortfolio.Data" type="FabricOnboardingsHighLevelStatus" label="FabricOnboardingsHighLevelStatus : IQueryable&lt;SkypeIntlPortfolio.Data.FabricOnboardingsHighLevelStatus&gt;" />
+      </domainContainer>
+    </domainModelHasDomainContext>
+  </domainContext>
+</DomainModel>

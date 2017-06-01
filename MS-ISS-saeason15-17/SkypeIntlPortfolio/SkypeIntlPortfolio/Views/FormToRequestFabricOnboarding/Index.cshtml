@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "Data-Entry Form";
+}
+
+<!-- get the data that has been selectd from the option list and then assign the value to epiclabel field-->
+<script type="text/javascript">
+
+    function changeFunc() {
+        var combobox = $("#productsList").data("kendoComboBox");
+        var selectedValue = combobox.dataItem();
+        //assign value to epiclabel
+        document.getElementById("epicLabel").value = "Fabric_" + selectedValue;
+    }
+
+    function validationField() {
+        var checkedData = document.getElementById("checkbox");
+        if (checkedData.checked) {
+            document.getElementById("checkedOrNot").style.visibility = "hidden";
+        }
+        else {
+            document.getElementById("checkedOrNot").style.visibility = "visible";
+
+        }
+    }
+</script>
+
+<style type="text/css">
+    .row {
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="jumbotron">
+    <h1>SkypeIntl Portfolio</h1>
+    <p class="lead">
+        Onboard a new project
+    </p>
+</div>
+<!--Creating HTML Form-->
+<div class="layout-control">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Data-Entry form</h3>
+        </div>
+        <div class="panel-body">
+            <form method="post" id="dataForm" name="dataForm" action="~/FormToRequestFabricOnboarding/GetDataFromForm">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Product</label>
+                        </div>
+                        <div class="col-md-6">
+                            @(Html.Kendo().ComboBox().HtmlAttributes(new Dictionary<string, object>() { { "style", "width:100%" } }).Events(c => c.Change("changeFunc"))
+                                    .Name("productsList")
+                            .BindTo(ViewBag.Products)   //Pass the list of Products to the combobox.
+                            )
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!--format_<PRODUCTNAME,READ ONLY>-->
+                            <label>EpicLabel</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input style="width:100%" class="k-textbox" type="text" value="Fabric_" id="epicLabel" name="epicLabel" readonly />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Core intl-folders location</label>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea style="width:100%" class="k-textbox" name="core_ifl" rows="5" cols="50"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Core Source-File Path</label>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea style="width:100%" class="k-textbox" name="coresource_fp" rows="5" cols="50"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Europe\skwttad RW permission done?</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="checkbox" type="checkbox" name="checkbox" value="true" onclick="validationField();">
+                            <font id="checkedOrNot" color="red">(Required for onboarding)</font>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>EOL</label>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea style="width:100%" class="k-textbox" name="eol" rows="5" cols="50"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Expected Date for Walking( =LSPs' pilot in production-tenant)</label>
+                        </div>
+                        <div class="col-md-6">
+                            @(Html.Kendo().DatePicker().Name("datepicker_walkingDate"))
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Expected Date for Running( =LSPs actively working PLUS production dashboard available)</label>
+                        </div>
+                        <div class="col-md-6">
+                            @(Html.Kendo().DatePicker().Name("datepicker_runningDate"))
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            @(Html.Kendo().Button().Name("theSubmitbutton").Content("Submit"))
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

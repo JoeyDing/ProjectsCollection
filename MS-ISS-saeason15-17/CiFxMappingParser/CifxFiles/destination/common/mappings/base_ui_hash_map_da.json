@@ -1,0 +1,400 @@
+{
+  "QuickCallPanel.CallMultiplePeople": {
+    "accessibility_id": "Ring til flere personer",
+    "text": ""
+  },
+  "call_multiple_people_open_dial_pad": {
+    "accessibility_id": "Indtast et telefonnummer"
+  },
+  "call_window_dial_pad_number_1": {
+    "accessibility_id": "1",
+    "text": "1"
+  },
+  "call_window_select_participants": {
+    "text": "Select participants"
+  },
+  "call_window_switch_camera": {
+    "accessibility_id": "Skift kamera",
+    "text": "Skift kamera"
+  },
+  "call_window_gallery_camera": {
+    "accessibility_id": "Kamera",
+    "text": "Kamera"
+  },
+  "call_window_accept_audio_call": {
+    "accessibility_id": "Answer call from {0} with voice only",
+    "text": ""
+  },
+  "call_window_accept_video_call": {
+    "accessibility_id": "Answer call from {0} with video",
+    "text": ""
+  },
+  "call_window_reject_call": {
+    "accessibility_id": "Afvis",
+    "text": ""
+  },
+  "call_window_menu_toggle": {
+    "accessibility_id": "Vis værktøjer",
+    "text": "Vis værktøjer"
+  },
+  "call_window_emoji_menu_toggle": {
+    "accessibility_id": "Vis reaktioner",
+    "text": "Vis reaktioner"
+  },
+  "call_window_menu_hang_up": {
+    "accessibility_id": "Afslut opkald",
+    "text": ""
+  },
+  "CallControls.CallButtonMute": {
+    "accessibility_id": "Slå lyd fra",
+    "text": ""
+  },
+  "CallControls.CallButtonSwitchCameraBackwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing backward"
+  },
+  "CallControls.CallButtonSwitchCameraForwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing forward"
+  },
+  "CallControls.CallButtonUnmuteAccessibilityLabel": {
+    "accessibility_id": "Slå lyd til",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOffVideoAccessibilityLabel": {
+    "accessibility_id": "Turn off video",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOnVideoAccessibilityLabel": {
+    "accessibility_id": "Turn on video",
+    "text": ""
+  },
+  "call_window_menu_speakerphone": {
+    "accessibility_id": "Højttaler",
+    "text": "Højttaler"
+  },
+  "call_window_menu_headset": {
+    "accessibility_id": "Headset",
+    "text": "Headset"
+  },
+  "capture_window_captured_picture_draw": {
+    "accessibility_id": "Pen draw with ink.",
+    "text": ""
+  },
+  "CapturePanel.MediaPickerAccessibilityLabel": {
+    "accessibility_id": "Open photo gallery",
+    "text": ""
+  },
+  "CapturePanel.SwitchCameraToFrontAccessibilityLabel": {
+    "accessibility_id": "Switch to front-facing camera"
+  },
+  "CapturePanel.SwitchCameraToBackAccessibilityLabel": {
+    "accessibility_id": "Switch to back-facing camera"
+  },
+  "HighlightsTooltipPopup.FollowTooltip": {
+    "text": "Follow some friends here"
+  },
+  "HighlightsTooltipPopup.ShareMyHighlightsTooltip": {
+    "text": "Share your highlights here"
+  },
+  "capture_window_captured_picture_add_text": {
+    "accessibility_id": "Tilføj billedtekst",
+    "text": "Tilføj billedtekst"
+  },
+  "MyHighlightsPanel.Title": {
+    "text": "Manage Highlights"
+  },
+  "capture_window_permission": {
+    "text": "Giv Skype adgangstilladelse til dit kamera"
+  },
+  "capture_window_accept_permissions": {
+    "accessibility_id": "Kameratilladelse"
+  },
+  "capture_window_send_message": {
+    "accessibility_id": "Send to {0}",
+    "text": ""
+  },
+  "capture_window_captured_media_tutorial": {
+    "text": "Del til dine højdepunkter"
+  },
+  "CapturePreview.HighlightsAccessibilityLabel": {
+    "accessibility_id": "Send to Highlights",
+    "text": ""
+  },
+  "capture_window_first_time_tutorial": {
+    "text": "Tryk for billede, hold inde for video"
+  },
+  "capture_window_post_to_highlights_ok": {
+    "text": "OK"
+  },
+  "capture_window_post_to_highlights_sent": {
+    "text": "Sendt"
+  },
+  "capture_window_captured_picture_add_text_element": {
+    "accessibility_id": "Tilføj billedtekst",
+    "text": "Tilføj billedtekst"
+  },
+  "capture_window_captured_picture_add_emoji": {
+    "accessibility_id": "Klistermærker",
+    "text": "Klistermærker"
+  },
+  "chat_window_call": {
+    "accessibility_id": "Ring op",
+    "text": "Ring op"
+  },
+  "call_multiple_people_start_call": {
+    "accessibility_id": "Start et nyt gruppeopkald",
+    "text": "Start et nyt gruppeopkald"
+  },
+  "chat_window_capture": {
+    "accessibility_id": "Hent"
+  },
+  "CallQualityFeedback.Title": {
+    "text": "How would you rate the quality of this call?"
+  },
+  "chat_window_user_online": {
+    "text": "AKTIV NU"
+  },
+  "chat_window_user_offline": {
+    "text": "Offline"
+  },
+  "chat_window_user_do_not_disturb": {
+    "text": "Vil ikke forstyrres"
+  },
+  "chat_window_user_away": {
+    "text": "Away"
+  },
+  "chat_window_user_unknown": {
+    "text": "Ukendt"
+  },
+  "chat_window_send_message": {
+    "accessibility_id": "Send besked",
+    "text": "Send besked"
+  },
+  "chat_window_video_call": {
+    "accessibility_id": "Videoopkald",
+    "text": "Videoopkald"
+  },
+  "chat_window_add_emoticon": {
+    "accessibility_id": "Åbn humørikonvælger",
+    "text": ""
+  },
+  "chat_window_record_audio": {
+    "accessibility_id": "Optag besked",
+    "text": "Optag besked"
+  },
+  "chat_window_send_audio_message": {
+    "accessibility_id": "Send lydbesked",
+    "text": "Send lydbesked"
+  },
+  "chat_window_open_location_window": {
+    "accessibility_id": "Del din placering",
+    "text": ""
+  },
+  "chat_window_open_moji_window": {
+    "accessibility_id": "Åbn Moji-vælger",
+    "text": ""
+  },
+  "chat_window_send_moji": {
+    "accessibility_id": "Send Moji"
+  },
+  "chat_window_cancel_audio_message": {
+    "accessibility_id": "Annuller optagelse",
+    "text": "Annuller optagelse"
+  },
+  "chat_window_react_button": {
+    "accessibility_id": "Reager på denne meddelelse",
+    "text": "Reager på denne meddelelse"
+  },
+  "chat_window_copy_message": {
+    "text": "Kopiér"
+  },
+  "chat_window_message": {
+    "text": "Skriv en besked her"
+  },
+  "highlights_skip_tutorial": {
+    "accessibility_id": "Spring over",
+    "text": "Spring over"
+  },
+  "highlight_window_first_time_tutorial": {
+    "text": "Welcome to Highlights!"
+  },
+  "highlights_window_my_followers": {
+    "text": "My Followers"
+  },
+  "HubHeaderPanel.MyHighlightsButtonLabel": {
+    "accessibility_id": "Manage My Highlights.",
+    "text": ""
+  },
+  "ViewMyHighlights": {
+    "text": "Højdepunkter"
+  },
+  "Highlights_Window_Follow_People": {
+    "accessibility_id": "Follow People"
+  },
+  "highlights_window_add_people": {
+    "text": "Add people"
+  },
+  "location_window_search_places": {
+    "accessibility_id": "Søg steder",
+    "text": ""
+  },
+  "location_window_share_location": {
+    "text": ""
+  },
+  "location_window_failed_to_get_location": {
+    "text": "Beklager, men vi kunne ikke finde din placering."
+  },
+  "login_window_account_failure": {
+    "accessibility_id": "There was an issue looking up your account. Tap Next to try again."
+  },
+  "login_window_next_button": {
+    "accessibility_id": "Næste",
+    "id": "idSIButton9"
+  },
+  "login_window_terms_of_use": {
+    "text": "Enter password"
+  },
+  "login_window_sign_in_button": {
+    "accessibility_id": "Sign in",
+    "text": "Sign in"
+  },
+  "main_skip_tutorial": {
+    "accessibility_id": "Let’s go!",
+    "text": "Got it, let’s go!"
+  },
+  "main_confidential_accept": {
+    "text": "OK, lad os komme i gang."
+  },
+  "main_username": {
+    "accessibility_id": "Email, phone, or Skype name",
+    "text": "Email, phone, or Skype name",
+    "id": "i0116"
+  },
+  "main_password": {
+    "accessibility_id": "Password",
+    "text": "Password",
+    "id": "i0118"
+  },
+  "main_privacy_policy": {
+    "text": "Næste"
+  },
+  "main_window_action_menu": {
+    "accessibility_id": "Ny samtale eller kontakt",
+    "text": "Ny samtale eller kontakt"
+  },
+  "main_window_capture_tab": {
+    "accessibility_id": "Capture Tab. 3 of 3.",
+    "text": "Hent"
+  },
+  "main_window_recents_tab": {
+    "text": "Chatsamtaler"
+  },
+  "main_window_send_feedback": {
+    "accessibility_id": "Send feedback",
+    "text": ""
+  },
+  "main_window_new_conversation_new_group": {
+    "accessibility_id": "Ny gruppe",
+    "text": "Ny gruppe",
+    "xpath": "//*[contains(@text,'New Group')]"
+  },
+  "main_window_new_conversation_new_chat": {
+    "accessibility_id": "Ny chat",
+    "text": "Ny chat",
+    "xpath": "//*[contains(@text,'New Chat')]"
+  },
+  "main_window_new_conversation_add_contact": {
+    "accessibility_id": "Inviter personer til Skype",
+    "text": "Inviter personer til Skype",
+    "xpath": "//*[contains(@text,'Invite People to Skype')]"
+  },
+  "main_window_new_conversation_add_bot": {
+    "accessibility_id": "Find botter",
+    "text": "Find botter",
+    "xpath": "//*[contains(@text,'Find Bots')]"
+  },
+  "main_window_new_conversation_create_group_done": {
+    "accessibility_id": "Udført",
+    "text": "Udført"
+  },
+  "main_window_action_menu_start_call": {
+    "accessibility_id": "Start a call",
+    "text": "Start a call",
+    "xpath": "//*[contains(@text,'Start a call')]"
+  },
+  "main_window_back_navigation": {
+    "accessibility_id": "Tilbage",
+    "text": "Tilbage"
+  },
+  "main_window_exit_navigation": {
+    "accessibility_id": "Luk"
+  },
+  "QuickCallPanel.CloseButtonAccessibilityLabel": {
+    "accessibility_id": "Close calls"
+  },
+  "main_window_cancel_navigation": {
+    "accessibility_id": "Annuller",
+    "text": "Annuller"
+  },
+  "main_window_capture_flash": {
+    "accessibility_id": "Blitz",
+    "text": "Blitz"
+  },
+  "main_window_hightlights_tab": {
+    "accessibility_id": "No new highlights. Tab. 1 of 3.",
+    "text": "Højdepunkter"
+  },
+  "main_pre_login_button": {
+    "accessibility_id": "Log på",
+    "text": "Log på"
+  },
+  "main_window_new_conversation_user_search": {
+    "accessibility_id": "Søg på Skype",
+    "text": "Søg på Skype"
+  },
+  "main_window_new_conversation_contact_search": {
+    "accessibility_id": "Personer",
+    "text": "Personer"
+  },
+  "main_window_new_conversation_contact_search_bar": {
+    "accessibility_id": "Søg efter personer og grupper",
+    "text": "Søg efter personer og grupper"
+  },
+  "SearchInputControl.ClearTextAccessibilityLabel": {
+    "accessibility_id": "Clear search text",
+    "text": ""
+  },
+  "main_window_new_conversation_chat_person_search": {
+    "accessibility_id": "Søg efter personer og robotter",
+    "text": "Søg efter personer og robotter"
+  },
+  "main_window_new_conversation_name_group": {
+    "accessibility_id": "Chat Name: null",
+    "text": "Navn på chatsamtale"
+  },
+  "main_window_new_conversation_name_group_next": {
+    "accessibility_id": "Næste, aktiveret",
+    "text": "Næste"
+  },
+  "my_highlights_confirm_upload_successful": {
+    "text": ".*minutes.*|.*minute ago.*|.*Just now.*"
+  },
+  "no_internet_pre_login": {
+    "text": "Unable to sign in, please check your internet connection and try again."
+  },
+  "profile_window_view_photo": {
+    "text": "Vis billede"
+  },
+  "profile_window_signout": {
+    "accessibility_id": "Log af",
+    "text": "Log af"
+  },
+  "profile_window_upload_photo": {
+    "text": "Overfør billede"
+  },
+  "profile_window_remove_photo": {
+    "text": "Fjern billede"
+  },
+  "send_feedback_window_include_user_data": {
+    "text": "Medtag logfiler og skærmbillede af app."
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "mk_aboutTitle": {
+    "text": {
+      "MappingSource": ".*About.*",
+      "MatchedBy": "Regex",
+      "ResourcesIds": {
+        "AboutPanel|AboutTitle": "About Skype Preview"
+      }
+    },
+    "accessibility_id": {
+      "MappingSource": "This string.*",
+      "MatchedBy": "Regex",
+      "ResourcesIds": {
+        "AboutPanel|_AboutTitle.comment": "This string is the title of About panel."
+      }
+    }
+  },
+  "mk_accessibilityLabel": {
+    "text": {
+      "MappingSource": ".*message",
+      "MatchedBy": "Regex",
+      "ResourcesIds": {
+        "AccessibilityLabel|Audio": "an audio message"
+      }
+    }
+  }
+}

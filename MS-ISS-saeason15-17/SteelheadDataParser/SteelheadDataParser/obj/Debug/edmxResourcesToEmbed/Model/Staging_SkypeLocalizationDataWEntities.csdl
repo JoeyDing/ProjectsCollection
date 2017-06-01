@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Staging_SkypeLocalizationDataWModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Staging_FabricBackup_SteelheadDataParsed">
+    <Key>
+      <PropertyRef Name="SteelHeadDataParsedKey" />
+    </Key>
+    <Property Name="SteelHeadDataParsedKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SymbolicName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ParserIdentifier" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Revision" Type="Int16" />
+    <Property Name="Deleted" Type="Boolean" />
+    <Property Name="Language" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Name="ProjectName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ResultDate" Type="DateTime" Precision="3" />
+    <Property Name="Result" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ResultLoggedBy" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BugNumber" Type="Int32" />
+    <Property Name="ResourceIdentity" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="Staging_SkypeLocalizationDataWEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Staging_FabricBackup_SteelheadDataParsed" EntityType="Self.Staging_FabricBackup_SteelheadDataParsed" />
+    <FunctionImport Name="GetStagingFabricBackupSteelheadData" ReturnType="Collection(Staging_SkypeLocalizationDataWModel.GetStagingFabricBackupSteelheadData_Result)" />
+  </EntityContainer>
+  <ComplexType Name="GetStagingFabricBackupSteelheadData_Result">
+    <Property Type="String" Name="SymbolicName" Nullable="true" />
+    <Property Type="String" Name="ParserIdentifier" Nullable="true" />
+    <Property Type="String" Name="SteelheadData" Nullable="true" />
+    <Property Type="Int16" Name="Revision" Nullable="true" />
+    <Property Type="Boolean" Name="Deleted" Nullable="true" />
+    <Property Type="String" Name="Language" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="ProjectName" Nullable="true" />
+    <Property Type="String" Name="FileName" Nullable="true" />
+    <Property Type="Int32" Name="ResourceIdentity" Nullable="true" />
+  </ComplexType>
+</Schema>

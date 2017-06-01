@@ -1,0 +1,228 @@
+﻿/*---------------------------------------Global---------------------------------------------------*/
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+/*---------------------------------------Custom bootstrap---------------------------------------------------*/
+/*------------------Jumbotron-----------------------------*/
+.jumbotron {
+    background-color: rgb(49, 190, 243);
+    padding-bottom: 5px;
+    color: white;
+}
+
+/*------------------Panel -----------------------------*/
+.panel-info > .panel-heading {
+    background-color: white;
+    color: rgb(49, 190, 243);
+    border-color: rgb(49, 190, 243);
+    border-bottom: 0px solid transparent;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.panel-primary > .panel-heading {
+    background-color: rgb(37, 160, 218);
+    border-color: rgb(37, 160, 218);
+}
+
+.panel-primary > .panel-body {
+    padding: 10px;
+}
+/*------------------Grid/Rows/Columns -----------------------------*/
+.row {
+    margin-bottom: 5px;
+}
+
+.col-md-4 {
+    width: 15%;
+}
+
+/*------------------Modal Windows -----------------------------*/
+
+.custom div.modal.fade div.modal-header {
+    color: white;
+    background-color: rgb(49, 190, 243);
+    padding: 8px;
+    box-sizing: content-box;
+}
+
+.custom .schedule-windows div.modal.fade div.modal-body {
+    margin: 0px;
+    padding: 8px;
+}
+
+/*------------------transparent panelbar-----------------------------*/
+/*remove border*/
+.custom_transparent .RadPanelBar .rpRootGroup {
+    border: none !important;
+    color: black;
+    text-decoration: none;
+}
+
+    .custom_transparent .RadPanelBar .rpRootGroup .rpLink,
+    .custom_transparent .RadPanelBar .rpRootGroup .rpOut {
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    /*selected item color*/
+    .custom_transparent .RadPanelBar .rpRootGroup .rpItem .rpExpanded {
+        border: none !important;
+        background-color: transparent !important;
+        background-image: none !important;
+        color: black !important;
+    }
+
+    /*Expanded item color*/
+    .custom_transparent .RadPanelBar .rpRootGroup li.rpItem div.rpSelected {
+        border: none !important;
+        background-color: transparent !important;
+        background-image: none !important;
+        color: black !important;
+    }
+
+    /*header item color*/
+    .custom_transparent .RadPanelBar .rpRootGroup li.rpItem div.rpHeaderTemplate {
+        border: none !important;
+        background-image: none !important;
+        background-color: transparent !important;
+        color: black !important;
+    }
+
+/*collapse icon color*/
+/*.rpExpandHandle {
+            color: yellow !important;
+            background-color: red !important;
+        }*/
+
+/*modal window style*/
+.custom_modal div.modal.fade div.modal-header {
+    color: white;
+    background-color: rgb(49, 190, 243);
+    padding: 8px;
+    box-sizing: content-box;
+}
+
+.custom_modal div.modal.fade div.modal-body {
+    margin: 0px;
+    padding: 8px;
+}
+
+.custom_loadingPanel {
+    z-index: 3000 !important;
+}
+
+/*------------------transparent panelbar-----------------------------*/
+.RadTreeView .rtHover .rtIn,
+.RadTreeView .rtSelected .rtIn {
+    background: none !important;
+    border: none !important;
+    padding: 4px 3px 3px !important;
+    color: black !important;
+}
+
+/****Remove spacing*****/
+.RadTreeView .rtLI {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.RadTreeView .rtUL .rtUL {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.RadTreeView .rtLast {
+    padding-bottom: 0 !important; /* prevent double-spacing */
+}
+
+/****fix node alignement problem*****/
+.RadTreeView div.rtIn {
+    width: 100% !important;
+}
+
+/****hide scrollbars*****/
+.RadTreeView {
+    overflow: hidden !important;
+}
+/*******************/
+.iconPostion {
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-size: 20px;
+}
+
+/*.hoverx {
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+    position: relative;
+}*/
+
+.tooltipx {
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    top: 20px;
+    left: 20px;
+    height: 25px;
+    width: 108px;
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 190, 243);
+}
+
+.hoverx:hover .tooltipx {
+    display: block;
+}
+
+.tooltipxNew {
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    margin-top: -40px;
+    left: 15px;
+    height: 23px;
+    width: 108px;
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 190, 243);
+}
+
+.hoverx:hover .tooltipxNew {
+    display: block;
+}
+
+
+/****adjust distance among the 6 milestone checkboxs*****/
+.extraCol2 {
+    width: auto;
+}
+
+.floatPosition {
+    float: left;
+}
+/*******************/
+
+/****************a way to target the inner panes div inside rad splitter*******/
+
+div[id^='RAD_SPLITTER_PANE_CONTENT_'] {
+    /*height: 100vh !important;*/
+    /*overflow: inherit !important;*/
+}
+
+.labelPosition.RadListBox .rlbCheck, .RadListBox .rlbImage, .RadListBox .rlbText {
+    margin-bottom: -40px;
+}

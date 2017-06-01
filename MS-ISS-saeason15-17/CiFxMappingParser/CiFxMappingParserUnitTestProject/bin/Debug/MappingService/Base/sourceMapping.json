@@ -1,0 +1,10 @@
+﻿{
+  "mk_aboutTitle": {
+    "text": "About Skype Preview",
+    "accessibility_id": "This string is the title of About panel."
+  },
+  "mk_accessibilityLabel": {
+    "text": "an audio message",
+    "id": "i0118"
+  }
+}

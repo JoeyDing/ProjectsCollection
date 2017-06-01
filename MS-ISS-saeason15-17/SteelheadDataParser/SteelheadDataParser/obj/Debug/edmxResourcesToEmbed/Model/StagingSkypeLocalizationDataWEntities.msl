@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Staging_SkypeLocalizationDataWModelStoreContainer" CdmEntityContainer="Staging_SkypeLocalizationDataWEntities">
+    <EntitySetMapping Name="Staging_SteelheadDataParsed">
+      <EntityTypeMapping TypeName="Staging_SkypeLocalizationDataWModel.Staging_SteelheadDataParsed">
+        <MappingFragment StoreEntitySet="Staging_SteelheadDataParsed">
+          <ScalarProperty Name="SteelHeadDataParsedKey" ColumnName="SteelHeadDataParsedKey" />
+          <ScalarProperty Name="SymbolicName" ColumnName="SymbolicName" />
+          <ScalarProperty Name="ParserIdentifier" ColumnName="ParserIdentifier" />
+          <ScalarProperty Name="Revision" ColumnName="Revision" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="ResultDate" ColumnName="ResultDate" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="ResultLoggedBy" ColumnName="ResultLoggedBy" />
+          <ScalarProperty Name="BugNumber" ColumnName="BugNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetStagingFabricBackupSteelheadData" FunctionName="Staging_SkypeLocalizationDataWModel.Store.GetStagingFabricBackupSteelheadData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Staging_SkypeLocalizationDataWModel.GetStagingFabricBackupSteelheadData_Result">
+          <ScalarProperty Name="SymbolicName" ColumnName="SymbolicName" />
+          <ScalarProperty Name="ParserIdentifier" ColumnName="ParserIdentifier" />
+          <ScalarProperty Name="SteelheadData" ColumnName="SteelheadData" />
+          <ScalarProperty Name="Revision" ColumnName="Revision" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

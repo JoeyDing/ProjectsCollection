@@ -1,0 +1,15 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\VsoWorkItemsSync.exe.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\VsoWorkItemsSync.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\VsoWorkItemsSync.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\CommandLine.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\EntityFramework.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\VsoApi.Rest.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\CommandLine.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\EntityFramework.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\obj\Debug\VsoWorkItemsSync.exe
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\obj\Debug\VsoWorkItemsSync.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\obj\Debug\VsoWorkItemsSync.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\VsoWorkItemsSync\VsoWorkItemsSync\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,13 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\SkypeIntlPortfolio.Data.dll.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\SkypeIntlPortfolio.Data.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\SkypeIntlPortfolio.Data.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\Telerik.OpenAccess.40.Extensions.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\Telerik.OpenAccess.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\Telerik.OpenAccess.Runtime.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\Telerik.OpenAccess.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\bin\Release\Telerik.OpenAccess.40.Extensions.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\obj\Release\SkypeIntlPortfolio.Data.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\obj\Release\SkypeIntlPortfolio.Data.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeIntlPortfolio\SkypeIntlPortfolio.Data\obj\Release\SkypeIntlPortfolio.Data.csprojResolveAssemblyReference.cache

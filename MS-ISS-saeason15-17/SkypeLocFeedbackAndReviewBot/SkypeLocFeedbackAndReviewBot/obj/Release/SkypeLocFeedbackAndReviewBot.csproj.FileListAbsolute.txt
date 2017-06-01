@@ -1,0 +1,59 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Bot Application1.dll.config
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Bot Application1.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Bot Application1.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\ru-RU\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\it-IT\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\ar-SA\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\de-DE\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\lv-LV\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Autofac.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Chronic.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Newtonsoft.Json.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.Net.Http.Formatting.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.Web.Http.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.Web.Http.WebHost.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Autofac.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\Newtonsoft.Json.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.Net.Http.Formatting.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.Web.Http.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\System.Web.Http.WebHost.xml
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\SkypeLocFeedbackAndReviewBot.Properties.Resources.resources
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\SkypeLocFeedbackAndReviewBot.Properties.Resources.ru-RU.resources
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\SkypeLocFeedbackAndReviewBot.Properties.Resources.it-IT.resources
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\SkypeLocFeedbackAndReviewBot.Properties.Resources.ar-SA.resources
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\SkypeLocFeedbackAndReviewBot.Properties.Resources.de-DE.resources
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\SkypeLocFeedbackAndReviewBot.Properties.Resources.lv-LV.resources
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\SkypeLocFeedbackAndReviewBot.csproj.GenerateResource.Cache
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\ru-RU\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\it-IT\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\ar-SA\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\de-DE\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\lv-LV\Bot Application1.resources.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\Bot Application1.dll
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\Bot Application1.pdb
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\SkypeLocFeedbackAndReviewBot\SkypeLocFeedbackAndReviewBot\obj\Release\SkypeLocFeedbackAndReviewBot.csprojResolveAssemblyReference.cache

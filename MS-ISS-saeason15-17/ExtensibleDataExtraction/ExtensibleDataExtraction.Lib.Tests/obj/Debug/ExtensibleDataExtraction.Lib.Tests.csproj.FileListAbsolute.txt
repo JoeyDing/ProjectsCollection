@@ -1,0 +1,1 @@
+C:\Users\v-joding\Source\Repos\internal_tools_intltools\ExtensibleDataExtraction\ExtensibleDataExtraction.Lib.Tests\obj\Debug\ExtensibleDataExtraction.Lib.Tests.csprojResolveAssemblyReference.cache

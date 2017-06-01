@@ -1,0 +1,400 @@
+{
+  "QuickCallPanel.CallMultiplePeople": {
+    "accessibility_id": "Volať viacerým ľuďom",
+    "text": ""
+  },
+  "call_multiple_people_open_dial_pad": {
+    "accessibility_id": "Vytočiť telefónne číslo"
+  },
+  "call_window_dial_pad_number_1": {
+    "accessibility_id": "1",
+    "text": "1"
+  },
+  "call_window_select_participants": {
+    "text": "Select participants"
+  },
+  "call_window_switch_camera": {
+    "accessibility_id": "Prepnúť kameru",
+    "text": "Prepnúť kameru"
+  },
+  "call_window_gallery_camera": {
+    "accessibility_id": "Kamera",
+    "text": "Kamera"
+  },
+  "call_window_accept_audio_call": {
+    "accessibility_id": "Answer call from {0} with voice only",
+    "text": ""
+  },
+  "call_window_accept_video_call": {
+    "accessibility_id": "Answer call from {0} with video",
+    "text": ""
+  },
+  "call_window_reject_call": {
+    "accessibility_id": "Odmietnuť",
+    "text": ""
+  },
+  "call_window_menu_toggle": {
+    "accessibility_id": "Prepínanie ovládacích prvkov",
+    "text": "Prepínanie ovládacích prvkov"
+  },
+  "call_window_emoji_menu_toggle": {
+    "accessibility_id": "Zobraziť reakcie",
+    "text": "Zobraziť reakcie"
+  },
+  "call_window_menu_hang_up": {
+    "accessibility_id": "Ukončiť hovor",
+    "text": ""
+  },
+  "CallControls.CallButtonMute": {
+    "accessibility_id": "Stlmiť",
+    "text": ""
+  },
+  "CallControls.CallButtonSwitchCameraBackwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing backward"
+  },
+  "CallControls.CallButtonSwitchCameraForwardAccessibilityLabel": {
+    "accessibility_id": "Switch camera, facing forward"
+  },
+  "CallControls.CallButtonUnmuteAccessibilityLabel": {
+    "accessibility_id": "Zrušiť stlmenie",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOffVideoAccessibilityLabel": {
+    "accessibility_id": "Turn off video",
+    "text": ""
+  },
+  "CallControls.CallButtonTurnOnVideoAccessibilityLabel": {
+    "accessibility_id": "Turn on video",
+    "text": ""
+  },
+  "call_window_menu_speakerphone": {
+    "accessibility_id": "Reproduktor",
+    "text": "Reproduktor"
+  },
+  "call_window_menu_headset": {
+    "accessibility_id": "Náhlavná súprava",
+    "text": "Náhlavná súprava"
+  },
+  "capture_window_captured_picture_draw": {
+    "accessibility_id": "Pen draw with ink.",
+    "text": ""
+  },
+  "CapturePanel.MediaPickerAccessibilityLabel": {
+    "accessibility_id": "Open photo gallery",
+    "text": ""
+  },
+  "CapturePanel.SwitchCameraToFrontAccessibilityLabel": {
+    "accessibility_id": "Switch to front-facing camera"
+  },
+  "CapturePanel.SwitchCameraToBackAccessibilityLabel": {
+    "accessibility_id": "Switch to back-facing camera"
+  },
+  "HighlightsTooltipPopup.FollowTooltip": {
+    "text": "Follow some friends here"
+  },
+  "HighlightsTooltipPopup.ShareMyHighlightsTooltip": {
+    "text": "Share your highlights here"
+  },
+  "capture_window_captured_picture_add_text": {
+    "accessibility_id": "Pridať titulok",
+    "text": "Pridať titulok"
+  },
+  "MyHighlightsPanel.Title": {
+    "text": "Manage Highlights"
+  },
+  "capture_window_permission": {
+    "text": "Povoľte aplikácii Skype prístup ku kamere"
+  },
+  "capture_window_accept_permissions": {
+    "accessibility_id": "Povolenie kamery"
+  },
+  "capture_window_send_message": {
+    "accessibility_id": "Send to {0}",
+    "text": ""
+  },
+  "capture_window_captured_media_tutorial": {
+    "text": "Zdieľať v rámci stručného prehľadu"
+  },
+  "CapturePreview.HighlightsAccessibilityLabel": {
+    "accessibility_id": "Send to Highlights",
+    "text": ""
+  },
+  "capture_window_first_time_tutorial": {
+    "text": "Ťuknutím odfotografujte, podržaním vytvorte video"
+  },
+  "capture_window_post_to_highlights_ok": {
+    "text": "OK"
+  },
+  "capture_window_post_to_highlights_sent": {
+    "text": "Odoslané"
+  },
+  "capture_window_captured_picture_add_text_element": {
+    "accessibility_id": "Pridať titulok",
+    "text": "Pridať titulok"
+  },
+  "capture_window_captured_picture_add_emoji": {
+    "accessibility_id": "Samolepky",
+    "text": "Samolepky"
+  },
+  "chat_window_call": {
+    "accessibility_id": "Zavolať",
+    "text": "Zavolať"
+  },
+  "call_multiple_people_start_call": {
+    "accessibility_id": "Začať nový skupinový hovor",
+    "text": "Začať nový skupinový hovor"
+  },
+  "chat_window_capture": {
+    "accessibility_id": "Zachytiť"
+  },
+  "CallQualityFeedback.Title": {
+    "text": "How would you rate the quality of this call?"
+  },
+  "chat_window_user_online": {
+    "text": "TERAZ AKTÍVNY"
+  },
+  "chat_window_user_offline": {
+    "text": "Offline"
+  },
+  "chat_window_user_do_not_disturb": {
+    "text": "Nerušiť"
+  },
+  "chat_window_user_away": {
+    "text": "Away"
+  },
+  "chat_window_user_unknown": {
+    "text": "Neznámy"
+  },
+  "chat_window_send_message": {
+    "accessibility_id": "Odoslať správu",
+    "text": "Odoslať správu"
+  },
+  "chat_window_video_call": {
+    "accessibility_id": "Videohovor",
+    "text": "Videohovor"
+  },
+  "chat_window_add_emoticon": {
+    "accessibility_id": "Otvoriť výber emotikonov",
+    "text": ""
+  },
+  "chat_window_record_audio": {
+    "accessibility_id": "Nahrať správu",
+    "text": "Nahrať správu"
+  },
+  "chat_window_send_audio_message": {
+    "accessibility_id": "Odoslať zvukovú správu",
+    "text": "Odoslať zvukovú správu"
+  },
+  "chat_window_open_location_window": {
+    "accessibility_id": "Zdieľať vašu polohu",
+    "text": ""
+  },
+  "chat_window_open_moji_window": {
+    "accessibility_id": "Otvoriť výber zábavných obrázkov",
+    "text": ""
+  },
+  "chat_window_send_moji": {
+    "accessibility_id": "Odoslať zábavný obrázok"
+  },
+  "chat_window_cancel_audio_message": {
+    "accessibility_id": "Zrušiť nahrávanie",
+    "text": "Zrušiť nahrávanie"
+  },
+  "chat_window_react_button": {
+    "accessibility_id": "Reagovať na túto správu",
+    "text": "Reagovať na túto správu"
+  },
+  "chat_window_copy_message": {
+    "text": "Kopírovať"
+  },
+  "chat_window_message": {
+    "text": "Sem napíšte správu"
+  },
+  "highlights_skip_tutorial": {
+    "accessibility_id": "Preskočiť",
+    "text": "Preskočiť"
+  },
+  "highlight_window_first_time_tutorial": {
+    "text": "Welcome to Highlights!"
+  },
+  "highlights_window_my_followers": {
+    "text": "My Followers"
+  },
+  "HubHeaderPanel.MyHighlightsButtonLabel": {
+    "accessibility_id": "Manage My Highlights.",
+    "text": ""
+  },
+  "ViewMyHighlights": {
+    "text": "Stručné prehľady"
+  },
+  "Highlights_Window_Follow_People": {
+    "accessibility_id": "Follow People"
+  },
+  "highlights_window_add_people": {
+    "text": "Add people"
+  },
+  "location_window_search_places": {
+    "accessibility_id": "Vyhľadávanie miest",
+    "text": ""
+  },
+  "location_window_share_location": {
+    "text": ""
+  },
+  "location_window_failed_to_get_location": {
+    "text": "Ospravedlňujeme sa, ale nemohli sme teraz nájsť vašu polohu."
+  },
+  "login_window_account_failure": {
+    "accessibility_id": "There was an issue looking up your account. Tap Next to try again."
+  },
+  "login_window_next_button": {
+    "accessibility_id": "Ďalej",
+    "id": "idSIButton9"
+  },
+  "login_window_terms_of_use": {
+    "text": "Enter password"
+  },
+  "login_window_sign_in_button": {
+    "accessibility_id": "Sign in",
+    "text": "Sign in"
+  },
+  "main_skip_tutorial": {
+    "accessibility_id": "Let’s go!",
+    "text": "Got it, let’s go!"
+  },
+  "main_confidential_accept": {
+    "text": "Rozumiem. Pustime sa do toho."
+  },
+  "main_username": {
+    "accessibility_id": "Email, phone, or Skype name",
+    "text": "Email, phone, or Skype name",
+    "id": "i0116"
+  },
+  "main_password": {
+    "accessibility_id": "Password",
+    "text": "Password",
+    "id": "i0118"
+  },
+  "main_privacy_policy": {
+    "text": "Ďalej"
+  },
+  "main_window_action_menu": {
+    "accessibility_id": "Nová konverzácia alebo kontakt",
+    "text": "Nová konverzácia alebo kontakt"
+  },
+  "main_window_capture_tab": {
+    "accessibility_id": "Capture Tab. 3 of 3.",
+    "text": "Zachytiť"
+  },
+  "main_window_recents_tab": {
+    "text": "Konverzácie"
+  },
+  "main_window_send_feedback": {
+    "accessibility_id": "Odoslať pripomienky",
+    "text": ""
+  },
+  "main_window_new_conversation_new_group": {
+    "accessibility_id": "Nová skupina",
+    "text": "Nová skupina",
+    "xpath": "//*[contains(@text,'New Group')]"
+  },
+  "main_window_new_conversation_new_chat": {
+    "accessibility_id": "Nová konverzácia",
+    "text": "Nová konverzácia",
+    "xpath": "//*[contains(@text,'New Chat')]"
+  },
+  "main_window_new_conversation_add_contact": {
+    "accessibility_id": "Pozvať ľudí do aplikácie Skype",
+    "text": "Pozvať ľudí do aplikácie Skype",
+    "xpath": "//*[contains(@text,'Invite People to Skype')]"
+  },
+  "main_window_new_conversation_add_bot": {
+    "accessibility_id": "Vyhľadať robotov",
+    "text": "Vyhľadať robotov",
+    "xpath": "//*[contains(@text,'Find Bots')]"
+  },
+  "main_window_new_conversation_create_group_done": {
+    "accessibility_id": "Hotovo",
+    "text": "Hotovo"
+  },
+  "main_window_action_menu_start_call": {
+    "accessibility_id": "Start a call",
+    "text": "Start a call",
+    "xpath": "//*[contains(@text,'Start a call')]"
+  },
+  "main_window_back_navigation": {
+    "accessibility_id": "Späť",
+    "text": "Späť"
+  },
+  "main_window_exit_navigation": {
+    "accessibility_id": "Zavrieť"
+  },
+  "QuickCallPanel.CloseButtonAccessibilityLabel": {
+    "accessibility_id": "Close calls"
+  },
+  "main_window_cancel_navigation": {
+    "accessibility_id": "Zrušiť",
+    "text": "Zrušiť"
+  },
+  "main_window_capture_flash": {
+    "accessibility_id": "Blesk",
+    "text": "Blesk"
+  },
+  "main_window_hightlights_tab": {
+    "accessibility_id": "No new highlights. Tab. 1 of 3.",
+    "text": "Stručné prehľady"
+  },
+  "main_pre_login_button": {
+    "accessibility_id": "Prihlásiť sa",
+    "text": "Prihlásiť sa"
+  },
+  "main_window_new_conversation_user_search": {
+    "accessibility_id": "Hľadať v aplikácii Skype",
+    "text": "Hľadať v aplikácii Skype"
+  },
+  "main_window_new_conversation_contact_search": {
+    "accessibility_id": "Ľudia",
+    "text": "Ľudia"
+  },
+  "main_window_new_conversation_contact_search_bar": {
+    "accessibility_id": "Hľadať ľudí a skupiny",
+    "text": "Hľadať ľudí a skupiny"
+  },
+  "SearchInputControl.ClearTextAccessibilityLabel": {
+    "accessibility_id": "Clear search text",
+    "text": ""
+  },
+  "main_window_new_conversation_chat_person_search": {
+    "accessibility_id": "Hľadanie ľudí a robotov",
+    "text": "Hľadanie ľudí a robotov"
+  },
+  "main_window_new_conversation_name_group": {
+    "accessibility_id": "Chat Name: null",
+    "text": "Názov konverzácie"
+  },
+  "main_window_new_conversation_name_group_next": {
+    "accessibility_id": "Ďalej, zapnuté",
+    "text": "Ďalej"
+  },
+  "my_highlights_confirm_upload_successful": {
+    "text": ".*minutes.*|.*minute ago.*|.*Just now.*"
+  },
+  "no_internet_pre_login": {
+    "text": "Unable to sign in, please check your internet connection and try again."
+  },
+  "profile_window_view_photo": {
+    "text": "Zobraziť fotografiu"
+  },
+  "profile_window_signout": {
+    "accessibility_id": "Odhlásiť sa",
+    "text": "Odhlásiť sa"
+  },
+  "profile_window_upload_photo": {
+    "text": "Nahrať fotografiu"
+  },
+  "profile_window_remove_photo": {
+    "text": "Odstrániť fotografiu"
+  },
+  "send_feedback_window_include_user_data": {
+    "text": "Zahrnúť súbory denníka a snímku aplikácie."
+  }
+}
