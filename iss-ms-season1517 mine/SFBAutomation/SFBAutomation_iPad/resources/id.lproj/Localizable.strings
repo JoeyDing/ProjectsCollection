@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Balas";
+"JOIN" = "Terima";
+"VIEW" = "Lihat";
+"IGNORE" = "Abaikan";
+"LAUNCH" = "Luncurkan";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "mengundang Anda ke percakapan";
+"NEW_IM_BURNT_TOAST" = "Percakapan tak terjawab dengan %@";
+"SIGN_IN" = "Masuk";
+"SIGN_OUT" = "Anda dikeluarkan karena tidak aktif.";
+"MWI" = "Pesan suara baru: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Alamat masuk";
+"LOCID Password" = "Kata Sandi";
+"LOCID User Name" = "Nama Pengguna";
+"LOCID Domain" = "Domain";
+"LOCID Auto-Detect Server" = "Deteksi Server Otomatis";
+"LOCID Sign-in As" = "Masuk Sebagai";
+"LOCID User Name Footer" = "Pengguna Skype for Business Online: namapengguna@domain.com\nSemua pengguna lain: domain\\namapengguna";
+"LOCID Hide Details" = "Sembunyikan Opsi Lanjutan";
+"LOCID More Details" = "Perlihatkan Opsi Lanjutan";
+"LOCID Save Password" = "Simpan Kata Sandi Saya";
+
+/* generic share button */
+"LOCID share" = "bagikan";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Alamat Penemuan Internal";
+"LOCID External Server Address" = "Alamat Penemuan Eksternal";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Bantu tingkatkan Skype for Business dengan mengirimkan info kesalahan masuk Anda.";
+"LOCID Sign In BRB Reason 2" = "Bisakah kami mengumpulkan beberapa info tentang kesalahan masuk ini dan di masa mendatang? Anda selalu bisa mengubahnya nanti di Opsi.";
+"LOCID BRBDonotshow" = "Jangan perlihatkan ini lagi";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Masuk";
+"LOCID Sign Out" = "Keluar";
+"LOCID Cancel Sign in" = "Batal masuk";
+"LOCID Lync Is Signing In" = "Skype for Business sedang proses masuk";
+"LOCID Lync Is Signing Out" = "Skype for Business sedang proses keluar";
+
+// Help
+"LOCID signin help" = "Bantuan masuk";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Informasi Saya";
+"LOCID Contacts" = "Kontak";
+"LOCID Conversations" = "Obrolan";
+"LOCID Meetings" = "Rapat";
+"LOCID Phone" = "Telepon";
+"LOCID Signing In" = "Sedang masuk...";
+"LOCID Signed Out" = "Keluar";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Apa yang terjadi hari ini?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Catatan pribadi";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Masukkan catatan pribadi";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Ketuk ganda untuk mengedit";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Tidak Diketahui";
+"LOCID Available" = "Online";
+"LOCID Busy" = "Sibuk";
+"LOCID Busy Inactive" = "Sibuk Tidak Aktif";
+"LOCID Do Not Disturb" = "Jangan Ganggu";
+"LOCID Be Right Back" = "Segera Kembali";
+"LOCID Presence unknown" = "Status kehadiran tidak diketahui";
+"LOCID Off Work" = "Sedang Tidak Bekerja";
+"LOCID Appear Away" = "Tampak Tidak Di Tempat";
+"LOCID Away" = "Tidak di Tempat";
+"LOCID Inactive" = "Tidak Aktif";
+"LOCID Reset Status" = "Reset Status";
+"LOCID Offline" = "Offline";
+"LOCID Blocked" = "Diblokir";
+"LOCID Sign In As Header" = "Pilih status yang akan ditampilkan:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Sedang menelepon";
+"LOCID In a Conference Call" = "Dalam panggilan konferensi";
+"LOCID Presenting" = "Menyajikan";
+"LOCID In a Meeting" = "Sedang rapat";
+"LOCID Out of Office" = "Di Luar Kantor";
+"LOCID Urgent Interruptions Only" = "Interupsi mendesak saja";
+"LOCID Out To Lunch" = "Keluar Makan Siang";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype for Business tidak dapat memperlihatkan kontak iPhone. Anda dapat memperbaikinya di pengaturan iPhone.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype for Business tidak dapat memperlihatkan kontak iPad. Anda dapat memperbaikinya di pengaturan iPad.";
+"LOCID Other Contacts" = "Kontak Lain";
+"LOCID Pinned Contacts" = "Favorit";
+"LOCID Retrieving Members" = "Harap tunggu...";
+"LOCID Cannot connect Try again" = "Tidak bisa mendapatkan anggota grup saat ini. Coba lagi nanti.";
+"LOCID Group is too large to display" = "Grup terlalu besar untuk ditampilkan.";
+"LOCID No members" = "Tidak ada anggota";
+"LOCID Searching the company directory" = "Mencari di direktori perusahaan...";
+"LOCID Please signin to search" = "Harap masuk untuk mencari di direktori perusahaan.";
+"LOCID Too many results" = "Terlalu banyak hasil; coba persempit pencarian Anda.";
+"LOCID Unable to connect to the server" = "Kami saat ini tidak dapat menyambung ke server. Harap coba lagi.";
+"LOCID E_SearchTooLong" = "Kami tidak menemukan kecocokan apa pun. Coba pencarian yang lebih pendek.";
+"LOCID No Name" = "Tidak Ada Nama";
+"LOCID idle day" = "%d hari";
+"LOCID idle days" = "%d hari";
+"LOCID idle hour" = "%d jam";
+"LOCID idle hours" = "%d jam";
+"LOCID idle minutes" = "%d menit";
+"LOCID inactive idle day" = "Tidak aktif %d hari";
+"LOCID inactive idle days" = "Tidak aktif %d hari";
+"LOCID inactive idle hour" = "Tidak aktif %d jam";
+"LOCID inactive idle hours" = "Tidak aktif %d jam";
+"LOCID inactive idle minutes" = "Tidak aktif %d menit";
+"LOCID DG does not exist" = "Grup distribusi sudah tidak ada.";
+"LOCID Access to DG denied" = "Akses ke grup distribusi ditolak";
+"LOCID No Contacts Placeholder" = "Kontak Anda akan muncul di sini";
+"LOCID No Contacts" = "Tidak Ada Kontak";
+"LOCID You currently have no contacts" = "Anda saat ini tidak punya kontak";
+"LOCID Retrieving Contacts..." = "Mendapatkan kontak...";
+"LOCID Expanded" = "Grup %@, Dibentangkan";
+"LOCID Collapsed" = "Grup %@, Diciutkan";
+"LOCID Group card- acc" = "Kartu grup";
+"LOCID Open group card - acc" = "Ketuk untuk membuka kartu grup";
+
+/* Contact Card*/
+"LOCID Loading name" = "Memuat nama...";
+"LOCID Details" = "Kartu";
+"LOCID Work" = "Kerja";
+"LOCID Home" = "Rumah";
+"LOCID Mobile" = "Ponsel";
+"LOCID Other" = "Lainnya";
+"LOCID other lowercase" = "lainnya";
+"LOCID Office" = "Kantor";
+"LOCID Company" = "Perusahaan";
+"LOCID Department" = "Departemen";
+"LOCID Send Text Message" = "Kirim Pesan Teks";
+"LOCID IM" = "IM";
+"LOCID E-Mail" = "Email";
+"LOCID unknown lowercase" = "tidak diketahui";
+"LOCID Location lowercase" = "lokasi";
+"LOCID Calendar" = "kalender";
+"LOCID Link" = "tautan";
+"LOCID Disabled" = "%@, Dinonaktifkan"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Catatan";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "ANGGOTA"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Undang";
+"LOCID Transfer" = "Transfer";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business berupaya mengalihkan Anda ke:";
+"LOCID certIssuedBy" = "Diterbitkan Oleh:";
+"LOCID certSubject" = "Subjek:";
+"LOCID certExpires" = "Kedaluwarsa:";
+"LOCID certSignature" = "Algoritma Tanda Tangan:";
+"LOCID certDonotshow" = "Jangan perlihatkan ini lagi.";
+"LOCID Continue" = "Lanjutkan";
+"LOCID certNone" = "Tidak ada enkripsi";
+"LOCID certRSA" = "Enkripsi RSA";
+"LOCID certDSA" = "Enkripsi DSA";
+"LOCID certDH" = "Enkripsi DH";
+"LOCID certEC" = "Enkripsi EC";
+"LOCID certHMAC" = "Enkripsi HMAC";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Percakapan";
+"LOCID Chats - Phone Call" = "Panggilan Telepon";
+"LOCID Chats - Video Call" = "Panggilan Video";
+"LOCID Chats - Meeting" = "Rapat";
+"LOCID Chats - Missed Call" = "Panggilan Tak Terjawab";
+"LOCID Chats - Missed Video Call" = "Panggilan Video Tak Terjawab";
+"LOCID Chats - Current Call" = "Panggilan Saat Ini";
+"LOCID Chats - Current Call With Duration" = "Panggilan Saat Ini, %@";
+"LOCID Phone Status - Connecting" = "Menyambungkan...";
+"LOCID Phone Status - On Hold" = "Ditangguhkan";
+"LOCID Phone Status - Transferring" = "Mengalihkan";
+"LOCID Transferring to" = "Mentransfer ke %@...";
+"LOCID Chats Full" = "Info: Daftar ini penuh. Percakapan terlama akan dihapus begitu percakapan baru ditambahkan.";
+"LOCID Close Conversation" = "Hapus Percakapan";
+"LOCID View Participants List" = "Lihat Daftar Peserta";
+"LOCID Call Contact" = "Hubungi %@";
+"LOCID Video Call Contact" = "Panggilan Video";
+"LOCID Video Conference Contact" = "Konferensi Video";
+"LOCID Edit" = "Edit";
+"LOCID Deselect All" = "Batal Pilih Semua";
+"LOCID Select All" = "Pilih Semua";
+"LOCID Me" = "Saya: %@";
+"LOCID Missed" = "Tidak Terjawab: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Percakapan Grup";
+"LOCID Tap To Enter Text" = "Ketuk untuk mengetik";
+"LOCID No Conversations" = "Tidak Ada Percakapan";
+"LOCID No Conversations Hint" = "Anda saat ini tidak punya percakapan";
+"LOCID Delete Count" = "Hapus (%d)";
+"LOCID Delete None" = "Hapus";
+"LOCID Escalating audio conference" = "Memulai panggilan konferensi...";
+"LOCID Escalating video conference" = "Memulai konferensi video...";
+"LOCID No Participants" = "Tidak Ada Peserta";
+"LOCID No Other Participants" = "Tidak ada peserta lain";
+"LOCID One Participant" = "1 Peserta";
+"LOCID Some Participants" = "%d Peserta";
+"LOCID Max Participants" = "%d+ Peserta";
+"LOCID Large Meeting" = "Rapat Besar";
+"LOCID Toast No Invite" = "mengundang Anda ke percakapan";
+"LOCID Participant Join" = "%@ telah ikut rapat";
+"LOCID Participant Leave" = "%@ meninggalkan rapat";
+"LOCID Participant Join Failure" = "%@ tidak dapat ikut rapat";
+"LOCID Large Conference" = "Rapat Besar";
+"LOCID Large Conference Detail" = "Daftar peserta tidak tersedia untuk rapat besar.";
+"LOCID No Participants Detail" = "Tidak ada peserta dalam percakapan ini";
+"LOCID cannotSend" = "Kami tidak dapat mengirimkan pesan Anda:";
+"LOCID Missed Conversation" = "Percakapan Tak Terjawab";
+"LOCID Send as Email" = "Kirim sebagai Email";
+"LOCID Email Subject" = "Percakapan %1$@ dengan %2$@";
+"LOCID Anonymous" = "Anonim";
+"LOCID Duration" = "Durasi:";
+"LOCID Switch Camera" = "Ubah Kamera";
+"LOCID Swap PIP" = "Tukar Pic-in-Pic";
+"LOCID Leave Video" = "Tinggalkan Video";
+"LOCID Start My Video" = "Mulai Video Saya";
+"LOCID Stop My Video" = "Hentikan Video Saya";
+"LOCID End Video" = "Akhiri Video";
+"LOCID LargeMtgActiveSpeakerMissing" = "Info pembicara tidak tersedia untuk rapat besar.";
+"LOCID Swap Preview" = "Ganti Pratinjau";
+"LOCID Speaker On" = "Speaker aktif";
+"LOCID Speaker Off" = "Speaker nonaktif";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Video diaktifkan";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Ketuk ganda untuk menonaktifkan video.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Video dinonaktifkan";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Ketuk ganda untuk mengaktifkan video.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Speaker telepon diaktifkan";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Ketuk ganda untuk menonaktifkan speaker ponsel.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Speaker telepon dinonaktifkan";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Ketuk ganda untuk mengaktifkan speaker ponsel.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Panggilan disenyapkan";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Ketuk ganda untuk menyalakan suara.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Suara panggilan dinyalakan";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Ketuk ganda untuk mematikan suara.";
+
+"LOCID Instant Messaging" = "Olah Pesan Instan";
+"LOCID Voice" = "Suara";
+"LOCID Collaboration" = "Kolaborasi";
+"LOCID Participants" = "Peserta";
+"LOCID Full Screen" = "Layar Penuh";
+"LOCID Exit Full Screen" = "Keluar dari Layar Penuh";
+"LOCID Local Participant Alone in Conference Msg" = "Sepertinya Anda sendirian di panggilan ini.";
+"LOCID 1 or more participants" = "1 perserta atau lebih";
+"LOCID Call Started" = "Panggilan dimulai - %@";
+"LOCID Call Ended Missed" = "Panggilan diakhiri - %@ [Tak Terjawab]";
+"LOCID Call Ended Duration" = "Panggilan diakhiri - %@ [Durasi: %@]";
+"LOCID ConferenceEndedRejoin" = "Anda terputus dari rapat. Ketuk di bawah untuk gabung kembali.";
+"LOCID ConferenceEndedContinue" = "Memulai ulang percakapan ini akan mengirim undangan baru ke semua orang yang ada di dalamnya.";
+"LOCID IM P2P Toast Voiceover" = "%@ mengundang Anda ke percakapan. Ketuk ganda untuk menerima.";
+"LOCID IM Conf Toast Voiceover" = "%@ mengundang Anda ke percakapan grup. Ketuk ganda untuk menerima.";
+"LOCID Video is Locked on you" = "Video menyorot Anda.";
+
+"LOCID SFB Call Started" = "Panggilan dimulai";
+"LOCID SFB Call Ended" = "Panggilan berakhir";
+"LOCID SFB Call Ended Duration" = "Panggilan berakhir, %@";
+
+/* Roster*/
+"LOCID Presenters" = "PENYAJI (%d)";
+"LOCID Attendees" = "PESERTA (%d)";
+"LOCID In Lobby" = "LOBI (%d)";
+"LOCID Guest" = "Tamu";
+"LOCID Remove" = "Hapus";
+"LOCID E_RemoveFailed" = "Kami tidak dapat menghapus peserta.";
+"LOCID E_AddFailed" = "Kami tidak dapat menambahkan peserta.";
+
+/*Lobby*/
+"LOCID Admit all" = "Izinkan masuk semua";
+"LOCID Deny all" = "Tolak semua";
+"LOCID Admit" = "Izinkan masuk";
+"LOCID Deny" = "Tolak";
+"LOCID See Lobby" = "Lihat Lobi";
+"LOCID Conference In the Lobby" = "Anda memiliki peserta menunggu di Lobi.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Jadikan Penyaji";
+"LOCID Demote" = "Jadikan Peserta";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Seluler";
+"LOCID Voice and IM Unavailable" = "Suara dan IM Tidak Tersedia";
+"LOCID Voice Only" = "Suara Saja";
+"LOCID Voice and Video Only" = "Suara dan Video Saja";
+"LOCID IM Only" = "IM Saja";
+"LOCID No Voice" = "Tidak Ada Suara";
+"LOCID Video capable" = "Bisa video";
+"LOCID No IM" = "Tidak Ada IM";
+"LOCID Mobile Cap" = "Ponsel";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Papan Tombol";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "";
+"LOCID Dialpad" = "Tombol angka";
+"LOCID Dialpad STAR Key" = "Bintang";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Pound"; // Used for accessibility
+"LOCID Delete Key" = "Hapus";   // Used for accessibility
+"LOCID Emergency number" = "Nomor darurat"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "sembunyikan";
+"LOCID Dialpad Search Recent Calls" = "panggilan terbaru";
+"LOCID Dialpad Search Native Contacts" = "kontak telepon";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Masalah dengan Kontak";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Terdapat masalah saat mengakses nomor telepon dari Kontak Anda. Coba sinkronkan ulang akun email Anda di Pengaturan untuk memperbaiki masalah.";
+
+/* My Status Tab */
+"LOCID Options" = "Pengaturan";
+"LOCID Send Feedback" = "Kirim Umpan Balik";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ hingga %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Dari %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "hingga %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "dari %1$@ hingga %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Tidak Ada Rapat";
+"LOCID All" = "Semua";
+"LOCID No Meetings Scheduled" = "Anda tidak punya jadwal rapat";
+"LOCID None" = "Tidak Ada";
+"LOCID Organizer" = "Penyelenggara";
+"LOCID Invitees" = "UNDANGAN";
+"LOCID Notes" = "CATATAN";
+"LOCID Join" = "Ikut";
+"LOCID Updated DATE TIME" = "Diperbarui %1$@ %2$@";
+"LOCID Online" = "Online";
+"LOCID Tentative" = "Tentatif";
+"LOCID Event" = "Acara";
+"LOCID Updating..." = "Memperbarui...";
+"LOCID Tentative Voiceover" = "%@, Tentatif";
+"LOCID Pull to refresh" = "Tarik untuk menyegarkan";
+"LOCID Today" = "HARI INI"; // CAPS
+"LOCID Tomorrow" = "BESOK"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Jika Anda bukan penyelenggara, mik Anda akan dimatikan saat bergabung.";
+"LOCID Lync Conferencing" = "Rapat Skype";
+"LOCID Joining Step 1" = "Menyambungkan...";
+"LOCID Please wait to be admitted" = "Harap tunggu untuk dimasukkan";
+"LOCID Join Conf Error" = "Koneksi rapat putus.";
+"LOCID Anonymous Join" = "Ikut Tanpa Nama";
+"LOCID Enter your name" = "Masukkan nama Anda";
+"LOCID Anonymous Join Greeting" = "Selamat datang di Skype for Business";
+"LOCID Sign in with Lync" = "Masuk dengan Skype for Business";
+"LOCID Sign in as guest" = "Masuk sebagai tamu";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Kami tidak dapat menyambungkan Anda ke rapat tanpa nomor iPhone Anda. Tambahkan nomor iPhone di opsi Skype for Business.";
+"LOCID Join Conf Error - No Number iPad" = "Kami tidak dapat menyambungkan Anda ke rapat tanpa nomor ponsel Anda. Tambahkan nomor ponsel di opsi Skype for Business.";
+"LOCID Join Meeting Line 1 Text" = "Mengikuti Rapat\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Menghubungi Anda di %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Halo. Anda berada di lobi virtual, anggaplah seperti rumah sendiri. Mohon jangan keluar dari aplikasi—penyelenggara akan segera memasukkan Anda.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Anda tidak diizinkan masuk karena penyelenggara tidak di tempat atau tidak menjawab.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Koneksi terputus. Ketuk Ikut untuk mencoba lagi.";
+"LOCID View" = "Lihat";
+"LOCID Join Meeting" = "Ikut Rapat";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Mengikuti rapat";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Kami tidak dapat menyambungkan Anda karena rapat penuh. Coba hubungi penyelenggara.";
+"LOCID AdmittedToLobby" = "Anda sudah dimasukkan. Kami menghubungi Anda sekarang...";
+"LOCID MtgDisclaimerAccept" = "Terima";
+"LOCID MtgDisclaimerDecline" = "Abaikan";
+"LOCID E_MeetingNotFound" = "Rapat yang coba Anda ikuti tidak ada.";
+"LOCID E_MeetingsNotEnabled" = "Fitur rapat ini tidak diaktifkan oleh organisasi Anda.";
+"LOCID E_OutsideOrg" = "Orang atau rapat ini tidak memiliki izin di jaringan Anda.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Panggilan dan Rapat";
+"LOCID credentialsSection" = "Kredensial Saya";
+"LOCID contactsSection" = "Kontak";
+"LOCID accessibilitySection" = "Aksesibilitas";
+"LOCID otherSection" = "Lainnya";
+"LOCID Show Recent Contacts" = "Kontak Terbaru";
+"LOCID Show Pinned Contacts" = "Kontak Tersemat";
+"LOCID Show Photos" = "Foto";
+"LOCID Sort by availability" = "Urutkan berdasarkan ketersediaan";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Pengelogan";
+"LOCID About" = "Tentang";
+"LOCID About Version" = "Versi %@";
+"LOCID Status" = "Status";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "Proksi HTTP";
+"LOCID Require WiFi" = "Memerlukan Wi-Fi Untuk";
+"LOCID WiFi VoIP" = "Suara";
+"LOCID WiFi Video" = "Video";
+"LOCID WiFi Collab" = "Konten Rapat";
+"LOCID WiFi Warning" = "Bila nonaktif, Anda bisa mendapat telepon via koneksi data (mungkin berbayar dan berkualitas rendah).";
+"LOCID WiFi Warning iPad" = "Saat dinonaktifkan, Anda dapat memperoleh konten panggilan dan rapat melalui koneksi data Anda (kemungkinan berbayar dan berkualitas rendah).";
+"LOCID Not a SfB User" = "Bukan Pengguna Skype for Business?";
+
+
+/* About View */
+"LOCID About Title" = "Tentang";
+"LOCID version" = "Versi: %@";
+"LOCID Long Product Name" = "Skype® for Business untuk %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Hak cipta dilindungi undang-undang.";
+"LOCID online help" = "Bantuan";
+"LOCID Terms Of Use" = "Syarat Penggunaan";
+"LOCID Privacy title" = "Privasi";
+"LOCID Third Party Notices" = "Pengumuman Pihak Ketiga";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nPaten Tertunda";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Nama Skype, merek dagang terkait dan logo serta logo “S” adalah merek dagang Skype atau entitas terkait.\n\nPeringatan: Program ini dilindungi hukum hak cipta dan undang-undang internasional. Reproduksi atau distribusi program, atau bagian daripadanya yang tidak diautorisasi, dapat berakibat hukuman kriminal dan sipil berat serta akan dikenakan sanksi hingga batas maksimum yang diizinkan menurut hukum.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Penerusan panggilan";
+"LOCID Forward Section" = "Pilih Nomor";
+"LOCID Apply Setting Section" = "Terapkan Pengaturan";
+"LOCID Summary Section" = "Pengaturan Anda saat ini:";
+"LOCID Do Not Forward" = "Jangan Alihkan";
+"LOCID Forward Calls" = "Alihkan Panggilan";
+"LOCID Forward Calls To" = "Alihkan Panggilan Ke";
+"LOCID Simultaneously Ring" = "Berdering Bersamaan";
+"LOCID On" = "Nyala";
+"LOCID Off" = "Mati";
+"LOCID During Working Hours" = "Selama Jam Kerja";
+"LOCID Voicemail" = "Pesan suara";
+"LOCID Team Call" = "Anggota Panggilan-Tim";
+"LOCID Delegates" = "Delegasi";
+"LOCID Pending Persons" = "Ditambahkan Oleh";
+"LOCID Delegate Target" = "delegasi Anda";
+"LOCID TeamCall Target" = "anggota grup panggilan-tim Anda";
+"LOCID Voicemail Target" = "pesan suara Anda";
+"LOCID DoNotForward Summary" = "Panggilan akan menghubungi Anda di tempat kerja dan tidak akan dialihkan. Anda tidak akan menerima panggilan di ponsel saat VoIP tidak tersedia.";
+"LOCID DoNotForward Summary iPad" = "Panggilan akan menghubungi Anda di tempat kerja dan tidak akan dialihkan. Anda tidak akan mendapat panggilan di iPad Anda saat VoIP tidak tersedia.";
+"LOCID ForwardCalls Summary" = "Panggilan akan dialihkan langsung ke %@. Jika bukan ponsel Anda, Anda tidak akan menerima panggilan di ponsel.";
+"LOCID ForwardCalls Summary iPad" = "Panggilan akan dialihkan langsung ke %@ dan tidak akan menghubungi iPad Anda.";
+"LOCID Simulring Summary" = "Panggilan akan menghubungi Anda di tempat kerja dan juga menghubungi %@. Jika bukan nomor ponsel Anda, Anda akan menerima panggilan seluler saat VoIP tidak ada.";
+"LOCID Simulring Summary iPad" = "Panggilan akan menghubungi Anda di tempat kerja dan juga menghubungi %@. Anda tidak akan mendapat panggilan di iPad saat VoIP tidak tersedia.";
+"LOCID View Settings" = "Lihat pengaturan Anda saat ini";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Terapkan Pengaturan";
+"LOCID All the Time" = "Sepanjang Waktu";
+"LOCID During Outlook Working Hours" = "Selama Jam Kerja Outlook";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Kantor";
+"LOCID Home Capitalized" = "Rumah";
+"LOCID Mobile Capitalized" = "Ponsel";
+"LOCID Custom Capitalized" = "Kustom";
+"LOCID Other Capitalized" = "Lainnya";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Batal";
+"LOCID Add" = "Tambahkan";
+"LOCID New Number" = "Nomor Baru";
+"LOCID New Contact" = "Kontak Baru";
+"LOCID Contact" = "Kontak";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Unggah Log Masuk";
+"LOCID SignInBRB - Always" = "Selalu";
+"LOCID SignInBRB - Never" = "Jangan Pernah";
+"LOCID SignInBRB - Ask Me" = "Tanyai Saya";
+"LOCID Send Log Files" = "Kirimkan File Log";
+"LOCID Log Email Subject" = "File Log Skype for Business"; //product name
+"LOCID Device Model" = "Model Perangkat:";
+"LOCID Device OS Name" = "Nama OS Perangkat:";
+"LOCID Device OS Version" = "Versi OS Perangkat:";
+"LOCID Enable Logging" = "Aktifkan Pengelogan";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Proksi Http";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Untuk menyelesaikan pengaturan Proksi HTTP, gunakan pengaturan Wi-Fi %@ Anda.";
+"LOCID exchange.example.com" = "exchange.contoh.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Gunakan Kredensial Skype for Business";
+"LOCID Exchange Credentials Info" = "Skype for Business memerlukan kredensial Exchange Anda untuk menampilkan semua informasi rapat dan pesan suara.";
+"LOCID Email Address" = "Alamat Email";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Nomor Ponsel Saya";
+"LOCID My Mobile Number Details" = "Masukkan nomor iPhone berserta kode negara dan kawasan:";
+"LOCID My Mobile Number Details iPad" = "Masukkan nomor ponsel beserta kode negara dan kawasan:";
+"LOCID My Mobile Number Footer" = "Ini memungkinkan Anda melakukan atau menerima panggilan kerja, dan ikut rapat dari Skype for Business.\n(Jika menggunakan VoIP, dan VoIP tidak tersedia, ini adalah cadangan Anda.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Ini memungkinkan Anda bergabung dengan rapat dari Skype for Business.\n(Jika menggunakan VoIP, dan VoIP tidak tersedia, ini adalah cadangan Anda.)";
+"LOCID iPhone Number" = "Nomor Telepon";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Hubungi melalui Kantor";
+"LOCID Missing iPhone Number Error" = "Nomor Telepon Hilang";
+"LOCID Missing iPhone Number Error Text" = "Panggilan ini tidak dapat diselesaikan. Masukkan nomor iPhone Anda di Opsi, lalu coba lakukan panggilan lagi.";
+"LOCID Missing iPad Number Error Text" = "Panggilan ini tidak dapat diselesaikan. Masukkan nomor telepon Anda di Opsi, lalu coba lakukan panggilan lagi.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Sebelum Anda Memulai";
+"LOCID Main text" = "Semua orang dapat menggunakan aplikasi ponsel Skype for Business saat diundang ke Rapat Skype. Namun, untuk menikmati kemampuan penuh aplikasi, Anda harus memiliki akun Skype for Business.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "Opsi Lainnya";
+"LOCID Add Contact" = "Tambahkan Kontak";
+"LOCID Add to Group" = "Tambahkan ke Grup";
+"LOCID Remove Contact" = "Hapus Kontak";
+"LOCID Remove from Group" = "Hapus dari Grup";
+"LOCID Groups" = "Grup";
+"LOCID E_AddContactFailureGeneral" = "Kami tidak dapat menambahkan kontak ini saat ini. Silakan coba lagi nanti.";
+"LOCID E_AddContactFull" = "Anda tidak dapat menambahkan kontak lagi ke grup ini.";
+"LOCID E_AddContactInGroup" = "Kontak sudah ada dalam grup ini.";
+"LOCID E_RemoveContactFailureGeneral" = "Kami tidak dapat menghapus kontak ini saat ini. Silakan coba lagi nanti.";
+"LOCID Confirm Remove Contact" = "Ini akan menghapus %@ dari daftar Kontak Anda.";
+"LOCID Ignore" = "Abaikan";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Pelajari Lainnya";
+"LOCID CEIP More Info" = "Bantu Skype for Business menjadi lebih baik lagi dengan mengirim data penggunaan anonim ke Microsoft.";
+"LOCID ceipSectionTitle" = "Program Peningkatan Pengalaman Pelanggan";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Selamat datang.";
+"LOCID Lets begin" = "Ayo mulai...";
+
+/* First Run Experience */
+"LOCID Close" = "Tutup";
+"LOCID Change" = "Ya";
+"LOCID Don't change" = "Tidak";
+"LOCID Next" = "Berikutnya";
+"LOCID Done" = "Selesai";
+"LOCID First Run First Step" = "Lync sekarang menjadi Skype for Business - menggabungkan pengalaman Skype dengan kualitas perusahaan dari Microsoft.";
+"LOCID First Run Second Step" = "Siapa saja dapat menggunakan aplikasi ini untuk bergabung dalam Rapat Skype, tetapi untuk menikmati semua fitur, Anda memerlukan akun Skype for Business dan organisasi Anda harus mengaktifkan aplikasi ini.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "UBAH PENGATURAN PENGALIHAN PANGGILAN?";
+"LOCID First Run CF Current Settings" = "Pengaturan Anda saat ini:";
+"LOCID First Run CF Change Settings" = "Pengaturan Baru:";
+"LOCID First Run Change Summary" = "Anda telah memasukkan nomor telepon untuk mendapatkan panggilan kerja. Sekarang kami perlu mengubah pengaturan pengalihan panggilan Anda saat ini agar telepon Anda dapat berdering.";
+"LOCID First Run Change Request" = "Bisakah kita mengubah ini agar panggilan kerja akan menghubungi Anda terus-menerus di tempat kerja dan di %@?";
+"LOCID DoNotForward Summary - First Run" = "Panggilan akan menjangkau Anda di tempat kerja dan tidak akan dialihkan ke nomor telepon lain.";
+"LOCID ForwardCalls Summary - First Run" = "Panggilan akan dialihkan langsung ke %@.";
+"LOCID Simulring Summary - First Run" = "Panggilan akan mengubungi Anda di tempat kerja serta %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "TIDAK PERNAH MELEWATKAN PANGGILAN KERJA";
+"LOCID My Mobile Number Title 2" = "TIDAK PERNAH MELEWATKAN RAPAT";
+"LOCID My Mobile Number Details First Run" = "Kami perlu nomor iPhone Anda beserta kode negara dan wilayahnya:";
+"LOCID My Mobile Number Details First Run_iPad" = "Kami perlu nomor telepon Anda beserta kode negara dan wilayahnya:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "KELOLA PENGGUNAAN DATA";
+"LOCID Setup Work Calls Sub Text" = "Pengaturan ini mengelola pemakain data Anda dan biaya potensial untuk panggilan dan rapat.";
+
+"LOCID Require Wifi for VoIP calls" = "Memerlukan Wi-Fi untuk panggilan VoIP";
+"LOCID Require Wifi for VoIP calls off subtext" = "Saat Wi-Fi tidak tersedia, panggilan akan menggunakan koneksi data Anda.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Panggilan akan selalu berlangsung menggunakan Wi-Fi. Kami tidak akan menggunakan koneksi data Anda.";
+
+"LOCID Require Wifi for Video calls" = "Memerlukan Wi-Fi untuk panggilan video";
+"LOCID Require Wifi for Video calls off subtext" = "Saat Wi-Fi tidak tersedia, panggilan video akan menggunakan koneksi data Anda. (Datanya sangat banyak.)";
+"LOCID Require Wifi for Video calls on subtext" = "Panggilan video akan selalu berlangsung menggunakan Wi-Fi. Kami tidak akan menggunakan koneksi data Anda.";
+
+"LOCID Require Wifi for meeting content" = "Membutuhkan Wi-Fi untuk konten rapat";
+"LOCID Require Wifi for meeting content off subtext" = "Saat Wi-Fi tidak tersedia, kami akan menggunakan koneksi data Anda untuk mendapatkan konten rapat. (Datanya sangat banyak.)";
+"LOCID Require Wifi for meeting content on subtext" = "Kami akan menggunakan Wi-Fi untuk mendapatkan konten rapat—tidak pernah menggunakan koneksi data Anda.";
+
+"LOCID Skip" = "Lompati";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Mulai gunakan Skype for Business";
+
+"LOCID First Run Successful Setup" = "SEKARANG ANDA SIAP!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "SELAMAT DATANG!";
+"LOCID First Run Successful Setup Details" = "Kapan pun Anda dapat membuat perubahan di Pengaturan.";
+
+"LOCID improve lync" = "Bantu sempurnakan Skype for Business";
+"LOCID whyphonenumber" = "Mengapa kami memerlukan nomor telepon Anda";
+"LOCID more detail" = "Detail Selengkapnya";
+
+"LOCID Emergency Call Disclaimer" = "Catatan kecil:";
+"LOCID Emergency Call Disclaimer Details" = "Biaya normal dari operator berlaku untuk semua panggilan.\n\nPenting: Jangan gunakan aplikasi Skype for Business untuk melakukan panggilan darurat.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Penting";
+"LOCID Emergency Call Disclaimer Details iPad" = "Jangan gunakan aplikasi Skype for Business untuk melakukan panggilan darurat.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Pemberitahuan Gegas";
+"LOCID Push Notification Legal1" = "Sebelum menerima Pemberitahuan Gegas, ingatlah bahwa semua Pemberitahuan Gegas dan isinya dikirim melalui Layanan Pemberitahuan Gegas Apple (Apple Push Notification Service) dan sistem Pemberitahuan Gegas Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Anda mengubah pengaturan Pemberitahuan Push di Pengaturan Pemberitahuan %1$@, tetapi harus menjalankan Skype for Business lagi untuk menghentikan pengiriman semua konten pemberitahuan.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Gunakan Ponsel";
+"LOCID Call via Work Not Available Error" = "Anda tidak bisa melakukan panggilan Skype for Business karena sedang offline. Coba hubungi dari nomor ponsel Anda.";
+"LOCID Call via Work Not Available Error iPad" = "Anda tidak dapat melakukan panggilan Skype for Business karena sedang offline.";
+"LOCID Answer incoming call" = "Jawab panggilan masuk";
+"LOCID to connect you to... display name" = "untuk menyambungkan Anda dengan...\n%@";
+
+"LOCID Call via Work Connecting" = "Menyambungkan...\n Jawab panggilan masuk berikutnya.";
+"LOCID Call via Work Connected" = "Anda sudah ikut dari %1$@";
+"LOCID Video Disclaimer" = "Anda tidak akan bisa melihat atau berbagi video.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Anda ikut dari %1$@.";
+
+/* Errors */
+"LOCID Error" = "Kesalahan";
+"LOCID E_GenericFailure" = "Terjadi kesalahan di Skype for Business. Coba lagi. Jika masalah berlanjut, hubungi tim dukungan Anda.";
+"LOCID E_GroupNotFound" = "Anda tidak dapat menemukan grup tersebut.";
+"LOCID E_PermissionsForGroup" = "Anda tidak memiliki izin untuk memperluas grup ini.";
+"LOCID E_ConnectionError" = "Kami tidak dapat menyambung ke server. Periksa koneksi jaringan dan alamat server Anda, dan coba lagi.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Kami tidak dapat menyambung ke server. 1) Server mungkin tidak tersedia. 2) Periksa koneksi jaringan Anda. 3) Pastikan Anda menggunakan info akun Skype for Business yang disediakan oleh organisasi. 4) Nama pengguna mungkin berbeda dari nama masuk Anda. Ketuk Opsi Lanjutan dan masukkan nama pengguna atau domain\\namapengguna Anda.";
+"LOCID E_AutoDiscoveryInBackground" = "Konfigurasi server Anda berubah. Mulai ulang Skype for Business.";
+"LOCID E_SslError" = "Kami tidak dapat memverifikasi sertifikat dari server. Harap hubungi tim dukungan Anda.";
+"LOCID E_SslCertExpiredError" = "Kami tidak dapat memverifikasi sertifikat dari server. Harap hubungi tim dukungan Anda.";
+"LOCID E_ProxyAuthError" = "Kami tidak dapat memasukkan Anda. Konfigurasikan pengaturan proksi HTTP Anda di pengaturan %@ dan Opsi Skype for Business atau gunakan 3G untuk menyambungkan.";
+"LOCID E_ConnectionTimeoutError" = "Tidak dapat tersambung ke server. Mungkin server sibuk atau tidak tersedia untuk sementara. Harap coba lagi.";
+"LOCID E_GenericApplicationError" = "Ada kesalahan dalam aplikasi. Silakan mulai ulang aplikasi.";
+"LOCID E_AuthError" = "Kami tidak bisa memasukkan Anda. Harap periksa informasi akun Anda dan coba lagi.";
+"LOCID E_InvalidCredentials" = "Kami tidak bisa memasukkan Anda. Harap periksa informasi akun Anda dan coba lagi.";
+"LOCID E_InvalidSignInAddress" = "Tidak bisa masuk. Verifikasilah alamat masuk Anda dan coba lagi.";
+"LOCID E_InvalidLyncAccount" = "Itu bukan info masuk yang valid.  Anda harus masuk menggunakan akun Skype for Business yang disediakan oleh organisasi Anda.";
+"LOCID E_WrongHomePool" = "Anda tidak dikonfigurasi untuk tersambung ke server.  Harap hubungi tim dukungan Anda.";
+"LOCID E_ImSendError" = "Gagal mengirim:";
+"LOCID GenericRetryError" = "Kami tidak dapat tersambung ke server. Mencoba lagi...";
+"LOCID GenericError" = "Terjadi kesalahan server. Harap coba lagi.";
+"LOCID RequestFailed" = "Gagal memproses permintaan.  Harap coba lagi.";
+"LOCID DecodingError" = "Gagal memproses respons server. Harap coba lagi. Jika masalah berlanjut, hubungi tim dukungan Anda.";
+"LOCID VersionMismatch" = "Anda tidak bisa masuk dengan versi Skype for Business ini. Instal versi baru. Jika tidak berhasil, hubungi tim dukungan Anda.";
+"LOCID SignInCredentialsAreNeeded" = "Anda telah dikeluarkan. Kami memerlukan info akun Anda untuk memasukkan Anda kembali.";
+"LOCID NeedLyncPassword" = "Kami membutuhkan kata sandi Anda untuk masuk.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Kami tidak dapat tersambung ke server sekarang. Harap coba lagi.";
+"LOCID E_HttpRequestTimeout" = "Tidak bisa masuk karena server tidak tersedia untuk sementara.";
+"LOCID E_CannotConnectToServer" = "Tidak dapat menyambungkan ke server. Mencoba membuat ulang koneksi. Jika masalah berlanjut, hubungi tim dukungan Anda.";
+"LOCID E_InvalidServerUrl" = "Nama server salah. Periksalah dan coba lagi.";
+"LOCID E_NoValidIp" = "Kami tidak dapat tersambung ke jaringan. Harap periksa pengaturan koneksi Anda.";
+"LOCID E_MetaDataNotFound" = "Tidak dapat menjangkau server. Verifikasilah alamat server Anda atau coba lagi nanti.";
+"LOCID E_TimeSkewError" = "Kami tidak dapat menyinkronkan jam perangkat dengan server. Harap ubah pengaturan waktu atau hubungi tim dukungan Anda.";
+"LOCID E_MobilityDisabled" = "Kami tidak dapat memasukkan Anda karena Anda tidak disiapkan untuk menggunakan Skype for Business. Hubungi tim dukungan Anda.";
+"LOCID E_TooManyApplications" = "Kami tidak dapat memasukkan Anda. Sepertinya Anda sudah masuk di terlalu banyak perangkat.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Panggilan melalui Kantor dimatikan. Masukkan nomor telepon di opsi untuk melakukan Panggilan Skype for Business ke orang ini.";
+"LOCID E_UI_OfflineLyncCall" = "Harus online atau memiliki konektivitas data seluler untuk membuat Panggilan Skype for Business ke orang ini.";
+"LOCID E_EwsError" = "Kami tidak dapat tersambung ke Exchange. Harap coba lagi nanti.";
+"LOCID E_EwsBadCredentials" = "Kredensial masuk Exchange Anda tidak valid. Perbarui kredensial Exchange atau Skype for Business Anda.";
+"LOCID W_Retrying" = "Tidak dapat menjangkau server, sedang mencoba ulang...";
+"LOCID E_UI_CallViaCellError" = "Harap periksa nomor dan cobalah lagi.";
+"LOCID E_LiveIdPasswordExpired" = "Kata sandi Anda sudah kedaluwarsa. Harap perbarui dan coba lagi.";
+"LOCID E_LiveIdInvalidCredentails" = "Kami tidak bisa memasukkan Anda. Harap periksa informasi akun Anda dan coba lagi.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Kata sandi Anda perlu diubah.  Harap perbarui dan coba lagi.";
+"LOCID E_LiveIdPasswordLockedOut" = "Kata sandi Anda perlu diubah.  Harap perbarui dan coba lagi.";
+"LOCID E_LiveIdConnectionFailed" = "Kami tidak dapat tersambung ke server sekarang.  Harap coba lagi.";
+"LOCID E_LiveIdServiceUnavailable" = "Kami tidak dapat tersambung ke server sekarang.  Harap coba lagi.";
+"LOCID E_LiveIdGenericError" = "Kami tidak bisa memasukkan Anda. Harap coba lagi.";
+"LOCID E_InvalidLiveIDUserNameError" = "Kami tidak dapat memasukkan Anda, Harap pastikan nama pengguna Anda menggunakan format seseorang@contoh.com, dan kata sandi Anda valid.";
+"LOCID E_InvalidSmtpAddress" = "Kami tidak dapat tersambung ke Exchange.  Harap periksa informasi akun Anda dan coba lagi.";
+"LOCID E_LogoffUnsuccessful" = "Tidak dapat menyambungkan Anda ke Skype for Business karena koneksi server hilang.";
+"LOCID E_ClientVersionMismatch" = "Kami tidak dapat memasukkan Anda karena organisasi tidak mendukung versi Skype for Business ini. Instal Lync 2010 dari bursa seluler Anda.";
+"LOCID E_ClientServerSchemaMisMatch" = "Anda tidak dapat masuk dengan versi Skype for Business ini. Instal versi yang lebih baru. Jika tidak berhasil, hubungi tim dukungan Anda.";
+"LOCID E_ClientVersionCheck" = "Anda tidak dapat masuk dengan versi Skype for Business ini. Instal versi yang lebih baru. Jika tidak berhasil, hubungi tim dukungan Anda.";
+"LOCID E_VersionMismatch" = "Anda tidak dapat masuk dengan versi Skype for Business ini. Instal versi yang lebih baru. Jika tidak berhasil, hubungi tim dukungan Anda.";
+"LOCID E_AutoDConfigurationError" = "Kami tidak dapat memasukkan Anda. Harap hubungi tim dukungan Anda.";
+"LOCID E_AutoDPasswordExpiredError" = "Kata sandi Anda kedaluwarsa. Harap perbarui dan coba lagi.";
+"LOCID E_InvalidProxySettingsError" = "Kami tidak dapat memasukkan Anda. Pengaturan proksi tidak valid. Harap periksa dan coba lagi.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Anda telah keluar karena tidak ada aktivitas.";
+"LOCID E_GeneralGoneError" = "Kami tidak dapat memasukkan Anda. Harap hubungi tim dukungan Anda.";
+"LOCID E_InternalServerError" = "Kami tidak dapat memasukkan Anda. Harap hubungi tim dukungan Anda.";
+"LOCID E_TooManyApps" = "Kami tidak dapat memasukkan Anda. Sepertinya Anda sydah masuk di terlalu banyak perangkat.";
+"LOCID E_ResponseUnkown" = "Kami tidak dapat menyambung ke server. Jika Anda menggunakan Wi-Fi, buka browser untuk melihat apakah Anda memiliki koneksi. Jika tidak, nonaktifkan semua koneksi hot-spot atau penambatan. Jika masalah berlanjut, hubungi penyedia jaringan Anda.";
+"LOCID E_CannotLoadADFSPage" = "Kami tidak dapat memasukkan Anda. Harap coba lagi. Jika masalah tetap ada, harap hubungi tim dukungan Anda.";
+"LOCID E_UserNotSipEnabled" = "Anda tidak dikonfigurasi untuk tersambung ke server. Silakan hubungi tim dukungan.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Anda tidak bisa melakukan panggilan VoIP sekarang. Coba hubungi dari nomor ponsel Anda.";
+"LOCID E_VoicePSTNCallActive" = "Anda tidak bisa melakukan panggilan VoIP sekarang. Coba hubungi dari nomor kantor Anda.";
+"LOCID E_VoicePSTNCallActive - Button" = "Hubungi melalui Kantor";
+"LOCID E_VideoOverWiFiBlocked" = "Ini adalah undangan panggilan video, tetapi karena Anda tidak punya sambungan Wi-Fi, kami hanya menyambungkan audio.";
+"LOCID E_HistoryNotDisplayed" = "Riwayat percakapan ini tidak dapat ditampilkan.";
+"LOCID E_IMAcceptedElsewhere" = "Anda menerima percakapan ini di tempat lain. Untuk memulai ulang, kirimkan pesan baru.";
+"LOCID E_MuteFailed" = "Akibat kesalahan, orang lain tidak melihat mik Anda dimatikan sekarang.";
+"LOCID E_UnmuteFailed" = "Akibat kesalahan, mik Anda masih dimatikan. Harap coba aktifkan mik Anda lagi.";
+"LOCID E_DgExpansionGenericFailure" = "Tidak bisa mendapatkan anggota grup yang bisa diundang. Coba lagi nanti.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Grup terlalu besar untuk diundang.";
+"LOCID E_DgExpansionNoMembersFailure" = "Grup tidak punya anggota individu dan tidak dapat diundang.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ tidak tersedia atau mungkin offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ diatur ke Jangan Ganggu.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ tidak bertugas. Harap periksa nomornya.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ sedang melakukan panggilan lain.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ tidak menjawab.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ tidak menjawab panggilan ini.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Panggilan ini tidak dapat diselesaikan karena Anda offline. Coba masuk ke Skype for Business untuk melakukan panggilan.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Operasi tidak berhasil.";
+"LOCID E_VoiceGenericError" = "Panggilan tidak diselesaikan atau sudah berakhir.";
+"LOCID E_VoiceFeatureNotEnabled" = "Fitur panggilan dinonaktifkan.";
+"LOCID E_VoiceCheckNumber" = "Harap periksa nomor dan cobalah lagi.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Panggilan ini tidak dapat diselesaikan. Silakan coba lagi.";
+"LOCID E_VoiceCallUnsuccessful" = "Tidak dapat menyambungkan panggilan.";
+"LOCID E_VoiceCallTypeNotSupported" = "Panggilan gagal. Panggilan jenis ini tidak didukung.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Pesan ini mungkin tidak terkirim ke %@ karena server kehabisan waktu:";
+
+"LOCID E_SharingAnotherOperation" = "Kami sedang melakukan hal lain untuk Anda. Tunggu sebentar dan coba lagi.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ tidak mendapatkan pesan ini karena masalah server:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ offline dan tidak mendapatkan pesan ini:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ sedang berstatus Jangan Diganggu dan tidak menerima pesan ini:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Kami tidak dapat mengirimkan pesan ini karena kami tidak menemukan %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Tidak dapat mengirimkan pesan ini karena isinya diblokir:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "Kami tidak dapat menjangkau %@ untuk mengirim pesan ini:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Kami tidak dapat menyelesaikan panggilan Anda.";
+
+"LOCID E_ConfLocked" = "Anda tidak dapat ikut rapat karena dikunci. Coba hubungi penyelenggara.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Ada ketidakcocokan enkripsi antara Anda dan %@. Hubungi tim dukungan Anda.";
+
+"LOCID E_ConferencingServerError" = "Terjadi kesalahan server. Harap hubungi tim dukungan Anda.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ tidak dapat dihubungi dan mungkin offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ sedang berstatus Jangan Diganggu dan tidak dapat dihubungi.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ tidak menjawab undangan.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Kami tidak dapat menjangkau %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Anda tidak disiapkan untuk mengikuti Rapat Skype.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Tidak dapat ikut konferensi saat aplikasi tidak masuk.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ tidak dapat ikut rapat.";
+"LOCID E_ConferencingEnded" = "Rapat yang coba Anda ikuti tidak tersedia.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Tidak dapat menghubungi %@. Coba lagi nanti.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "%@ tidak dapat ditemukan. Harap periksa alamatnya.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Kami tidak dapat menjangkau %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ menolak undangan Anda.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Penyaji mengakhiri rapat.";
+"LOCID E_ConferencingCallDisconnected" = "Panggilan ini diputus.";
+"LOCID ConferenceUnexpectedDisconnect" = "Anda telah diputus sambungannya dari konferensi.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Panggilan tidak diselesaikan atau sudah berakhir.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Kami tidak dapat menambahkan %@ ke rapat karena jaringan sibuk.";
+
+"LOCID E_ConferencingCannotConnect" = "Panggilan tidak diselesaikan atau sudah berakhir.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Anda tidak dapat ikut ke rapat online tipe ini.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Tidak dapat mengundang %@ karena rapat penuh.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Tidak bisa ikut rapat sebagai peserta anonim.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Tidak bisa ikut rapat karena kesalahan undangan.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Anda tidak punya izin untuk ikut rapat.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Kami tidak dapat mengikutkan Anda ke rapat. Harap coba lagi.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Tidak dapat ikut rapat ini dari luar organisasi Anda.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Tidak dapat ikut dalam tipe rapat online ini.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Tidak dapat menghubungi %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Anda tidak dapat memulai rapat karena rapat lain sedang dimulai.";
+"LOCID E_ConferencingEncryptionIssues" = "Kami tidak dapat memulai Rapat Skype karena masalah enkripsi.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Anda tidak punya cukup izin untuk ikut dari atau melakukan panggilan dari perangkat lain.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Panggilan tidak diselesaikan atau sudah berakhir.";
+"LOCID E_ConferencingFull" = "Rapat penuh.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Anda tidak punya izin untuk ikut rapat ini.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Undangan ke %@ kedaluwarsa.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Rapat berakhir karena penyelenggara telah pergi.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Anda tidak bisa ikut rapat karena jaringan sibuk.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Baris subjek terlalu panjang.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Fitur rapat ini tidak diaktifkan oleh organisasi Anda.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Rapat ini diakhiri karena tidak aktif.";
+"LOCID E_ConferencingCannotBeFound" = "Rapat online ini tidak dapat ditemukan.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Anda tidak punya izin untuk ikut rapat ini.";
+"LOCID E_ConferencingUserNotAdmitted" = "Anda tidak diizinkan ikut rapat ini.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Anda sudah dikeluarkan dari rapat.";
+"LOCID E_ConfGenericError" = "Kami tidak dapat mengikutkan Anda ke dalam rapat. Harap coba lagi.";
+"LOCID E_ConferenceDenied" = "Usaha masuk Anda ditolak oleh penyaji.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Anda sudah ada dalam rapat. Ingin keluar dari rapat tersebut dan bergabung dalam rapat ini?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Server tidak mendukung bergabung dalam rapat secara anonim melalui perangkat ini.";
+"LOCID ConferenceVideoLock" = "Seorang penyaji mengunci sorotan video pada seseorang.";
+"LOCID ConferenceVideoUnlock" = "Seorang penyaji membuka kunci sorotan video.";
+"LOCID ConferenceVideoSelfLock" = "Semua orang dikunci pada video Anda.";
+"LOCID ConferenceVideoSelfUnlock" = "Tidak ada lagi yang dikunci pada video Anda.";
+
+"LOCID E_DomainNotTrusted" = "Tidak dapat tersambung ke server. Terima perintah pengalihan ulang.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ tidak mendapatkan pesan ini karena formatnya tidak diperbolehkan:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Perangkat yang digunakan %@ tidak bisa mendapatkan pesan.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ tidak mendapatkan pesan ini karena ukurannya terlalu besar:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ tidak mendapatkan pesan ini karena kebijakan membatasi pengiriman:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Kami tidak dapat mengirim IM Anda—Anda sudah memulai percakapan dengan %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Tidak dapat mengirimkan pesan ini karena isinya diblokir:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Anda tidak berkewenangan mengirim IM ke %@. Kami tidak mengirim ini:";
+
+"LOCID E_IMConfGenericError" = "Satu peserta atau lebih tidak mendapatkan pesan ini:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ tidak tersedia.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Panggilan diakhiri karena %@ keluar.";
+
+"LOCID E_VoiceCallTimeout" = "Panggilan tidak diselesaikan karena masalah jaringan. Harap coba lagi.";
+"LOCID E_VoiceCallDisconnected" = "Maaf, panggilan terputus. Harap coba lagi.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Panggilan tidak diselesaikan atau sudah berakhir.";
+"LOCID E_VoiceCallNotCompleted" = "%@ tidak bisa mendapatkan panggilan. Coba pesan instan atau email saja.";
+"LOCID E_VoiceServerError" = "Tidak bisa menyambungkan panggilan karena kesalahan server. Harap coba lagi.";
+"LOCID E_VoiceCannotConnect" = "Tidak dapat tersambung ke rapat online.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Tidak dapat menghubungi %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Tidak dapat menemukan %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "Kami tidak dapat memulai Rapat Skype karena masalah enkripsi.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Orang yang Anda telepon menjawab dengan IM.";
+"LOCID E_VoiceCannotCompleteCall" = "Panggilan tidak dapat diselesaikan seperti yang ditekan.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Panggilan tidak dapat diselesaikan karena masalah server.";
+"LOCID E_VoiceServerCannotForwardCall" = "Server tidak dapat mengalihkan panggilan. Harap coba lagi.";
+"LOCID E_VoiceServerDidNotRespond" = "Server tidak merespons. Harap coba lagi.";
+"LOCID E_VoiceCannotPlaceCall" = "Tidak dapat melakukan panggilan. Harap periksa nomor dan cobalah lagi.";
+"LOCID E_VoiceNumberNotSupported" = "Organisasi Anda tidak mendukung panggilan ke nomor ini.";
+"LOCID E_IncomingPSTNCall" = "Kami tidak dapat menyelesaikan panggilan Anda.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Anda tidak dapat memanggil %@ karena panggilan dibatasi oleh kebijakan.";
+
+"LOCID E_CallFailed" = "Panggilan Anda berakhir karena masalah konektivitas. Harap coba lagi.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Anda telah diputus koneksinya karena telah ikut dari klien lain.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Anda dikeluarkan dari rapat.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Panggilan tidak dapat diselesaikan karena jaringan sibuk.";
+"LOCID E_VoiceNotSupported" = "%@ tidak dapat menerima panggilan audio.";
+"LOCID E_RepliedWIthOtherModality" = "Penerima memilih merespon dengan pesan instan.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Riwayat percakapan tidak dapat diperbarui sekarang dan mungkin tidak sinkron.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Riwayat percakapan tidak dapat diperbarui sekarang dan mungkin tidak sinkron.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Kami tidak dapat meneruskan panggilan ke kontak ini. Pilih salah satu kontak Skype for Business Anda yang akan menerima penerusan panggilan atau pilih \"Nomor Baru\" untuk memasukkan nomor telepon.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY diaktifkan";
+"LOCID RemoteHoldSucceeded" = "Pengguna jarak jauh menangguhkan panggilan Anda.";
+"LOCID RemoteUnholdSucceeded" = "Pembatalan penangguhan jarak jauh berhasil";
+"LOCID LocalHoldSucceeded" = "Penangguhan lokal berhasil";
+"LOCID LocalUnholdSucceeded" = "Pembatalan Penangguhan Lokal Berhasil";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Lanjutkan panggilan";
+"LOCID is recording" = "%@ sedang merekam";
+"LOCID Multiple Recording" = "Seseorang sedang merekam";
+"LOCID OnHoldOutOfApp" = "Panggilan %@ Anda ditangguhkan.";
+"LOCID OnStopOutOfApp" = "Panggilan %@ Anda telah dihentikan.";
+"LOCID RecordingAlert" = "%@ sedang merekam panggilan ini.";
+"LOCID CoversationP2PIsRecording" = "%@ sedang merekam panggilan ini.";
+"LOCID CoversationP2PIsRecordingNoName" = "Merekam panggilan ini.";
+"LOCID CoversationConferenceIsRecording" = "Seseorang sedang merekam rapat ini.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Daftar ini hampir penuh.Percakapan paling lama akan dihapus saat percakapan baru ditambahkan.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Penyaji mematikan suara mik peserta.";
+"LOCID Audience Unlock" = "Penyaji menghidupkan suara mik peserta.";
+"LOCID Conference Mute" = "Penyaji mematikan suara mik Anda.";
+"LOCID Conference Unmute" = "Penyaji ingin Anda menyalakan suara audio sendiri.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Penyaji memblokir pengiriman video oleh peserta.";
+"LOCID PresenterBlockedVideo - Presenter" = "Penyaji memblokir pengiriman video oleh peserta. Jika Anda penyaji, Anda bisa menyalakan kamera dan berbagi video Anda.";
+"LOCID PresenterBlockedVideo - Unblock" = "Penyaji membatalkan blokir pengiriman video oleh peserta.";
+"LOCID VideoLockOnYou" = "Setiap orang dikunci di video Anda.";
+"LOCID VideoLock" = "Penyaji mengunci sorotan video pada seseorang.";
+"LOCID VideoNotLockOnYou" = "Tidak ada lagi orang yang dikunci di video Anda.";
+"LOCID VideoSpotlightUnlocked" = "Penyaji membuka kunci sorotan video.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Kembali";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Hubungi melalui Kantor tidak tersedia.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Tidak Ada Pesan Suara";
+"LOCID You currently have no voicemail messages" = "Anda tidak punya pesan suara.";
+"LOCID Audio" = "Audio";
+"LOCID Speaker" = "Speaker";
+"LOCID Can not play locally" = "Kami tidak dapat memutar pesan ini. Ketuk Putar untuk menerima panggilan untuk mendengarnya.";
+"LOCID Play Voice Mail" = "Putar Pesan Suara";
+"LOCID PLAY_VOICEMAIL_HINT" = "Memutar Pesan Suara";
+"LOCID Pause Voice Mail" = "Jedakan Pesan Suara";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Menjeda Pesan Suara";
+"LOCID Play On Phone Error - No Number" = "Anda perlu memasukkan nomor telepon di Opsi untuk melakukan panggilan kembali.";
+"LOCID Call Back" = "Panggilan Kembali";
+"LOCID Delete" = "Hapus";
+"LOCID More voicemails iPad" = "Untuk menyimak pesan suara lama, ketuk ikon pesan suara.";
+"LOCID More voicemails" = "Untuk mendengar pesan suara lama, ketuk dan tahan 1 di papan tombol, atau buka Outlook.";
+"LOCID More voicemails No keypad" = "Buka Outlook untuk mendengarkan pesan suara lama.";
+"LOCID Can not play IRMed" = "Pesan ini dikelola hak-haknya. Ketuk Putar untuk menerima panggilan untuk mendengarnya.";
+"LOCID Lync Call" = "Panggilan Skype for Business";
+"LOCID Can't play on phone" = "Kami tidak dapat memutar pesan ini. Periksalah sambungan jaringan dan coba lagi nanti.";
+"LOCID Yes" = "Ya";
+"LOCID No" = "Tidak";
+"LOCID VMCallerID" = "Pesan Suara";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Putar pesan suara dengan kecepatan biasa";
+"LOCID VM Playback -2X Acc" = "Putar pesan suara lebih pelan dengan setengah kecepatan";
+"LOCID VM Playback 2X Acc" = "Putar pesan suara lebih cepat dua kali kecepatan biasa";
+"LOCID Voicemail From" = "Pesan suara dari %@";
+"LOCID No Voicemails Placeholder" = "Pesan suara Anda akan muncul di sini";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Abaikan";
+"LOCID Accept" = "Terima";
+"LOCID Not yet implemented feature" = "Fitur ini belum diterapkan. Coba lagi dalam rilis mendatang.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Anda punya 1 pesan suara baru";
+"LOCID Missed VMs" = "Anda punya %d pesan suara baru";
+"LOCID Missed Collab Out of App" = "Sesi kolaborasi tak terjawab dari %@";
+"LOCID Missed Video Call Out of App" = "Panggilan video tak terjawab dari %@";
+"LOCID Missed Audio Call Out of App" = "Panggilan tak terjawab dari %@";
+"LOCID Missed Message Out of App" = "Pesan instan tak terjawab dari %@";
+"LOCID Missed Audio Conf Out of App" = "Panggilan konferensi tak terjawab dari %@";
+
+"LOCID Audio Call Out of App" = "Panggilan dari %@";
+"LOCID Conference Call Out of App" = "Panggilan konferensi dari %@";
+"LOCID Dismiss Call" = "Abaikan";
+"LOCID Answer Call" = "Terima";
+"LOCID Answer Call with Video" = "Video";
+"LOCID Audio Call" = "Panggilan";
+"LOCID Conference Call" = "Panggilan Konferensi";
+"LOCID Unknown Caller" = "Penelepon Tidak Diketahui";
+
+"LOCID Video conf accessibility" = "Konferensi video dari %@";
+"LOCID Video accessibility" = "Panggilan video dari %@";
+"LOCID Audio conf accessibility" = "Panggilan konferensi dari %@";
+"LOCID Audio accessibility" = "Panggilan dari %@";
+
+"LOCID Video Call Out of App" = "Panggilan video dari %@";
+"LOCID Video Conference Call Out of App" = "Konferensi video dari %@";
+"LOCID Video Call" = "Panggilan Video";
+"LOCID Video Conference Call" = "Konferensi Video";
+"LOCID Video Escalation Name" = "%@ sedang berbagi video";
+"LOCID Video Escalation" = "sedang berbagi video";
+"LOCID Video Escalation Conf" = "Seseorang sedang berbagi video";
+"LOCID VideoInvitationRejected" = "Porsi video panggilan tidak diterima. Panggilan akan dilanjutkan dengan audio saja.";
+"LOCID E_VideoDecline" = "%@ tidak menerima video Anda.";
+"LOCID E_VideoGeneric" = "Kami tidak dapat memulai video Anda. Harap coba lagi.";
+"LOCID E_VideoNotStarted" = "Kami tidak dapat memulai video Anda.";
+"LOCID E_VideoNotSupported" = "%@ tidak dapat menerima panggilan video.";
+"LOCID E_VideoNotAccepted" = "Porsi video panggilan tidak diterima oleh %@. Panggilan akan berlanjut dengan audio saja.";
+
+"LOCID E_VoiceTransferGenericError" = "Panggilan tidak dapat ditransfer.";
+"LOCID E_VoiceTransferParticipantError" = "Panggilan tidak dapat ditransfer karena penerima tidak dapat dijangkau.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "matikan suara";
+"LOCID Mute Capitalized" = "Matikan Suara";
+"LOCID Unmute" = "Nyalakan Suara";
+"LOCID keypad" = "papan tombol";
+"LOCID add call" = "tambahkan panggilan";
+"LOCID hold" = "tangguhkan";
+"LOCID End" = "Akhiri";
+"LOCID Hide Keypad" = "Sembunyikan Papan Tombol";
+"LOCID Call Lync" = "Panggilan Skype for Business";
+"LOCID Call Work" = "Kantor: %@";
+"LOCID Call Mobile" = "Seluler: %@";
+"LOCID Call Home" = "Rumah: %@";
+"LOCID Call Other" = "Lainnya: %@";
+"LOCID Decline" = "Tolak";
+"LOCID Video Menu" = "Menu Video";
+"LOCID Hold Call" = "Tahan Panggilan";
+"LOCID Hang Up" = "Tutup";
+"LOCID Dial Pad Only" = "Tombol Angka";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u peserta - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u peserta - %@";
+"LOCID Call Status Connecting" = "Menyambungkan...";
+"LOCID Call Status Connecting Remote" = "Menyambungkan...";
+"LOCID Call Status Connected" = "Tersambung";
+"LOCID Call Status On Hold - Passive" = "Tangguhkan";
+"LOCID Call Status On Hold" = "Ditangguhkan";
+"LOCID Call Status Ended" = "Panggilan Berakhir";
+"LOCID Call Status Transfering" = "Mentransfer";
+"LOCID On behalf of" = "Atas nama %@";
+"LOCID Call for" = "Panggilan untuk %@";
+"LOCID Call for - Astana" = "Panggilan untuk %@";
+"LOCID Transferred by" = "Ditransfer oleh %@";
+"LOCID Forwarded by" = "Dialihkan oleh %@";
+"LOCID Private call" = "Panggilan pribadi";
+"LOCID Also ringing" = "Juga menelepon %@";
+"LOCID Also ringing delegates" = "Juga menelepon delegasi Anda";
+"LOCID Will ring" = "Akan menelepon %@";
+"LOCID Also ringing team call" = "Juga menelepon tim Anda";
+"LOCID The recipient" = "Penerima";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Inisialisasi ...";
+"LOCID DataCollab Connecting" = "Menyambungkan ...";
+"LOCID DataCollab Loading" = "Memuat...";
+"LOCID DataCollab No Content" = "Penyaji sudah berhenti berbagi kontn.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Fitur berbagi data tidak tersedia karena kegagalan koneksi server.";
+"LOCID DisconnectedOnConnectivityIssue" = "Beberapa fitur presentasi tidak tersedia akibat masalah konektivitas server.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Anda terputus karena Anda telah ikut dari klien lain.";
+"LOCID DisconnectedOnNetworkFailure" = "Masalah jaringan menghambat Anda melihat presentasi.";
+"LOCID DataCollab Known UnSupported" = "Penyaji menggunakan fitur yang tidak didukung oleh versi Skype for Business ini.";
+"LOCID DataCollab Generic UnSupported" = "Penyaji menggunakan fitur yang tidak didukung oleh versi Skype for Business ini atau mungkin tersambung ke server lama.";
+"LOCID DataCollab ContentPresenter" = "Penyaji: %@";
+"LOCID DataCollab NoPresenter" = "Tidak ada yang menyajikan";
+"LOCID Collab Unsupported PPTContent" = "Maaf, kami tidak dapat memutar media dalam presentasi ini.";
+"LOCID Retry" = "Coba lagi";
+"LOCID DataCollab Generic PPT Error" = "Beberapa fitur presentasi tidak tersedia akibat masalah konektivitas.";
+"LOCID Start Viewing" = "Mulai Menampilkan";
+"LOCID Stop Viewing" = "Stop Tampilan";
+"LOCID Collab Escalation" = "%@ ingin mulai presentasi";
+"LOCID PowerPoint content Accessibility" = "Konten PowerPoint";
+
+"LOCID SyncPresenterButton" = "Sinkronkan dengan tampilan penyaji";
+"LOCID NavigateBackButton" = "Mundur satu slide";
+"LOCID NavigateForwardButton" = "Maju satu slide";
+"LOCID SlideNumber" = "%1$d dari %2$d";
+"LOCID SlideNumber Accessibility" = "Slide %1$d dari %2$d";
+
+"LOCID E_SharingDisabled" = "Presentasi dinonaktifkan.";
+"LOCID E_SharingNetworkIssues" = "Anda tidak dapat menyajikan karena masalah jaringan. Harap coba lagi nanti.";
+"LOCID E_SharingNotSupported" = "Presentasi tidak didukung dengan kontak ini.";
+"LOCID E_SharingTimeout" = "Presentasi tidak dimulai karena server sibuk. Harap coba lagi nanti.";
+"LOCID SharingAnotherType" = "Presentasi ini diakhiri karena presentasi lain telah dimulai.";
+"LOCID E_GetMediaSdpFailed" = "Tidak bisa menyambungkan Anda ke desktop atau presentasi program sekarang.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Anda tidak dapat melihat konten presentasi karena Anda tidak tersambung ke Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "Anda tidak dapat melakukan panggilan Skype for Business karena tidak tersambung ke Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Presentasi terlalu besar sehingga tidak dapat dilihat pada perangkat Anda.";
+"LOCID E_CollabDisconnectedNetworkError" = "Sambungan Anda terputus dari presentasi karena masalah jaringan.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Koneksi Anda terputus karena Anda bergabung dari klien lain.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Berbagi konten sedang dimuat.";
+"LOCID AppSharing Shared Content" = "Konten bersama.";
+"LOCID AppSharing Desktop" = "Desktop";
+"LOCID AppSharing Application" = "Aplikasi";
+"LOCID AppSharing SharingPaused" = "Berbagi sedang dihentikan sementara."; // Not used
+"LOCID AppSharing SharingIdle" = "Berbagi saat ini sedang diam."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Semua sumber daya diminimalkan."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ mencoba memulai presentasi layar, tetapi versi aplikasi ini hanya mendukungnya dalam panggilan konferensi dan Rapat Skype.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Mulai IM";
+"LOCID send IM" = "Kirim";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Akhiri Percakapan";
+"LOCID View Contact Card" = "Lihat Kartu Kontak";
+"LOCID Invite Others" = "Undang Lainnya";
+"LOCID Send Location action" = "Kirim Lokasi";
+"LOCID Send as Email action" = "Kirim sebagai Email";
+"LOCID View Participants" = "Lihat Peserta";
+"LOCID Rejoin" = "Ikut lagi";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Tap dua kali untuk memperluas";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Kualitas panggilan buruk";
+"LOCID ACI Call Muted" = "Suara sedang dimatikan, ketuk ganda untuk menyalakan";
+"LOCID ACI Call Unmuted" = "Suara sedang dinyalakan, ketuk ganda untuk mematikan";
+
+/* Search results */
+"LOCID No Results" = "Tidak Ada Hasil";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ Berhenti Secara Tak Terduga";
+"LOCID Dont Send" = "Jangan Kirim";
+"LOCID Send Report" = "Kirim Laporan";
+"LOCID Would you like to send a report so we can fix the problem" = "Ingin mengirim laporan agar kami dapat memperbaiki masalah?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "beranda";
+"LOCID Timeline Contacts" = "kontak";
+"LOCID Timeline Meetings" = "rapat";
+"LOCID Timeline Search Placeholder" = "cari kontak";
+"LOCID Timeline Recent" = "terbaru";
+"LOCID Timeline Upcoming" = "mendatang";
+"LOCID Timeline TableView" = "garis waktu";
+"LOCID Timeline Meeting Time All Day" = "sepanjang hari";
+"LOCID Timeline Search Skype Contacts" = "kontak";
+"LOCID Timeline Search Phone Contacts" = "kontak telepon";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "kontak";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "tombol angka dan pesan suara";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "tombol angka, %ld pesan suara baru";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "tombol angka, %ld pesan suara baru";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "rapat";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "beranda";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "info saya";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, pesan baru, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "panggil";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "panggilan video";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "tandai sebagai dibaca";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "hapus";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "ikut rapat";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "tutup";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "izinkan masuk";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "online";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "sibuk";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "tidak di tempat";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "offline";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "jangan ganggu";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "kehadiran tidak diketahui";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "hapus teks";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "cari kontak";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "panggilan video";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "panggil";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Ikut rapat";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Obrolan kosong";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Gambar profil";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld pesan suara baru";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld pesan suara baru";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Malaikat";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Marah";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Bandit";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Sepak Bola";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Bir";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Tertawa";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Sepeda";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Merona";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Membungkuk";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Hati terluka";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Kue";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Telepon";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Kamera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Bisakah Anda bicara?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Mobil";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Uang";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Kucing";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Tepuk tangan";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Kopi";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Komputer";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Rahasia";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Keren";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Menangis";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Menari";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Setan";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Anjing";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Duh";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Minum";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Bosan";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Iri";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Iblis";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Tutup muka";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Jari menyilang";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Bunga";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Permainan";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Hadiah";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Terkikik";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Semoga beruntung";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Kabur";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Berjabat tangan";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Senang";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Membenturkan kepala ke dinding";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Hati";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Tupai";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Melambaikan tangan";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Tos";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Tahan";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Peluk";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Ide";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Jatuh cinta";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Pulau";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Bukan saya!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Cium";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Tidak mendengar";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Mari bertemu";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Mulutku terkunci";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Ada email masuk";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Dandan";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Pria";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Film";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Otot";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Musik";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Kutu buku";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Tidak";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Mengangguk";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Pesta";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telepon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Pesawat";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Muntah";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Pukul";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Hujan";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Pelangi";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Tertawa sambil berguling di lantai";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Sedih";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Geleng";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Mengantuk";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Senyum";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Menyeringai";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Siput";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Terdiam";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Bintang";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Berhenti";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Sinar matahari";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Terkejut";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Mengumpat";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Berkeringat";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Bicara";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Ngomong sama tangan";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Berpikir";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Waktu";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Terlalu banyak informasi";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Smiley lidah menjulur";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Semak berduri";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Payung";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Tunggu";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Menunggu";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Bekerja dari rumah";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Apa yang sedang terjadi";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Lega";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Berkedip";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Wanita";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Bertanya-tanya";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Khawatir";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Menguap";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Ya";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Ketik pesan di sini";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Sapa %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Sapa grup";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Percakapan Anda akan muncul di sini";
+"CHAT_FAILED_TO_SEND" = "Kami tidak dapat mengirim pesan ini: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Perlihatkan obrolan";
+"LOCID CONVERSATION_HIDE_CHAT" = "Sembunyikan obrolan";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Perlihatkan bilah samping";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Sembunyikan bilah samping";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "emotikon";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "h";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "h";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "j";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "j";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "mnt";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "mnt";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "d";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "d";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d pemberitahuan baru";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Satu pemberitahuan baru";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Tidak ada pemberitahuan baru";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "konferensi berakhir";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u peserta";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "tutup";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "buka";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "salin";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "tambahkan ke Daftar Baca";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "buka di Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "kembali";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "maju";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "batal";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ sedang mengetik...";
+"CHATTYPING_TWOUSERS" = "%@ dan %@ sedang mengetik...";
+"CHATTYPING_THREEUSERS" = "%@, %@, dan seorang lainnya sedang mengetik...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@, dan %d lainnya sedang mengetik...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "kirim email";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "lihat kartu kontak";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "peserta";
+"DROPDOWN_ADD_PARTICIPANTS" = "tambahkan peserta";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Masuk";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Keluar";
+
+"LOCID Meetings Page Title" = "Rapat";
+"LOCID No Meetings Placeholder" = "Rapat Anda akan muncul di sini";
+"LOCID Meetings Today" = "Hari Ini";
+"LOCID Meetings Tomorrow" = "Besok";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Tetapkan catatan pribadi";
+
+"PARTICIPANTS_VIEW_TITLE" = "Peserta";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Menunggu di Lobi";
+"PARTICIPANTS_VIEW_ON_CALL" = "Dalam pangilan ini";
+
+"MEETING_VIEW_TITLE" = "Rapat";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Ikut Rapat";
+"MEETING_VIEW_ORGANISER_LABEL" = "Penyelenggara";
+"MEETING_VIEW_INVITEES_LABEL" = "Undangan";
+"MEETING_VIEW_NOTES_LABEL" = "Catatan";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Menyambungkan...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Pilih emotikon";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Kirim pesan";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Panggilan Berakhir";
+"INVITE_PARTICIPANTS" = "Undang peserta";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Kembali";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Buku Alamat";
+"LOCID_PHONE_NUMBER" = "Nomor Telepon";
+"LOCID_MORE" = "Lainnya";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Beralih Video";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Perlihatkan Profil Kontak";
+"CHAT_OPTION_PARTICIPANTS" = "Peserta";
+"LOCID_CONTACTS_TABLE_VIEW" = "Tampilan Kontak";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Panggilan Masuk";
+"LOCID_MEETINGS_TABLE_VIEW" = "Tampilan Rapat";

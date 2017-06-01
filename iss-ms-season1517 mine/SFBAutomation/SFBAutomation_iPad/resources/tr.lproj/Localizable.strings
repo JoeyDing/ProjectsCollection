@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Yanıtla";
+"JOIN" = "Kabul et";
+"VIEW" = "Görüntüle";
+"IGNORE" = "Yoksay";
+"LAUNCH" = "Başlat";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "sizi konuşmaya davet ediyor";
+"NEW_IM_BURNT_TOAST" = "%@ ile konuşmayı kaçırdınız";
+"SIGN_IN" = "Oturum Aç";
+"SIGN_OUT" = "Etkinlik olmadığından oturumunuz kapatıldı.";
+"MWI" = "Yeni sesli mesaj iletisi: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Oturum açma adresi";
+"LOCID Password" = "Parola";
+"LOCID User Name" = "Kullanıcı Adı";
+"LOCID Domain" = "Etki Alanı";
+"LOCID Auto-Detect Server" = "Sunucuyu Oto. Algıla";
+"LOCID Sign-in As" = "Oturum Durumu";
+"LOCID User Name Footer" = "Skype Kurumsal Çevrimiçi kullanıcıları: kullanıcıadı@etkialanı.com\nDiğer tüm kullanıcılar: etkialanı\\kullanıcıadı";
+"LOCID Hide Details" = "Gelişmiş Seçenekleri Gizle";
+"LOCID More Details" = "Gelişmiş Seçenekleri Göster";
+"LOCID Save Password" = "Parolamı Kaydet";
+
+/* generic share button */
+"LOCID share" = "paylaş";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "İçeriden Bulunabilir Adres";
+"LOCID External Server Address" = "Dışardan Bulunabilir Adres";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Oturum açma hata bilgilerinizi bize göndererek Skype Kurumsal ürününü geliştirmemize yardımcı olun.";
+"LOCID Sign In BRB Reason 2" = "Bu ve daha sonra meydana gelebilecek oturum açma hataları hakkında bilgi toplayabilir miyiz? Bunu daha sonra Seçenekler'de değiştirebilirsiniz.";
+"LOCID BRBDonotshow" = "Bunu bir daha gösterme";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Oturum aç";
+"LOCID Sign Out" = "Oturumu Kapat";
+"LOCID Cancel Sign in" = "Oturum açmayı iptal et";
+"LOCID Lync Is Signing In" = "Skype Kurumsal oturumu açılıyor";
+"LOCID Lync Is Signing Out" = "Skype Kurumsal oturumu kapatılıyor";
+
+// Help
+"LOCID signin help" = "Oturum açma yardımı";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Bilgilerim";
+"LOCID Contacts" = "Kişiler";
+"LOCID Conversations" = "Sohbetler";
+"LOCID Meetings" = "Toplantı";
+"LOCID Phone" = "Telefon";
+"LOCID Signing In" = "Otu. açıl...";
+"LOCID Signed Out" = "Ot. kapndı";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Bugün gündemde neler var?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Kişisel not";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Kişisel notunuzu girin";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Düzenlemek için iki kez dokunun";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Bilinmiyor";
+"LOCID Available" = "Uygun";
+"LOCID Busy" = "Meşgul";
+"LOCID Busy Inactive" = "Meşgul Etkin Değil";
+"LOCID Do Not Disturb" = "Rahatsız Etmeyin";
+"LOCID Be Right Back" = "Hemen Dönecek";
+"LOCID Presence unknown" = "İletişim durumu bilinmiyor";
+"LOCID Off Work" = "Ofis Dışında";
+"LOCID Appear Away" = "Dışarıda Görün";
+"LOCID Away" = "Dışarıda";
+"LOCID Inactive" = "Etkin Değil";
+"LOCID Reset Status" = "Durumu Sıfırla";
+"LOCID Offline" = "Çevrimdışı";
+"LOCID Blocked" = "Engellendi";
+"LOCID Sign In As Header" = "Görüntülemek için bir durum seçin:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Telefonda";
+"LOCID In a Conference Call" = "Konferans aramasında";
+"LOCID Presenting" = "Sunu Yapıyor";
+"LOCID In a Meeting" = "Toplantıda";
+"LOCID Out of Office" = "İşyeri Dışında";
+"LOCID Urgent Interruptions Only" = "Yalnızca acil konular";
+"LOCID Out To Lunch" = "Öğle Yemeğinde";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype Kurumsal, iPhone kişilerinizi gösteremiyor. Bu sorunu iPhone ayarlarınızdan düzeltebilirsiniz.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype Kurumsal, iPad kişilerinizi gösteremiyor. Bu sorunu iPad ayarlarınızdan düzeltebilirsiniz.";
+"LOCID Other Contacts" = "Diğer Kişiler";
+"LOCID Pinned Contacts" = "Sık Görüşülenler";
+"LOCID Retrieving Members" = "Lütfen bekleyin...";
+"LOCID Cannot connect Try again" = "Şu anda grup üyelerini alamıyoruz. Daha sonra yeniden deneyin.";
+"LOCID Group is too large to display" = "Grup görüntülenemeyecek kadar büyük.";
+"LOCID No members" = "Üye yok";
+"LOCID Searching the company directory" = "Şirket dizini aranıyor...";
+"LOCID Please signin to search" = "Şirket dizinini aramak için lütfen oturum açın.";
+"LOCID Too many results" = "Çok fazla sonuç var; aramanızı daraltmayı deneyin.";
+"LOCID Unable to connect to the server" = "Şu anda sunucuya bağlanamıyoruz. Lütfen yeniden deneyin.";
+"LOCID E_SearchTooLong" = "Eşleşme bulamadık. Daha kısa bir arama deneyin.";
+"LOCID No Name" = "Adsız";
+"LOCID idle day" = "%d gün";
+"LOCID idle days" = "%d gün";
+"LOCID idle hour" = "%d saat";
+"LOCID idle hours" = "%d saat";
+"LOCID idle minutes" = "%d dakika";
+"LOCID inactive idle day" = "%d gün Etkin Değil";
+"LOCID inactive idle days" = "%d gün Etkin Değil";
+"LOCID inactive idle hour" = "%d saat Etkin Değil";
+"LOCID inactive idle hours" = "%d saat Etkin Değil";
+"LOCID inactive idle minutes" = "%d dakika Etkin Değil";
+"LOCID DG does not exist" = "Dağıtım grubu artık yok.";
+"LOCID Access to DG denied" = "Dağıtım grubuna erişim reddedildi";
+"LOCID No Contacts Placeholder" = "Kişileriniz burada görünür";
+"LOCID No Contacts" = "Kişi Yok";
+"LOCID You currently have no contacts" = "Şu an hiç kişiniz yok";
+"LOCID Retrieving Contacts..." = "Kişiler alınıyor...";
+"LOCID Expanded" = "Grup %@, Genişletilmiş";
+"LOCID Collapsed" = "Grup %@, Daraltılmış";
+"LOCID Group card- acc" = "Grup kartı";
+"LOCID Open group card - acc" = "Grup kartını açmak için dokunun";
+
+/* Contact Card*/
+"LOCID Loading name" = "Ad yükleniyor...";
+"LOCID Details" = "Kart";
+"LOCID Work" = "İş";
+"LOCID Home" = "Ev";
+"LOCID Mobile" = "Cep";
+"LOCID Other" = "Diğer";
+"LOCID other lowercase" = "diğer";
+"LOCID Office" = "İşyeri";
+"LOCID Company" = "Şirket";
+"LOCID Department" = "Departman";
+"LOCID Send Text Message" = "SMS Mesajı Gönder";
+"LOCID IM" = "anlık ileti";
+"LOCID E-Mail" = "E-posta";
+"LOCID unknown lowercase" = "bilinmiyor";
+"LOCID Location lowercase" = "konum";
+"LOCID Calendar" = "takvim";
+"LOCID Link" = "bağlantı";
+"LOCID Disabled" = "%@, Devre Dışı"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Not";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "ÜYELER"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Davet Et";
+"LOCID Transfer" = "Aktar";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype Kurumsal sizi yeniden yönlendirmeye çalışıyor:";
+"LOCID certIssuedBy" = "Veren:";
+"LOCID certSubject" = "Konu:";
+"LOCID certExpires" = "Süre Sonu:";
+"LOCID certSignature" = "İmza Algoritması:";
+"LOCID certDonotshow" = "Bunu bana bir daha gösterme.";
+"LOCID Continue" = "Devam";
+"LOCID certNone" = "Şifreleme yok";
+"LOCID certRSA" = "RSA şifrelemesi";
+"LOCID certDSA" = "DSA şifrelemesi";
+"LOCID certDH" = "DH şifrelemesi";
+"LOCID certEC" = "EC şifrelemesi";
+"LOCID certHMAC" = "HMAC şifrelemesi";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Konuşma";
+"LOCID Chats - Phone Call" = "Telefon Görüşmesi";
+"LOCID Chats - Video Call" = "Görüntülü Arama";
+"LOCID Chats - Meeting" = "Toplantı";
+"LOCID Chats - Missed Call" = "Cevapsız Arama";
+"LOCID Chats - Missed Video Call" = "Cevapsız Görüntülü Arama";
+"LOCID Chats - Current Call" = "Devam Eden Çağrı";
+"LOCID Chats - Current Call With Duration" = "Geçerli Çağrı, %@";
+"LOCID Phone Status - Connecting" = "Bağlanıyor...";
+"LOCID Phone Status - On Hold" = "Beklemede";
+"LOCID Phone Status - Transferring" = "Aktarılıyor";
+"LOCID Transferring to" = "%@ hedefine aktarılıyor...";
+"LOCID Chats Full" = "Bilgi: Bu liste dolu. Yeni konuşmalar eklendikçe en eski konuşmalar kaldırılacak.";
+"LOCID Close Conversation" = "Konuşmayı Sil";
+"LOCID View Participants List" = "Katılımcı Listesini Görüntüle";
+"LOCID Call Contact" = "Ara: %@";
+"LOCID Video Call Contact" = "Görüntülü Arama";
+"LOCID Video Conference Contact" = "Görüntülü Konferans";
+"LOCID Edit" = "Düzenle";
+"LOCID Deselect All" = "Tüm Seçimi Kaldır";
+"LOCID Select All" = "Tümünü Seç";
+"LOCID Me" = "Ben: %@";
+"LOCID Missed" = "Cevapsız: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Grup Konuşması";
+"LOCID Tap To Enter Text" = "Yazmak için dokunun";
+"LOCID No Conversations" = "Konuşma Yok";
+"LOCID No Conversations Hint" = "Şu an hiç konuşmanız yok";
+"LOCID Delete Count" = "Sil (%d)";
+"LOCID Delete None" = "Sil";
+"LOCID Escalating audio conference" = "Konferans araması başlatılıyor...";
+"LOCID Escalating video conference" = "Görüntülü konferans başlatılıyor...";
+"LOCID No Participants" = "Katılımcı Yok";
+"LOCID No Other Participants" = "Başka katılımcı yok";
+"LOCID One Participant" = "1 Katılımcı";
+"LOCID Some Participants" = "%d Katılımcı";
+"LOCID Max Participants" = "%d+ Katılımcı";
+"LOCID Large Meeting" = "Büyük Toplantı";
+"LOCID Toast No Invite" = "sizi konuşmaya davet ediyor";
+"LOCID Participant Join" = "%@ toplantıya katıldı";
+"LOCID Participant Leave" = "%@ toplantıdan çıktı";
+"LOCID Participant Join Failure" = "%@ toplantıya katılamadı";
+"LOCID Large Conference" = "Büyük Toplantı";
+"LOCID Large Conference Detail" = "Kalabalık toplantılar için katılımcı listesi yok.";
+"LOCID No Participants Detail" = "Bu konuşmada hiç katılımcı yok";
+"LOCID cannotSend" = "İletinizi gönderemedik:";
+"LOCID Missed Conversation" = "Cevapsız Konuşma";
+"LOCID Send as Email" = "E-posta Olarak Gönder";
+"LOCID Email Subject" = "%2$@ ile %1$@ konuşması";
+"LOCID Anonymous" = "Anonim";
+"LOCID Duration" = "Süre:";
+"LOCID Switch Camera" = "Kamerayı Değiştir";
+"LOCID Swap PIP" = "Resim İçinde Resmi Değiştir";
+"LOCID Leave Video" = "Görüntüden Ayrıl";
+"LOCID Start My Video" = "Görüntümü Başlat";
+"LOCID Stop My Video" = "Görüntümü Durdur";
+"LOCID End Video" = "Görüntüyü Sonlandır";
+"LOCID LargeMtgActiveSpeakerMissing" = "Büyük toplantılar için konuşmacı bilgileri mevcut değil.";
+"LOCID Swap Preview" = "Önizlemeyi Değiştir";
+"LOCID Speaker On" = "Hoparlör açık";
+"LOCID Speaker Off" = "Hoparlör kapalı";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Görüntü açıldı";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Görüntüyü kapatmak için iki kez dokunun.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Görüntü kapatıldı";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Görüntüyü açmak için iki kez dokunun.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Telefon hoparlörü açık";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Telefon hoparlörünü kapatmak için iki kez dokunun.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Telefon hoparlörü kapalı";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Telefon hoparlörünü açmak için iki kez dokunun.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Çağrı susturuldu";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Sesi açmak için iki kez dokunun.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Çağrı sesi açıldı";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Sessize almak için iki kez dokunun.";
+
+"LOCID Instant Messaging" = "Anlık İleti";
+"LOCID Voice" = "Ses";
+"LOCID Collaboration" = "İşbirliği";
+"LOCID Participants" = "Katılımcılar";
+"LOCID Full Screen" = "Tam Ekran";
+"LOCID Exit Full Screen" = "Tam Ekrandan Çık";
+"LOCID Local Participant Alone in Conference Msg" = "Aramadaki tek kişinin siz olduğunuz anlaşılıyor.";
+"LOCID 1 or more participants" = "1 veya daha fazla katılımcıya";
+"LOCID Call Started" = "Arama başlatıldı - %@";
+"LOCID Call Ended Missed" = "Arama sonlandırıldı - %@ [Yanıtsız]";
+"LOCID Call Ended Duration" = "Arama sonlandırıldı - %@ [Süre: %@]";
+"LOCID ConferenceEndedRejoin" = "Toplantı bağlantınız kesildi. Yeniden katılmak için aşağıya dokunun.";
+"LOCID ConferenceEndedContinue" = "Bu konuşma yeniden başlatıldığında, katılmış olan herkese yeni bir davet gönderilir.";
+"LOCID IM P2P Toast Voiceover" = "%@ sizi bir konuşmaya davet ediyor. Kabul etmek için iki kez dokunun.";
+"LOCID IM Conf Toast Voiceover" = "%@ sizi bir grup konuşmasına davet ediyor. Kabul etmek için iki kez dokunun.";
+"LOCID Video is Locked on you" = "Görüntüde kilitlendiniz.";
+
+"LOCID SFB Call Started" = "Çağrı başlatıldı";
+"LOCID SFB Call Ended" = "Çağrı sonlandırıldı";
+"LOCID SFB Call Ended Duration" = "Çağrı sonlandırıldı, %@";
+
+/* Roster*/
+"LOCID Presenters" = "SUNUCULAR (%d)";
+"LOCID Attendees" = "KATILIMCILAR (%d)";
+"LOCID In Lobby" = "LOBİ (%d)";
+"LOCID Guest" = "Konuk";
+"LOCID Remove" = "Kaldır";
+"LOCID E_RemoveFailed" = "Katılımcıyı kaldıramadık.";
+"LOCID E_AddFailed" = "Katılımcıyı ekleyemedik.";
+
+/*Lobby*/
+"LOCID Admit all" = "Tümünü kabul et";
+"LOCID Deny all" = "Tümünü reddet";
+"LOCID Admit" = "Kabul et";
+"LOCID Deny" = "Reddet";
+"LOCID See Lobby" = "Lobiye Bak";
+"LOCID Conference In the Lobby" = "Lobide bekleyen katılımcılarınız var.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Sunucu Yap";
+"LOCID Demote" = "Katılımcı Yap";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Cep";
+"LOCID Voice and IM Unavailable" = "Ses ve Anlık İleti Kullanılamıyor";
+"LOCID Voice Only" = "Yalnızca Ses";
+"LOCID Voice and Video Only" = "Yalnızca Ses ve Görüntü";
+"LOCID IM Only" = "Yalnızca Anlık İleti";
+"LOCID No Voice" = "Ses Yok";
+"LOCID Video capable" = "Görüntü özellikli";
+"LOCID No IM" = "Anlık İleti Yok";
+"LOCID Mobile Cap" = "Cep";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Tuş Takımı";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Ara";
+"LOCID Dialpad" = "Tuş takımı";
+"LOCID Dialpad STAR Key" = "Yıldız";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Kare"; // Used for accessibility
+"LOCID Delete Key" = "Sil";   // Used for accessibility
+"LOCID Emergency number" = "Acil durum numarası"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "gizle";
+"LOCID Dialpad Search Recent Calls" = "son çağrılar";
+"LOCID Dialpad Search Native Contacts" = "telefon kişileri";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Kişiler İle İlgili Sorun";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Kişilerinizden telefon numaralarına erişirken bir sorun oluştu. Sorunu çözmek için Ayarlar'dan posta hesaplarınızı eşitlemeyi deneyin.";
+
+/* My Status Tab */
+"LOCID Options" = "Ayarlar";
+"LOCID Send Feedback" = "Geribildirim İlet";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ - %2$@";
+"LOCID DateOfMeeting Format" = "%2$@ %1$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Başlangıç: %3$@ %2$@ %1$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "Bitiş: %2$@ %1$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "%1$@ ile %2$@ arasında"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Toplantı Yok";
+"LOCID All" = "Tümü";
+"LOCID No Meetings Scheduled" = "Planlanmış bir toplantınız yok";
+"LOCID None" = "Yok";
+"LOCID Organizer" = "Düzenleyici";
+"LOCID Invitees" = "DEVETLİLER";
+"LOCID Notes" = "NOTLAR";
+"LOCID Join" = "Katıl";
+"LOCID Updated DATE TIME" = "Güncelleştirme: %1$@ %2$@";
+"LOCID Online" = "Çevrimiçi";
+"LOCID Tentative" = "Belirsiz";
+"LOCID Event" = "Olay";
+"LOCID Updating..." = "Güncelleştiriliyor...";
+"LOCID Tentative Voiceover" = "%@, Belirsiz";
+"LOCID Pull to refresh" = "Yenilemek için çekin";
+"LOCID Today" = "BUGÜN"; // CAPS
+"LOCID Tomorrow" = "YARIN"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Düzenleyici değilseniz, katıldığınızda mikrofonunuzun sesi kapatılır.";
+"LOCID Lync Conferencing" = "Skype Toplantısı";
+"LOCID Joining Step 1" = "Bağlanıyor...";
+"LOCID Please wait to be admitted" = "Lütfen kabul edilmeyi bekleyin";
+"LOCID Join Conf Error" = "Toplantı bağlantısı kesildi.";
+"LOCID Anonymous Join" = "Anonim Katıl";
+"LOCID Enter your name" = "Adınızı girin";
+"LOCID Anonymous Join Greeting" = "Skype Kurumsal'a hoş geldiniz";
+"LOCID Sign in with Lync" = "Skype Kurumsal ile oturum aç";
+"LOCID Sign in as guest" = "Misafir olarak oturum aç";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "iPhone numaranız olmadan toplantıya bağlanamıyoruz. Lütfen Skype Kurumsal seçeneklerinden iPhone numaranızı ekleyin.";
+"LOCID Join Conf Error - No Number iPad" = "Telefon numaranız olmadan toplantıya bağlanamıyoruz. Lütfen Skype Kurumsal seçeneklerinden telefon numaranızı ekleyin.";
+"LOCID Join Meeting Line 1 Text" = "Toplantıya Katılıyor\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "%@ konumunda aranıyorsunuz...";
+"LOCID Join Meeting Line 2 - Lobby" = "Hoş geldiniz. Sanal lobimizdesiniz, keyfini çıkarın. Lütfen uygulamadan ayrılmayın—düzenleyici birazdan içeri girmeniz için size izin verecek.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Düzenleyici burada olmadığından veya yanıt vermediğinden, kabul edilmediniz.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Bağlantı kesildi. Tekrar denemek için Katıl'a dokunun.";
+"LOCID View" = "Görüntüle";
+"LOCID Join Meeting" = "Toplantıya Katıl";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Toplantıya katılım gerçekleştiriliyor";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Toplantı dolu olduğundan, sizi bağlayamıyoruz. Düzenleyiciye başvurmayı deneyin.";
+"LOCID AdmittedToLobby" = "Kabul edildiniz. Şimdi sizi arıyoruz...";
+"LOCID MtgDisclaimerAccept" = "Kabul et";
+"LOCID MtgDisclaimerDecline" = "Yoksay";
+"LOCID E_MeetingNotFound" = "Katılmaya çalıştığınız toplantı yok.";
+"LOCID E_MeetingsNotEnabled" = "Bu toplantı özelliği kuruluşunuz tarafından etkinleştirilmemiş.";
+"LOCID E_OutsideOrg" = "Bu kişi veya toplantı ağınızda izinlere sahip değil.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Aramalar ve Toplantılar";
+"LOCID credentialsSection" = "Kimlik Bilgilerim";
+"LOCID contactsSection" = "Kişiler";
+"LOCID accessibilitySection" = "Erişilebilirlik";
+"LOCID otherSection" = "Diğer";
+"LOCID Show Recent Contacts" = "En Son Kişiler";
+"LOCID Show Pinned Contacts" = "Sabitlenen Kişiler";
+"LOCID Show Photos" = "Fotoğraflar";
+"LOCID Sort by availability" = "Uygunluk durumuna göre sırala";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Günlük";
+"LOCID About" = "Hakkında";
+"LOCID About Version" = "Sürüm %@";
+"LOCID Status" = "Durum";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP Ara Sunucusu";
+"LOCID Require WiFi" = "Şunun için Wi-Fi gerektir";
+"LOCID WiFi VoIP" = "Ses";
+"LOCID WiFi Video" = "Görüntü";
+"LOCID WiFi Collab" = "Toplantı İçeriği";
+"LOCID WiFi Warning" = "Bu ayar kapalıyken, veri bağlantınız üzerinden arama alabilirsiniz (olası ücretler ve daha düşük kalite).";
+"LOCID WiFi Warning iPad" = "Kapalıyken, aramaları ve toplantı içeriğini veri bağlantınız üzerinden alabilirsiniz (ücret uygulanabilir ve kalite düşük olabilir).";
+"LOCID Not a SfB User" = "Bir Skype Kurumsal Kullanıcısı değil misiniz?";
+
+
+/* About View */
+"LOCID About Title" = "Hakkında";
+"LOCID version" = "Sürüm: %@";
+"LOCID Long Product Name" = "%1$@ için Skype® Kurumsal"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Tüm hakları saklıdır.";
+"LOCID online help" = "Yardım";
+"LOCID Terms Of Use" = "Kullanım Koşulları";
+"LOCID Privacy title" = "Gizlilik";
+"LOCID Third Party Notices" = "Üçüncü Taraf Bildirimler";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nPatent Bekleniyor";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Skype adı, ilgili ticari markalar ve logolar ve “S” logosu, Skype'ın ve ilişkili varlıklarının ticari markalarıdır.\n\nUyarı: Bu program telif hakkı yasalarıyla ve uluslararası anlaşmalar tarafından korunmaktadır. Bu programın veya bir bölümünün izinsiz olarak yeniden çoğaltılması veya dağıtılması ciddi para cezası ve cezai işlemlerle sonuçlanabilir ve yasalarca imkan tanınan azami sınırlar çerçevesinde kanuni yollara başvurulacaktır.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Çağrı yönlendirme";
+"LOCID Forward Section" = "Numara Seçin";
+"LOCID Apply Setting Section" = "Ayarları Uygula";
+"LOCID Summary Section" = "Geçerli ayarlarınız:";
+"LOCID Do Not Forward" = "İletme";
+"LOCID Forward Calls" = "Aramaları İlet";
+"LOCID Forward Calls To" = "Aramaları İlet";
+"LOCID Simultaneously Ring" = "Aynı Anda Çaldır";
+"LOCID On" = "Açık";
+"LOCID Off" = "Kapalı";
+"LOCID During Working Hours" = "Çalışma Saatlerinde";
+"LOCID Voicemail" = "Sesli mesaj";
+"LOCID Team Call" = "Ekip Arama Üyeleri";
+"LOCID Delegates" = "Temsilciler";
+"LOCID Pending Persons" = "Sizi Ekleyenler";
+"LOCID Delegate Target" = "temsilcileriniz";
+"LOCID TeamCall Target" = "ekip arama grubu üyeleriniz";
+"LOCID Voicemail Target" = "sesli mesajlarınız";
+"LOCID DoNotForward Summary" = "Aramalar işyeri numaranızı çaldırır ve iletilmez. VoIP mevcut değilken aramaları cep telefonunuzdan almazsınız.";
+"LOCID DoNotForward Summary iPad" = "Aramalar işyeri numaranızı çaldırır ve iletilmez. VoIP mevcut değilken aramaları iPad'inizden almazsınız.";
+"LOCID ForwardCalls Summary" = "Aramalar doğrudan şuraya iletilecek: %@. Bu cep numaranız değilse, aramaları cep telefonunuzdan almazsınız.";
+"LOCID ForwardCalls Summary iPad" = "Aramalar doğrudan şuraya iletilecek ve iPad'inizi çaldırmayacak: %@";
+"LOCID Simulring Summary" = "Aramalar hem işyeri, hem de %@ numaranızı çaldırır. Bu cep numaranız değilse, VoIP mevcut değilken aramaları cep telefonundan alırsınız.";
+"LOCID Simulring Summary iPad" = "Aramalar hem işyeri, hem de %@ numaranızı çaldırır. VoIP mevcut değilken aramaları iPad'inizden almazsınız.";
+"LOCID View Settings" = "Geçerli ayarlarınızı görüntüleyin";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Ayarları Uygula";
+"LOCID All the Time" = "Her Zaman";
+"LOCID During Outlook Working Hours" = "Outlook Çalışma Saatlerinde";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "İş";
+"LOCID Home Capitalized" = "Ev";
+"LOCID Mobile Capitalized" = "Cep";
+"LOCID Custom Capitalized" = "Özel";
+"LOCID Other Capitalized" = "Diğer";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "İptal";
+"LOCID Add" = "Ekle";
+"LOCID New Number" = "Yeni Numara";
+"LOCID New Contact" = "Yeni Kişi";
+"LOCID Contact" = "Kişi";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Oturum Günlüklerini Yükle";
+"LOCID SignInBRB - Always" = "Her Zaman";
+"LOCID SignInBRB - Never" = "Asla";
+"LOCID SignInBRB - Ask Me" = "Bana Sor";
+"LOCID Send Log Files" = "Günlük Dosyalarını Gönder";
+"LOCID Log Email Subject" = "Skype Kurumsal Günlük Dosyaları"; //product name
+"LOCID Device Model" = "Aygıt Modeli:";
+"LOCID Device OS Name" = "Aygıt İşletim Sistemi Adı:";
+"LOCID Device OS Version" = "Aygıt İşletim Sistemi Sürümü:";
+"LOCID Enable Logging" = "Günlüğü Etkinleştir";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Http Ara Sunucusu";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "HTTP Ara Sunucusu kurulumunuzu tamamlamak için lütfen %@ Wi-Fi ayarlarınızı kullanın.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Skype Kurumsal Kimlik Bilgisini Kullan";
+"LOCID Exchange Credentials Info" = "Skype Kurumsal, tüm toplantılarınızı ve sesli mesaj bilgilerinizi göstermek için Exchange kimlik bilgilerinize gerek duyuyor.";
+"LOCID Email Address" = "E-posta Adresi";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Cep Telefonu Numaram";
+"LOCID My Mobile Number Details" = "iPhone numaranızı ülke ve alan kodlarıyla birlikte girin:";
+"LOCID My Mobile Number Details iPad" = "Telefon numaranızı ülke ve alan kodlarıyla birlikte girin:";
+"LOCID My Mobile Number Footer" = "Bu özellik, iş aramaları yapmanızı ve almanızı, toplantılara Skype Kurumsal'dan katılmanızı sağlar.\n(VoIP kullanıyorsanız, VoIP kullanılabilir olmadığında bu yedeğiniz olur.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Bu özellik, toplantılara Skype Kurumsal'dan katılmanızı sağlar.\n(VoIP kullanıyorsanız, VoIP kullanılabilir olmadığında bu yedeğiniz olur.)";
+"LOCID iPhone Number" = "Telefon Numarası";
+
+/* Call Via Work */
+"LOCID Call via Work" = "İş Numarasından Arama";
+"LOCID Missing iPhone Number Error" = "Telefon Numarası Yok";
+"LOCID Missing iPhone Number Error Text" = "Bu arama tamamlanamıyor. Lütfen Seçenekler'de iPhone numaranızı girdikten sonra yeniden aramayı deneyin.";
+"LOCID Missing iPad Number Error Text" = "Bu arama tamamlanamıyor. Lütfen Seçenekler'de telefon numaranızı girdikten sonra yeniden aramayı deneyin.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Başlamadan Önce";
+"LOCID Main text" = "Bir Skype Toplantısına davet edilen herkes Skype Kurumsal mobil uygulamasını kullanabilir. Ancak uygulamanın tüm özelliklerinden yararlanmanız için bir Skype Kurumsal hesabınız olmalıdır.";
+"LOCID Understand" = "Tamam";
+
+/*Group Picker*/
+"LOCID More Options" = "Diğer Seçenekler";
+"LOCID Add Contact" = "Kişi Ekle";
+"LOCID Add to Group" = "Gruba Ekle";
+"LOCID Remove Contact" = "Kişiyi Sil";
+"LOCID Remove from Group" = "Gruptan Kaldır";
+"LOCID Groups" = "Gruplar";
+"LOCID E_AddContactFailureGeneral" = "Bu kişiyi şimdi ekleyemiyoruz. Lütfen daha sonra tekrar deneyin.";
+"LOCID E_AddContactFull" = "Bu gruba başka kişi ekleyemezsiniz.";
+"LOCID E_AddContactInGroup" = "Kişi zaten bu grupta var.";
+"LOCID E_RemoveContactFailureGeneral" = "Bu kişiyi şimdi kaldıramıyoruz. Lütfen daha sonra tekrar deneyin.";
+"LOCID Confirm Remove Contact" = "Bu işlem %@ adlı kişinin Kişiler listenizden kaldırılmasını sağlar.";
+"LOCID Ignore" = "Yoksay";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Daha Fazla Bilgi";
+"LOCID CEIP More Info" = "Microsoft'a anonim kullanım verileri göndererek Skype Kurumsal uygulamasının daha da iyi hale gelmesine yardımcı olun.";
+"LOCID ceipSectionTitle" = "Müşteri Deneyimi Geliştirme Programı";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Hoş geldiniz.";
+"LOCID Lets begin" = "Başlayalım...";
+
+/* First Run Experience */
+"LOCID Close" = "Kapat";
+"LOCID Change" = "Evet";
+"LOCID Don't change" = "Hayır";
+"LOCID Next" = "İleri";
+"LOCID Done" = "Bitti";
+"LOCID First Run First Step" = "Lync artık Skype Kurumsal; Microsoft'un kurumsal kalitesi Skype deneyimiyle birleşiyor.";
+"LOCID First Run Second Step" = "Herkes bu uygulamayı kullanarak Skype Toplantısına katılabilir, ancak tüm özellikleri kullanabilmek için Skype Kurumsal hesabına sahip olmanız ve kuruluşunuzun da bu uygulamayı etkinleştirmiş olması gerekir.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "ARAMA İLETME AYARLARI DEĞİŞTİRİLSİN Mİ?";
+"LOCID First Run CF Current Settings" = "Geçerli ayarlarınız:";
+"LOCID First Run CF Change Settings" = "Yeni Ayarlar:";
+"LOCID First Run Change Summary" = "İş aramalarını almak için telefon numaranızı girdiniz. Telefonunuzun çalması için geçerli arama iletme ayarlarınızı şimdi değiştirmemiz gerek.";
+"LOCID First Run Change Request" = "İş aramalarının sizi iş telefonunuz ve %@ numarasından aynı anda çaldırması için bunu değiştirebilir miyiz?";
+"LOCID DoNotForward Summary - First Run" = "Aramalar iş telefonunuzu çaldıracak ve başka telefon numaralarına iletilmeyecek.";
+"LOCID ForwardCalls Summary - First Run" = "Aramalar doğrudan %@ numarasına iletilecek.";
+"LOCID Simulring Summary - First Run" = "Aramalar sizi hem iş telefonunuzdan hem de %@ numarasından çaldıracak";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "İŞ ARAMALARINIZI ASLA KAÇIRMAYIN";
+"LOCID My Mobile Number Title 2" = "HİÇBİR TOPLANTIYI KAÇIRMAYIN";
+"LOCID My Mobile Number Details First Run" = "Ülke ve bölge kodları ile iPhone numaranız gerekli:";
+"LOCID My Mobile Number Details First Run_iPad" = "Ülke ve bölge kodları ile telefon numaranız gerekli:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "VERİ KULLANIMINI YÖNET";
+"LOCID Setup Work Calls Sub Text" = "Bu ayarlar, aramalar ve toplantılar için veri kullanımınızı ve olası ücretleri yönetir.";
+
+"LOCID Require Wifi for VoIP calls" = "VoIP aramaları için Wi-Fi gerektir";
+"LOCID Require Wifi for VoIP calls off subtext" = "Wi-Fi kullanılamıyorken, aramalar veri bağlantınızı kullanır.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Aramalar her zaman Wi-Fi üzerinden yapılır. Veri bağlantınızı asla kullanmayız.";
+
+"LOCID Require Wifi for Video calls" = "Görüntülü aramalar için Wi-Fi gerektir";
+"LOCID Require Wifi for Video calls off subtext" = "Wi-Fi kullanılamıyorken, görüntülü aramalar veri bağlantınızı kullanır. (Bu, oldukça fazla veri kullanımı anlamına gelebilir.)";
+"LOCID Require Wifi for Video calls on subtext" = "Görüntülü aramalar her zaman Wi-Fi üzerinden yapılır. Veri bağlantınızı asla kullanmayız.";
+
+"LOCID Require Wifi for meeting content" = "Toplantı içeriği için Wi-Fi iste";
+"LOCID Require Wifi for meeting content off subtext" = "Wi-Fi kullanılamıyorken, toplantı içeriğini almak için veri bağlantınızı kullanırız. (Bu, oldukça fazla veri kullanımı anlamına gelebilir.)";
+"LOCID Require Wifi for meeting content on subtext" = "Toplantı içeriğini almak için her zaman Wi-Fi kullanırız—asla veri bağlantınızı kullanmayız.";
+
+"LOCID Skip" = "Atla";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Skype Kurumsal'ı kullanmaya başla";
+
+"LOCID First Run Successful Setup" = "AYARLARINIZ YAPILDI!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "HOŞ GELDİNİZ!";
+"LOCID First Run Successful Setup Details" = "Ayarlar'dan dilediğiniz zaman değişiklik yapabilirsiniz.";
+
+"LOCID improve lync" = "Skype Kurumsal'ı geliştirmemize yardım edin";
+"LOCID whyphonenumber" = "Telefon numaranıza neden ihtiyacımız var?";
+"LOCID more detail" = "Daha fazla bilgi";
+
+"LOCID Emergency Call Disclaimer" = "Ayrıntılı bilgi:";
+"LOCID Emergency Call Disclaimer Details" = "Tüm aramalarda normal operatör ücretleri uygulanır.\n\nÖnemli: Acil arama yapmak için Skype Kurumsal uygulamasını kullanmayın.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Önemli";
+"LOCID Emergency Call Disclaimer Details iPad" = "Acil arama yapmak için Skype Kurumsal uygulamasını kullanmayın.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Anında İletme Bildirimleri";
+"LOCID Push Notification Legal1" = "Anında İletme Bildirimleri'nin kullanılmasını kabul etmeden önce, tüm Anında İletme Bildirimlerinin ve onlara ait içeriğin Apple Anında İletme Bildirimi Servisi ve Microsoft'un Anında İletme Bildirimi sistemi aracılığıyla gönderildiğine dikkat edin.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "%1$@ Bildirim Ayarları'nda Anında İletme Bildirimleri ayarlarınızı değiştirdiniz, ancak tüm bildirim içeriğinin tesliminin durdurulması için Skype Kurumsal uygulamasını yeniden başlatmanız gerekir.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Cepten Ara";
+"LOCID Call via Work Not Available Error" = "Çevrimdışı durumda olduğunuzdan Skype Kurumsal çağrısı yapamazsınız. Cep numaranızdan aramayı deneyin.";
+"LOCID Call via Work Not Available Error iPad" = "Çevrimdışı olduğunuz için Skype Kurumsal çağrısı yapamazsınız.";
+"LOCID Answer incoming call" = "Gelen aramayı yanıtla";
+"LOCID to connect you to... display name" = "bağlanacağınız yer...\n%@";
+
+"LOCID Call via Work Connecting" = "Bağlanıyor...\n Bir sonraki gelen aramayı yanıtlayın.";
+"LOCID Call via Work Connected" = "%1$@ numarasından katıldınız";
+"LOCID Video Disclaimer" = "Görüntü paylaşamayacak ve göremeyeceksiniz.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "%1$@ üzerinden katıldınız.";
+
+/* Errors */
+"LOCID Error" = "Hata";
+"LOCID E_GenericFailure" = "Skype Kurumsal'da bir hata oluştu. Lütfen yeniden deneyin. Sorun devam ederse destek ekibinize başvurun.";
+"LOCID E_GroupNotFound" = "Bu grubu bulamıyoruz.";
+"LOCID E_PermissionsForGroup" = "Bu grubu genişletme izniniz yok.";
+"LOCID E_ConnectionError" = "Sunucuya bağlanamıyoruz. Ağ bağlantınızı ve sunucu adresinizi doğrulayıp yeniden deneyin.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Sunucuya bağlanamıyoruz. 1) Kullanılamıyor olabilir. 2) Ağ bağlantınızı denetleyin. 3) Kuruluşunuz tarafından sağlanan Skype Kurumsal hesap bilgilerini kullandığınızdan emin olun. 4) Kullanıcı adınız oturum açma adınızdan farklı olabilir. Gelişmiş Seçenekler'e dokunun ve kullanıcı adınızı ya da etki alanı\\kullanıcı adınızı girin.";
+"LOCID E_AutoDiscoveryInBackground" = "Sunucu yapılandırmanız değişti. Lütfen Skype Kurumsal uygulamasını yeniden başlatın.";
+"LOCID E_SslError" = "Sunucu sertifikasını doğrulayamıyoruz. Lütfen destek ekibinize başvurun.";
+"LOCID E_SslCertExpiredError" = "Sunucu sertifikasını doğrulayamıyoruz. Lütfen destek ekibinize başvurun.";
+"LOCID E_ProxyAuthError" = "Oturumunuzu açamıyoruz. Lütfen %@ ayarlarından veya Skype Kurumsal seçeneklerinden HTTP ara sunucusu ayarlarınızı yapılandırın veya bağlanmak için 3G'yi kullanın.";
+"LOCID E_ConnectionTimeoutError" = "Sunucuya bağlanılamıyor. Meşgul veya geçici olarak kullanılamıyor olabilir. Lütfen yeniden deneyin.";
+"LOCID E_GenericApplicationError" = "Uygulamada bir hata var. Lütfen uygulamayı yeniden başlatın.";
+"LOCID E_AuthError" = "Oturumunuzu açamıyoruz. Lütfen hesap bilgilerinizi denetleyin ve yeniden deneyin.";
+"LOCID E_InvalidCredentials" = "Oturumunuzu açamıyoruz. Lütfen hesap bilgilerinizi denetleyin ve yeniden deneyin.";
+"LOCID E_InvalidSignInAddress" = "Oturum açılamıyor. Lütfen oturum açma adresinizi doğrulayın ve yeniden deneyin.";
+"LOCID E_InvalidLyncAccount" = "Bu, geçerli bir oturum açma bilgisi değil.  Kuruluşunuzun sağladığı Skype Kurumsal hesabı ile oturum açmanız gerek.";
+"LOCID E_WrongHomePool" = "Ayarlarınız sunucuya bağlanacak şekilde yapılandırılmamış. Lütfen destek ekibinize başvurun.";
+"LOCID E_ImSendError" = "Gönderilemedi:";
+"LOCID GenericRetryError" = "Sunucuya bağlanamıyoruz. Yeniden deneniyor...";
+"LOCID GenericError" = "Bir sunucu hatası oluştu. Lütfen yeniden deneyin.";
+"LOCID RequestFailed" = "İstek işlenemedi. Lütfen yeniden deneyin.";
+"LOCID DecodingError" = "Sunucu yanıtı işlenemedi. Lütfen yeniden deneyin. Sorun sürerse destek ekibinize başvurun.";
+"LOCID VersionMismatch" = "Bu Skype Kurumsal sürümüyle oturum açamazsınız. Lütfen daha yeni bir sürümü yükleyin. Bu işe yaramazsa destek ekibinize başvurun.";
+"LOCID SignInCredentialsAreNeeded" = "Oturumunuz kapatıldı. Oturumunuzu tekrar açmak için hesap bilgilerinize ihtiyacımız var.";
+"LOCID NeedLyncPassword" = "Oturumunuzu açmak için parolanıza ihtiyacımız var.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Sunucuya şu anda bağlanamıyoruz. Lütfen yeniden deneyin.";
+"LOCID E_HttpRequestTimeout" = "Sunucu geçici olarak kullanılamadığından oturum açılamıyor.";
+"LOCID E_CannotConnectToServer" = "Sunucuya bağlanılamıyor. Yeniden bağlantı kurulmaya çalışılıyor. Sorun devam ederse destek ekibinize başvurun.";
+"LOCID E_InvalidServerUrl" = "Sunucu adı hatalı. Lütfen denetleyin ve yeniden deneyin.";
+"LOCID E_NoValidIp" = "Ağa bağlanamıyoruz. Lütfen bağlantı ayarlarınızı denetleyin.";
+"LOCID E_MetaDataNotFound" = "Sunucuya ulaşılamıyor. Lütfen sunucunuzun adresini doğrulayın veya daha sonra yeniden deneyin.";
+"LOCID E_TimeSkewError" = "Aygıtınızın saatini sunucu ile eşitleyemiyoruz. Lütfen saat ayarlarınızı değiştirin veya destek ekibinize başvurun.";
+"LOCID E_MobilityDisabled" = "Ayarlarınız Skype Kurumsal kullanacak şekilde yapılmadığı için oturumunuzu açamıyoruz. Lütfen destek ekibinize başvurun.";
+"LOCID E_TooManyApplications" = "Oturumunuzu açamıyoruz. Çok fazla aygıtta zaten oturum açmış olduğunuz anlaşılıyor.";
+"LOCID E_UI_OutsideVoiceDisabled" = "İş Numarasından Arama kapalı. Bu kullanıcıya Skype Kurumsal çağrısı yapmak için seçeneklerden telefon numaranızı girin.";
+"LOCID E_UI_OfflineLyncCall" = "Bu kişiye Skype Kurumsal çağrısı yapmak için çevrimiçi ortamda olmanız veya mobil veri bağlantınızın olması gerekir.";
+"LOCID E_EwsError" = "Exchange'e bağlanamıyoruz. Lütfen daha sonra yeniden deneyin.";
+"LOCID E_EwsBadCredentials" = "Exchange oturum açma bilgileriniz geçerli değil. Exchange veya Skype Kurumsal kimlik bilgilerinizi güncellemeyi deneyin.";
+"LOCID W_Retrying" = "Sunucuya ulaşılamıyor, yeniden deneniyor...";
+"LOCID E_UI_CallViaCellError" = "Lütfen numarayı denetleyin ve yeniden deneyin.";
+"LOCID E_LiveIdPasswordExpired" = "Parolanızın süresi sona erdi. Lütfen güncelleştirip yeniden deneyin.";
+"LOCID E_LiveIdInvalidCredentails" = "Oturumunuzu açamıyoruz. Lütfen hesap bilgilerinizi denetleyin ve yeniden deneyin.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Parolanızın değiştirilmesi gerekiyor. Lütfen güncelleştirip yeniden deneyin.";
+"LOCID E_LiveIdPasswordLockedOut" = "Parolanızın değiştirilmesi gerekiyor. Lütfen güncelleştirip yeniden deneyin.";
+"LOCID E_LiveIdConnectionFailed" = "Sunucuya şu anda bağlanamıyoruz.  Lütfen yeniden deneyin.";
+"LOCID E_LiveIdServiceUnavailable" = "Sunucuya şu anda bağlanamıyoruz.  Lütfen yeniden deneyin.";
+"LOCID E_LiveIdGenericError" = "Oturumunuzu açamıyoruz. Lütfen yeniden deneyin.";
+"LOCID E_InvalidLiveIDUserNameError" = "Oturumunuzu açamıyoruz. Lütfen kullanıcı adınızın birisi@example.com biçiminde ve parolanızın geçerli olduğunu doğrulayın.";
+"LOCID E_InvalidSmtpAddress" = "Exchange'e bağlanamıyoruz.  Lütfen hesap bilgilerinizi denetleyin ve yeniden deneyin.";
+"LOCID E_LogoffUnsuccessful" = "Sunucu bağlantısı kesildiğinden Skype Kurumsal ile bağlantınızı kuramıyoruz.";
+"LOCID E_ClientVersionMismatch" = "Kuruluşunuz Skype Kurumsal uygulamasının bu sürümünü desteklemediği için oturumunuzu açamıyoruz. Lütfen mobil mağazadan Lync 2010'u yükleyin.";
+"LOCID E_ClientServerSchemaMisMatch" = "Bu Skype Kurumsal sürümüyle oturum açamazsınız. Lütfen daha yeni bir sürümü yükleyin. Bu işe yaramazsa destek ekibinize başvurun.";
+"LOCID E_ClientVersionCheck" = "Bu Skype Kurumsal sürümüyle oturum açamazsınız. Lütfen daha yeni bir sürümü yükleyin. Bu işe yaramazsa destek ekibinize başvurun.";
+"LOCID E_VersionMismatch" = "Bu Skype Kurumsal sürümüyle oturum açamazsınız. Lütfen daha yeni bir sürümü yükleyin. Bu işe yaramazsa destek ekibinize başvurun.";
+"LOCID E_AutoDConfigurationError" = "Oturumunuzu açamıyoruz. Lütfen destek ekibinize başvurun.";
+"LOCID E_AutoDPasswordExpiredError" = "Parolanızın süresi sona erdi. Lütfen güncelleştirip yeniden deneyin.";
+"LOCID E_InvalidProxySettingsError" = "Oturumunuzu açamıyoruz. Ara sunucu ayarları geçerli değil. Lütfen ara sunucu ayarlarını denetleyin ve yeniden deneyin.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Etkinlik olmaması nedeniyle oturumunuz kapatıldı.";
+"LOCID E_GeneralGoneError" = "Oturumunuzu açamıyoruz. Lütfen destek ekibinize başvurun.";
+"LOCID E_InternalServerError" = "Oturumunuzu açamıyoruz. Lütfen destek ekibinize başvurun.";
+"LOCID E_TooManyApps" = "Oturumunuzu açamıyoruz. Çok sayıda aygıtta zaten oturum açmış olduğunuz anlaşılıyor.";
+"LOCID E_ResponseUnkown" = "Sunucuya bağlanamıyoruz. Wi-Fi kullanıyorsanız, bağlı olup olmadığınızı görmek için tarayıcınızı açın. Kullanmıyorsanız, etkin nokta veya Internet paylaşımı bağlantılarınızı devre dışı bırakın. Sorun devam ederse ağ sağlayıcınıza başvurun.";
+"LOCID E_CannotLoadADFSPage" = "Oturumunuzu açamadık. Lütfen tekrar deneyin. Sorun devam ederse lütfen destek ekibinizle görüşün.";
+"LOCID E_UserNotSipEnabled" = "Ayarlarınız sunucuya bağlanacak şekilde yapılandırılmamış. Lütfen destek ekibinize başvurun.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Şu anda VoIP araması yapamazsınız. Cep numaranızdan aramayı deneyin.";
+"LOCID E_VoicePSTNCallActive" = "Şu anda VoIP araması yapamazsınız. İş numaranızdan aramayı deneyin.";
+"LOCID E_VoicePSTNCallActive - Button" = "İş Numarasından Arama";
+"LOCID E_VideoOverWiFiBlocked" = "Bu bir görüntülü arama davetiydi, ancak Wi-Fi bağlantınız olmadığından yalnızca sesli bağlantı gerçekleştirdik.";
+"LOCID E_HistoryNotDisplayed" = "Bu konuşmaya ait geçmiş gösterilemiyor.";
+"LOCID E_IMAcceptedElsewhere" = "Bu konuşmayı başka bir yerde kabul ettiniz. Konuşmayı yeniden başlatmak için yeni bir ileti gönderin.";
+"LOCID E_MuteFailed" = "Bir hata nedeniyle diğer kişiler sesinizin kapatıldığını göremiyor.";
+"LOCID E_UnmuteFailed" = "Bir hata nedeniyle sesiniz halen kapalı. Lütfen tekrar sesi açmayı deneyin.";
+"LOCID E_DgExpansionGenericFailure" = "Davet edilecek grup üyeleri alınamıyor. Daha sonra yeniden deneyin.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Grup davet edilemeyecek kadar büyük.";
+"LOCID E_DgExpansionNoMembersFailure" = "Grupta ayrı üyeler yok, bu nedenle davet edilemiyor.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ yok veya çevrimdışı olabilir.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ durumunu Rahatsız Etmeyin olarak ayarlamış.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ hizmet dışı. Lütfen numarayı denetleyin.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ başka bir görüşme yapıyor.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ yanıtlamadı.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ bu aramayı yanıtlayamıyor.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Bu çağrı siz çevrimdışı durumdayken tamamlanamaz. Lütfen çağrı yapmak için Skype Kurumsal uygulamasında oturum açmayı deneyin.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "İşlem başarısız oldu.";
+"LOCID E_VoiceGenericError" = "Arama tamamlanmadı veya sona erdi.";
+"LOCID E_VoiceFeatureNotEnabled" = "Arama özelliği devre dışı bırakılmış.";
+"LOCID E_VoiceCheckNumber" = "Lütfen numarayı denetleyin ve yeniden deneyin.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Arama tamamlanamadı. Lütfen daha sonra yeniden deneyin.";
+"LOCID E_VoiceCallUnsuccessful" = "Arama bağlanamıyor.";
+"LOCID E_VoiceCallTypeNotSupported" = "Arama başarısız. Bu arama türü desteklenmiyor.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Sunucu zaman aşımına uğradığı için bu ileti %@ üzerine gönderilmemiş olabilir:";
+
+"LOCID E_SharingAnotherOperation" = "Sizin için başka bir çözüm bulmaya çalışıyoruz. Bir süre bekleyin ve yeniden deneyin.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@, sunucu sorunu nedeniyle bu iletiyi almadı:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ çevrimdışı ve şu iletiyi almadı:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ Rahatsız Etmeyin durumunda ve bu iletiyi almadı:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "%@ bulunamadığı için bu iletiyi gönderemedik.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Engellenen içerik nedeniyle bu ileti gönderilemez:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "%@ ulaşılabilir olmadığı için bu iletiyi ona gönderemedik:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Aramanızı tamamlayamadık.";
+
+"LOCID E_ConfLocked" = "Kilitli olduğu için toplantıya katılamazsınız. Düzenleyiciye başvurun.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "%@ ile aranızda bir şifreleme uyuşmazlığı var. Destek ekibinize başvurun.";
+
+"LOCID E_ConferencingServerError" = "Bir sunucu hatası oluştu. Lütfen destek ekibinize başvurun.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ adlı kişiye ulaşılamıyor, çevrimdışı olabilir.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ Rahatsız Etmeyin durumunda ve ulaşılabilir değil.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ davete yanıt vermedi.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "%@ adlı kişiye ulaşamadık.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Ayarlarınız Skype Toplantılarına katılacak şekilde yapılmamış.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Uygulama oturumu açık değilken konferansa katılım gerçekleştirilemez.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ toplantıya katılamadı.";
+"LOCID E_ConferencingEnded" = "Katılmaya çalıştığınız toplantı mevcut değil.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "%@ ulaşılamıyor. Daha sonra yeniden deneyin.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "%@ bulunamıyor. Lütfen adresi denetleyin.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "%@ adlı kişiye ulaşamadık.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ davetinizi reddetti.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Bir sunucu toplantıyı sona erdirdi.";
+"LOCID E_ConferencingCallDisconnected" = "Aramanın bağlantısı kesildi.";
+"LOCID ConferenceUnexpectedDisconnect" = "Konferans bağlantınız kesildi.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Arama tamamlanmadı veya sona erdi.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Ağ meşgul olduğundan %@ toplantıya eklenemiyor.";
+
+"LOCID E_ConferencingCannotConnect" = "Arama tamamlanmadı veya sona erdi.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Bu tür çevrimiçi toplantıya katılamazsınız.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Toplantı dolu olduğundan %@ davet edilemiyor.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Toplantıya anonim katılımcı olarak katılamıyor.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Bir davetiye hatası nedeniyle toplantıya katılamıyor.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Toplantıya katılma izniniz yok.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Toplantıya katılımınızı gerçekleştiremedik. Lütfen tekrar deneyin.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Bu toplantıya kuruluşunuzun dışından katılamıyor.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Bu tür çevrimiçi toplantıya katılamıyor.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "%@ ulaşılamıyor.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Başka bir toplantı başlamakta olduğundan toplantı başlatamazsınız.";
+"LOCID E_ConferencingEncryptionIssues" = "Şifreleme sorunları nedeniyle Skype Toplantısını başlatamıyoruz.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Başka bir aygıttan katılmak veya başka bir aygıtı aramak için yeterli izniniz yok.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Arama tamamlanmadı veya sona erdi.";
+"LOCID E_ConferencingFull" = "Toplantı dolu.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Bu toplantıya katılma izniniz yok.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "%@ için gönderilen davetiyenin geçerliliği sona erdi.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Ev sahipleri ayrıldığından toplantı sona erdi.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Ağ meşgul olduğu için toplantıya katılamıyorsunuz.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Konu satırı çok uzun.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Bu toplantı özelliği kuruluşunuz tarafından etkinleştirilmedi.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Etkinlik olmadığından bu toplantı sona erdi.";
+"LOCID E_ConferencingCannotBeFound" = "Bu çevrimiçi toplantı bulunamıyor.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Bu toplantıya katılma izniniz yok.";
+"LOCID E_ConferencingUserNotAdmitted" = "Toplantıya kabul edilmediniz.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Toplantıdan çıkarıldınız.";
+"LOCID E_ConfGenericError" = "Toplantıya katılmanızı sağlayamadık. Lütfen yeniden deneyin.";
+"LOCID E_ConferenceDenied" = "Sunucu tarafından girişiniz reddedildi.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Zaten bir toplantıdasınız. O toplantıdan çıkıp bu toplantıya katılmak istiyor musunuz?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Sunucu, bu cihaz üzerinden anonim toplantı katılımını desteklemiyor.";
+"LOCID ConferenceVideoLock" = "Bir sunucu görüntü spotunu birisine kilitledi.";
+"LOCID ConferenceVideoUnlock" = "Bir sunucu görüntü spotunun kilidini açtı.";
+"LOCID ConferenceVideoSelfLock" = "Herkes görüntünüze kilitlendi.";
+"LOCID ConferenceVideoSelfUnlock" = "Artık kimse görüntünüze kilitlenmiş durumda değil.";
+
+"LOCID E_DomainNotTrusted" = "Sunucu bağlantısı kurulamıyor. Yeniden yönlendirme istemini kabul edin.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "Biçime izin verilmediğinden %@ şu iletiyi almadı:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "%@ tarafından kullanılan aygıt, iletileri alamıyor.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@, şu iletiyi çok büyük olduğu için almadı:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "İlke, teslimi kısıtladığından %@ şu iletiyi almadı:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "%@ ile başlatılmış olan konuşmanız nedeniyle—anlık iletinizi gönderemiyoruz.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Engellenen içerik nedeniyle bu ileti gönderilemez:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "%@ adlı kişiye anlık ileti gönderme yetkiniz yok. Bunu gönderemedik:";
+
+"LOCID E_IMConfGenericError" = "Bir veya daha fazla sayıda katılımcı bu iletiyi almadı:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ uygun değil.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "%@ oturumu kapattığından arama sona erdi.";
+
+"LOCID E_VoiceCallTimeout" = "Ağ sorunları nedeniyle arama tamamlanmadı. Lütfen yeniden deneyin.";
+"LOCID E_VoiceCallDisconnected" = "Üzgünüz, aramanın bağlantısı kesildi. Lütfen yeniden deneyin.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Arama tamamlanmadı veya sona erdi.";
+"LOCID E_VoiceCallNotCompleted" = "%@ arama alamıyor. Arama yapmak yerine anlık ileti veya e-posta göndermeyi deneyin.";
+"LOCID E_VoiceServerError" = "Sunucu hatası nedeniyle arama bağlanamıyor. Lütfen yeniden deneyin.";
+"LOCID E_VoiceCannotConnect" = "Çevrimiçi toplantıya bağlanılamıyor.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "%@ ile bağlantı kurulamıyor.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "%@ bulunamıyor.";
+
+"LOCID E_VoiceEncryptionIssues" = "Şifreleme sorunları nedeniyle Skype Toplantısını başlatamıyoruz.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Aradığınız kişi anlık iletiyle yanıt verdi.";
+"LOCID E_VoiceCannotCompleteCall" = "Arama çevrildiği şekliyle tamamlanamıyor.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Arama, bir sunucu sorunu nedeniyle tamamlanamıyor.";
+"LOCID E_VoiceServerCannotForwardCall" = "Sunucu aramayı iletemiyor. Lütfen yeniden deneyin.";
+"LOCID E_VoiceServerDidNotRespond" = "Sunucu yanıt vermiyor. Lütfen daha sonra yeniden deneyin.";
+"LOCID E_VoiceCannotPlaceCall" = "Arama yapılamıyor. Lütfen numarayı denetleyin ve yeniden deneyin.";
+"LOCID E_VoiceNumberNotSupported" = "Kuruluşunuz bu numaranın aranmasını desteklemiyor.";
+"LOCID E_IncomingPSTNCall" = "Aramanızı tamamlayamadık.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Aramalar ilke tarafından kısıtlandığı için %@ adlı kişiyi arayamazsınız.";
+
+"LOCID E_CallFailed" = "Aramanız bağlantı sorunları nedeniyle sona erdi. Lütfen tekrar deneyin.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Farklı bir istemciden katıldığınız için bağlantınız kesildi.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Toplantıdan çıkarıldınız.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Ağ meşgul olduğu için arama tamamlanamadı.";
+"LOCID E_VoiceNotSupported" = "%@ sesli aramaları kabul edemiyor.";
+"LOCID E_RepliedWIthOtherModality" = "Alıcı, anlık ileti ile yanıtlamayı seçti.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Konuşma geçmişi şu anda güncelleştirilemiyor ve eşitlenmemiş olabilir.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Konuşma geçmişi şu anda güncelleştirilemiyor ve eşitlenmemiş olabilir.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Çağrıları bu kişiye iletemiyoruz. Lütfen çağrıların iletilmesi için Skype Kurumsal kişilerinizden birini ya da bir telefon numarası girmek için \"Yeni Numara\"yı seçin.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY açık";
+"LOCID RemoteHoldSucceeded" = "Uzak kullanıcı sizi beklemeye aldı.";
+"LOCID RemoteUnholdSucceeded" = "Uzak devam ettirme başarılı";
+"LOCID LocalHoldSucceeded" = "Yerel bekletme başarılı";
+"LOCID LocalUnholdSucceeded" = "Yerel Devam Ettirme Başarılı";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Çağrıyı sürdür";
+"LOCID is recording" = "%@ kaydediyor";
+"LOCID Multiple Recording" = "Birisi kaydediyor";
+"LOCID OnHoldOutOfApp" = "%@ aramanız beklemede.";
+"LOCID OnStopOutOfApp" = "%@ aramanız sonlandırıldı.";
+"LOCID RecordingAlert" = "%@ bu aramayı kaydediyor.";
+"LOCID CoversationP2PIsRecording" = "%@ bu aramayı kaydediyor.";
+"LOCID CoversationP2PIsRecordingNoName" = "Bu arama kaydediliyor.";
+"LOCID CoversationConferenceIsRecording" = "Birisi bu toplantıyı kaydediyor.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Bu liste neredeyse dolu. Yeniler eklendikçe en eski konuşmalar kaldırılacak.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Bir sunucu dinleyicilerin sesini kapattı.";
+"LOCID Audience Unlock" = "Bir sunucu dinleyicilerin sesini açtı.";
+"LOCID Conference Mute" = "Bir sunucu sesinizi kapattı.";
+"LOCID Conference Unmute" = "Bir sunucu mikrofonunuzun sesini açmanızı istiyor.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Bir sunucu, katılımcıların görüntü göndermesini engelledi.";
+"LOCID PresenterBlockedVideo - Presenter" = "Bir sunucu, katılımcıların görüntü göndermesini engelledi. Bir sunucuysanız, kameranızı açabilir ve görüntünüzü paylaşabilirsiniz.";
+"LOCID PresenterBlockedVideo - Unblock" = "Bir sunucu, katılımcıların görüntü göndermesine yönelik engeli kaldırdı.";
+"LOCID VideoLockOnYou" = "Herkes görüntünüze kilitlendi.";
+"LOCID VideoLock" = "Bir sunucu görüntü spotunu birisine kilitledi.";
+"LOCID VideoNotLockOnYou" = "Artık kimse görüntünüze kilitlenmiş durumda değil.";
+"LOCID VideoSpotlightUnlocked" = "Bir sunucu görüntü spotunun kilidini açtı.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Geri";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "İş Numarasından Arama kullanılamıyor.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Sesli Mesaj Yok";
+"LOCID You currently have no voicemail messages" = "Hiç sesli mesajınız yok.";
+"LOCID Audio" = "Ses";
+"LOCID Speaker" = "Hoparlör";
+"LOCID Can not play locally" = "Bu iletiyi yürütemiyoruz. İletiyi dinlemek üzere bir arama almak için Yürüt'e dokunun.";
+"LOCID Play Voice Mail" = "Sesli Mesajı Dinlet";
+"LOCID PLAY_VOICEMAIL_HINT" = "Sesli Mesajı Yürütür";
+"LOCID Pause Voice Mail" = "Sesli Mesajı Duraklat";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Sesli Mesajı Duraklatır";
+"LOCID Play On Phone Error - No Number" = "Geri aranmak için Seçenekler'den telefon numaranızı girmeniz gerekiyor.";
+"LOCID Call Back" = "Geri Ara";
+"LOCID Delete" = "Sil";
+"LOCID More voicemails iPad" = "Eski sesli mesaj iletilerini dinlemek için sesli mesaj simgesine dokunun.";
+"LOCID More voicemails" = "Daha eski sesli mesajları dinlemek için tuş takımında 1'e dokunup bekleyin veya Outlook'a gidin.";
+"LOCID More voicemails No keypad" = "Daha eski sesli mesajları dinlemek için Outlook'a gidin.";
+"LOCID Can not play IRMed" = "Bu ileti yönetilen haklara sahip. İletiyi dinlemek üzere bir arama almak için Yürüt'e dokunun.";
+"LOCID Lync Call" = "Skype Kurumsal Çağrısı";
+"LOCID Can't play on phone" = "Bu iletiyi yürütemiyoruz. Lütfen ağ bağlantınızı denetleyin ve daha sonra tekrar deneyin.";
+"LOCID Yes" = "Evet";
+"LOCID No" = "Hayır";
+"LOCID VMCallerID" = "Sesli Mesaj";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Sesli mesajı normal hızda oynat";
+"LOCID VM Playback -2X Acc" = "Sesli mesajı normalin yarısı hızda oynat";
+"LOCID VM Playback 2X Acc" = "Sesli mesajı normalin iki katı hızda oynat";
+"LOCID Voicemail From" = "%@ kaynağından sesli mesaj";
+"LOCID No Voicemails Placeholder" = "Sesli mesajlarınız burada görünür";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Kapat";
+"LOCID Accept" = "Kabul et";
+"LOCID Not yet implemented feature" = "Bu özellik henüz uygulanmadı. Lütfen sonraki bir sürümde yeniden deneyin.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "1 yeni sesli mesajınız var";
+"LOCID Missed VMs" = "%d yeni sesli mesajınız var";
+"LOCID Missed Collab Out of App" = "Cevapsız işbirliği oturumu: %@";
+"LOCID Missed Video Call Out of App" = "Cevapsız görüntülü arama: %@";
+"LOCID Missed Audio Call Out of App" = "Cevapsız arama: %@";
+"LOCID Missed Message Out of App" = "Cevapsız anlık ileti: %@";
+"LOCID Missed Audio Conf Out of App" = "Cevapsız konferans araması: %@";
+
+"LOCID Audio Call Out of App" = "Arama: %@";
+"LOCID Conference Call Out of App" = "Konferans araması: %@";
+"LOCID Dismiss Call" = "Yoksay";
+"LOCID Answer Call" = "Kabul et";
+"LOCID Answer Call with Video" = "Görüntü";
+"LOCID Audio Call" = "Arama";
+"LOCID Conference Call" = "Konferans Araması";
+"LOCID Unknown Caller" = "Bilinmeyen Arayan";
+
+"LOCID Video conf accessibility" = "Görüntülü konferans: %@";
+"LOCID Video accessibility" = "Görüntülü arama: %@";
+"LOCID Audio conf accessibility" = "Konferans araması: %@";
+"LOCID Audio accessibility" = "Arama: %@";
+
+"LOCID Video Call Out of App" = "Görüntülü arama: %@";
+"LOCID Video Conference Call Out of App" = "Görüntülü konferans: %@";
+"LOCID Video Call" = "Görüntülü Arama";
+"LOCID Video Conference Call" = "Görüntülü Konferans";
+"LOCID Video Escalation Name" = "%@ görüntü paylaşıyor";
+"LOCID Video Escalation" = "görüntü paylaşıyor";
+"LOCID Video Escalation Conf" = "Birisi görüntü paylaşıyor";
+"LOCID VideoInvitationRejected" = "Aramanın görüntü bölümü kabul edilmedi.  Arama yalnızca sesli olarak devam edecek.";
+"LOCID E_VideoDecline" = "%@ görüntünüzü kabul etmedi.";
+"LOCID E_VideoGeneric" = "Görüntünüzü başlatamadık. Lütfen yeniden deneyin.";
+"LOCID E_VideoNotStarted" = "Görüntünüzü başlatamadık.";
+"LOCID E_VideoNotSupported" = "%@ görüntülü aramaları kabul edemiyor.";
+"LOCID E_VideoNotAccepted" = "Aramanın görüntü kısmı %@ tarafından kabul edilmedi. Arama yalnızca ses ile devam edecek.";
+
+"LOCID E_VoiceTransferGenericError" = "Arama aktarılamadı.";
+"LOCID E_VoiceTransferParticipantError" = "Alıcıya ulaşılamadığı için arama aktarılamadı.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "Sesi kapat";
+"LOCID Mute Capitalized" = "Sesi Kapat";
+"LOCID Unmute" = "Sesi aç";
+"LOCID keypad" = "Tuş Takımı";
+"LOCID add call" = "Arama ekle";
+"LOCID hold" = "Beklet";
+"LOCID End" = "Sonlandır";
+"LOCID Hide Keypad" = "Tuş Takımını Gizle";
+"LOCID Call Lync" = "Skype Kurumsal Çağrısı";
+"LOCID Call Work" = "İş Telefonu: %@";
+"LOCID Call Mobile" = "Cep Telefonu: %@";
+"LOCID Call Home" = "Ev Telefonu: %@";
+"LOCID Call Other" = "Diğer: %@";
+"LOCID Decline" = "Reddet";
+"LOCID Video Menu" = "Görüntü Menüsü";
+"LOCID Hold Call" = "Aramayı Beklet";
+"LOCID Hang Up" = "Kapat";
+"LOCID Dial Pad Only" = "Tuş Takımı";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u katılımcı - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u katılımcı - %@";
+"LOCID Call Status Connecting" = "Bağlanıyor...";
+"LOCID Call Status Connecting Remote" = "Bağlanıyor...";
+"LOCID Call Status Connected" = "Bağlandı";
+"LOCID Call Status On Hold - Passive" = "Beklet";
+"LOCID Call Status On Hold" = "Beklemede";
+"LOCID Call Status Ended" = "Arama Sonlandırıldı";
+"LOCID Call Status Transfering" = "Aktarılıyor";
+"LOCID On behalf of" = "%@ adına";
+"LOCID Call for" = "%@ için arama";
+"LOCID Call for - Astana" = "%@ için arama";
+"LOCID Transferred by" = "%@ tarafından aktarıldı";
+"LOCID Forwarded by" = "%@ tarafından iletildi";
+"LOCID Private call" = "Özel arama";
+"LOCID Also ringing" = "Ayrıca çaldırılıyor: %@";
+"LOCID Also ringing delegates" = "Ayrıca temsilcileriniz çaldırılıyor";
+"LOCID Will ring" = "%@ çaldırılacak";
+"LOCID Also ringing team call" = "Ayrıca ekibiniz çaldırılıyor";
+"LOCID The recipient" = "Alıcı";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Başlatılıyor ...";
+"LOCID DataCollab Connecting" = "Bağlanıyor ...";
+"LOCID DataCollab Loading" = "Yükleniyor...";
+"LOCID DataCollab No Content" = "Sunucular içeriği sunmayı durdurdu.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Sunucu bağlantı hatası nedeniyle veri paylaşım özelliği kullanılamıyor.";
+"LOCID DisconnectedOnConnectivityIssue" = "Sunucu bağlantı hatası nedeniyle bazı sunu özellikleri kullanılamıyor.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Başka bir istemciden katıldığınız için bağlantınız kesildi.";
+"LOCID DisconnectedOnNetworkFailure" = "Ağ sorunları sunuyu görmenizi engelliyor.";
+"LOCID DataCollab Known UnSupported" = "Sunucu, bu Skype Kurumsal sürümü tarafından desteklenmeyen bir özellik kullanıyor.";
+"LOCID DataCollab Generic UnSupported" = "Sunucu, bu Skype Kurumsal sürümü tarafından desteklenmeyen bir özellik kullanıyor veya daha eski bir sunucuya bağlanmış olabilir.";
+"LOCID DataCollab ContentPresenter" = "Sunucu: %@";
+"LOCID DataCollab NoPresenter" = "Kimse sunmuyor";
+"LOCID Collab Unsupported PPTContent" = "Ne yazık ki bu sunudaki medyayı yürütemiyoruz.";
+"LOCID Retry" = "Yeniden Dene";
+"LOCID DataCollab Generic PPT Error" = "Sunucu bağlantı hatası nedeniyle bazı sunu özellikleri kullanılamıyor.";
+"LOCID Start Viewing" = "Görüntülemeye Başla";
+"LOCID Stop Viewing" = "Görüntülemeyi Durdur";
+"LOCID Collab Escalation" = "%@ sunuya başlamak istiyor";
+"LOCID PowerPoint content Accessibility" = "PowerPoint içeriği";
+
+"LOCID SyncPresenterButton" = "Sunucu görünümüne eşitle";
+"LOCID NavigateBackButton" = "Bir slayt geri git";
+"LOCID NavigateForwardButton" = "Bir slayt ileri git";
+"LOCID SlideNumber" = "%1$d / %2$d";
+"LOCID SlideNumber Accessibility" = "Slayt %1$d / %2$d";
+
+"LOCID E_SharingDisabled" = "Sunu devre dışı bırakıldı.";
+"LOCID E_SharingNetworkIssues" = "Ağ sorunları nedeniyle sunamıyorsunuz. Lütfen daha sonra yeniden deneyin.";
+"LOCID E_SharingNotSupported" = "Bu kişi ile sunu desteklenmiyor.";
+"LOCID E_SharingTimeout" = "Sunucu meşgul olduğundan sunu başlatılamadı. Lütfen daha sonra yeniden deneyin.";
+"LOCID SharingAnotherType" = "Bir diğeri başlatıldığı için bu sunu sona erdi.";
+"LOCID E_GetMediaSdpFailed" = "Şu anda masaüstü veya program sunusu bağlantınızı kuramıyoruz.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Wi-Fi ağına bağlanmadığınız için sunulan içeriği göremiyorsunuz.";
+"LOCID 3G user requiring Wi-Fi" = "Wi-Fi'a bağlı olmadığınızdan Skype Kurumsal araması yapamazsınız.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Sunu, cihazınızda göremeyeceğiniz kadar büyük.";
+"LOCID E_CollabDisconnectedNetworkError" = "Ağ sorunları nedeniyle sunumla bağlantınız kesildi.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Başka bir istemciden katıldığınız için bağlantınız kesildi.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "İçerik paylaşma yükleniyor.";
+"LOCID AppSharing Shared Content" = "Paylaşılan içerik.";
+"LOCID AppSharing Desktop" = "Masaüstü";
+"LOCID AppSharing Application" = "Uygulama";
+"LOCID AppSharing SharingPaused" = "Paylaşım şu anda duraklatıldı."; // Not used
+"LOCID AppSharing SharingIdle" = "Paylaşım şu anda boş."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Tüm kaynaklar simge durumuna küçültüldü."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ ekran sunusu başlatmaya çalıştı, ancak uygulamanın bu sürümü, bunu yalnızca konferans aramalarında ve Skype Toplantılarında destekler.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Anlık İleti Başlat";
+"LOCID send IM" = "Gönder";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Konuşmayı Sonlandır";
+"LOCID View Contact Card" = "Kişi Kartını Görüntüle";
+"LOCID Invite Others" = "Başkalarını Davet Et";
+"LOCID Send Location action" = "Konumu Gönder";
+"LOCID Send as Email action" = "E-posta Olarak Gönder";
+"LOCID View Participants" = "Katılımcıları Görüntüle";
+"LOCID Rejoin" = "Yeniden Katıl";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Genişletmek için iki kez dokun";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Düşük arama kalitesi";
+"LOCID ACI Call Muted" = "Şu an sesi kapalı, açmak için çift dokunun";
+"LOCID ACI Call Unmuted" = "Şu an sesi açık, kapatmak için çift dokunun";
+
+/* Search results */
+"LOCID No Results" = "Sonuç Yok";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ Beklenmedik Biçimde Sonlandırıldı";
+"LOCID Dont Send" = "Gönderme";
+"LOCID Send Report" = "Raporu Gönder";
+"LOCID Would you like to send a report so we can fix the problem" = "Sorunu çözmemiz için bir rapor göndermek ister misiniz?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype Kurumsal";
+
+// Timeline
+"LOCID Timeline Home" = "giriş";
+"LOCID Timeline Contacts" = "kişiler";
+"LOCID Timeline Meetings" = "toplantılar";
+"LOCID Timeline Search Placeholder" = "kişi ara";
+"LOCID Timeline Recent" = "en son";
+"LOCID Timeline Upcoming" = "yakında";
+"LOCID Timeline TableView" = "zaman çizelgesi";
+"LOCID Timeline Meeting Time All Day" = "tüm gün";
+"LOCID Timeline Search Skype Contacts" = "kişiler";
+"LOCID Timeline Search Phone Contacts" = "telefon kişileri";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "kişiler";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "tuş takımı ve sesli mesaj";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "tuş takımı, %ld yeni sesli mesaj";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "tuş takımı, %ld yeni sesli mesaj";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "toplantılar";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "giriş";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "bilgilerim";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, yeni iletiler, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "ara";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "görüntü ara";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "okundu olarak işaretle";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "sil";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "toplantıya katıl";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "kapat";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "kabul et";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "uygun";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "meşgul";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "dışarıda";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "çevrimdışı";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "rahatsız etmeyin";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "iletişim durumu bilinmiyor";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "metni temizl";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "kişi ara";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "görüntülü çağrı";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "çağrı yap";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Toplantıya katıl";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Sohbet boş";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Profil resmi";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld yeni sesli mesaj";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld yeni sesli mesaj";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Sil";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Melek";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Kızgın";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Haydut";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Futbol";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Bira";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Kahkaha";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Bisiklet";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Utangaç";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Eğiliyor";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Kırık Kalp";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Pasta";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Çağrı";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Kamera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Konuşabilir misin?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Araba";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Para";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Kedi";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Alkış";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Kahve";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Bilgisayar";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Gizli bilgi";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Küstah";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Ağlayan yüz";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Dans";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Şeytan";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Köpek";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Doh";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "İçki";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Donuk";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Kıskanç";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Pis gülüş";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Mahcup";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Bol Şans";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Çiçek";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Oyunlar";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Hediye";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Kıkırdayan Yüz";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "İyi şanslar";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Gitmem gerek";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Tokalaşma";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Mutlu";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Kafayı duvara vuruyor";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Kalp";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Sincap";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Selamlıyor";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Çak bir beşlik";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Bekle";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Kucaklama";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Fikir";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Aşık";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Ada";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Ben Yapmadım!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Öpücük";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Dinlemiyor";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Tanışalım";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Ağzım Mühürlü";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Mesajınız var";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Makyaj";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Erkek";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Film";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Kas";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Müzik";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "İnek Öğrenci";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Hayır";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Peki";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Parti";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telefon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Uçak";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Kusuyorum";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Yumruk Atma";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Yağmur yağıyor";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Gökkuşağı";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Gülmekten Yerlere Yatıyor";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Üzgün";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Olmaz";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Uykulu";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Gülümse";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Sırıt";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Salyangoz";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Suskun";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Yıldız";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Dur";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Güneş ışığı";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Şaşırmış";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Küfret";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Terliyor";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Konuşan yüz";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Külahıma anlat";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Düşünceli";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Zaman";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Çok fazla bilgi";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Dilini çıkarmış gülümseme";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Garip Sessizlik";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Şemsiye";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Bekle";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Bekliyor";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Evden çalışma";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Neler oluyor";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Ucuz atlattık";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Göz kırpan yüz";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Kadın";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Meraklı";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Endişeli";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Esniyor";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Evet";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Buraya bir ileti yazın";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Merhaba %@ deyin";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Gruba merhaba deyin";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Konuşmalarınız burada görünür";
+"CHAT_FAILED_TO_SEND" = "Bu iletiyi göndermedik: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Sohbeti göster";
+"LOCID CONVERSATION_HIDE_CHAT" = "Sohbeti gizle";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Kenar çubuğunu göster";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Kenar çubuğunu gizle";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "ifadeler";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "g";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "g";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "s";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "s";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "dak.";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "dak.";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "sn";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "sn";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d yeni bildirim";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Bir yeni bildirim";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Yeni bildirim yok";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "konferans sonlandırıldı";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u katılımcı";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "kapat";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "Aç";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "Kopyala";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "Okuma Listesine ekle";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "Safari'de aç";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "geri";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "ileri";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "Tamam";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "iptal";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ yazıyor...";
+"CHATTYPING_TWOUSERS" = "%@ ve %@ yazıyor...";
+"CHATTYPING_THREEUSERS" = "%@, %@ ve bir kişi daha yazıyor...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ ve %d kişi daha yazıyor...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "e-posta gönder";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "kişi kartını görüntüle";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "katılımcılar";
+"DROPDOWN_ADD_PARTICIPANTS" = "katılımcı ekleyin";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Gelen";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Giden";
+
+"LOCID Meetings Page Title" = "Toplantı";
+"LOCID No Meetings Placeholder" = "Toplantılarınız burada görünür";
+"LOCID Meetings Today" = "Bugün";
+"LOCID Meetings Tomorrow" = "Yarın";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Kişisel notunuzu girin";
+
+"PARTICIPANTS_VIEW_TITLE" = "Katılımcılar";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Lobide bekleniyor";
+"PARTICIPANTS_VIEW_ON_CALL" = "Bu çağrıda";
+
+"MEETING_VIEW_TITLE" = "Toplantı";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Toplantıya Katıl";
+"MEETING_VIEW_ORGANISER_LABEL" = "Düzenleyici";
+"MEETING_VIEW_INVITEES_LABEL" = "Davetliler";
+"MEETING_VIEW_NOTES_LABEL" = "Notlar";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Click to join \"%@\" using Skype for Business:"; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Bağlanıyor...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Bir ifade seçin";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Mesaj gönder";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Arama Sonlandırıldı";
+"INVITE_PARTICIPANTS" = "Katılımcıları davet et";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Geri";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Geri al";
+"LOCID_ADDRESS_BOOK" = "Adres Defteri";
+"LOCID_PHONE_NUMBER" = "Telefon Numarası";
+"LOCID_MORE" = "Daha fazla";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Görüntüyü Aç/Kapat";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Kişi Profilini Göster";
+"CHAT_OPTION_PARTICIPANTS" = "Katılımcılar";
+"LOCID_CONTACTS_TABLE_VIEW" = "Kişiler Görünümü";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Gelen Çağrı";
+"LOCID_MEETINGS_TABLE_VIEW" = "Toplantılar Görünümü";

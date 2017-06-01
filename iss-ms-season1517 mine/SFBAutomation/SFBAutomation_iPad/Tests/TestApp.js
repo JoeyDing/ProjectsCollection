@@ -1,0 +1,12 @@
+var target = UIATarget.localTarget();
+UIALogger.logDebug("Get Target");
+var app = target.frontMostApp();
+UIALogger.logDebug("Get Application");
+var window = app.mainWindow();
+UIALogger.logDebug("Get Key Window");
+var btn = window.buttons()[0];
+//var btn = window.buttons().firstWithPredicate(“name beginswith ‘Show’”);
+UIALogger.logDebug("Get A Button");
+btn.tap();
+UIALogger.logDebug("Button Tap");
+target.delay(2);

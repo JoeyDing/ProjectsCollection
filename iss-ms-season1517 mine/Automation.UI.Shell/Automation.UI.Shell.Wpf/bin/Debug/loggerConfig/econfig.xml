@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<EmailSettings>
+  <EmailSetting>
+    <ApplicationName>SWX Automation</ApplicationName>
+    <EmailServer>smtphost.redmond.corp.microsoft.com</EmailServer>
+    <EmailTitle>SWX Automation Notification</EmailTitle>
+    <EmailFrom>v-haonli@microsoft.com</EmailFrom>
+    <EmailToList>
+      <EmailTo>v-almett@microsoft.com</EmailTo>
+    </EmailToList>
+    <EmailCcList>
+      <EmailCc>v-almett@microsoft.com</EmailCc>
+      <EmailCc>v-huangy@microsoft.com</EmailCc>
+      <EmailCc>v-haonli@microsoft.com</EmailCc>
+      <EmailCc>v-riraza@microsoft.com</EmailCc>
+      <EmailCc>v-joding@microsoft.com</EmailCc>
+      <EmailCc>v-ychenr@microsoft.com</EmailCc>
+    </EmailCcList>
+  </EmailSetting>
+</EmailSettings>

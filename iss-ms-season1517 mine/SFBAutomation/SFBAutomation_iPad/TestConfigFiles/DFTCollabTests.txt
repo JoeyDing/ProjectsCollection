@@ -1,0 +1,6 @@
+VerifySignInAutoConfigTest
+VerifyPPTPresenterName
+VerifySharedPPTName
+VerifyNonFullScreenViewPPTinBothOrientations
+VerifyImmersiveViewPPTinBothOrientations
+VerifySignOutTest

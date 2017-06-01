@@ -1,0 +1,12 @@
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\Automation.UI.Shell.TestStack.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\Automation.UI.Shell.TestStack.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\Automation.UI.Shell.Core.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\Castle.Core.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\TestStack.White.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\Automation.UI.Shell.Core.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\Castle.Core.xml
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\TestStack.White.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\bin\Debug\TestStack.White.xml
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\obj\Debug\Automation.UI.Shell.TestStack.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\obj\Debug\Automation.UI.Shell.TestStack.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.TestStack\obj\Debug\Automation.UI.Shell.TestStack.pdb

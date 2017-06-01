@@ -1,0 +1,4 @@
+<!-- Configure install options for Microsoft Office Professional Plus -->
+<Configuration Product="OMUI.de-DE">
+  <Display Level="none" CompletionNotice="no" SuppressModal="Yes" AcceptEula="Yes" />
+</Configuration>

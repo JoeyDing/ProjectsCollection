@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Відповісти";
+"JOIN" = "Прийняти";
+"VIEW" = "Переглянути";
+"IGNORE" = "Пропустити";
+"LAUNCH" = "Запустити";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "запрошує вас до розмови";
+"NEW_IM_BURNT_TOAST" = "Пропущено розмову з користувачем %@";
+"SIGN_IN" = "Увійти";
+"SIGN_OUT" = "Вас відключено через неактивність.";
+"MWI" = "Нових повідомлень голосової пошти: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Адреса для входу";
+"LOCID Password" = "Пароль";
+"LOCID User Name" = "Ім’я користувача";
+"LOCID Domain" = "Домен";
+"LOCID Auto-Detect Server" = "Автовизначення сервера";
+"LOCID Sign-in As" = "Увійти як";
+"LOCID User Name Footer" = "Користувачі Skype для бізнесу - онлайн: ім\\’я_користувача@домен.com\nУсі інші користувачі: домен\\ім\\’я_користувача";
+"LOCID Hide Details" = "Приховати додаткові параметри";
+"LOCID More Details" = "Відобразити додаткові параметри";
+"LOCID Save Password" = "Зберегти пароль";
+
+/* generic share button */
+"LOCID share" = "поділитися";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Вн. адреса знайдених повідомл.";
+"LOCID External Server Address" = "Зовн. адр. знайдених повідомл.";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Допоможіть нам покращити Skype для бізнесу, надіславши інформацію щодо помилки входу.";
+"LOCID Sign In BRB Reason 2" = "Дозвольте зібрати інформацію про цю та майбутні помилки входу. Ви можете в будь-який час змінити цей параметр у розділі \"Параметри\".";
+"LOCID BRBDonotshow" = "Більше не показувати";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Увійти";
+"LOCID Sign Out" = "Вийти";
+"LOCID Cancel Sign in" = "Скасувати вхід";
+"LOCID Lync Is Signing In" = "Skype для бізнесу виконує вхід";
+"LOCID Lync Is Signing Out" = "Skype для бізнесу виконує вихід";
+
+// Help
+"LOCID signin help" = "Довідка із входу";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Про мене";
+"LOCID Contacts" = "Контакти";
+"LOCID Conversations" = "Чати";
+"LOCID Meetings" = "Наради";
+"LOCID Phone" = "Телефон";
+"LOCID Signing In" = "Вхід...";
+"LOCID Signed Out" = "Вихід виконано";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Що відбувається сьогодні?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Особиста примітка";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Ввести особисту примітку";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Торкніться двічі для редагування";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Невідомо";
+"LOCID Available" = "Доступний";
+"LOCID Busy" = "Зайнятий";
+"LOCID Busy Inactive" = "Зайнятий (неактивний)";
+"LOCID Do Not Disturb" = "Не турбувати";
+"LOCID Be Right Back" = "Скоро буду";
+"LOCID Presence unknown" = "Немає даних про присутність";
+"LOCID Off Work" = "Не на роботі";
+"LOCID Appear Away" = "Повідомляти про відсутність";
+"LOCID Away" = "Відсутній";
+"LOCID Inactive" = "Неактивний";
+"LOCID Reset Status" = "Відновити попередній стан";
+"LOCID Offline" = "Офлайн";
+"LOCID Blocked" = "Заблокований";
+"LOCID Sign In As Header" = "Виберіть стан для відображення:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Розмовляє по телефону";
+"LOCID In a Conference Call" = "На телефонній конференції";
+"LOCID Presenting" = "На презентації";
+"LOCID In a Meeting" = "На нараді";
+"LOCID Out of Office" = "Не на роботі";
+"LOCID Urgent Interruptions Only" = "Турбувати лише за крайньої потреби";
+"LOCID Out To Lunch" = "Обідаю";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Програмі Skype для бізнесу не вдалося відобразити контакти iPhone. Ви можете виправити це у настройках iPhone.";
+"LOCID ContactsPermissionNotGiven iPad" = "Програмі Skype для бізнесу не вдалося відобразити контакти iPad. Ви можете виправити це у настройках iPad.";
+"LOCID Other Contacts" = "Інші контакти";
+"LOCID Pinned Contacts" = "Улюблені контакти";
+"LOCID Retrieving Members" = "Зачекайте...";
+"LOCID Cannot connect Try again" = "Не вдалося завантажити учасників групи. Повторіть спробу пізніше.";
+"LOCID Group is too large to display" = "Ця група завелика для відображення.";
+"LOCID No members" = "Учасників немає";
+"LOCID Searching the company directory" = "Триває пошук у каталозі компанії...";
+"LOCID Please signin to search" = "Увійдіть, щоб виконати пошук у каталозі компанії.";
+"LOCID Too many results" = "Забагато результатів. Спробуйте уточнити пошук.";
+"LOCID Unable to connect to the server" = "Зараз не вдається підключитися до сервера. Повторіть спробу.";
+"LOCID E_SearchTooLong" = "Збіги не знайдено. Введіть коротший пошуковий термін.";
+"LOCID No Name" = "Без імені";
+"LOCID idle day" = "%d день";
+"LOCID idle days" = "%d дн.";
+"LOCID idle hour" = "%d год.";
+"LOCID idle hours" = "%d год.";
+"LOCID idle minutes" = "%d хв.";
+"LOCID inactive idle day" = "Неактивний %d день";
+"LOCID inactive idle days" = "Неактивний %d дн.";
+"LOCID inactive idle hour" = "Неактивний %d год.";
+"LOCID inactive idle hours" = "Неактивний %d год.";
+"LOCID inactive idle minutes" = "Неактивний %d хв.";
+"LOCID DG does not exist" = "Група розсилки більше не існує.";
+"LOCID Access to DG denied" = "Доступ до групи розсилки закрито";
+"LOCID No Contacts Placeholder" = "Тут будуть відображатися ваші контакти";
+"LOCID No Contacts" = "Контактів немає";
+"LOCID You currently have no contacts" = "Зараз у вас немає контактів";
+"LOCID Retrieving Contacts..." = "Отримання контактів...";
+"LOCID Expanded" = "Група %@, розгорнуто";
+"LOCID Collapsed" = "Група %@, згорнуто";
+"LOCID Group card- acc" = "Картка групи";
+"LOCID Open group card - acc" = "Торкніться, щоб відкрити картку групи";
+
+/* Contact Card*/
+"LOCID Loading name" = "Завантаження імені...";
+"LOCID Details" = "Картка";
+"LOCID Work" = "Робочий";
+"LOCID Home" = "Домашній";
+"LOCID Mobile" = "Мобільний";
+"LOCID Other" = "Інший";
+"LOCID other lowercase" = "інший";
+"LOCID Office" = "Офіс";
+"LOCID Company" = "Компанія";
+"LOCID Department" = "Відділ";
+"LOCID Send Text Message" = "Надіслати текстове повідомлення";
+"LOCID IM" = "Миттєве повід.";
+"LOCID E-Mail" = "Ел. пошта";
+"LOCID unknown lowercase" = "невідомо";
+"LOCID Location lowercase" = "розташув.";
+"LOCID Calendar" = "календар";
+"LOCID Link" = "посилання";
+"LOCID Disabled" = "%@, вимкнуто"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Нотатка";
+"LOCID Video" = "Відеозв’язок";
+
+/* DG Card*/
+"LOCID Members" = "УЧАСНИКИ"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Запросити";
+"LOCID Transfer" = "Переадресувати";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype для бізнесу намагається переспрямувати вас до:";
+"LOCID certIssuedBy" = "Постачальник:";
+"LOCID certSubject" = "Тема:";
+"LOCID certExpires" = "Термін дії:";
+"LOCID certSignature" = "Алгоритм підпису:";
+"LOCID certDonotshow" = "Більше не показувати.";
+"LOCID Continue" = "Продовжити";
+"LOCID certNone" = "Без шифрування";
+"LOCID certRSA" = "Шифрування RSA";
+"LOCID certDSA" = "Шифрування DSA";
+"LOCID certDH" = "Шифрування DH";
+"LOCID certEC" = "Шифрування EC";
+"LOCID certHMAC" = "Шифрування HMAC";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Розмова";
+"LOCID Chats - Phone Call" = "Виклик";
+"LOCID Chats - Video Call" = "Відеовиклик";
+"LOCID Chats - Meeting" = "Нарада";
+"LOCID Chats - Missed Call" = "Пропущений виклик";
+"LOCID Chats - Missed Video Call" = "Пропущений відеовиклик";
+"LOCID Chats - Current Call" = "Поточний виклик";
+"LOCID Chats - Current Call With Duration" = "Поточний виклик, %@";
+"LOCID Phone Status - Connecting" = "Підключення...";
+"LOCID Phone Status - On Hold" = "Утримується";
+"LOCID Phone Status - Transferring" = "Переадресація";
+"LOCID Transferring to" = "Переадресація користувачеві %@...";
+"LOCID Chats Full" = "Увага! Цей список заповнено. Старі контакти буде видалено під час додавання нових.";
+"LOCID Close Conversation" = "Видалити розмову";
+"LOCID View Participants List" = "Переглянути список учасників";
+"LOCID Call Contact" = "Виклик %@";
+"LOCID Video Call Contact" = "Відеовиклик";
+"LOCID Video Conference Contact" = "Відеоконференція";
+"LOCID Edit" = "Редагувати";
+"LOCID Deselect All" = "Скасувати вибір";
+"LOCID Select All" = "Виділити все";
+"LOCID Me" = "Я: %@";
+"LOCID Missed" = "Пропущено: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Групова розмова";
+"LOCID Tap To Enter Text" = "Торкніться, щоб ввести";
+"LOCID No Conversations" = "Розмов немає";
+"LOCID No Conversations Hint" = "Зараз у вас немає розмов";
+"LOCID Delete Count" = "Видалити (%d)";
+"LOCID Delete None" = "Видалити";
+"LOCID Escalating audio conference" = "Початок телефонної конференції...";
+"LOCID Escalating video conference" = "Початок відеоконференції...";
+"LOCID No Participants" = "Учасників немає";
+"LOCID No Other Participants" = "Інших учасників немає";
+"LOCID One Participant" = "1 учасник";
+"LOCID Some Participants" = "Учасників: %d";
+"LOCID Max Participants" = "Учасників: більше %d";
+"LOCID Large Meeting" = "Велика нарада";
+"LOCID Toast No Invite" = "запрошує вас до розмови";
+"LOCID Participant Join" = "Користувач %@ приєднався до наради";
+"LOCID Participant Leave" = "Користувач %@ залишив нараду";
+"LOCID Participant Join Failure" = "Користувач %@ не зміг приєднатися до наради";
+"LOCID Large Conference" = "Велика нарада";
+"LOCID Large Conference Detail" = "Для великих нарад список учасників недоступний.";
+"LOCID No Participants Detail" = "У цій розмові немає учасників";
+"LOCID cannotSend" = "Не вдалося надіслати повідомлення:";
+"LOCID Missed Conversation" = "Пропущена розмова";
+"LOCID Send as Email" = "Надіслати поштою";
+"LOCID Email Subject" = "Розмова %1$@ із користувачем %2$@";
+"LOCID Anonymous" = "Анонімний";
+"LOCID Duration" = "Тривалість:";
+"LOCID Switch Camera" = "Переключити камеру";
+"LOCID Swap PIP" = "Переключити в режим поліекрана";
+"LOCID Leave Video" = "Залишити відео";
+"LOCID Start My Video" = "Запустити моє відео";
+"LOCID Stop My Video" = "Зупинити моє відео";
+"LOCID End Video" = "Завершити відео";
+"LOCID LargeMtgActiveSpeakerMissing" = "Інформація для динаміків недоступна для великих нарад.";
+"LOCID Swap Preview" = "Змінити попередній перегляд";
+"LOCID Speaker On" = "Гучний зв'язок увімкнено";
+"LOCID Speaker Off" = "Гучний зв'язок вимкнено";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Відео ввімкнено";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Торкніться двічі, щоб вимкнути відео.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Відео вимкнено";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Торкніться двічі, щоб увімкнути відео.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Пристрій гучного зв'язку ввімкнено";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Торкніться двічі, щоб вимкнути пристрій гучного зв'язку.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Пристрій гучного зв'язку вимкнено";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Торкніться двічі, щоб увімкнути пристрій гучного зв'язку.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Звук вимкнено";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Торкніться двічі, щоб увімкнути мікрофон.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Звук увімкнено";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Торкніться двічі, щоб вимкнути мікрофон.";
+
+"LOCID Instant Messaging" = "Обмін миттєвими повідомленнями";
+"LOCID Voice" = "Голосовий зв’язок";
+"LOCID Collaboration" = "Співпраця";
+"LOCID Participants" = "Учасники";
+"LOCID Full Screen" = "Повноекранний режим";
+"LOCID Exit Full Screen" = "Вийти з повноекранного режиму";
+"LOCID Local Participant Alone in Conference Msg" = "Ви – єдиний користувач у виклику.";
+"LOCID 1 or more participants" = "1 учасник або більше";
+"LOCID Call Started" = "Виклик розпочато - %@";
+"LOCID Call Ended Missed" = "Виклик завершено - %@ [Пропущені]";
+"LOCID Call Ended Duration" = "Виклик завершено - %@ [Тривалість: %@]";
+"LOCID ConferenceEndedRejoin" = "Втрачено підключення до наради. Торкніться нижче, щоб приєднатися знову.";
+"LOCID ConferenceEndedContinue" = "Якщо знову розпочати цю розмову, кожен, хто брав у ній участь, отримає нове запрошення.";
+"LOCID IM P2P Toast Voiceover" = "Користувач %@ запрошує вас до розмови. Торкніться двічі, щоб прийняти запрошення.";
+"LOCID IM Conf Toast Voiceover" = "Користувач %@ запрошує вас до групового чату. Торкніться двічі, щоб прийняти запрошення.";
+"LOCID Video is Locked on you" = "Відео зафіксовано на вас.";
+
+"LOCID SFB Call Started" = "Виклик розпочато";
+"LOCID SFB Call Ended" = "Виклик завершено";
+"LOCID SFB Call Ended Duration" = "Виклик завершено, %@";
+
+/* Roster*/
+"LOCID Presenters" = "ДОПОВІДАЧІ (%d)";
+"LOCID Attendees" = "УЧАСНИКИ (%d)";
+"LOCID In Lobby" = "ФОЙЄ (%d)";
+"LOCID Guest" = "Гість";
+"LOCID Remove" = "Видалити";
+"LOCID E_RemoveFailed" = "Не вдалося видалити учасника.";
+"LOCID E_AddFailed" = "Не вдалося додати учасника.";
+
+/*Lobby*/
+"LOCID Admit all" = "Допустити всіх";
+"LOCID Deny all" = "Відмовити всім";
+"LOCID Admit" = "Допустити";
+"LOCID Deny" = "Відмовити";
+"LOCID See Lobby" = "Оглянути фойє";
+"LOCID Conference In the Lobby" = "У фойє присутні учасники, що очікують на участь.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Призначити доповідачем";
+"LOCID Demote" = "Призначити слухачем";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Мобільний";
+"LOCID Voice and IM Unavailable" = "Голосові та миттєві повідомлення недоступні";
+"LOCID Voice Only" = "Лише голосові повідомлення";
+"LOCID Voice and Video Only" = "Лише голосові та відеоповідомлення";
+"LOCID IM Only" = "Лише миттєві повідомлення";
+"LOCID No Voice" = "Немає голосових повідомлень";
+"LOCID Video capable" = "Є веб-камера";
+"LOCID No IM" = "Немає миттєвих повідомлень";
+"LOCID Mobile Cap" = "Мобільний";
+"LOCID txt-txt" = "%1$@ – %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ – %2$@ – %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Клавіатура";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "";
+"LOCID Dialpad" = "Цифрова панель";
+"LOCID Dialpad STAR Key" = "Зірочка";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Решітка"; // Used for accessibility
+"LOCID Delete Key" = "Видалити";   // Used for accessibility
+"LOCID Emergency number" = "Номер екстреного виклику"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "приховати";
+"LOCID Dialpad Search Recent Calls" = "нещодавні дзвінки";
+"LOCID Dialpad Search Native Contacts" = "контакти з телефонної книги";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Помилка обробки контактів";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Сталася помилка доступу до телефонних номерів зі списку контактів. Щоб виправити це, в розділі \"Настройки\" спробуйте повторно синхронізувати свої облікові записи електронної пошти.";
+
+/* My Status Tab */
+"LOCID Options" = "Настройки";
+"LOCID Send Feedback" = "Відгук";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ – %2$@";
+"LOCID DateOfMeeting Format" = "%1$@, %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "З %1$@ %3$@ (%2$@)"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "до %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "з %1$@ до %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Нарад немає";
+"LOCID All" = "Усі";
+"LOCID No Meetings Scheduled" = "Запланованих нарад немає";
+"LOCID None" = "Немає";
+"LOCID Organizer" = "Організатор";
+"LOCID Invitees" = "ЗАПРОШЕНІ";
+"LOCID Notes" = "ПРИМІТКИ";
+"LOCID Join" = "Приєднатися";
+"LOCID Updated DATE TIME" = "Оновлено: %1$@ о %2$@";
+"LOCID Online" = "Онлайн";
+"LOCID Tentative" = "Під сумнівом";
+"LOCID Event" = "Подія";
+"LOCID Updating..." = "Триває оновлення...";
+"LOCID Tentative Voiceover" = "%@, під сумнівом";
+"LOCID Pull to refresh" = "Потягніть, щоб оновити";
+"LOCID Today" = "СЬОГОДНІ"; // CAPS
+"LOCID Tomorrow" = "ЗАВТРА"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Якщо ви не організатор, ваш мікрофон буде вимкнуто, коли будете приєднуватися.";
+"LOCID Lync Conferencing" = "Нарада Skype";
+"LOCID Joining Step 1" = "Підключення...";
+"LOCID Please wait to be admitted" = "Дочекайтесь отримання допуску";
+"LOCID Join Conf Error" = "Підключення до наради втрачено.";
+"LOCID Anonymous Join" = "Анонімне приєднання";
+"LOCID Enter your name" = "Введіть ім’я";
+"LOCID Anonymous Join Greeting" = "Вітаємо у Skype для бізнесу";
+"LOCID Sign in with Lync" = "Увійти в програму Skype для бізнесу";
+"LOCID Sign in as guest" = "Увійти як гість";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Нам не вдалося підключитися до наради без вашого номера iPhone. Додайте свій номер iPhone у параметрах Skype для бізнесу.";
+"LOCID Join Conf Error - No Number iPad" = "Нам не вдалося підключитися до наради без вашого номера телефону. Додайте свій номер телефону в параметрах Skype для бізнесу.";
+"LOCID Join Meeting Line 1 Text" = "Приєднання до наради \n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Виклик на %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Вітаємо! Наразі ви перебуваєте у віртуальному фойє наради, отож влаштовуйтеся зручніше. Не виходьте із застосунку. Незабаром організатор приєднає вас до наради.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Вас не допущено, тому що організатор не на місці або не відповів.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Підключення втрачено. Торкніться кнопки \"Приєднатися\", щоб повторити спробу.";
+"LOCID View" = "Переглянути";
+"LOCID Join Meeting" = "Приєднатися до наради";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Приєднання до наради";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Не вдалося підключитися, тому що нарада заповнена. Зверніться до організатора.";
+"LOCID AdmittedToLobby" = "Вас допущено. Зараз ми телефонуємо вам...";
+"LOCID MtgDisclaimerAccept" = "Прийняти";
+"LOCID MtgDisclaimerDecline" = "Ігнорувати";
+"LOCID E_MeetingNotFound" = "Нарада, до якої ви намагаєтеся приєднатися, не існує.";
+"LOCID E_MeetingsNotEnabled" = "У вашій організації не активовано функцію проведення нарад.";
+"LOCID E_OutsideOrg" = "Цей користувач або нарада не мають дозволів на використання вашої мережі.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Виклики та наради";
+"LOCID credentialsSection" = "Мої облікові дані";
+"LOCID contactsSection" = "Контакти";
+"LOCID accessibilitySection" = "Спеціальні можливості";
+"LOCID otherSection" = "Інший";
+"LOCID Show Recent Contacts" = "Останні контакти";
+"LOCID Show Pinned Contacts" = "Закріплені контакти";
+"LOCID Show Photos" = "Фотографії";
+"LOCID Sort by availability" = "Сортувати за доступністю";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Журналювання";
+"LOCID About" = "Про прогр.";
+"LOCID About Version" = "Версія: %@";
+"LOCID Status" = "Стан";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "Проксі-сервер HTTP";
+"LOCID Require WiFi" = "Мережа Wi-Fi потрібна:";
+"LOCID WiFi VoIP" = "Голосовий зв’язок";
+"LOCID WiFi Video" = "Відеозв’язок";
+"LOCID WiFi Collab" = "Вміст наради";
+"LOCID WiFi Warning" = "В автономному режимі можна отримувати виклики через стільникову мережу (можливі додаткові витрати та нижча якість).";
+"LOCID WiFi Warning iPad" = "Перебуваючи поза мережею, ви можете отримувати виклики та вміст наради за допомогою інформаційного з’єднання (можлива тарифікація та нижча якість).";
+"LOCID Not a SfB User" = "Ви ще не користуєтеся програмою Skype для бізнесу?";
+
+
+/* About View */
+"LOCID About Title" = "Про прогр.";
+"LOCID version" = "Версія: %@";
+"LOCID Long Product Name" = "Skype® для бізнесу для %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ Корпорація Майкрософт (Microsoft Corporation), 2015."; // copyright symbol
+"LOCID all rights reserved" = "Усі права захищені.";
+"LOCID online help" = "Довідка";
+"LOCID Terms Of Use" = "Умови використання";
+"LOCID Privacy title" = "Конфіденційність";
+"LOCID Third Party Notices" = "Повідомлення третіх сторін";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype і корпорація Майкрософт\n Заявки на патент подані";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Назва Skype, пов'язані торгові марки та логотипи, у тому числі логотип \\\"S\\\", є торговими марками Skype або пов'язаних компаній.\n\nУвага! Ця програма захищена законом про авторське право та міжнародними угодами. Несанкціоноване відтворення або розповсюдження цієї програми або будь-якої її частини передбачає серйозну кримінальну або адміністративну відповідальність і буде каратися максимально можливою мірою відповідно до законодавства.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Переадресація викликів";
+"LOCID Forward Section" = "Вибір ном.";
+"LOCID Apply Setting Section" = "Застосовувати настройки";
+"LOCID Summary Section" = "Поточні настройки:";
+"LOCID Do Not Forward" = "Не перенаправляти";
+"LOCID Forward Calls" = "Перенапр. виклики";
+"LOCID Forward Calls To" = "Перенаправляти виклики до";
+"LOCID Simultaneously Ring" = "Одночасно дзвонити";
+"LOCID On" = "Ув.";
+"LOCID Off" = "Вим.";
+"LOCID During Working Hours" = "У робочий час";
+"LOCID Voicemail" = "Голосова пошта";
+"LOCID Team Call" = "Учасники командного виклику";
+"LOCID Delegates" = "Представники";
+"LOCID Pending Persons" = "Додані";
+"LOCID Delegate Target" = "ваші представники";
+"LOCID TeamCall Target" = "учасники вашого групового виклику";
+"LOCID Voicemail Target" = "ваша голосова пошта";
+"LOCID DoNotForward Summary" = "Виклики надходитимуть на ваш робочий телефон і не будуть перенаправлені. Ви не отримуватимете виклики на мобільний телефон, коли протокол VoIP недоступний.";
+"LOCID DoNotForward Summary iPad" = "Виклики будуть надходити на ваш робочий телефон і не будуть перенаправлені. Ви не отримуватимете виклики на iPad, коли протокол VoIP недоступний.";
+"LOCID ForwardCalls Summary" = "Виклики відразу перенаправлятимуться сюди: %@. Якщо це не номер вашого мобільного телефону, ви не будете отримувати на нього виклики.";
+"LOCID ForwardCalls Summary iPad" = "Виклики відразу перенаправлятимуться сюди: %@, і ви не отримуватимете їх на свій iPad.";
+"LOCID Simulring Summary" = "Виклики будуть надходити на робочий телефон і сюди: %@. Якщо це номер вашого мобільного телефону, ви отримуватимете на нього виклики, коли протокол VoIP недоступний.";
+"LOCID Simulring Summary iPad" = "Виклики будуть надходити на робочий телефон і сюди: %@. Ви не отримуватимете виклики на iPad, коли протокол VoIP недоступний.";
+"LOCID View Settings" = "Переглянути поточні настройки";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Застосовувати настройки";
+"LOCID All the Time" = "Завжди";
+"LOCID During Outlook Working Hours" = "У робочий час Outlook";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Робочий";
+"LOCID Home Capitalized" = "Домашній";
+"LOCID Mobile Capitalized" = "Мобільний";
+"LOCID Custom Capitalized" = "Настроюваний";
+"LOCID Other Capitalized" = "Інший";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Скасувати";
+"LOCID Add" = "Додати";
+"LOCID New Number" = "Додати номер";
+"LOCID New Contact" = "Додати контакт";
+"LOCID Contact" = "Контакт";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Передавати журнали входу";
+"LOCID SignInBRB - Always" = "Завжди";
+"LOCID SignInBRB - Never" = "Ніколи";
+"LOCID SignInBRB - Ask Me" = "Запитувати мене";
+"LOCID Send Log Files" = "Надіслати файли журналів";
+"LOCID Log Email Subject" = "Файли журналу Skype для бізнесу"; //product name
+"LOCID Device Model" = "Модель пристрою:";
+"LOCID Device OS Name" = "Ім’я ОС пристрою:";
+"LOCID Device OS Version" = "Версія ОС пристрою:";
+"LOCID Enable Logging" = "Увімкнути журналювання";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Проксі-сервер HTTP";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Щоб завершити настроювання проксі-сервера HTTP, використайте настройки %@ для Wi-Fi.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Використовувати облікові дані Skype для бізнесу";
+"LOCID Exchange Credentials Info" = "Skype для бізнесу потрібні ваші облікові дані з Exchange для відображення інформації про всі наради та голосову пошту.";
+"LOCID Email Address" = "Адреса електронної пошти";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Мій мобільний";
+"LOCID My Mobile Number Details" = "Введіть номер свого пристрою iPhone із кодом країни та регіону:";
+"LOCID My Mobile Number Details iPad" = "Введіть номер свого телефону з кодом країни та регіону:";
+"LOCID My Mobile Number Footer" = "Це дасть вам змогу здійснювати та отримувати виклики з робочого номера, а також приєднуватися до нарад у Skype для бізнесу.\n(Це резервний спосіб, якщо протокол VoIP, що використовується, наразі недоступний.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Це дасть вам змогу здійснювати та отримувати виклики з робочого номера, а також приєднуватися до нарад у Skype для бізнесу.\n(Це резервний спосіб, якщо протокол VoIP, що використовується, наразі недоступний.)";
+"LOCID iPhone Number" = "Номер телефону";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Виклик із робочого телефону";
+"LOCID Missing iPhone Number Error" = "Пропущений номер телефону";
+"LOCID Missing iPhone Number Error Text" = "Не вдалося здійснити виклик. Введіть номер свого пристрою iPhone у розділі \"Параметри\" та повторіть виклик.";
+"LOCID Missing iPad Number Error Text" = "Не вдалося здійснити виклик. Введіть номер свого телефону в розділі \"Параметри\" та повторіть виклик.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Перш ніж почати";
+"LOCID Main text" = "Усі користувачі, запрошені до Наради Skype, можуть використовувати мобільну версію Skype для бізнесу. Проте повна функціональність програми доступна лише з обліковим записом Skype для бізнесу.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "Інші параметри";
+"LOCID Add Contact" = "Додати контакт";
+"LOCID Add to Group" = "Додати до групи";
+"LOCID Remove Contact" = "Видалити контакт";
+"LOCID Remove from Group" = "Видалити із групи";
+"LOCID Groups" = "Групи";
+"LOCID E_AddContactFailureGeneral" = "Не вдалося додати цей контакт зараз. Повторіть спробу пізніше.";
+"LOCID E_AddContactFull" = "До цієї групи більше не можна додати контакти.";
+"LOCID E_AddContactInGroup" = "Контакт уже є в цій групі.";
+"LOCID E_RemoveContactFailureGeneral" = "Не вдалося видалити цей контакт зараз. Повторіть спробу пізніше.";
+"LOCID Confirm Remove Contact" = "Контакт %@ буде видалено зі списку контактів.";
+"LOCID Ignore" = "Ігнорувати";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Додаткові відомості";
+"LOCID CEIP More Info" = "Надішліть до корпорації Майкрософт анонімне повідомлення про використання даних, аби сприяти покращенню роботи Skype для бізнесу.";
+"LOCID ceipSectionTitle" = "Програма підвищення якості програмного забезпечення";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Вітаємо!";
+"LOCID Lets begin" = "Приступимо до роботи...";
+
+/* First Run Experience */
+"LOCID Close" = "Закрити";
+"LOCID Change" = "Так";
+"LOCID Don't change" = "Ні";
+"LOCID Next" = "Далі";
+"LOCID Done" = "Готово";
+"LOCID First Run First Step" = "Lync став Skype для бізнесу. Ми об'єднали функції Skype із професійним підходом Microsoft.";
+"LOCID First Run Second Step" = "Щоб приєднатися до наради Skype, достатньо скористатися цією програмою. Усі інші функції доступні за створення облікового запису Skype для бізнесу після активації програми.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "ЗМІНИТИ НАСТРОЙКИ ПЕРЕНАПРАВЛЕННЯ ВИКЛИКІВ?";
+"LOCID First Run CF Current Settings" = "Поточні настройки:";
+"LOCID First Run CF Change Settings" = "Нові настройки";
+"LOCID First Run Change Summary" = "Ви вказали номер робочого телефону для отримання робочих викликів. Щоб ви могли отримувати виклики, потрібно змінити поточні настройки перенаправлення.";
+"LOCID First Run Change Request" = "Настроїти одночасне отримання робочих викликів на робочий телефон і на номер %@?";
+"LOCID DoNotForward Summary - First Run" = "Виклики надходитимуть на робочий телефон, і їх не буде перенаправлено на інші номери телефонів.";
+"LOCID ForwardCalls Summary - First Run" = "Виклики буде перенаправлено відразу на номер %@.";
+"LOCID Simulring Summary - First Run" = "Виклики надходитимуть на робочий телефон і на номер %@.";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "НЕ ПРОПУСТІТЬ ЖОДНОГО ВИКЛИКУ ПО РОБОТІ";
+"LOCID My Mobile Number Title 2" = "НЕ ПРОПУСТІТЬ ЖОДНОЇ НАРАДИ";
+"LOCID My Mobile Number Details First Run" = "У наведене нижче поле введіть номер свого телефону iPhone разом із кодами країни та регіону:";
+"LOCID My Mobile Number Details First Run_iPad" = "Введіть номер свого телефону разом із кодами країни та регіону:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "КЕРУВАННЯ ВИКОРИСТАННЯМ ДАНИХ";
+"LOCID Setup Work Calls Sub Text" = "Ці настройки керують використанням даних і можливими витратами на виклики та наради.";
+
+"LOCID Require Wifi for VoIP calls" = "Для викликів VoIP потрібна мережа Wi-Fi";
+"LOCID Require Wifi for VoIP calls off subtext" = "За відсутності підключення до мережі Wi-Fi виклики надходитимуть через інформаційне з’єднання.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Виклики завжди надходитимуть через підключення до мережі Wi-Fi. Інформаційне з’єднання не використовуватиметься.";
+
+"LOCID Require Wifi for Video calls" = "Для відеовикликів потрібна мережа Wi-Fi";
+"LOCID Require Wifi for Video calls off subtext" = "За відсутності підключення до мережі Wi-Fi відеовиклики надходитимуть через інформаційне з’єднання (йдеться про великий обсяг даних).";
+"LOCID Require Wifi for Video calls on subtext" = "Відеовиклики завжди надходитимуть через підключення до мережі Wi-Fi. Інформаційне з’єднання не використовуватиметься.";
+
+"LOCID Require Wifi for meeting content" = "Для вмісту наради потрібна мережа Wi-Fi";
+"LOCID Require Wifi for meeting content off subtext" = "За наявності підключення до мережі Wi-Fi ми використовуватимемо інформаційне з’єднання, щоб отримати вміст наради (йдеться про великий обсяг даних).";
+"LOCID Require Wifi for meeting content on subtext" = "Щоб отримати вміст наради, ми використовуватимемо підключення до мережі Wi-Fi. Інформаційне з’єднання не використовуватиметься.";
+
+"LOCID Skip" = "Пропустити";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Почніть використовувати Skype для бізнесу";
+
+"LOCID First Run Successful Setup" = "НАСТРОЮВАННЯ ЗАВЕРШЕНО";
+"LOCID First Run Successful Setup WiFi only_iPad" = "ВІТАЄМО";
+"LOCID First Run Successful Setup Details" = "Змінити параметри можна в будь-який час у меню \"Настройки\".";
+
+"LOCID improve lync" = "Допоможіть покращити роботу програми Skype для бізнесу";
+"LOCID whyphonenumber" = "Ось навіщо нам потрібен ваш номер телефону";
+"LOCID more detail" = "Докладно";
+
+"LOCID Emergency Call Disclaimer" = "Деталі";
+"LOCID Emergency Call Disclaimer Details" = "Зазвичай плата за зв'язок застосовується до всіх викликів.\n\nУвага! Не використовуйте програму Skype для бізнесу для здійснення екстрених викликів.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Увага!";
+"LOCID Emergency Call Disclaimer Details iPad" = "Не використовуйте програму Skype для бізнесу для здійснення екстрених викликів.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Push-сповіщення";
+"LOCID Push Notification Legal1" = "Перш ніж погодитися на використання push-сповіщень, знайте, що всі push-сповіщення та їхній вміст надсилаються через службу push-сповіщень Apple і систему push-сповіщень Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Ви змінили настройки push-сповіщень у розділі \\\"Настройки сповіщень\\\" %1$@, але вам потрібно ще раз запустити Skype для бізнесу, щоб зупинити доставку всього вмісту сповіщень.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "OK";
+"LOCID Call via Work Not Available Error" = "Не вдалося здійснити виклик Skype для бізнесу, тому що ви не підключені до мережі. Спробуйте здійснити виклик із мобільного телефону.";
+"LOCID Call via Work Not Available Error iPad" = "Ви не можете здійснити виклик у програмі Skype для бізнесу, тому що ви не підключені до мережі.";
+"LOCID Answer incoming call" = "Відповісти на вхідний виклик";
+"LOCID to connect you to... display name" = "щоб підключитися до...\n%@";
+
+"LOCID Call via Work Connecting" = "Підключення...\n Прийміть наступний вхідний виклик.";
+"LOCID Call via Work Connected" = "Ви приєдналися з номера %1$@";
+"LOCID Video Disclaimer" = "Ви не зможете переглядати відео та ділитися ним.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Ви приєдналися з номера %1$@.";
+
+/* Errors */
+"LOCID Error" = "Помилка";
+"LOCID E_GenericFailure" = "У програмі Skype для бізнесу виникла помилка. Повторіть спробу. Якщо проблема не зникне, зверніться до служби підтримки.";
+"LOCID E_GroupNotFound" = "Не вдалося знайти потрібну групу.";
+"LOCID E_PermissionsForGroup" = "У вас немає дозволу на розширення цієї групи.";
+"LOCID E_ConnectionError" = "Не вдалося підключитися до сервера. Перевірте підключення до мережі та адресу сервера й повторіть спробу.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Не вдалося підключитися до сервера. 1) Можливо, він недоступний. 2) Перевірте підключення до мережі. 3) Переконайтеся, що ви використовуєте обліковий запис Skype для бізнесу, наданий вашою організацією. 4) Ваше ім’я користувача може відрізнятися від вашого імені для входу. Торкніться елемента \"Додаткові параметри\" та введіть ім'я користувача або домен\\ім'я_користувача.";
+"LOCID E_AutoDiscoveryInBackground" = "Конфігурація вашого сервера змінилася. Перезапустіть програму Skype для бізнесу.";
+"LOCID E_SslError" = "Не вдалося перевірити сертифікат із сервера. Зверніться до команди підтримки.";
+"LOCID E_SslCertExpiredError" = "Не вдалося перевірити сертифікат із сервера. Зверніться до команди підтримки.";
+"LOCID E_ProxyAuthError" = "Не вдалося виконати вхід. Налаштуйте параметри проксі-сервера HTTP у настройках %@ програми Skype для бізнесу, або скористайтеся для підключення модемом 3G.";
+"LOCID E_ConnectionTimeoutError" = "Не вдалося підключитися до сервера. Можливо, він зайнятий або тимчасово недоступний. Повторіть спробу.";
+"LOCID E_GenericApplicationError" = "У програмі сталася помилка. Перезавантажте програму.";
+"LOCID E_AuthError" = "Не вдалося виконати вхід. Перевірте інформацію свого облікового запису та повторіть спробу.";
+"LOCID E_InvalidCredentials" = "Не вдалося виконати вхід. Перевірте інформацію свого облікового запису та повторіть спробу.";
+"LOCID E_InvalidSignInAddress" = "Не вдалось увійти. Перевірте адресу для входу та повторіть спробу.";
+"LOCID E_InvalidLyncAccount" = "Відомості для входу недійсні.  Вхід потрібно виконувати за допомогою облікового запису Skype для бізнесу, наданого вашою організацією.";
+"LOCID E_WrongHomePool" = "Підключення до цього сервера не настроєно. Зверніться до команди підтримки.";
+"LOCID E_ImSendError" = "Не вдалося надіслати:";
+"LOCID GenericRetryError" = "Не вдалося підключитися до сервера. Повторення спроби...";
+"LOCID GenericError" = "Сталася помилка сервера. Повторіть спробу.";
+"LOCID RequestFailed" = "Не вдалось обробити запит. Повторіть спробу.";
+"LOCID DecodingError" = "Не вдалось обробити відповідь сервера. Повторіть спробу. Якщо проблема не зникне, зверніться до команди підтримки.";
+"LOCID VersionMismatch" = "Не вдалося виконати вхід до цієї версії програми Skype для бізнесу. Встановіть новішу версію. Якщо це не допоможе, зверніться до служби підтримки.";
+"LOCID SignInCredentialsAreNeeded" = "Ви вийшли. Щоб увійти знову, потрібні відомості облікового запису.";
+"LOCID NeedLyncPassword" = "Щоб увійти, укажіть свій пароль.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Зараз не вдається підключитися до сервера. Повторіть спробу.";
+"LOCID E_HttpRequestTimeout" = "Не вдалось увійти, тому що сервер тимчасово недоступний.";
+"LOCID E_CannotConnectToServer" = "Неможливо підключитися до сервера. Спроба повторного підключення. Якщо проблема виникне знову, зверніться до команди технічної підтримки.";
+"LOCID E_InvalidServerUrl" = "Введено неправильне ім’я сервера. Перевірте його та повторіть спробу.";
+"LOCID E_NoValidIp" = "Не вдалося підключитися до мережі. Перевірте настройки підключення.";
+"LOCID E_MetaDataNotFound" = "Не вдалося підключитися до сервера. Перевірте адресу сервера або повторіть спробу пізніше.";
+"LOCID E_TimeSkewError" = "Не вдалося синхронізувати годинник пристрою із сервером. Змініть настройки часу або зверніться до команди підтримки.";
+"LOCID E_MobilityDisabled" = "Не вдалося виконати вхід, тому що програма Skype для бізнесу не налаштована. Зв'яжіться зі службою підтримки.";
+"LOCID E_TooManyApplications" = "Не вдалося виконати вхід, тому що ви вже здійснили його із завеликої кількості пристроїв.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Виклики з робочого телефону вимкнуто. Введіть свій номер телефону у параметрах, щоб подзвонити цій людині за допомогою Skype для бізнесу.";
+"LOCID E_UI_OfflineLyncCall" = "Щоб подзвонити цій людині у Skype для бізнесу, необхідно підключитися до мережі або мати мобільне підключення.";
+"LOCID E_EwsError" = "Не вдалося підключитися до сервера Exchange. Повторіть спробу пізніше.";
+"LOCID E_EwsBadCredentials" = "Облікові дані для входу у службу Exchange недійсні. Спробуйте оновити службу Exchange або облікові дані Skype для бізнесу.";
+"LOCID W_Retrying" = "Не вдалося підключитися до сервера. Триває повторна спроба...";
+"LOCID E_UI_CallViaCellError" = "Перевірте номер і повторіть спробу.";
+"LOCID E_LiveIdPasswordExpired" = "Термін дії пароля завершився. Оновіть його та повторіть спробу.";
+"LOCID E_LiveIdInvalidCredentails" = "Не вдалося виконати вхід. Перевірте інформацію свого облікового запису та повторіть спробу.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Потрібно змінити пароль. Оновіть його та повторіть спробу.";
+"LOCID E_LiveIdPasswordLockedOut" = "Потрібно змінити пароль. Оновіть його та повторіть спробу.";
+"LOCID E_LiveIdConnectionFailed" = "Зараз не вдається підключитися до сервера. Повторіть спробу.";
+"LOCID E_LiveIdServiceUnavailable" = "Зараз не вдається підключитися до сервера. Повторіть спробу.";
+"LOCID E_LiveIdGenericError" = "Не вдалось увійти. Повторіть спробу.";
+"LOCID E_InvalidLiveIDUserNameError" = "Не вдалось увійти. Переконайтеся, що ваше ім’я користувача має такий формат: abc@example.com, і використано припустимий пароль.";
+"LOCID E_InvalidSmtpAddress" = "Не вдалося підключитися до сервера Exchange. Перевірте інформацію облікового запису та повторіть спробу.";
+"LOCID E_LogoffUnsuccessful" = "Не вдалося підключитися до програми Skype для бізнесу, тому що втрачено підключення до сервера.";
+"LOCID E_ClientVersionMismatch" = "Не вдалося виконати вхід, тому що ця версія Skype для бізнесу не підтримується вашою організацією. Встановіть Lync 2010 із магазину на своєму мобільному телефоні.";
+"LOCID E_ClientServerSchemaMisMatch" = "Не вдалося ввійти у цю версію програми Skype для бізнесу. Встановіть новішу версію. Якщо це не допоможе, зверніться до служби підтримки.";
+"LOCID E_ClientVersionCheck" = "Не вдалося виконати вхід до цієї версії програми Skype для бізнесу. Встановіть новішу версію. Якщо це не допоможе, зверніться до служби підтримки.";
+"LOCID E_VersionMismatch" = "Не вдалося виконати вхід до цієї версії програми Skype для бізнесу. Встановіть новішу версію. Якщо це не допоможе, зверніться до служби підтримки.";
+"LOCID E_AutoDConfigurationError" = "Не вдалось увійти. Зверніться до команди підтримки.";
+"LOCID E_AutoDPasswordExpiredError" = "Термін дії пароля завершився. Оновіть його та повторіть спробу.";
+"LOCID E_InvalidProxySettingsError" = "Не вдалось увійти. Настройки проксі-сервера неприпустимі. Перевірте їх і повторіть спробу.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Ваш сеанс завершено через неактивність.";
+"LOCID E_GeneralGoneError" = "Не вдалось увійти. Зверніться до команди підтримки.";
+"LOCID E_InternalServerError" = "Не вдалось увійти. Зверніться до команди підтримки.";
+"LOCID E_TooManyApps" = "Не вдалось увійти. Схоже, ви виконали вхід на більшій кількості пристроїв, ніж це дозволено.";
+"LOCID E_ResponseUnkown" = "Не вдалося підключитися до сервера. Якщо ви використовуєте мережу Wi-Fi, відкрийте браузер і перевірте наявність підключення. В іншому випадку скасуйте підключення, установлене за допомогою безпроводової точки доступу чи маршрутизатора. Якщо проблема не зникне, зверніться до постачальника послуг мережі.";
+"LOCID E_CannotLoadADFSPage" = "Не вдалося ввійти. Повторіть спробу. Якщо проблема не зникне, зверніться до служби підтримки.";
+"LOCID E_UserNotSipEnabled" = "Відсутні відповідні настройки для підключення до сервера. Зверніться до команди технічної підтримки.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Зараз не вдається здійснити виклик VoIP. Спробуйте викликати з мобільного телефону.";
+"LOCID E_VoicePSTNCallActive" = "Зараз не вдається здійснити виклик VoIP. Спробуйте викликати з робочого телефону.";
+"LOCID E_VoicePSTNCallActive - Button" = "Виклик із робочого телефону";
+"LOCID E_VideoOverWiFiBlocked" = "Це запрошення на відеовиклик, але оскільки ви не маєте підключення до мережі Wi-Fi, підключено тільки аудіо.";
+"LOCID E_HistoryNotDisplayed" = "Не вдалося відобразити журнал цієї розмови.";
+"LOCID E_IMAcceptedElsewhere" = "Ви прийняли цю розмову на іншому пристрої. Щоб повторно запустити її, надішліть нове повідомлення.";
+"LOCID E_MuteFailed" = "Через помилку іншим учасникам не видно, що ваш мікрофон зараз вимкнуто.";
+"LOCID E_UnmuteFailed" = "Ваш мікрофон досі вимкнуто через помилку. Спробуйте ввімкнути мікрофон знову.";
+"LOCID E_DgExpansionGenericFailure" = "Не вдалося запросити учасників групи. Повторіть спробу пізніше.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Група завелика для запрошення.";
+"LOCID E_DgExpansionNoMembersFailure" = "У групі немає учасників, тому її не можна запросити.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "Користувач %@ недоступний або офлайн.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "Користувач %@ установив стан \"Не турбувати\".";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "Користувач %@ не обслуговується. Перевірте номер.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "Користувач %@ зараз розмовляє по телефону.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "Користувач %@ не відповідає.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "Користувач %@ не може відповісти на виклик.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Щоб здійснити виклик, необхідно підключитися до мережі. Щоб здійснити виклик, увійдіть у програму Skype для бізнесу.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Не вдалося виконати операцію.";
+"LOCID E_VoiceGenericError" = "Виклик не виконано або завершено.";
+"LOCID E_VoiceFeatureNotEnabled" = "Функцію викликів вимкнуто.";
+"LOCID E_VoiceCheckNumber" = "Перевірте номер і повторіть спробу.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Не вдалося здійснити виклик. Повторіть спробу пізніше.";
+"LOCID E_VoiceCallUnsuccessful" = "Не вдалося підключити виклик.";
+"LOCID E_VoiceCallTypeNotSupported" = "Не вдалося здійснити виклик. Цей тип виклику не підтримується.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Користувач %@ міг не отримати повідомлення, тому що час очікування сервера минув:";
+
+"LOCID E_SharingAnotherOperation" = "Ми виконуємо всі необхідні операції. Зачекайте хвильку та повторіть спробу.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "Користувач %@ не отримав повідомлення через помилку сервера:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "Користувач %@ офлайн, а тому не отримав повідомлення:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "Користувач %@ вибрав стан \"Не турбувати\", тому він не отримав це повідомлення:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Це повідомлення не надіслано, тому що не вдалося знайти користувача %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Не вдалося надіслати це повідомлення через наявність заблокованого вмісту:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "З користувачем %@ не вдалося зв’язатися, тому він не отримав це повідомлення:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Не вдалося виконати виклик.";
+
+"LOCID E_ConfLocked" = "Ви не можете приєднатися до наради, тому що її заблоковано. Зверніться до організатора.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Виявлено невідповідність шифрування між вашою програмою та програмою користувача %@. Зверніться до команди підтримки.";
+
+"LOCID E_ConferencingServerError" = "Сталася помилка сервера. Зверніться до команди підтримки.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "Не вдалося зв’язатися з користувачем %@, можливо, він офлайн.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "Стан користувача %@ – \"Не турбувати\", тому з ним не можна зв’язатися.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "Користувач %@ не відповів на запрошення.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Не вдалося зв’язатися з користувачем %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Пристрій не налаштовано для приєднання до Нарад Skype.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Не можна приєднатися до конференції, доки не виконано вхід у застосунок.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = "Користувач %@ не зміг приєднатися до наради.";
+"LOCID E_ConferencingEnded" = "Нарада, до якої ви намагаєтеся приєднатися, недоступна.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Не вдалося зв’язатися з користувачем %@. Повторіть спробу пізніше.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "Не вдалося знайти користувача %@. Перевірте адресу.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Не вдалося зв’язатися з користувачем %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "Користувач %@ відхилив запрошення.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Доповідач завершив нараду.";
+"LOCID E_ConferencingCallDisconnected" = "Виклик роз’єднано.";
+"LOCID ConferenceUnexpectedDisconnect" = "Вас від’єднано від конференції.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Виклик не виконано або завершено.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Не вдалося додати користувача %@ до наради, тому що мережа зайнята.";
+
+"LOCID E_ConferencingCannotConnect" = "Виклик не виконано або завершено.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Ви не можете приєднуватися до мережної наради цього типу.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Не вдалося запросити користувача %@, тому що до наради підключено максимальну кількість учасників.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Не вдалося приєднати до наради анонімного учасника.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Не вдалося приєднатися до наради через помилку із запрошенням.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "У вас немає дозволу на приєднання до наради.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Не вдалося приєднати вас до наради. Повторіть спробу.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Не вдалося приєднатися до наради не з вашої організації.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Не вдалося приєднатися до мережної наради цього типу.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Не вдалося зв’язатися з користувачем %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Не вдалося розпочати нараду, тому що починається інша нарада.";
+"LOCID E_ConferencingEncryptionIssues" = "Не вдалося розпочати Нараду Skype через помилки шифрування.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "У вас недостатньо дозволів, щоб приєднуватися з іншого пристрою або викликати інший пристрій.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Виклик не виконано або завершено.";
+"LOCID E_ConferencingFull" = "До наради підключено максимальну кількість учасників.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "У вас немає дозволу, щоб приєднатися до цієї наради.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Термін дії запрошення для користувача %@ минув.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Нараду завершено, тому що її покинули організатори.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Не вдалося приєднатися до наради, тому що мережа зайнята.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Рядок теми задовгий.";
+"LOCID E_ConferencingFeatureNotEnabled" = "У вашій організації не активовано функцію проведення нарад.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Нараду завершено через бездіяльність.";
+"LOCID E_ConferencingCannotBeFound" = "Не вдалося знайти цю мережну нараду.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "У вас немає дозволу, щоб приєднатися до цієї наради.";
+"LOCID E_ConferencingUserNotAdmitted" = "Вас не допущено до участі в нараді.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Вас видалено з наради.";
+"LOCID E_ConfGenericError" = "Не вдалося приєднати вас до наради. Повторіть спробу.";
+"LOCID E_ConferenceDenied" = "Доповідач заборонив вам здійснювати вхід.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Ви вже в нараді. Вийти з неї та приєднатися до цієї?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Сервер не підтримує анонімне приєднання до наради на цьому пристрої.";
+"LOCID ConferenceVideoLock" = "Доповідач переключив одного з користувачів на відео.";
+"LOCID ConferenceVideoUnlock" = "Доповідач розблокував відео.";
+"LOCID ConferenceVideoSelfLock" = "Усіх користувачів переключено на ваше відео.";
+"LOCID ConferenceVideoSelfUnlock" = "Більше нікого не переключено на ваше відео.";
+
+"LOCID E_DomainNotTrusted" = "Не вдалося підключитися до сервера. Прийміть пропозицію переспрямування.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "Користувач %@ не отримав повідомлення через наявність у ньому забороненого формату:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Пристрій, яким користується %@, не може отримувати повідомлення.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "Користувач %@ не отримав повідомлення, тому що воно завелике:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "Користувач %@ не отримав повідомлення через політику обмеження доставки:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Не вдалося надіслати миттєве повідомлення. Ви вже розмовляєте з користувачем %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Не вдалося надіслати це повідомлення через наявність заблокованого вмісту:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Ви не маєте прав на надсилання миттєвих повідомлень користувачу %@. Це повідомлення не надіслано:";
+
+"LOCID E_IMConfGenericError" = "Принаймні один користувач не отримав це повідомлення:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "Користувач %@ недоступний.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Виклик було завершено, тому що користувач %@ вийшов.";
+
+"LOCID E_VoiceCallTimeout" = "Виклик не було завершено через помилки мережі. Повторіть спробу.";
+"LOCID E_VoiceCallDisconnected" = "Виклик роз’єднано. Повторіть спробу.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Виклик не виконано або завершено.";
+"LOCID E_VoiceCallNotCompleted" = "Користувач %@ не може отримувати виклики. Натомість надішліть йому миттєве повідомлення або листа електронною поштою.";
+"LOCID E_VoiceServerError" = "Не вдалося підключити виклик через помилку сервера. Повторіть спробу.";
+"LOCID E_VoiceCannotConnect" = "Не вдалося підключитися до мережної наради.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Не вдалося зв’язатися з користувачем %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Не вдалося знайти користувача %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "Не вдалося розпочати Нараду Skype через помилки шифрування.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Особа, яку ви викликали, відповіла миттєвим повідомленням.";
+"LOCID E_VoiceCannotCompleteCall" = "Цей виклик не можна виконати за допомогою набору.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Не вдалося здійснити виклик через проблеми сервера.";
+"LOCID E_VoiceServerCannotForwardCall" = "Сервер не може перенаправляти виклики. Повторіть спробу.";
+"LOCID E_VoiceServerDidNotRespond" = "Сервер не відповідає. Повторіть спробу пізніше.";
+"LOCID E_VoiceCannotPlaceCall" = "Не вдалося здійснити виклик. Перевірте номер і повторіть спробу.";
+"LOCID E_VoiceNumberNotSupported" = "Ваша організація не підтримує виклики на цей номер.";
+"LOCID E_IncomingPSTNCall" = "Не вдалося виконати виклик.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Ви не можете викликати користувача %@, тому що виклики обмежує політика.";
+
+"LOCID E_CallFailed" = "Виклик завершено через проблеми зі зв’язком. Повторіть спробу.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Вас роз’єднано, тому що ви приєдналися з іншого клієнта.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Вас видалено з наради.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Не вдалося виконати виклик, тому що мережа зайнята.";
+"LOCID E_VoiceNotSupported" = "Користувач %@ не може приймати аудіовиклики.";
+"LOCID E_RepliedWIthOtherModality" = "Адресат відповість вам за допомогою миттєвого повідомлення.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Журнал розмов наразі неможливо оновити, внаслідок чого він може містити застарілу інформацію.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Журнал розмов наразі неможливо оновити, внаслідок чого він може містити застарілу інформацію.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Не вдалося переадресувати виклики цьому контакту. Виберіть один із контактів Skype для бізнесу для переадресування викликів, або натисніть кнопку \\\"Додати номер\\\" та введіть номер телефону.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY увімкнуто";
+"LOCID RemoteHoldSucceeded" = "Віддалений користувач поставив ваш виклик на утримання.";
+"LOCID RemoteUnholdSucceeded" = "Віддалене знімання з утримання вдалося";
+"LOCID LocalHoldSucceeded" = "Локальне утримання вдалося";
+"LOCID LocalUnholdSucceeded" = "Локальне знімання з утримання вдалося";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Відновити виклик";
+"LOCID is recording" = "Користувач %@ записує";
+"LOCID Multiple Recording" = "Користувач здійснює запис";
+"LOCID OnHoldOutOfApp" = "Ваш виклик %@ утримується.";
+"LOCID OnStopOutOfApp" = "Ваш виклик %@ завершено.";
+"LOCID RecordingAlert" = "Користувач %@ записує цей виклик.";
+"LOCID CoversationP2PIsRecording" = "Користувач %@ записує цей виклик.";
+"LOCID CoversationP2PIsRecordingNoName" = "Записування цього виклику.";
+"LOCID CoversationConferenceIsRecording" = "Певний користувач записує цю нараду.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Список майже завершено. Найстаріші розмови буде замінено на нові.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Доповідач вимкнув звук для аудиторії.";
+"LOCID Audience Unlock" = "Доповідач увімкнув звук для аудиторії.";
+"LOCID Conference Mute" = "Доповідач вимкнув звук для вас.";
+"LOCID Conference Unmute" = "Доповідач хоче, щоб ви ввімкнули звук самі.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Доповідач заблокував учасникам можливість надсилати відео.";
+"LOCID PresenterBlockedVideo - Presenter" = "Доповідач заблокував учасникам можливість надсилати відео. Якщо ви – доповідач, ви можете ввімкнути камеру й надати спільний доступ до свого відео.";
+"LOCID PresenterBlockedVideo - Unblock" = "Доповідач розблокував учасникам можливість надсилати відео.";
+"LOCID VideoLockOnYou" = "Усіх користувачів переключено на ваше відео.";
+"LOCID VideoLock" = "Доповідач переключив одного з користувачів на відео.";
+"LOCID VideoNotLockOnYou" = "Більше нікого не переключено на ваше відео.";
+"LOCID VideoSpotlightUnlocked" = "Доповідач розблокував відео.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Назад";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Виклик із робочого номера телефону недоступний.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "–%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Повідомлень голосової пошти немає";
+"LOCID You currently have no voicemail messages" = "У вас немає жодного повідомлення голосової пошти.";
+"LOCID Audio" = "Аудіо";
+"LOCID Speaker" = "Динамік";
+"LOCID Can not play locally" = "Не вдалося відтворити це повідомлення. Торкніться кнопки \"Відтворити\", щоб прослухати повідомлення у виклику.";
+"LOCID Play Voice Mail" = "Відтворити повідомлення голосової пошти";
+"LOCID PLAY_VOICEMAIL_HINT" = "Відтворення повідомлень голосової пошти";
+"LOCID Pause Voice Mail" = "Зупинити повідомлення голосової пошти";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Призупинення відтворення повідомлень голосової пошти";
+"LOCID Play On Phone Error - No Number" = "Потрібно ввести свій номер телефону на сторінці \"Параметри\", щоб отримати зворотний виклик.";
+"LOCID Call Back" = "Зворотний виклик";
+"LOCID Delete" = "Видалити";
+"LOCID More voicemails iPad" = "Щоб прослухати попер. повідомл. гол. пошти, торкніться піктограми голос. пошти.";
+"LOCID More voicemails" = "Щоб прослух. попередні повідомл. голос. пошти, на цифр. клавт. торкніться й утримуйте клавішу 1 або перейдіть до прогр. Outlook.";
+"LOCID More voicemails No keypad" = "Перейдіть до програми Outlook, щоб прослухати попередні повідомлення голосової пошти.";
+"LOCID Can not play IRMed" = "Це повідомлення з керуванням правами. Торкніться кнопки \"Відтворити\", щоб прослухати повідомлення у виклику.";
+"LOCID Lync Call" = "Виклик Skype для бізнесу";
+"LOCID Can't play on phone" = "Не вдалося відтворити це повідомлення. Перевірте підключення до Інтернету й повторіть спробу пізніше.";
+"LOCID Yes" = "Так";
+"LOCID No" = "Ні";
+"LOCID VMCallerID" = "Голосова пошта";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Відтворення голосового повідомлення на нормальній швидкості";
+"LOCID VM Playback -2X Acc" = "Відтворення голосового повідомлення вдвічі повільніше";
+"LOCID VM Playback 2X Acc" = "Відтворення голосового повідомлення вдвічі швидше";
+"LOCID Voicemail From" = "Голосова пошта від %@";
+"LOCID No Voicemails Placeholder" = "Тут будуть відображатися повідомлення голосової пошти";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Відхилити";
+"LOCID Accept" = "Прийняти";
+"LOCID Not yet implemented feature" = "Цю функцію ще не реалізовано. Повторіть спробу у майбутній версії.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "У вас 1 нове повідомлення голосової пошти";
+"LOCID Missed VMs" = "Нових повідомлень голосової пошти: %d";
+"LOCID Missed Collab Out of App" = "Пропущено сеанс спільної роботи від %@";
+"LOCID Missed Video Call Out of App" = "Пропущено відеовиклик від %@";
+"LOCID Missed Audio Call Out of App" = "Пропущено виклик від %@";
+"LOCID Missed Message Out of App" = "Пропущено миттєве повідомлення від %@";
+"LOCID Missed Audio Conf Out of App" = "Пропущено телефонну конференцію від %@";
+
+"LOCID Audio Call Out of App" = "Виклик від %@";
+"LOCID Conference Call Out of App" = "Телефонна конференція від %@";
+"LOCID Dismiss Call" = "Ігнорувати";
+"LOCID Answer Call" = "Прийняти";
+"LOCID Answer Call with Video" = "Відеозв'язок";
+"LOCID Audio Call" = "Виклик";
+"LOCID Conference Call" = "Телефонна конференція";
+"LOCID Unknown Caller" = "Невідомий абонент";
+
+"LOCID Video conf accessibility" = "Відеоконференція від %@";
+"LOCID Video accessibility" = "Відеовиклик від %@";
+"LOCID Audio conf accessibility" = "Телефонна конференція від %@";
+"LOCID Audio accessibility" = "Виклик від %@";
+
+"LOCID Video Call Out of App" = "Відеовиклик від %@";
+"LOCID Video Conference Call Out of App" = "Відеоконференція від %@";
+"LOCID Video Call" = "Відеовиклик";
+"LOCID Video Conference Call" = "Відеоконференція";
+"LOCID Video Escalation Name" = "Користувач %@ надає спільний доступ до відео";
+"LOCID Video Escalation" = "надає спільний доступ до відео";
+"LOCID Video Escalation Conf" = "Хтось надає спільний доступ до відео";
+"LOCID VideoInvitationRejected" = "Відеочастину виклику не прийнято. Виклик триватиме в голосовому режимі.";
+"LOCID E_VideoDecline" = "Користувач %@ не прийняв відеочастину вашого виклику.";
+"LOCID E_VideoGeneric" = "Не вдалося запустити відео. Повторіть спробу.";
+"LOCID E_VideoNotStarted" = "Не вдалося запустити відео.";
+"LOCID E_VideoNotSupported" = "Користувач %@ не може приймати відеовиклики.";
+"LOCID E_VideoNotAccepted" = "Користувач %@ не прийняв відеочастину вашого виклику. Виклик продовжуватиметься тільки з аудіочастиною.";
+
+"LOCID E_VoiceTransferGenericError" = "Не вдалося переадресувати виклик.";
+"LOCID E_VoiceTransferParticipantError" = "Виклик не переадресовано, тому що не вдалося зв’язатися з одержувачем.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "вимкнути звук";
+"LOCID Mute Capitalized" = "Вимкнути звук";
+"LOCID Unmute" = "Увімкнути звук";
+"LOCID keypad" = "клавіатура";
+"LOCID add call" = "додати виклик";
+"LOCID hold" = "утримувати";
+"LOCID End" = "Завершити";
+"LOCID Hide Keypad" = "Приховати клавіатуру";
+"LOCID Call Lync" = "Виклик Skype для бізнесу";
+"LOCID Call Work" = "На робочий: %@";
+"LOCID Call Mobile" = "На мобільний: %@";
+"LOCID Call Home" = "На домашній: %@";
+"LOCID Call Other" = "На інший: %@";
+"LOCID Decline" = "Відхилити";
+"LOCID Video Menu" = "Відеоменю";
+"LOCID Hold Call" = "Утримувати виклик";
+"LOCID Hang Up" = "Роз’єднати";
+"LOCID Dial Pad Only" = "Цифрова панель";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "Кількість учасників: %u, - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u учасник - %@";
+"LOCID Call Status Connecting" = "Підключення...";
+"LOCID Call Status Connecting Remote" = "Підключення...";
+"LOCID Call Status Connected" = "Підключено";
+"LOCID Call Status On Hold - Passive" = "Утримувати";
+"LOCID Call Status On Hold" = "Утримується";
+"LOCID Call Status Ended" = "Виклик завершено";
+"LOCID Call Status Transfering" = "Переадресація";
+"LOCID On behalf of" = "Від імені %@";
+"LOCID Call for" = "Виклик для %@";
+"LOCID Call for - Astana" = "Виклик для %@";
+"LOCID Transferred by" = "Переадресував користувач %@";
+"LOCID Forwarded by" = "Перенаправив користувач %@";
+"LOCID Private call" = "Приватний виклик";
+"LOCID Also ringing" = "%@ також отримує дзвінок";
+"LOCID Also ringing delegates" = "Ваші представники також отримують дзвінок";
+"LOCID Will ring" = "%@ отримає дзвінок";
+"LOCID Also ringing team call" = "Ваша група також отримує дзвінок";
+"LOCID The recipient" = "Адресат";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Триває ініціалізація ...";
+"LOCID DataCollab Connecting" = "Підключення...";
+"LOCID DataCollab Loading" = "Завантаження...";
+"LOCID DataCollab No Content" = "Доповідачі закрили спільний доступ до вмісту.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Функція спільного доступу до даних недоступна через невдале підключення до сервера.";
+"LOCID DisconnectedOnConnectivityIssue" = "Деякі функції презентації недоступні через проблеми з підключенням до сервера.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Вас роз’єднано, тому що ви приєдналися з іншого клієнта.";
+"LOCID DisconnectedOnNetworkFailure" = "Ви не бачите презентацію через проблеми мережі.";
+"LOCID DataCollab Known UnSupported" = "Доповідач використовує функцію, яка не підтримується у цій версії програми Skype для бізнесу.";
+"LOCID DataCollab Generic UnSupported" = "Доповідач використовує функцію, яка не підтримується у цій версії програми Skype для бізнесу, або підключений до сервера більш ранньої версії.";
+"LOCID DataCollab ContentPresenter" = "Доповідач: %@";
+"LOCID DataCollab NoPresenter" = "Ніхто не проводить презентацію";
+"LOCID Collab Unsupported PPTContent" = "На жаль, не вдалося відтворити медіафайл у цій презентації.";
+"LOCID Retry" = "Повторити";
+"LOCID DataCollab Generic PPT Error" = "Деякі функції презентації недоступні через проблеми з підключенням до сервера.";
+"LOCID Start Viewing" = "Запустити перегляд";
+"LOCID Stop Viewing" = "Зупинити перегляд";
+"LOCID Collab Escalation" = "Користувач %@ хоче розпочати презентацію";
+"LOCID PowerPoint content Accessibility" = "Вміст PowerPoint";
+
+"LOCID SyncPresenterButton" = "Синхронізувати з режимом доповідача";
+"LOCID NavigateBackButton" = "Перейти до попереднього слайда";
+"LOCID NavigateForwardButton" = "Перейти до наступного слайда";
+"LOCID SlideNumber" = "%1$d із %2$d";
+"LOCID SlideNumber Accessibility" = "Слайд %1$d із %2$d";
+
+"LOCID E_SharingDisabled" = "Презентування вимкнуто.";
+"LOCID E_SharingNetworkIssues" = "Ви не можете почати презентацію через проблеми в мережі. Повторіть спробу пізніше.";
+"LOCID E_SharingNotSupported" = "Презентування не підтримується з цим контактом.";
+"LOCID E_SharingTimeout" = "Не вдалося розпочати презентацію, тому що сервер зайнятий. Повторіть спробу пізніше.";
+"LOCID SharingAnotherType" = "Цю презентацію завершено, тому що розпочинається інша презентація.";
+"LOCID E_GetMediaSdpFailed" = "Не вдалося приєднатися до презентації робочого стола або програми.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Ви не бачитимете вміст презентації, тому що вас не підключено до мережі Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "Не вдалося здійснити виклик за допомогою Skype для бізнесу через відсутність підключення до мережі Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Презентація завелика для вашого пристрою.";
+"LOCID E_CollabDisconnectedNetworkError" = "Вашу участь у презентації було перервано через перебої з'єднання.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Зв'язок було перервано через те, що ви використали для під'єднання іншу програму-клієнт.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Триває завантаження вмісту для спільного користування.";
+"LOCID AppSharing Shared Content" = "Спільний вміст.";
+"LOCID AppSharing Desktop" = "Робочий стіл";
+"LOCID AppSharing Application" = "Застосунок";
+"LOCID AppSharing SharingPaused" = "Спільний доступ зараз призупинено."; // Not used
+"LOCID AppSharing SharingIdle" = "Спільний доступ зараз недіючий."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Усі ресурси згорнуто."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "Користувач %@ спробував запустити демонстрацію екрану, але ця версія програми Skype для бізнесу підтримує таку функцію лише під час телефонних конференцій і нарад Skype.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Розпочати сеанс обміну миттєвими повідомленнями";
+"LOCID send IM" = "Відправити";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Завершити розмову";
+"LOCID View Contact Card" = "Переглянути картку контакту";
+"LOCID Invite Others" = "Запросити інших користувачів";
+"LOCID Send Location action" = "Надіслати розташування";
+"LOCID Send as Email action" = "Надіслати поштою";
+"LOCID View Participants" = "Переглянути учасників";
+"LOCID Rejoin" = "Приєднатися повторно";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Двічі торкніться, щоб розгорнути";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Погана якість виклику";
+"LOCID ACI Call Muted" = "Наразі мікрофон вимкнено. Торкніться двічі, щоб увімкнути його";
+"LOCID ACI Call Unmuted" = "Наразі мікрофон увімкнено. Торкніться двічі, щоб вимкнути його";
+
+/* Search results */
+"LOCID No Results" = "Не знайдено жодного результату";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "Користувач %@ несподівано вийшов";
+"LOCID Dont Send" = "Не відправляти";
+"LOCID Send Report" = "Відправити звіт";
+"LOCID Would you like to send a report so we can fix the problem" = "Хочете відправити звіт про проблему, щоб ми могли її вирішити?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype для бізнесу";
+
+// Timeline
+"LOCID Timeline Home" = "домівка";
+"LOCID Timeline Contacts" = "контакти";
+"LOCID Timeline Meetings" = "наради";
+"LOCID Timeline Search Placeholder" = "Пошук контактів";
+"LOCID Timeline Recent" = "нещодавні";
+"LOCID Timeline Upcoming" = "незабаром";
+"LOCID Timeline TableView" = "часова шкала";
+"LOCID Timeline Meeting Time All Day" = "цілий день";
+"LOCID Timeline Search Skype Contacts" = "контакти";
+"LOCID Timeline Search Phone Contacts" = "контакти з телефонної книги";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "контакти";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "клавішна панель та голосова пошта";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "клавішна панель, %ld нове голосове повідомлення";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "клавішна панель, нові голосові повідомлення: %ld";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "наради";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "домівка";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "про мене";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, нові повідомлення, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "виклик";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "відеовиклик";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "позначити як прочитане";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "видалити";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "приєднатися до наради";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "відхилити";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "допустити";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "доступний";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "зайнятий";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "відсутній";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "офлайн";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "не турбувати";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "немає даних про присутність";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "видалити текст";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "пошук контактів";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "відеовиклик";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "виклик";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Приєднатися до наради";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Порожній чат";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Аватар";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld нове голосове повідомлення";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "нові голосові повідомлення: %ld";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Янгол";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Злюся";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Бандит";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Футбол";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Пиво";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Сміюся";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Велосипед";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Зашарівся";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Уклін";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Розбите серце";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Торт";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Виклик";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Камера";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Можеш говорити?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Авто";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Готівка";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Кіт";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Овації";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Кава";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Комп'ютер";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Конфіденційно";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Крутелик";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Плачу";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Танці";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Диявол";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Собака";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Ех!";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Коктейль";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Сумний";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Емо";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Заздрю";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Злісна усмішка";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Сором";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Схрещені пальці";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Квітка";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Гра";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Подарунок";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Хі-хі";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Нехай щастить";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Час іти";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Рукостискання";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Щастя";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Б'юся лобом об стіну";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Серце";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Білка";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Привіт";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Дай п'ять!";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Зачекай";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Обіймаю";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Ідея";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Закоханий";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Острів";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Це не я!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Цілунок";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Тра ля ля";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Давай зустрінемося";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Ні пари з вуст!";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Пошта";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Макіяж";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Чоловік";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "Ммммм…";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Кіно";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "М'язи";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Музика";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Розумник";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ніндзя";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Ні";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Кивок";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Вечірка";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Телефон";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Піца";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Літак";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Нудить";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Удар";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Дощ";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Веселка";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Рок";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Ледь не лусну зі сміху";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Сумую";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Кивання головою";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Сонний";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Посмішка";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Усмішка";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Равлик";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Немає слів";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Зірка";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Стоп";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Сонечко";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Здивований";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Лайка";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Пітнію";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Теревені";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Я з тобою не розмовляю";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Замислився";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Час";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Забагато інформації";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Обличчя з висунутим язиком";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Перекотиполе";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Парасолька";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Чекай";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Чекаю";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Працюю вдома";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Що відбувається?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Слава богу!";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Підморгую";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Жінка";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Дивина!";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Хвилююся";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Позіхаю";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Так";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Поле для повідомлення";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Прпивітайтеся з користувачем %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Поспілкуйтеся з групою користувачів";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Тут відображатимуться ваші розмови";
+"CHAT_FAILED_TO_SEND" = "Нам не вдалося надіслати це повідомлення: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Показати чат";
+"LOCID CONVERSATION_HIDE_CHAT" = "Приховати чат";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Відобразити бічну панель";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Приховати бічну панель";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "емограми";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "дн.";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "день";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "год.";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "год.";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "хв.";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "хв.";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "с";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "с";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "Нових сповіщень: %d";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Одне нове сповіщення";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Немає нових сповіщень";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "конференція завершилася";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "Учасників: %u";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "відхилити";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "відкрити";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "копіювати";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "додати до списку читання";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "відкрити у Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "назад";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "уперед";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "скасувати";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ вводить повідомлення...";
+"CHATTYPING_TWOUSERS" = "%@ та %@ вводять повідомлення...";
+"CHATTYPING_THREEUSERS" = "%@, %@ та ще один користувач вводять повідомлення...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ та ще %d користувачів вводять повідомлення...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "надіслати електронного листа";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "переглянути дані про контакт";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "учасники";
+"DROPDOWN_ADD_PARTICIPANTS" = "додати учасників";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Вхідний виклик";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Вихідний виклик";
+
+"LOCID Meetings Page Title" = "Наради";
+"LOCID No Meetings Placeholder" = "Тут відображатимуться ваші наради";
+"LOCID Meetings Today" = "Сьогодні";
+"LOCID Meetings Tomorrow" = "Завтра";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Введіть особисту примітку";
+
+"PARTICIPANTS_VIEW_TITLE" = "Учасники";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Чекають у фойє наради";
+"PARTICIPANTS_VIEW_ON_CALL" = "У виклику";
+
+"MEETING_VIEW_TITLE" = "Нарада";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Приєднатися до наради";
+"MEETING_VIEW_ORGANISER_LABEL" = "Організатор";
+"MEETING_VIEW_INVITEES_LABEL" = "Запрошені";
+"MEETING_VIEW_NOTES_LABEL" = "Примітки";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Підключення...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Виберіть емограму";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Надіслати повідомлення";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Виклик завершено";
+"INVITE_PARTICIPANTS" = "Запросити учасників";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Назад";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Назад";
+"LOCID_ADDRESS_BOOK" = "Адресна книга";
+"LOCID_PHONE_NUMBER" = "Номер телефону";
+"LOCID_MORE" = "Більше";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Перемкнути камеру";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Показати профіль контакту";
+"CHAT_OPTION_PARTICIPANTS" = "Учасники";
+"LOCID_CONTACTS_TABLE_VIEW" = "Показати контакти";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Вхідний виклик";
+"LOCID_MEETINGS_TABLE_VIEW" = "Показати наради";

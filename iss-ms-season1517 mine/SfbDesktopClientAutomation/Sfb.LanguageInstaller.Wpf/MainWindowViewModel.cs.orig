@@ -1,0 +1,356 @@
+﻿using Microsoft.Practices.Unity;
+using Sfb.Core;
+using Sfb.Installer.Core.Interfaces;
+using Sfb.Installer.Core.Services;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Xml.Linq;
+using Telerik.Windows.Controls;
+
+namespace Sfb.LanguageInstaller.Wpf
+{
+    public class MainWindowViewModel : ViewModelBase
+    {
+        private string currentBuildVersion;
+        private string userTypedBuildVersion;
+        private string installedOfficeVersion;
+        private IGetInstallationInfo getInstallationInfoService;
+        private ISfbOfficeInstaller installOfficeService;
+        private SfbInstallationInfo sfbInstallationInfo;
+        private ISfbOfficeUnInstaller removeOfficeService;
+        private ISfbOfficeLanguageInstaller installLanguageService;
+        private ISfbOfficeLanguageUninstaller removeLanguagesService;
+        private string userSelectedOfficeVersion;
+        private ObservableCollection<InstallerHistory> histories;
+<<<<<<< HEAD
+        private string logText;
+        private bool isBusy;
+        #region Properties
+
+        public  ICanExpand ExpandService { get; set; }
+=======
+        private bool officeInstalled;
+
+        #region Properties
+        public bool OfficeInstalled
+        {
+            get { return officeInstalled; }
+            set
+            {
+                officeInstalled = value;
+                OnPropertyChanged("OfficeInstalled");
+            }
+        }
+
+>>>>>>> 88b8dbe748cda2cecdf27dce40db222cafa5e995
+        public ObservableCollection<InstallerHistory> Histories
+        {
+            get { return histories; }
+            set
+            {
+                histories = value;
+                OnPropertyChanged("Histories");
+            }
+        }
+        public string CurrentBuildVersion
+        {
+            get { return currentBuildVersion; }
+            set
+            {
+                currentBuildVersion = value;
+                OnPropertyChanged("CurrentBuildVersion");
+            }
+        }
+
+        public string InstalledOfficeVersion
+        {
+            get { return installedOfficeVersion; }
+            set
+            {
+                installedOfficeVersion = value;
+                OnPropertyChanged("InstalledOfficeVersion");
+            }
+        }
+
+        public string UserTypedBuildVersion
+        {
+            get { return userTypedBuildVersion; }
+            set
+            {
+                userTypedBuildVersion = value;
+                OnPropertyChanged("UserTypedBuildVersion");
+                this.DisplayOfficeType();
+            }
+        }
+
+        public string UserSelectedOfficeVersion
+        {
+            get { return userSelectedOfficeVersion; }
+            set
+            {
+                userSelectedOfficeVersion = value;
+                OnPropertyChanged("UserSelectedOfficeVersion");
+            }
+        }
+
+        public string LogText
+        {
+            get { return logText; }
+            set
+            {
+                logText = value;
+                OnPropertyChanged("LogText");
+            }
+        }
+
+        public bool IsBusy
+        {
+            get { return isBusy; }
+            set
+            {
+                isBusy = value;
+                OnPropertyChanged("IsBusy");
+            }
+        }
+
+        private ObservableCollection<SfbLanguagePackInfo> languagesPackages;
+        private ObservableCollection<SfbLanguagePackInfo> installedLanguagesPackages;
+        private ObservableCollection<SfbLanguagePackInfo> uninstalledLanguagesPackages;
+
+        public ObservableCollection<SfbLanguagePackInfo> LanguagesPackages
+        {
+            get { return languagesPackages; }
+            set
+            {
+                languagesPackages = value;
+                OnPropertyChanged("LanguagesPackages");
+            }
+        }
+
+        public ObservableCollection<SfbLanguagePackInfo> InstalledLanguagesPackages
+        {
+            get { return installedLanguagesPackages; }
+            set
+            {
+                installedLanguagesPackages = value;
+                OnPropertyChanged("InstalledLanguagesPackages");
+            }
+        }
+
+        public ObservableCollection<SfbLanguagePackInfo> UninstalledLanguagesPackages
+        {
+            get { return uninstalledLanguagesPackages; }
+            set
+            {
+                uninstalledLanguagesPackages = value;
+                OnPropertyChanged("UninstalledLanguagesPackages");
+            }
+        }
+
+        public DelegateCommand InstallOfficeCommand { get;set; }
+
+        public DelegateCommand RemoveOfficeCommand { get; set; }
+
+        public DelegateCommand CheckAllLanguagesCommand { get; set; }
+
+        public DelegateCommand RemoveLanguagesCommand { get; set; }
+
+        public DelegateCommand InstallLanguagesCommand { get; set; }
+
+        public DelegateCommand LinkClickCommand { get; set; }
+
+        #endregion Properties
+
+        public MainWindowViewModel(
+            IGetCurrentOfficeVersion getCurrentOfficeVersionService,
+            IGetInstallationInfo getInstallationInfoService,
+            ISfbOfficeInstaller InstalleOfficeService,
+            ISfbOfficeUnInstaller removeOfficeService,
+            ISfbOfficeLanguageUninstaller removeLanguagesService,
+            ISfbOfficeLanguageInstaller installLanguageService
+            )
+        {
+            //get current version info
+            var currentVersionInfo = getCurrentOfficeVersionService.GetCurrentOfficeVersion();
+            
+            this.getInstallationInfoService = getInstallationInfoService;
+            if (currentVersionInfo != null)
+            {
+                //enable first tab
+                this.OfficeInstalled = true;
+                this.CurrentBuildVersion = currentVersionInfo.BuildVersion;
+                this.sfbInstallationInfo = this.GetSfbInstallationInfo();
+                this.InstalledLanguagesPackages = new ObservableCollection<SfbLanguagePackInfo>(this.GetSfbInstallationInfo().LanguagePackInfos.Where(u => (currentVersionInfo.InstalledLanguages.Select(i => i.ToLower())).Contains(u.Language.CultureName.ToLower())));
+                this.UninstalledLanguagesPackages = new ObservableCollection<SfbLanguagePackInfo>(this.GetSfbInstallationInfo().LanguagePackInfos.Where(u => !(currentVersionInfo.InstalledLanguages.Select(i => i.ToLower())).Contains(u.Language.CultureName.ToLower())));
+            }
+            else
+            {
+                //disable the first Tab
+                this.OfficeInstalled = false;
+                //this fake version number is in order to generate languages list in the second tab
+                this.CurrentBuildVersion = "15.0.4853.1000";
+            }
+            this.LanguagesPackages = new ObservableCollection<SfbLanguagePackInfo>(this.GetSfbInstallationInfo().LanguagePackInfos.Where(l => l.Language.CultureName != "en-US"));
+            this.installOfficeService = InstalleOfficeService;
+            this.removeOfficeService = removeOfficeService;
+            this.removeLanguagesService = removeLanguagesService;
+            this.installLanguageService = installLanguageService;
+
+            InstallOfficeCommand = new DelegateCommand(OnInstallOffice);
+            RemoveLanguagesCommand = new DelegateCommand(OnRemoveLanguages);
+            InstallLanguagesCommand = new DelegateCommand(OnInstallLanguages);
+            LinkClickCommand = new DelegateCommand(OnHistoryLinkClicked);
+            this.Histories = new ObservableCollection<InstallerHistory>();
+            
+        }
+
+        #region install office
+
+        private void DisplayOfficeType()
+        {
+            SfbInstallationInfo sfbInstallationInfo = this.GetSfbInstallationInfo(this.UserTypedBuildVersion);
+            this.sfbInstallationInfo = sfbInstallationInfo;
+            this.UserSelectedOfficeVersion = sfbInstallationInfo.OfficeType.ToString();
+        }
+        
+        private void OnInstallOffice(object obj)
+        {
+            //String officeInstallationFilePath = sfbInstallationInfo.SfbInstallationFolderPath;
+            //this.installOfficeService.InstallOffice(officeInstallationFilePath);
+          
+        }
+
+        #endregion install office
+
+        #region remove office
+        
+        private void OnRemoveOffice(object obj)
+        {
+            String officeInstallationFilePath = sfbInstallationInfo.SfbInstallationFolderPath;
+            this.removeOfficeService.UninstallOffice(officeInstallationFilePath);
+        }
+
+        #endregion remove office
+
+        private SfbInstallationInfo GetSfbInstallationInfo(string userTypedBuildVersion = null)
+        {
+            SfbInstallationInfo result = null;
+            if (userTypedBuildVersion == null)
+            {
+                result = this.getInstallationInfoService.GetInstallationInfo(this.CurrentBuildVersion);
+            }
+            else
+            {
+                result = getInstallationInfoService.GetInstallationInfo(userTypedBuildVersion);
+            }
+            return result;
+        }
+
+        private void StartRunningOperations(List<Operation> operations) {
+          
+            var taskRunner = Task.Factory.StartNew(() =>
+            {
+                this.IsBusy = true;
+                DateTime startDate = DateTime.Now;
+                string group = startDate.ToString("(MMMM, dd yyyy HH:mm:ss)");
+
+                foreach (var operation in operations)
+                {
+                    try
+                    {
+                        this.Histories.Add(new InstallerHistory
+                        {
+                            Group = group,
+                            Language = operation.Language,
+                            Op = operation,
+                            RunTime = startDate,
+                            Msg = "",
+                            Status = InstallerHistory.HistoryStatus.Waiting,
+
+                        });
+                    }
+                    catch (Exception e)
+                    {
+                        this.LogText += e.ToString() + "\r\n";
+                    }
+                }
+
+                this.ExpandService.ExpandHistory();
+                foreach (var history in this.Histories)
+                {
+
+                    try
+                    {
+                        history.Msg = history.Op.RunAction();
+                        history.Status = InstallerHistory.HistoryStatus.Passed;
+                    }
+                    catch (Exception e)
+                    {
+                        history.Status = InstallerHistory.HistoryStatus.Failed;
+                        history.Msg = e.ToString();
+                    }
+                    finally
+                    {
+                        this.LogText += history.Msg + "\r\n";
+                    }
+                }
+                this.LogText += "Automation execution done.";
+                this.IsBusy = false;
+            });
+           
+        }
+        private void OnCheckAllLanguages(object obj)
+        {
+           
+        }
+
+        private void OnRemoveLanguages(object obj)
+        {
+            foreach(SfbLanguagePackInfo sfbLanguagePackInfo in this.InstalledLanguagesPackages)
+            {
+
+            }
+        }
+
+        private void OnHistoryLinkClicked(object obj) {
+            string msg = obj.ToString();
+            MessageBox.Show(msg);
+        }
+        private void OnInstallLanguages(object obj)
+        {
+<<<<<<< HEAD
+            
+=======
+>>>>>>> 88b8dbe748cda2cecdf27dce40db222cafa5e995
+            List<Operation> operations = new List<Operation>();
+            foreach (SfbLanguagePackInfo sfbLanguagePackInfo in this.uninstalledLanguagesPackages.Where(l =>l.IsChecked == true))
+            {
+                var op = new Operation();
+                op.Language = sfbLanguagePackInfo.Language.CultureName;
+                op.OperationName = "Install Language Package";
+                op.BuildVersion = this.CurrentBuildVersion;
+                op.Version = this.sfbInstallationInfo.OfficeType.ToString();
+                op.Action += (language) =>
+                {
+<<<<<<< HEAD
+                    Thread.Sleep(10000);
+                    //this.installLanguageService.InstallOfficeLanguage(sfbLanguagePackInfo.Language.ToString(), sfbLanguagePackInfo.LanguagePackFolderPath);
+=======
+                    Thread.Sleep(1000);
+                    this.installLanguageService.InstallOfficeLanguage(sfbLanguagePackInfo.Language.ToString(), sfbLanguagePackInfo.LanguagePackFolderPath);
+>>>>>>> 88b8dbe748cda2cecdf27dce40db222cafa5e995
+                    return string.Format("{0} for {1} done.", op.OperationName, language);
+                };
+                operations.Add(op);
+            }
+            StartRunningOperations(operations);
+        }
+    }
+}

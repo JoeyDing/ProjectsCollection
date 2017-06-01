@@ -1,0 +1,76 @@
+﻿using OpenQA.Selenium.IE;
+using SBSAutomation.Services;
+using SBSAutomation.Tests;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SBSAutomation.UI
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            //string sourceDirectory;
+            //string targetDirectory;
+            //string targetFileName;
+            //string processChar = "";
+          /*  do
+            //{
+            //    Console.WriteLine("Input source directory please...");
+            //    sourceDirectory = Console.ReadLine();
+            //    Console.WriteLine("Input target files directory please...");
+            //    targetDirectory = Console.ReadLine();
+            //    Console.WriteLine("Input a file name with '.txt' at the end for the file that stores the files list");
+            //    targetFileName = Console.ReadLine();
+            //    //execute
+            //    var checkExsitingFilesService1 = new VerifyExistingFilesService();
+            //    bool result = checkExsitingFilesService1.VerifyExistingFiles(sourceDirectory, targetDirectory, targetFileName);
+            //    Console.WriteLine("Files's been exported into target folder...");
+            //    Console.WriteLine("Input 's' to stop quit, press key 'Enter' to continue...");
+            //    processChar = Console.ReadLine();
+            //}
+            //while (processChar != "s");
+
+            //prepare
+            var driver = new InternetExplorerDriver(Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "Driver"));
+            var screenShotService = new WebScreenshotService();
+            var saveSevice = new SaveService();
+            var service = new VerifyVersionNumberService(driver, "https://server.vdomain.com/cscp", screenShotService, saveSevice);
+            var screenshotService = new WebScreenshotService();
+            //execute
+            bool result = service.VerifyVersionNumber();
+            driver.Quit();
+            //assert
+            while (processChar != "s");*/
+
+<<<<<<< HEAD
+           // SBSOnlineTest test = new SBSOnlineTest();
+           // test.SBSOnline_VerifyLanguageDropDownListJLAppPage();
+           // Console.ReadLine();
+
+            SBSOnlineTest test = new SBSOnlineTest();
+            test.SBSOnline_VerifyJoinMeetingByLWA();
+            Console.ReadLine();
+
+=======
+            //SBSOnlineTest test = new SBSOnlineTest();
+            //test.SBSOnline_VerifyLanguageDropDownListJLAppPage();
+            //Console.ReadLine();
+
+            //prepare
+            var driver = new InternetExplorerDriver(Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "Driver"));
+            var screenShotService = new WebScreenshotService();
+            var saveSevice = new SaveService();
+            var signInService = new SignInService(driver, saveSevice, screenShotService);
+            var service = new VerifyLyncWebSchedulerSignInService(driver, "https://ext.vdomain.com:4443/scheduler", screenShotService, saveSevice, signInService, "vdomain\archcdruser10", "07Apples", "256554");
+            //execute
+            bool result = service.VerifyLyncWebSchedulerSignIn();
+            driver.Quit();
+>>>>>>> dev
+        }
+    }
+}

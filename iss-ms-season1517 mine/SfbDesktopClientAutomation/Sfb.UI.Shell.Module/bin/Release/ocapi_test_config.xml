@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <CallViaWorkEnabled>true</CallViaWorkEnabled>
+  <CallViaWorkUseAdminConfiguredCallbackNumber>false</CallViaWorkUseAdminConfiguredCallbackNumber>
+  <CallViaWorkAdminConfiguredCallbackNumber>+14287771049</CallViaWorkAdminConfiguredCallbackNumber>
+  <EnablePresencePhotoOptions>true</EnablePresencePhotoOptions>
+</settings>

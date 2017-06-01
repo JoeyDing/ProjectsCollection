@@ -1,0 +1,14 @@
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\Driver\IEDriverServer.exe
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\SBSAutomation.Services.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\SBSAutomation.Services.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\SBSAutomation.Core.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\WebDriver.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\SBSAutomation.Core.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\WebDriver.xml
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\obj\Debug\SBSAutomation.Services.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\obj\Debug\SBSAutomation.Services.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\obj\Debug\SBSAutomation.Services.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\Castle.Core.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\TestStack.White.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\Castle.Core.xml
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Services\bin\Debug\TestStack.White.xml

@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Reply";
+"JOIN" = "Accept";
+"VIEW" = "View";
+"IGNORE" = "Ignore";
+"LAUNCH" = "Launch";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "is inviting you to a conversation";
+"NEW_IM_BURNT_TOAST" = "Missed conversation with %@";
+"SIGN_IN" = "Sign In";
+"SIGN_OUT" = "You have been signed out due to inactivity.";
+"MWI" = "New voice mail messages: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Sign-in address";
+"LOCID Password" = "Password";
+"LOCID User Name" = "User Name";
+"LOCID Domain" = "Domain";
+"LOCID Auto-Detect Server" = "Auto-Detect Server";
+"LOCID Sign-in As" = "Sign In As";
+"LOCID User Name Footer" = "Skype for Business Online users: username@domain.com\nAll other users: domain\\username";
+"LOCID Hide Details" = "Hide Advanced Options";
+"LOCID More Details" = "Show Advanced Options";
+"LOCID Save Password" = "Save My Password";
+
+/* generic share button */
+"LOCID share" = "share";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Internal Discovery Address";
+"LOCID External Server Address" = "External Discovery Address";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Help us improve Skype for Business by sending us your sign-in error info.";
+"LOCID Sign In BRB Reason 2" = "Can we collect some info on this and future sign-in errors? You can always change this later in Options.";
+"LOCID BRBDonotshow" = "Don't show this again";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Sign in";
+"LOCID Sign Out" = "Sign Out";
+"LOCID Cancel Sign in" = "Cancel sign-in";
+"LOCID Lync Is Signing In" = "Skype for Business is signing in";
+"LOCID Lync Is Signing Out" = "Skype for Business is signing out";
+
+// Help
+"LOCID signin help" = "Sign-in help";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "My Info";
+"LOCID Contacts" = "Contacts";
+"LOCID Conversations" = "Chats";
+"LOCID Meetings" = "Meetings";
+"LOCID Phone" = "Phone";
+"LOCID Signing In" = "Signing in...";
+"LOCID Signed Out" = "Signed out";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "What’s happening today?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Personal note";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Enter your personal note";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Double-tap to edit";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Unknown";
+"LOCID Available" = "Available";
+"LOCID Busy" = "Busy";
+"LOCID Busy Inactive" = "Busy Inactive";
+"LOCID Do Not Disturb" = "Do Not Disturb";
+"LOCID Be Right Back" = "Be Right Back";
+"LOCID Presence unknown" = "Presence unknown";
+"LOCID Off Work" = "Off Work";
+"LOCID Appear Away" = "Appear Away";
+"LOCID Away" = "Away";
+"LOCID Inactive" = "Inactive";
+"LOCID Reset Status" = "Reset Status";
+"LOCID Offline" = "Offline";
+"LOCID Blocked" = "Blocked";
+"LOCID Sign In As Header" = "Select a status to display:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "In a call";
+"LOCID In a Conference Call" = "In a conference call";
+"LOCID Presenting" = "Presenting";
+"LOCID In a Meeting" = "In a meeting";
+"LOCID Out of Office" = "Out of Office";
+"LOCID Urgent Interruptions Only" = "Urgent interruptions only";
+"LOCID Out To Lunch" = "Out to Lunch";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype for Business can't show your iPhone contacts. You can fix that in your iPhone settings.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype for Business can't show your iPad contacts. You can fix that in your iPad settings.";
+"LOCID Other Contacts" = "Other Contacts";
+"LOCID Pinned Contacts" = "Favorites";
+"LOCID Retrieving Members" = "Please wait...";
+"LOCID Cannot connect Try again" = "We can’t get the group members right now. Try again later.";
+"LOCID Group is too large to display" = "The group is too large to display.";
+"LOCID No members" = "No members";
+"LOCID Searching the company directory" = "Searching the company directory...";
+"LOCID Please signin to search" = "Please sign in to search the company directory.";
+"LOCID Too many results" = "Too many results; try refining your search.";
+"LOCID Unable to connect to the server" = "We can't connect to the server right now. Please try again.";
+"LOCID E_SearchTooLong" = "We didn't find any matches. Try a shorter search.";
+"LOCID No Name" = "No Name";
+"LOCID idle day" = "%d day";
+"LOCID idle days" = "%d days";
+"LOCID idle hour" = "%d hour";
+"LOCID idle hours" = "%d hours";
+"LOCID idle minutes" = "%d minutes";
+"LOCID inactive idle day" = "Inactive %d day";
+"LOCID inactive idle days" = "Inactive %d days";
+"LOCID inactive idle hour" = "Inactive %d hour";
+"LOCID inactive idle hours" = "Inactive %d hours";
+"LOCID inactive idle minutes" = "Inactive %d minutes";
+"LOCID DG does not exist" = "The distribution group no longer exists.";
+"LOCID Access to DG denied" = "The access to the distribution group was denied";
+"LOCID No Contacts Placeholder" = "Your contacts will appear here";
+"LOCID No Contacts" = "No Contacts";
+"LOCID You currently have no contacts" = "You currently have no contacts";
+"LOCID Retrieving Contacts..." = "Getting contacts...";
+"LOCID Expanded" = "Group %@, Expanded";
+"LOCID Collapsed" = "Group %@, Collapsed";
+"LOCID Group card- acc" = "Group card";
+"LOCID Open group card - acc" = "Tap to open the group card";
+
+/* Contact Card*/
+"LOCID Loading name" = "Loading name...";
+"LOCID Details" = "Card";
+"LOCID Work" = "Work";
+"LOCID Home" = "Home";
+"LOCID Mobile" = "Mobile";
+"LOCID Other" = "Other";
+"LOCID other lowercase" = "other";
+"LOCID Office" = "Office";
+"LOCID Company" = "Company";
+"LOCID Department" = "Department";
+"LOCID Send Text Message" = "Send Text Message";
+"LOCID IM" = "IM";
+"LOCID E-Mail" = "Email";
+"LOCID unknown lowercase" = "unknown";
+"LOCID Location lowercase" = "location";
+"LOCID Calendar" = "calendar";
+"LOCID Link" = "link";
+"LOCID Disabled" = "%@, Disabled"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Note";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "MEMBERS"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Invite";
+"LOCID Transfer" = "Transfer";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business is attempting to redirect you to:";
+"LOCID certIssuedBy" = "Issued By:";
+"LOCID certSubject" = "Subject:";
+"LOCID certExpires" = "Expires:";
+"LOCID certSignature" = "Signature Algorithm:";
+"LOCID certDonotshow" = "Don't show me this again.";
+"LOCID Continue" = "Continue";
+"LOCID certNone" = "No encryption";
+"LOCID certRSA" = "RSA encryption";
+"LOCID certDSA" = "DSA encryption";
+"LOCID certDH" = "DH encryption";
+"LOCID certEC" = "EC encryption";
+"LOCID certHMAC" = "HMAC encryption";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Conversation";
+"LOCID Chats - Phone Call" = "Phone Call";
+"LOCID Chats - Video Call" = "Video Call";
+"LOCID Chats - Meeting" = "Meeting";
+"LOCID Chats - Missed Call" = "Missed Call";
+"LOCID Chats - Missed Video Call" = "Missed Video Call";
+"LOCID Chats - Current Call" = "Current Call";
+"LOCID Chats - Current Call With Duration" = "Current Call, %@";
+"LOCID Phone Status - Connecting" = "Connecting...";
+"LOCID Phone Status - On Hold" = "On Hold";
+"LOCID Phone Status - Transferring" = "Transferring";
+"LOCID Transferring to" = "Transferring to %@...";
+"LOCID Chats Full" = "FYI: This list is full. The oldest conversations will be removed as new ones are added.";
+"LOCID Close Conversation" = "Delete Conversation";
+"LOCID View Participants List" = "View Participants List";
+"LOCID Call Contact" = "Call %@";
+"LOCID Video Call Contact" = "Video Call";
+"LOCID Video Conference Contact" = "Video Conference";
+"LOCID Edit" = "Edit";
+"LOCID Deselect All" = "Deselect All";
+"LOCID Select All" = "Select All";
+"LOCID Me" = "Me: %@";
+"LOCID Missed" = "Missed: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Group Conversation";
+"LOCID Tap To Enter Text" = "Tap to type";
+"LOCID No Conversations" = "No Conversations";
+"LOCID No Conversations Hint" = "You currently have no conversations";
+"LOCID Delete Count" = "Delete (%d)";
+"LOCID Delete None" = "Delete";
+"LOCID Escalating audio conference" = "Starting conference call...";
+"LOCID Escalating video conference" = "Starting video conference...";
+"LOCID No Participants" = "No Participants";
+"LOCID No Other Participants" = "No other participants";
+"LOCID One Participant" = "1 Participant";
+"LOCID Some Participants" = "%d Participants";
+"LOCID Max Participants" = "%d+ Participants";
+"LOCID Large Meeting" = "Large Meeting";
+"LOCID Toast No Invite" = "is inviting you to a conversation";
+"LOCID Participant Join" = "%@ has joined the meeting";
+"LOCID Participant Leave" = "%@ left the meeting";
+"LOCID Participant Join Failure" = "%@ couldn’t join the meeting";
+"LOCID Large Conference" = "Large Meeting";
+"LOCID Large Conference Detail" = "The participant list isn't available for large meetings.";
+"LOCID No Participants Detail" = "There are no participants in this conversation";
+"LOCID cannotSend" = "We couldn't send your message:";
+"LOCID Missed Conversation" = "Missed Conversation";
+"LOCID Send as Email" = "Send as Email";
+"LOCID Email Subject" = "%1$@ conversation with %2$@";
+"LOCID Anonymous" = "Anonymous";
+"LOCID Duration" = "Duration:";
+"LOCID Switch Camera" = "Switch Camera";
+"LOCID Swap PIP" = "Swap Pic-in-Pic";
+"LOCID Leave Video" = "Leave Video";
+"LOCID Start My Video" = "Start My Video";
+"LOCID Stop My Video" = "Stop My Video";
+"LOCID End Video" = "End Video";
+"LOCID LargeMtgActiveSpeakerMissing" = "Speaker info isn't available for large meetings.";
+"LOCID Swap Preview" = "Swap Preview";
+"LOCID Speaker On" = "Speaker on";
+"LOCID Speaker Off" = "Speaker off";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Video is turned on";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Double-tap to turn video off.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Video is turned off";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Double-tap to turn video on.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Speaker phone is turned on";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Double-tap to turn speaker phone off.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Speaker phone is turned off";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Double-tap to turn speaker phone on.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Call muted";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Double-tap to unmute.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Call unmuted";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Double-tap to mute.";
+
+"LOCID Instant Messaging" = "Instant Messaging";
+"LOCID Voice" = "Voice";
+"LOCID Collaboration" = "Collaboration";
+"LOCID Participants" = "Participants";
+"LOCID Full Screen" = "Full Screen";
+"LOCID Exit Full Screen" = "Exit Full Screen";
+"LOCID Local Participant Alone in Conference Msg" = "Looks like you're the only one on the call.";
+"LOCID 1 or more participants" = "1 or more participants";
+"LOCID Call Started" = "Call started - %@";
+"LOCID Call Ended Missed" = "Call ended - %@ [Missed]";
+"LOCID Call Ended Duration" = "Call ended - %@ [Duration: %@]";
+"LOCID ConferenceEndedRejoin" = "You're disconnected from the meeting. Tap below to rejoin.";
+"LOCID ConferenceEndedContinue" = "Restarting this conversation will send a new invite to everyone who was in it.";
+"LOCID IM P2P Toast Voiceover" = "%@ is inviting you to a conversation. Double-tap to accept.";
+"LOCID IM Conf Toast Voiceover" = "%@ is inviting you to a group conversation. Double-tap to accept.";
+"LOCID Video is Locked on you" = "Video is locked on you.";
+
+"LOCID SFB Call Started" = "Call started";
+"LOCID SFB Call Ended" = "Call ended";
+"LOCID SFB Call Ended Duration" = "Call ended, %@";
+
+/* Roster*/
+"LOCID Presenters" = "PRESENTERS (%d)";
+"LOCID Attendees" = "ATTENDEES (%d)";
+"LOCID In Lobby" = "LOBBY (%d)";
+"LOCID Guest" = "Guest";
+"LOCID Remove" = "Remove";
+"LOCID E_RemoveFailed" = "We couldn’t remove the participant.";
+"LOCID E_AddFailed" = "We couldn’t add the participant.";
+
+/*Lobby*/
+"LOCID Admit all" = "Admit all";
+"LOCID Deny all" = "Deny all";
+"LOCID Admit" = "Admit";
+"LOCID Deny" = "Deny";
+"LOCID See Lobby" = "See Lobby";
+"LOCID Conference In the Lobby" = "You have participants waiting in the Lobby.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Make Presenter";
+"LOCID Demote" = "Make Attendee";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Mobile";
+"LOCID Voice and IM Unavailable" = "Voice and IM Unavailable";
+"LOCID Voice Only" = "Voice Only";
+"LOCID Voice and Video Only" = "Voice and Video Only";
+"LOCID IM Only" = "IM Only";
+"LOCID No Voice" = "No Voice";
+"LOCID Video capable" = "Video capable";
+"LOCID No IM" = "No IM";
+"LOCID Mobile Cap" = "Mobile";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Keypad";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Call";
+"LOCID Dialpad" = "Dialpad";
+"LOCID Dialpad STAR Key" = "Star";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Pound"; // Used for accessibility
+"LOCID Delete Key" = "Delete";   // Used for accessibility
+"LOCID Emergency number" = "Emergency number"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "hide";
+"LOCID Dialpad Search Recent Calls" = "recent calls";
+"LOCID Dialpad Search Native Contacts" = "phone contacts";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Problem with Contacts";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "There was a problem accessing phone numbers from your Contacts. Try re-syncing your mail accounts in Settings to fix the problem.";
+
+/* My Status Tab */
+"LOCID Options" = "Settings";
+"LOCID Send Feedback" = "Send Feedback";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ to %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "From %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "to %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "from %1$@ to %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "No Meetings";
+"LOCID All" = "All";
+"LOCID No Meetings Scheduled" = "You don't have any meetings scheduled";
+"LOCID None" = "None";
+"LOCID Organizer" = "Organizer";
+"LOCID Invitees" = "INVITEES";
+"LOCID Notes" = "NOTES";
+"LOCID Join" = "Join";
+"LOCID Updated DATE TIME" = "Updated %1$@ %2$@";
+"LOCID Online" = "Online";
+"LOCID Tentative" = "Tentative";
+"LOCID Event" = "Event";
+"LOCID Updating..." = "Updating...";
+"LOCID Tentative Voiceover" = "%@, Tentative";
+"LOCID Pull to refresh" = "Pull to refresh";
+"LOCID Today" = "TODAY"; // CAPS
+"LOCID Tomorrow" = "TOMORROW"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "If you’re not the organizer, your mic will be muted when you join.";
+"LOCID Lync Conferencing" = "Skype Meeting";
+"LOCID Joining Step 1" = "Connecting...";
+"LOCID Please wait to be admitted" = "Please wait to be admitted";
+"LOCID Join Conf Error" = "The meeting connection was lost.";
+"LOCID Anonymous Join" = "Anonymous Join";
+"LOCID Enter your name" = "Enter your name";
+"LOCID Anonymous Join Greeting" = "Welcome to Skype for Business";
+"LOCID Sign in with Lync" = "Sign in with Skype for Business";
+"LOCID Sign in as guest" = "Sign in as guest";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "We can’t connect you to the meeting without your iPhone number. Please add your iPhone number in Skype for Business options.";
+"LOCID Join Conf Error - No Number iPad" = "We can’t connect you to the meeting without your phone number. Please add your phone number in Skype for Business options.";
+"LOCID Join Meeting Line 1 Text" = "Joining the Meeting\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Calling you at %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Hello. You're in our virtual lobby, so make yourself comfortable. Please don’t move away from the app—the organizer will let you in soon.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "You weren't admitted because the organizer isn’t there or didn’t respond.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "The connection was lost. Tap Join to try again.";
+"LOCID View" = "View";
+"LOCID Join Meeting" = "Join Meeting";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Joining meeting";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "We can’t connect you because the meeting is full. Try contacting the organizer.";
+"LOCID AdmittedToLobby" = "You’ve been admitted. We’re calling you now...";
+"LOCID MtgDisclaimerAccept" = "Accept";
+"LOCID MtgDisclaimerDecline" = "Ignore";
+"LOCID E_MeetingNotFound" = "The meeting you're trying to join doesn't exist.";
+"LOCID E_MeetingsNotEnabled" = "This meeting feature isn't enabled by your organization.";
+"LOCID E_OutsideOrg" = "This person or meeting doesn't have permissions on your network.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Calls and Meetings";
+"LOCID credentialsSection" = "My Credentials";
+"LOCID contactsSection" = "Contacts";
+"LOCID accessibilitySection" = "Accessibility";
+"LOCID otherSection" = "Other";
+"LOCID Show Recent Contacts" = "Recent Contacts";
+"LOCID Show Pinned Contacts" = "Pinned Contacts";
+"LOCID Show Photos" = "Photos";
+"LOCID Sort by availability" = "Sort by availability";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Logging";
+"LOCID About" = "About";
+"LOCID About Version" = "Version %@";
+"LOCID Status" = "Status";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP Proxy";
+"LOCID Require WiFi" = "Require Wi-Fi For";
+"LOCID WiFi VoIP" = "Voice";
+"LOCID WiFi Video" = "Video";
+"LOCID WiFi Collab" = "Meeting Content";
+"LOCID WiFi Warning" = "When off, you can get calls over your data connection (possible charges and lower quality).";
+"LOCID WiFi Warning iPad" = "When off, you can get calls and meeting content over your data connection (possible charges and lower quality).";
+"LOCID Not a SfB User" = "Not a Skype for Business User?";
+
+
+/* About View */
+"LOCID About Title" = "About";
+"LOCID version" = "Version: %@";
+"LOCID Long Product Name" = "Skype® for Business for %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "All rights reserved.";
+"LOCID online help" = "Help";
+"LOCID Terms Of Use" = "Terms of Use";
+"LOCID Privacy title" = "Privacy";
+"LOCID Third Party Notices" = "Third Party Notices";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nPatent Pending";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "The Skype name, associated trade marks and logos and the “S” logo are trade marks of Skype or related entities.\n\nWarning: This program is protected by copyright law and international treaties. Unauthorised reproduction or distribution of this program, or any portion of it, may result in severe criminal and civil penalties and will be prosecuted to the maximum extent possible under the law.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Call forwarding";
+"LOCID Forward Section" = "Select Number";
+"LOCID Apply Setting Section" = "Apply Settings";
+"LOCID Summary Section" = "Your current settings:";
+"LOCID Do Not Forward" = "Do Not Forward";
+"LOCID Forward Calls" = "Forward Calls";
+"LOCID Forward Calls To" = "Forward Calls To";
+"LOCID Simultaneously Ring" = "Simultaneously Ring";
+"LOCID On" = "On";
+"LOCID Off" = "Off";
+"LOCID During Working Hours" = "During Working Hours";
+"LOCID Voicemail" = "Voice mail";
+"LOCID Team Call" = "Team-Call Members";
+"LOCID Delegates" = "Delegates";
+"LOCID Pending Persons" = "Added By";
+"LOCID Delegate Target" = "your delegates";
+"LOCID TeamCall Target" = "your team-call group members";
+"LOCID Voicemail Target" = "your voice mail";
+"LOCID DoNotForward Summary" = "Calls will ring you at work and won't be forwarded. You won't receive calls on your mobile phone when VoIP is unavailable.";
+"LOCID DoNotForward Summary iPad" = "Calls will ring you at work and won't be forwarded. You won’t get calls on your iPad when VoIP is unavailable.";
+"LOCID ForwardCalls Summary" = "Calls will be forwarded directly to %@. If that's not your mobile number, you won't receive calls on your mobile phone.";
+"LOCID ForwardCalls Summary iPad" = "Calls will be forwarded directly to %@ and not ring your iPad.";
+"LOCID Simulring Summary" = "Calls will ring you at work and also ring %@. If that's your mobile number, you’ll receive cellular calls when VoIP is unavailable.";
+"LOCID Simulring Summary iPad" = "Calls will ring you at work and also ring %@. You won't get calls on your iPad when VoIP is unavailable.";
+"LOCID View Settings" = "View your current settings";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Apply Settings";
+"LOCID All the Time" = "All the Time";
+"LOCID During Outlook Working Hours" = "During Outlook Work Hours";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Work";
+"LOCID Home Capitalized" = "Home";
+"LOCID Mobile Capitalized" = "Mobile";
+"LOCID Custom Capitalized" = "Custom";
+"LOCID Other Capitalized" = "Other";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Cancel";
+"LOCID Add" = "Add";
+"LOCID New Number" = "New Number";
+"LOCID New Contact" = "New Contact";
+"LOCID Contact" = "Contact";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Upload Sign-In Logs";
+"LOCID SignInBRB - Always" = "Always";
+"LOCID SignInBRB - Never" = "Never";
+"LOCID SignInBRB - Ask Me" = "Ask Me";
+"LOCID Send Log Files" = "Send Log Files";
+"LOCID Log Email Subject" = "Skype for Business Log Files"; //product name
+"LOCID Device Model" = "Device Model:";
+"LOCID Device OS Name" = "Device OS Name:";
+"LOCID Device OS Version" = "Device OS Version:";
+"LOCID Enable Logging" = "Enable Logging";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Http Proxy";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "To finish setting up your HTTP Proxy, please use your %@ Wi-Fi settings.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Use Skype for Business Credentials";
+"LOCID Exchange Credentials Info" = "Skype for Business needs your Exchange credentials to show all your meetings and voice mail information.";
+"LOCID Email Address" = "Email Address";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "My Mobile Number";
+"LOCID My Mobile Number Details" = "Enter your iPhone number with country and region codes:";
+"LOCID My Mobile Number Details iPad" = "Enter your phone number with country and region codes:";
+"LOCID My Mobile Number Footer" = "This lets you make and get work calls, and join meetings from Skype for Business.\n(If you use VoIP, and it's unavailable, this is your backup.)";
+"LOCID My Mobile Number Footer - Conf Join" = "This lets you join meetings from Skype for Business.\n(If you use VoIP, and it's unavailable, this is your backup.)";
+"LOCID iPhone Number" = "Phone Number";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Call via Work";
+"LOCID Missing iPhone Number Error" = "Missing Phone Number";
+"LOCID Missing iPhone Number Error Text" = "This call can't be completed. Please enter your iPhone number in Options and try the call again.";
+"LOCID Missing iPad Number Error Text" = "This call can't be completed. Please enter your phone number in Options and try the call again.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Before You Start";
+"LOCID Main text" = "Anyone can use the Skype for Business mobile app when invited to a Skype Meeting. However, to enjoy the full capability of the app, you must have a Skype for Business account.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "More Options";
+"LOCID Add Contact" = "Add Contact";
+"LOCID Add to Group" = "Add to Group";
+"LOCID Remove Contact" = "Remove Contact";
+"LOCID Remove from Group" = "Remove from Group";
+"LOCID Groups" = "Groups";
+"LOCID E_AddContactFailureGeneral" = "We can't add this contact right now. Please try again later.";
+"LOCID E_AddContactFull" = "You can't add any more contacts to this group.";
+"LOCID E_AddContactInGroup" = "The contact is already in this group.";
+"LOCID E_RemoveContactFailureGeneral" = "We can't remove this contact right now. Please try again later.";
+"LOCID Confirm Remove Contact" = "This will remove %@ from your Contacts list.";
+"LOCID Ignore" = "Ignore";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Learn More";
+"LOCID CEIP More Info" = "Help Skype for Business be even better by sending anonymous usage data to Microsoft.";
+"LOCID ceipSectionTitle" = "Customer Experience Improvement Program";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Welcome.";
+"LOCID Lets begin" = "Let's begin...";
+
+/* First Run Experience */
+"LOCID Close" = "Close";
+"LOCID Change" = "Yes";
+"LOCID Don't change" = "No";
+"LOCID Next" = "Next";
+"LOCID Done" = "Done";
+"LOCID First Run First Step" = "Lync is now Skype for Business - bringing together the experience of Skype with the enterprise quality of Microsoft.";
+"LOCID First Run Second Step" = "Anyone can use this app to join a Skype Meeting, but to enjoy all the features, you need a Skype for Business account and your organization must have enabled this app.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "CHANGE CALL FORWARDING SETTINGS?";
+"LOCID First Run CF Current Settings" = "Your current settings:";
+"LOCID First Run CF Change Settings" = "New Settings:";
+"LOCID First Run Change Summary" = "You've entered your phone number to get work calls. Now we need to change your current call forwarding settings so that your phone will ring.";
+"LOCID First Run Change Request" = "Can we change this so work calls will simultaneously ring you at work and at %@?";
+"LOCID DoNotForward Summary - First Run" = "Calls will ring you at work and will not be forwarded to any other phone numbers.";
+"LOCID ForwardCalls Summary - First Run" = "Calls will be forwarded directly to %@.";
+"LOCID Simulring Summary - First Run" = "Calls will ring you at work and also ring %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "NEVER MISS YOUR WORK CALLS";
+"LOCID My Mobile Number Title 2" = "NEVER MISS A MEETING";
+"LOCID My Mobile Number Details First Run" = "We need your iPhone number with country and region codes:";
+"LOCID My Mobile Number Details First Run_iPad" = "We need your phone number with country and region codes:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "MANAGE DATA USE";
+"LOCID Setup Work Calls Sub Text" = "These settings manage your data use and potential costs for calls and meetings.";
+
+"LOCID Require Wifi for VoIP calls" = "Require Wi-Fi for VoIP calls";
+"LOCID Require Wifi for VoIP calls off subtext" = "When Wi-Fi isn't available, calls will use your data connection.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Calls will always be over Wi-Fi. We'll never use your data connection.";
+
+"LOCID Require Wifi for Video calls" = "Require Wi-Fi for video calls";
+"LOCID Require Wifi for Video calls off subtext" = "When Wi-Fi isn't available, video calls will use your data connection. (That could be a lot of data.)";
+"LOCID Require Wifi for Video calls on subtext" = "Video calls will always be over Wi-Fi. We'll never use your data connection.";
+
+"LOCID Require Wifi for meeting content" = "Require Wi-Fi for meeting content";
+"LOCID Require Wifi for meeting content off subtext" = "When Wi-Fi isn't available, we'll use your data connection to get meeting content. (That could be a lot of data.)";
+"LOCID Require Wifi for meeting content on subtext" = "We'll always use Wi-Fi to get meeting content—never your data connection.";
+
+"LOCID Skip" = "Skip";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Start using Skype for Business";
+
+"LOCID First Run Successful Setup" = "YOU'RE ALL SET!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "WELCOME!";
+"LOCID First Run Successful Setup Details" = "You can make changes anytime in Settings.";
+
+"LOCID improve lync" = "Help us improve Skype for Business";
+"LOCID whyphonenumber" = "Why we need your phone number";
+"LOCID more detail" = "More Details";
+
+"LOCID Emergency Call Disclaimer" = "The fine print:";
+"LOCID Emergency Call Disclaimer Details" = "Normal carrier charges apply to all calls.\n\nImportant: Don’t use the Skype for Business app to make emergency calls.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Important";
+"LOCID Emergency Call Disclaimer Details iPad" = "Don't use the Skype for Business app to make emergency calls.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Push Notifications";
+"LOCID Push Notification Legal1" = "Before you accept the use of Push Notifications be aware that all Push Notifications and their content are sent through Apple Push Notification Service and Microsoft’s Push Notification system.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "You changed your Push Notifications settings in your %1$@ Notifications Settings, but must launch Skype for Business again to stop the delivery of all notification content.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Use Mobile";
+"LOCID Call via Work Not Available Error" = "You can't make a Skype for Business call because you’re offline. Try calling from your mobile number.";
+"LOCID Call via Work Not Available Error iPad" = "You can't make a Skype for Business call because you're offline.";
+"LOCID Answer incoming call" = "Answer incoming call";
+"LOCID to connect you to... display name" = "to connect you to...\n%@";
+
+"LOCID Call via Work Connecting" = "Connecting...\n Answer the next incoming call.";
+"LOCID Call via Work Connected" = "You’ve joined from %1$@";
+"LOCID Video Disclaimer" = "You won’t be able to see or share video.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "You've joined from %1$@.";
+
+/* Errors */
+"LOCID Error" = "Error";
+"LOCID E_GenericFailure" = "An error occurred in Skype for Business. Please retry. If the problem persists, contact your support team.";
+"LOCID E_GroupNotFound" = "We can’t find that group.";
+"LOCID E_PermissionsForGroup" = "You don't have permission to expand this group.";
+"LOCID E_ConnectionError" = "We can’t connect to the server. Check your network connection and server address, and try again.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "We can’t connect to the server. 1) It might be unavailable. 2) Check your network connection. 3) Make sure you’re using the Skype for Business account info provided by your organization. 4) Your user name might be different from your sign-in name. Tap Advanced Options and enter your user name or domain\\username.";
+"LOCID E_AutoDiscoveryInBackground" = "Your server configuration has changed. Please restart Skype for Business.";
+"LOCID E_SslError" = "We can’t verify the certificate from the server. Please contact your support team.";
+"LOCID E_SslCertExpiredError" = "We can’t verify the certificate from the server. Please contact your support team.";
+"LOCID E_ProxyAuthError" = "We can't sign you in. Please configure your HTTP proxy settings in %@ settings and Skype for Business Options or use 3G to connect.";
+"LOCID E_ConnectionTimeoutError" = "Can’t connect to the server. It may be busy or temporarily unavailable. Please try again.";
+"LOCID E_GenericApplicationError" = "There is an error in the application. Please restart the application.";
+"LOCID E_AuthError" = "We can’t sign you in. Please check your account info and try again.";
+"LOCID E_InvalidCredentials" = "We can’t sign you in. Please check your account info and try again.";
+"LOCID E_InvalidSignInAddress" = "Can’t sign in. Please verify your sign-in address and try again.";
+"LOCID E_InvalidLyncAccount" = "That isn't valid sign-in info.  You need to sign in using the Skype for Business account provided by your organization.";
+"LOCID E_WrongHomePool" = "You’re not configured to connect to the server.  Please contact your support team.";
+"LOCID E_ImSendError" = "Failed to send:";
+"LOCID GenericRetryError" = "We can’t connect to the server. Retrying...";
+"LOCID GenericError" = "A server error occurred. Please try again.";
+"LOCID RequestFailed" = "Failed to process request.  Please try again.";
+"LOCID DecodingError" = "Failed to process the server response. Please try again. If the problem persists, contact your support team.";
+"LOCID VersionMismatch" = "You can’t sign in with this version of Skype for Business. Please install a newer version. If that doesn’t work, contact your support team.";
+"LOCID SignInCredentialsAreNeeded" = "You've been signed out. We need your account info to sign you back in.";
+"LOCID NeedLyncPassword" = "We need your password to sign in.";
+"LOCID E_ServiceBusyOrUnAvailable" = "We can’t connect to the server right now. Please try again.";
+"LOCID E_HttpRequestTimeout" = "Can’t sign in because the server is temporarily unavailable.";
+"LOCID E_CannotConnectToServer" = "Can't connect to the server. Attempting to re-establish the connection. If the problem persists, contact your support team.";
+"LOCID E_InvalidServerUrl" = "The server name is incorrect. Please check it and retry.";
+"LOCID E_NoValidIp" = "We can’t connect to the network. Please check your connection settings.";
+"LOCID E_MetaDataNotFound" = "Unable to reach the server. Please verify your server address or try again later.";
+"LOCID E_TimeSkewError" = "We can’t sync your device’s clock with the server. Please change your time settings or contact your support team.";
+"LOCID E_MobilityDisabled" = "We can't sign you in because you aren't set up to use Skype for Business. Please contact your support team.";
+"LOCID E_TooManyApplications" = "We can't sign you in. Looks like you are already signed in on too many devices.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Call via Work is turned off. Enter your phone number in options to make a Skype for Business call to this person.";
+"LOCID E_UI_OfflineLyncCall" = "Need to be online or have mobile data connectivity to make a Skype for Business call to this person.";
+"LOCID E_EwsError" = "We can’t connect to Exchange. Please try again later.";
+"LOCID E_EwsBadCredentials" = "Your Exchange login credentials aren’t valid. Try updating your Exchange or Skype for Business credentials.";
+"LOCID W_Retrying" = "Can’t reach server, retrying...";
+"LOCID E_UI_CallViaCellError" = "Please check the number and try again.";
+"LOCID E_LiveIdPasswordExpired" = "Your password has expired. Please update it and try again.";
+"LOCID E_LiveIdInvalidCredentails" = "We can’t sign you in. Please check your account info and try again.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Your password needs to be changed.  Please update it and try again.";
+"LOCID E_LiveIdPasswordLockedOut" = "Your password needs to be changed.  Please update it and try again.";
+"LOCID E_LiveIdConnectionFailed" = "We can’t connect to the server right now.  Please try again.";
+"LOCID E_LiveIdServiceUnavailable" = "We can’t connect to the server right now.  Please try again.";
+"LOCID E_LiveIdGenericError" = "We can’t sign you in. Please try again.";
+"LOCID E_InvalidLiveIDUserNameError" = "We can’t sign you in. Please verify that your user name is in the format someone@example.com, and your password is valid.";
+"LOCID E_InvalidSmtpAddress" = "We can’t connect to Exchange.  Please check your account info and try again.";
+"LOCID E_LogoffUnsuccessful" = "We can’t connect you to Skype for Business because the server connection was lost.";
+"LOCID E_ClientVersionMismatch" = "We can't sign you in because your organization doesn't support this version of Skype for Business. Please install Lync 2010 from your mobile store.";
+"LOCID E_ClientServerSchemaMisMatch" = "You can’t sign in with this version of Skype for Business. Please install a newer version. If that doesn’t work, contact your support team.";
+"LOCID E_ClientVersionCheck" = "You can’t sign in with this version of Skype for Business. Please install a newer version. If that doesn’t work, contact your support team.";
+"LOCID E_VersionMismatch" = "You can’t sign in with this version of Skype for Business. Please install a newer version. If that doesn’t work, contact your support team.";
+"LOCID E_AutoDConfigurationError" = "We can’t sign you in. Please contact your support team.";
+"LOCID E_AutoDPasswordExpiredError" = "Your password has expired. Please update it and try again.";
+"LOCID E_InvalidProxySettingsError" = "We can’t sign you in. Proxy settings aren’t valid. Please check them and try again.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "You’ve been signed out due to inactivity.";
+"LOCID E_GeneralGoneError" = "We can’t sign you in. Please contact your support team.";
+"LOCID E_InternalServerError" = "We can’t sign you in. Please contact your support team.";
+"LOCID E_TooManyApps" = "We can’t sign you in. Looks like you’re already signed in on too many devices.";
+"LOCID E_ResponseUnkown" = "We can't connect to the server. If you're using Wi-Fi, open your browser to see if you have a connection. Otherwise, disable any hot-spot or tethering connections. If the problem persists, contact your network provider.";
+"LOCID E_CannotLoadADFSPage" = "We couldn't sign you in. Please try again. If the problem persists, please contact your support team.";
+"LOCID E_UserNotSipEnabled" = "You're not configured to connect to the server. Please contact your support team.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "You can't make a VoIP call right now. Try calling from your mobile number.";
+"LOCID E_VoicePSTNCallActive" = "You can’t make a VoIP call right now. Try calling from your work number.";
+"LOCID E_VoicePSTNCallActive - Button" = "Call via Work";
+"LOCID E_VideoOverWiFiBlocked" = "This was a video call invite, but since you don't have a Wi-Fi connection, we just connected audio.";
+"LOCID E_HistoryNotDisplayed" = "History for this conversation can’t be shown.";
+"LOCID E_IMAcceptedElsewhere" = "You accepted this conversation somewhere else. To restart it, send a new message.";
+"LOCID E_MuteFailed" = "Due to an error, others can’t see that you’re muted right now.";
+"LOCID E_UnmuteFailed" = "Due to an error, you’re still muted. Please try unmuting again.";
+"LOCID E_DgExpansionGenericFailure" = "Can’t get group members to invite. Try again later.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Group is too large to invite.";
+"LOCID E_DgExpansionNoMembersFailure" = "Group does not have any individual members and can’t be invited.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ is unavailable or may be offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ is set to Do Not Disturb.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ isn’t in service. Please check the number.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ is in another call.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ didn’t answer.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ can’t answer this call.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "This call can’t be completed while you are offline. Please try signing in to Skype for Business to make the call.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Operation was unsuccessful.";
+"LOCID E_VoiceGenericError" = "The call wasn't completed or has ended.";
+"LOCID E_VoiceFeatureNotEnabled" = "The calling feature is disabled.";
+"LOCID E_VoiceCheckNumber" = "Please check the number and try again.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "The call couldn’t be completed. Please try again later.";
+"LOCID E_VoiceCallUnsuccessful" = "Can’t connect the call.";
+"LOCID E_VoiceCallTypeNotSupported" = "Call failed. This type of call is unsupported.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "This message may not have been sent to %@ because the server timed out:";
+
+"LOCID E_SharingAnotherOperation" = "We're trying to do something else for you. Give it a sec and try again.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ didn’t get this message because of a server issue:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ is offline and didn’t get this message:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ has a Do Not Disturb status and didn't get this message:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "We couldn't send this message because we couldn't find %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Can’t send this message because of blocked content:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "We couldn't reach %@ to send this message:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "We couldn't complete your call.";
+
+"LOCID E_ConfLocked" = "You can't join the meeting because it's locked. Try contacting the organizer.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "There's an encryption mismatch between you and %@. Contact your support team.";
+
+"LOCID E_ConferencingServerError" = "A server error occurred. Please contact your support team.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ can’t be reached and might be offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ has a Do Not Disturb status and can’t be reached.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ didn’t respond to the invitation.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "We couldn't reach %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "You're not set up to join Skype Meetings.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Can't join conference while application is not signed in.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ couldn't join the meeting.";
+"LOCID E_ConferencingEnded" = "The meeting you're trying to join isn’t available.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Can’t reach %@. Try again later.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "%@ can’t be found. Please check the address.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "We couldn't reach %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ declined your invitation.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "A presenter has ended the meeting.";
+"LOCID E_ConferencingCallDisconnected" = "The call was disconnected.";
+"LOCID ConferenceUnexpectedDisconnect" = "You've been disconnected from the conference.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "The call wasn't completed or has ended.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "We can’t add %@ to the meeting because the network is busy.";
+
+"LOCID E_ConferencingCannotConnect" = "The call wasn't completed or has ended.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "You can't join this type of online meeting.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Can’t invite %@ because the meeting is full.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Can’t join the meeting as an anonymous attendee.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Can’t join the meeting due to an invitation error.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "You don’t have permission to join the meeting.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "We couldn’t join you to the meeting. Please try again.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Can’t join this meeting from outside your organization.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Can’t join this type of online meeting.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Can’t reach %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "You can’t start a meeting because another one is starting.";
+"LOCID E_ConferencingEncryptionIssues" = "We can’t start the Skype Meeting due to encryption issues.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "You don’t have sufficient permissions to join from or dial out another device.";
+"LOCID E_ConferencingMediaSessionTerminated" = "The call wasn't completed or has ended.";
+"LOCID E_ConferencingFull" = "The meeting is full.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "You don’t have permission to join this meeting.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "The invitation to %@ expired.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "The meeting ended because the hosts have left.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "You can’t join the meeting because the network is busy.";
+"LOCID E_ConferencingSubjectLineTooLong" = "The subject line is too long.";
+"LOCID E_ConferencingFeatureNotEnabled" = "This meeting feature isn’t enabled by your organization.";
+"LOCID E_ConferencingEndedDueToInactivity" = "This meeting was ended due to inactivity.";
+"LOCID E_ConferencingCannotBeFound" = "This online meeting can’t be found.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "You don’t have permission to join this meeting.";
+"LOCID E_ConferencingUserNotAdmitted" = "You were not admitted into the meeting.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "You were removed from the meeting.";
+"LOCID E_ConfGenericError" = "We couldn't join you to the meeting. Please try again.";
+"LOCID E_ConferenceDenied" = "You were denied entry by the presenter.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "You're already in a meeting. Do you want to leave it and join this one?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "The server does not support anonymous meeting join via this device.";
+"LOCID ConferenceVideoLock" = "A presenter locked the video spotlight on someone.";
+"LOCID ConferenceVideoUnlock" = "A presenter unlocked the video spotlight.";
+"LOCID ConferenceVideoSelfLock" = "Everyone is locked on your video.";
+"LOCID ConferenceVideoSelfUnlock" = "No one's locked on your video anymore.";
+
+"LOCID E_DomainNotTrusted" = "Can't connect to the server. Accept the redirection prompt.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ didn’t get this message because the format isn’t allowed:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "The device %@ is using can’t get messages.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ didn’t get this message because it’s too large:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ didn’t get this message because policy restricts delivery:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "We can’t send your IM—you're already in a conversation with %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Can’t send this message because of blocked content:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "You're not authorized to send IMs to %@. We didn't send this:";
+
+"LOCID E_IMConfGenericError" = "One or more participants didn't get this message:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ is unavailable.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Call ended because %@ signed out.";
+
+"LOCID E_VoiceCallTimeout" = "The call wasn't completed because of network issues. Please try again.";
+"LOCID E_VoiceCallDisconnected" = "Sorry, the call was disconnected. Please try again.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "The call wasn't completed or has ended.";
+"LOCID E_VoiceCallNotCompleted" = "%@ can’t get calls. Try instant messaging or email instead.";
+"LOCID E_VoiceServerError" = "Can’t connect the call due to a server error. Please try again.";
+"LOCID E_VoiceCannotConnect" = "Can’t connect to the online meeting.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Can’t contact %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Can’t locate %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "We can’t start the Skype Meeting due to encryption issues.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "The person you called responded with an IM.";
+"LOCID E_VoiceCannotCompleteCall" = "The call can’t be completed as dialed.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "The call can’t be completed due to a server issue.";
+"LOCID E_VoiceServerCannotForwardCall" = "The server can’t forward the call. Please try again.";
+"LOCID E_VoiceServerDidNotRespond" = "The server isn’t responding. Please try again later.";
+"LOCID E_VoiceCannotPlaceCall" = "Can’t place the call. Please check the number and try again.";
+"LOCID E_VoiceNumberNotSupported" = "Your organization doesn't support calling this number.";
+"LOCID E_IncomingPSTNCall" = "We couldn’t complete your call.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "You can’t call %@ because calls are restricted by policy.";
+
+"LOCID E_CallFailed" = "Your call ended due to connectivity issues. Please retry.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "You have been disconnected because you have joined from another client.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "You were removed from the meeting.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "The call couldn't be completed because the network is busy.";
+"LOCID E_VoiceNotSupported" = "%@ can't accept audio calls.";
+"LOCID E_RepliedWIthOtherModality" = "Recipient chose to respond with an instant message.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Conversation history can't be updated right now and might be out of sync.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Conversation history can't be updated right now and might be out of sync";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "We are unable to forward calls to this contact. Please select one of your Skype for Business contacts to forward calls to or select \"New Number\" to enter a phone number.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY is turned on";
+"LOCID RemoteHoldSucceeded" = "Remote user has put you on hold.";
+"LOCID RemoteUnholdSucceeded" = "Remote unhold succeeded";
+"LOCID LocalHoldSucceeded" = "Local hold succeeded";
+"LOCID LocalUnholdSucceeded" = "Local Unhold Succeeded";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Resume call";
+"LOCID is recording" = "%@ is recording";
+"LOCID Multiple Recording" = "Someone is recording";
+"LOCID OnHoldOutOfApp" = "Your %@ call is on hold.";
+"LOCID OnStopOutOfApp" = "Your %@ call has been been terminated.";
+"LOCID RecordingAlert" = "%@ is recording this call.";
+"LOCID CoversationP2PIsRecording" = "%@ is recording this call.";
+"LOCID CoversationP2PIsRecordingNoName" = "Recording this call.";
+"LOCID CoversationConferenceIsRecording" = "Someone is recording this meeting.";
+
+"LOCID ConversationsExceedArchiveLimit" = "This list is almost full. The oldest conversations will be removed as new ones are added.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "A presenter muted the audience.";
+"LOCID Audience Unlock" = "A presenter unmuted the audience.";
+"LOCID Conference Mute" = "A presenter muted you.";
+"LOCID Conference Unmute" = "A presenter wants you to unmute yourself.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "A presenter blocked attendees from sending video.";
+"LOCID PresenterBlockedVideo - Presenter" = "A presenter blocked attendees from sending video. If you're a presenter, you can turn on your camera and share your video.";
+"LOCID PresenterBlockedVideo - Unblock" = "A presenter unblocked attendees from sending video.";
+"LOCID VideoLockOnYou" = "Everyone is locked on your video.";
+"LOCID VideoLock" = "A presenter locked the video spotlight on someone.";
+"LOCID VideoNotLockOnYou" = "No one's locked on your video anymore.";
+"LOCID VideoSpotlightUnlocked" = "A presenter unlocked the video spotlight.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Back";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Call via Work isn’t available.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "No Voice Mail";
+"LOCID You currently have no voicemail messages" = "You don't have any voice mails.";
+"LOCID Audio" = "Audio";
+"LOCID Speaker" = "Speaker";
+"LOCID Can not play locally" = "We can't play this message. Tap Play to receive a call to hear it.";
+"LOCID Play Voice Mail" = "Play Voice Mail";
+"LOCID PLAY_VOICEMAIL_HINT" = "Plays Voice Mail";
+"LOCID Pause Voice Mail" = "Pause Voice Mail";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Pauses Voice Mail";
+"LOCID Play On Phone Error - No Number" = "You need to enter your phone number in Options to get a call back.";
+"LOCID Call Back" = "Call Back";
+"LOCID Delete" = "Delete";
+"LOCID More voicemails iPad" = "To listen to older voice mail messages, tap on the voice mail icon.";
+"LOCID More voicemails" = "To hear older voice mails, tap and hold 1 on the keypad, or go to Outlook.";
+"LOCID More voicemails No keypad" = "Go to Outlook to hear older voice mails.";
+"LOCID Can not play IRMed" = "This message is rights-managed. Tap Play to receive a call to hear it.";
+"LOCID Lync Call" = "Skype for Business Call";
+"LOCID Can't play on phone" = "We can't play this message. Please check your network connection and try again later.";
+"LOCID Yes" = "Yes";
+"LOCID No" = "No";
+"LOCID VMCallerID" = "Voice Mail";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Play the voicemail at regular speed";
+"LOCID VM Playback -2X Acc" = "Play the voicemail slower at half the speed";
+"LOCID VM Playback 2X Acc" = "Play the voicemail faster at twice the speed";
+"LOCID Voicemail From" = "Voice mail from %@";
+"LOCID No Voicemails Placeholder" = "Your voicemails will appear here";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Dismiss";
+"LOCID Accept" = "Accept";
+"LOCID Not yet implemented feature" = "This feature has not been implemented yet. Please try again in a future release.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "You have 1 new voice mail";
+"LOCID Missed VMs" = "You have %d new voice mails";
+"LOCID Missed Collab Out of App" = "Missed collaboration session from %@";
+"LOCID Missed Video Call Out of App" = "Missed video call from %@";
+"LOCID Missed Audio Call Out of App" = "Missed call from %@";
+"LOCID Missed Message Out of App" = "Missed instant message from %@";
+"LOCID Missed Audio Conf Out of App" = "Missed conference call from %@";
+
+"LOCID Audio Call Out of App" = "Call from %@";
+"LOCID Conference Call Out of App" = "Conference call from %@";
+"LOCID Dismiss Call" = "Ignore";
+"LOCID Answer Call" = "Accept";
+"LOCID Answer Call with Video" = "Video";
+"LOCID Audio Call" = "Call";
+"LOCID Conference Call" = "Conference Call";
+"LOCID Unknown Caller" = "Unknown Caller";
+
+"LOCID Video conf accessibility" = "Video conference from %@";
+"LOCID Video accessibility" = "Video call from %@";
+"LOCID Audio conf accessibility" = "Conference call from %@";
+"LOCID Audio accessibility" = "Call from %@";
+
+"LOCID Video Call Out of App" = "Video call from %@";
+"LOCID Video Conference Call Out of App" = "Video conference from %@";
+"LOCID Video Call" = "Video Call";
+"LOCID Video Conference Call" = "Video Conference";
+"LOCID Video Escalation Name" = "%@ is sharing video";
+"LOCID Video Escalation" = "is sharing video";
+"LOCID Video Escalation Conf" = "Someone is sharing video";
+"LOCID VideoInvitationRejected" = "The video portion of the call was not accepted.  The call will continue with audio only.";
+"LOCID E_VideoDecline" = "%@ didn't accept your video.";
+"LOCID E_VideoGeneric" = "We couldn't start your video. Please try again.";
+"LOCID E_VideoNotStarted" = "We couldn't start your video.";
+"LOCID E_VideoNotSupported" = "%@ can't accept video calls.";
+"LOCID E_VideoNotAccepted" = "The video portion of the call was not accepted by %@. The call will continue with audio only.";
+
+"LOCID E_VoiceTransferGenericError" = "The call couldn't be transferred.";
+"LOCID E_VoiceTransferParticipantError" = "The call couldn't be transferred because the recipient can't be reached.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "mute";
+"LOCID Mute Capitalized" = "Mute";
+"LOCID Unmute" = "Unmute";
+"LOCID keypad" = "keypad";
+"LOCID add call" = "add call";
+"LOCID hold" = "hold";
+"LOCID End" = "End";
+"LOCID Hide Keypad" = "Hide Keypad";
+"LOCID Call Lync" = "Skype for Business Call";
+"LOCID Call Work" = "Work: %@";
+"LOCID Call Mobile" = "Mobile: %@";
+"LOCID Call Home" = "Home: %@";
+"LOCID Call Other" = "Other: %@";
+"LOCID Decline" = "Decline";
+"LOCID Video Menu" = "Video Menu";
+"LOCID Hold Call" = "Hold Call";
+"LOCID Hang Up" = "Hang Up";
+"LOCID Dial Pad Only" = "Dial Pad";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u participants - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u participant - %@";
+"LOCID Call Status Connecting" = "Connecting...";
+"LOCID Call Status Connecting Remote" = "Connecting...";
+"LOCID Call Status Connected" = "Connected";
+"LOCID Call Status On Hold - Passive" = "Hold";
+"LOCID Call Status On Hold" = "On Hold";
+"LOCID Call Status Ended" = "Call Ended";
+"LOCID Call Status Transfering" = "Transferring";
+"LOCID On behalf of" = "On behalf of %@";
+"LOCID Call for" = "Call for %@";
+"LOCID Call for - Astana" = "Call for %@";
+"LOCID Transferred by" = "Transferred by %@";
+"LOCID Forwarded by" = "Forwarded by %@";
+"LOCID Private call" = "Private call";
+"LOCID Also ringing" = "Also ringing %@";
+"LOCID Also ringing delegates" = "Also ringing your delegates";
+"LOCID Will ring" = "Will ring %@";
+"LOCID Also ringing team call" = "Also ringing your team";
+"LOCID The recipient" = "The recipient";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Initializing ...";
+"LOCID DataCollab Connecting" = "Connecting ...";
+"LOCID DataCollab Loading" = "Loading...";
+"LOCID DataCollab No Content" = "Presenters have stopped sharing the content.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Data sharing feature is unavailable due to server connection failure.";
+"LOCID DisconnectedOnConnectivityIssue" = "Some presenting features are unavailable due to server connectivity issues.";
+"LOCID DisconnectedOnConnectedElsewhere" = "You were disconnected because you joined from another client.";
+"LOCID DisconnectedOnNetworkFailure" = "Network issues are keeping you from seeing the presentation.";
+"LOCID DataCollab Known UnSupported" = "The presenter is using a feature that isn’t supported by this version of Skype for Business.";
+"LOCID DataCollab Generic UnSupported" = "The presenter is using a feature that isn’t supported by this version of Skype for Business or they could be connected to an older server.";
+"LOCID DataCollab ContentPresenter" = "Presenter: %@";
+"LOCID DataCollab NoPresenter" = "No one is presenting";
+"LOCID Collab Unsupported PPTContent" = "Sorry, we can't play the media in this presentation.";
+"LOCID Retry" = "Retry";
+"LOCID DataCollab Generic PPT Error" = "Some presenting features are unavailable due to server connectivity issues.";
+"LOCID Start Viewing" = "Start Viewing";
+"LOCID Stop Viewing" = "Stop Viewing";
+"LOCID Collab Escalation" = "%@ wants to start presenting";
+"LOCID PowerPoint content Accessibility" = "PowerPoint content";
+
+"LOCID SyncPresenterButton" = "Sync to presenter view";
+"LOCID NavigateBackButton" = "Move back a slide";
+"LOCID NavigateForwardButton" = "Move forward a slide";
+"LOCID SlideNumber" = "%1$d of %2$d";
+"LOCID SlideNumber Accessibility" = "Slide %1$d of %2$d";
+
+"LOCID E_SharingDisabled" = "Presenting is disabled.";
+"LOCID E_SharingNetworkIssues" = "You can't present because of network issues. Please try again later.";
+"LOCID E_SharingNotSupported" = "Presenting isn't supported with this contact.";
+"LOCID E_SharingTimeout" = "The presentation didn't start because the server is busy. Please try again later.";
+"LOCID SharingAnotherType" = "This presentation has ended because another one has started.";
+"LOCID E_GetMediaSdpFailed" = "Can't connect you to the desktop or program presentation right now.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "You won't see presented content because you're not connected to Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "You can't make a Skype for Business call because you're not connected to Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "The presentation is too big to see on your device.";
+"LOCID E_CollabDisconnectedNetworkError" = "You were disconnected from the presentation due to network issues.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "You were disconnected because you joined from another client.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Content sharing is loading.";
+"LOCID AppSharing Shared Content" = "Shared content.";
+"LOCID AppSharing Desktop" = "Desktop";
+"LOCID AppSharing Application" = "Application";
+"LOCID AppSharing SharingPaused" = "Sharing is currently paused."; // Not used
+"LOCID AppSharing SharingIdle" = "Sharing is currently idle."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "All resources are minimized."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ tried to start a screen presentation, but this version of the app only supports that in conference calls and Skype Meetings.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Start IM";
+"LOCID send IM" = "Send";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "End Conversation";
+"LOCID View Contact Card" = "See Contact Card";
+"LOCID Invite Others" = "Invite Others";
+"LOCID Send Location action" = "Send Location";
+"LOCID Send as Email action" = "Send as Email";
+"LOCID View Participants" = "See Participants";
+"LOCID Rejoin" = "Rejoin";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Double-tap to expand";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Poor call quality";
+"LOCID ACI Call Muted" = "Currently muted, double-tap to unmute";
+"LOCID ACI Call Unmuted" = "Currently unmuted, double-tap to mute";
+
+/* Search results */
+"LOCID No Results" = "No Results";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ Quit Unexpectedly";
+"LOCID Dont Send" = "Don't Send";
+"LOCID Send Report" = "Send Report";
+"LOCID Would you like to send a report so we can fix the problem" = "Would you like to send a report so we can fix the problem?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "home";
+"LOCID Timeline Contacts" = "contacts";
+"LOCID Timeline Meetings" = "meetings";
+"LOCID Timeline Search Placeholder" = "search for contacts";
+"LOCID Timeline Recent" = "recent";
+"LOCID Timeline Upcoming" = "upcoming";
+"LOCID Timeline TableView" = "timeline";
+"LOCID Timeline Meeting Time All Day" = "all day";
+"LOCID Timeline Search Skype Contacts" = "contacts";
+"LOCID Timeline Search Phone Contacts" = "phone contacts";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "contacts";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "dialpad and voice mail";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "dialpad, %ld new voice mail";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "dialpad, %ld new voice mails";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "meetings";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "home";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "my info";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, new messages, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "call";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "video call";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "mark as read";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "delete";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "join meeting";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "dismiss";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "admit";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "available";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "busy";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "away";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "offline";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "do not disturb";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "presence unknown";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "clear text";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "search for contacts";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "video call";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "call";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Join meeting";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Empty chat";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Profile picture";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld new voice mail";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld new voice mails";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Angel";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Angry";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Bandit";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Soccer";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Beer";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Laugh";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Bike";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Blushing";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Bowing";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Broken heart";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Cake";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Call";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Camera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Can you talk?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Car";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Cash";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Cat";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Clapping";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Coffee";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Computer";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Confidential";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Cool";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Crying";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Dancing";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Devil";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Dog";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Doh";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Drink";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Dull";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Envy";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Evil";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Facepalm";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Fingers crossed";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Flower";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Games";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Gift";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Giggle";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Good luck";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Gotta run";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Handshake";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Happy";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Banging head on wall";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Heart";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Squirrel";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Waving";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "High five";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Hold on";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Hug";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Idea";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "In love";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Island";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "It wasn't me!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Kiss";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Not listening";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Lets meet";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "My lips are sealed";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "You have mail";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Makeup";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Man";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Movie";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Muscle";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Music";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Nerd";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "No";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Nod";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Party";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Phone";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Plane";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Puking";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Punch";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Raining";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Rainbow";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Rolling on the floor laughing";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Sad";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Shake";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Sleepy";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Smile";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Smirk";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Snail";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Speechless";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Star";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Stop";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Sunshine";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Surprised";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Swear";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Sweating";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Talking";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Talk to the hand";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Thinking";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Time";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Too much information";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Smiley with tongue out";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Tumbleweed";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Umbrella";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Wait";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Waiting";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Working from home";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "What's going on";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Whew";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Wink";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Woman";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Wondering";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Worried";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Yawning";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Yes";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Type a message here";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Say hi to %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Say hi to the group";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Your conversations will appear here";
+"CHAT_FAILED_TO_SEND" = "We couldn't send this message: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Show chat";
+"LOCID CONVERSATION_HIDE_CHAT" = "Hide chat";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Show sidebar";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Hide sidebar";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "emoticons";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "d";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "d";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "h";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "h";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "min";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "min";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "s";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "s";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d new notifications";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "One new notification";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "No new notification";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "conference ended";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u participants";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "dismiss";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "open";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "copy";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "add to Reading List";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "open in Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "back";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "forward";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "cancel";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ is typing...";
+"CHATTYPING_TWOUSERS" = "%@ and %@ are typing...";
+"CHATTYPING_THREEUSERS" = "%@, %@ and one other are typing...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ and %d others are typing...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "send email";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "see contact card";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "participants";
+"DROPDOWN_ADD_PARTICIPANTS" = "add participants";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Incoming";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Outgoing";
+
+"LOCID Meetings Page Title" = "Meetings";
+"LOCID No Meetings Placeholder" = "Your meetings will appear here";
+"LOCID Meetings Today" = "Today";
+"LOCID Meetings Tomorrow" = "Tomorrow";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Set your personal note";
+
+"PARTICIPANTS_VIEW_TITLE" = "Participants";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Waiting in Lobby";
+"PARTICIPANTS_VIEW_ON_CALL" = "On this call";
+
+"MEETING_VIEW_TITLE" = "Meeting";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Join Meeting";
+"MEETING_VIEW_ORGANISER_LABEL" = "Organizer";
+"MEETING_VIEW_INVITEES_LABEL" = "Invitees";
+"MEETING_VIEW_NOTES_LABEL" = "Notes";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Click to join \"%@\" using Skype for Business:"; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Connecting...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Pick an emoticon";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Send message";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Call Ended";
+"INVITE_PARTICIPANTS" = "Invite participants";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Back";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Address Book";
+"LOCID_PHONE_NUMBER" = "Phone Number";
+"LOCID_MORE" = "More";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Switch Video";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Show Contact Profile";
+"CHAT_OPTION_PARTICIPANTS" = "Participants";
+"LOCID_CONTACTS_TABLE_VIEW" = "Contacts View";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Incoming Call";
+"LOCID_MEETINGS_TABLE_VIEW" = "Meetings View";

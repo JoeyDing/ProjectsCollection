@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C0F509B-016F-421A-986E-63EBFA84C697}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Automation.UI.Shell.Wpf.Infrastructure</RootNamespace>
+    <AssemblyName>Automation.UI.Shell.Wpf.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Shell\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Prism, Version=6.1.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Core.6.1.0\lib\net45\Prism.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Prism.Wpf, Version=6.1.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Wpf.6.1.1-pre2\lib\net45\Prism.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls">
+      <HintPath>..\Dependencies\Telerik\Telerik.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Data">
+      <HintPath>..\Dependencies\Telerik\Telerik.Windows.Controls.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Docking">
+      <HintPath>..\Dependencies\Telerik\Telerik.Windows.Controls.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.GridView">
+      <HintPath>..\Dependencies\Telerik\Telerik.Windows.Controls.GridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Input">
+      <HintPath>..\Dependencies\Telerik\Telerik.Windows.Controls.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Navigation">
+      <HintPath>..\Dependencies\Telerik\Telerik.Windows.Controls.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Data">
+      <HintPath>..\Dependencies\Telerik\Telerik.Windows.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigPopUp\ConfigPopUpControl.xaml.cs">
+      <DependentUpon>ConfigPopUpControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPopUp\ConfigPopUpControlViewModel.cs" />
+    <Compile Include="ConfigService.cs" />
+    <Compile Include="ConfiguratonUserControl\ConfigUserControl.xaml.cs">
+      <DependentUpon>ConfigUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Contracts\ICanDeserialize.cs" />
+    <Compile Include="Core\Contracts\ICanSerialize.cs" />
+    <Compile Include="Core\Contracts\ILoadDictForPopup.cs" />
+    <Compile Include="Core\Contracts\ISaveToExcel.cs" />
+    <Compile Include="Core\Contracts\ISendEmail.cs" />
+    <Compile Include="Core\Contracts\IView.cs" />
+    <Compile Include="Core\DeserializeService.cs" />
+    <Compile Include="Core\DispatcherService.cs" />
+    <Compile Include="Core\Contracts\IDispatcher.cs" />
+    <Compile Include="Core\PropertyChangedHandler.cs" />
+    <Compile Include="Core\SaveToExcelService.cs" />
+    <Compile Include="Core\SendEmailService.cs" />
+    <Compile Include="Core\ShellViewModelBase.cs" />
+    <Compile Include="Core\TestCaseImageStore.cs" />
+    <Compile Include="Core\TestResult.cs" />
+    <Compile Include="EmailConfig.cs" />
+    <Compile Include="EmailSettingReflection.cs" />
+    <Compile Include="LinkDialog\LinkDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinkDialog\LinkDialogForm.Designer.cs">
+      <DependentUpon>LinkDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadDictForPopupService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Core\RegionNames.cs" />
+    <Compile Include="SerializeService.cs" />
+    <Compile Include="StringListControl\ListBoxControl.xaml.cs">
+      <DependentUpon>ListBoxControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestRunner\Contracts\ILanguagesProvider.cs" />
+    <Compile Include="TestRunner\Contracts\ITestCasesProvider.cs" />
+    <Compile Include="TestRunner\Contracts\IContainGridView.cs" />
+    <Compile Include="TestRunner\Contracts\ITestRunnerView.cs" />
+    <Compile Include="TestRunner\DummyLanguagesProvider.cs" />
+    <Compile Include="TestRunner\DummyTestCasesProvider.cs" />
+    <Compile Include="TestRunner\Contracts\ITestRunnerViewModel.cs" />
+    <Compile Include="TestRunner\StatusHistory\Contracts\ILogStatusHistory.cs" />
+    <Compile Include="TestRunner\StatusHistory\GridViewStatusGroupView.cs" />
+    <Compile Include="TestRunner\StatusHistory\History.cs" />
+    <Compile Include="TestRunner\StatusHistory\LogStatusHistoryService.cs" />
+    <Compile Include="TestRunner\StatusBoolToVisibilityConverter.cs" />
+    <Compile Include="TestRunner\Language.cs" />
+    <Compile Include="TestRunner\StatusHistory\Contracts\IExpandStatusGroupView.cs" />
+    <Compile Include="TestRunner\TestCase.cs" />
+    <Compile Include="TestRunner\TestRunnerControl.xaml.cs">
+      <DependentUpon>TestRunnerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestRunner\TestRunnerControlViewModel.cs" />
+    <EmbeddedResource Include="LinkDialog\LinkDialogForm.resx">
+      <DependentUpon>LinkDialogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ConfigPopUp\ConfigPopUpControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfiguratonUserControl\ConfigUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StringListControl\ListBoxControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestRunner\TestRunnerControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestRunner\StatusHistory\assets\complete.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TestRunner\StatusHistory\assets\error.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TestRunner\StatusHistory\assets\notice.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\red_x_mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\garageDayRemoteLogger\RemotLogger.Client.Lib\RemotLogger.Client.Lib.csproj">
+      <Project>{aed68336-3695-4967-963f-d06515a9b747}</Project>
+      <Name>RemotLogger.Client.Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Automation.UI.Shell.Core\Automation.UI.Shell.Core.csproj">
+      <Project>{106CD57A-5FB1-4766-9A68-7453B8FC7043}</Project>
+      <Name>Automation.UI.Shell.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

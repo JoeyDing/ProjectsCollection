@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testAccount>
+  <SkypeAccount>
+    <SignIn>
+      <UserName>arswxtest</UserName>
+      <PassWord>07Apples</PassWord>
+    </SignIn>
+    <leaveConversation>mingcai.zhang66</leaveConversation>
+  </SkypeAccount>
+  <OWAAccount>
+    <SignIn>
+      <UserName>swxtestchs@outlook.com</UserName>
+      <PassWord>07Apples</PassWord>
+    </SignIn>
+    <leaveConversation>mingcai.zhang66</leaveConversation>
+  </OWAAccount>
+  <KahunaAccount>
+    <SignIn>
+      <UserName>swxkahunatest11@outlook.com</UserName>
+      <PassWord>skypetestaccount</PassWord>
+    </SignIn>
+    <leaveConversation>mingcai.zhang66</leaveConversation>
+  </KahunaAccount>
+</testAccount>

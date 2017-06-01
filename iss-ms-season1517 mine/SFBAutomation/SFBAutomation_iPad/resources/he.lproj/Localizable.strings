@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "השב";
+"JOIN" = "קבל";
+"VIEW" = "הצג";
+"IGNORE" = "התעלם";
+"LAUNCH" = "הפעל";
+"NEW_IM_MESG" = "%@:‏ %@";
+"NEW_IM_CONFERENCE_INVITE" = "מזמין/ה אותך לשיחה";
+"NEW_IM_BURNT_TOAST" = "שיחה שלא נענתה עם %@";
+"SIGN_IN" = "כניסה";
+"SIGN_OUT" = "יצאת מהמערכת עקב חוסר פעילות.";
+"MWI" = "הודעות דואר קולי חדשות: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "כתובת כניסה למערכת";
+"LOCID Password" = "סיסמה";
+"LOCID User Name" = "שם משתמש";
+"LOCID Domain" = "תחום";
+"LOCID Auto-Detect Server" = "זהה אוטומטית שרת";
+"LOCID Sign-in As" = "כניסה במצב";
+"LOCID User Name Footer" = "משתמשי Skype for Business Online‏: username@domain.com\nכל המשתמשים האחרים: domain\\username";
+"LOCID Hide Details" = "הסתר אפשרויות מתקדמות";
+"LOCID More Details" = "הצג אפשרויות מתקדמות";
+"LOCID Save Password" = "שמור את הסיסמה שלי";
+
+/* generic share button */
+"LOCID share" = "שתף";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "כתובת גילוי פנימית";
+"LOCID External Server Address" = "כתובת גילוי חיצונית";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "עזור לנו לשפר את Skype for Business בכך שתשלח לנו את פרטי שגיאות הכניסה שבהן אתה נתקל.";
+"LOCID Sign In BRB Reason 2" = "האם נוכל לאסוף מידע אודות שגיאת כניסה זו ושגיאות כניסה עתידיות? תוכל תמיד לשנות זאת מאוחר יותר באפשרויות.";
+"LOCID BRBDonotshow" = "אל תציג הודעה זו שוב";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "כניסה";
+"LOCID Sign Out" = "יציאה";
+"LOCID Cancel Sign in" = "בטל כניסה";
+"LOCID Lync Is Signing In" = "נכנס ל- Skype for Business";
+"LOCID Lync Is Signing Out" = "יוצא מ- Skype for Business";
+
+// Help
+"LOCID signin help" = "עזרה בכניסה";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "המידע שלי";
+"LOCID Contacts" = "אנשי קשר";
+"LOCID Conversations" = "צ'אטים";
+"LOCID Meetings" = "פגישות";
+"LOCID Phone" = "טלפון";
+"LOCID Signing In" = "נכנס...";
+"LOCID Signed Out" = "יצא";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "מה קורה היום?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "הודעת מצב רוח";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "הזן הודעת מצב רוח";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "הקש פעמיים כדי לערוך";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "לא ידוע";
+"LOCID Available" = "זמין/ה";
+"LOCID Busy" = "עסוק/ה";
+"LOCID Busy Inactive" = "עסוק/ה ולא פעיל/ה";
+"LOCID Do Not Disturb" = "נא לא להפריע";
+"LOCID Be Right Back" = "תכף אשוב";
+"LOCID Presence unknown" = "נוכחות לא ידועה";
+"LOCID Off Work" = "לא בעבודה";
+"LOCID Appear Away" = "מופיע/ה כלא נמצא/ת";
+"LOCID Away" = "לא נמצא/ת";
+"LOCID Inactive" = "לא פעיל/ה";
+"LOCID Reset Status" = "איפוס מצב";
+"LOCID Offline" = "לא מקוון/ת";
+"LOCID Blocked" = "חסום/ה";
+"LOCID Sign In As Header" = "בחר מצב להצגה:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "בשיחה";
+"LOCID In a Conference Call" = "בשיחת ועידה";
+"LOCID Presenting" = "מציג/ה";
+"LOCID In a Meeting" = "בפגישה";
+"LOCID Out of Office" = "מחוץ למשרד";
+"LOCID Urgent Interruptions Only" = "הפרעות דחופות בלבד";
+"LOCID Out To Lunch" = "בארוחת צהריים";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "ל- Skype for Business אין אפשרות להציג את אנשי הקשר שלך ב- iPhone. תוכל לפתור זאת בהגדרות iPhone.";
+"LOCID ContactsPermissionNotGiven iPad" = "ל- Skype for Business אין אפשרות להציג את אנשי הקשר שלך ב- iPad. תוכל לפתור זאת בהגדרות iPad.";
+"LOCID Other Contacts" = "אנשי קשר אחרים";
+"LOCID Pinned Contacts" = "מועדפים";
+"LOCID Retrieving Members" = "נא המתן...";
+"LOCID Cannot connect Try again" = "אין אפשרות לקבל את חברי הקבוצה עכשיו. נסה שוב מאוחר יותר.";
+"LOCID Group is too large to display" = "הקבוצה גדולה מדי להצגה.";
+"LOCID No members" = "אין חברים";
+"LOCID Searching the company directory" = "מחפש במדריך הכתובות של החברה...";
+"LOCID Please signin to search" = "היכנס למערכת כדי לחפש במדריך הכתובות של החברה.";
+"LOCID Too many results" = "יותר מדי תוצאות; נסה למקד את החיפוש.";
+"LOCID Unable to connect to the server" = "אין אפשרות להתחבר לשרת עכשיו. נסה שוב.";
+"LOCID E_SearchTooLong" = "לא מצאנו התאמות. נסה חיפוש קצר יותר.";
+"LOCID No Name" = "אין שם";
+"LOCID idle day" = "יום %d";
+"LOCID idle days" = "%d ימים";
+"LOCID idle hour" = "שעה %d";
+"LOCID idle hours" = "%d שעות";
+"LOCID idle minutes" = "%d דקות";
+"LOCID inactive idle day" = "לא פעיל/ה יום %d";
+"LOCID inactive idle days" = "לא פעיל/ה %d ימים";
+"LOCID inactive idle hour" = "לא פעיל/ה שעה %d";
+"LOCID inactive idle hours" = "לא פעיל/ה %d שעות";
+"LOCID inactive idle minutes" = "לא פעיל/ה %d דקות";
+"LOCID DG does not exist" = "קבוצת התפוצה כבר לא קיימת.";
+"LOCID Access to DG denied" = "הגישה לקבוצת התפוצה נדחתה";
+"LOCID No Contacts Placeholder" = "אנשי הקשר שלך יופיעו כאן";
+"LOCID No Contacts" = "אין אנשי קשר";
+"LOCID You currently have no contacts" = "אין לך כרגע אנשי קשר";
+"LOCID Retrieving Contacts..." = "מקבל אנשי קשר...";
+"LOCID Expanded" = "קבוצה %@, מורחבת";
+"LOCID Collapsed" = "קבוצה %@, מכווצת";
+"LOCID Group card- acc" = "כרטיס קבוצה";
+"LOCID Open group card - acc" = "הקש כדי לפתוח את כרטיס הקבוצה";
+
+/* Contact Card*/
+"LOCID Loading name" = "טוען שם...";
+"LOCID Details" = "כרטיס";
+"LOCID Work" = "עבודה";
+"LOCID Home" = "בית";
+"LOCID Mobile" = "נייד";
+"LOCID Other" = "אחר";
+"LOCID other lowercase" = "אחר";
+"LOCID Office" = "משרד";
+"LOCID Company" = "חברה";
+"LOCID Department" = "מחלקה";
+"LOCID Send Text Message" = "שלח הודעת טקסט";
+"LOCID IM" = "הודעה מיידית";
+"LOCID E-Mail" = "דואר אלקטרוני";
+"LOCID unknown lowercase" = "לא ידוע";
+"LOCID Location lowercase" = "מיקום";
+"LOCID Calendar" = "לוח שנה";
+"LOCID Link" = "קישור";
+"LOCID Disabled" = "%@, לא זמין"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "הערה";
+"LOCID Video" = "וידאו";
+
+/* DG Card*/
+"LOCID Members" = "חברים"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "הזמן";
+"LOCID Transfer" = "העבר";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business מנסה לנתב אותך מחדש אל:";
+"LOCID certIssuedBy" = "הונפק על-ידי:";
+"LOCID certSubject" = "נושא:";
+"LOCID certExpires" = "תאריך תפוגה:";
+"LOCID certSignature" = "אלגוריתם חתימה:";
+"LOCID certDonotshow" = "אל תציג הודעה זו שוב.";
+"LOCID Continue" = "המשך";
+"LOCID certNone" = "ללא הצפנה";
+"LOCID certRSA" = "הצפנת RSA";
+"LOCID certDSA" = "הצפנת DSA";
+"LOCID certDH" = "הצפנת DH";
+"LOCID certEC" = "הצפנת EC";
+"LOCID certHMAC" = "הצפנת HMAC";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "שיחה";
+"LOCID Chats - Phone Call" = "שיחת טלפון";
+"LOCID Chats - Video Call" = "שיחת וידאו";
+"LOCID Chats - Meeting" = "פגישה";
+"LOCID Chats - Missed Call" = "שיחה שלא נענתה";
+"LOCID Chats - Missed Video Call" = "שיחת וידאו שלא נענתה";
+"LOCID Chats - Current Call" = "השיחה הנוכחית";
+"LOCID Chats - Current Call With Duration" = "השיחה הנוכחית, %@";
+"LOCID Phone Status - Connecting" = "מתחבר...";
+"LOCID Phone Status - On Hold" = "בהמתנה";
+"LOCID Phone Status - Transferring" = "מעביר";
+"LOCID Transferring to" = "מעביר אל %@...";
+"LOCID Chats Full" = "לידיעתך: הרשימה הזו מלאה. השיחות הישנות ביותר יוסרו ברגע שיתווספו שיחות חדשות.";
+"LOCID Close Conversation" = "מחק שיחה";
+"LOCID View Participants List" = "הצג רשימת משתתפים";
+"LOCID Call Contact" = "התקשר אל %@";
+"LOCID Video Call Contact" = "שיחת וידאו";
+"LOCID Video Conference Contact" = "שיחת ועידה בווידאו";
+"LOCID Edit" = "ערוך";
+"LOCID Deselect All" = "בטל את כל הבחירות";
+"LOCID Select All" = "בחר הכל";
+"LOCID Me" = "אני: %@";
+"LOCID Missed" = "לא נענתה: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "שיחה קבוצתית";
+"LOCID Tap To Enter Text" = "הקש כדי להקליד";
+"LOCID No Conversations" = "אין שיחות";
+"LOCID No Conversations Hint" = "אין לך כרגע שיחות";
+"LOCID Delete Count" = "מחק (%d)";
+"LOCID Delete None" = "מחק";
+"LOCID Escalating audio conference" = "מתחיל שיחת ועידה...";
+"LOCID Escalating video conference" = "מתחיל שיחת ועידה בווידאו...";
+"LOCID No Participants" = "אין משתתפים";
+"LOCID No Other Participants" = "אין משתתפים אחרים";
+"LOCID One Participant" = "משתתף אחד";
+"LOCID Some Participants" = "%d משתתפים";
+"LOCID Max Participants" = "%d משתתפים ומעלה";
+"LOCID Large Meeting" = "פגישה מרובת משתתפים";
+"LOCID Toast No Invite" = "מזמין/ה אותך לשיחה";
+"LOCID Participant Join" = "%@ הצטרף/ה לפגישה";
+"LOCID Participant Leave" = "%@ עזב/ה את הפגישה";
+"LOCID Participant Join Failure" = "ל- %@ לא היתה אפשרות להצטרף לפגישה";
+"LOCID Large Conference" = "פגישה מרובת משתתפים";
+"LOCID Large Conference Detail" = "רשימת המשתתפים אינה זמינה לפגישות מרובות משתתפים.";
+"LOCID No Participants Detail" = "אין משתתפים בשיחה זו";
+"LOCID cannotSend" = "לא היתה אפשרות לשלוח את ההודעה שלך:";
+"LOCID Missed Conversation" = "שיחה שלא נענתה";
+"LOCID Send as Email" = "שלח כדואר אלקטרוני";
+"LOCID Email Subject" = "שיחת %1$@ עם %2$@";
+"LOCID Anonymous" = "אנונימי";
+"LOCID Duration" = "משך זמן:";
+"LOCID Switch Camera" = "החלף מצלמה";
+"LOCID Swap PIP" = "החלף תמונה בתמונה";
+"LOCID Leave Video" = "עזוב את הווידאו";
+"LOCID Start My Video" = "הפעל את הווידאו שלי";
+"LOCID Stop My Video" = "הפסק את הווידאו שלי";
+"LOCID End Video" = "סיים וידאו";
+"LOCID LargeMtgActiveSpeakerMissing" = "פרטי הדובר אינם זמינים עבור פגישות מרובות משתתפים.";
+"LOCID Swap Preview" = "החלף תצוגה מקדימה";
+"LOCID Speaker On" = "רמקולים מופעלים";
+"LOCID Speaker Off" = "רמקולים סגורים";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "הווידאו מופעל";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "הקש פעמיים כדי לסגור את הווידיאו.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "הווידאו כבוי";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "הקש פעמיים כדי להפעיל את הווידיאו.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "הטלפון עם הרמקול מופעל";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "הקש פעמיים כדי לסגור את הטלפון עם הרמקול.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "הטלפון עם הרמקול כבוי";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "הקש פעמיים כדי להפעיל את הטלפון עם הרמקול.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "השיחה מושתקת";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "הקש פעמיים כדי לבטל את ההשתקה.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "השיחה לא מושתקת";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "הקש פעמיים כדי להשתיק.";
+
+"LOCID Instant Messaging" = "העברת הודעות מיידיות";
+"LOCID Voice" = "קול";
+"LOCID Collaboration" = "שיתוף פעולה";
+"LOCID Participants" = "משתתפים";
+"LOCID Full Screen" = "מסך מלא";
+"LOCID Exit Full Screen" = "צא ממסך מלא";
+"LOCID Local Participant Alone in Conference Msg" = "נראה שאתה האדם היחיד בשיחה.";
+"LOCID 1 or more participants" = "משתתף אחד או יותר";
+"LOCID Call Started" = "השיחה התחילה - ‎%@";
+"LOCID Call Ended Missed" = "השיחה הסתיימה - ‎%@ [לא נענתה]";
+"LOCID Call Ended Duration" = "השיחה הסתיימה - ‎%@ [משך זמן: %@]";
+"LOCID ConferenceEndedRejoin" = "התנתקת מהפגישה. הקש למטה כדי להצטרף מחדש.";
+"LOCID ConferenceEndedContinue" = "אם תתחיל מחדש שיחה זו, תישלח הזמנה חדשה לכל מי שהיה בה.";
+"LOCID IM P2P Toast Voiceover" = "%@ מזמין/ה אותך לשיחה. הקש פעמיים כדי לקבל.";
+"LOCID IM Conf Toast Voiceover" = "%@ מזמין/ה אותך לשיחה קבוצתית. הקש פעמיים כדי לקבל.";
+"LOCID Video is Locked on you" = "הווידאו נעול עליך.";
+
+"LOCID SFB Call Started" = "השיחה התחילה";
+"LOCID SFB Call Ended" = "השיחה הסתיימה";
+"LOCID SFB Call Ended Duration" = "השיחה הסתיימה, %@";
+
+/* Roster*/
+"LOCID Presenters" = "מציגים (%d)";
+"LOCID Attendees" = "משתתפים (%d)";
+"LOCID In Lobby" = "חדר כניסה (%d)";
+"LOCID Guest" = "אורח";
+"LOCID Remove" = "הסר";
+"LOCID E_RemoveFailed" = "לא היתה אפשרות להסיר את המשתתף.";
+"LOCID E_AddFailed" = "לא היתה אפשרות להוסיף את המשתתף.";
+
+/*Lobby*/
+"LOCID Admit all" = "הכנס את כולם";
+"LOCID Deny all" = "דחה את כולם";
+"LOCID Admit" = "הכנס";
+"LOCID Deny" = "דחה";
+"LOCID See Lobby" = "הצג את חדר הכניסה";
+"LOCID Conference In the Lobby" = "יש משתתפים הממתינים בחדר הכניסה.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "הפוך למציג";
+"LOCID Demote" = "הפוך למשתתף";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "נייד";
+"LOCID Voice and IM Unavailable" = "קול והודעות מיידיות אינם זמינים";
+"LOCID Voice Only" = "קול בלבד";
+"LOCID Voice and Video Only" = "קול ווידאו בלבד";
+"LOCID IM Only" = "הודעות מיידיות בלבד";
+"LOCID No Voice" = "ללא קול";
+"LOCID Video capable" = "יכולת וידאו";
+"LOCID No IM" = "ללא הודעות מיידיות";
+"LOCID Mobile Cap" = "נייד";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "מקלדת";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "";
+"LOCID Dialpad" = "לוח חיוג";
+"LOCID Dialpad STAR Key" = "כוכבית";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "סולמית"; // Used for accessibility
+"LOCID Delete Key" = "מחק";   // Used for accessibility
+"LOCID Emergency number" = "מספר חירום"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "הסתר";
+"LOCID Dialpad Search Recent Calls" = "שיחות אחרונות";
+"LOCID Dialpad Search Native Contacts" = "אנשי קשר בטלפון";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "בעיות באנשי קשר";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "אירעה בעיה בגישה למספרי טלפון מאנשי הקשר שלך. נסה לסנכרן מחדש את חשבונות הדואר שלך ב'הגדרות' כדי לפתור את הבעיה.";
+
+/* My Status Tab */
+"LOCID Options" = "הגדרות";
+"LOCID Send Feedback" = "שלח משוב";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "‏‎%1$@ עד ‎%2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@,‏ %2$@";
+"LOCID Calendar Event View From Date Format" = "מ- %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "עד ‎%1$@‏ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "מ- ‎%1$@ עד ‎%2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "אין פגישות";
+"LOCID All" = "הכל";
+"LOCID No Meetings Scheduled" = "אין לך פגישות מתוזמנות";
+"LOCID None" = "ללא";
+"LOCID Organizer" = "מארגן";
+"LOCID Invitees" = "מוזמנים";
+"LOCID Notes" = "הערות";
+"LOCID Join" = "הצטרף";
+"LOCID Updated DATE TIME" = "עודכן %1$@‏ ‎%2$@";
+"LOCID Online" = "מקוון";
+"LOCID Tentative" = "לא סופי";
+"LOCID Event" = "אירוע";
+"LOCID Updating..." = "מעדכן...";
+"LOCID Tentative Voiceover" = "%@, לא סופי";
+"LOCID Pull to refresh" = "משוך כדי לרענן";
+"LOCID Today" = "היום"; // CAPS
+"LOCID Tomorrow" = "מחר"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "אם אינך המארגן, המיקרופון שלך יושתק כאשר תצטרף.";
+"LOCID Lync Conferencing" = "פגישת Skype";
+"LOCID Joining Step 1" = "מתחבר...";
+"LOCID Please wait to be admitted" = "נא המתן כדי להיכנס";
+"LOCID Join Conf Error" = "חיבור הפגישה אבד.";
+"LOCID Anonymous Join" = "הצטרפות אנונימית";
+"LOCID Enter your name" = "הזן את שמך";
+"LOCID Anonymous Join Greeting" = "ברוך הבא ל- Skype for Business";
+"LOCID Sign in with Lync" = "היכנס עם Skype for Business";
+"LOCID Sign in as guest" = "היכנס כאורח";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "אין אפשרות לחבר אותך לפגישה ללא מספר ה- iPhone שלך. הוסף את מספר ה- iPhone שלך באפשרויות Skype for Business.";
+"LOCID Join Conf Error - No Number iPad" = "אין אפשרות לחבר אותך לפגישה ללא מספר הטלפון שלך. הוסף את מספר הטלפון באפשרויות Skype for Business.";
+"LOCID Join Meeting Line 1 Text" = "מצטרף לפגישה\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "מתקשר אליך ב- %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "שלום. אתה נמצא בחדר הכניסה הווירטואלי שלנו. התרווח לך. אל תצא מהאפליקציה - המארגן יכניס אותך בעוד כמה רגעים.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "לא הוכנסת מאחר שהמארגן אינו נמצא שם או שהוא לא הגיב.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "החיבור אבד. הקש על 'הצטרף' כדי לנסות שוב.";
+"LOCID View" = "הצג";
+"LOCID Join Meeting" = "הצטרף לפגישה";
+"LOCID Join Meeting Line 2 - Generic MSG" = "מצטרף לפגישה";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "אין אפשרות לחבר אותך מאחר שהפגישה מלאה. נסה לפנות למארגן.";
+"LOCID AdmittedToLobby" = "הוכנסת. אנחנו מתקשרים אליך עכשיו...";
+"LOCID MtgDisclaimerAccept" = "קבל";
+"LOCID MtgDisclaimerDecline" = "התעלם";
+"LOCID E_MeetingNotFound" = "הפגישה שאליה אתה מנסה להצטרף לא קיימת.";
+"LOCID E_MeetingsNotEnabled" = "תכונת פגישה זו לא הוגדרה כזמינה על-ידי הארגון שלך.";
+"LOCID E_OutsideOrg" = "לאדם זה או פגישה זו אין הרשאות ברשת שלך.";
+
+/* Options View */
+"LOCID voiceConfSection" = "שיחות ופגישות";
+"LOCID credentialsSection" = "האישורים שלי";
+"LOCID contactsSection" = "אנשי קשר";
+"LOCID accessibilitySection" = "נגישות";
+"LOCID otherSection" = "אחר";
+"LOCID Show Recent Contacts" = "אנשי קשר אחרונים";
+"LOCID Show Pinned Contacts" = "אנשי קשר מוצמדים";
+"LOCID Show Photos" = "תמונות";
+"LOCID Sort by availability" = "מיין לפי זמינות";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "רישום ביומן";
+"LOCID About" = "אודות";
+"LOCID About Version" = "גירסה %@";
+"LOCID Status" = "מצב";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "Proxy של HTTP";
+"LOCID Require WiFi" = "דרוש Wi-Fi עבור";
+"LOCID WiFi VoIP" = "קול";
+"LOCID WiFi Video" = "וידאו";
+"LOCID WiFi Collab" = "תוכן הפגישה";
+"LOCID WiFi Warning" = "כאשר הגדרה זו מבוטלת, באפשרותך לקבל שיחות באמצעות חיבור הנתונים שלך (ייתכנו חיובים וירידה באיכות).";
+"LOCID WiFi Warning iPad" = "כאשר הגדרה זו מבוטלת, באפשרותך לקבל שיחות ותוכן פגישה באמצעות חיבור הנתונים שלך (ייתכנו חיובים וירידה באיכות).";
+"LOCID Not a SfB User" = "לא משתמש ב- Skype for Business?";
+
+
+/* About View */
+"LOCID About Title" = "אודות";
+"LOCID version" = "גירסה: %@";
+"LOCID Long Product Name" = "Skype® for Business עבור %1$@"; // %1$@ is platform name
+"LOCID copyright" = "‎%@ 2015 Microsoft Corporation‏."; // copyright symbol
+"LOCID all rights reserved" = "כל הזכויות שמורות.";
+"LOCID online help" = "עזרה";
+"LOCID Terms Of Use" = "תנאי שימוש";
+"LOCID Privacy title" = "פרטיות";
+"LOCID Third Party Notices" = "הודעות של צד שלישי";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype ו- Microsoft\nפטנט תלוי ועומד";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "השם Skype, סימנים מסחריים וסמלים משויכים והסמל \"S\" הם סימנים מסחריים של Skype או ישויות קשורות.\n\nאזהרה: תוכנית זו מוגנת על-ידי חוק זכויות יוצרים ואמנות בינלאומיות. כל המשכפל או מפיץ תוכנית זו או חלק ממנה ללא רשיון, מסתכן בתביעות אזרחיות ופליליות ובעונשים כבדים, עד למקסימום הנקוב בחוק.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "העברת שיחות";
+"LOCID Forward Section" = "בחר מספר";
+"LOCID Apply Setting Section" = "החל הגדרות";
+"LOCID Summary Section" = "ההגדרות הנוכחיות שלך:";
+"LOCID Do Not Forward" = "אל תעביר";
+"LOCID Forward Calls" = "העבר שיחות";
+"LOCID Forward Calls To" = "העבר שיחות אל";
+"LOCID Simultaneously Ring" = "צלצל בו-זמנית";
+"LOCID On" = "פועל";
+"LOCID Off" = "לא פועל";
+"LOCID During Working Hours" = "במהלך שעות העבודה";
+"LOCID Voicemail" = "דואר קולי";
+"LOCID Team Call" = "חברי שיחת צוות";
+"LOCID Delegates" = "נציגים";
+"LOCID Pending Persons" = "נוספת על-ידי";
+"LOCID Delegate Target" = "הנציגים שלך";
+"LOCID TeamCall Target" = "החברים בקבוצת שיחת הצוות שלך";
+"LOCID Voicemail Target" = "הדואר הקולי שלך";
+"LOCID DoNotForward Summary" = "השיחות יצלצלו בעבודה ולא יועברו. לא תקבל שיחות בטלפון הנייד שלך כאשר VoIP לא יהיה זמין.";
+"LOCID DoNotForward Summary iPad" = "השיחות יצלצלו בעבודה ולא יועברו. לא תקבל שיחות ב- iPad שלך כאשר VoIP לא יהיה זמין.";
+"LOCID ForwardCalls Summary" = "השיחות יועברו ישירות אל %@. אם זהו לא מספר הטלפון הנייד שלך, לא תקבל שיחות בטלפון הנייד.";
+"LOCID ForwardCalls Summary iPad" = "השיחות יועברו ישירות אל ‎%@ ולא יצלצלו ב- iPad שלך.";
+"LOCID Simulring Summary" = "השיחות יצלצלו בעבודה וגם יצלצלו אצל %@. אם זהו מספר הטלפון הנייד שלך, תקבל שיחות לסלולרי כאשר VoIP לא יהיה זמין.";
+"LOCID Simulring Summary iPad" = "השיחות יצלצלו בעבודה וגם יצלצלו אצל ‎%@. לא תקבל שיחות ב- iPad שלך כאשר VoIP לא יהיה זמין.";
+"LOCID View Settings" = "הצג את ההגדרות הנוכחיות שלך";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "החל הגדרות";
+"LOCID All the Time" = "כל הזמן";
+"LOCID During Outlook Working Hours" = "במהלך שעות העבודה של Outlook";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "עבודה";
+"LOCID Home Capitalized" = "בית";
+"LOCID Mobile Capitalized" = "נייד";
+"LOCID Custom Capitalized" = "מותאם אישית";
+"LOCID Other Capitalized" = "אחר";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "ביטול";
+"LOCID Add" = "הוסף";
+"LOCID New Number" = "מספר חדש";
+"LOCID New Contact" = "איש קשר חדש";
+"LOCID Contact" = "איש קשר";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "העלה יומני רישום כניסה";
+"LOCID SignInBRB - Always" = "תמיד";
+"LOCID SignInBRB - Never" = "אף פעם";
+"LOCID SignInBRB - Ask Me" = "שאל אותי";
+"LOCID Send Log Files" = "שלח קבצי יומן רישום";
+"LOCID Log Email Subject" = "קבצי יומן רישום של Skype for Business"; //product name
+"LOCID Device Model" = "דגם המכשיר:";
+"LOCID Device OS Name" = "שם מערכת ההפעלה של מכשיר:";
+"LOCID Device OS Version" = "גירסת מערכת ההפעלה של מכשיר:";
+"LOCID Enable Logging" = "הפוך רישום ביומן לזמין";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Proxy של HTTP";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "כדי לסיים את הגדרת ה- Proxy של HTTP, השתמש בהגדרות ה- Wi-Fi שלך ב- %@.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "השתמש באישורי Skype for Business";
+"LOCID Exchange Credentials Info" = "Skype for Business זקוק לאישורי Exchange שלך כדי להציג את כל הפגישות ופרטי הדואר הקולי שלך.";
+"LOCID Email Address" = "כתובת דואר אלקטרוני";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "מספר הטלפון הנייד שלי";
+"LOCID My Mobile Number Details" = "הזן את מספר ה- iPhone שלך עם קידומות מדינה ואזור:";
+"LOCID My Mobile Number Details iPad" = "הזן את מספר הטלפון שלך עם קידומות מדינה ואזור:";
+"LOCID My Mobile Number Footer" = "דבר זה מאפשר לך לבצע ולקבל שיחות עבודה ולהצטרף לפגישות מ- Skype for Business.\n(אם אתה משתמש ב- VoIP, והוא אינו זמין, זהו הגיבוי שלך.)";
+"LOCID My Mobile Number Footer - Conf Join" = "דבר זה מאפשר לך להצטרף לפגישות מ- Skype for Business.\n(אם אתה משתמש ב- VoIP, והוא אינו זמין, זהו הגיבוי שלך.)";
+"LOCID iPhone Number" = "מספר טלפון";
+
+/* Call Via Work */
+"LOCID Call via Work" = "התקשר מהעבודה";
+"LOCID Missing iPhone Number Error" = "מספר טלפון חסר";
+"LOCID Missing iPhone Number Error Text" = "לא ניתן להשלים שיחה זו. הזן את מספר ה- iPhone שלך באפשרויות ונסה שוב לבצע את השיחה.";
+"LOCID Missing iPad Number Error Text" = "לא ניתן להשלים שיחה זו. הזן את מספר הטלפון שלך באפשרויות ונסה שוב לבצע את השיחה.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "לפני שתתחיל";
+"LOCID Main text" = "כל אחד יכול להשתמש באפליקציית Skype for Business למכשירים ניידים כאשר הוא מוזמן לפגישת Skype. עם זאת, כדי ליהנות מהיכולת המלאה של האפליקציה, נדרש חשבון Skype for Business.";
+"LOCID Understand" = "אישור";
+
+/*Group Picker*/
+"LOCID More Options" = "אפשרויות נוספות";
+"LOCID Add Contact" = "הוסף איש קשר";
+"LOCID Add to Group" = "הוסף לקבוצה";
+"LOCID Remove Contact" = "הסר איש קשר";
+"LOCID Remove from Group" = "הסר מקבוצה";
+"LOCID Groups" = "קבוצות";
+"LOCID E_AddContactFailureGeneral" = "אין אפשרות להוסיף איש קשר זה עכשיו. נסה שוב מאוחר יותר.";
+"LOCID E_AddContactFull" = "אין באפשרותך להוסיף עוד אנשי קשר לקבוצה זו.";
+"LOCID E_AddContactInGroup" = "איש הקשר נמצא כבר בקבוצה זו.";
+"LOCID E_RemoveContactFailureGeneral" = "אין אפשרות להסיר איש קשר זה עכשיו. נסה שוב מאוחר יותר.";
+"LOCID Confirm Remove Contact" = "פעולה זו תסיר את %@ מרשימת אנשי הקשר שלך.";
+"LOCID Ignore" = "התעלם";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "למד עוד";
+"LOCID CEIP More Info" = "עזור לשפר את Skype for Business עוד יותר על-ידי שליחת נתוני שימוש אנונימיים ל- Microsoft.";
+"LOCID ceipSectionTitle" = "התוכנית לשיפור חוויית הלקוח";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "ברוך הבא.";
+"LOCID Lets begin" = "בוא נתחיל...";
+
+/* First Run Experience */
+"LOCID Close" = "סגור";
+"LOCID Change" = "כן";
+"LOCID Don't change" = "לא";
+"LOCID Next" = "הבא";
+"LOCID Done" = "סיום";
+"LOCID First Run First Step" = "Lync הוא עכשיו Skype for Business - המשלב את חוויית Skype עם האיכות הארגונית של Microsoft.";
+"LOCID First Run Second Step" = "כל אחד יכול להשתמש באפליקציה זו כדי להצטרף לפגישת Skype, אך כדי ליהנות מכל התכונות, דרוש לך חשבון Skype for Business והארגון שלך חייב להפוך אפליקציה זו לזמינה.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "האם לשנות הגדרות העברת השיחות?";
+"LOCID First Run CF Current Settings" = "ההגדרות הנוכחיות שלך:";
+"LOCID First Run CF Change Settings" = "הגדרות חדשות:";
+"LOCID First Run Change Summary" = "הזנת את מספר הטלפון שלך לקבלת שיחות עבודה. עכשיו אנחנו צריכים לשנות את הגדרות העברת השיחות הנוכחיות כך שהטלפון שלך יצלצל.";
+"LOCID First Run Change Request" = "האם נוכל לשנות זאת כך ששיחות עבודה יצלצלו אליך בו-זמנית בעבודה וב- %@?";
+"LOCID DoNotForward Summary - First Run" = "השיחות יצלצלו בעבודה ולא יועברו לשום מספר טלפון אחר.";
+"LOCID ForwardCalls Summary - First Run" = "השיחות יועברו ישירות אל %@.";
+"LOCID Simulring Summary - First Run" = "השיחות יצלצלו בעבודה וכן אצל %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "לעולם לא תחמיץ את שיחות העבודה שלך";
+"LOCID My Mobile Number Title 2" = "לעולם לא תחמיץ פגישה";
+"LOCID My Mobile Number Details First Run" = "אנו זקוקים למספר ה- iPhone שלך עם קידומות מדינה ואזור:";
+"LOCID My Mobile Number Details First Run_iPad" = "אנו זקוקים למספר הטלפון שלך עם קידומות מדינה ואזור:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "נהל את השימוש בנתונים";
+"LOCID Setup Work Calls Sub Text" = "הגדרות אלה מנהלות את השימוש שלך בנתונים ואת העלויות הפוטנציאליות של שיחות ופגישות.";
+
+"LOCID Require Wifi for VoIP calls" = "דרוש Wi-Fi עבור שיחות VoIP";
+"LOCID Require Wifi for VoIP calls off subtext" = "כאשר Wi-Fi לא יהיה זמין, ייעשה שימוש בחיבור הנתונים שלך לשיחות.";
+"LOCID Require Wifi for VoIP calls on subtext" = "שיחות יתבצעו תמיד באמצעות Wi-Fi. לא נשתמש אף פעם בחיבור הנתונים שלך.";
+
+"LOCID Require Wifi for Video calls" = "דרוש Wi-Fi עבור שיחות וידאו";
+"LOCID Require Wifi for Video calls off subtext" = "כאשר Wi-Fi לא יהיה זמין, ייעשה שימוש בחיבור הנתונים שלך לשיחות וידאו. (כמות הנתונים עשויה להיות גדולה.)";
+"LOCID Require Wifi for Video calls on subtext" = "שיחות וידאו יתבצעו תמיד באמצעות Wi-Fi. לא נשתמש אף פעם בחיבור הנתונים שלך.";
+
+"LOCID Require Wifi for meeting content" = "דרוש Wi-Fi עבור תוכן פגישה";
+"LOCID Require Wifi for meeting content off subtext" = "כאשר Wi-Fi לא יהיה זמין, נשתמש בחיבור הנתונים שלך לקבלת תוכן פגישה. (כמות הנתונים עשויה להיות גדולה.)";
+"LOCID Require Wifi for meeting content on subtext" = "נשתמש תמיד ב- Wi-Fi לקבלת תוכן פגישה—אף פעם לא בחיבור הנתונים שלך.";
+
+"LOCID Skip" = "דלג";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "התחל להשתמש ב- Skype for Business";
+
+"LOCID First Run Successful Setup" = "אתה מוכן!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "ברוך הבא!";
+"LOCID First Run Successful Setup Details" = "תוכל לבצע שינויים בכל עת בהגדרות.";
+
+"LOCID improve lync" = "עזור לנו לשפר את Skype for Business";
+"LOCID whyphonenumber" = "מדוע אנחנו זקוקים למספר הטלפון שלך";
+"LOCID more detail" = "פרטים נוספים";
+
+"LOCID Emergency Call Disclaimer" = "האותיות הקטנות:";
+"LOCID Emergency Call Disclaimer Details" = "חיובים רגילים של ספק שירות חלים על כל השיחות.\n\nחשוב: אל תשתמש באפליקציית Skype for Business לביצוע שיחות חירום.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "חשוב";
+"LOCID Emergency Call Disclaimer Details iPad" = "אל תשתמש באפליקציית Skype for Business לביצוע שיחות חירום.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "הודעות דחיפה";
+"LOCID Push Notification Legal1" = "לפני שתאשר את השימוש בהודעות דחיפה, שים לב שכל הודעות הדחיפה והתוכן שלהן נשלחים דרך שירות דחיפת ההודעות של Apple ומערכת דחיפת ההודעות של Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "שינית את הגדרות הודעות הדחיפה בהגדרות ההודעות של %1$@, אך עליך להפעיל שוב את Skype for Business כדי להפסיק את המסירה של כל תוכן ההודעות.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "השתמש בנייד";
+"LOCID Call via Work Not Available Error" = "אין באפשרותך לבצע שיחת Skype for Business מאחר שאתה נמצא במצב לא מקוון. נסה להתקשר ממספר הטלפון הנייד שלך.";
+"LOCID Call via Work Not Available Error iPad" = "אין באפשרותך לבצע שיחת Skype for Business מאחר שאתה נמצא במצב לא מקוון.";
+"LOCID Answer incoming call" = "ענה לשיחה נכנסת";
+"LOCID to connect you to... display name" = "כדי להתחבר אל...\n%@";
+
+"LOCID Call via Work Connecting" = "מתחבר...\n ענה לשיחה הנכנסת הבאה.";
+"LOCID Call via Work Connected" = "הצטרפת מ- %1$@";
+"LOCID Video Disclaimer" = "לא תוכל לראות או לשתף וידאו.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "הצטרפת מ- %1$@.";
+
+/* Errors */
+"LOCID Error" = "שגיאה";
+"LOCID E_GenericFailure" = "אירעה שגיאה ב- Skype for Business. נסה שנית. אם הבעיה נמשכת, פנה לצוות התמיכה.";
+"LOCID E_GroupNotFound" = "אין אפשרות למצוא קבוצה זו.";
+"LOCID E_PermissionsForGroup" = "אין לך הרשאה להרחיב קבוצה זו.";
+"LOCID E_ConnectionError" = "אין אפשרות להתחבר לשרת. בדוק את חיבור הרשת וכתובת השרת שלך ונסה שוב.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "אין אפשרות להתחבר לשרת. 1) ייתכן שהוא אינו זמין. 2) בדוק את חיבור הרשת שלך. 3) ודא שאתה משתמש בפרטי חשבון Skype for Business שסופקו על-ידי הארגון שלך. 4) ייתכן ששם המשתמש שלך שונה משם הכניסה שלך. הקש על 'אפשרויות מתקדמות' והזן את שם המשתמש שלך או תחום\\שם משתמש.";
+"LOCID E_AutoDiscoveryInBackground" = "תצורת השרת שלך השתנתה. הפעל מחדש את Skype for Business.";
+"LOCID E_SslError" = "אין אפשרות לאמת את האישור מהשרת. פנה לצוות התמיכה.";
+"LOCID E_SslCertExpiredError" = "אין אפשרות לאמת את האישור מהשרת. פנה לצוות התמיכה.";
+"LOCID E_ProxyAuthError" = "אין לנו אפשרות להכניס אותך. קבע את הגדרות ה- Proxy של HTTP בהגדרות %@ וב'אפשרויות Skype for Business' או השתמש ב- 3G כדי להתחבר.";
+"LOCID E_ConnectionTimeoutError" = "אין אפשרות להתחבר לשרת. ייתכן שהוא עמוס או לא זמין באופן זמני. נסה שוב.";
+"LOCID E_GenericApplicationError" = "קיימת שגיאה ביישום. הפעל מחדש את היישום.";
+"LOCID E_AuthError" = "אין לנו אפשרות להכניס אותך. בדוק את פרטי החשבון שלך ונסה שוב.";
+"LOCID E_InvalidCredentials" = "אין לנו אפשרות להכניס אותך. בדוק את פרטי החשבון שלך ונסה שוב.";
+"LOCID E_InvalidSignInAddress" = "אין אפשרות להיכנס. ודא את כתובת הכניסה למערכת ונסה שוב.";
+"LOCID E_InvalidLyncAccount" = "פרטי כניסה אלה אינם חוקיים. עליך להיכנס באמצעות חשבון Skype for Business שסופק על-ידי הארגון שלך.";
+"LOCID E_WrongHomePool" = "אינך מוגדר להתחבר אל השרת. פנה לצוות התמיכה.";
+"LOCID E_ImSendError" = "השליחה נכשלה:";
+"LOCID GenericRetryError" = "אין אפשרות להתחבר לשרת. מנסה שוב...";
+"LOCID GenericError" = "אירעה שגיאת שרת. נסה שוב.";
+"LOCID RequestFailed" = "עיבוד הבקשה נכשל. נסה שוב.";
+"LOCID DecodingError" = "עיבוד תגובת השרת נכשל. נסה שוב. אם הבעיה נמשכת, פנה לצוות התמיכה.";
+"LOCID VersionMismatch" = "אין באפשרותך להיכנס באמצעות גירסה זו של Skype for Business. התקן גירסה חדשה יותר. אם הבעיה אינה נפתרת, פנה לצוות התמיכה.";
+"LOCID SignInCredentialsAreNeeded" = "יצאת מהמערכת. אנחנו זקוקים לפרטי החשבון שלך כדי להכניס אותך בחזרה.";
+"LOCID NeedLyncPassword" = "אנחנו זקוקים לסיסמה שלך כדי להיכנס.";
+"LOCID E_ServiceBusyOrUnAvailable" = "אין אפשרות להתחבר לשרת עכשיו. נסה שוב.";
+"LOCID E_HttpRequestTimeout" = "אין אפשרות להיכנס מאחר שהשרת אינו זמין באופן זמני.";
+"LOCID E_CannotConnectToServer" = "לא ניתן להתחבר לשרת. מנסה ליצור מחדש את החיבור. אם הבעיה נמשכת, פנה לצוות התמיכה.";
+"LOCID E_InvalidServerUrl" = "שם השרת שגוי. בדוק אותו ונסה שוב.";
+"LOCID E_NoValidIp" = "אין אפשרות להתחבר לרשת. בדוק את הגדרות החיבור שלך.";
+"LOCID E_MetaDataNotFound" = "לא ניתן להגיע לשרת. ודא את כתובת השרת או נסה שוב מאוחר יותר.";
+"LOCID E_TimeSkewError" = "אין אפשרות לסנכרן את השעון של המכשיר שלך עם השרת. שנה את הגדרות השעה שלך או פנה לצוות התמיכה.";
+"LOCID E_MobilityDisabled" = "אין לנו אפשרות להכניס אותך מאחר שאינך מוגדר להשתמש ב- Skype for Business. פנה לצוות התמיכה.";
+"LOCID E_TooManyApplications" = "אין לנו אפשרות להכניס אותך. נראה שנכנסת כבר ביותר מדי מכשירים.";
+"LOCID E_UI_OutsideVoiceDisabled" = "התכונה 'התקשר מהעבודה' מבוטלת. הזן את מספר הטלפון שלך באפשרויות כדי לבצע שיחת Skype for Business לאדם זה.";
+"LOCID E_UI_OfflineLyncCall" = "עליך להיות במצב מקוון או שדרושה לך קישוריות נתונים סלולריים כדי לבצע שיחת Skype for Business לאדם זה.";
+"LOCID E_EwsError" = "אין אפשרות להתחבר ל- Exchange. נסה שוב מאוחר יותר.";
+"LOCID E_EwsBadCredentials" = "אישורי הכניסה שלך ב- Exchange אינם חוקיים. נסה לעדכן את אישורי Exchange או Skype for Business שלך.";
+"LOCID W_Retrying" = "אין אפשרות להגיע לשרת, מנסה שוב...";
+"LOCID E_UI_CallViaCellError" = "בדוק את המספר ונסה שוב.";
+"LOCID E_LiveIdPasswordExpired" = "תוקף הסיסמה שלך פג. עדכן אותה ונסה שוב.";
+"LOCID E_LiveIdInvalidCredentails" = "אין לנו אפשרות להכניס אותך. בדוק את פרטי החשבון שלך ונסה שוב.";
+"LOCID E_LiveIdPasswordChangeRequired" = "יש לשנות את הסיסמה שלך. עדכן אותה ונסה שוב.";
+"LOCID E_LiveIdPasswordLockedOut" = "יש לשנות את הסיסמה שלך. עדכן אותה ונסה שוב.";
+"LOCID E_LiveIdConnectionFailed" = "אין אפשרות להתחבר לשרת עכשיו. נסה שוב.";
+"LOCID E_LiveIdServiceUnavailable" = "אין אפשרות להתחבר לשרת עכשיו. נסה שוב.";
+"LOCID E_LiveIdGenericError" = "אין לנו אפשרות להכניס אותך. נסה שוב.";
+"LOCID E_InvalidLiveIDUserNameError" = "אין לנו אפשרות להכניס אותך. ודא ששם המשתמש שלך הוא בתבנית someone@example.com ושהסיסמה שלך חוקית.";
+"LOCID E_InvalidSmtpAddress" = "אין אפשרות להתחבר ל- Exchange. בדוק את פרטי החשבון שלך ונסה שוב.";
+"LOCID E_LogoffUnsuccessful" = "אין אפשרות לחבר אותך אל Skype for Business מאחר שחיבור השרת אבד.";
+"LOCID E_ClientVersionMismatch" = "אין לנו אפשרות להכניס אותך מאחר שהארגון שלך אינו תומך בגירסה זו של Skype for Business. התקן את Lync 2010 מהחנות במכשיר הנייד שלך.";
+"LOCID E_ClientServerSchemaMisMatch" = "אין באפשרותך להיכנס באמצעות גירסה זו של Skype for Business. התקן גירסה חדשה יותר. אם הבעיה אינה נפתרת, פנה לצוות התמיכה.";
+"LOCID E_ClientVersionCheck" = "אין באפשרותך להיכנס באמצעות גירסה זו של Skype for Business. התקן גירסה חדשה יותר. אם הבעיה אינה נפתרת, פנה לצוות התמיכה.";
+"LOCID E_VersionMismatch" = "אין באפשרותך להיכנס באמצעות גירסה זו של Skype for Business. התקן גירסה חדשה יותר. אם הבעיה אינה נפתרת, פנה לצוות התמיכה.";
+"LOCID E_AutoDConfigurationError" = "אין לנו אפשרות להכניס אותך. פנה לצוות התמיכה.";
+"LOCID E_AutoDPasswordExpiredError" = "תוקף הסיסמה שלך פג. עדכן אותה ונסה שוב.";
+"LOCID E_InvalidProxySettingsError" = "אין לנו אפשרות להכניס אותך. הגדרות ה- Proxy אינן חוקיות. בדוק אותן ונסה שוב.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "יצאת מהמערכת עקב חוסר פעילות.";
+"LOCID E_GeneralGoneError" = "אין לנו אפשרות להכניס אותך. פנה לצוות התמיכה.";
+"LOCID E_InternalServerError" = "אין לנו אפשרות להכניס אותך. פנה לצוות התמיכה.";
+"LOCID E_TooManyApps" = "אין לנו אפשרות להכניס אותך. נראה שנכנסת כבר ביותר מדי מכשירים.";
+"LOCID E_ResponseUnkown" = "אין אפשרות להתחבר לשרת. אם אתה משתמש ב- Wi-Fi, פתח את הדפדפן כדי לבדוק אם יש חיבור. אחרת, הפוך חיבורי נקודה חמה או חיבורים באמצעות מכשיר נייד ללא זמינים. אם הבעיה נמשכת, פנה לספק הרשת.";
+"LOCID E_CannotLoadADFSPage" = "לא היתה לנו אפשרות להכניס אותך. נסה שוב. אם הבעיה נמשכת, פנה לצוות התמיכה.";
+"LOCID E_UserNotSipEnabled" = "ההגדרות שלך אינן מתאימות לחיבור לשרת. אנא פנה לצוות התמיכה שלך.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "אין באפשרותך לבצע שיחת VoIP עכשיו. נסה להתקשר ממספר הטלפון הנייד שלך.";
+"LOCID E_VoicePSTNCallActive" = "אין באפשרותך לבצע שיחת VoIP עכשיו. נסה להתקשר מהמספר שלך בעבודה.";
+"LOCID E_VoicePSTNCallActive - Button" = "התקשר מהעבודה";
+"LOCID E_VideoOverWiFiBlocked" = "זו היתה הזמנה לשיחת וידאו, אבל מאחר שאין לך חיבור Wi-Fi, חיברנו רק את השמע.";
+"LOCID E_HistoryNotDisplayed" = "אין אפשרות להציג את ההיסטוריה של שיחה זו.";
+"LOCID E_IMAcceptedElsewhere" = "אישרת שיחה זו במקום אחר. כדי להתחיל אותה מחדש, שלח הודעה חדשה.";
+"LOCID E_MuteFailed" = "עקב שגיאה, אנשים אחרים אינם יכולים לראות שאתה מושתק עכשיו.";
+"LOCID E_UnmuteFailed" = "עקב שגיאה, אתה עדיין מושתק. נסה שוב לבטל את ההשתקה.";
+"LOCID E_DgExpansionGenericFailure" = "אין אפשרות לקבל את חברי הקבוצה לצורך הזמנה. נסה שוב מאוחר יותר.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "הקבוצה גדולה מדי להזמנה.";
+"LOCID E_DgExpansionNoMembersFailure" = "הקבוצה אינה כוללת חברים בודדים ולא ניתן להזמין אותה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ לא זמין/ה או לא מקוון/ת.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "המצב של %@ מוגדר כ'נא לא להפריע'.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ לא בשירות. בדוק את המספר.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ בשיחה אחרת.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ לא ענה/תה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "ל- %@ אין אפשרות לענות לשיחה זו.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "אין אפשרות להשלים שיחה זו כשאתה במצב לא מקוון. נסה להיכנס ל- Skype for Business כדי לבצע את השיחה.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "הפעולה לא הצליחה.";
+"LOCID E_VoiceGenericError" = "השיחה לא הושלמה או שהיא הסתיימה.";
+"LOCID E_VoiceFeatureNotEnabled" = "תכונת ההתקשרות אינה זמינה.";
+"LOCID E_VoiceCheckNumber" = "בדוק את המספר ונסה שוב.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "לא היתה אפשרות להשלים את השיחה. נסה שוב מאוחר יותר.";
+"LOCID E_VoiceCallUnsuccessful" = "אין אפשרות לחבר את השיחה.";
+"LOCID E_VoiceCallTypeNotSupported" = "השיחה נכשלה. שיחה מסוג זה אינה נתמכת.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "ייתכן שהודעה זו לא נשלחה אל %@ מאחר שהזמן הקצוב לשרת הסתיים:";
+
+"LOCID E_SharingAnotherOperation" = "אנחנו מנסים לבצע פעולה אחרת עבורך. חכה כמה שניות ונסה שוב.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ לא קיבל/ה הודעה זו עקב בעיית שרת:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ נמצא/ת במצב לא מקוון ולא קיבל/ה הודעה זו:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ נמצא/ת במצב 'נא לא להפריע' ולא קיבל/ה הודעה זו:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "לא היתה אפשרות לשלוח הודעה זו מאחר שלא מצאנו את %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "אין אפשרות לשלוח הודעה זו בשל תוכן חסום:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "לא היתה אפשרות להשיג את %@ כדי לשלוח הודעה זו:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "לא היתה אפשרות להשלים את השיחה.";
+
+"LOCID E_ConfLocked" = "אין באפשרותך להצטרף לפגישה מאחר שהיא נעולה. נסה לפנות למארגן.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "יש אי-התאמה בהצפנה בינך לבין %@. פנה לצוות התמיכה.";
+
+"LOCID E_ConferencingServerError" = "אירעה שגיאת שרת. פנה לצוות התמיכה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "לא ניתן להשיג את %@ וייתכן שמצבו/ה לא מקוון.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ נמצא/ת במצב 'נא לא להפריע' ואין אפשרות להשיג אותו/ה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ לא הגיב/ה להזמנה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "לא היתה אפשרות להשיג את %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "אינך מוגדר להצטרף לפגישות Skype.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "אין אפשרות להצטרף לשיחת הוועידה אם לא בוצעה כניסה ליישום.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " ל- %@ לא היתה אפשרות להצטרף לפגישה.";
+"LOCID E_ConferencingEnded" = "הפגישה שאליה אתה מנסה להצטרף אינה זמינה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "אין אפשרות להשיג את %@. נסה שוב מאוחר יותר.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "אין אפשרות למצוא את %@. בדוק את הכתובת.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "לא היתה אפשרות להשיג את %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ דחה/תה את ההזמנה שלך.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "מציג סיים את הפגישה.";
+"LOCID E_ConferencingCallDisconnected" = "השיחה נותקה.";
+"LOCID ConferenceUnexpectedDisconnect" = "נותקת משיחת הוועידה.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "השיחה לא הושלמה או שהיא הסתיימה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "אין אפשרות להוסיף את %@ לפגישה מאחר שהרשת עמוסה.";
+
+"LOCID E_ConferencingCannotConnect" = "השיחה לא הושלמה או שהיא הסתיימה.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "אין באפשרותך להצטרף לפגישה מקוונת מסוג זה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "אין אפשרות להזמין את %@ מאחר שהפגישה מלאה.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "אין אפשרות להצטרף לפגישה כמשתתף אנונימי.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "אין אפשרות להצטרף לפגישה עקב שגיאת הזמנה.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "אין לך הרשאה להצטרף לפגישה.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "לא היתה אפשרות לצרף אותך לפגישה. נסה שוב.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "אין אפשרות להצטרף לפגישה זו מחוץ לארגון שלך.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "אין אפשרות להצטרף לפגישה מקוונת מסוג זה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "אין אפשרות להשיג את %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "אין באפשרותך להתחיל פגישה מאחר שפגישה אחרת מתחילה עכשיו.";
+"LOCID E_ConferencingEncryptionIssues" = "אין אפשרות להתחיל את פגישת Skype עקב בעיות הצפנה.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "אין לך הרשאות מספיקות להצטרף ממכשיר אחר או לחייג אליו.";
+"LOCID E_ConferencingMediaSessionTerminated" = "השיחה לא הושלמה או שהיא הסתיימה.";
+"LOCID E_ConferencingFull" = "הפגישה מלאה.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "אין לך הרשאה להצטרף לפגישה זו.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "תוקף ההזמנה ל- %@ פג.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "הפגישה הסתיימה מאחר שהמארחים עזבו.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "אין באפשרותך להצטרף לפגישה מאחר שהרשת עמוסה.";
+"LOCID E_ConferencingSubjectLineTooLong" = "שורת הנושא ארוכה מדי.";
+"LOCID E_ConferencingFeatureNotEnabled" = "תכונת פגישה זו לא הוגדרה כזמינה על-ידי הארגון שלך.";
+"LOCID E_ConferencingEndedDueToInactivity" = "פגישה זו הסתיימה עקב חוסר פעילות.";
+"LOCID E_ConferencingCannotBeFound" = "פגישה מקוונת זו לא נמצאה.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "אין לך הרשאה להצטרף לפגישה זו.";
+"LOCID E_ConferencingUserNotAdmitted" = "לא הוכנסת לפגישה.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "הוסרת מהפגישה.";
+"LOCID E_ConfGenericError" = "לא היתה אפשרות לצרף אותך לפגישה. נסה שוב.";
+"LOCID E_ConferenceDenied" = "המציג מנע ממך להיכנס.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "אתה נמצא כבר בפגישה. האם ברצונך לעזוב אותה ולהצטרף לפגישה זו?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "השרת אינו תומך בהצטרפות אנונימית לפגישה דרך מכשיר זה.";
+"LOCID ConferenceVideoLock" = "מציג נעל את זרקור הווידאו על מישהו.";
+"LOCID ConferenceVideoUnlock" = "מציג ביטל את נעילת זרקור הווידאו.";
+"LOCID ConferenceVideoSelfLock" = "כולם נעולים בווידאו שלך.";
+"LOCID ConferenceVideoSelfUnlock" = "אף אחד כבר לא נעול בווידאו שלך.";
+
+"LOCID E_DomainNotTrusted" = "אין אפשרות להתחבר לשרת. קבל את בקשת הניתוב מחדש.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ לא קיבל/ה הודעה זו מאחר שהתבנית אינה מותרת:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "למכשיר המשמש את %@ אין אפשרות לקבל הודעות.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ לא קיבל/ה הודעה זו מאחר שהיא גדולה מדי:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ לא קיבל/ה הודעה זו מאחר שמדיניות מגבילה את המסירה:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "אין אפשרות לשלוח את ההודעה המיידית שלך - אתה כבר מקיים שיחה עם %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "אין אפשרות לשלוח הודעה זו בשל תוכן חסום:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "אינך מורשה לשלוח הודעות מיידיות אל %@. לא שלחנו זאת:";
+
+"LOCID E_IMConfGenericError" = "משתתף אחד או יותר לא קיבל הודעה זו:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ לא זמין/ה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "השיחה הסתיימה מאחר ש- %@ יצא/ה.";
+
+"LOCID E_VoiceCallTimeout" = "השיחה לא הושלמה עקב בעיות רשת. נסה שוב.";
+"LOCID E_VoiceCallDisconnected" = "מצטערים, השיחה נותקה. נסה שוב.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "השיחה לא הושלמה או שהיא הסתיימה.";
+"LOCID E_VoiceCallNotCompleted" = "ל- %@ אין אפשרות לקבל שיחות. נסה הודעות מיידיות או דואר אלקטרוני במקום זאת.";
+"LOCID E_VoiceServerError" = "אין אפשרות לחבר את השיחה עקב שגיאת שרת. נסה שוב.";
+"LOCID E_VoiceCannotConnect" = "אין אפשרות להתחבר לפגישה המקוונת.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "אין אפשרות ליצור קשר עם %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "אין אפשרות לאתר את %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "אין אפשרות להתחיל את פגישת Skype עקב בעיות הצפנה.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "האדם שאליו התקשרת הגיב באמצעות הודעה מיידית.";
+"LOCID E_VoiceCannotCompleteCall" = "אין אפשרות להשלים את השיחה כפי שחויגה.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "אין אפשרות להשלים את השיחה עקב בעיית שרת.";
+"LOCID E_VoiceServerCannotForwardCall" = "לשרת אין אפשרות להעביר את השיחה. נסה שוב.";
+"LOCID E_VoiceServerDidNotRespond" = "השרת אינו מגיב. נסה שוב מאוחר יותר.";
+"LOCID E_VoiceCannotPlaceCall" = "אין אפשרות לבצע את השיחה. בדוק את המספר ונסה שוב.";
+"LOCID E_VoiceNumberNotSupported" = "הארגון שלך אינו תומך בהתקשרות למספר זה.";
+"LOCID E_IncomingPSTNCall" = "לא היתה אפשרות להשלים את השיחה.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "אין באפשרותך להתקשר אל %@ מאחר ששיחות מוגבלות על-ידי מדיניות.";
+
+"LOCID E_CallFailed" = "השיחה שלך הסתיימה עקב בעיות קישוריות. נסה שוב.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "נותקת מאחר שהצטרפת מלקוח אחר.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "הוסרת מהפגישה.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "לא היתה אפשרות להשלים את השיחה מאחר שהרשת עמוסה.";
+"LOCID E_VoiceNotSupported" = "ל- %@ אין אפשרות לקבל שיחות שמע.";
+"LOCID E_RepliedWIthOtherModality" = "הנמען בחר להגיב באמצעות הודעה מיידית.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "אין אפשרות לעדכן את היסטוריית השיחות כעת וייתכן שהיא אינה מסונכרנת.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "אין אפשרות לעדכן את היסטוריית השיחות כעת וייתכן שהיא אינה מסונכרנת.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "אין לנו אפשרות להעביר שיחות לאיש קשר זה. בחר אחד מאנשי הקשר שלך ב- Skype for Business שאליו תעביר שיחות או בחר 'מספר חדש' כדי להזין מספר טלפון.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY מופעל";
+"LOCID RemoteHoldSucceeded" = "משתמש מרוחק העביר אותך להמתנה.";
+"LOCID RemoteUnholdSucceeded" = "ביטול המתנה מרוחק הצליח";
+"LOCID LocalHoldSucceeded" = "המתנה מקומית הצליחה";
+"LOCID LocalUnholdSucceeded" = "ביטול המתנה מקומי הצליח";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "חדש שיחה";
+"LOCID is recording" = "%@ מקליט/ה";
+"LOCID Multiple Recording" = "מישהו מקליט";
+"LOCID OnHoldOutOfApp" = "שיחת %@ שלך נמצאת בהמתנה.";
+"LOCID OnStopOutOfApp" = "שיחת %@ שלך הסתיימה.";
+"LOCID RecordingAlert" = "%@ מקליט/ה שיחה זו.";
+"LOCID CoversationP2PIsRecording" = "%@ מקליט/ה שיחה זו.";
+"LOCID CoversationP2PIsRecordingNoName" = "מקליט שיחה זו.";
+"LOCID CoversationConferenceIsRecording" = "מישהו מקליט שיחה זו.";
+
+"LOCID ConversationsExceedArchiveLimit" = "רשימה זו כמעט מלאה. השיחות הישנות ביותר יוסרו ברגע שיתווספו שיחות חדשות.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "מציג השתיק את הקהל.";
+"LOCID Audience Unlock" = "מציג ביטל את השתקת הקהל.";
+"LOCID Conference Mute" = "מציג השתיק אותך.";
+"LOCID Conference Unmute" = "מציג רוצה שתבטל את ההשתקה שלך.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "מציג חסם בפני משתתפים את האפשרות של שליחת וידאו.";
+"LOCID PresenterBlockedVideo - Presenter" = "מציג חסם בפני משתתפים את האפשרות של שליחת וידאו. אם אתה מציג, באפשרותך להפעיל את המצלמה ולשתף את הווידאו שלך.";
+"LOCID PresenterBlockedVideo - Unblock" = "מציג ביטל את חסימת האפשרות של שליחת וידאו על-ידי משתתפים.";
+"LOCID VideoLockOnYou" = "כולם נעולים בווידאו שלך.";
+"LOCID VideoLock" = "מציג נעל את זרקור הווידאו על מישהו.";
+"LOCID VideoNotLockOnYou" = "אף אחד כבר לא נעול בווידאו שלך.";
+"LOCID VideoSpotlightUnlocked" = "מציג ביטל את נעילת זרקור הווידאו.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "הקודם";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "התכונה 'התקשר מהעבודה' אינה זמינה.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "אין דואר קולי";
+"LOCID You currently have no voicemail messages" = "אין לך הודעות דואר קולי.";
+"LOCID Audio" = "שמע";
+"LOCID Speaker" = "רמקול";
+"LOCID Can not play locally" = "אין אפשרות להשמיע הודעה זו. הקש על לחצן ההשמעה כדי לקבל שיחה שבה תשמע אותה.";
+"LOCID Play Voice Mail" = "השמע דואר קולי";
+"LOCID PLAY_VOICEMAIL_HINT" = "השמע הודעה קולית";
+"LOCID Pause Voice Mail" = "השהה דואר קולי";
+"LOCID PAUSE_VOICEMAIL_HINT" = "השהה את ההודעה הקולית";
+"LOCID Play On Phone Error - No Number" = "עליך להזין את מספר הטלפון שלך באפשרויות כדי לקבל שיחה בחזרה.";
+"LOCID Call Back" = "התקשר בחזרה";
+"LOCID Delete" = "מחק";
+"LOCID More voicemails iPad" = "כדי להאזין להודעות דואר קולי ישנות יותר, הקש על סמל הדואר הקולי.";
+"LOCID More voicemails" = "כדי לשמוע הודעות דואר קולי ישנות יותר, הקש באריכות על 1 במקלדת או עבור אל Outlook.";
+"LOCID More voicemails No keypad" = "עבור אל Outlook כדי לשמוע הודעות דואר קולי ישנות יותר.";
+"LOCID Can not play IRMed" = "הודעה זו היא הודעה עם ניהול זכויות. הקש על לחצן ההשמעה כדי לקבל שיחה שבה תשמע אותה.";
+"LOCID Lync Call" = "שיחת Skype for Business";
+"LOCID Can't play on phone" = "אין אפשרות להשמיע הודעה זו. בדוק את חיבור הרשת ונסה שוב מאוחר יותר.";
+"LOCID Yes" = "כן";
+"LOCID No" = "לא";
+"LOCID VMCallerID" = "דואר קולי";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "השמע את הדואר הקולי במהירות רגילה";
+"LOCID VM Playback -2X Acc" = "השמע את הדואר הקולי בחצי מהמהירות";
+"LOCID VM Playback 2X Acc" = "השמע את הדואר הקולי במהירות כפולה";
+"LOCID Voicemail From" = "דואר קולי מ- %@";
+"LOCID No Voicemails Placeholder" = "ההודעות הקוליות שלך יופיעו כאן";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "התעלם";
+"LOCID Accept" = "קבל";
+"LOCID Not yet implemented feature" = "תכונה זו לא יושמה עדיין. נסה שוב במהדורה עתידית.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "יש לך הודעת דואר קולי חדשה אחת";
+"LOCID Missed VMs" = "יש לך %d הודעות דואר קולי חדשות";
+"LOCID Missed Collab Out of App" = "הפעלת שיתוף פעולה שלא נענתה מאת %@";
+"LOCID Missed Video Call Out of App" = "שיחת וידאו שלא נענתה מאת %@";
+"LOCID Missed Audio Call Out of App" = "שיחה שלא נענתה מאת %@";
+"LOCID Missed Message Out of App" = "הודעה מיידית שלא נענתה מאת %@";
+"LOCID Missed Audio Conf Out of App" = "שיחת ועידה שלא נענתה מאת %@";
+
+"LOCID Audio Call Out of App" = "שיחה מאת %@";
+"LOCID Conference Call Out of App" = "שיחת ועידה מאת %@";
+"LOCID Dismiss Call" = "התעלם";
+"LOCID Answer Call" = "קבל";
+"LOCID Answer Call with Video" = "וידאו";
+"LOCID Audio Call" = "שיחה";
+"LOCID Conference Call" = "שיחת ועידה";
+"LOCID Unknown Caller" = "מתקשר לא ידוע";
+
+"LOCID Video conf accessibility" = "שיחת ועידה בווידאו מאת %@";
+"LOCID Video accessibility" = "שיחת וידאו מאת %@";
+"LOCID Audio conf accessibility" = "שיחת ועידה מאת %@";
+"LOCID Audio accessibility" = "שיחה מאת %@";
+
+"LOCID Video Call Out of App" = "שיחת וידאו מאת %@";
+"LOCID Video Conference Call Out of App" = "שיחת ועידה בווידאו מאת %@";
+"LOCID Video Call" = "שיחת וידאו";
+"LOCID Video Conference Call" = "שיחת ועידה בווידאו";
+"LOCID Video Escalation Name" = "%@ משתף/ת וידאו";
+"LOCID Video Escalation" = "משתף/ת וידאו";
+"LOCID Video Escalation Conf" = "מישהו משתף וידאו";
+"LOCID VideoInvitationRejected" = "חלק הווידאו של השיחה לא אושר. השיחה תמשיך עם שמע בלבד.";
+"LOCID E_VideoDecline" = "%@ לא אישר/ה את הווידאו שלך.";
+"LOCID E_VideoGeneric" = "לא היתה אפשרות להפעיל את הווידאו שלך. נסה שוב.";
+"LOCID E_VideoNotStarted" = "לא היתה אפשרות להפעיל את הווידאו שלך.";
+"LOCID E_VideoNotSupported" = "ל- %@ אין אפשרות לקבל שיחות וידאו.";
+"LOCID E_VideoNotAccepted" = "חלק הווידאו של השיחה לא אושר על-ידי %@. השיחה תמשיך עם שמע בלבד.";
+
+"LOCID E_VoiceTransferGenericError" = "לא היתה אפשרות להעביר את השיחה.";
+"LOCID E_VoiceTransferParticipantError" = "לא היתה אפשרות להעביר את השיחה מאחר שלא ניתן להשיג את הנמען.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "השתק";
+"LOCID Mute Capitalized" = "השתק";
+"LOCID Unmute" = "בטל השתקה";
+"LOCID keypad" = "מקלדת";
+"LOCID add call" = "הוסף שיחה";
+"LOCID hold" = "המתנה";
+"LOCID End" = "סיים";
+"LOCID Hide Keypad" = "הסתר מקלדת";
+"LOCID Call Lync" = "שיחת Skype for Business";
+"LOCID Call Work" = "עבודה: ‎%@";
+"LOCID Call Mobile" = "נייד: %@";
+"LOCID Call Home" = "בית: %@";
+"LOCID Call Other" = "אחר: %@";
+"LOCID Decline" = "דחה";
+"LOCID Video Menu" = "תפריט שיחה";
+"LOCID Hold Call" = "העבר שיחה להמתנה";
+"LOCID Hang Up" = "נתק";
+"LOCID Dial Pad Only" = "לוח חיוג";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u משתתפים - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u משתתף - %@";
+"LOCID Call Status Connecting" = "מתחבר...";
+"LOCID Call Status Connecting Remote" = "מתחבר...";
+"LOCID Call Status Connected" = "מחובר";
+"LOCID Call Status On Hold - Passive" = "המתנה";
+"LOCID Call Status On Hold" = "בהמתנה";
+"LOCID Call Status Ended" = "השיחה הסתיימה";
+"LOCID Call Status Transfering" = "מעביר";
+"LOCID On behalf of" = "בשם %@";
+"LOCID Call for" = "שיחה עבור %@";
+"LOCID Call for - Astana" = "שיחה עבור %@";
+"LOCID Transferred by" = "הועבר על-ידי %@";
+"LOCID Forwarded by" = "הועבר על-ידי %@";
+"LOCID Private call" = "שיחה פרטית";
+"LOCID Also ringing" = "מצלצל גם אל %@";
+"LOCID Also ringing delegates" = "מצלצל גם לנציגים שלך";
+"LOCID Will ring" = "יצלצל אל %@";
+"LOCID Also ringing team call" = "מצלצל גם לצוות שלך";
+"LOCID The recipient" = "הנמען";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "מאתחל ...";
+"LOCID DataCollab Connecting" = "מתחבר ...";
+"LOCID DataCollab Loading" = "טוען...";
+"LOCID DataCollab No Content" = "מציגים הפסיקו לשתף את התוכן.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "תכונת שיתוף נתונים אינה זמינה עקב כשל בחיבור השרת.";
+"LOCID DisconnectedOnConnectivityIssue" = "תכונות הצגה מסוימות אינן זמינות עקב בעיות קישוריות שרת.";
+"LOCID DisconnectedOnConnectedElsewhere" = "נותקת מאחר שהצטרפת מלקוח אחר.";
+"LOCID DisconnectedOnNetworkFailure" = "בעיות רשת מונעות ממך לראות את המצגת.";
+"LOCID DataCollab Known UnSupported" = "המציג משתמש בתכונה שאינה נתמכת על-ידי גירסה זו של Skype for Business.";
+"LOCID DataCollab Generic UnSupported" = "המציג משתמש בתכונה שאינה נתמכת על-ידי גירסה זו של Skype for Business או שהוא מחובר לשרת ישן יותר.";
+"LOCID DataCollab ContentPresenter" = "מציג: %@‎";
+"LOCID DataCollab NoPresenter" = "אף אחד לא מציג";
+"LOCID Collab Unsupported PPTContent" = "מצטערים, לא ניתן להפעיל את המדיה במצגת זו.";
+"LOCID Retry" = "נסה שוב";
+"LOCID DataCollab Generic PPT Error" = "תכונות הצגה מסוימות אינן זמינות עקב בעיות קישוריות שרת.";
+"LOCID Start Viewing" = "התחל לצפות";
+"LOCID Stop Viewing" = "הפסק לצפות";
+"LOCID Collab Escalation" = "%@ רוצה להתחיל להציג";
+"LOCID PowerPoint content Accessibility" = "תוכן PowerPoint";
+
+"LOCID SyncPresenterButton" = "סנכרן לתצוגת מציג";
+"LOCID NavigateBackButton" = "עבור שקופית אחורה";
+"LOCID NavigateForwardButton" = "עבור שקופית קדימה";
+"LOCID SlideNumber" = "%1$d מתוך %2$d";
+"LOCID SlideNumber Accessibility" = "שקופית %1$d מתוך %2$d";
+
+"LOCID E_SharingDisabled" = "הצגה אינה זמינה.";
+"LOCID E_SharingNetworkIssues" = "אין באפשרותך להציג עקב בעיות רשת. נסה שוב מאוחר יותר.";
+"LOCID E_SharingNotSupported" = "הצגה אינה נתמכת עם איש קשר זה.";
+"LOCID E_SharingTimeout" = "המצגת לא התחילה מאחר שהשרת עמוס. נסה שוב מאוחר יותר.";
+"LOCID SharingAnotherType" = "מצגת זו הסתיימה מאחר שמצגת אחרת התחילה.";
+"LOCID E_GetMediaSdpFailed" = "לא ניתן לחבר אותך למצגת שולחן העבודה או התוכנית כעת.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "לא תראה תוכן מוצג מאחר שאינך מחובר ל- Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "אין באפשרותך לבצע שיחת Skype for Business מאחר שאינך מחובר ל- Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "המצגת גדולה מדי לצפייה במכשיר שלך.";
+"LOCID E_CollabDisconnectedNetworkError" = "נותקת מהמצגת עקב בעיות רשת.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "נותקת משום שהצטרפת מלקוח אחר.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "מתבצעת טעינה של התוכן לשיתוף.";
+"LOCID AppSharing Shared Content" = "תוכן משותף.";
+"LOCID AppSharing Desktop" = "שולחן עבודה";
+"LOCID AppSharing Application" = "יישום";
+"LOCID AppSharing SharingPaused" = "השיתוף מושהה כרגע."; // Not used
+"LOCID AppSharing SharingIdle" = "השיתוף לא פעיל כרגע."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "כל המשאבים ממוזערים."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ ניסה/תה להתחיל הצגת מסך, אבל גירסה זו של Skype for Business תומכת בתכונה זו רק בשיחות ועידה ובפגישות Skype.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "התחל הודעה מיידית";
+"LOCID send IM" = "שלח";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "סיים שיחה";
+"LOCID View Contact Card" = "ראה כרטיס איש קשר";
+"LOCID Invite Others" = "הזמן אחרים";
+"LOCID Send Location action" = "שלח מיקום";
+"LOCID Send as Email action" = "שלח כדואר אלקטרוני";
+"LOCID View Participants" = "ראה משתתפים";
+"LOCID Rejoin" = "הצטרף מחדש";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "הקש פעמיים כדי להרחיב";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "איכות שיחה גרועה";
+"LOCID ACI Call Muted" = "מושתק כעת, הקש פעמיים כדי לבטל את ההשתקה";
+"LOCID ACI Call Unmuted" = "לא מושתק כעת, הקש פעמיים כדי להשתיק";
+
+/* Search results */
+"LOCID No Results" = "אין תוצאות";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "‏%@ נסגר באופן בלתי צפוי";
+"LOCID Dont Send" = "אל תשלח";
+"LOCID Send Report" = "שלח דוח";
+"LOCID Would you like to send a report so we can fix the problem" = "האם ברצונך לשלוח דוח כך שנוכל לפתור את הבעיה?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "בית";
+"LOCID Timeline Contacts" = "אנשי קשר";
+"LOCID Timeline Meetings" = "פגישות";
+"LOCID Timeline Search Placeholder" = "חפש אנשי קשר";
+"LOCID Timeline Recent" = "לאחרונה";
+"LOCID Timeline Upcoming" = "צפוי";
+"LOCID Timeline TableView" = "ציר זמן";
+"LOCID Timeline Meeting Time All Day" = "יום שלם";
+"LOCID Timeline Search Skype Contacts" = "אנשי קשר";
+"LOCID Timeline Search Phone Contacts" = "אנשי קשר בטלפון";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "אנשי קשר";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "לוח מקשים";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "לוח מקשים, Id% הודעה קולית חדשה";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "לוח מקשים, Id% הודעות קוליות חדשות";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "פגישות";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "בית";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "המידע שלי";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@,‏ %@,‏ %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, הודעות חדשות, %@,‏ %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "שיחה";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "שיחת וידאו";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "סמן כנקרא";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "מחק";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "הצטרף לפגישה";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "התעלם";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "הכנס";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "זמין/ה";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "עסוק/ה";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "לא נמצא/ת";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "לא מקוון/ת";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "נא לא להפריע";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "נוכחות לא ידועה";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "נקה טקסט";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "חפש אנשי קשר";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "שיחת וידאו";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "שיחה";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "הצטרף לפגישה";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "צ'אט ריק";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "תמונת פרופיל";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld הודעה קולית חדשה";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld הודעות קוליות חדשות";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "מלאך";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "כועס";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "בנדיט";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "כדורגל";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "בירה";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "צחוק";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "אופניים";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "מסמיק";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "השתחוות";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "לב שבור";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "עוגה";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "שיחה";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "מצלמה";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "אתה יכול לדבר?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "מכונית";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "כסף";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "חתול";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "מוחא כפיים";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "קפה";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "מחשב";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "סודי";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "מגניב";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "בוכה";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "רוקד";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "שטן";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "כלב";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "אוף";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "שתייה";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "משועמם";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "אימו";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "מקנא";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "מרושע";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "אופס";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "מחזיק אצבעות";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "פרח";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "משחקים";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "מתנה";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "מגחך";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "בהצלחה";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "מוכרח לרוץ";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "לחיצת יד";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "שמח";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "דופק ת'ראש בקיר";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "לב";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "סנאי";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "הי";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "תן כיף";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "המתן";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "חיבוק";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "רעיון";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "מאוהב";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "אי";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "זה לא אני!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "נשיקה";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "לא מקשיב";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "בוא ניפגש";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "שפתיי חתומות";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "יש לך דואר";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "מתאפרת";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "איש";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "המממ";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "סרט";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "עושה שרירים";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "מוסיקה";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "חנון";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "נינג'ה";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "לא";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "מהנהן";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "מסיבה";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "טלפון";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "פיצה";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "מטוס";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "מקיא";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "אגרוף";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "גשם";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "קשת בענן";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "רוק";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "מתפוצץ מצחוק";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "עצוב";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "מניד בראשו";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "ישנוני";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "חיוך";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "חיוך שחצני";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "חילזון";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "פעור פה";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "כוכבית";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "עצור";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "אור שמש";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "מופתע";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "מקלל";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "מזיע";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "מדבר";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "לא רוצה לשמוע";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "חושב";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "זמן";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "יותר מדי מידע";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "סמיילי עם לשון בחוץ";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "עשב מתגלגל";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "מטריה";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "המתן";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "ממתין";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "עובד מהבית";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "מה קורה?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "נרגעתי";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "קריצה";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "אישה";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "תוהה";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "מודאג";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "מפהק";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "כן";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "הקלד הודעה כאן";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "תגיד שלום ל- %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "תגיד שלום לקבוצה";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "השיחה שלך תופיע כאן.";
+"CHAT_FAILED_TO_SEND" = "לא היתה אפשרות לשלוח הודעה זו: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "הצג צ'אט";
+"LOCID CONVERSATION_HIDE_CHAT" = "הסתר צ'אט";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "הצג סרגל צידי";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "הסתר סרגל צידי";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "סמלי הבעה";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "י";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "י";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "שע";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "שע";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "דק'";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "דק'";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "שנ";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "שנ";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d הודעות חדשות";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "הודעה חדשה אחת";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "אין הודעות חדשות";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "שיחת הוועידה הסתיימה";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u משתתפים";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "התעלם";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "פתח";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "העתק";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "הוסף ל'רשימת קריאה'";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "פתח ב- Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "אחורה";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "קדימה";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "אישור";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "ביטול";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ מקליד/ה...";
+"CHATTYPING_TWOUSERS" = "%@ ו- %@ מקלידים/ות...";
+"CHATTYPING_THREEUSERS" = "%@,‏ %@ ואדם נוסף אחד מקלידים...";
+"CHATTYPING_MULTIPLEUSERS" = "%@,‏ %@ ו- %d אנשים נוספים מקלידים...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "שלח דואר אלקטרוני";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "ראה כרטיס איש קשר";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "משתתפים";
+"DROPDOWN_ADD_PARTICIPANTS" = "הוסף משתתפים";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "נכנס";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "יוצא";
+
+"LOCID Meetings Page Title" = "פגישות";
+"LOCID No Meetings Placeholder" = "הפגישות שלך יופיעו כאן";
+"LOCID Meetings Today" = "היום";
+"LOCID Meetings Tomorrow" = "מחר";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "הזן את הודעת מצב הרוח שלך";
+
+"PARTICIPANTS_VIEW_TITLE" = "משתתפים";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "ממתינים בחדר הכניסה";
+"PARTICIPANTS_VIEW_ON_CALL" = "בשיחה זו";
+
+"MEETING_VIEW_TITLE" = "פגישה";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "הצטרף לפגישה";
+"MEETING_VIEW_ORGANISER_LABEL" = "מארגן";
+"MEETING_VIEW_INVITEES_LABEL" = "מוזמנים";
+"MEETING_VIEW_NOTES_LABEL" = "הערות";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "מתחבר...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "בחר סמל הבעה";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "שלח הודעה";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "השיחה הסתיימה";
+"INVITE_PARTICIPANTS" = "הזמן משתתפים";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "הקודם";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "פנקס כתובות";
+"LOCID_PHONE_NUMBER" = "מספר טלפון";
+"LOCID_MORE" = "עוד";
+"SWITCH_VIDEO_ACCESSIBILITY" = "החלף מצב מצלמה";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "הצג פרופיל איש קשר";
+"CHAT_OPTION_PARTICIPANTS" = "משתתפים";
+"LOCID_CONTACTS_TABLE_VIEW" = "תצוגת אנשי קשר";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "שיחה נכנסת";
+"LOCID_MEETINGS_TABLE_VIEW" = "תצוגת פגישות";

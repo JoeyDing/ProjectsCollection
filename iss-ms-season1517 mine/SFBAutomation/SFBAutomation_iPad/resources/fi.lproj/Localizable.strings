@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = " Vastaa";
+"JOIN" = "Hyväksy";
+"VIEW" = "Näytä";
+"IGNORE" = "Ohita";
+"LAUNCH" = "Käynnistä";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "kutsuu sinut keskusteluun";
+"NEW_IM_BURNT_TOAST" = "Vastaamaton keskustelukutsu henkilöltä %@";
+"SIGN_IN" = "Kirjaudu";
+"SIGN_OUT" = "Sinut on kirjattu ulos toimettomuuden vuoksi.";
+"MWI" = "Uusia vastaajaviestejä: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Kirjautumisosoite";
+"LOCID Password" = "Salasana";
+"LOCID User Name" = "Käyttäjänimi";
+"LOCID Domain" = "Toimialue";
+"LOCID Auto-Detect Server" = "Palvelimen tunnistus";
+"LOCID Sign-in As" = "Kirjaudu sisään tilassa";
+"LOCID User Name Footer" = "Skype for Business Online -käyttäjät: käyttäjänimi@toimialue.com\nMuut käyttäjät: toimialue\\käyttäjänimi";
+"LOCID Hide Details" = "Piilota lisäasetukset";
+"LOCID More Details" = "Näytä lisäasetukset";
+"LOCID Save Password" = "Tallenna salasana";
+
+/* generic share button */
+"LOCID share" = "jaa";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Sisäinen hakuosoite";
+"LOCID External Server Address" = "Ulkoinen hakuosoite";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Auta meitä Skype for Businessin kehittämisessä lähettämällä meille tietoja kirjautumisvirheestä.";
+"LOCID Sign In BRB Reason 2" = "Saako Microsoft kerätä tietoja tästä ja tulevista kirjautumisvirheistä? Voit milloin tahansa muuttaa määritystä asetuksissa.";
+"LOCID BRBDonotshow" = "Älä näytä tätä uudelleen";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Kirjaudu";
+"LOCID Sign Out" = "Kirjaudu ulos";
+"LOCID Cancel Sign in" = "Peruuta sisäänkirjautuminen";
+"LOCID Lync Is Signing In" = "Skype for Business kirjautuu sisään";
+"LOCID Lync Is Signing Out" = "Skype for Business kirjautuu ulos";
+
+// Help
+"LOCID signin help" = "Kirjautumisohje";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Omat tiedot";
+"LOCID Contacts" = "Yht.tiedot";
+"LOCID Conversations" = "Keskustelut";
+"LOCID Meetings" = "Kokoukset";
+"LOCID Phone" = "Puhelin";
+"LOCID Signing In" = "Kirjaudutaan...";
+"LOCID Signed Out" = "Uloskirj.";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Mitä tänään tapahtuu?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Oma huomautus";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Kirjoita oma huomautus";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Muokkaa kaksoisnapauttamalla";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Tuntematon";
+"LOCID Available" = "Tavoitettavissa";
+"LOCID Busy" = "Varattu";
+"LOCID Busy Inactive" = "Varattu (poistumassa)";
+"LOCID Do Not Disturb" = "Älä häiritse";
+"LOCID Be Right Back" = "Palaan pian";
+"LOCID Presence unknown" = "Ei tavoitettavuustietoa saatavilla";
+"LOCID Off Work" = "Ei töissä";
+"LOCID Appear Away" = "Näy poistuneena";
+"LOCID Away" = "Poistunut";
+"LOCID Inactive" = "Poistumassa";
+"LOCID Reset Status" = "Palauta tila";
+"LOCID Offline" = "Offline-tilassa";
+"LOCID Blocked" = "Estetty";
+"LOCID Sign In As Header" = "Valitse näytettävä tila:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Puhelu käynnissä";
+"LOCID In a Conference Call" = "Neuvottelupuhelu käynnissä";
+"LOCID Presenting" = "Esittää";
+"LOCID In a Meeting" = "Kokouksessa";
+"LOCID Out of Office" = "Poissa";
+"LOCID Urgent Interruptions Only" = "Vain kiireelliset asiat";
+"LOCID Out To Lunch" = "Lounaalla";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype for Business ei voi näyttää iPhonen yhteystietoja. Voit muuttaa määritystä iPhonen asetuksissa.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype for Business ei voi näyttää iPadin yhteystietoja. Voit muuttaa määritystä iPadin asetuksissa.";
+"LOCID Other Contacts" = "Muut yhteyshenkilöt";
+"LOCID Pinned Contacts" = "Suosikit";
+"LOCID Retrieving Members" = "Odota...";
+"LOCID Cannot connect Try again" = "Ryhmän jäsenten noutaminen ei onnistu. Yritä myöhemmin uudelleen.";
+"LOCID Group is too large to display" = "Ryhmä on liian suuri näytettäväksi.";
+"LOCID No members" = "Ei jäseniä";
+"LOCID Searching the company directory" = "Haetaan yrityshakemistosta...";
+"LOCID Please signin to search" = "Kirjaudu sisään, jotta voit hakea yrityshakemistosta.";
+"LOCID Too many results" = "Liikaa tuloksia. Yritä tarkentaa hakua.";
+"LOCID Unable to connect to the server" = "Palvelimeen ei saada yhteyttä. Yritä myöhemmin uudelleen.";
+"LOCID E_SearchTooLong" = "Ei hakutuloksia. Rajaa hakuehtoja.";
+"LOCID No Name" = "Ei nimeä";
+"LOCID idle day" = "%d päivä";
+"LOCID idle days" = "%d päivää";
+"LOCID idle hour" = "%d tunti";
+"LOCID idle hours" = "%d tuntia";
+"LOCID idle minutes" = "%d minuuttia";
+"LOCID inactive idle day" = "Passiivinen %d päivän";
+"LOCID inactive idle days" = "Passiivinen %d päivää";
+"LOCID inactive idle hour" = "Passiivinen %d tunnin";
+"LOCID inactive idle hours" = "Passiivinen %d tuntia";
+"LOCID inactive idle minutes" = "Passiivinen %d minuuttia";
+"LOCID DG does not exist" = "Jakeluryhmää ei enää ole.";
+"LOCID Access to DG denied" = "Et voi käyttää tätä jakeluryhmää";
+"LOCID No Contacts Placeholder" = "Yhteystiedot näkyvät tässä";
+"LOCID No Contacts" = "Ei yhteystietoja";
+"LOCID You currently have no contacts" = "Sinulla ei ole yhteystietoja tällä hetkellä";
+"LOCID Retrieving Contacts..." = "Noudetaan yhteystietoja...";
+"LOCID Expanded" = "Ryhmä %@, laajennettu";
+"LOCID Collapsed" = "Ryhmä %@, kutistettu";
+"LOCID Group card- acc" = "Ryhmän kortti";
+"LOCID Open group card - acc" = "Avaa ryhmän kortti napauttamalla";
+
+/* Contact Card*/
+"LOCID Loading name" = "Ladataan nimi...";
+"LOCID Details" = "Kortti";
+"LOCID Work" = "Työ";
+"LOCID Home" = "Koti";
+"LOCID Mobile" = "Matkapuhelin";
+"LOCID Other" = "Muu";
+"LOCID other lowercase" = "muu";
+"LOCID Office" = "Toimisto";
+"LOCID Company" = "Yritys";
+"LOCID Department" = "Osasto";
+"LOCID Send Text Message" = "Lähetä tekstiviesti";
+"LOCID IM" = "pikaviesti";
+"LOCID E-Mail" = "Sähköposti";
+"LOCID unknown lowercase" = "tuntematon";
+"LOCID Location lowercase" = "sijainti";
+"LOCID Calendar" = "kalenteri";
+"LOCID Link" = "linkki";
+"LOCID Disabled" = "%@, poistettu käytöstä"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Huomautus";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "JÄSENET"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Kutsu";
+"LOCID Transfer" = "Siirrä";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business yrittää ohjata sinut uudelleen:";
+"LOCID certIssuedBy" = "Myöntäjä:";
+"LOCID certSubject" = "Aihe:";
+"LOCID certExpires" = "Vanhenee:";
+"LOCID certSignature" = "Allekirjoitusalgoritmi:";
+"LOCID certDonotshow" = "Älä näytä tätä uudelleen.";
+"LOCID Continue" = "Jatka";
+"LOCID certNone" = "Ei salausta";
+"LOCID certRSA" = "RSA-salaus";
+"LOCID certDSA" = "DSA-salaus";
+"LOCID certDH" = "DH-salaus";
+"LOCID certEC" = "EC-salaus";
+"LOCID certHMAC" = "HMAC-salaus";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Keskustelu";
+"LOCID Chats - Phone Call" = "Puhelu";
+"LOCID Chats - Video Call" = "Videopuhelu";
+"LOCID Chats - Meeting" = "Kokous";
+"LOCID Chats - Missed Call" = "Vastaamaton puhelu";
+"LOCID Chats - Missed Video Call" = "Vastaamaton videopuhelu";
+"LOCID Chats - Current Call" = "Nykyinen puhelu";
+"LOCID Chats - Current Call With Duration" = "Nykyinen puhelu, %@";
+"LOCID Phone Status - Connecting" = "Yhdistetään...";
+"LOCID Phone Status - On Hold" = "Pidossa";
+"LOCID Phone Status - Transferring" = "Siirretään";
+"LOCID Transferring to" = "Siirretään kohteeseen %@...";
+"LOCID Chats Full" = "TIEDOKSI: Tämä luettelo on täynnä. Uusien keskustelujen lisääminen poistaa vanhimmat keskustelut.";
+"LOCID Close Conversation" = "Poista keskustelu";
+"LOCID View Participants List" = "Näytä osallistujaluettelo";
+"LOCID Call Contact" = "Soita: %@";
+"LOCID Video Call Contact" = "Videopuhelu";
+"LOCID Video Conference Contact" = "Videoneuvottelu";
+"LOCID Edit" = "Muokkaa";
+"LOCID Deselect All" = "Poista kaikki valinnat";
+"LOCID Select All" = "Valitse kaikki";
+"LOCID Me" = "Minä: %@";
+"LOCID Missed" = "Vastaamatta: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Ryhmäkeskustelu";
+"LOCID Tap To Enter Text" = "Kirjoita napauttamalla tätä";
+"LOCID No Conversations" = "Ei keskusteluja";
+"LOCID No Conversations Hint" = "Keskusteluja ei tällä hetkellä ole";
+"LOCID Delete Count" = "Poista (%d)";
+"LOCID Delete None" = "Poista";
+"LOCID Escalating audio conference" = "Käynnistetään neuvottelupuhelua...";
+"LOCID Escalating video conference" = "Käynnistetään videoneuvottelua...";
+"LOCID No Participants" = "Ei osallistujia";
+"LOCID No Other Participants" = "Ei muita osallistujia";
+"LOCID One Participant" = "1 osallistuja";
+"LOCID Some Participants" = "%d osallistujaa";
+"LOCID Max Participants" = "%d+ osallistujaa";
+"LOCID Large Meeting" = "Suuri kokous";
+"LOCID Toast No Invite" = "kutsuu sinut keskusteluun";
+"LOCID Participant Join" = "%@ on liittynyt kokoukseen";
+"LOCID Participant Leave" = "%@ on poistunut kokouksesta";
+"LOCID Participant Join Failure" = "%@ ei voi liittyä kokoukseen";
+"LOCID Large Conference" = "Suuri kokous";
+"LOCID Large Conference Detail" = "Osallistujaluettelo ei ole käytettävissä kokouksissa, joissa on paljon osallistujia.";
+"LOCID No Participants Detail" = "Tässä keskustelussa ei ole osallistujia";
+"LOCID cannotSend" = "Viestiäsi ei voi toimittaa:";
+"LOCID Missed Conversation" = "Vastaamaton keskustelukutsu";
+"LOCID Send as Email" = "Lähetä sähköpostina";
+"LOCID Email Subject" = "%1$@-keskustelu henkilön %2$@ kanssa";
+"LOCID Anonymous" = "Anonyymi";
+"LOCID Duration" = "Kesto:";
+"LOCID Switch Camera" = "Vaihda kamera";
+"LOCID Swap PIP" = "Vaihda kuva kuvassa";
+"LOCID Leave Video" = "Poistu videosta";
+"LOCID Start My Video" = "Käynnistä oma video";
+"LOCID Stop My Video" = "Keskeytä oma video";
+"LOCID End Video" = "Lopeta video";
+"LOCID LargeMtgActiveSpeakerMissing" = "Kaiuttimen tiedot eivät ole käytettävissä suurissa kokouksissa.";
+"LOCID Swap Preview" = "Vaihda esikatselua";
+"LOCID Speaker On" = "Kaiutin käytössä";
+"LOCID Speaker Off" = "Kaiutin ei käytössä";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Video käytössä";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Poista video käytöstä kaksoisnapauttamalla.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Video ei käytössä";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Ota video käyttöön kaksoisnapauttamalla.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Kaiutin käytössä";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Poista kaiutin käytöstä kaksoisnapauttamalla.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Kaiutin ei käytössä";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Ota kaiutin käyttöön kaksoisnapauttamalla.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Puhelu vaimennettu";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Poista vaimennus kaksoisnapauttamalla.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Puhelun vaimennus poistettu";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Vaimenna kaksoisnapauttamalla.";
+
+"LOCID Instant Messaging" = "Pikaviestit";
+"LOCID Voice" = "Ääni";
+"LOCID Collaboration" = "Yhteiskäyttö";
+"LOCID Participants" = "Osallistujat";
+"LOCID Full Screen" = "Koko näyttö";
+"LOCID Exit Full Screen" = "Poistu koko näytön tilasta";
+"LOCID Local Participant Alone in Conference Msg" = "Olet puhelun ainoa osallistuja.";
+"LOCID 1 or more participants" = "Vähintään yksi osallistuja";
+"LOCID Call Started" = "Puhelu alkoi - %@";
+"LOCID Call Ended Missed" = "Puhelu päättyi - %@ [vastaamaton]";
+"LOCID Call Ended Duration" = "Puhelu päättyi - %@ [kesto: %@]";
+"LOCID ConferenceEndedRejoin" = "Yhteys kokoukseen on katkaistu. Liity uudelleen napauttamalla alla olevaa kuvaketta.";
+"LOCID ConferenceEndedContinue" = "Jos aloitat keskustelun uudelleen, kaikki alkuperäiset osallistujat saavat uuden kutsun.";
+"LOCID IM P2P Toast Voiceover" = "%@ kutsuu sinut keskusteluun. Hyväksy kaksoisnapauttamalla.";
+"LOCID IM Conf Toast Voiceover" = "%@ kutsuu sinut ryhmäkeskusteluun. Hyväksy kaksoisnapauttamalla.";
+"LOCID Video is Locked on you" = "Video on lukittu sinuun.";
+
+"LOCID SFB Call Started" = "Puhelu alkoi";
+"LOCID SFB Call Ended" = "Puhelu päättyi";
+"LOCID SFB Call Ended Duration" = "Puhelu päättyi, %@";
+
+/* Roster*/
+"LOCID Presenters" = "ESITTÄJÄT (%d)";
+"LOCID Attendees" = "OSALLISTUJAT (%d)";
+"LOCID In Lobby" = "ODOTUSTILA (%d)";
+"LOCID Guest" = "Vieras";
+"LOCID Remove" = "Poista";
+"LOCID E_RemoveFailed" = "Osallistujaa ei voi poistaa.";
+"LOCID E_AddFailed" = "Osallistujaa ei voi lisätä.";
+
+/*Lobby*/
+"LOCID Admit all" = "Hyväksy kaikki";
+"LOCID Deny all" = "Estä kaikki";
+"LOCID Admit" = "Hyväksy";
+"LOCID Deny" = "Estä";
+"LOCID See Lobby" = "Näytä odotustila";
+"LOCID Conference In the Lobby" = "Odotustilassa on osallistujia.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Aseta esittäjäksi";
+"LOCID Demote" = "Aseta osallistujaksi";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Matkapuhelin";
+"LOCID Voice and IM Unavailable" = "Ääni ja pikaviestit ei käytettävissä";
+"LOCID Voice Only" = "Vain ääni";
+"LOCID Voice and Video Only" = "Vain ääni ja video";
+"LOCID IM Only" = "Vain pikaviestit";
+"LOCID No Voice" = "Ei ääntä";
+"LOCID Video capable" = "Video käytettävissä";
+"LOCID No IM" = "Ei pikaviestejä";
+"LOCID Mobile Cap" = "Matkapuhelin";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Näppäimistö";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Soita";
+"LOCID Dialpad" = "Valintapaneeli";
+"LOCID Dialpad STAR Key" = "Tähti";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Punta"; // Used for accessibility
+"LOCID Delete Key" = "Poista";   // Used for accessibility
+"LOCID Emergency number" = "Hätänumero"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "piilota";
+"LOCID Dialpad Search Recent Calls" = "edelliset puhelut";
+"LOCID Dialpad Search Native Contacts" = "puhelimen yhteyshenkilöt";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Ongelma yhteystietojen käytössä";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Järjestelmä havaitsi virheen yritettäessä käyttää puhelinnumeroita yhteystiedoistasi. Siirry asetuksiin ja yritä synkronoida sähköpostitilit uudelleen.";
+
+/* My Status Tab */
+"LOCID Options" = "Asetukset";
+"LOCID Send Feedback" = "Palaute";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ - %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Alkaa %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "päättyy %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "alkaa %1$@, päättyy %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Ei kokouksia";
+"LOCID All" = "Kaikki";
+"LOCID No Meetings Scheduled" = "Ei ajoitettuja kokouksia";
+"LOCID None" = "Ei mitään";
+"LOCID Organizer" = "Järjestäjä";
+"LOCID Invitees" = "KUTSUTUT";
+"LOCID Notes" = "MUISTIINPANOT";
+"LOCID Join" = "Liity";
+"LOCID Updated DATE TIME" = "Päivitetty %1$@ %2$@";
+"LOCID Online" = "Online";
+"LOCID Tentative" = "Alustava";
+"LOCID Event" = "Tapahtuma";
+"LOCID Updating..." = "Päivitetään...";
+"LOCID Tentative Voiceover" = "%@, alustava";
+"LOCID Pull to refresh" = "Päivitä vetämällä";
+"LOCID Today" = "TÄNÄÄN"; // CAPS
+"LOCID Tomorrow" = "HUOMENNA"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Jos et ole järjestäjä, mikrofonisi vaimennetaan, kun liityt kokoukseen.";
+"LOCID Lync Conferencing" = "Skype-kokous";
+"LOCID Joining Step 1" = "Yhdistetään...";
+"LOCID Please wait to be admitted" = "Odota, että sinut hyväksytään";
+"LOCID Join Conf Error" = "Kokousyhteys katkesi.";
+"LOCID Anonymous Join" = "Liittyminen nimettömänä";
+"LOCID Enter your name" = "Kirjoita nimesi";
+"LOCID Anonymous Join Greeting" = "Tervetuloa Skype for Businessiin";
+"LOCID Sign in with Lync" = "Kirjaudu sisään Skype for Businessissa";
+"LOCID Sign in as guest" = "Kirjaudu sisään vieraana";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Yhteyttä kokoukseen ei voi muodostaa ilman iPhone-numeroasi. Lisää iPhone-numerosi Skype for Businessin asetuksiin.";
+"LOCID Join Conf Error - No Number iPad" = "Yhteyttä kokoukseen ei voi muodostaa ilman puhelinnumeroasi. Lisää iPhone-numerosi Skype for Businessin asetuksiin.";
+"LOCID Join Meeting Line 1 Text" = "Liitytään kokoukseen\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Soitetaan sinulle numeroon %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Hei! Odota hetki. Olet odotustilassa ja kokouksen järjestäjä—kutsuu sinut mukaan hetken kuluttua.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Sinua ei ole hyväksytty kokoukseen, koska järjestäjä ei ole paikalla tai ei vastaa.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Yhteys katkesi. Yritä uudelleen napauttamalla Liity.";
+"LOCID View" = "Näytä";
+"LOCID Join Meeting" = "Liity kokoukseen";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Liitytään kokoukseen";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Sinua ei voi liittää kokoukseen, koska se on täynnä. Ota yhteys kokouksen järjestäjään.";
+"LOCID AdmittedToLobby" = "Sinut on hyväksytty kokoukseen. Sinulle soitetaan...";
+"LOCID MtgDisclaimerAccept" = "Hyväksy";
+"LOCID MtgDisclaimerDecline" = "Ohita";
+"LOCID E_MeetingNotFound" = "Yritit liittyä kokoukseen, jota ei ole olemassa.";
+"LOCID E_MeetingsNotEnabled" = "Organisaatiosi ei tue tätä kokoustoimintoa.";
+"LOCID E_OutsideOrg" = "Tällä henkilöllä tai kokouksella ei ole oikeutta käyttää verkkoasi.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Puhelut ja kokoukset";
+"LOCID credentialsSection" = "Tunnistetiedot";
+"LOCID contactsSection" = "Yhteyshenkilöt";
+"LOCID accessibilitySection" = "Helppokäyttöisyys";
+"LOCID otherSection" = "Muu";
+"LOCID Show Recent Contacts" = "Uusimmat yhteyshenkilöt";
+"LOCID Show Pinned Contacts" = "Merkityt yhteyshenkilöt";
+"LOCID Show Photos" = "Valokuvat";
+"LOCID Sort by availability" = "Lajittele käytettävyyden mukaan";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Kirjaus";
+"LOCID About" = "Tietoja";
+"LOCID About Version" = "Versio %@";
+"LOCID Status" = "Tila";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP-välityspalvelin";
+"LOCID Require WiFi" = "Edellyttää Wi-Fi-yhteyttä";
+"LOCID WiFi VoIP" = "Ääni";
+"LOCID WiFi Video" = "Video";
+"LOCID WiFi Collab" = "Kokouksen sisältö";
+"LOCID WiFi Warning" = "Jos ei käytössä, sinulle saatetaan soittaa datayhteydellä (mahdollisesti lisämaksullinen ja heikkolaatuisempi palvelu).";
+"LOCID WiFi Warning iPad" = "Voit soittaa puheluita ja katsoa kokouksen sisältöä matkapuhelimen datayhteydellä (saattaa aiheuttaa lisämaksuja sekä heikentää kuvan ja äänen laatua).";
+"LOCID Not a SfB User" = "Etkö ole Skype for Business -käyttäjä?";
+
+
+/* About View */
+"LOCID About Title" = "Tietoja";
+"LOCID version" = "Versio: %@";
+"LOCID Long Product Name" = "Skype® for Business for %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Kaikki oikeudet pidätetään.";
+"LOCID online help" = "Ohje";
+"LOCID Terms Of Use" = "Käyttöehdot";
+"LOCID Privacy title" = "Tietosuoja";
+"LOCID Third Party Notices" = "3. osapuolen ilmoitukset";
+"LOCID ABOUT_COPYRIGHT" = "© 2003–2015 Skype & Microsoft\nPatenttia haettu";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Skype-nimi, siihen liittyvät tavaramerkit ja S-logo ovat Skypen ja sen tytäryhtiöiden tavaramerkkejä.\n\nVaroitus: Tätä ohjelmaa suojaavat tekijänoikeuslaki ja kansainväliset sopimukset. Tämän ohjelman tai sen jonkin osan luvaton kopiointi ja jakelu voivat johtaa ankariin siviili- tai rikosoikeudellisiin rangaistuksiin ja ne aiheuttavat syytteen nostamisen lain ankarimman kirjaimen mukaisesti.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Soitonsiirto";
+"LOCID Forward Section" = "Valitse numero";
+"LOCID Apply Setting Section" = "Käytä asetuksia";
+"LOCID Summary Section" = "Nykyiset asetukset:";
+"LOCID Do Not Forward" = "Ei soitonsiirtoa";
+"LOCID Forward Calls" = "Käytä soitonsiirtoa";
+"LOCID Forward Calls To" = "Siirrä puhelut";
+"LOCID Simultaneously Ring" = "Soi samanaikaisesti";
+"LOCID On" = "Käyt.";
+"LOCID Off" = "Pois";
+"LOCID During Working Hours" = "Työaikana";
+"LOCID Voicemail" = "Vastaaja";
+"LOCID Team Call" = "Yhteissoiton jäsenet";
+"LOCID Delegates" = "Edustajat";
+"LOCID Pending Persons" = "Lisääjä";
+"LOCID Delegate Target" = "edustajasi";
+"LOCID TeamCall Target" = "yhteissoittoryhmäsi jäsenet";
+"LOCID Voicemail Target" = "vastaajasi";
+"LOCID DoNotForward Summary" = "Puhelut soivat töissä, eikä niitä siirretä. Puhelut eivät tule matkapuhelimeesi, jos VoIP ei ole käytettävissä.";
+"LOCID DoNotForward Summary iPad" = "Puhelut soivat työnumerossasi eikä niitä siirretä. Et voi vastata puheluihin iPad-laitteella, jos VoIP ei ole käytössä.";
+"LOCID ForwardCalls Summary" = "Puhelut siirretään suoraan numeroon %@. Jos tämä ei ole matkapuhelinnumerosi, puhelut eivät soi matkapuhelimessasi.";
+"LOCID ForwardCalls Summary iPad" = "Puhelut siirretäään numeroon %@ eivätkä ne soi iPad-laitteessasi.";
+"LOCID Simulring Summary" = "Puhelut soivat sekä töissä että numerossa %@. Jos tämä on matkapuhelinnumerosi, puhelut soivat matkapuhelimessasi, jos VoIP ei ole käytettävissä.";
+"LOCID Simulring Summary iPad" = "Puhelut soivat työnumerossasi ja numerossa %@. Et voi vastata puheluihin iPad-laitteella, jos VoIP ei ole käytössä.";
+"LOCID View Settings" = "Näytä nykyiset asetukset";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Käytä asetuksia";
+"LOCID All the Time" = "Aina";
+"LOCID During Outlook Working Hours" = "Outlook-työaikoina";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Työ";
+"LOCID Home Capitalized" = "Koti";
+"LOCID Mobile Capitalized" = "Matkapuhelin";
+"LOCID Custom Capitalized" = "Mukautettu";
+"LOCID Other Capitalized" = "Muu";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Peruuta";
+"LOCID Add" = "Lisää";
+"LOCID New Number" = "Uusi numero";
+"LOCID New Contact" = "Uusi yhteystieto";
+"LOCID Contact" = "Yhteystieto";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Lataa kirjautumislokit";
+"LOCID SignInBRB - Always" = "Aina";
+"LOCID SignInBRB - Never" = "Ei koskaan";
+"LOCID SignInBRB - Ask Me" = "Kysy ensin";
+"LOCID Send Log Files" = "Lähetä lokitiedostot";
+"LOCID Log Email Subject" = "Skype for Businessin lokitiedostot"; //product name
+"LOCID Device Model" = "Laitemalli:";
+"LOCID Device OS Name" = "Laitteen käyttöjärjestelmän nimi:";
+"LOCID Device OS Version" = "Laitteen käyttöjärjestelmän versio:";
+"LOCID Enable Logging" = "Ota kirjaus käyttöön";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "HTTP-välityspalvelin";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Viimeistele HTTP-välityspalvelimen asetukset käyttämällä laitteen %@ Wi-Fi-asetuksia.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Käytä Skype for Businessin tunnistetietoja";
+"LOCID Exchange Credentials Info" = "Skype for Business tarvitsee Exchange-tunnistetietosi, jotta se voi näyttää kaikki kokoukset ja vastaajatiedot.";
+"LOCID Email Address" = "Sähköpostiosoite";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Matkapuhelinnumero";
+"LOCID My Mobile Number Details" = "Anna iPhone-numerosi maa- ja suuntanumeroineen:";
+"LOCID My Mobile Number Details iPad" = "Anna puhelinnumerosi maa- ja suuntanumeroineen:";
+"LOCID My Mobile Number Footer" = "Tällä tavalla voit liittyä kokouksiin Skype for Businessissa sekä soittaa puheluja ja vastata niihin työnumerosta.\n(Jos VoIP ei ole käytettävissä, tämä on varakeino.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Tällä tavalla voit liittyä kokouksiin Skype for Businessissa.\n(Jos VoIP ei ole käytettävissä, tämä on varakeino.)";
+"LOCID iPhone Number" = "Puhelinnumero";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Soita työnumerosta";
+"LOCID Missing iPhone Number Error" = "Puuttuva puhelinnumero";
+"LOCID Missing iPhone Number Error Text" = "Tätä puhelua ei voi soittaa. Anna iPhone-numero asetuksissa ja yritä puhelua uudelleen.";
+"LOCID Missing iPad Number Error Text" = "Tätä puhelua ei voi soittaa. Anna puhelinnumero asetuksissa ja yritä puhelua uudelleen.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Ennen käytön aloittamista";
+"LOCID Main text" = "Kaikki Skype -kokoukseen kutsutut voivat käyttää Skype for Business -sovellusta, mutta sovelluksen kaikkien ominaisuuksien käyttäminen edellyttää Skype for Business -tiliä.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "Lisää asetuksia";
+"LOCID Add Contact" = "Lisää yhteyshenkilö";
+"LOCID Add to Group" = "Lisää ryhmään";
+"LOCID Remove Contact" = "Poista yhteysenkilö";
+"LOCID Remove from Group" = "Poista ryhmästä";
+"LOCID Groups" = "Ryhmät";
+"LOCID E_AddContactFailureGeneral" = "Tätä yhteyshenkilöä ei voi lisätä juuri nyt. Yritä myöhemmin uudelleen.";
+"LOCID E_AddContactFull" = "Tähän ryhmään ei voi enää lisätä yhteyshenkilöitä.";
+"LOCID E_AddContactInGroup" = "Yhteystieto on jo ryhmässä.";
+"LOCID E_RemoveContactFailureGeneral" = "Tätä yhteystietoa ei voi poistaa juuri nyt. Yritä myöhemmin uudelleen.";
+"LOCID Confirm Remove Contact" = "Toiminto poistaa yhteyshenkilön %@ yhteystietoluettelosta.";
+"LOCID Ignore" = "Ohita";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Lisätietoja";
+"LOCID CEIP More Info" = "Auta kehittämään Skype for Businessia lähettämällä Microsoftille käyttötietoja nimettömästi.";
+"LOCID ceipSectionTitle" = "Käyttömukavuuden kehitysohjelma";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Tervetuloa!";
+"LOCID Lets begin" = "Aloitetaanpa...";
+
+/* First Run Experience */
+"LOCID Close" = "Sulje";
+"LOCID Change" = "Kyllä";
+"LOCID Don't change" = "Ei";
+"LOCID Next" = "Seuraava";
+"LOCID Done" = "Valmis";
+"LOCID First Run First Step" = "Lync on nyt Skype for Business - uudessa sovelluksessa yhdistyvät Skypen helppokäyttöisyys ja Microsoftin tuotteiden parhaimmat yritystason ominaisuudet.";
+"LOCID First Run Second Step" = "Jokainen käyttäjä voi liittyä Skype-kokoukseen tällä sovelluksella, mutta kaikkien ominaisuuksien käyttäminen edellyttää, että sinulla on Skype for Business -tili ja että organisaatio on ottanut tämän sovelluksen käyttöön.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "MUUTETAANKO SOITONSIIRTOASETUKSIA?";
+"LOCID First Run CF Current Settings" = "Nykyiset asetukset:";
+"LOCID First Run CF Change Settings" = "Uudet asetukset:";
+"LOCID First Run Change Summary" = "Olet antanut työnumerosi. Ennen kuin voit vastaanottaa puheluja, soitonsiirtoasetukset on päivitettävä.";
+"LOCID First Run Change Request" = "Muutetaanko asetusta niin, että työpuhelut soivat samanaikaisesti työnumerossa ja numerossa %@?";
+"LOCID DoNotForward Summary - First Run" = "Puhelut soivat töissä, eikä niitä siirretä mihinkään muuhun puhelinnumeroon.";
+"LOCID ForwardCalls Summary - First Run" = "Puhelut siirretään suoraan numeroon %@.";
+"LOCID Simulring Summary - First Run" = "Puhelut soivat sekä töissä että numerossa %@.";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "VASTAANOTA KAIKKI TYÖPUHELUSI";
+"LOCID My Mobile Number Title 2" = "OSALLISTU KAIKKIIN KOKOUKSIIN";
+"LOCID My Mobile Number Details First Run" = "Anna iPhone-puhelinnumerosi (myös maa- ja aluetunnus):";
+"LOCID My Mobile Number Details First Run_iPad" = "Anna puhelinnumerosi (myös maa- ja aluetunnus):";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "DATAYHTEYDEN HALLINTA";
+"LOCID Setup Work Calls Sub Text" = "Näillä asetuksilla hallitaan datayhteyden käyttöä sekä puheluiden ja kokouksen mahdollisesti aiheuttamia lisäkuluja.";
+
+"LOCID Require Wifi for VoIP calls" = "VoIP-puheluiden tarvitaan Wi-Fi-yhteys";
+"LOCID Require Wifi for VoIP calls off subtext" = "Lync käyttää matkapuhelimen datayhteyttä, jos Wi-Fi-yhteyttä ei ole muodostettu.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Lync käyttää puheluissa vain Wi-Fi-yhteyttä. Matkapuhelimen datayhteyttä ei käytetä missään tilanteessa.";
+
+"LOCID Require Wifi for Video calls" = "Videopuheluihin tarvitaan Wi-Fi-yhteys";
+"LOCID Require Wifi for Video calls off subtext" = "Lync käyttää matkapuhelimen datayhteyttä videopuheluissa, jos Wi-Fi-yhteyttä ei ole muodostettu. (Siirrettävän datan määrä voi olla suuri.)";
+"LOCID Require Wifi for Video calls on subtext" = "Videopuhelut soitetaan aina Wi-Fi-yhteydellä. Matkapuhelimen datayhteyttä ei käytetä missään tilanteessa.";
+
+"LOCID Require Wifi for meeting content" = "Kokouksen sisältö edellyttää Wi-Fi-yhteyttä";
+"LOCID Require Wifi for meeting content off subtext" = "Kokouksen sisällön esittämiseen käytetään aina Wi-Fi-yhteyttä. Matkapuhelimen datayhteyttä ei käytetä missään tilanteessa.(Siirrettävän datan määrä voi olla suuri.)";
+"LOCID Require Wifi for meeting content on subtext" = "Kokouksen sisällön esittämiseen käytetään aina Wi-Fi-yhteyttä. —Matkapuhelimen datayhteyttä ei käytetä missään tilanteessa.";
+
+"LOCID Skip" = "Ohita";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Aloita Skype for Businessin käyttäminen";
+
+"LOCID First Run Successful Setup" = "KAIKKI ON VALMISTA!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "TERVETULOA!";
+"LOCID First Run Successful Setup Details" = "Voit muuttaa määrityksiä milloin tahansa Asetuksissa.";
+
+"LOCID improve lync" = "Auta Skype for Businessin kehittämisessä";
+"LOCID whyphonenumber" = "Mihin tarvitsemme puhelinnumerosi";
+"LOCID more detail" = "Lisätietoja";
+
+"LOCID Emergency Call Disclaimer" = "Tarkennukset:";
+"LOCID Emergency Call Disclaimer Details" = "Kaikista puheluista veloitetaan normaalisti.\n\nTärkeää: Älä käytä Skype for Businessia hätäpuheluiden soittamiseen.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Tärkeä";
+"LOCID Emergency Call Disclaimer Details iPad" = "Älä käytä Skype for Businessia hätäpuheluiden soittamiseen.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Palveluilmoitukset";
+"LOCID Push Notification Legal1" = "Huomioi ennen palveluilmoitusten hyväksymistä, että kaikki palveluilmoitukset ja niiden sisältö lähetetään Apple Push Notification Service -palvelun ja Microsoft Push Notification -järjestelmän kautta.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Olet muuttanut Push Notification -asetuksia laitteen %1$@ ilmoitusasetuksissa. Skype for Business on kuitenkin käynnistettävä uudelleen, jos kaiken ilmoitussisällön toimittaminen on tarkoitus pysäyttää.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "OK";
+"LOCID Call via Work Not Available Error" = "Et voi soittaa Skype for Business -puhelua, koska olet offline-tilassa. Käytä matkapuhelintasi.";
+"LOCID Call via Work Not Available Error iPad" = "Skype for Business -puhelua ei voi soittaa, koska olet offline-tilassa.";
+"LOCID Answer incoming call" = "Vastaa saapuvaan puheluun";
+"LOCID to connect you to... display name" = "niin sinut yhdistetään...\n%@";
+
+"LOCID Call via Work Connecting" = "Yhdistetään...\n Vastaa seuraavaan saapuvaan puheluun.";
+"LOCID Call via Work Connected" = "Olet liittynyt numerosta %1$@";
+"LOCID Video Disclaimer" = "Et voi katsoa tai jakaa videoita.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Olet liittynyt numerosta %1$@.";
+
+/* Errors */
+"LOCID Error" = "Virhe";
+"LOCID E_GenericFailure" = "Virhe Skype for Businessissa. Yritä uudelleen. Jos ongelma ei poistu, ota yhteyttä tukihenkilöstöösi.";
+"LOCID E_GroupNotFound" = "Ryhmää ei löydy.";
+"LOCID E_PermissionsForGroup" = "Et voi laajentaa tätä ryhmää.";
+"LOCID E_ConnectionError" = "Palvelimeen ei saada yhteyttä. Tarkista verkkoyhteys tai palvelimen osoite ja yritä uudelleen.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Palvelimeen ei saada yhteyttä. 1) Se ei ehkä ole käytettävissä. 2) Tarkista verkkoyhteys. 3) Varmista, että käytät organisaation Skype for Business -tiliä. 4) Käyttäjänimesi ei ehkä ole sama kuin kirjautumisnimi. Valitse Lisäasetukset ja kirjoita käyttäjänimi tai toimialue\\käyttäjänimi.";
+"LOCID E_AutoDiscoveryInBackground" = "Palvelinkokoonpano on muuttunut. Käynnistä Skype for Business uudelleen.";
+"LOCID E_SslError" = "Palvelimen varmennetta ei voi tarkistaa. Ota yhteyttä tukihenkilöstöösi.";
+"LOCID E_SslCertExpiredError" = "Palvelimen varmennetta ei voi tarkistaa. Ota yhteyttä tukihenkilöstöösi.";
+"LOCID E_ProxyAuthError" = "Kirjautuminen ei onnistu. Määritä HTTP-välityspalvelimen asetukset laitteen %@ asetuksissa ja Skype for Businessin asetuksissa tai käytä 3G-yhteyttä.";
+"LOCID E_ConnectionTimeoutError" = "Palvelimeen ei saada yhteyttä. Se voi olla varattu tai tilapäisesti poissa käytöstä. Yritä uudelleen.";
+"LOCID E_GenericApplicationError" = "Sovelluksessa on virhe. Käynnistä sovellus uudelleen.";
+"LOCID E_AuthError" = "Kirjautuminen ei onnistu. Tarkista tilitiedot ja yritä uudelleen.";
+"LOCID E_InvalidCredentials" = "Kirjautuminen ei onnistu. Tarkista tilitiedot ja yritä uudelleen.";
+"LOCID E_InvalidSignInAddress" = "Kirjautuminen ei onnistu. Tarkista kirjautumisosoite ja yritä uudelleen.";
+"LOCID E_InvalidLyncAccount" = "Kirjautumistiedot ovat virheelliset. Kirjaudu sisään organisaation ilmoittamalla Skype for Business -tilillä.";
+"LOCID E_WrongHomePool" = "Et ole määrittänyt palvelinyhteysasetuksia. Ota yhteyttä tukihenkilöstöösi.";
+"LOCID E_ImSendError" = "Lähettäminen epäonnistui:";
+"LOCID GenericRetryError" = "Palvelimeen ei saada yhteyttä. Yritetään uudelleen...";
+"LOCID GenericError" = "Palvelinvirhe. Yritä uudelleen.";
+"LOCID RequestFailed" = "Pyynnön käsittely ei onnistunut. Yritä uudelleen.";
+"LOCID DecodingError" = "Palvelimen vastauksen käsittely ei onnistunut. Yritä uudelleen. Jos ongelma jatkuu, ota yhteyttä tukihenkilöstöösi.";
+"LOCID VersionMismatch" = "Skype for Business täytyy päivittää, ennen kuin voit kirjautua. Pyydä oikea versio tukihenkilöstöltä.";
+"LOCID SignInCredentialsAreNeeded" = "Sinut on kirjattu ulos. Anna tilisi tiedot sisäänkirjautumista varten.";
+"LOCID NeedLyncPassword" = "Anna salasana kirjautumista varten.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Palvelimeen ei juuri nyt saada yhteyttä. Yritä uudelleen.";
+"LOCID E_HttpRequestTimeout" = "Kirjautuminen ei onnistu, koska palvelin on tilapäisesti poissa käytöstä.";
+"LOCID E_CannotConnectToServer" = "Yhteyttä palvelimeen ei voida muodostaa. Yritetään muodostaa yhteys uudelleen. Jos ongelma toistuu, ota yhteyttä tukitiimiin.";
+"LOCID E_InvalidServerUrl" = "Palvelimen nimi on virheellinen. Tarkista se ja yritä uudelleen.";
+"LOCID E_NoValidIp" = "Verkkoon ei saada yhteyttä. Tarkista yhteysasetukset.";
+"LOCID E_MetaDataNotFound" = "Palvelimeen ei saada yhteyttä. Tarkista palvelimen osoite tai yritä myöhemmin uudelleen.";
+"LOCID E_TimeSkewError" = "Laitteen kelloa ei voi synkronoida palvelimen kanssa. Muuta aika-asetuksia tai ota yhteys tukihenkilöstöön.";
+"LOCID E_MobilityDisabled" = "Kirjautuminen ei onnistu, koska Skype for Business ei ole käytettävissä. Ota yhteys tukihenkilöstöön.";
+"LOCID E_TooManyApplications" = "Kirjautuminen ei onnistu. Olet ilmeisesti kirjautunut sisään liian monella laitteella.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Soita työnumerosta on poissa käytöstä. Ota Soita työnumerosta käyttöön, jos haluat soittaa Skype for Business -puhelun tälle henkilölle.";
+"LOCID E_UI_OfflineLyncCall" = "Skype for Business -puhelun soittaminen tälle henkilölle edellyttää verkkoyhteyttä tai matkapuhelimen tietoliikenneyhteyttä.";
+"LOCID E_EwsError" = "Exchange-palvelimeen ei saada yhteyttä. Yritä myöhemmin uudelleen.";
+"LOCID E_EwsBadCredentials" = "Exchange-kirjautumisen tunnistetiedot eivät kelpaa. Kokeile päivittää Exchange- tai Skype for Business -tunnistetietosi.";
+"LOCID W_Retrying" = "Palvelimeen ei saada yhteyttä, yritetään uudelleen...";
+"LOCID E_UI_CallViaCellError" = "Tarkista numero ja yritä uudelleen.";
+"LOCID E_LiveIdPasswordExpired" = "Salasana on vanhentunut. Vaihda salasana ja yritä uudelleen.";
+"LOCID E_LiveIdInvalidCredentails" = "Kirjautuminen ei onnistu. Tarkista tilitiedot ja yritä uudelleen.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Salasanasi täytyy vaihtaa. Päivitä salasana ja yritä uudelleen.";
+"LOCID E_LiveIdPasswordLockedOut" = "Salasanasi täytyy vaihtaa. Päivitä salasana ja yritä uudelleen.";
+"LOCID E_LiveIdConnectionFailed" = "Palvelimeen ei juuri nyt saada yhteyttä. Yritä uudelleen.";
+"LOCID E_LiveIdServiceUnavailable" = "Palvelimeen ei juuri nyt saada yhteyttä. Yritä uudelleen.";
+"LOCID E_LiveIdGenericError" = "Kirjautuminen ei onnistu. Yritä uudelleen.";
+"LOCID E_InvalidLiveIDUserNameError" = "Kirjautuminen ei onnistu. Tarkista, että käyttäjänimi on muodossa joku@example.com ja että kirjoitit salasanasi oikein.";
+"LOCID E_InvalidSmtpAddress" = "Exchange-palvelimeen ei saada yhteyttä. Tarkista tilitiedot ja yritä uudelleen.";
+"LOCID E_LogoffUnsuccessful" = "Yhteyttä Skype for Businessiin ei voi muodostaa, koska palvelinyhteys katkesi.";
+"LOCID E_ClientVersionMismatch" = "Sisäänkirjautuminen ei onnistu, koska organisaatiosi ei tue tätä Skype for Businessin versiota. Lataa ja asenna Lync 2010.";
+"LOCID E_ClientServerSchemaMisMatch" = "Skype for Business täytyy päivittää, ennen kuin voit kirjautua. Pyydä oikea versio tukihenkilöstöltä.";
+"LOCID E_ClientVersionCheck" = "Skype for Business täytyy päivittää, ennen kuin voit kirjautua. Pyydä oikea versio tukihenkilöstöltä.";
+"LOCID E_VersionMismatch" = "Skype for Business täytyy päivittää, ennen kuin voit kirjautua. Pyydä oikea versio tukihenkilöstöltä.";
+"LOCID E_AutoDConfigurationError" = "Kirjautuminen ei onnistu. Ota yhteys tukihenkilöstöön.";
+"LOCID E_AutoDPasswordExpiredError" = "Salasana on vanhentunut. Vaihda salasana ja yritä uudelleen.";
+"LOCID E_InvalidProxySettingsError" = "Kirjautuminen ei onnistu. Tarkista välityspalvelimen asetukset ja yritä uudelleen.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Sinut on kirjattu ulos toimettomuuden vuoksi.";
+"LOCID E_GeneralGoneError" = "Kirjautuminen ei onnistu. Ota yhteys tukihenkilöstöön.";
+"LOCID E_InternalServerError" = "Kirjautuminen ei onnistu. Ota yhteys tukihenkilöstöön.";
+"LOCID E_TooManyApps" = "Kirjautuminen ei onnistu. Olet ehkä kirjautunut sisään liian monesta laitteesta.";
+"LOCID E_ResponseUnkown" = "Järjestelmä ei voi muodostaa palvelinyhteyttä. Jos käytät WLAN-verkkoa, avaa selain ja tarkista yhteyden tila. Poista muussa tapauksessa verkkopiste tai yhteyden jakaminen käytöstä. Jos ongelma jatkuu, ota yhteys verkkotoimittajaan.";
+"LOCID E_CannotLoadADFSPage" = "Sisäänkirjautuminen ei onnistunut. Yritä uudelleen. Jos ongelma toistuu, ota yhteys tukihenkilöstöön.";
+"LOCID E_UserNotSipEnabled" = "Palvelinyhteyttä ei ole määritetty. Ota yhteys tukitiimiin.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "VoIP-puhelua ei voi soittaa. Käytä matkapuhelinnumeroa.";
+"LOCID E_VoicePSTNCallActive" = "VoIP-puhelua ei voi soittaa. Käytä työpuhelinnumeroa.";
+"LOCID E_VoicePSTNCallActive - Button" = "Soita työnumerosta";
+"LOCID E_VideoOverWiFiBlocked" = "Tämä on kutsu videopuheluun, mutta koska Wi-Fi-yhteyttä ei ole, vain puhelun ääni yhdistetään.";
+"LOCID E_HistoryNotDisplayed" = "Tämän keskustelun historiatietoja ei voi näyttää.";
+"LOCID E_IMAcceptedElsewhere" = "Hyväksyit tämän puhelimen toisessa paikassa. Voit käynnistää sen uudelleen lähettämällä uuden viestin.";
+"LOCID E_MuteFailed" = "Virheen takia muut osallistujat eivät näe, että sinut on vaimennettu.";
+"LOCID E_UnmuteFailed" = "Virheen takia sinut on edelleen vaimennettu. Yritä uudelleen poistaa vaimennus.";
+"LOCID E_DgExpansionGenericFailure" = "Kutsuttavia ryhmän jäseniä ei saada. Yritä myöhemmin uudelleen.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Ryhmä on liian suuri kutsuttavaksi.";
+"LOCID E_DgExpansionNoMembersFailure" = "Ryhmässä ei ole yksittäisiä jäseniä, eikä sitä voida kutsua.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ ei ole tavoitettavissa. Hän voi olla offline-tilassa.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "Käyttäjän %@ tila on Älä häiritse.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ ei ole käytössä. Tarkista numero.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ puhuu toista puhelua.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ ei vastannut.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ ei voi vastata tähän puheluun.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Tätä puhelua ei voi soittaa, kun olet offline-tilassa. Kirjaudu Skype for Businessin, jotta puhelu voidaan soittaa.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Toiminto epäonnistui.";
+"LOCID E_VoiceGenericError" = "Puhelua ei voitu soittaa tai se on päättynyt.";
+"LOCID E_VoiceFeatureNotEnabled" = "Soittotoiminto on poistettu käytöstä.";
+"LOCID E_VoiceCheckNumber" = "Tarkista numero ja yritä uudelleen.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Puhelua ei voitu soittaa. Yritä myöhemmin uudelleen.";
+"LOCID E_VoiceCallUnsuccessful" = "Puhelua ei voi yhdistää.";
+"LOCID E_VoiceCallTypeNotSupported" = "Puhelu epäonnistui. Tätä puhelutyyppiä ei tueta.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "%@ ei saanut tätä viestiä, koska palvelinyhteys aikakatkaistiin:";
+
+"LOCID E_SharingAnotherOperation" = "Ratkaisua haetaan. Odota hetki ja yritä uudelleen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ ei saanut tätä viestiä palvelinvirheen vuoksi:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ on offline-tilassa eikä saanut tätä viestiä:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "Käyttäjän %@ tila on Älä häiritse eikä hän saanut tätä viestiä:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Tätä viestiä ei toimitettu. Käyttäjää %@ ei löytynyt.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Viestin lähettäminen ei onnistu estetyn sisällön vuoksi:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "Käyttäjää %@ ei tavoitettu, eikä hän saanut tätä viestiä:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Puhelua ei voi soittaa.";
+
+"LOCID E_ConfLocked" = "Et voi liittyä kokoukseen, koska se on lukittu. Ota yhteys kokouksen järjestäjään.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Salauksesi ei täsmää kohteen %@ kanssa. Ota yhteys tukihenkilöstöön.";
+
+"LOCID E_ConferencingServerError" = "Ilmeni palvelinvirhe. Ota yhteyttä tukihenkilöstöön.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "Käyttäjää %@ ei tavoiteta. Hän voi olla offline-tilassa.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "Käyttäjän %@ tila on Älä häiritse eikä häntä tavoiteta.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ ei vastannut kutsuun.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Käyttäjää %@ ei tavoiteta.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Et voi liittyä Skype-kokouksiin.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Et voi liittyä neuvottelupuheluun ennen sovelluksen sisäänkirjausta.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = "Käyttäjää %@ ei voi liittyä tähän kokoukseen.";
+"LOCID E_ConferencingEnded" = "Kokous, johon yrität liittyä, on ei ole käytettävissä.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Käyttäjää %@ ei tavoiteta. Yritä myöhemmin uudelleen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "Käyttäjää %@ ei löydy. Tarkista osoite.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Käyttäjää %@ ei tavoiteta.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ hylkäsi kutsun.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Esittäjä on lopettanut kokouksen.";
+"LOCID E_ConferencingCallDisconnected" = "Puhelu katkaistiin.";
+"LOCID ConferenceUnexpectedDisconnect" = "Yhteytesi neuvotteluun on katkennut.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Puhelua ei voitu soittaa tai se on päättynyt.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Käyttäjää %@ ei voi lisätä kokoukseen, koska verkko on varattu.";
+
+"LOCID E_ConferencingCannotConnect" = "Puhelua ei voitu soittaa tai se on päättynyt.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Et voi liittyä tämän tyyppiseen online-kokoukseen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Käyttäjää %@ ei voi kutsua, koska kokous on täynnä.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Kokoukseen ei voi liittyä anonyyminä osallistujana.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Kokoukseen ei voi liittyä kutsun virheen vuoksi.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Sinulla ei ole oikeuksia liittyä kokoukseen.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Kokoukseen ei voi liittyä. Yritä uudelleen.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Kokoukseen ei voi liittyä organisaation ulkopuolelta.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Tämän tyyppiseen online-kokoukseen ei voi liittyä.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Käyttäjää %@ ei tavoiteta.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Kokousta ei voi aloittaa, koska toinen kokous on alkamassa.";
+"LOCID E_ConferencingEncryptionIssues" = "Skype-kokousta ei voi aloittaa salausongelmien vuoksi.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Oikeutesi eivät riitä siihen, että liityt toisesta laitteesta tai soitat toiseen laitteeseen.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Puhelua ei voitu soittaa tai se on päättynyt.";
+"LOCID E_ConferencingFull" = "Kokous on täynnä.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Sinulla ei ole oikeuksia liittyä kokoukseen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Kutsu (%@) on vanhentunut.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Kokous päättyi, koska isännät ovat poistuneet.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Kokoukseen ei voi liittyä, koska verkko on varattu.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Aiherivi on liian pitkä.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Organisaatiosi ei ole ottanut tätä kokoustoimintoa käyttöön.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Kokous päättyi toimettomuuden vuoksi.";
+"LOCID E_ConferencingCannotBeFound" = "Tätä online-kokousta ei löydy.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Sinulla ei ole oikeuksia liittyä kokoukseen.";
+"LOCID E_ConferencingUserNotAdmitted" = "Sinua ei hyväksytty kokoukseen.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Sinut on poistettu kokouksesta.";
+"LOCID E_ConfGenericError" = "Liittyminen kokoukseen ei onnistunut. Yritä uudelleen.";
+"LOCID E_ConferenceDenied" = "Esittäjä on estänyt pääsyn kokoukseen.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Olet jo kokouksessa. Haluatko poistua nykyisestä kokouksesta ja liittyä tähän kokoukseen?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Palvelin ei tue liittymistä kokoukseen anonyyminä tästä laitteesta.";
+"LOCID ConferenceVideoLock" = "Esittäjä lukitsi videospotin osallistujaan.";
+"LOCID ConferenceVideoUnlock" = "Esittäjä poisti videospotin lukituksen.";
+"LOCID ConferenceVideoSelfLock" = "Muut osallistujat on lukittu videoosi.";
+"LOCID ConferenceVideoSelfUnlock" = "Yhtään osallistujaa ei ole lukittu videoosi.";
+
+"LOCID E_DomainNotTrusted" = "Palvelimeen ei saada yhteyttä. Hyväksy uudelleenohjauskehote.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ ei saanut tätä viestiä, koska muoto ei ole sallittu:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Laite, jota %@ käyttää, ei voi vastaanottaa viestejä.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ ei saanut tätä viestiä, koska se on liian suuri:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ ei saanut tätä viestiä, koska käytäntö rajoittaa viestin toimittamista:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Pikaviestin lähettäminen ei onnistu.—Käynnissä on keskustelu käyttäjän %@ kanssa.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Viestin lähettäminen ei onnistu estetyn sisällön vuoksi:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Sinulla ei ole valtuuksia lähettää pikaviestejä käyttäjälle %@. Lähettäminen ei onnistu:";
+
+"LOCID E_IMConfGenericError" = "Vähintään yksi osallistujista ei saanut tätä viestiä:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ ei ole tavoitettavissa.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Puhelu päättyi, koska %@ kirjautui ulos kohteesta";
+
+"LOCID E_VoiceCallTimeout" = "Puhelua ei voitu soittaa verkkoyhteyden ongelmien takia. Yritä uudelleen.";
+"LOCID E_VoiceCallDisconnected" = "Puhelu katkaistiin. Yritä uudelleen.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Puhelua ei voitu soittaa tai se on päättynyt.";
+"LOCID E_VoiceCallNotCompleted" = "%@ ei voi vastaanottaa puheluja. Kokeile sen sijaan pikaviestiä tai sähköpostia.";
+"LOCID E_VoiceServerError" = "Puhelua ei voi yhdistää palvelinvirheen vuoksi. Yritä uudelleen.";
+"LOCID E_VoiceCannotConnect" = "Online-kokoukseen ei saada yhteyttä.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Käyttäjään %@ ei saada yhteyttä.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Käyttäjää %@ ei löydy.";
+
+"LOCID E_VoiceEncryptionIssues" = "Skype-kokousta ei voi aloittaa salausongelmien vuoksi.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Henkilö, jolle soitit, vastasi pikaviestillä.";
+"LOCID E_VoiceCannotCompleteCall" = "Puhelua ei voi soittaa sellaisena kuin se valittiin.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Puhelua ei voi soittaa palvelinongelman vuoksi.";
+"LOCID E_VoiceServerCannotForwardCall" = "Palvelin ei voi siirtää puhelua. Yritä uudelleen.";
+"LOCID E_VoiceServerDidNotRespond" = "Palvelin ei vastaa. Yritä myöhemmin uudelleen.";
+"LOCID E_VoiceCannotPlaceCall" = "Puhelua ei voi soittaa. Tarkista numero ja yritä uudelleen.";
+"LOCID E_VoiceNumberNotSupported" = "Organisaatiosi ei tue tähän numeroon soittamista.";
+"LOCID E_IncomingPSTNCall" = "Puhelua ei voi soittaa.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Et voi soittaa kohteeseen %@, koska käytäntö estää puhelut.";
+
+"LOCID E_CallFailed" = "Puhelu päättyi yhteysvirheen takia. Yritä uudelleen.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Yhteys on katkaistu, koska olet liittynyt toisesta asiakkaasta.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Sinut on poistettu kokouksesta.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Puhelua ei voitu soittaa, koska verkko on varattu.";
+"LOCID E_VoiceNotSupported" = "%@ ei hyväksy äänipuheluita.";
+"LOCID E_RepliedWIthOtherModality" = "Vastaanottaja vastasi pikaviestillä.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Keskusteluhistoriaa ei voida päivittää juuri nyt, eikä sitä ole ehkä synkronoitu.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Keskusteluhistoriaa ei voida päivittää juuri nyt, eikä sitä ole ehkä synkronoitu.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Soitonsiirto kyseiselle henkilölle ei onnistu. Valitse soitonsiirtoa varten jokin Skype for Businessin yhteyshenkilö tai ilmoita puhelinnumero valitsemalla Uusi numero.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY on käytössä";
+"LOCID RemoteHoldSucceeded" = "Etäkäyttäjä on asettanut sinut pitoon.";
+"LOCID RemoteUnholdSucceeded" = "Pidon poistaminen etäyhteydellä onnistui";
+"LOCID LocalHoldSucceeded" = "Pitoon asettaminen paikallisesti onnistui";
+"LOCID LocalUnholdSucceeded" = "Pidon poistaminen paikallisesti onnistui";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Jatka puhelua";
+"LOCID is recording" = "%@ tallentaa";
+"LOCID Multiple Recording" = "Toinen käyttäjä tallentaa";
+"LOCID OnHoldOutOfApp" = "%@-puhelu on pidossa.";
+"LOCID OnStopOutOfApp" = "%@-puhelu on katkaistu.";
+"LOCID RecordingAlert" = "%@ tallentaa tämän puhelun.";
+"LOCID CoversationP2PIsRecording" = "%@ tallentaa tämän puhelun.";
+"LOCID CoversationP2PIsRecordingNoName" = "Tallentaa puhelua.";
+"LOCID CoversationConferenceIsRecording" = "Toinen käyttäjä tallentaa kokouksen.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Luettelo on lähes täynnä. Vanhimmat keskustelut poistetaan ennen uusien lisäämistä.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Esittäjä on vaimentanut yleisön.";
+"LOCID Audience Unlock" = "Esittäjä on poistanut yleisön vaimennuksen.";
+"LOCID Conference Mute" = "Esittäjä on vaimentanut sinut.";
+"LOCID Conference Unmute" = "Esittäjä pyytää sinua poistamaan vaimennuksen.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Esittäjä on estänyt osallistujia lähettämästä videokuvaa.";
+"LOCID PresenterBlockedVideo - Presenter" = "Esittäjä on estänyt osallistujia lähettämästä videokuvaa. Jos olet esittäjä, voit käynnistää oman kamerasi ja jakaa videosi.";
+"LOCID PresenterBlockedVideo - Unblock" = "Esittäjä sallii osallistujien lähettää videokuvaa.";
+"LOCID VideoLockOnYou" = "Muut osallistujat on lukittu videoosi.";
+"LOCID VideoLock" = "Esittäjä lukitsi videospotin osallistujaan.";
+"LOCID VideoNotLockOnYou" = "Yhtään osallistujaa ei ole lukittu videoosi.";
+"LOCID VideoSpotlightUnlocked" = "Esittäjä poisti videospotin lukituksen.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Edellinen";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Soita työnumerosta ei ole käytettävissä.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Ei vastaajaviestejä";
+"LOCID You currently have no voicemail messages" = "Sinulle ei ole vastaajaviestejä.";
+"LOCID Audio" = "Ääni";
+"LOCID Speaker" = "Kaiutin";
+"LOCID Can not play locally" = "Tätä viestiä ei voi toistaa. Napauta Toista, jos haluat kuunnella viestin vastaanottamalla puhelun.";
+"LOCID Play Voice Mail" = "Toista vastaajaviesti";
+"LOCID PLAY_VOICEMAIL_HINT" = "Toistaa vastaajaviestin";
+"LOCID Pause Voice Mail" = "Keskeytä vastaajaviesti";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Keskeyttää vastaajaviestin";
+"LOCID Play On Phone Error - No Number" = "Anna puhelinnumero asetuksiin, jos haluat takaisinsoiton.";
+"LOCID Call Back" = "Takaisinsoitto";
+"LOCID Delete" = "Poista";
+"LOCID More voicemails iPad" = "Jos haluat kuunnella vanhoja vastaajaviestejä, napauta vastaajakuvaketta.";
+"LOCID More voicemails" = "Jos haluat kuunnella vanhoja vastaajaviestejä, napauta näppäimistön näppäintä 1 ja pidä sitä alhaalla tai siirry Outlookiin.";
+"LOCID More voicemails No keypad" = "Jos haluat kuunnella vanhoja vastaajaviestejä, siirry Outlookiin.";
+"LOCID Can not play IRMed" = "Tätä viestiä hallitaan oikeuksilla. Napauta Toista, jos haluat kuunnella viestin vastaanottamalla puhelun.";
+"LOCID Lync Call" = "Skype for Business -puhelu";
+"LOCID Can't play on phone" = "Viestiä ei voi toistaa. Tarkista verkkoyhteys ja yritä myöhemmin uudelleen.";
+"LOCID Yes" = "Kyllä";
+"LOCID No" = "Ei";
+"LOCID VMCallerID" = "Vastaajaviesti";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Toista vastaajaviesti tavallisella nopeudella";
+"LOCID VM Playback -2X Acc" = "Toista vastaajaviesti puolella nopeudella";
+"LOCID VM Playback 2X Acc" = "Toista vastaajaviesti kaksinkertaisella nopeudella";
+"LOCID Voicemail From" = "Vastaajaviesti - %@";
+"LOCID No Voicemails Placeholder" = "Vastaajaviestit näkyvät tässä";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Hylkää";
+"LOCID Accept" = "Hyväksy";
+"LOCID Not yet implemented feature" = "Toiminto ei ole vielä käytettävissä. Yritä uudelleen myöhemmässä versiossa.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Sinulle on yksi uusi vastaajaviesti";
+"LOCID Missed VMs" = "Sinulle on %d uutta vastaajaviestiä";
+"LOCID Missed Collab Out of App" = "Vastaamaton yhteistyöistunto - %@";
+"LOCID Missed Video Call Out of App" = "Vastaamaton videopuhelu - %@";
+"LOCID Missed Audio Call Out of App" = "Vastaamaton puhelu - %@";
+"LOCID Missed Message Out of App" = "Vastaamaton pikaviesti - %@";
+"LOCID Missed Audio Conf Out of App" = "Vastaamaton neuvottelupuhelu - %@";
+
+"LOCID Audio Call Out of App" = "Puhelu - %@";
+"LOCID Conference Call Out of App" = "Neuvottelupuhelu - %@";
+"LOCID Dismiss Call" = "Ohita";
+"LOCID Answer Call" = "Hyväksy";
+"LOCID Answer Call with Video" = "Video";
+"LOCID Audio Call" = "Puhelu";
+"LOCID Conference Call" = "Neuvottelupuhelu";
+"LOCID Unknown Caller" = "Tuntematon soittaja";
+
+"LOCID Video conf accessibility" = "Videoneuvottelupuhelu - %@";
+"LOCID Video accessibility" = "Videopuhelu - %@";
+"LOCID Audio conf accessibility" = "Neuvottelupuhelu - %@";
+"LOCID Audio accessibility" = "Puhelu - %@";
+
+"LOCID Video Call Out of App" = "Videopuhelu - %@";
+"LOCID Video Conference Call Out of App" = "Videoneuvottelupuhelu - %@";
+"LOCID Video Call" = "Videopuhelu";
+"LOCID Video Conference Call" = "Videoneuvottelu";
+"LOCID Video Escalation Name" = "%@ jakaa videon";
+"LOCID Video Escalation" = "jakaa videon";
+"LOCID Video Escalation Conf" = "Toinen käyttäjä jakaa videon";
+"LOCID VideoInvitationRejected" = "Puhelun video-osaa ei hyväksytty, joten se jatkuu äänipuheluna.";
+"LOCID E_VideoDecline" = "%@ ei hyväksynyt videota.";
+"LOCID E_VideoGeneric" = "Videota ei voitu käynnistää. Yritä uudelleen.";
+"LOCID E_VideoNotStarted" = "Videota ei voitu käynnistää.";
+"LOCID E_VideoNotSupported" = "%@ ei hyväksy videopuheluita.";
+"LOCID E_VideoNotAccepted" = "%@ ei hyväksy videopuhelua. Puhelu jatkuu äänipuheluna.";
+
+"LOCID E_VoiceTransferGenericError" = "Puhelua ei voitu siirtää.";
+"LOCID E_VoiceTransferParticipantError" = "Puhelua ei voitu siirtää, koska vastaanottajaa ei tavoitettu.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "Vaimenna";
+"LOCID Mute Capitalized" = "Vaimenna";
+"LOCID Unmute" = "Poista vaimennus";
+"LOCID keypad" = "numeronäppäimistö";
+"LOCID add call" = "lisää puhelu";
+"LOCID hold" = "aseta pitoon";
+"LOCID End" = "Katkaise";
+"LOCID Hide Keypad" = "Piilota näppäimistö";
+"LOCID Call Lync" = "Skype for Business -puhelu";
+"LOCID Call Work" = "Työ: %@";
+"LOCID Call Mobile" = "Matkapuhelin: %@";
+"LOCID Call Home" = "Koti: %@";
+"LOCID Call Other" = "Muu: %@";
+"LOCID Decline" = "Hylkää";
+"LOCID Video Menu" = "Videovalikko";
+"LOCID Hold Call" = "Aseta pitoon";
+"LOCID Hang Up" = "Katkaise puhelu";
+"LOCID Dial Pad Only" = "Valintapaneeli";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u osallistujaa - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u osallistuja - %@";
+"LOCID Call Status Connecting" = "Yhdistetään...";
+"LOCID Call Status Connecting Remote" = "Yhdistetään...";
+"LOCID Call Status Connected" = "Yhdistetty";
+"LOCID Call Status On Hold - Passive" = "Aseta pitoon";
+"LOCID Call Status On Hold" = "Pidossa";
+"LOCID Call Status Ended" = "Puhelu päättyi";
+"LOCID Call Status Transfering" = "Siirretään";
+"LOCID On behalf of" = "Käyttäjän %@ puolesta";
+"LOCID Call for" = "Puhelu - %@";
+"LOCID Call for - Astana" = "Puhelu - %@";
+"LOCID Transferred by" = "Siirtänyt %@";
+"LOCID Forwarded by" = "Välittänyt %@";
+"LOCID Private call" = "Yksityinen puhelu";
+"LOCID Also ringing" = "Soi myös - %@";
+"LOCID Also ringing delegates" = "Soi myös edustajilla";
+"LOCID Will ring" = "Soi - %@";
+"LOCID Also ringing team call" = "Soi myös ryhmän jäsenillä";
+"LOCID The recipient" = "Vastaanottaja";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Alustetaan...";
+"LOCID DataCollab Connecting" = "Yhdistetään...";
+"LOCID DataCollab Loading" = "Ladataan...";
+"LOCID DataCollab No Content" = "Esittäjät ovat lopettaneet sisällön jakamisen.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Tietojen jakaminen ei ole käytettävissä palvelimen yhteysvirheen takia.";
+"LOCID DisconnectedOnConnectivityIssue" = "Osa jakamistoiminnoista ei ole käytettävissä palvelimen yhteysongelmien takia.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Yhteys on katkaistu, koska olet liittynyt keskusteluun toisesta sovelluksesta.";
+"LOCID DisconnectedOnNetworkFailure" = "Et näe esitystä verkkovirheiden takia.";
+"LOCID DataCollab Known UnSupported" = "Esittäjä käyttää toimintoa, jota tämä Skype for Businessin versio ei tue.";
+"LOCID DataCollab Generic UnSupported" = "Esittäjä käyttää toimintoa, jota tämä Skype for Businessin versio ei tue, tai esittäjä on muodostanut yhteyden aiempaan palvelinversioon.";
+"LOCID DataCollab ContentPresenter" = "Esittäjä: %@";
+"LOCID DataCollab NoPresenter" = "Kukaan ei esitä";
+"LOCID Collab Unsupported PPTContent" = "Tätä mediatiedostoa ei voi toistaa tässä esityksessä.";
+"LOCID Retry" = "Yritä uudelleen";
+"LOCID DataCollab Generic PPT Error" = "Osa jakamistoiminnoista ei ole käytettävissä palvelimen yhteysongelmien takia.";
+"LOCID Start Viewing" = "Aloita näyttäminen";
+"LOCID Stop Viewing" = "Lopeta näyttäminen";
+"LOCID Collab Escalation" = "%@ haluaa aloittaa esittämisen";
+"LOCID PowerPoint content Accessibility" = "PowerPoint-sisältö";
+
+"LOCID SyncPresenterButton" = "Synkronoi esittäjänäkymään";
+"LOCID NavigateBackButton" = "Siirry yksi dia taaksepäin";
+"LOCID NavigateForwardButton" = "Siirry yksi dia eteenpäin";
+"LOCID SlideNumber" = "%1$d / %2$d";
+"LOCID SlideNumber Accessibility" = "Dia %1$d/%2$d";
+
+"LOCID E_SharingDisabled" = "Esittäminen ei ole käytössä.";
+"LOCID E_SharingNetworkIssues" = "Esittäminen ei onnistu verkkovirheiden takia. Yritä myöhemmin uudelleen.";
+"LOCID E_SharingNotSupported" = "Tämä yhteyshenkilö ei tue esittämistä.";
+"LOCID E_SharingTimeout" = "Esitystä ei voi aloittaa, koska palvelin on varattu. Yritä myöhemmin uudelleen.";
+"LOCID SharingAnotherType" = "Esitys lopetettiin, koska toinen esitys alkoi.";
+"LOCID E_GetMediaSdpFailed" = "Yhteyttä työpöydän tai ohjelman esittämiseen ei voi muodostaa juuri nyt.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Et näe esityksen sisältöä, koska sinulla ei ole Wi-Fi-yhteyttä.";
+"LOCID 3G user requiring Wi-Fi" = "Skype for Business -puhelua ei voi soittaa, koska Wi-Fi-yhteys ei ole käytössä.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Esitys on liian suuri tämän laitteen näyttöön.";
+"LOCID E_CollabDisconnectedNetworkError" = "Yhteys esitykseen on katkaistu verkon ongelmien takia.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Yhteys on katkaistu, koska olet liittynyt toisesta asiakkaasta.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Jaettavaa sisältöä ladataan.";
+"LOCID AppSharing Shared Content" = "Jaettu sisältö.";
+"LOCID AppSharing Desktop" = "Työpöytä";
+"LOCID AppSharing Application" = "Sovellus";
+"LOCID AppSharing SharingPaused" = "Jakaminen on keskeytetty."; // Not used
+"LOCID AppSharing SharingIdle" = "Jakaminen ei ole käytössä."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Kaikki resurssit on pienennetty."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ yritti aloittaa näytön jakamisen, mutta sovelluksen tämä versio tukee tätä toimintoa vain neuvottelupuheluissa ja Skype-kokouksissa.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Käynnistä pikaviestitoiminto";
+"LOCID send IM" = "Lähetä";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Lopeta keskustelu";
+"LOCID View Contact Card" = "Näytä yhteystietokortti";
+"LOCID Invite Others" = "Kutsu muita";
+"LOCID Send Location action" = "Lähetä sijainti";
+"LOCID Send as Email action" = "Lähetä sähköpostina";
+"LOCID View Participants" = "Näytä osallistujat";
+"LOCID Rejoin" = "Liity uudelleen";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Laajenna kaksoisnapauttamalla";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Puhelun laatu on huono";
+"LOCID ACI Call Muted" = "Vaimennettu. Poista vaimennus kaksoisnapauttamalla";
+"LOCID ACI Call Unmuted" = "Ei vaimennusta. Vaimenna kaksoisnapauttamalla";
+
+/* Search results */
+"LOCID No Results" = "Ei tuloksia";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ suljettiin odottamattomasti";
+"LOCID Dont Send" = "Älä lähetä";
+"LOCID Send Report" = "Lähetä raportti";
+"LOCID Would you like to send a report so we can fix the problem" = "Haluatko lähettää virheraportin, jotta voimme korjata ongelman?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "aloitus";
+"LOCID Timeline Contacts" = "yht.tiedot";
+"LOCID Timeline Meetings" = "kokoukset";
+"LOCID Timeline Search Placeholder" = "etsi yhteyshenkilöitä";
+"LOCID Timeline Recent" = "viimeisimmät";
+"LOCID Timeline Upcoming" = "tulevat";
+"LOCID Timeline TableView" = "aikajana";
+"LOCID Timeline Meeting Time All Day" = "koko päivä";
+"LOCID Timeline Search Skype Contacts" = "yhteyshenkilöt";
+"LOCID Timeline Search Phone Contacts" = "puhelimen yhteyshenkilöt";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "yht.tiedot";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "valintapaneeli ja vastaaja";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "valintapaneeli, %ld uusi vastaajaviesti";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "valintapaneeli, %ld uutta vastaajaviestiä";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "kokoukset";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "aloitus";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "omat tiedot";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, uusia viestejä, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "puhelu";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "videopuhelu";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "merkitse luetuksi";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "poista";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "liity kokoukseen";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "hylkää";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "hyväksy";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "tavoitettavissa";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "varattu";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "poistunut";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "offline-tilassa";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "älä häiritse";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "tavoitettavuustietoa ei saatavilla";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "tyhjennä teksti";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "etsi yhteyshenkilöitä";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "videopuhelu";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "puhelu";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Liity kokoukseen";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Tyhjä keskustelu";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Profiilikuva";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld uusi vastaajaviesti";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld uutta vastaajaviestiä";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Poista";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Enkeli";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Vihainen";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Rosvo";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Jalkapallo";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Olut";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Leveä hymy";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Polkupyörä";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Punastelee";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Kumartaa";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Särkynyt sydän";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Kakku";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Puhelu";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Kamera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Voitko jutella?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Auto";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Raha";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Kissa";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Taputtaa";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Kahvi";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Tietokone";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Luottamuksellinen";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Cool";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Itkee";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Tanssii";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Piru";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Koira";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Ouh";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Drinkki";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Tylsä";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Kateellinen";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Ilkeä";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Käsi naaman eteen";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Sormet ristissä";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Kukka";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Pelit";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Lahja";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Hihittää";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Neliapila";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Täytyy mennä";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Kädenpuristus";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Onnellinen";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Hakkaa päätä seinään";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Sydän";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Orava";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Vilkuttaa";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Yläviitonen";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Odota";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Hali";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Idea";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Rakastunut";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Saari";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "En se minä ollut!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Suukko";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Ei kuuntele";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Tavataan";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Huuleni ovat sinetöidyt";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Postia";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Meikki";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Mies";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Elokuva";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Muskeli";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Musiikki";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Nörtti";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Ei";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Nyökkäys";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Juhlat";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Puhelin";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Lentokone";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Oksentaa";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Lyödä";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Sataa";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Sateenkaari";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Nauraa kippurassa";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Surullinen";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Pudistaa päätään";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Uninen";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Hymy";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Virnistys";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Etana";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Sanaton";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Tähti";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Seis";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Auringonpaiste";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Yllättynyt";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Kiroilee";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Hikoilee";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Puhelias";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Puhu pukille";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Ajattelee";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Aika";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Liikaa tietoa";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Kieli ulkona";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Tumbleweed";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Sateenvarjo";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Odota";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Odottaa";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Työskentelee kotona";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Mitä tapahtuu?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Huh";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Iskeä silmää";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Nainen";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Ihmettelee";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Huolestunut";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Haukotella";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Kyllä";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Kirjoita viesti tähän";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Tervehdi henkilöä %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Tervehdi ryhmää";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Keskustelut näkyvät tässä";
+"CHAT_FAILED_TO_SEND" = "Tätä viestiä ei voitu lähettää: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Näytä keskustelu";
+"LOCID CONVERSATION_HIDE_CHAT" = "Piilota keskustelu";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Näytä sivupalkki";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Kätke sivupalkki";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "hymiöt";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "pv";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "pv";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "h";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "h";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "min";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "min";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "s";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "s";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d uutta ilmoitusta";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Yksi uusi ilmoitus";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Ei uusia ilmoituksia";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "neuvottelu päättyi";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u osallistujaa";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "hylkää";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "avaa";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "kopioi";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "lisää lukulistaan";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "avaa Safarissa";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "edellinen";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "eteenpäin";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "peruuta";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ kirjoittaa...";
+"CHATTYPING_TWOUSERS" = "%@ ja %@ kirjoittavat...";
+"CHATTYPING_THREEUSERS" = "%@, %@ ja yksi muu kirjoittavat...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ ja %d muuta kirjoittavat...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "lähetä sähköpostia";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "näytä yhteystietokortti";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "osallistujat";
+"DROPDOWN_ADD_PARTICIPANTS" = "lisää osallistujia";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "saapuva";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Lähtevä";
+
+"LOCID Meetings Page Title" = "Kokoukset";
+"LOCID No Meetings Placeholder" = "Kokoukset näkyvät tässä";
+"LOCID Meetings Today" = "Tänään";
+"LOCID Meetings Tomorrow" = "Huomenna";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Kirjoita oma huomautus";
+
+"PARTICIPANTS_VIEW_TITLE" = "Osallistujat";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Odottaa odotustilassa";
+"PARTICIPANTS_VIEW_ON_CALL" = "Tässä puhelussa";
+
+"MEETING_VIEW_TITLE" = "Kokous";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Liity kokoukseen";
+"MEETING_VIEW_ORGANISER_LABEL" = "Järjestäjä";
+"MEETING_VIEW_INVITEES_LABEL" = "Kutsutut";
+"MEETING_VIEW_NOTES_LABEL" = "Muistiinpanot";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Click to join \"%@\" using Skype for Business:"; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Yhdistetään...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Valitse hymiö";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Lähetä viesti";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Puhelu päättyi";
+"INVITE_PARTICIPANTS" = "Kutsu osallistujia";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Edellinen";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Askelpalautin";
+"LOCID_ADDRESS_BOOK" = "Osoitteisto";
+"LOCID_PHONE_NUMBER" = "Puhelinnumero";
+"LOCID_MORE" = "Lisää";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Vaihda video";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Näytä yhteyshenkilön profiili";
+"CHAT_OPTION_PARTICIPANTS" = "Osallistujat";
+"LOCID_CONTACTS_TABLE_VIEW" = "Yhteyshenkilöiden näkymä";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Saapuva puhelu";
+"LOCID_MEETINGS_TABLE_VIEW" = "Kokousnäkymä";

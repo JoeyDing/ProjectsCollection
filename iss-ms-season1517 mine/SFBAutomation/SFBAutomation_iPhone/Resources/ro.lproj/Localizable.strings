@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Răspuns";
+"JOIN" = "Acceptare";
+"VIEW" = "Vizualizare";
+"IGNORE" = "Ignorați";
+"LAUNCH" = "Lansare";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "vă invită la o conversație";
+"NEW_IM_BURNT_TOAST" = "Conversație cu %@ pierdută";
+"SIGN_IN" = "Conectare";
+"SIGN_OUT" = "Ați fost deconectat din cauza inactivității.";
+"MWI" = "Mesaje noi de poștă vocală: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Adresă de conectare";
+"LOCID Password" = "Parolă";
+"LOCID User Name" = "Nume utilizator";
+"LOCID Domain" = "Domeniu";
+"LOCID Auto-Detect Server" = "Detectare automată server";
+"LOCID Sign-in As" = "Conectare ca";
+"LOCID User Name Footer" = "Utilizatori Skype for Business Online: numeutilizator@domeniu.com\nToți ceilalți utilizatori: domeniu\\numeutilizator";
+"LOCID Hide Details" = "Ascundere opțiuni complexe";
+"LOCID More Details" = "Afișare opțiuni complexe";
+"LOCID Save Password" = "Salvare parolă";
+
+/* generic share button */
+"LOCID share" = "partajați";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Adresă de descoperire internă";
+"LOCID External Server Address" = "Adresă de descoperire externă";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Ajutați-ne să îmbunătățim Skype for Business trimițându-ne informațiile despre eroarea de conectare.";
+"LOCID Sign In BRB Reason 2" = "Putem să colectăm unele informații despre aceste erori de conectare și despre altele viitoare? Puteți schimba oricând acest lucru în Opțiuni.";
+"LOCID BRBDonotshow" = "Nu se mai afișează acest mesaj";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Conectare";
+"LOCID Sign Out" = "Deconectare";
+"LOCID Cancel Sign in" = "Anulați conectarea";
+"LOCID Lync Is Signing In" = "Skype for Business se conectează";
+"LOCID Lync Is Signing Out" = "Skype for Business se deconectează";
+
+// Help
+"LOCID signin help" = "Ajutor pentru conectare";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Inform. mele";
+"LOCID Contacts" = "Contacte";
+"LOCID Conversations" = "Chaturi";
+"LOCID Meetings" = "Întâlniri";
+"LOCID Phone" = "Telefon";
+"LOCID Signing In" = "Se conectează...";
+"LOCID Signed Out" = "Deconectat";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Ce se întâmplă astăzi?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Mesaj de stare";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Introduceți un mesaj de stare";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Atingeți de două ori pentru a edita";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Necunoscut";
+"LOCID Available" = "Disponibil";
+"LOCID Busy" = "Ocupat";
+"LOCID Busy Inactive" = "Ocupat inactiv";
+"LOCID Do Not Disturb" = "Nu deranjați";
+"LOCID Be Right Back" = "Revin imediat";
+"LOCID Presence unknown" = "Prezența necunoscută";
+"LOCID Off Work" = "Absent de la lucru";
+"LOCID Appear Away" = "Afișare ca Plecat";
+"LOCID Away" = "Plecat";
+"LOCID Inactive" = "Inactiv";
+"LOCID Reset Status" = "Reinițializare stare";
+"LOCID Offline" = "Offline";
+"LOCID Blocked" = "Blocat";
+"LOCID Sign In As Header" = "Selectați o stare de afișat:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Într-o conversație";
+"LOCID In a Conference Call" = "În conferință prin telefon";
+"LOCID Presenting" = "Prezintă";
+"LOCID In a Meeting" = "Într-o întâlnire";
+"LOCID Out of Office" = "Absent de la birou";
+"LOCID Urgent Interruptions Only" = "Numai întreruperi urgente";
+"LOCID Out To Lunch" = "La masă";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype for Business nu vă poate afișa contactele de pe iPhone. Puteți remedia problema în setările iPhone.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype for Business nu vă poate afișa contactele de pe iPad. Puteți remedia problema în setările iPad.";
+"LOCID Other Contacts" = "Alte contacte";
+"LOCID Pinned Contacts" = "Preferințe";
+"LOCID Retrieving Members" = "Așteptați...";
+"LOCID Cannot connect Try again" = "Nu putem obține momentan membrii grupului. Încercați din nou mai târziu.";
+"LOCID Group is too large to display" = "Grupul este prea mare pentru a fi afișat.";
+"LOCID No members" = "Niciun membru";
+"LOCID Searching the company directory" = "Se caută în directorul firmei...";
+"LOCID Please signin to search" = "Conectați-vă pentru a căuta în directorul firmei.";
+"LOCID Too many results" = "Prea multe rezultate; încercați să detaliați căutarea.";
+"LOCID Unable to connect to the server" = "Momentan nu ne putem conecta la server. Încercați din nou.";
+"LOCID E_SearchTooLong" = "Nu am găsit nicio potrivire. Încercați o căutare mai scurtă.";
+"LOCID No Name" = "Fără nume";
+"LOCID idle day" = "%d zi";
+"LOCID idle days" = "%d zile";
+"LOCID idle hour" = "%d oră";
+"LOCID idle hours" = "%d ore";
+"LOCID idle minutes" = "%d minute";
+"LOCID inactive idle day" = "Inactiv de %d zi";
+"LOCID inactive idle days" = "Inactiv de %d zile";
+"LOCID inactive idle hour" = "Inactiv de %d oră";
+"LOCID inactive idle hours" = "Inactiv de %d ore";
+"LOCID inactive idle minutes" = "Inactiv de %d minute";
+"LOCID DG does not exist" = "Grupul de distribuire nu mai există.";
+"LOCID Access to DG denied" = "Accesul la grupul de distribuire a fost refuzat";
+"LOCID No Contacts Placeholder" = "Contactele vor fi afișate aici";
+"LOCID No Contacts" = "Niciun contact";
+"LOCID You currently have no contacts" = "Momentan nu aveți contacte";
+"LOCID Retrieving Contacts..." = "Se obțin contactele...";
+"LOCID Expanded" = "Grupul %@, extins";
+"LOCID Collapsed" = "Grupul %@, restrâns";
+"LOCID Group card- acc" = "Fișă de grup";
+"LOCID Open group card - acc" = "Atingeți pentru a deschide fișa de grup";
+
+/* Contact Card*/
+"LOCID Loading name" = "Se încarcă numele...";
+"LOCID Details" = "Carte de vizită";
+"LOCID Work" = "Serviciu";
+"LOCID Home" = "Acasă";
+"LOCID Mobile" = "Mobil";
+"LOCID Other" = "Altul";
+"LOCID other lowercase" = "altul";
+"LOCID Office" = "Birou";
+"LOCID Company" = "Companie";
+"LOCID Department" = "Departament";
+"LOCID Send Text Message" = "Trimiteți mesaj SMS";
+"LOCID IM" = "IM";
+"LOCID E-Mail" = "E-mail";
+"LOCID unknown lowercase" = "necunoscut";
+"LOCID Location lowercase" = "locație";
+"LOCID Calendar" = "calendar";
+"LOCID Link" = "link";
+"LOCID Disabled" = "%@, dezactivat"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Notă";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "MEMBRI"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Invitație";
+"LOCID Transfer" = "Transfer";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business încearcă să vă redirecționeze către:";
+"LOCID certIssuedBy" = "Emis de:";
+"LOCID certSubject" = "Subiect:";
+"LOCID certExpires" = "Expiră:";
+"LOCID certSignature" = "Algoritm semnătură:";
+"LOCID certDonotshow" = "Nu se mai afișează.";
+"LOCID Continue" = "Continuare";
+"LOCID certNone" = "Fără criptare";
+"LOCID certRSA" = "Criptare RSA";
+"LOCID certDSA" = "Criptare DSA";
+"LOCID certDH" = "Criptare DH";
+"LOCID certEC" = "Criptare EC";
+"LOCID certHMAC" = "Criptare HMAC";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Conversație";
+"LOCID Chats - Phone Call" = "Apel telefonic";
+"LOCID Chats - Video Call" = "Apel video";
+"LOCID Chats - Meeting" = "Întâlnire";
+"LOCID Chats - Missed Call" = "Apel pierdut";
+"LOCID Chats - Missed Video Call" = "Apel video pierdut";
+"LOCID Chats - Current Call" = "Apel curent";
+"LOCID Chats - Current Call With Duration" = "Apel curent, %@";
+"LOCID Phone Status - Connecting" = "Se conectează...";
+"LOCID Phone Status - On Hold" = "În așteptare";
+"LOCID Phone Status - Transferring" = "Transfer în desfășurare";
+"LOCID Transferring to" = "Se transferă la %@...";
+"LOCID Chats Full" = "Info: Această listă este plină. Cele mai vechi conversații vor fi eliminate pe măsură ce se adaugă altele noi.";
+"LOCID Close Conversation" = "Ștergeți conversația";
+"LOCID View Participants List" = "Vizualizați lista de participanți";
+"LOCID Call Contact" = "Apel %@";
+"LOCID Video Call Contact" = "Apel video";
+"LOCID Video Conference Contact" = "Conferință video";
+"LOCID Edit" = "Editare";
+"LOCID Deselect All" = "Deselectare totală";
+"LOCID Select All" = "Selectare totală";
+"LOCID Me" = "Eu: %@";
+"LOCID Missed" = "Pierdute: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Conversație în grup";
+"LOCID Tap To Enter Text" = "Atingeți pentru a tasta";
+"LOCID No Conversations" = "Fără conversații";
+"LOCID No Conversations Hint" = "Momentan nu aveți nicio conversație";
+"LOCID Delete Count" = "Ștergere (%d)";
+"LOCID Delete None" = "Ștergere";
+"LOCID Escalating audio conference" = "Se începe conferința telefonică...";
+"LOCID Escalating video conference" = "Se începe conferința video...";
+"LOCID No Participants" = "Niciun participant";
+"LOCID No Other Participants" = "Niciun alt participant";
+"LOCID One Participant" = "1 participant";
+"LOCID Some Participants" = "%d participanți";
+"LOCID Max Participants" = "%d+ participanți";
+"LOCID Large Meeting" = "Întâlnire mare";
+"LOCID Toast No Invite" = "vă invită la o conversație";
+"LOCID Participant Join" = "%@ s-a asociat la întâlnire";
+"LOCID Participant Leave" = "%@ a părăsit întâlnirea";
+"LOCID Participant Join Failure" = "%@ nu a putut participa la întâlnire";
+"LOCID Large Conference" = "Întâlnire mare";
+"LOCID Large Conference Detail" = "Lista de participanți nu este disponibilă pentru întâlnirile mari.";
+"LOCID No Participants Detail" = "Nu există participanți în această conversație";
+"LOCID cannotSend" = "Nu am putut trimite mesajul dvs.:";
+"LOCID Missed Conversation" = "Conversație pierdută";
+"LOCID Send as Email" = "Trimiteți ca e-mail";
+"LOCID Email Subject" = "Conversație în %1$@ cu %2$@";
+"LOCID Anonymous" = "Anonim";
+"LOCID Duration" = "Durata:";
+"LOCID Switch Camera" = "Comutare cameră";
+"LOCID Swap PIP" = "Comutare poză în poză";
+"LOCID Leave Video" = "Închidere sesiune video";
+"LOCID Start My Video" = "Pornire video propriu";
+"LOCID Stop My Video" = "Oprire video propriu";
+"LOCID End Video" = "Terminare componentă video";
+"LOCID LargeMtgActiveSpeakerMissing" = "Informațiile despre vorbitor nu sunt disponibile pentru întâlnirile mari.";
+"LOCID Swap Preview" = "Interschimbare examinare";
+"LOCID Speaker On" = "Difuzor activat";
+"LOCID Speaker Off" = "Difuzor dezactivat";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Transmisia video este activată";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Atingeți de două ori pentru a dezactiva transmisia video.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Transmisia video este dezactivată";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Atingeți de două ori pentru a activa transmisia video.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Difuzorul+microfonul este activat";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Atingeți de două ori pentru a dezactiva difuzorul telefonului.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Difuzorul+microfonul este dezactivat";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Atingeți de două ori pentru a activa difuzorul telefonului.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Apel pus pe silențios";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Atingeți de două ori pentru a activa sunetul.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Mod silențios dezactivat pentru apel";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Atingeți de două ori pentru a dezactiva sunetul.";
+
+"LOCID Instant Messaging" = "Mesagerie instant";
+"LOCID Voice" = "Voce";
+"LOCID Collaboration" = "Colaborare";
+"LOCID Participants" = "Participanți";
+"LOCID Full Screen" = "Ecran complet";
+"LOCID Exit Full Screen" = "Ieșire ecran complet";
+"LOCID Local Participant Alone in Conference Msg" = "Se pare că sunteți singura persoană din apel.";
+"LOCID 1 or more participants" = "1 sau mai mulți participanți";
+"LOCID Call Started" = "Apel început - %@";
+"LOCID Call Ended Missed" = "Apel terminat - %@ [Pierdut]";
+"LOCID Call Ended Duration" = "Apel terminat - %@ [Durată: %@]";
+"LOCID ConferenceEndedRejoin" = "Ați fost deconectat de la întâlnire. Atingeți mai jos pentru a vă asocia din nou.";
+"LOCID ConferenceEndedContinue" = "Repornirea acestei conversații va trimite o nouă invitație fiecărei persoane care a participat.";
+"LOCID IM P2P Toast Voiceover" = "%@ vă invită la o conversație. Atingeți de două ori pentru a accepta.";
+"LOCID IM Conf Toast Voiceover" = "%@ vă invită la o conversație în grup. Atingeți de două ori pentru a accepta.";
+"LOCID Video is Locked on you" = "Imaginea video este blocată pe dvs.";
+
+"LOCID SFB Call Started" = "Apel inițiat";
+"LOCID SFB Call Ended" = "Apel încheiat";
+"LOCID SFB Call Ended Duration" = "Apel încheiat, %@";
+
+/* Roster*/
+"LOCID Presenters" = "PREZENTATORI (%d)";
+"LOCID Attendees" = "PARTICIPANȚI (%d)";
+"LOCID In Lobby" = "SALA DE AȘTEPTARE (%d)";
+"LOCID Guest" = "Vizitator";
+"LOCID Remove" = "Eliminare";
+"LOCID E_RemoveFailed" = "Nu am putut elimina participantul.";
+"LOCID E_AddFailed" = "Nu am putut adăuga participantul.";
+
+/*Lobby*/
+"LOCID Admit all" = "Admiteți-i pe toți";
+"LOCID Deny all" = "Refuzați-i pe toți";
+"LOCID Admit" = "Admiteți";
+"LOCID Deny" = "Refuzați";
+"LOCID See Lobby" = "Vedeți sala de așteptare";
+"LOCID Conference In the Lobby" = "Aveți participanți care așteaptă în sala de așteptare.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Transformați în prezentator";
+"LOCID Demote" = "Transformați în participant";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Mobil";
+"LOCID Voice and IM Unavailable" = "Voce și IM indisponibile";
+"LOCID Voice Only" = "Numai voce";
+"LOCID Voice and Video Only" = "Doar voce și video";
+"LOCID IM Only" = "Numai IM";
+"LOCID No Voice" = "Voce indisponibilă";
+"LOCID Video capable" = "Cu capacitate video";
+"LOCID No IM" = "IM indisponibil";
+"LOCID Mobile Cap" = "Mobil";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Tastatură";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Apel";
+"LOCID Dialpad" = "Tastatură";
+"LOCID Dialpad STAR Key" = "Stea";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Liră"; // Used for accessibility
+"LOCID Delete Key" = "Ștergere";   // Used for accessibility
+"LOCID Emergency number" = "Număr urgențe"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "ascundeți";
+"LOCID Dialpad Search Recent Calls" = "apeluri recente";
+"LOCID Dialpad Search Native Contacts" = "contacte din telefon";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Problemă cu contactele";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "A apărut o problemă la accesarea numerelor de telefon din Contacte. Încercați să resincronizați conturile de e-mail din Setări pentru a rezolva problema.";
+
+/* My Status Tab */
+"LOCID Options" = "Setări";
+"LOCID Send Feedback" = "Feedback";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "De la %1$@ până la %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "De la %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "până la %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "de la %1$@ până la %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Fără întâlniri";
+"LOCID All" = "Toți";
+"LOCID No Meetings Scheduled" = "Nu aveți nicio întâlnire planificată";
+"LOCID None" = "Fără";
+"LOCID Organizer" = "Organizator";
+"LOCID Invitees" = "INVITAȚI";
+"LOCID Notes" = "NOTE";
+"LOCID Join" = "Asociere";
+"LOCID Updated DATE TIME" = "Actualizat la %1$@ %2$@";
+"LOCID Online" = "Online";
+"LOCID Tentative" = "Încercare";
+"LOCID Event" = "Eveniment";
+"LOCID Updating..." = "Se actualizează...";
+"LOCID Tentative Voiceover" = "%@, încercare";
+"LOCID Pull to refresh" = "Trageți pentru a reîmprospăta";
+"LOCID Today" = "ASTĂZI"; // CAPS
+"LOCID Tomorrow" = "MÂINE"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Dacă nu sunteți organizator, microfonul dvs. va fi comutat la fără sonor când vă asociați.";
+"LOCID Lync Conferencing" = "Întâlnire Skype";
+"LOCID Joining Step 1" = "Se conectează...";
+"LOCID Please wait to be admitted" = "Așteptați să fiți admis";
+"LOCID Join Conf Error" = "Conexiunea la întâlnire s-a pierdut.";
+"LOCID Anonymous Join" = "Asociere anonimă";
+"LOCID Enter your name" = "Introduceți-vă numele";
+"LOCID Anonymous Join Greeting" = "Bine aţi venit la Skype for Business";
+"LOCID Sign in with Lync" = "Conectați-vă cu Skype for Business";
+"LOCID Sign in as guest" = "Conectare ca vizitator";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Nu vă putem conecta la întâlnire fără numărul dvs. iPhone. Adăugați-vă numărul iPhone în opțiunile Skype for Business.";
+"LOCID Join Conf Error - No Number iPad" = "Nu vă putem conecta la întâlnire fără numărul dvs. de telefon. Adăugați-vă numărul de telefon în opțiunile Skype for Business.";
+"LOCID Join Meeting Line 1 Text" = "Se asociază la întâlnire\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Vă apelează la %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Salut. Vă aflați în sala noastră de așteptare virtuală și vă invităm să vă simțiți cât mai confortabil. Nu ieșiți din aplicație, organizatorul vă va primi de îndată.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Nu ați fost admis, deoarece organizatorul nu este acolo sau nu a răspuns.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Conexiunea s-a pierdut. Atingeți Asociere pentru a încerca din nou.";
+"LOCID View" = "Vizualizare";
+"LOCID Join Meeting" = "Asociere la întâlnire";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Se asociază la întâlnire";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Nu vă putem conecta, deoarece întâlnirea este plină. Încercați să contactați organizatorul.";
+"LOCID AdmittedToLobby" = "Ați fost admis. Vă apelăm acum...";
+"LOCID MtgDisclaimerAccept" = "Acceptare";
+"LOCID MtgDisclaimerDecline" = "Ignorare";
+"LOCID E_MeetingNotFound" = "Întâlnirea la care încercați să vă asociați nu există.";
+"LOCID E_MeetingsNotEnabled" = "Această caracteristică pentru întâlniri nu este activată de organizația dvs.";
+"LOCID E_OutsideOrg" = "Această persoană sau întâlnire nu are permisiuni în rețeaua dvs.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Apeluri și întâlniri";
+"LOCID credentialsSection" = "Acreditările mele";
+"LOCID contactsSection" = "Contacte";
+"LOCID accessibilitySection" = "Accesibilitate";
+"LOCID otherSection" = "Altele";
+"LOCID Show Recent Contacts" = "Contacte recente";
+"LOCID Show Pinned Contacts" = "Contacte fixate";
+"LOCID Show Photos" = "Fotografii";
+"LOCID Sort by availability" = "Sortați în funcție de disponibilitate";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Scriere în jurnal";
+"LOCID About" = "Despre";
+"LOCID About Version" = "Versiune %@";
+"LOCID Status" = "Stare";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "Proxy HTTP";
+"LOCID Require WiFi" = "Wi-Fi necesar pentru";
+"LOCID WiFi VoIP" = "Voce";
+"LOCID WiFi Video" = "Video";
+"LOCID WiFi Collab" = "Conținut întâlnire";
+"LOCID WiFi Warning" = "Când sunteți deconectat, puteți primi apeluri prin conexiunea de date (se pot aplica tarife și calitatea poate fi diminuată).";
+"LOCID WiFi Warning iPad" = "Când sunteți deconectat, puteți primi apeluri și conținut de întâlnire prin conexiunea de date (se pot aplica tarife și calitatea poate fi slabă).";
+"LOCID Not a SfB User" = "Nu sunteți utilizator Skype for Business?";
+
+
+/* About View */
+"LOCID About Title" = "Despre";
+"LOCID version" = "Versiune: %@";
+"LOCID Long Product Name" = "Skype® for Business pentru %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Toate drepturile rezervate.";
+"LOCID online help" = "Ajutor";
+"LOCID Terms Of Use" = "Condiții de utilizare";
+"LOCID Privacy title" = "Confidențialitate";
+"LOCID Third Party Notices" = "Notificări de la terți";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nBrevet în curs de înregistrare";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Numele Skype, mărcile comerciale și siglele asociate, precum și sigla „S” sunt mărci comerciale ale Skype sau ale entităților afiliate.\n\nAvertisment: acest program este protejat de legea drepturilor de autor și de tratate internaționale. Reproducerea sau distribuirea neautorizată a acestui program sau a oricărei părți a acestuia poate să atragă sancțiuni civile și penale deosebit de grave și va determina urmărirea pe cale judiciară în limitele maxime permise de lege.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Redirecţionare apeluri";
+"LOCID Forward Section" = "Alegeți numărul";
+"LOCID Apply Setting Section" = "Aplicați setările";
+"LOCID Summary Section" = "Setările dvs. curente:";
+"LOCID Do Not Forward" = "Nu redirecționați";
+"LOCID Forward Calls" = "Redirecționare apeluri";
+"LOCID Forward Calls To" = "Redirecționare apeluri la";
+"LOCID Simultaneously Ring" = "Apelare simultană";
+"LOCID On" = "Da";
+"LOCID Off" = "Nu";
+"LOCID During Working Hours" = "În orele de lucru";
+"LOCID Voicemail" = "Poștă vocală";
+"LOCID Team Call" = "Membrii grupului de apel al echipei";
+"LOCID Delegates" = "Delegați";
+"LOCID Pending Persons" = "Adăugate de";
+"LOCID Delegate Target" = "delegații dvs.";
+"LOCID TeamCall Target" = "membrii grupului de apel al echipei";
+"LOCID Voicemail Target" = "poșta dvs. vocală";
+"LOCID DoNotForward Summary" = "Veți primi apelurile la birou și nu vor fi redirecționate. Nu veți primi apelurile pe telefonul mobil atunci când VoIP nu este disponibil.";
+"LOCID DoNotForward Summary iPad" = "Veți primi apelurile la birou și nu vor fi redirecționate. Nu veți primi apelurile pe iPad atunci când VoIP nu este disponibil.";
+"LOCID ForwardCalls Summary" = "Apelurile vor fi redirecționate direct la %@. Dacă acesta nu este numărul dvs. de telefon mobil, nu veți primi apeluri pe telefonul mobil.";
+"LOCID ForwardCalls Summary iPad" = "Apelurile vor fi redirecționate direct la %@ și nu veți primi apelurile pe iPad.";
+"LOCID Simulring Summary" = "Veți primi apelurile la birou, dar și la %@. Dacă acesta nu este numărul dvs. de telefon mobil, veți primi apeluri pe celular atunci când VoIP este indisponibil.";
+"LOCID Simulring Summary iPad" = "Veți primi apelurile la birou, dar și la %@. Nu veți primi apeluri pe iPad când VoIP este indisponibil.";
+"LOCID View Settings" = "Vizualizați setările curente";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Aplicați setările";
+"LOCID All the Time" = "Tot timpul";
+"LOCID During Outlook Working Hours" = "În timpul orelor de lucru Outlook";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Birou";
+"LOCID Home Capitalized" = "Acasă";
+"LOCID Mobile Capitalized" = "Mobil";
+"LOCID Custom Capitalized" = "Personalizat";
+"LOCID Other Capitalized" = "Altul";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Anulare";
+"LOCID Add" = "Adăugare";
+"LOCID New Number" = "Număr nou";
+"LOCID New Contact" = "Contact nou";
+"LOCID Contact" = "Contact";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Încarcă jurnale conectare";
+"LOCID SignInBRB - Always" = "Întotdeauna";
+"LOCID SignInBRB - Never" = "Niciodată";
+"LOCID SignInBRB - Ask Me" = "Întreabă-mă";
+"LOCID Send Log Files" = "Trimiteți fișierele jurnal";
+"LOCID Log Email Subject" = "Fișiere jurnal Skype for Business"; //product name
+"LOCID Device Model" = "Model dispozitiv:";
+"LOCID Device OS Name" = "Nume SO dispozitiv:";
+"LOCID Device OS Version" = "Versiune SO dispozitiv:";
+"LOCID Enable Logging" = "Activare înregistrare în jurnal";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Proxy HTTP";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Pentru a termina configurarea proxy-ului HTTP, utilizați setările Wi-Fi pentru %@.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Utilizați acreditările Skype for Business";
+"LOCID Exchange Credentials Info" = "Skype for Business necesită acreditările dvs. Exchange pentru a afișa toate întâlnirile și informațiile despre mesageria vocală.";
+"LOCID Email Address" = "Adresă de e-mail";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Număr telefon mobil";
+"LOCID My Mobile Number Details" = "Introduceți numărul dvs. de iPhone și codurile de țară și județ:";
+"LOCID My Mobile Number Details iPad" = "Introduceți numărul dvs. de telefon și codurile de țară și județ:";
+"LOCID My Mobile Number Footer" = "Acesta vă permite să efectuați și să primiți apeluri la birou și să vă asociați la întâlniri din Skype for Business.\n(Dacă utilizați VoIP și serviciul nu este disponibil, aceasta este soluția de rezervă.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Acesta vă permite să vă asociați la întâlniri din Skype for Business.\n(Dacă utilizați VoIP și serviciul nu este disponibil, aceasta este soluția de rezervă.)";
+"LOCID iPhone Number" = "Număr de telefon";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Apel de la birou";
+"LOCID Missing iPhone Number Error" = "Număr de telefon lipsă";
+"LOCID Missing iPhone Number Error Text" = "Acest apel nu se poate efectua. Introduceți numărul dvs. de iPhone în Opțiuni și încercați din nou să apelați.";
+"LOCID Missing iPad Number Error Text" = "Acest apel nu se poate efectua. Introduceți numărul dvs. de telefon în Opțiuni și încercați din nou să apelați.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Înainte să începeți";
+"LOCID Main text" = "Oricine poate utiliza aplicația mobilă Skype for Business când este invitat la o întâlnire Skype. Trebuie însă să aveți un cont Skype for Business pentru a beneficia de capacitățile complete ale aplicației.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "Mai multe opțiuni";
+"LOCID Add Contact" = "Adăugați un contact";
+"LOCID Add to Group" = "Adăugați la grup";
+"LOCID Remove Contact" = "Eliminați contactul";
+"LOCID Remove from Group" = "Eliminați din grup";
+"LOCID Groups" = "Grupuri";
+"LOCID E_AddContactFailureGeneral" = "Nu putem adăuga momentan acest contact. Încercați din nou mai târziu.";
+"LOCID E_AddContactFull" = "Nu mai puteți adăuga alte contacte la acest grup.";
+"LOCID E_AddContactInGroup" = "Contactul se află deja în acest grup.";
+"LOCID E_RemoveContactFailureGeneral" = "Nu putem elimina momentan acest contact. Încercați din nou mai târziu.";
+"LOCID Confirm Remove Contact" = "Astfel se va elimina %@ din lista dvs. de contacte.";
+"LOCID Ignore" = "Ignorare";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Aflați mai multe";
+"LOCID CEIP More Info" = "Ajutați-ne să îmbunătățim și mai mult Skype for Business, trimițând date anonime de utilizare la Microsoft.";
+"LOCID ceipSectionTitle" = "Programul de îmbunătățire a experienței clienților";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Bun venit.";
+"LOCID Lets begin" = "Să începem...";
+
+/* First Run Experience */
+"LOCID Close" = "Închidere";
+"LOCID Change" = "Da";
+"LOCID Don't change" = "Nu";
+"LOCID Next" = "Înainte";
+"LOCID Done" = "Terminat";
+"LOCID First Run First Step" = "Lync este acum Skype for Business, oferindu-vă experiența Skype cu calitatea Microsoft la nivel de întreprindere.";
+"LOCID First Run Second Step" = "Oricine poate utiliza această aplicație pentru a se asocia la o întâlnire Skype. Pentru a beneficia însă de toate funcțiile, trebuie să aveți un cont Skype for Business și organizația dvs. trebuie să fi activat aplicația.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "MODIFICAȚI SETĂRILE DE REDIRECȚIONARE A APELURILOR?";
+"LOCID First Run CF Current Settings" = "Setările dvs. curente:";
+"LOCID First Run CF Change Settings" = "Setări noi:";
+"LOCID First Run Change Summary" = "Ați introdus numărul de telefon pentru a primi apeluri la birou. Acum trebuie să modificați setările curente de redirecționare a apelurilor, astfel încât telefonul să sune.";
+"LOCID First Run Change Request" = "Putem să modificăm aceasta, astfel încât să primiți apeluri simultan la birou și la %@?";
+"LOCID DoNotForward Summary - First Run" = "Apelurile vor fi primite de dvs. la birou și nu vor fi redirecționate către alte numere de telefon.";
+"LOCID ForwardCalls Summary - First Run" = "Apelurile vor fi redirecționate direct în %@.";
+"LOCID Simulring Summary - First Run" = "Apelurile vor fi primite de dvs. la birou și vor mai sosi și la %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "NU RATAȚI NICIODATĂ APELURILE LA BIROU";
+"LOCID My Mobile Number Title 2" = "NU RATAȚI NICIODATĂ O ÎNTÂLNIRE";
+"LOCID My Mobile Number Details First Run" = "Avem nevoie de numărul dvs. iPhone cu codurile de țară și regionale:";
+"LOCID My Mobile Number Details First Run_iPad" = "Avem nevoie de numărul dvs. de telefon cu codurile de țară și regionale:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "GESTIONARE TRAFIC DATE";
+"LOCID Setup Work Calls Sub Text" = "Aceste setări vă gestionează traficul de date și costurile potențiale pentru apeluri și întâlniri.";
+
+"LOCID Require Wifi for VoIP calls" = "Wi-Fi necesar pentru apeluri VoIP";
+"LOCID Require Wifi for VoIP calls off subtext" = "Când rețeaua Wi-Fi nu este disponibilă, apelurile vor utiliza conexiunea de date.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Apelurile se vor efectua întotdeauna prin rețeaua Wi-Fi. Nu vom utiliza niciodată conexiunea de date.";
+
+"LOCID Require Wifi for Video calls" = "Wi-Fi necesar pentru apeluri video";
+"LOCID Require Wifi for Video calls off subtext" = "Când conexiunea Wi-Fi nu este disponibilă, apelurile video vor utiliza conexiunea de date. (Poate însemna un volum de date foarte mare.)";
+"LOCID Require Wifi for Video calls on subtext" = "Apelurile video se vor efectua întotdeauna prin rețeaua Wi-Fi. Nu vom utiliza niciodată conexiunea de date.";
+
+"LOCID Require Wifi for meeting content" = "Wi-Fi necesar pentru conținutul de întâlnire";
+"LOCID Require Wifi for meeting content off subtext" = "Când conexiunea Wi-Fi nu este disponibilă, vom utiliza conexiunea de date pentru a obține conținutul întâlnirilor. (Poate însemna un volum de date foarte mare.)";
+"LOCID Require Wifi for meeting content on subtext" = "Vom utiliza întotdeauna conexiunea Wi-Fi pentru a obține conținutul întâlnirilor și niciodată conexiunea de date.";
+
+"LOCID Skip" = "Ignorare";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Începeți să utilizați Skype for Business";
+
+"LOCID First Run Successful Setup" = "SUNTEȚI GATA!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "BUN VENIT!";
+"LOCID First Run Successful Setup Details" = "Puteți să efectuați oricând modificări în Setări.";
+
+"LOCID improve lync" = "Ajutați-ne să îmbunătățim Skype for Business";
+"LOCID whyphonenumber" = "De ce avem nevoie de numărul dvs. de telefon";
+"LOCID more detail" = "Mai multe detalii";
+
+"LOCID Emergency Call Disclaimer" = "Note:";
+"LOCID Emergency Call Disclaimer Details" = "Tarifele normale ale operatorului se aplică tuturor apelurilor.\n\nImportant: nu utilizați aplicația Skype for Business pentru a efectua apeluri de urgență.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Important";
+"LOCID Emergency Call Disclaimer Details iPad" = "Nu utilizați aplicația Skype for Business pentru a efectua apeluri de urgență.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Notificări push";
+"LOCID Push Notification Legal1" = "Înainte de a accepta utilizarea notificărilor push, rețineți că toate notificările push și conținutul lor se trimit prin Serviciul de notificare și sistemul de notificare push Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Ați schimbat setările notificărilor push în Setările de notificare %1$@, dar trebuie să lansați din nou Skype for Business pentru a opri livrarea întregului conținut al notificărilor.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Utilizare mobil";
+"LOCID Call via Work Not Available Error" = "Nu puteți efectua un apel Skype for Business, deoarece sunteți neconectat(ă). Încercați să apelați de la numărul de telefon mobil.";
+"LOCID Call via Work Not Available Error iPad" = "Nu puteți să efectuați un apel Skype for Business deoarece sunteți neconectat(ă).";
+"LOCID Answer incoming call" = "Răspundeți la apel";
+"LOCID to connect you to... display name" = "pentru a vă conecta la...\n%@";
+
+"LOCID Call via Work Connecting" = "Se realizează conexiunea...\n Răspundeți la următorul apel primit.";
+"LOCID Call via Work Connected" = "V-ați asociat de la %1$@";
+"LOCID Video Disclaimer" = "Nu veți putea vedea sau partaja conținut video.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "V-ați asociat de la %1$@.";
+
+/* Errors */
+"LOCID Error" = "Eroare";
+"LOCID E_GenericFailure" = "A apărut o eroare în Skype for Business. Încercați din nou. Dacă problema persistă, contactați echipa de asistență.";
+"LOCID E_GroupNotFound" = "Nu putem găsi grupul respectiv.";
+"LOCID E_PermissionsForGroup" = "Nu aveți permisiunea de a extinde acest grup.";
+"LOCID E_ConnectionError" = "Nu ne putem conecta la server. Verificați conexiunea la rețea și adresa serverului, apoi încercați din nou.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Nu ne putem conecta la server. 1) Serverul poate să fie indisponibil. 2) Verificați conexiunea la rețea. 3) Asigurați-vă că utilizați informațiile contului Skype for Business furnizate de organizația dvs. 4) Numele dvs. de utilizator poate fi diferit de numele de conectare. Atingeți Opțiuni complexe și introduceți numele de utilizator sau domeniu\\numeutilizator.";
+"LOCID E_AutoDiscoveryInBackground" = "Configurația serverului s-a modificat. Reporniți Skype for Business.";
+"LOCID E_SslError" = "Nu putem verifica certificatul de la server. Contactați echipa de asistență.";
+"LOCID E_SslCertExpiredError" = "Nu putem verifica certificatul de la server. Contactați echipa de asistență.";
+"LOCID E_ProxyAuthError" = "Nu vă putem conecta. Configurați setările de proxy HTTP în setările %@ și Opțiuni Skype for Business sau utilizați 3G pentru a vă conecta.";
+"LOCID E_ConnectionTimeoutError" = "Conectare nereușită la server. Acesta poate fi ocupat sau indisponibil temporar. Încercați din nou.";
+"LOCID E_GenericApplicationError" = "Există o eroare în aplicație. Vă rugăm să reporniți aplicația.";
+"LOCID E_AuthError" = "Nu vă putem conecta. Verificați informațiile contului și încercați din nou.";
+"LOCID E_InvalidCredentials" = "Nu vă putem conecta. Verificați informațiile contului și încercați din nou.";
+"LOCID E_InvalidSignInAddress" = "Conectare nereușită. Verificați adresa de conectare și încercați din nou.";
+"LOCID E_InvalidLyncAccount" = "Aceste informații de conectare nu sunt valide.  Trebuie să vă conectați folosind contul Skype for Business furnizat de organizația dvs.";
+"LOCID E_WrongHomePool" = "Conectarea la server nu a fost configurată. Contactați echipa de asistență.";
+"LOCID E_ImSendError" = "Trimiterea nu a reușit:";
+"LOCID GenericRetryError" = "Nu vă putem conecta la server. Se încearcă din nou...";
+"LOCID GenericError" = "A apărut o eroare de server. Încercați din nou.";
+"LOCID RequestFailed" = "Nu s-a reușit procesarea solicitării. Încercați din nou.";
+"LOCID DecodingError" = "Nu s-a reușit procesarea răspunsului de la server. Încercați din nou. Dacă problema persistă, contactați echipa de asistență.";
+"LOCID VersionMismatch" = "Nu vă puteți conecta cu această versiune de Skype for Business. Instalați o versiune mai nouă. Dacă aceasta nu funcționează, contactați echipa de asistență.";
+"LOCID SignInCredentialsAreNeeded" = "Ați fost deconectat. Avem nevoie de informațiile dvs. de cont pentru a vă reconecta.";
+"LOCID NeedLyncPassword" = "Avem nevoie de parola dvs. pentru a vă conecta.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Momentan nu ne putem conecta la server. Încercați din nou.";
+"LOCID E_HttpRequestTimeout" = "Nu se poate realiza conectarea, deoarece serverul este indisponibil momentan.";
+"LOCID E_CannotConnectToServer" = "Nu se poate conecta la server. Se încearcă restabilirea conexiunii. Dacă problema persistă, contactaţi-vă echipa de suport.";
+"LOCID E_InvalidServerUrl" = "Numele serverului este incorect. Verificați-l și reîncercați.";
+"LOCID E_NoValidIp" = "Nu ne putem conecta la rețea. Verificați setările de conexiune.";
+"LOCID E_MetaDataNotFound" = "Serverul nu poate fi contactat. Verificați adresa serverului sau încercați din nou mai târziu.";
+"LOCID E_TimeSkewError" = "Nu putem sincroniza ceasul dispozitivului cu serverul. Schimbați setările pentru oră sau contactați echipa de asistență.";
+"LOCID E_MobilityDisabled" = "Nu vă putem conecta, deoarece nu sunteți configurat(ă) să utilizați Skype for Business. Contactați echipa de asistență.";
+"LOCID E_TooManyApplications" = "Nu vă putem conecta. Se pare că sunteți conectat deja pe prea multe dispozitive.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Apelarea de la birou este dezactivată. Introduceți-vă numărul de telefon în opțiuni pentru a efectua un apel Skype for Business către această persoană.";
+"LOCID E_UI_OfflineLyncCall" = "Trebuie să fiți conectat(ă) sau să aveți o conexiune de date mobilă pentru a efectua un apel Skype for Business către această persoană.";
+"LOCID E_EwsError" = "Nu ne putem conecta la Exchange. Încercați din nou mai târziu.";
+"LOCID E_EwsBadCredentials" = "Acreditările de conectare Exchange nu sunt valide. Încercați să actualizați acreditările Exchange sau Skype for Business.";
+"LOCID W_Retrying" = "Serverul nu poate fi contactat, se reîncearcă...";
+"LOCID E_UI_CallViaCellError" = "Verificați numărul și încercați din nou.";
+"LOCID E_LiveIdPasswordExpired" = "Parola dvs. a expirat. Actualizați-o și încercați din nou.";
+"LOCID E_LiveIdInvalidCredentails" = "Nu vă putem conecta. Verificați informațiile contului și încercați din nou.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Parola dvs. trebuie schimbată. Actualizați-o și încercați din nou.";
+"LOCID E_LiveIdPasswordLockedOut" = "Parola dvs. trebuie schimbată. Actualizați-o și încercați din nou.";
+"LOCID E_LiveIdConnectionFailed" = "Momentan nu ne putem conecta la server. Încercați din nou.";
+"LOCID E_LiveIdServiceUnavailable" = "Momentan nu ne putem conecta la server. Încercați din nou.";
+"LOCID E_LiveIdGenericError" = "Nu vă putem conecta. Încercați din nou.";
+"LOCID E_InvalidLiveIDUserNameError" = "Nu vă putem conecta. Verificați că numele de utilizator este în formatul cineva@example.com și că parola este validă.";
+"LOCID E_InvalidSmtpAddress" = "Nu ne putem conecta la Exchange. Verificați informațiile contului și încercați din nou.";
+"LOCID E_LogoffUnsuccessful" = "Nu vă putem conecta la Skype for Business deoarece s-a pierdut conexiunea la server.";
+"LOCID E_ClientVersionMismatch" = "Nu vă putem conecta deoarece organizația dvs. nu acceptă această versiune de Skype for Business. Instalați Lync 2010 din magazinul de aplicații pentru dispozitivul dvs. mobil.";
+"LOCID E_ClientServerSchemaMisMatch" = "Nu vă puteți conecta cu această versiune de Skype for Business. Instalați o versiune mai nouă. Dacă aceasta nu funcționează, contactați echipa de asistență.";
+"LOCID E_ClientVersionCheck" = "Nu vă puteți conecta cu această versiune de Skype for Business. Instalați o versiune mai nouă. Dacă aceasta nu funcționează, contactați echipa de asistență.";
+"LOCID E_VersionMismatch" = "Nu vă puteți conecta cu această versiune de Skype for Business. Instalați o versiune mai nouă. Dacă aceasta nu funcționează, contactați echipa de asistență.";
+"LOCID E_AutoDConfigurationError" = "Nu vă putem conecta. Contactați echipa de asistență.";
+"LOCID E_AutoDPasswordExpiredError" = "Parola dvs. a expirat. Actualizați-o și încercați din nou.";
+"LOCID E_InvalidProxySettingsError" = "Nu vă putem conecta. Setările de proxy nu sunt valide. Verificați-le și încercați din nou.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Ați fost deconectat din cauza inactivității.";
+"LOCID E_GeneralGoneError" = "Nu vă putem conecta. Contactați echipa de asistență.";
+"LOCID E_InternalServerError" = "Nu vă putem conecta. Contactați echipa de asistență.";
+"LOCID E_TooManyApps" = "Nu vă putem conecta. Se pare că sunteți conectat deja pe prea multe dispozitive.";
+"LOCID E_ResponseUnkown" = "Nu ne-am putut conecta la server. Dacă utilizați Wi-Fi, deschideți-vă browserul pentru a vedea dacă aveți o conexiune. Altfel, dezactivați orice conexiune tip hotspot sau tethering. Dacă problema persistă, contactați furnizorul dvs. de rețea.";
+"LOCID E_CannotLoadADFSPage" = "Nu vă putem face sign in. Încercați din nou. Dacă problema persistă, contactați echipa de asistență.";
+"LOCID E_UserNotSipEnabled" = "Nu sunteți configurat pentru a vă conecta la server. Vă rugăm contactaţi-vă echipa de suport.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Momentan nu puteți face un apel VoIP. Încercați să apelați de pe numărul dvs. de telefon mobil.";
+"LOCID E_VoicePSTNCallActive" = "Momentan nu puteți face un apel VoIP. Încercați să apelați de pe numărul dvs. de birou.";
+"LOCID E_VoicePSTNCallActive - Button" = "Apel de la birou";
+"LOCID E_VideoOverWiFiBlocked" = "Aceasta a fost o invitație pentru un apel video, dar, pentru că nu aveți o conexiune Wi-Fi, v-am conectat doar audio.";
+"LOCID E_HistoryNotDisplayed" = "Istoricul acestei conversații nu se poate afișa.";
+"LOCID E_IMAcceptedElsewhere" = "Ați acceptat această conversație din altă parte. Pentru a o reporni, trimiteți un mesaj nou.";
+"LOCID E_MuteFailed" = "Din cauza unei erori, alte persoane nu pot vedea că momentan aveți sunetul dezactivat.";
+"LOCID E_UnmuteFailed" = "Din cauza unei erori, sunteți încă cu sunetul dezactivat. Încercați din nou să dezactivați această setare.";
+"LOCID E_DgExpansionGenericFailure" = "Nu se pot găsi membri ai grupului pentru a fi invitați. Încercați din nou mai târziu.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Grupul este prea mare pentru a fi invitat.";
+"LOCID E_DgExpansionNoMembersFailure" = "Grupul nu are niciun membru individual și nu poate fi invitat.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ nu este disponibil sau poate fi offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ este setat la Nu deranjați.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ nu este funcțional. Verificați numărul.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ este implicat într-un alt apel.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ nu a răspuns.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ nu poate răspunde la acest apel.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Acest apel nu poate fi realizat în timp ce sunteți neconectat(ă). Încercați să vă conectați la Skype for Business pentru a efectua apelul.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Operația nu a reușit.";
+"LOCID E_VoiceGenericError" = "Apelul nu a fost efectuat sau s-a terminat.";
+"LOCID E_VoiceFeatureNotEnabled" = "Caracteristica de apelare este dezactivată.";
+"LOCID E_VoiceCheckNumber" = "Verificați numărul și încercați din nou.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Apelul nu s-a efectuat. Încercați din nou mai târziu.";
+"LOCID E_VoiceCallUnsuccessful" = "Apelul nu se poate conecta.";
+"LOCID E_VoiceCallTypeNotSupported" = "Apel nereușit. Acest tip de apel nu este acceptat.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Se poate ca acest mesaj să nu fi fost trimis la %@, deoarece conexiunea la server a expirat:";
+
+"LOCID E_SharingAnotherOperation" = "Încercăm să facem altceva pentru dvs. Așteptați o secundă și încercați din nou.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ nu a primit acest mesaj, din cauza unei probleme la server:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ este offline și nu a primit acest mesaj:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ are o stare Nu deranjați și nu a primit acest mesaj:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Nu am putut trimite acest mesaj, deoarece nu am găsit pe %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Acest mesaj nu se poate trimite, din cauza unui conținut blocat:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "Nu am putut contacta pe %@ pentru a trimite acest mesaj:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Nu am putut efectua apelul dvs.";
+
+"LOCID E_ConfLocked" = "Nu vă puteți asocia la întâlnire deoarece este blocată. Încercați să contactați organizatorul.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Există o nepotrivire de criptare între dvs. și %@. Contactați echipa de asistență.";
+
+"LOCID E_ConferencingServerError" = "Eroare de server. Contactați echipa de asistență.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ nu poate fi contactat și poate fi offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ are o stare Nu deranjați și nu poate fi contactat.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ nu a răspuns la invitație.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Nu am putut contacta pe %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Nu sunteți configurat(ă) pentru a vă asocia la întâlniri Skype.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Nu vă puteți asocia la conferință dacă aplicația nu este conectată.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ nu s-a putut asocia la întâlnire.";
+"LOCID E_ConferencingEnded" = "Întâlnirea la care încercați să vă asociați nu este disponibilă.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "%@ nu poate fi contactat. Încercați din nou mai târziu.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "%@ nu poate fi găsit. Verificați adresa.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Nu am putut contacta pe %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ a refuzat invitația dvs.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Un prezentator a închis întâlnirea.";
+"LOCID E_ConferencingCallDisconnected" = "Apelul a fost deconectat.";
+"LOCID ConferenceUnexpectedDisconnect" = "Ați fost deconectat de la conferință.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Apelul nu a fost efectuat sau s-a terminat.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "%@ nu poate fi adăugat la întâlnire, deoarece rețeaua este ocupată.";
+
+"LOCID E_ConferencingCannotConnect" = "Apelul nu a fost efectuat sau s-a terminat.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Nu vă puteți asocia la acest tip de întâlnire online.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "%@ nu poate fi invitat, deoarece întâlnirea este plină.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Nu vă puteți asocia la întâlnire ca participant anonim.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Nu vă puteți asocia la întâlnire, din cauza unei erori de invitație.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Nu aveți permisiunea de a vă asocia la întâlnire.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Nu v-am asociat întâlnirii. Încercați din nou.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Nu vă puteți asocia la această întâlnire din afara organizației.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Nu vă puteți asocia la acest tip de întâlnire online.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "%@ nu poate fi contactat.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Nu puteți începe o întâlnire, deoarece începe altă întâlnire.";
+"LOCID E_ConferencingEncryptionIssues" = "Nu putem începe întâlnirea Skype din cauza problemelor de criptare.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Nu aveți permisiuni suficiente pentru a vă asocia sau a apela de la alt dispozitiv.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Apelul nu a fost efectuat sau s-a terminat.";
+"LOCID E_ConferencingFull" = "Întâlnirea este plină.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Nu aveți permisiunea de a vă asocia la această întâlnire.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Invitația la %@ a expirat.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Întâlnirea s-a terminat, deoarece gazdele au ieșit.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Nu vă puteți asocia la întâlnire, deoarece rețeaua este prea ocupată.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Linia de subiect este prea lungă.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Această caracteristică pentru întâlniri nu este activată de organizația dvs.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Această întâlnire s-a terminat din cauza inactivității.";
+"LOCID E_ConferencingCannotBeFound" = "Această întâlnire online nu poate fi găsită.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Nu aveți permisiunea de a vă asocia la această întâlnire.";
+"LOCID E_ConferencingUserNotAdmitted" = "Nu ați fost admis la întâlnire.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Ați fost eliminat din întâlnire.";
+"LOCID E_ConfGenericError" = "Nu v-am putut asocia la întâlnire. Încercați din nou.";
+"LOCID E_ConferenceDenied" = "Prezentatorul v-a refuzat intrarea.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Sunteți deja într-o întâlnire. Doriți să ieșiți din ea și să vă asociați la cea curentă?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Serverul nu acceptă asocierea anonimă la întâlniri prin acest dispozitiv.";
+"LOCID ConferenceVideoLock" = "Un prezentator a blocat reflectorul video pe cineva.";
+"LOCID ConferenceVideoUnlock" = "Un prezentator a deblocat reflectorul video.";
+"LOCID ConferenceVideoSelfLock" = "Toată lumea este blocată pe conținutul video al dvs.";
+"LOCID ConferenceVideoSelfUnlock" = "Nimeni nu mai este blocat pe conținutul dvs. video.";
+
+"LOCID E_DomainNotTrusted" = "Nu vă puteți conecta la server. Acceptați solicitarea de redirecționare.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ nu a primit acest mesaj, deoarece formatul nu este permis:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Dispozitivul utilizat de %@ nu poate primi mesaje.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ nu a primit acest mesaj, deoarece este prea mare:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ nu a primit acest mesaj, deoarece politica restricționează livrarea:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Nu vă putem trimite mesajul IM. Sunteți deja într-o conversație cu %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Acest mesaj nu se poate trimite, din cauza unui conținut blocat:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Nu sunteți autorizat să trimiteți mesaje IM către %@. Nu am trimis acest mesaj:";
+
+"LOCID E_IMConfGenericError" = "Unul sau mai mulți participanți nu a primit acest mesaj:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ nu este disponibil.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Apelul s-a terminat, deoarece %@ s-a deconectat.";
+
+"LOCID E_VoiceCallTimeout" = "Apelul nu s-a realizat din cauza problemelor din rețea. Încercați din nou mai târziu.";
+"LOCID E_VoiceCallDisconnected" = "Ne pare rău, apelul a fost deconectat. Încercați din nou.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Apelul nu a fost efectuat sau s-a terminat.";
+"LOCID E_VoiceCallNotCompleted" = "%@ nu poate primi apeluri. Încercați în schimb mesageria instant sau e-mailul.";
+"LOCID E_VoiceServerError" = "Apelul nu poate fi conectat din cauza unei erori de server. Încercați din nou.";
+"LOCID E_VoiceCannotConnect" = "Nu se poate realiza conexiunea la întâlnirea online.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "%@ nu poate fi contactat.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "%@ nu poate fi găsit.";
+
+"LOCID E_VoiceEncryptionIssues" = "Nu putem începe întâlnirea Skype din cauza problemelor de criptare.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Persoana pe care ați apelat-o a răspuns printr-un IM.";
+"LOCID E_VoiceCannotCompleteCall" = "Apel neefectuat după formare.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Apelul nu se poate efectua, din cauza unei probleme cu serverul.";
+"LOCID E_VoiceServerCannotForwardCall" = "Serverul nu poate redirecționa apelul. Încercați din nou.";
+"LOCID E_VoiceServerDidNotRespond" = "Serverul nu răspunde. Încercați din nou mai târziu.";
+"LOCID E_VoiceCannotPlaceCall" = "Apelul nu poate fi plasat. Verificați numărul și încercați din nou.";
+"LOCID E_VoiceNumberNotSupported" = "Organizația nu acceptă apelarea acestui număr.";
+"LOCID E_IncomingPSTNCall" = "Nu am putut efectua apelul dvs.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Nu puteți apela %@, deoarece apelurile sunt restricționate prin politică.";
+
+"LOCID E_CallFailed" = "Apelul s-a terminat din cauza problemelor de conectivitate. Reîncercați.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Ați fost deconectat pentru că v-ați asociat de la alt client.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Ați fost eliminat din întâlnire.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Apelul nu s-a efectuat, deoarece rețeaua este ocupată.";
+"LOCID E_VoiceNotSupported" = "%@ nu poate accepta apeluri audio.";
+"LOCID E_RepliedWIthOtherModality" = "Destinatarul a ales să răspundă printr-un mesaj instant.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Istoricul conversațiilor nu poate fi actualizat în acest moment și poate să fie nesincronizat.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Istoricul conversațiilor nu poate fi actualizat în acest moment și poate să fie nesincronizat.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Nu putem redirecționa apelurile către acest contact. Selectați unul dintre contactele dvs. Skype for Business pentru a-i redirecționa apelurile sau selectați „Număr nou” pentru a introduce un număr de telefon.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY este activat";
+"LOCID RemoteHoldSucceeded" = "Utilizatorul de la distanță v-a pus în așteptare.";
+"LOCID RemoteUnholdSucceeded" = "Anularea reținerii la distanță a reușit";
+"LOCID LocalHoldSucceeded" = "Reținerea locală a reușit";
+"LOCID LocalUnholdSucceeded" = "Anularea reținerii locale a reușit";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Reluați apelul";
+"LOCID is recording" = "%@ înregistrează";
+"LOCID Multiple Recording" = "Cineva înregistrează";
+"LOCID OnHoldOutOfApp" = "Apelul dvs. %@ este în așteptare.";
+"LOCID OnStopOutOfApp" = "Apelul dvs. %@ a fost terminat.";
+"LOCID RecordingAlert" = "%@ înregistrează acest apel.";
+"LOCID CoversationP2PIsRecording" = "%@ înregistrează acest apel.";
+"LOCID CoversationP2PIsRecordingNoName" = "Acest apel se înregistrează.";
+"LOCID CoversationConferenceIsRecording" = "Cineva înregistrează această întâlnire.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Această listă este aproape plină. Cele mai vechi conversații vor fi eliminate pe măsură ce se adaugă altele noi.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Un prezentator a dezactivat sunetul publicului.";
+"LOCID Audience Unlock" = "Un prezentator a activat sunetul publicului.";
+"LOCID Conference Mute" = "Un prezentator v-a dezactivat sunetul.";
+"LOCID Conference Unmute" = "Un prezentator dorește să vă activați sunetul.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Un prezentator a blocat participanții de la a trimite conținut video.";
+"LOCID PresenterBlockedVideo - Presenter" = "Un prezentator a blocat participanții de la a trimite conținut video. Dacă sunteți prezentator, vă puteți activa camera și puteți partaja conținutul dvs. video.";
+"LOCID PresenterBlockedVideo - Unblock" = "Un prezentator a deblocat participanții de la a trimite video.";
+"LOCID VideoLockOnYou" = "Toată lumea este blocată pe conținutul video al dvs.";
+"LOCID VideoLock" = "Un prezentator a blocat reflectorul video pe cineva.";
+"LOCID VideoNotLockOnYou" = "Nimeni nu mai este blocat pe conținutul dvs. video.";
+"LOCID VideoSpotlightUnlocked" = "Un prezentator a deblocat reflectorul video.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Înapoi";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Apelarea de la birou nu este disponibilă.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Fără poștă vocală";
+"LOCID You currently have no voicemail messages" = "Nu aveți niciun mesaj de poștă vocală.";
+"LOCID Audio" = "Audio";
+"LOCID Speaker" = "Difuzor";
+"LOCID Can not play locally" = "Nu putem reda acest mesaj. Atingeți Redare pentru a primi un apel și a-l auzi.";
+"LOCID Play Voice Mail" = "Redare poștă vocală";
+"LOCID PLAY_VOICEMAIL_HINT" = "Rulează mesajele vocale";
+"LOCID Pause Voice Mail" = "Pauză poștă vocală";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Pauză la rularea mesajelor vocale";
+"LOCID Play On Phone Error - No Number" = "Trebuie să introduceți numărul dvs. de telefon în Opțiuni pentru a primi un apel înapoi.";
+"LOCID Call Back" = "Sunați înapoi";
+"LOCID Delete" = "Ștergere";
+"LOCID More voicemails iPad" = "Pentru a asculta mesaje de poștă vocală mai vechi, atingeți pictograma de poștă vocală.";
+"LOCID More voicemails" = "Pentru a asculta mesaje de poștă vocală mai vechi, atingeți continuu tasta 1 pe tastatură sau accesați Outlook.";
+"LOCID More voicemails No keypad" = "Accesați Outlook pentru a asculta mesaje de poștă vocală mai vechi.";
+"LOCID Can not play IRMed" = "Acest mesaj are drepturi gestionate. Atingeți Redare pentru a primi un apel și a-l asculta.";
+"LOCID Lync Call" = "Apel Skype for Business";
+"LOCID Can't play on phone" = "Nu putem reda acest mesaj. Verificați conexiunea la rețea și încercați din nou.";
+"LOCID Yes" = "Da";
+"LOCID No" = "Nu";
+"LOCID VMCallerID" = "Poștă vocală";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Redați poșta vocală la viteză normală";
+"LOCID VM Playback -2X Acc" = "Redați poșta vocală la viteză înjumătățită";
+"LOCID VM Playback 2X Acc" = "Redați poșta vocală la viteză dublă";
+"LOCID Voicemail From" = "Poștă vocală de la %@";
+"LOCID No Voicemails Placeholder" = "Mesajele vocale vor fi afișate aici";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Îndepărtare";
+"LOCID Accept" = "Acceptare";
+"LOCID Not yet implemented feature" = "Această funcție nu a fost implementată încă. Încercați din nou într-o versiune viitoare.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Aveți un mesaj de poștă vocală nou";
+"LOCID Missed VMs" = "Aveți %d mesaje noi de poștă vocală";
+"LOCID Missed Collab Out of App" = "Sesiune de colaborare pierdută de la %@";
+"LOCID Missed Video Call Out of App" = "Apel video pierdut de la %@";
+"LOCID Missed Audio Call Out of App" = "Apel pierdut de la %@";
+"LOCID Missed Message Out of App" = "Mesaj instant pierdut de la %@";
+"LOCID Missed Audio Conf Out of App" = "Conferință prin telefon pierdută de la %@";
+
+"LOCID Audio Call Out of App" = "Apel de la %@";
+"LOCID Conference Call Out of App" = "Conferință prin telefon de la %@";
+"LOCID Dismiss Call" = "Ignorare";
+"LOCID Answer Call" = "Acceptare";
+"LOCID Answer Call with Video" = "Video";
+"LOCID Audio Call" = "Apel";
+"LOCID Conference Call" = "Conferință prin telefon";
+"LOCID Unknown Caller" = "Apelant necunoscut";
+
+"LOCID Video conf accessibility" = "Conferință video de la %@";
+"LOCID Video accessibility" = "Apel video de la %@";
+"LOCID Audio conf accessibility" = "Conferință prin telefon de la %@";
+"LOCID Audio accessibility" = "Apel de la %@";
+
+"LOCID Video Call Out of App" = "Apel video de la %@";
+"LOCID Video Conference Call Out of App" = "Conferință video de la %@";
+"LOCID Video Call" = "Apel video";
+"LOCID Video Conference Call" = "Conferință video";
+"LOCID Video Escalation Name" = "%@ partajează video";
+"LOCID Video Escalation" = "partajează video";
+"LOCID Video Escalation Conf" = "Cineva partajează video";
+"LOCID VideoInvitationRejected" = "Porțiunea video a apelului nu a fost acceptată. Apelul va continua doar cu componenta audio.";
+"LOCID E_VideoDecline" = "%@ nu v-a acceptat componenta video.";
+"LOCID E_VideoGeneric" = "Nu v-am putut lansa componenta video. Încercați din nou.";
+"LOCID E_VideoNotStarted" = "Nu v-am putut porni componenta video.";
+"LOCID E_VideoNotSupported" = "%@ nu poate accepta apeluri video.";
+"LOCID E_VideoNotAccepted" = "Porțiunea video a apelului nu a fost acceptată de %@. Apelul va continua doar cu componenta audio.";
+
+"LOCID E_VoiceTransferGenericError" = "Apelul nu a putut fi transferat.";
+"LOCID E_VoiceTransferParticipantError" = "Apelul nu a putut fi transferat, deoarece destinatarul nu poate fi contactat.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "dezactivare sunet";
+"LOCID Mute Capitalized" = "Dezactivare sunet";
+"LOCID Unmute" = "Activare sunet";
+"LOCID keypad" = "tastatură";
+"LOCID add call" = "adăugare apel";
+"LOCID hold" = "în așteptare";
+"LOCID End" = "Terminare";
+"LOCID Hide Keypad" = "Ascundere tastatură";
+"LOCID Call Lync" = "Apel Skype for Business";
+"LOCID Call Work" = "Birou: %@";
+"LOCID Call Mobile" = "Mobil: %@";
+"LOCID Call Home" = "Acasă: %@";
+"LOCID Call Other" = "Altul: %@";
+"LOCID Decline" = "Refuzare";
+"LOCID Video Menu" = "Meniu video";
+"LOCID Hold Call" = "Apel în așteptare";
+"LOCID Hang Up" = "Suspendare";
+"LOCID Dial Pad Only" = "Tastatură telefonică";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u participanți - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u participant - %@";
+"LOCID Call Status Connecting" = "Se conectează...";
+"LOCID Call Status Connecting Remote" = "Se conectează...";
+"LOCID Call Status Connected" = "Conectat";
+"LOCID Call Status On Hold - Passive" = "În așteptare";
+"LOCID Call Status On Hold" = "În așteptare";
+"LOCID Call Status Ended" = "Apel terminat";
+"LOCID Call Status Transfering" = "Transfer în desfășurare";
+"LOCID On behalf of" = "În numele utilizatorului %@";
+"LOCID Call for" = "Apel pentru %@";
+"LOCID Call for - Astana" = "Apel pentru %@";
+"LOCID Transferred by" = "Transferat de %@";
+"LOCID Forwarded by" = "Redirecționat de %@";
+"LOCID Private call" = "Apel privat";
+"LOCID Also ringing" = "Apelează și %@";
+"LOCID Also ringing delegates" = "Apelează și delegații";
+"LOCID Will ring" = "%@ va fi apelat";
+"LOCID Also ringing team call" = "Apelează și echipa dvs.";
+"LOCID The recipient" = "Destinatarul";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Se inițializează...";
+"LOCID DataCollab Connecting" = "Se conectează ...";
+"LOCID DataCollab Loading" = "Se încarcă...";
+"LOCID DataCollab No Content" = "Prezentatorii au oprit partajarea conținutului.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Caracteristica de partajare a datelor nu este disponibilă, datorită unei erori de conectivitate la server.";
+"LOCID DisconnectedOnConnectivityIssue" = "Anumite caracteristici de prezentare sunt indisponibile din cauza problemelor de conectivitate ale serverului.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Ați fost deconectat pentru că v-ați asociat de la alt client.";
+"LOCID DisconnectedOnNetworkFailure" = "Anumite probleme de rețea vă împiedică să vedeți prezentarea.";
+"LOCID DataCollab Known UnSupported" = "Prezentatorul utilizează o caracteristică neacceptată de această versiune de Skype for Business.";
+"LOCID DataCollab Generic UnSupported" = "Prezentatorul utilizează o caracteristică neacceptată de această versiune de Skype for Business sau poate să fie conectat la un server mai vechi.";
+"LOCID DataCollab ContentPresenter" = "Prezentator: %@";
+"LOCID DataCollab NoPresenter" = "Nimeni nu prezintă";
+"LOCID Collab Unsupported PPTContent" = "Ne pare rău, nu putem reda conținut media în această prezentare.";
+"LOCID Retry" = "Reîncercați";
+"LOCID DataCollab Generic PPT Error" = "Anumite caracteristici de prezentare sunt indisponibile din cauza problemelor de conectivitate ale serverului.";
+"LOCID Start Viewing" = "Începeți să vizualizați";
+"LOCID Stop Viewing" = "Opriți vizualizarea";
+"LOCID Collab Escalation" = "%@ dorește să înceapă prezentarea";
+"LOCID PowerPoint content Accessibility" = "Conținut PowerPoint";
+
+"LOCID SyncPresenterButton" = "Sincronizați cu vizualizarea prezentatorului";
+"LOCID NavigateBackButton" = "Treceți la diapozitivul anterior";
+"LOCID NavigateForwardButton" = "Treceți la diapozitivul următor";
+"LOCID SlideNumber" = "%1$d din %2$d";
+"LOCID SlideNumber Accessibility" = "Diapozitivul %1$d din %2$d";
+
+"LOCID E_SharingDisabled" = "Prezentarea este dezactivată.";
+"LOCID E_SharingNetworkIssues" = "Nu puteți prezenta din cauza problemelor din rețea. Încercați din nou mai târziu.";
+"LOCID E_SharingNotSupported" = "Prezentarea nu este acceptată cu această persoană de contact.";
+"LOCID E_SharingTimeout" = "Prezentarea nu a început, deoarece serverul este ocupat. Încercați din nou mai târziu.";
+"LOCID SharingAnotherType" = "Această prezentare s-a terminat, deoarece a început o altă prezentare.";
+"LOCID E_GetMediaSdpFailed" = "Nu vă putem conecta momentan la prezentarea desktopului sau programului.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Nu veți vedea conținutul prezentat, deoarece nu sunteți conectat la rețeaua Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "Nu puteți să efectuați un apel Skype for Business deoarece nu sunteți conectat(ă) la Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Prezentarea este prea mare pentru a fi afișată pe dispozitivul dvs.";
+"LOCID E_CollabDisconnectedNetworkError" = "Ați fost deconectat de la prezentare din cauza unor probleme de rețea.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Ați fost deconectat pentru că v-ați asociat de la alt client.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Conținutul de partajat se încarcă.";
+"LOCID AppSharing Shared Content" = "Conținut partajat.";
+"LOCID AppSharing Desktop" = "Desktop";
+"LOCID AppSharing Application" = "Aplicație";
+"LOCID AppSharing SharingPaused" = "Partajarea este momentan în pauză."; // Not used
+"LOCID AppSharing SharingIdle" = "Partajarea este momentan inactivă."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Toate resursele sunt minimizate."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@a încercat să înceapă o prezentare de ecran, dar această versiune a aplicației acceptă numai în apelurile de conferinţe şi întâlniri de Skype.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Pornire IM";
+"LOCID send IM" = "Trimiteți";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Terminați conversația";
+"LOCID View Contact Card" = "Vedeți cartea de vizită";
+"LOCID Invite Others" = "Invitați alte persoane";
+"LOCID Send Location action" = "Trimiteți locația";
+"LOCID Send as Email action" = "Trimiteți ca e-mail";
+"LOCID View Participants" = "Vedeți participanții";
+"LOCID Rejoin" = "Reasociere";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Atingeți de două ori pentru a extinde";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Calitatea apelului este slabă";
+"LOCID ACI Call Muted" = "Microfonul este oprit momentan. Atingeți-l de două ori pentru a-l activa";
+"LOCID ACI Call Unmuted" = "Microfonul este pornit momentan. Atingeți-l de două ori pentru a-l dezactiva";
+
+/* Search results */
+"LOCID No Results" = "Fără rezultate";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ s-a închis pe neașteptate";
+"LOCID Dont Send" = "Nu trimite";
+"LOCID Send Report" = "Trimite raport";
+"LOCID Would you like to send a report so we can fix the problem" = "Doriți să trimiteți un raport ca să putem rezolva problema?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "pornire";
+"LOCID Timeline Contacts" = "contacte";
+"LOCID Timeline Meetings" = "întâlniri";
+"LOCID Timeline Search Placeholder" = "căutați contacte";
+"LOCID Timeline Recent" = "recente";
+"LOCID Timeline Upcoming" = "viitoare";
+"LOCID Timeline TableView" = "cronologie";
+"LOCID Timeline Meeting Time All Day" = "toată ziua";
+"LOCID Timeline Search Skype Contacts" = "contacte";
+"LOCID Timeline Search Phone Contacts" = "contacte din telefon";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "persoane de contact";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "tastatură și mesaje vocale";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "tastatură, %ld mesaj vocal nou";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "tastatură, %ld mesaje vocale noi";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "întâlniri";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "pornire";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "informațiile mele";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, mesaje noi, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "apel";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "apel video";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "marcare ca citită";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "ștergere";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "asociere la întâlnire";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "închidere";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "admiteți";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "disponibil";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "ocupat";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "plecat";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "offline";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "nu deranjați";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "prezență necunoscută";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "ștergere text";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "căutați contacte";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "apel video";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "apel";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Asociere la întâlnire";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Chat gol";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Imagine de profil";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld mesaj vocal nou";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld mesaje vocale noi";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Înger";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Supărat";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Bandit";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Fotbal";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Bere";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Râde";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Bicicletă";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Emoționat";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Plecăciune";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Inimă frântă";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Tort";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Apel";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Cameră";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Putem vorbi?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Mașină";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Numerar";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Pisică";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Aplaudă";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Cafea";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Computer";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Confidențial";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Șmecher";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Plânge";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Dans";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Diavol";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Câine";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Dăăă";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Băutură";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Obtuz";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Invidie";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Diabolic";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Palmă peste față";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Ține pumnii";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Floare";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Jocuri";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Cadou";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Chicoteală";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Succes";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Trebuie să plec";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Strângere de mână";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Fericit";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Dă cu capul de perete";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Inimă";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Veveriță";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Face cu mâna";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Bate palma";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Așteaptă";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Îmbrățișare";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Idee";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Îndrăgostit";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Insulă";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Nu am fost eu!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Sărut";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Nu ascult";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Să ne întâlnim";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Buze pecetluite";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Aveţi corespondenţă";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Machiaj";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Bărbat";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Film";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Mușchi";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Muzică";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Tocilar";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Nu";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Dă din cap";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Petrecere";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telefon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Avion";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Vomă";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Lovește";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Plouă";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Curcubeu";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Moare de râs";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Trist";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Dezaprobă";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Somnoros";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Zâmbet";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Grimasă";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Melc";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Tăcut";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Stea";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Oprește-te";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Rază de soare";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Surprins";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Înjură";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Transpirat";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Vorbește";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Nu te ascult";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Gânditor";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Oră";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Prea multe informații";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Față zâmbitoare cu limba scoasă";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Buruiană purtată de vânt";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Umbrelă";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Așteaptă";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "În așteptare";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Lucrez de acasă";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Ce se întâmplă?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Ușurat";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Semn cu ochiul";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Femeie";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Mirat";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Îngrijorat";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Căscat";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Da";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Scrieți un mesaj aici";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Începeți o conversație cu %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Începeți o conversație cu grupul";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Conversațiile dumneavoastră vor fi afișate aici";
+"CHAT_FAILED_TO_SEND" = "Nu am putut trimite acest mesaj: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Afișare chat";
+"LOCID CONVERSATION_HIDE_CHAT" = "Ascunde chatul";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Afișați bara laterală";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Ascundeți bara laterală";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "emotigrame";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "z";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "z";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "h";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "h";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "min";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "min";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "s";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "s";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d notificări noi";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "O notificare nouă";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Nicio notificare nouă";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "conferință încheiată";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u participanți";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "închideți";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "deschideți";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "copiați";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "adăugați la lista de lecturi";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "deschideți în Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "înapoi";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "redirecționați";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "Anulați";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ scrie un mesaj...";
+"CHATTYPING_TWOUSERS" = "%@ și %@ scriu un mesaj...";
+"CHATTYPING_THREEUSERS" = "%@, %@ și încă o persoană scriu un mesaj...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ și încă %d persoane scriu un mesaj...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "trimiteți un e-mail";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "vedeți cartea de vizită";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "participanți";
+"DROPDOWN_ADD_PARTICIPANTS" = "adăugați participanți";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Primit";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Efectuat";
+
+"LOCID Meetings Page Title" = "Întâlniri";
+"LOCID No Meetings Placeholder" = "Întâlnirile dumneavoastră vor fi afișate aici";
+"LOCID Meetings Today" = "Astăzi";
+"LOCID Meetings Tomorrow" = "Mâine";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Setați mesajul de stare";
+
+"PARTICIPANTS_VIEW_TITLE" = "Participanți";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Așteaptă în sala de așteptare";
+"PARTICIPANTS_VIEW_ON_CALL" = "Participă la acest apel";
+
+"MEETING_VIEW_TITLE" = "Întâlnire";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Asociați-vă la întâlnire";
+"MEETING_VIEW_ORGANISER_LABEL" = "Organizator";
+"MEETING_VIEW_INVITEES_LABEL" = "Invitați";
+"MEETING_VIEW_NOTES_LABEL" = "Note";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Se conectează...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Alegere emotigramă";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Trimiteți mesaj";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Apel terminat";
+"INVITE_PARTICIPANTS" = "Invitați participanți";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Înapoi";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Agendă";
+"LOCID_PHONE_NUMBER" = "Număr de telefon";
+"LOCID_MORE" = "Mai mult";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Comutare apel video";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Arată profil contact";
+"CHAT_OPTION_PARTICIPANTS" = "Participanți";
+"LOCID_CONTACTS_TABLE_VIEW" = "Vizualizare contacte";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Apel primit";
+"LOCID_MEETINGS_TABLE_VIEW" = "Vizualizare întâlniri";

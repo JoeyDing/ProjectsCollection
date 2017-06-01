@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.UI.Shell.Core", "Automation.UI.Shell.Core\Automation.UI.Shell.Core.csproj", "{106CD57A-5FB1-4766-9A68-7453B8FC7043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.UI.Shell.Services", "Automation.UI.Shell.Services\Automation.UI.Shell.Services.csproj", "{C1170E9B-8C21-4EE8-BA7A-7496E3F4C4C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Test", "4. Test", "{62DBDA72-6D91-4233-9746-77A3165E82C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. UI", "2. UI", "{F429D1E2-6AFF-4668-A1D4-2804EEBC3F29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{F734DF5B-41B9-4243-80FC-E91953CCA641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.UI.Shell.Wpf", "Automation.UI.Shell.Wpf\Automation.UI.Shell.Wpf.csproj", "{BEAF7E34-41A2-4CC5-8D34-91A806FB9F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.UI.Shell.Wpf.Infrastructure", "Automation.UI.Shell.Wpf.Infrastructure\Automation.UI.Shell.Wpf.Infrastructure.csproj", "{8C0F509B-016F-421A-986E-63EBFA84C697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Modules", "3. Modules", "{C326D60E-9741-4330-A9F3-2D8EF3F6B7E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellUnitTest", "ShellUnitTest\ShellUnitTest.csproj", "{439A1D68-63D5-499A-94CD-A370CAB437D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotLogger.Client.Lib", "..\garageDayRemoteLogger\RemotLogger.Client.Lib\RemotLogger.Client.Lib.csproj", "{AED68336-3695-4967-963F-D06515A9B747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.UI.Shell.Selenium", "Automation.UI.Shell.Selenium\Automation.UI.Shell.Selenium.csproj", "{5454EDAE-1366-4DA9-B185-870273660EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.UI.Shell.TestStack", "Automation.UI.Shell.TestStack\Automation.UI.Shell.TestStack.csproj", "{EFB23697-3AD1-4C93-97DD-99B7B82F6D18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{106CD57A-5FB1-4766-9A68-7453B8FC7043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106CD57A-5FB1-4766-9A68-7453B8FC7043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106CD57A-5FB1-4766-9A68-7453B8FC7043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106CD57A-5FB1-4766-9A68-7453B8FC7043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1170E9B-8C21-4EE8-BA7A-7496E3F4C4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1170E9B-8C21-4EE8-BA7A-7496E3F4C4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1170E9B-8C21-4EE8-BA7A-7496E3F4C4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1170E9B-8C21-4EE8-BA7A-7496E3F4C4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEAF7E34-41A2-4CC5-8D34-91A806FB9F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAF7E34-41A2-4CC5-8D34-91A806FB9F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAF7E34-41A2-4CC5-8D34-91A806FB9F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAF7E34-41A2-4CC5-8D34-91A806FB9F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0F509B-016F-421A-986E-63EBFA84C697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0F509B-016F-421A-986E-63EBFA84C697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0F509B-016F-421A-986E-63EBFA84C697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0F509B-016F-421A-986E-63EBFA84C697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439A1D68-63D5-499A-94CD-A370CAB437D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439A1D68-63D5-499A-94CD-A370CAB437D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439A1D68-63D5-499A-94CD-A370CAB437D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439A1D68-63D5-499A-94CD-A370CAB437D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED68336-3695-4967-963F-D06515A9B747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED68336-3695-4967-963F-D06515A9B747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED68336-3695-4967-963F-D06515A9B747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED68336-3695-4967-963F-D06515A9B747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5454EDAE-1366-4DA9-B185-870273660EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5454EDAE-1366-4DA9-B185-870273660EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5454EDAE-1366-4DA9-B185-870273660EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5454EDAE-1366-4DA9-B185-870273660EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB23697-3AD1-4C93-97DD-99B7B82F6D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB23697-3AD1-4C93-97DD-99B7B82F6D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB23697-3AD1-4C93-97DD-99B7B82F6D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB23697-3AD1-4C93-97DD-99B7B82F6D18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{106CD57A-5FB1-4766-9A68-7453B8FC7043} = {F734DF5B-41B9-4243-80FC-E91953CCA641}
+		{C1170E9B-8C21-4EE8-BA7A-7496E3F4C4C6} = {F734DF5B-41B9-4243-80FC-E91953CCA641}
+		{BEAF7E34-41A2-4CC5-8D34-91A806FB9F89} = {F429D1E2-6AFF-4668-A1D4-2804EEBC3F29}
+		{8C0F509B-016F-421A-986E-63EBFA84C697} = {F429D1E2-6AFF-4668-A1D4-2804EEBC3F29}
+		{439A1D68-63D5-499A-94CD-A370CAB437D4} = {62DBDA72-6D91-4233-9746-77A3165E82C8}
+		{AED68336-3695-4967-963F-D06515A9B747} = {F429D1E2-6AFF-4668-A1D4-2804EEBC3F29}
+		{5454EDAE-1366-4DA9-B185-870273660EF8} = {F734DF5B-41B9-4243-80FC-E91953CCA641}
+		{EFB23697-3AD1-4C93-97DD-99B7B82F6D18} = {F734DF5B-41B9-4243-80FC-E91953CCA641}
+	EndGlobalSection
+EndGlobal

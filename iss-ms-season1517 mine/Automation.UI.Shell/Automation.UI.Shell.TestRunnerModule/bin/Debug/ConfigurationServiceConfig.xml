@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigService>
+  <TextBoxItem>Email From</TextBoxItem>
+  <TextBoxItem>Email To</TextBoxItem>
+  <TextBoxItem>Email CC</TextBoxItem>
+  <TextBoxItem>Test</TextBoxItem>
+</ConfigService>

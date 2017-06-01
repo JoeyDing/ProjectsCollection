@@ -1,0 +1,13 @@
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\Driver\IEDriverServer.exe
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\SBSAutomation.UI.Console.exe.config
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\SBSAutomation.UI.Console.exe
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\SBSAutomation.UI.Console.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\SBSAutomation.Core.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\SBSAutomation.Services.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\WebDriver.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\SBSAutomation.Core.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\SBSAutomation.Services.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\bin\Debug\WebDriver.xml
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\obj\Debug\SBSAutomation.UI.Console.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\obj\Debug\SBSAutomation.UI.Console.exe
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.UI.Console\obj\Debug\SBSAutomation.UI.Console.pdb

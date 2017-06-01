@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmailSettingReflection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TSoptions>SendIM</TSoptions>
+  <AccountName>QuHANQING</AccountName>
+  <EmailServer>aa</EmailServer>
+  <EmailFrom>ss</EmailFrom>
+  <EmailToList>
+    <string>cc</string>
+    <string>dd</string>
+  </EmailToList>
+  <EmailCcList>
+    <string>jj</string>
+    <string>kk</string>
+  </EmailCcList>
+  <IsSent>false</IsSent>
+</EmailSettingReflection>

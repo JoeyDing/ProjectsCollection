@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<key>Verbose</key>
+		<dict>
+			<key>Help</key>
+			<string>Enable verbose logging</string>
+			<key>LongFlag</key>
+			<string>verbose</string>
+			<key>Optional</key>
+			<true/>
+			<key>ShortFlag</key>
+			<string>v</string>
+		</dict>
+		<key>Version</key>
+		<dict>
+			<key>Help</key>
+			<string>Get the current version of %C</string>
+			<key>LongFlag</key>
+			<string>version</string>
+			<key>Optional</key>
+			<true/>
+			<key>ShortFlag</key>
+			<string></string>
+		</dict>
+
+		<key>Install</key>
+		<dict>
+			<key>Options</key>
+			<dict>
+				<key>Path</key>
+				<dict>
+					<key>Help</key>
+					<string>Path to an IPA</string>
+					<key>LongFlag</key>
+					<string>path</string>
+					<key>ShortFlag</key>
+					<string>p</string>
+				</dict>
+			</dict>
+			<key>Verb</key>
+			<string>install</string>
+		</dict>
+		<key>Launch</key>
+		<dict>
+			<key>Options</key>
+			<dict>
+				<key>Application</key>
+				<dict>
+					<key>Help</key>
+					<string>Application Name</string>
+					<key>LongFlag</key>
+					<string>application</string>
+					<key>ShortFlag</key>
+					<string>a</string>
+				</dict>
+			</dict>
+			<key>Verb</key>
+			<string>launch</string>
+		</dict>
+		<key>List</key>
+		<dict>
+			<key>Verb</key>
+			<string>list</string>
+		</dict>
+		<key>Uninstall</key>
+		<dict>
+			<key>Options</key>
+			<dict>
+				<key>BundleID</key>
+				<dict>
+					<key>Help</key>
+					<string>Application Bundle ID</string>
+					<key>LongFlag</key>
+					<string>bundleID</string>
+					<key>ShortFlag</key>
+					<string>b</string>
+				</dict>
+			</dict>
+			<key>Verb</key>
+			<string>uninstall</string>
+		</dict>
+
+		<key>Device</key>
+		<dict>
+			<key>Help</key>
+			<string>The device to target</string>
+			<key>LongFlag</key>
+			<string>device</string>
+			<key>Optional</key>
+			<true/>
+			<key>ShortFlag</key>
+			<string>d</string>
+		</dict>
+</dict>
+</plist>

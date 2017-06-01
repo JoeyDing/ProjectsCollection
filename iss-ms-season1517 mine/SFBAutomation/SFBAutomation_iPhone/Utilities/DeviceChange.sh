@@ -1,0 +1,3 @@
+#!/bin/sh
+
+osascript -e 'tell application "System Events" to set ProcessList to get name of every process' -e "delay 2" -e 'if ProcessList does not contain "Terminal" then' -e 'tell application "Terminal" to activate' -e 'end if' -e "delay 6" -e 'tell application "System Events"' -e'tell application process "Terminal"' -e 'set frontmost to true' -e 'keystroke "cd '$1'"' -e 'keystroke return' -e 'end tell' -e 'end tell' -e "delay 2"  -e 'tell application "System Events"' -e'tell application process "Terminal"' -e 'set frontmost to true' -e 'keystroke "./iOSLanguageChange.py '$2'"' -e 'keystroke return' -e 'end tell' -e 'end tell' -e "delay 2"

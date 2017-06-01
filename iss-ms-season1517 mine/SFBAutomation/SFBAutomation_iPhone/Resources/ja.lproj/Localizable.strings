@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "返信";
+"JOIN" = "承諾";
+"VIEW" = "表示";
+"IGNORE" = "無視";
+"LAUNCH" = "起動";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "があなたを会話に招待しています";
+"NEW_IM_BURNT_TOAST" = "不在着信した %@ との会話";
+"SIGN_IN" = "サインイン";
+"SIGN_OUT" = "アイドル時間が続いたためサインアウトしました。";
+"MWI" = "新規ボイスメール メッセージ: %@ 件";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "サインイン アドレス";
+"LOCID Password" = "パスワード";
+"LOCID User Name" = "ユーザー名";
+"LOCID Domain" = "ドメイン";
+"LOCID Auto-Detect Server" = "サーバーの自動検出";
+"LOCID Sign-in As" = "状態を指定してサインイン";
+"LOCID User Name Footer" = "Skype for Business Online ユーザー: username@domain.com\nその他すべてのユーザー: domain\\username";
+"LOCID Hide Details" = "詳細オプションの非表示";
+"LOCID More Details" = "詳細オプションの表示";
+"LOCID Save Password" = "パスワードを保存する";
+
+/* generic share button */
+"LOCID share" = "共有";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "内部検出アドレス";
+"LOCID External Server Address" = "外部検出アドレス";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "サインイン エラー情報を Microsoft に送信し、Skype for Business の品質向上に協力する。";
+"LOCID Sign In BRB Reason 2" = "今回および今後のサインイン エラーに関する情報を Microsoft に送信してもよろしいですか? [オプション] で、後からいつでもこの設定を変更できます。";
+"LOCID BRBDonotshow" = "今後このメッセージを表示しない";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "サインイン";
+"LOCID Sign Out" = "サインアウト";
+"LOCID Cancel Sign in" = "サインイン取り消し";
+"LOCID Lync Is Signing In" = "Skype for Business にサインインしています";
+"LOCID Lync Is Signing Out" = "Skype for Business からサインアウトしています";
+
+// Help
+"LOCID signin help" = "サインインのヘルプ";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "情報";
+"LOCID Contacts" = "連絡先";
+"LOCID Conversations" = "チャット";
+"LOCID Meetings" = "会議";
+"LOCID Phone" = "電話";
+"LOCID Signing In" = "サインイン中...";
+"LOCID Signed Out" = "サインアウト";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "本日の予定やメッセージを入力";
+"LOCID MY_INFO_MOOD_MESSAGE" = "個人メモ";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "個人メモを入力";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "ダブルタップして編集します";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "不明";
+"LOCID Available" = "連絡可能";
+"LOCID Busy" = "取り込み中";
+"LOCID Busy Inactive" = "取り込み中 (非アクティブ)";
+"LOCID Do Not Disturb" = "応答不可";
+"LOCID Be Right Back" = "一時退席中";
+"LOCID Presence unknown" = "状態確認不可";
+"LOCID Off Work" = "業務時間外";
+"LOCID Appear Away" = "退席中表示";
+"LOCID Away" = "退席中";
+"LOCID Inactive" = "非アクティブ";
+"LOCID Reset Status" = "状態のリセット";
+"LOCID Offline" = "オフライン";
+"LOCID Blocked" = "禁止";
+"LOCID Sign In As Header" = "表示する状態を選択:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "通話中";
+"LOCID In a Conference Call" = "電話会議中";
+"LOCID Presenting" = "発表中";
+"LOCID In a Meeting" = "会議中";
+"LOCID Out of Office" = "不在";
+"LOCID Urgent Interruptions Only" = "緊急の割り込みのみ";
+"LOCID Out To Lunch" = "昼休み";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype for Business で iPhone の連絡先を表示できません。この問題は iPhone の設定で解決できます。";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype for Business で iPad の連絡先を表示できません。この問題は iPad の設定で解決できます。";
+"LOCID Other Contacts" = "他の連絡先";
+"LOCID Pinned Contacts" = "お気に入り";
+"LOCID Retrieving Members" = "お待ちください...";
+"LOCID Cannot connect Try again" = "現在、グループ メンバーを取得できません。後でやり直してください。";
+"LOCID Group is too large to display" = "グループが大きすぎて表示できません。";
+"LOCID No members" = "メンバーなし";
+"LOCID Searching the company directory" = "会社のディレクトリを検索中...";
+"LOCID Please signin to search" = "会社のディレクトリを検索するにはサインインしてください。";
+"LOCID Too many results" = "結果が多すぎます。検索条件を設定し直してください。";
+"LOCID Unable to connect to the server" = "現在、サーバーに接続できません。後でやり直してください。";
+"LOCID E_SearchTooLong" = "一致するものが見つかりませんでした。検索キーワードを短くしてください。";
+"LOCID No Name" = "名前なし";
+"LOCID idle day" = "%d 日";
+"LOCID idle days" = "%d 日";
+"LOCID idle hour" = "%d 時間";
+"LOCID idle hours" = "%d 時間";
+"LOCID idle minutes" = "%d 分";
+"LOCID inactive idle day" = "%d 日間非アクティブ";
+"LOCID inactive idle days" = "%d 日間非アクティブ";
+"LOCID inactive idle hour" = "%d 時間非アクティブ";
+"LOCID inactive idle hours" = "%d 時間非アクティブ";
+"LOCID inactive idle minutes" = "%d 分間非アクティブ";
+"LOCID DG does not exist" = "配布グループが存在していません。";
+"LOCID Access to DG denied" = "配布グループへのアクセスが拒否されました。";
+"LOCID No Contacts Placeholder" = "ここに連絡先が表示されます";
+"LOCID No Contacts" = "連絡先なし";
+"LOCID You currently have no contacts" = "現在連絡先がありません";
+"LOCID Retrieving Contacts..." = "連絡先を取得中...";
+"LOCID Expanded" = "グループ %@、展開";
+"LOCID Collapsed" = "グループ %@、折りたたみ";
+"LOCID Group card- acc" = "グループ カード";
+"LOCID Open group card - acc" = "タップしてグループ カードを開く";
+
+/* Contact Card*/
+"LOCID Loading name" = "名前を読み込んでいます...";
+"LOCID Details" = "カード";
+"LOCID Work" = "勤務先";
+"LOCID Home" = "自宅";
+"LOCID Mobile" = "携帯電話";
+"LOCID Other" = "その他";
+"LOCID other lowercase" = "その他";
+"LOCID Office" = "オフィス";
+"LOCID Company" = "会社";
+"LOCID Department" = "部署";
+"LOCID Send Text Message" = "テキスト メッセージの送信";
+"LOCID IM" = "IM";
+"LOCID E-Mail" = "メール";
+"LOCID unknown lowercase" = "不明";
+"LOCID Location lowercase" = "場所";
+"LOCID Calendar" = "予定表";
+"LOCID Link" = "リンク";
+"LOCID Disabled" = "%@、無効"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "メモ";
+"LOCID Video" = "ビデオ";
+
+/* DG Card*/
+"LOCID Members" = "メンバー"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "招待";
+"LOCID Transfer" = "転送";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business によるリダイレクト先:";
+"LOCID certIssuedBy" = "発行元:";
+"LOCID certSubject" = "サブジェクト:";
+"LOCID certExpires" = "有効期限:";
+"LOCID certSignature" = "署名アルゴリズム:";
+"LOCID certDonotshow" = "今後このメッセージを表示しない。";
+"LOCID Continue" = "続行";
+"LOCID certNone" = "暗号化なし";
+"LOCID certRSA" = "RSA 暗号化";
+"LOCID certDSA" = "DSA 暗号化";
+"LOCID certDH" = "DH 暗号化";
+"LOCID certEC" = "EC 暗号化";
+"LOCID certHMAC" = "HMAC 暗号化";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "会話";
+"LOCID Chats - Phone Call" = "電話での通話";
+"LOCID Chats - Video Call" = "ビデオ通話";
+"LOCID Chats - Meeting" = "会議";
+"LOCID Chats - Missed Call" = "不在着信";
+"LOCID Chats - Missed Video Call" = "不在着信したビデオ通話";
+"LOCID Chats - Current Call" = "現在の通話";
+"LOCID Chats - Current Call With Duration" = "現在の通話、%@";
+"LOCID Phone Status - Connecting" = "接続中...";
+"LOCID Phone Status - On Hold" = "保留中";
+"LOCID Phone Status - Transferring" = "転送中";
+"LOCID Transferring to" = "%@ に転送中...";
+"LOCID Chats Full" = "注意: このリストがいっぱいです。新しい会話を追加すると、最も古い会話が削除されます。";
+"LOCID Close Conversation" = "会話の削除";
+"LOCID View Participants List" = "参加者リストの表示";
+"LOCID Call Contact" = "%@ に通話";
+"LOCID Video Call Contact" = "ビデオ通話";
+"LOCID Video Conference Contact" = "ビデオ電話会議";
+"LOCID Edit" = "編集";
+"LOCID Deselect All" = "すべて選択解除";
+"LOCID Select All" = "すべて選択";
+"LOCID Me" = "自分: %@";
+"LOCID Missed" = "不在着信したメッセージ: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "グループ会話";
+"LOCID Tap To Enter Text" = "タップして入力";
+"LOCID No Conversations" = "会話なし";
+"LOCID No Conversations Hint" = "現在進行中の会話はありません";
+"LOCID Delete Count" = "削除 (%d)";
+"LOCID Delete None" = "削除";
+"LOCID Escalating audio conference" = "電話会議を開始しています...";
+"LOCID Escalating video conference" = "ビデオ電話会議を開始しています...";
+"LOCID No Participants" = "参加者なし";
+"LOCID No Other Participants" = "他の参加者はいません";
+"LOCID One Participant" = "1 人の参加者";
+"LOCID Some Participants" = "%d 人の参加者";
+"LOCID Max Participants" = "参加者 %d+";
+"LOCID Large Meeting" = "大規模な会議";
+"LOCID Toast No Invite" = "があなたを会話に招待しています";
+"LOCID Participant Join" = "%@ が会議に参加しました";
+"LOCID Participant Leave" = "%@ が会議から退席しました";
+"LOCID Participant Join Failure" = "%@ は会議に参加できませんでした";
+"LOCID Large Conference" = "大規模な会議";
+"LOCID Large Conference Detail" = "大規模な会議では参加者リストは利用できません。";
+"LOCID No Participants Detail" = "この会話の参加者はいません";
+"LOCID cannotSend" = "メッセージを送信できませんでした:";
+"LOCID Missed Conversation" = "不在着信した会話";
+"LOCID Send as Email" = "電子メールで送信";
+"LOCID Email Subject" = "%2$@ との %1$@ 会話";
+"LOCID Anonymous" = "匿名";
+"LOCID Duration" = "時間:";
+"LOCID Switch Camera" = "カメラの切り替え";
+"LOCID Swap PIP" = "ピクチャーインピクチャーの切り替え";
+"LOCID Leave Video" = "ビデオの終了";
+"LOCID Start My Video" = "ビデオの開始";
+"LOCID Stop My Video" = "ビデオの停止";
+"LOCID End Video" = "ビデオの終了";
+"LOCID LargeMtgActiveSpeakerMissing" = "大規模な会議では発表者の情報は利用できません。";
+"LOCID Swap Preview" = "プレビューの切り替え";
+"LOCID Speaker On" = "スピーカー オン";
+"LOCID Speaker Off" = "スピーカー オフ";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "ビデオがオンになっています";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "ダブルタップしてビデオをオフにします。";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "ビデオがオフになっています";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "ダブルタップしてビデオをオンにします。";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "スピーカーフォンがオンになっています";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "ダブルタップしてスピーカー フォンをオフにします。";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "スピーカーフォンがオフになっています";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "ダブルタップしてスピーカー フォンをオンにします。";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "通話がミュートになっています";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "ダブルタップするとミュートを解除します。";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "通話のミュートが解除されています";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "ダブルタップするとミュートにします。";
+
+"LOCID Instant Messaging" = "インスタント メッセージ";
+"LOCID Voice" = "音声";
+"LOCID Collaboration" = "グループ作業";
+"LOCID Participants" = "参加者";
+"LOCID Full Screen" = "全画面表示";
+"LOCID Exit Full Screen" = "全画面表示の終了";
+"LOCID Local Participant Alone in Conference Msg" = "この会議に参加している人は他にいないようです。";
+"LOCID 1 or more participants" = "1 人以上の参加者";
+"LOCID Call Started" = "通話の開始 - %@";
+"LOCID Call Ended Missed" = "通話の終了 - %@ [不在着信]";
+"LOCID Call Ended Duration" = "通話の終了 - %@ [時間: %@]";
+"LOCID ConferenceEndedRejoin" = "会議から切断されました。下をタップしてもう一度参加してください。";
+"LOCID ConferenceEndedContinue" = "この会話を再開すると、会話に参加していたすべてのユーザーに新しい招待状が送られます。";
+"LOCID IM P2P Toast Voiceover" = "%@ さんから会話に招待されています。ダブルタップすると承諾します。";
+"LOCID IM Conf Toast Voiceover" = "%@ さんからグループ会話に招待されています。ダブルタップすると承諾します。";
+"LOCID Video is Locked on you" = "ビデオがあなたにロックされています。";
+
+"LOCID SFB Call Started" = "通話の開始";
+"LOCID SFB Call Ended" = "通話の終了";
+"LOCID SFB Call Ended Duration" = "通話の終了 %@";
+
+/* Roster*/
+"LOCID Presenters" = "発表者 (%d)";
+"LOCID Attendees" = "出席者 (%d)";
+"LOCID In Lobby" = "ロビー (%d)";
+"LOCID Guest" = "ゲスト";
+"LOCID Remove" = "削除";
+"LOCID E_RemoveFailed" = "参加者を削除できませんでした。";
+"LOCID E_AddFailed" = "参加者を追加できませんでした。";
+
+/*Lobby*/
+"LOCID Admit all" = "すべて参加許可";
+"LOCID Deny all" = "すべて拒否";
+"LOCID Admit" = "参加許可";
+"LOCID Deny" = "拒否";
+"LOCID See Lobby" = "ロビーの表示";
+"LOCID Conference In the Lobby" = "ロビーで待っている参加者がいます。";
+
+/*Presenter Controls*/
+"LOCID Promote" = "発表者にする";
+"LOCID Demote" = "出席者にする";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "携帯";
+"LOCID Voice and IM Unavailable" = "音声と IM は不可";
+"LOCID Voice Only" = "音声のみ";
+"LOCID Voice and Video Only" = "音声とビデオのみ";
+"LOCID IM Only" = "IM のみ";
+"LOCID No Voice" = "音声不可";
+"LOCID Video capable" = "ビデオ使用可能";
+"LOCID No IM" = "IM 不可";
+"LOCID Mobile Cap" = "携帯";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "キー パッド";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "発信";
+"LOCID Dialpad" = "ダイヤルパッド";
+"LOCID Dialpad STAR Key" = "*";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "#"; // Used for accessibility
+"LOCID Delete Key" = "削除";   // Used for accessibility
+"LOCID Emergency number" = "緊急電話番号"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "非表示";
+"LOCID Dialpad Search Recent Calls" = "最近の通話";
+"LOCID Dialpad Search Native Contacts" = "電話の連絡先";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "連絡先での問題";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "連絡先から電話番号にアクセス中に問題が発生しました。 問題を解決するために、[設定] のメールアカウントを再同期してみてください。";
+
+/* My Status Tab */
+"LOCID Options" = "設定";
+"LOCID Send Feedback" = "フィードバックの送信";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ から %2$@";
+"LOCID DateOfMeeting Format" = "%2$@ %1$@";
+"LOCID InfoCell DateTime Format" = "%2$@ %1$@";
+"LOCID DialPad List Format" = "%1$@、%2$@";
+"LOCID Calendar Event View From Date Format" = "%3$@ %2$@ %1$@ から"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "%2$@ %1$@ まで"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "%1$@ から %2$@ まで"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "会議がありません";
+"LOCID All" = "すべて";
+"LOCID No Meetings Scheduled" = "スケジュールされている会議はありません";
+"LOCID None" = "なし";
+"LOCID Organizer" = "開催者";
+"LOCID Invitees" = "招待者";
+"LOCID Notes" = "メモ";
+"LOCID Join" = "参加";
+"LOCID Updated DATE TIME" = "更新日時: %1$@ %2$@";
+"LOCID Online" = "オンライン";
+"LOCID Tentative" = "仮の予定";
+"LOCID Event" = "イベント";
+"LOCID Updating..." = "更新中...";
+"LOCID Tentative Voiceover" = "%@、仮の予定";
+"LOCID Pull to refresh" = "引き下げて更新";
+"LOCID Today" = "今日"; // CAPS
+"LOCID Tomorrow" = "明日"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "開催者を除き、参加するときはマイクがミュートされます。";
+"LOCID Lync Conferencing" = "Skype 会議";
+"LOCID Joining Step 1" = "接続中...";
+"LOCID Please wait to be admitted" = "参加が許可されるまでお待ちください";
+"LOCID Join Conf Error" = "会議への接続が失われました。";
+"LOCID Anonymous Join" = "匿名で参加";
+"LOCID Enter your name" = "名前を入力してください";
+"LOCID Anonymous Join Greeting" = "Skype for Business へようこそ";
+"LOCID Sign in with Lync" = "Skype for Business でサインイン";
+"LOCID Sign in as guest" = "ゲストとしてサインイン";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "会議に接続するには、ご使用の iPhone 番号が必要です。Skype for Business のオプションで iPhone 番号を追加してください。";
+"LOCID Join Conf Error - No Number iPad" = "会議に接続するには、ご使用の電話番号が必要です。Skype for Business のオプションで電話番号を追加してください。";
+"LOCID Join Meeting Line 1 Text" = "会議に参加中\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "あなたの電話を呼び出しています。電話番号: %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "こんにちは。ここは仮想ロビーです。開催者がまもなく参加を許可しますので、アプリから離れずにしばらくお待ちください。";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "開催者が不在か応答しなかったため、参加が許可されませんでした。";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "接続が失われました。[参加] をタップしてやり直してください。";
+"LOCID View" = "表示";
+"LOCID Join Meeting" = "会議に参加";
+"LOCID Join Meeting Line 2 - Generic MSG" = "会議への参加";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "満席のため会議に接続できません。主催者に問い合わせてみてください。";
+"LOCID AdmittedToLobby" = "参加が許可されました。現在あなたを呼び出しています...";
+"LOCID MtgDisclaimerAccept" = "承諾";
+"LOCID MtgDisclaimerDecline" = "無視";
+"LOCID E_MeetingNotFound" = "参加しようとしている会議は存在しません。";
+"LOCID E_MeetingsNotEnabled" = "この会議機能は開催者によって無効にされています。";
+"LOCID E_OutsideOrg" = "このユーザーまたは会議はあなたのネットワークへのアクセス許可を持っていません。";
+
+/* Options View */
+"LOCID voiceConfSection" = "通話と会議";
+"LOCID credentialsSection" = "資格情報";
+"LOCID contactsSection" = "連絡先";
+"LOCID accessibilitySection" = "アクセシビリティ";
+"LOCID otherSection" = "その他";
+"LOCID Show Recent Contacts" = "最近の連絡先";
+"LOCID Show Pinned Contacts" = "よくやり取りする連絡先";
+"LOCID Show Photos" = "写真";
+"LOCID Sort by availability" = "状態で並べ替え";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "ログ";
+"LOCID About" = "バージョン";
+"LOCID About Version" = "%@";
+"LOCID Status" = "状態";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP プロキシ";
+"LOCID Require WiFi" = "Wi-Fi が必要";
+"LOCID WiFi VoIP" = "音声";
+"LOCID WiFi Video" = "ビデオ";
+"LOCID WiFi Collab" = "会議コンテンツ";
+"LOCID WiFi Warning" = "オフの場合は、データ接続を通じて呼び出しを受けることができます (利用料金が発生したり、通信品質が低下したりする可能性があります)。";
+"LOCID WiFi Warning iPad" = "オフの場合は、データ接続を通じて呼び出しを受けたり、会議コンテンツを受け取ったりすることができます (利用料金が発生したり、通信品質が低下したりする可能性があります)。";
+"LOCID Not a SfB User" = "Skype for Business ユーザでない場合";
+
+
+/* About View */
+"LOCID About Title" = "バージョン情報";
+"LOCID version" = "バージョン: %@";
+"LOCID Long Product Name" = "Skype® for Business for %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "All Rights Reserved";
+"LOCID online help" = "ヘルプ";
+"LOCID Terms Of Use" = "使用条件";
+"LOCID Privacy title" = "プライバシー";
+"LOCID Third Party Notices" = "サード パーティについての通知";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nPatent Pending";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Skype の名称、これに関連する商標とロゴ、および「S」ロゴは、Skype またはその関連事業体の商標です。\n\n警告: 本プログラムは著作権法および国際条約で保護されています。 本プログラムまたはその一部を許可なく複製または配布すると、厳重な民事・刑事処罰の対象となり、適用法で認められる最大限の範囲で告訴される可能性があります。";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "通話転送";
+"LOCID Forward Section" = "番号の選択";
+"LOCID Apply Setting Section" = "設定の適用";
+"LOCID Summary Section" = "現在の設定:";
+"LOCID Do Not Forward" = "転送しない";
+"LOCID Forward Calls" = "着信を転送";
+"LOCID Forward Calls To" = "着信の転送先";
+"LOCID Simultaneously Ring" = "同時呼び出し";
+"LOCID On" = "オン";
+"LOCID Off" = "オフ";
+"LOCID During Working Hours" = "勤務時間中";
+"LOCID Voicemail" = "ボイスメール";
+"LOCID Team Call" = "チーム呼び出しのメンバー";
+"LOCID Delegates" = "代理人";
+"LOCID Pending Persons" = "追加したユーザー";
+"LOCID Delegate Target" = "代理人";
+"LOCID TeamCall Target" = "チーム呼び出しグループのメンバー";
+"LOCID Voicemail Target" = "ボイスメール";
+"LOCID DoNotForward Summary" = "着信は勤務先にかかり、転送されません。VoIP が使用できないときは、携帯電話では着信を受信しません。";
+"LOCID DoNotForward Summary iPad" = "着信は勤務先にかかり、転送されません。VoIP が使用できないときは、iPad では着信を受信しません。";
+"LOCID ForwardCalls Summary" = "着信は直接%@に転送されます。転送先が携帯電話の番号でない場合、携帯電話では着信を受信しません。";
+"LOCID ForwardCalls Summary iPad" = "着信は直接%@に転送され、iPad では着信を受信しません。";
+"LOCID Simulring Summary" = "着信は勤務先にかかり、%@も呼び出します。呼び出し先が携帯電話の番号の場合、VoIP が使用できないときは携帯電話で着信を受信します。";
+"LOCID Simulring Summary iPad" = "着信は勤務先にかかり、%@も呼び出します。VoIP が使用できないときは、iPad では着信を受信しません。";
+"LOCID View Settings" = "現在の設定を表示";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "設定の適用";
+"LOCID All the Time" = "常時";
+"LOCID During Outlook Working Hours" = "Outlook での勤務時間中";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "勤務先";
+"LOCID Home Capitalized" = "自宅";
+"LOCID Mobile Capitalized" = "携帯";
+"LOCID Custom Capitalized" = "ユーザー設定";
+"LOCID Other Capitalized" = "その他";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "キャンセル";
+"LOCID Add" = "追加";
+"LOCID New Number" = "新しい番号";
+"LOCID New Contact" = "新しい連絡先";
+"LOCID Contact" = "連絡先";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "サインイン ログのアップロード";
+"LOCID SignInBRB - Always" = "常時";
+"LOCID SignInBRB - Never" = "送信しない";
+"LOCID SignInBRB - Ask Me" = "確認する";
+"LOCID Send Log Files" = "ログ ファイルの送信";
+"LOCID Log Email Subject" = "Skype for Business ログ ファイル"; //product name
+"LOCID Device Model" = "デバイス モデル:";
+"LOCID Device OS Name" = "デバイス OS の名前:";
+"LOCID Device OS Version" = "デバイス OS のバージョン:";
+"LOCID Enable Logging" = "ログを有効にする";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "HTTP プロキシ";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "HTTP プロキシ設定を完了するには、%@ Wi-Fi 設定を使用してください。";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Skype for Business の資格情報を使用";
+"LOCID Exchange Credentials Info" = "Skype for Business で会議とボイスメールの情報をすべて表示するには、Exchange の資格情報が必要です。";
+"LOCID Email Address" = "電子メール アドレス";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "自分の携帯電話番号";
+"LOCID My Mobile Number Details" = "ご使用の iPhone の番号を国コードと地域コードから入力します:";
+"LOCID My Mobile Number Details iPad" = "ご使用の電話番号を国コードと地域コードから入力します:";
+"LOCID My Mobile Number Footer" = "これにより、勤務先の通話の発信と応答を行ったり、Skype for Business から会議に参加したりできます。\n(VoIP の利用時に VoIP 接続ができない状況では予備の手段になります。)";
+"LOCID My Mobile Number Footer - Conf Join" = "これにより、Skype for Business から会議に参加できます。\n(VoIP の利用時に VoIP 接続ができない状況では予備の手段になります。)";
+"LOCID iPhone Number" = "電話番号";
+
+/* Call Via Work */
+"LOCID Call via Work" = "[勤務先から通話]";
+"LOCID Missing iPhone Number Error" = "電話番号がありません";
+"LOCID Missing iPhone Number Error Text" = "この通話を行えません。[オプション] にご使用の iPhone の電話番号を入力して、通話を再試行してください。";
+"LOCID Missing iPad Number Error Text" = "この通話を行えません。[オプション] にご使用の電話番号を入力して、通話を再試行してください。";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "開始する前に";
+"LOCID Main text" = "Skype 会議に招待された場合は、どなたでも Skype for Business アプリをお使いいただけます。ただし、アプリの全機能をお楽しみいただくには、Skype for Business アカウントが必要です。";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "他のオプション";
+"LOCID Add Contact" = "連絡先の追加";
+"LOCID Add to Group" = "グループに追加";
+"LOCID Remove Contact" = "連絡先の削除";
+"LOCID Remove from Group" = "グループから削除";
+"LOCID Groups" = "グループ";
+"LOCID E_AddContactFailureGeneral" = "現在、この連絡先を追加できません。後でやり直してください。";
+"LOCID E_AddContactFull" = "このグループには、これ以上連絡先を追加できません。";
+"LOCID E_AddContactInGroup" = "この連絡先は、このグループに既に登録されています。";
+"LOCID E_RemoveContactFailureGeneral" = "現在、この連絡先を削除できません。後でやり直してください。";
+"LOCID Confirm Remove Contact" = "連絡先リストから %@ を削除します。";
+"LOCID Ignore" = "無視";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "詳細を表示";
+"LOCID CEIP More Info" = "匿名の使用データを Microsoft に送信して、Skype for Business の品質向上に協力する。";
+"LOCID ceipSectionTitle" = "カスタマー エクスペリエンス向上プログラム";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "ようこそ。";
+"LOCID Lets begin" = "設定を開始します...";
+
+/* First Run Experience */
+"LOCID Close" = "閉じる";
+"LOCID Change" = "はい";
+"LOCID Don't change" = "いいえ";
+"LOCID Next" = "次へ";
+"LOCID Done" = "完了";
+"LOCID First Run First Step" = "Lync は Skype for Business になりました。Skype のエクスペリエンスと Microsoft のエンタープライズ品質を結集しています。";
+"LOCID First Run Second Step" = "このアプリで誰でも Skype 会議に参加できますが、すべての機能をご利用いただくには Skype for Business アカウントが必要です。また、組織がこのアプリを有効にしている必要があります。";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "転送設定を変更しますか?";
+"LOCID First Run CF Current Settings" = "現在の設定:";
+"LOCID First Run CF Change Settings" = "新しい設定:";
+"LOCID First Run Change Summary" = "勤務先電話への着信を受けるための電話番号を入力しました。次に、電話に着信がかかるようにするために、現在の着信転送設定を変更する必要があります。";
+"LOCID First Run Change Request" = "勤務先電話への着信が勤務先と %@ に同時にかかるように、これを変更しますか?";
+"LOCID DoNotForward Summary - First Run" = "電話は会社にかかり、他の電話番号には転送されません。";
+"LOCID ForwardCalls Summary - First Run" = "着信は直接%@に転送されます。";
+"LOCID Simulring Summary - First Run" = "着信は会社にかかり、%@ も呼び出します";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "勤務先電話への着信を逃しません";
+"LOCID My Mobile Number Title 2" = "会議を逃しません";
+"LOCID My Mobile Number Details First Run" = "国コードと地域コードを含んだ iPhone 番号が必要です:";
+"LOCID My Mobile Number Details First Run_iPad" = "国コードと地域コードを含んだ電話番号が必要です:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "データ通信の使用の管理";
+"LOCID Setup Work Calls Sub Text" = "この設定では、通話と会議におけるデータ通信と費用を管理します。";
+
+"LOCID Require Wifi for VoIP calls" = "VoIP 通話に Wi-Fi を使う";
+"LOCID Require Wifi for VoIP calls off subtext" = "Wi-Fi が使えない場合、通話にはデータ接続が使用されます。";
+"LOCID Require Wifi for VoIP calls on subtext" = "通話は常に Wi-Fi を通じて行われます。データ接続は使用されません。";
+
+"LOCID Require Wifi for Video calls" = "ビデオ通話に Wi-Fi を使う";
+"LOCID Require Wifi for Video calls off subtext" = "Wi-Fi が使えない場合、ビデオ通話にはデータ接続が使用されます (データ使用量が膨大になる可能性があります)。";
+"LOCID Require Wifi for Video calls on subtext" = "ビデオ通話は常に Wi-Fi を通じて行われます。データ接続は使用されません。";
+
+"LOCID Require Wifi for meeting content" = "会議コンテンツの取得に Wi-Fi を使う";
+"LOCID Require Wifi for meeting content off subtext" = "Wi-Fi が使えない場合、会議コンテンツの取得にはデータ接続が使用されます (データ使用量が膨大になる可能性があります)。";
+"LOCID Require Wifi for meeting content on subtext" = "会議コンテンツの取得にはデータ接続ではなく、常に Wi-Fi を使用します。";
+
+"LOCID Skip" = "スキップ";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Skype for Business を使用開始";
+
+"LOCID First Run Successful Setup" = "設定が完了しました。";
+"LOCID First Run Successful Setup WiFi only_iPad" = "ようこそ!";
+"LOCID First Run Successful Setup Details" = "[設定] でいつでも変更できます。";
+
+"LOCID improve lync" = "Skype for Business の品質向上にご協力ください";
+"LOCID whyphonenumber" = "電話番号が必要となる理由";
+"LOCID more detail" = "詳細情報";
+
+"LOCID Emergency Call Disclaimer" = "注意事項:";
+"LOCID Emergency Call Disclaimer Details" = "すべての通話に通信事業者の通常料金が適用されます。\n\n重要: 緊急通話には Skype for Business アプリを使用しないでください。";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "重要";
+"LOCID Emergency Call Disclaimer Details iPad" = "緊急通話には Skype for Business アプリを使用しないでください。";
+
+// replacing Lync.
+"LOCID Push Notifications" = "プッシュ通知";
+"LOCID Push Notification Legal1" = "プッシュ通知の使用を承諾する前に、プッシュ通知すべてとその内容が、Apple のプッシュ通知サービスおよび Microsoft のプッシュ通知システムを介して送信されることにご留意ください。";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "%1$@ の通知設定でプッシュ通知設定を変更しましたが、すべての通知内容の配信を停止するには Skype for Business の再起動が必要です。";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "携帯電話を使用";
+"LOCID Call via Work Not Available Error" = "オフラインのため、Skype for Business から発信できません。携帯電話番号から発信してください。";
+"LOCID Call via Work Not Available Error iPad" = "オフラインのため、Skype for Business から発信できません。";
+"LOCID Answer incoming call" = "次の番号に接続するには";
+"LOCID to connect you to... display name" = "着信に応答してください\n%@";
+
+"LOCID Call via Work Connecting" = "接続中...\n 次に着信する通話に応答します。";
+"LOCID Call via Work Connected" = "%1$@ から参加しました";
+"LOCID Video Disclaimer" = "ビデオを表示または共有することはできません。";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "%1$@ から参加しました。";
+
+/* Errors */
+"LOCID Error" = "エラー";
+"LOCID E_GenericFailure" = "Skype for Business でエラーが発生しました。もう一度試しても問題が解決しない場合は、サポート チームにお問い合わせてください。";
+"LOCID E_GroupNotFound" = "グループが見つかりません。";
+"LOCID E_PermissionsForGroup" = "このグループを展開する権限がありません。";
+"LOCID E_ConnectionError" = "サーバーに接続できません。ネットワーク接続とサーバー アドレスを確認してからやり直してください。";
+"LOCID E_AutoDiscoveryConnectionFailure" = "サーバーに接続できません。1) サーバーが動作していない可能性があります。2) ネットワーク接続をご確認ください。3) 組織から提供された Skype for Business アカウントを使っていることをご確認ください。4) ユーザ名がサインイン名と異なる可能性があります。[詳細オプション] をタップし、ユーザ名または domain\\username を入力してください。";
+"LOCID E_AutoDiscoveryInBackground" = "サーバーの構成が変更されました。Skype for Business を再起動してください。";
+"LOCID E_SslError" = "サーバーの証明書を検証できません。サポート チームにお問い合わせください。";
+"LOCID E_SslCertExpiredError" = "サーバーの証明書を検証できません。サポート チームにお問い合わせください。";
+"LOCID E_ProxyAuthError" = "サインインできません。%@ の設定および Skype for Business オプションで、HTTP プロキシ設定を構成するか、3G を使用して接続してください。";
+"LOCID E_ConnectionTimeoutError" = "サーバーに接続できません。ビジー状態か一時的に利用できない可能性があります。やり直してください。";
+"LOCID E_GenericApplicationError" = "アプリケーションでエラーが発生しました。アプリケーションを再起動してください。";
+"LOCID E_AuthError" = "サインインできません。アカウント情報を確認して、やり直してください。";
+"LOCID E_InvalidCredentials" = "サインインできません。アカウント情報を確認して、やり直してください。";
+"LOCID E_InvalidSignInAddress" = "サインインできません。サインイン アドレスを検証して、やり直してください。";
+"LOCID E_InvalidLyncAccount" = "サインイン情報が無効です。組織から提供された Skype for Business アカウントでサインインする必要があります。";
+"LOCID E_WrongHomePool" = "サーバーに接続するように構成されていません。サポート チームに問い合わせてください。";
+"LOCID E_ImSendError" = "送信に失敗しました:";
+"LOCID GenericRetryError" = "サーバーに接続できません。再試行しています...";
+"LOCID GenericError" = "サーバー エラーが発生しました。やり直してください。";
+"LOCID RequestFailed" = "要求の処理に失敗しました。やり直してください。";
+"LOCID DecodingError" = "サーバー応答の処理に失敗しました。やり直してください。問題が解決しない場合は、サポート チームに問い合わせてください。";
+"LOCID VersionMismatch" = "このバージョンの Skype for Business ではサインインできません。新しいバージョンをインストールしてください。それでもサインインできない場合は、サポート チームにお問い合わせください。";
+"LOCID SignInCredentialsAreNeeded" = "サインアウトされました。サインインし直すには、アカウント情報の入力が必要です。";
+"LOCID NeedLyncPassword" = "サインインするにはパスワードを入力してください。";
+"LOCID E_ServiceBusyOrUnAvailable" = "現在、サーバーに接続できません。やり直してください。";
+"LOCID E_HttpRequestTimeout" = "サーバーが一時的に利用できないため、サインインできません。";
+"LOCID E_CannotConnectToServer" = "サーバーに接続できません。接続を再確立しています。問題が解決しない場合は、サポート チームにお問い合わせください。";
+"LOCID E_InvalidServerUrl" = "サーバー名が正しくありません。確認して、やり直してください。";
+"LOCID E_NoValidIp" = "ネットワークに接続できません。接続設定を確認してください。";
+"LOCID E_MetaDataNotFound" = "サーバーに接続できません。サーバー アドレスを確認するか、後でやり直してください。";
+"LOCID E_TimeSkewError" = "デバイスの時計をサーバーと同期できません。時刻の設定を変更するか、サポート チームにお問い合わせください。";
+"LOCID E_MobilityDisabled" = "Skype for Business を使用するように設定されていないため、サインインできません。サポート チームにお問い合わせください。";
+"LOCID E_TooManyApplications" = "サインインできません。サインインしているデバイスの数が多すぎます。";
+"LOCID E_UI_OutsideVoiceDisabled" = "[勤務先から通話] がオフになっています。このユーザに Skype for Business 通話をするには、オプションでご使用の電話番号を入力してください。";
+"LOCID E_UI_OfflineLyncCall" = "このユーザに Skype for Business 通話をするには、オンラインになっているか、モバイル データ接続が必要です。";
+"LOCID E_EwsError" = "Exchange に接続できません。後でやり直してください。";
+"LOCID E_EwsBadCredentials" = "Exchange ログイン資格情報が無効です。Exchange または Skype for Business の資格情報を更新してください。";
+"LOCID W_Retrying" = "サーバーに接続できません。再試行しています...";
+"LOCID E_UI_CallViaCellError" = "番号を確認して、やり直してください。";
+"LOCID E_LiveIdPasswordExpired" = "パスワードの有効期限が切れています。更新してから、やり直してください。";
+"LOCID E_LiveIdInvalidCredentails" = "サインインできません。アカウント情報を確認して、やり直してください。";
+"LOCID E_LiveIdPasswordChangeRequired" = "パスワードを変更する必要があります。更新してから、やり直してください。";
+"LOCID E_LiveIdPasswordLockedOut" = "パスワードを変更する必要があります。更新してから、やり直してください。";
+"LOCID E_LiveIdConnectionFailed" = "現在、サーバーに接続できません。やり直してください。";
+"LOCID E_LiveIdServiceUnavailable" = "現在、サーバーに接続できません。やり直してください。";
+"LOCID E_LiveIdGenericError" = "サインインできません。やり直してください。";
+"LOCID E_InvalidLiveIDUserNameError" = "サインインできません。ユーザー名の形式が someone@example.com であり、パスワードが有効であることを確認してください。";
+"LOCID E_InvalidSmtpAddress" = "Exchange に接続できません。アカウント情報を確認して、やり直してください。";
+"LOCID E_LogoffUnsuccessful" = "サーバーの接続が失われたため、Skype for Business に接続できません。";
+"LOCID E_ClientVersionMismatch" = "組織がこのバージョンの Skype for Business をサポートしていないため、サインインできません。モバイル ストアから Lync 2010 をインストールしてください。";
+"LOCID E_ClientServerSchemaMisMatch" = "このバージョンの Skype for Business ではサインインできません。新しいバージョンをインストールしてください。それでもサインインできない場合は、サポート チームにお問い合わせください。";
+"LOCID E_ClientVersionCheck" = "このバージョンの Skype for Business ではサインインできません。新しいバージョンをインストールしてください。それでもサインインできない場合は、サポート チームにお問い合わせください。";
+"LOCID E_VersionMismatch" = "このバージョンの Skype for Business ではサインインできません。新しいバージョンをインストールしてください。それでもサインインできない場合は、サポート チームにお問い合わせください。";
+"LOCID E_AutoDConfigurationError" = "サインインできません。サポート チームにお問い合わせください。";
+"LOCID E_AutoDPasswordExpiredError" = "パスワードの有効期限が切れています。パスワードを更新して、やり直してください。";
+"LOCID E_InvalidProxySettingsError" = "サインインできません。プロキシ設定が無効です。プロキシ設定を確認して、やり直してください。";
+"LOCID E_ApplicationExpiredDueToInactivity" = "一定時間操作が行われなかったため、サインアウトされました。";
+"LOCID E_GeneralGoneError" = "サインインできません。サポート チームにお問い合わせください。";
+"LOCID E_InternalServerError" = "サインインできません。サポート チームにお問い合わせください。";
+"LOCID E_TooManyApps" = "サインインできません。サインインしているデバイスの数が多すぎます。";
+"LOCID E_ResponseUnkown" = "サーバーに接続できません。Wi-Fi を使っている場合は、ブラウザーを開いて、Wi-Fi 接続が可能であることを確認してください。それ以外の場合は、ホットスポット接続またはテザリング接続を無効にしてください。問題が解決しない場合は、ネットワーク プロバイダーにお問い合わせください。";
+"LOCID E_CannotLoadADFSPage" = "サインインできませんでした。もう一度やり直してください。問題が解決しない場合は、サポート チームに問い合わせてください。";
+"LOCID E_UserNotSipEnabled" = "サーバーに接続するように構成されていません。サポート チームにお問い合わせください。";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "現在 VoIP 通話を発信することができません。携帯電話番号から発信してください。";
+"LOCID E_VoicePSTNCallActive" = "現在 VoIP 通話を発信することができません。勤務先の電話番号から発信してください。";
+"LOCID E_VoicePSTNCallActive - Button" = "勤務先から通話";
+"LOCID E_VideoOverWiFiBlocked" = "これはビデオ通話の招待でしたが、Wi-Fi 接続が使用できないので、オーディオのみを接続しました。";
+"LOCID E_HistoryNotDisplayed" = "この会話の履歴を表示できません。";
+"LOCID E_IMAcceptedElsewhere" = "この会話を他の場所で承諾しました。会話を再開するには、新しいメッセージを送信してください。";
+"LOCID E_MuteFailed" = "エラーが発生したため、あなたが現在ミュートにしていることが他のユーザーに通知されません。";
+"LOCID E_UnmuteFailed" = "エラーが発生したため、引き続きミュートになっています。ミュート解除をもう一度実行してください。";
+"LOCID E_DgExpansionGenericFailure" = "招待するグループ メンバーを取得できません。後でやり直してください。";
+"LOCID E_DgExpansionTooManyMembersFailure" = "グループが大きすぎて招待できません。";
+"LOCID E_DgExpansionNoMembersFailure" = "グループにメンバーが含まれていないため、招待できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ は利用できないか、オフラインになっている可能性があります。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ は応答不可に設定されています。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ は現在使用されていません。番号を確認してください。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ は他の人と通話中です。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ は応答しませんでした。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ はこの通話に応答できません。";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "オフラインの場合はこの通話を行えません。Skype for Business にサインインして、発信してください。";
+
+"LOCID E_VoiceOperationUnsuccessful" = "操作は失敗しました。";
+"LOCID E_VoiceGenericError" = "通話できなかったか、通話が終了しました。";
+"LOCID E_VoiceFeatureNotEnabled" = "通話機能は無効になっています。";
+"LOCID E_VoiceCheckNumber" = "番号を確認して、やり直してください。";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "通話を完了できませんでした。後でやり直してください。";
+"LOCID E_VoiceCallUnsuccessful" = "通話を接続できません。";
+"LOCID E_VoiceCallTypeNotSupported" = "通話が失敗しました。この種類の通話はサポートされていません。";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "サーバーがタイムアウトしたため、このメッセージは %@ に送信されていない可能性があります:";
+
+"LOCID E_SharingAnotherOperation" = "現在、別の処理を行っています。しばらくしてからやり直してください。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "サーバーの問題により、%@ はこのメッセージを取得できませんでした:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ はオフラインで、このメッセージを取得できませんでした:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ は「応答不可」の状態になっており、このメッセージを取得しませんでした:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "%@ が見つからなかったため、このメッセージを送信できませんでした。";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "このメッセージは内容がブロックされているため送信できません:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "%@ に接続できなかったため、このメッセージを送信できませんでした:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "通話を完了できませんでした。";
+
+"LOCID E_ConfLocked" = "会議がロックされているため、参加できませんでした。開催者にお問い合わせください。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "%@ との間で暗号化が一致していません。サポート チームにお問い合わせください。";
+
+"LOCID E_ConferencingServerError" = "サーバー エラーが発生しました。サポート チームに連絡してください。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ に接続できません。オフラインの可能性があります。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ は「応答不可」の状態になっており、接続できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ は招待に応答しませんでした。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "%@ に接続できませんでした。";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Skype 会議に参加するよう設定されていません。";
+
+"LOCID E_ConferenceJoinWhileOffline" = "アプリケーションにサインインしていないときは、電話会議に参加できません。";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ が会議に参加できませんでした。";
+"LOCID E_ConferencingEnded" = "参加しようとしている会議は使用できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "%@ に接続できません。後でやり直してください。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "%@ が見つかりません。アドレスを確認してください。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "%@ に接続できませんでした。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ は招待を辞退しました。";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "発表者は会議を終了しました。";
+"LOCID E_ConferencingCallDisconnected" = "通話は切断されました。";
+"LOCID ConferenceUnexpectedDisconnect" = "電話会議から切断されました。";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "通話できなかったか、通話が終了しました。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "ネットワークがビジー状態のため、%@ を会議に追加できません。";
+
+"LOCID E_ConferencingCannotConnect" = "通話できなかったか、通話が終了しました。";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "この種類のオンライン ミーティングには参加できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "会議は満席のため、%@ を招待できません。";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "この会議には、匿名では参加できません。";
+"LOCID E_ConferencingCannotJoinInvitationError" = "招待のエラーのため、会議に参加できません。";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "会議に参加するためのアクセス許可がありません。";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "会議に参加できませんでした。やり直してください。";
+"LOCID E_ConferencingCannotJoinFromOutside" = "組織外からはこの会議に参加できません。";
+"LOCID E_ConferencingCannotJoinMeetingType" = "この種類のオンライン ミーティングには参加できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "%@ に接続できません。";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "別の会議が開始されているため、会議を開始できません。";
+"LOCID E_ConferencingEncryptionIssues" = "暗号化の問題のため、Skype 会議を開始できません。";
+"LOCID E_ConferencingUnauthenticatedUsers" = "別のデバイスから参加または別のデバイスにダイヤルアウトするための十分なアクセス許可がありません。";
+"LOCID E_ConferencingMediaSessionTerminated" = "通話できなかったか、通話が終了しました。";
+"LOCID E_ConferencingFull" = "会議は満席です。";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "この会議に参加するためのアクセス許可がありません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "%@ への招待は期限が切れました。";
+
+"LOCID E_ConferencingEndedHostsLeft" = "ホストが退席したため、会議は終了しました。";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "ネットワークがビジー状態にあるため、会議に参加できません。";
+"LOCID E_ConferencingSubjectLineTooLong" = "件名が長すぎます。";
+"LOCID E_ConferencingFeatureNotEnabled" = "この会議機能は組織によって無効にされています。";
+"LOCID E_ConferencingEndedDueToInactivity" = "一定時間操作されていないため、この会議は終了しました。";
+"LOCID E_ConferencingCannotBeFound" = "このオンライン ミーティングが見つかりません。";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "この会議に参加するためのアクセス許可がありません。";
+"LOCID E_ConferencingUserNotAdmitted" = "会議への参加が許可されませんでした。";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "会議から削除されました。";
+"LOCID E_ConfGenericError" = "会議に参加できませんでした。やり直してください。";
+"LOCID E_ConferenceDenied" = "発表者により参加を拒否されました。";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "既に会議に参加しています。現在の会議から退席して、この会議に参加しますか?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "サーバーは、このデバイスを使用した匿名での会議への参加をサポートしていません。";
+"LOCID ConferenceVideoLock" = "発表者がビデオ スポットライトを他のユーザーにロックしました。";
+"LOCID ConferenceVideoUnlock" = "発表者がビデオ スポットライトのロックを解除しました。";
+"LOCID ConferenceVideoSelfLock" = "全員があなたのビデオにロックされています。";
+"LOCID ConferenceVideoSelfUnlock" = "あなたのビデオにロックされているユーザーはいません。";
+
+"LOCID E_DomainNotTrusted" = "サーバーに接続できません。リダイレクトのプロンプトを承諾してください。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "この形式は許可されないため、%@ はこのメッセージを取得できませんでした:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "デバイス %@ は使用中のため、メッセージを受信できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "メッセージが大きすぎるため、%@ はこのメッセージを取得できませんでした:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "ポリシーにより配信が制限されているため、%@ はこのメッセージを取得できませんでした:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "IM を送信できません。%@ との会話に既に参加しています。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "このメッセージは内容がブロックされているため送信できません:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "%@ に IM を送信する権限がありません。これを送信できませんでした:";
+
+"LOCID E_IMConfGenericError" = "1 人以上の参加者がこのメッセージを取得しませんでした:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ は利用できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "%@ がサインアウトしたため、通話は終了しました。";
+
+"LOCID E_VoiceCallTimeout" = "ネットワークの問題のため通話を行えませんでした。やり直してください。";
+"LOCID E_VoiceCallDisconnected" = "申し訳ございません。通話は切断されました。やり直してください。";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "通話できなかったか、通話が終了しました。";
+"LOCID E_VoiceCallNotCompleted" = "%@ は通話を受けられません。代わりにインスタント メッセージか電子メールを使用してください。";
+"LOCID E_VoiceServerError" = "サーバー エラーが発生したため、通話を接続できません。やり直してください。";
+"LOCID E_VoiceCannotConnect" = "オンライン ミーティングに接続できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "%@ に接続できません。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "%@ が見つかりません。";
+
+"LOCID E_VoiceEncryptionIssues" = "暗号化の問題のため、Skype for Business 会議を開始できません。";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "通話の相手が IM で応答しました。";
+"LOCID E_VoiceCannotCompleteCall" = "ダイヤルしたとおりに呼び出しを完了できません。";
+"LOCID E_VoiceNoAvailableMediaPorts" = "サーバーの問題のために、呼び出しを完了できません。";
+"LOCID E_VoiceServerCannotForwardCall" = "サーバーが着信を転送できません。やり直してください。";
+"LOCID E_VoiceServerDidNotRespond" = "サーバーは応答していません。後でやり直してください。";
+"LOCID E_VoiceCannotPlaceCall" = "通話できません。番号を確認して、やり直してください。";
+"LOCID E_VoiceNumberNotSupported" = "この番号への通話が組織でサポートされていません。";
+"LOCID E_IncomingPSTNCall" = "通話を完了できませんでした。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "通話はポリシーによって制限されているため、%@ への通話を行うことはできません。";
+
+"LOCID E_CallFailed" = "接続の問題のため、通話が終了しました。やり直してください。";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "別のクライアントから参加したため、切断されました。";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "会議から削除されました。";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "ネットワークがビジー状態であるため、通話を完了できませんでした。";
+"LOCID E_VoiceNotSupported" = "%@ は音声通話に応答できません。";
+"LOCID E_RepliedWIthOtherModality" = "受信者は、インスタント メッセージで応答することを選択しました。";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "現在、会話履歴を更新できません。そのため同期されない可能性があります。";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "現在、会話履歴を更新できません。そのため同期されない可能性があります。";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "この連絡先に着信を転送できません。Skype for Business の連絡先を選択して着信を転送するか、[新しい番号] を選択して電話番号を入力してください。";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY がオンになっています";
+"LOCID RemoteHoldSucceeded" = "リモート ユーザーによって保留されました。";
+"LOCID RemoteUnholdSucceeded" = "リモートの保留解除に成功しました";
+"LOCID LocalHoldSucceeded" = "ローカルの保留に成功しました";
+"LOCID LocalUnholdSucceeded" = "ローカルの保留解除に成功しました";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "通話の再開";
+"LOCID is recording" = "%@ がレコーディングしています";
+"LOCID Multiple Recording" = "他の人がレコーディングを実行しています";
+"LOCID OnHoldOutOfApp" = "%@ 通話は保留されています。";
+"LOCID OnStopOutOfApp" = "%@ 通話が終了されました。";
+"LOCID RecordingAlert" = "%@ がこの通話をレコーディングしています。";
+"LOCID CoversationP2PIsRecording" = "%@ がこの通話をレコーディングしています。";
+"LOCID CoversationP2PIsRecordingNoName" = "この通話をレコーディングしています。";
+"LOCID CoversationConferenceIsRecording" = "他の人がこの会議をレコーディングしています。";
+
+"LOCID ConversationsExceedArchiveLimit" = "このリストがいっぱいです。新しい会話を追加すると、最も古い会話が削除されます。";
+
+// Mute Alerts
+"LOCID Audience Lock" = "発表者は参加者をミュートにしました。";
+"LOCID Audience Unlock" = "発表者は参加者のミュートを解除しました。";
+"LOCID Conference Mute" = "発表者によりミュートにされました。";
+"LOCID Conference Unmute" = "発表者がミュートを解除するよう求めています。";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "出席者のビデオ送信は発表者によって禁止されています。";
+"LOCID PresenterBlockedVideo - Presenter" = "出席者のビデオ送信は発表者によって禁止されています。発表者を務める場合は、自分のカメラをオンにしてビデオを共有できます。";
+"LOCID PresenterBlockedVideo - Unblock" = "出席者のビデオ送信禁止が発表者によって解除されました。";
+"LOCID VideoLockOnYou" = "全員があなたのビデオにロックされています。";
+"LOCID VideoLock" = "発表者がビデオ スポットライトを他のユーザーにロックしました。";
+"LOCID VideoNotLockOnYou" = "あなたのビデオにロックされているユーザーはいません。";
+"LOCID VideoSpotlightUnlocked" = "発表者がビデオ スポットライトのロックを解除しました。";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "戻る";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "[勤務先から通話] は利用できません。";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "ボイスメールなし";
+"LOCID You currently have no voicemail messages" = "ボイスメールはありません。";
+"LOCID Audio" = "オーディオ";
+"LOCID Speaker" = "スピーカー";
+"LOCID Can not play locally" = "このメッセージを再生できません。[再生] をタップして、電話で聞いてください。";
+"LOCID Play Voice Mail" = "ボイスメールの再生";
+"LOCID PLAY_VOICEMAIL_HINT" = "ボイス メールを再生します";
+"LOCID Pause Voice Mail" = "ボイスメールの一時停止";
+"LOCID PAUSE_VOICEMAIL_HINT" = "ボイス メールを一時停止します";
+"LOCID Play On Phone Error - No Number" = "かけ直してもらうには、[オプション] でご使用の電話番号を入力する必要があります。";
+"LOCID Call Back" = "かけ直す";
+"LOCID Delete" = "削除";
+"LOCID More voicemails iPad" = "古いボイスメール メッセージを聞くには、ボイスメールのアイコンをタップします。";
+"LOCID More voicemails" = "古いボイスメールを聞くには、キーパッドの 1 をタップしてホールドするか、Outlook を開きます。";
+"LOCID More voicemails No keypad" = "Outlook を開いて古いボイスメールを聞きます。";
+"LOCID Can not play IRMed" = "このメッセージの権限は管理されています。電話で聞くには、[再生] をタップしてください。";
+"LOCID Lync Call" = "Skype for Business 通話";
+"LOCID Can't play on phone" = "このメッセージを再生できません。ネットワーク接続を確認して、後でやり直してください。";
+"LOCID Yes" = "はい";
+"LOCID No" = "いいえ";
+"LOCID VMCallerID" = "ボイスメール";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "ボイスメールを標準の速度で再生する";
+"LOCID VM Playback -2X Acc" = "ボイスメールを 1/2 倍速で再生する";
+"LOCID VM Playback 2X Acc" = "ボイスメールを 2 倍速で再生する";
+"LOCID Voicemail From" = "%@ からのボイスメール";
+"LOCID No Voicemails Placeholder" = "ここにボイスメールが表示されます";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "閉じる";
+"LOCID Accept" = "承諾";
+"LOCID Not yet implemented feature" = "この機能はまだ実装されていません。今後のリリースでご確認ください。";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "1 件の新しいボイスメールがあります";
+"LOCID Missed VMs" = "%d 件の新しいボイスメールがあります";
+"LOCID Missed Collab Out of App" = "%@ からの不在時グループ作業セッション";
+"LOCID Missed Video Call Out of App" = "%@ からの不在時ビデオ通話呼び出し";
+"LOCID Missed Audio Call Out of App" = "%@ からの不在着信";
+"LOCID Missed Message Out of App" = "%@ からの不在時インスタント メッセージ";
+"LOCID Missed Audio Conf Out of App" = "%@ からの不在時電話会議呼び出し";
+
+"LOCID Audio Call Out of App" = "%@ からの着信";
+"LOCID Conference Call Out of App" = "%@ からの電話会議呼び出し";
+"LOCID Dismiss Call" = "無視";
+"LOCID Answer Call" = "承諾";
+"LOCID Answer Call with Video" = "ビデオ";
+"LOCID Audio Call" = "着信";
+"LOCID Conference Call" = "電話会議";
+"LOCID Unknown Caller" = "不明な発信者";
+
+"LOCID Video conf accessibility" = "%@ からのビデオ電話会議";
+"LOCID Video accessibility" = "%@ からのビデオ通話";
+"LOCID Audio conf accessibility" = "%@ からの電話会議呼び出し";
+"LOCID Audio accessibility" = "%@ からの着信";
+
+"LOCID Video Call Out of App" = "%@ からのビデオ通話";
+"LOCID Video Conference Call Out of App" = "%@ からのビデオ電話会議";
+"LOCID Video Call" = "ビデオ通話";
+"LOCID Video Conference Call" = "ビデオ電話会議";
+"LOCID Video Escalation Name" = "%@ がビデオを共有しています";
+"LOCID Video Escalation" = "がビデオを共有しています";
+"LOCID Video Escalation Conf" = "他のユーザーがビデオを共有しています";
+"LOCID VideoInvitationRejected" = "通話のビデオ部分が承諾されませんでした。通話は音声のみで続行されます。";
+"LOCID E_VideoDecline" = "%@ がビデオを承諾しませんでした。";
+"LOCID E_VideoGeneric" = "ビデオを開始できませんでした。やり直してください。";
+"LOCID E_VideoNotStarted" = "ビデオを開始できませんでした。";
+"LOCID E_VideoNotSupported" = "%@ はビデオ通話に応答できません。";
+"LOCID E_VideoNotAccepted" = "通話のビデオ部分が %@ に承諾されませんでした。通話は音声のみで続行されます。";
+
+"LOCID E_VoiceTransferGenericError" = "通話を転送できませんでした。";
+"LOCID E_VoiceTransferParticipantError" = "受信者に接続できなかったため、通話を転送できませんでした。";
+
+/* Conversation voice localizations */
+"LOCID mute" = "ミュート";
+"LOCID Mute Capitalized" = "ミュート";
+"LOCID Unmute" = "ミュート解除";
+"LOCID keypad" = "キーパッド";
+"LOCID add call" = "通話の追加";
+"LOCID hold" = "保留";
+"LOCID End" = "終了";
+"LOCID Hide Keypad" = "キーパッドを非表示にする";
+"LOCID Call Lync" = "Skype for Business 通話";
+"LOCID Call Work" = "勤務先: %@";
+"LOCID Call Mobile" = "携帯電話: %@";
+"LOCID Call Home" = "自宅: %@";
+"LOCID Call Other" = "その他: %@";
+"LOCID Decline" = "却下";
+"LOCID Video Menu" = "ビデオ メニュー";
+"LOCID Hold Call" = "通話の保留";
+"LOCID Hang Up" = "通話の切断";
+"LOCID Dial Pad Only" = "ダイヤル パッド";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u 人の参加者 - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u 人の参加者 - %@";
+"LOCID Call Status Connecting" = "接続中...";
+"LOCID Call Status Connecting Remote" = "接続中...";
+"LOCID Call Status Connected" = "接続済み";
+"LOCID Call Status On Hold - Passive" = "保留";
+"LOCID Call Status On Hold" = "保留中";
+"LOCID Call Status Ended" = "通話終了";
+"LOCID Call Status Transfering" = "転送中";
+"LOCID On behalf of" = "%@ の代理";
+"LOCID Call for" = "%@ の呼び出し";
+"LOCID Call for - Astana" = "%@ の呼び出し";
+"LOCID Transferred by" = "%@ による転送";
+"LOCID Forwarded by" = "%@ による転送";
+"LOCID Private call" = "プライベート通話";
+"LOCID Also ringing" = "%@ も呼び出しています";
+"LOCID Also ringing delegates" = "代理人も呼び出しています";
+"LOCID Will ring" = "%@ を呼び出します";
+"LOCID Also ringing team call" = "チームも呼び出しています";
+"LOCID The recipient" = "受信者";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "初期化中 ...";
+"LOCID DataCollab Connecting" = "接続中 ...";
+"LOCID DataCollab Loading" = "読み込み中...";
+"LOCID DataCollab No Content" = "発表者がコンテンツの共有を停止しました。";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "サーバーの接続に障害が発生したため、データ共有機能は利用できません。";
+"LOCID DisconnectedOnConnectivityIssue" = "サーバーの接続に問題が発生したため、利用できない発表機能があります。";
+"LOCID DisconnectedOnConnectedElsewhere" = "別のクライアントから参加したため、切断されました。";
+"LOCID DisconnectedOnNetworkFailure" = "ネットワークの問題により、発表を表示できません。";
+"LOCID DataCollab Known UnSupported" = "このバージョンの Skype for Business がサポートしていない機能を発表者が使用しています。";
+"LOCID DataCollab Generic UnSupported" = "このバージョンの Skype for Business がサポートしていない機能を発表者が使用しています。発表者が以前のバージョンのサーバーに接続している可能性もあります。";
+"LOCID DataCollab ContentPresenter" = "発表者: %@";
+"LOCID DataCollab NoPresenter" = "発表者がいません";
+"LOCID Collab Unsupported PPTContent" = "申し訳ございません。このプレゼンテーションでメディアを再生できません。";
+"LOCID Retry" = "再試行";
+"LOCID DataCollab Generic PPT Error" = "サーバーの接続に問題が発生したため、利用できない発表機能があります。";
+"LOCID Start Viewing" = "表示の開始";
+"LOCID Stop Viewing" = "表示の停止";
+"LOCID Collab Escalation" = "%@ が発表の開始を希望しています";
+"LOCID PowerPoint content Accessibility" = "PowerPoint コンテンツ";
+
+"LOCID SyncPresenterButton" = "発表者のビューと同期";
+"LOCID NavigateBackButton" = "前のスライド";
+"LOCID NavigateForwardButton" = "次のスライド";
+"LOCID SlideNumber" = "%1$d / %2$d";
+"LOCID SlideNumber Accessibility" = "スライド %1$d / %2$d";
+
+"LOCID E_SharingDisabled" = "発表は無効になっています。";
+"LOCID E_SharingNetworkIssues" = "ネットワークの問題により、発表できません。後でやり直してください。";
+"LOCID E_SharingNotSupported" = "この連絡先では発表がサポートされていません。";
+"LOCID E_SharingTimeout" = "サーバーがビジー状態のため、発表が開始されませんでした。後でやり直してください。";
+"LOCID SharingAnotherType" = "別の発表が開始されたため、この発表は終了しました。";
+"LOCID E_GetMediaSdpFailed" = "現在、デスクトップまたはプログラムのプレゼンテーションに接続できません。";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Wi-Fi に接続されていないため、発表されたコンテンツを表示できません。";
+"LOCID 3G user requiring Wi-Fi" = "Wi-Fi に接続されていないため、Skype for Business 通話を行えません。";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "このプレゼンテーションは、このデバイスで表示するにはサイズが大きすぎます。";
+"LOCID E_CollabDisconnectedNetworkError" = "ネットワークの問題によりプレゼンテーションから切断されました。";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "別のクライアントから参加したため、切断されました。";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "共有コンテンツを読み込んでいます。";
+"LOCID AppSharing Shared Content" = "コンテンツを共有しました。";
+"LOCID AppSharing Desktop" = "デスクトップ";
+"LOCID AppSharing Application" = "アプリケーション";
+"LOCID AppSharing SharingPaused" = "現在、共有は一時停止中です。"; // Not used
+"LOCID AppSharing SharingIdle" = "現在、共有はアイドル状態です。"; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "すべてのリソースが最小化されています。"; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ さんが画面のプレゼンテーションを開始しようとしましたが、これは、このバージョンのアプリでは電話会議と Skype 会議でのみ使用できる機能です。";
+
+/* IM Modality Page */
+"LOCID Start IM" = "IM の開始";
+"LOCID send IM" = "送信";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "会話の終了";
+"LOCID View Contact Card" = "連絡先カードの表示";
+"LOCID Invite Others" = "他の人を招待";
+"LOCID Send Location action" = "場所の送信";
+"LOCID Send as Email action" = "電子メールで送信";
+"LOCID View Participants" = "参加者の表示";
+"LOCID Rejoin" = "もう一度参加する";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "ダブルタップで展開します";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "低い通話品質";
+"LOCID ACI Call Muted" = "ミュート中です。ダブルタップしてミュートを解除します";
+"LOCID ACI Call Unmuted" = "ミュート解除中です。ダブルタップしてミュートにします";
+
+/* Search results */
+"LOCID No Results" = "結果なし";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ が予期せず終了しました";
+"LOCID Dont Send" = "送信しない";
+"LOCID Send Report" = "レポートを送信";
+"LOCID Would you like to send a report so we can fix the problem" = "問題の解決のためにレポートを送信しますか?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "ホーム";
+"LOCID Timeline Contacts" = "連絡先";
+"LOCID Timeline Meetings" = "会議";
+"LOCID Timeline Search Placeholder" = "連絡先を検索";
+"LOCID Timeline Recent" = "最近のアクティビティ";
+"LOCID Timeline Upcoming" = "予定";
+"LOCID Timeline TableView" = "タイムライン";
+"LOCID Timeline Meeting Time All Day" = "終日";
+"LOCID Timeline Search Skype Contacts" = "連絡先";
+"LOCID Timeline Search Phone Contacts" = "電話の連絡先";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "連絡先";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "ダイヤルパッドとボイス メール";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "ダイヤルパッド、%ld 件の新着ボイス メール";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "ダイヤルパッド、%ld 件の新着ボイス メール";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "会議";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "ホーム";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "情報";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@、%@、%@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@、新しいメッセージ、%@、%@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "通話";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "ビデオ通話";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "開封済みにする";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "削除";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "会議に参加";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "閉じる";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "参加許可";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "連絡可能";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "取り込み中";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "退席中";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "オフライン";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "応答不可";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "状態確認不可";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "テキストをクリア";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "連絡先を検索";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "ビデオ通話";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "通話";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "会議に参加";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "空のチャット";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "プロファイル画像";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld 件の新着ボイス メール";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld 件の新着ボイス メール";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "天使";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "プンプン";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "ならず者";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "サッカー";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "ビール";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "笑い";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "自転車";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "恥ずかしい";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "おじぎ";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "失恋";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "ケーキ";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "発信";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "カメラ";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "お話できますか?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "車";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "お金";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "ネコ";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "パチパチ";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "コーヒー";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "コンピュータ";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "秘密";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "やったね";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "号泣";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "ダンス";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "悪魔";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "イヌ";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "だ～!";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "お酒";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "つまんない";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "エモ";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "キィー";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "ニヤッ";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "あちゃ～";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "指をクロスして幸運を祈る";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "花";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "ゲーム";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "贈り物";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "クスクス";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "頑張ってください";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "この辺で失礼します";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "握手";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "幸せ";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "馬鹿バカ～";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "ハート";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "リス";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "よっ";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "ハイタッチ";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "ちょっと待った";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "ハグ";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "アイデア";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "恋してます";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "島";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "やってない";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "チュ!";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "聞いてません";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "会いましょう";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "内緒";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "メール";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "お化粧ばっちり";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "男性";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "ウーン";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "映画";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "筋肉モリモリ";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "音楽";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "秀才";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "忍者";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "いいえ";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "うんうん";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "パーティ";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "電話";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "ピザ";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "飛行機";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "ゲーッ";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "パンチ";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "雨";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "虹";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "よっしゃ!";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "大笑い";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "悲しい";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "いやいや";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "眠い";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "スマイル";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "ケッ";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "かたつむり";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "むむ";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "星";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "停止";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "日差し";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "びっくり";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "悪口";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "汗";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "話す";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "聞きたくない";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "考え中";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "時間";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "それ以上は勘弁して";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "ペロリ";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "すきま風";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "傘";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "待って";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "はやく～";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "自宅で仕事中";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "どうなってるの";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "やれやれ";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "ウィンク";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "女性";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "何なに";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "心配";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "あくび";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "はい";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "ここにメッセージを入力";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "%@ さんに声をかける";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "グループに声をかける";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "ここに会話が表示されます";
+"CHAT_FAILED_TO_SEND" = "このメッセージを送信できませんでした: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "チャットを表示";
+"LOCID CONVERSATION_HIDE_CHAT" = "チャットを非表示";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "サイドバーを表示する";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "サイドバーを非表示にする";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "絵文字";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "日";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "日";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "時間";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "時間";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "分";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "分";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "秒";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "秒";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d 件の新しい通知";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "1 件の新しい通知";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "新しい通知はありません";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "会議が終了しました";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "参加者: %u 人";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "閉じる";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "開く";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "コピー";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "リーディング リストに追加";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "Safari で開く";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "戻る";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "進む";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "キャンセル";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ さんが入力中です...";
+"CHATTYPING_TWOUSERS" = "%@ さんと %@ さんが入力中です...";
+"CHATTYPING_THREEUSERS" = "%@ さん、%@ さん、他 1 人が入力中です...";
+"CHATTYPING_MULTIPLEUSERS" = "%@ さん、%@ さん、他 %d 人が入力中です...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "メールの送信";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "連絡先カードの表示";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "参加者";
+"DROPDOWN_ADD_PARTICIPANTS" = "参加者の追加";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "着信";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "発信";
+
+"LOCID Meetings Page Title" = "会議";
+"LOCID No Meetings Placeholder" = "ここに会議が表示されます";
+"LOCID Meetings Today" = "今日";
+"LOCID Meetings Tomorrow" = "明日";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "個人メモを入力";
+
+"PARTICIPANTS_VIEW_TITLE" = "参加者";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "ロビーで待機中";
+"PARTICIPANTS_VIEW_ON_CALL" = "この通話の参加者";
+
+"MEETING_VIEW_TITLE" = "会議";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "会議に参加";
+"MEETING_VIEW_ORGANISER_LABEL" = "開催者";
+"MEETING_VIEW_INVITEES_LABEL" = "招待された人";
+"MEETING_VIEW_NOTES_LABEL" = "メモ";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "接続中...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "絵文字の選択";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "メッセージの送信";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "通話終了";
+"INVITE_PARTICIPANTS" = "参加者の招待";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "戻る";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "アドレス帳";
+"LOCID_PHONE_NUMBER" = "電話番号";
+"LOCID_MORE" = "その他";
+"SWITCH_VIDEO_ACCESSIBILITY" = "ビデオの切り替え";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "連絡先のプロファイルの表示";
+"CHAT_OPTION_PARTICIPANTS" = "参加者";
+"LOCID_CONTACTS_TABLE_VIEW" = "連絡先の表示";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "着信";
+"LOCID_MEETINGS_TABLE_VIEW" = "会議の表示";

@@ -1,0 +1,11 @@
+<TestCaseInfoDetails>
+<SuiteName>BVTDeviceTest</SuiteName>
+<NumberOfTestCases>7</NumberOfTestCases>
+<CurrentTestCaseToRun>0</CurrentTestCaseToRun>
+<TestCase1>VerifySignInAndSignOutSuccessfulTest</TestCase1>
+<TestCase2>VerifySendAndReceiveP2PVideoTest</TestCase2>
+<TestCase3>VerifySendAndReceiveP2PIMTest</TestCase3>
+<TestCase4>VerifyShareDesktopViewDisplayWell</TestCase4>
+<TestCase5>VerifyJoinOnlineMeetingFromEvent</TestCase5>
+<TestCase6>VerifySendAndReceiveP2PCallTest</TestCase6>
+<TestCase7>VerifyP2PIMEscalationToConferenceCallTest</TestCase7>

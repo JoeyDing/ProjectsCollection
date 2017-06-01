@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Απάντηση";
+"JOIN" = "Αποδοχή";
+"VIEW" = "Προβολή";
+"IGNORE" = "Παράβλεψη";
+"LAUNCH" = "Εκκίνηση";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "σας προσκαλεί σε μια συζήτηση";
+"NEW_IM_BURNT_TOAST" = "Αναπάντητη συζήτηση με το χρήστη %@";
+"SIGN_IN" = "Είσοδος";
+"SIGN_OUT" = "Έγινε έξοδος λόγω αδράνειας.";
+"MWI" = "Νέα μηνύματα τηλεφωνητή: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Διεύθυνση εισόδου";
+"LOCID Password" = "Κωδ. πρόσβασης";
+"LOCID User Name" = "Όνομα χρήστη";
+"LOCID Domain" = "Τομέας";
+"LOCID Auto-Detect Server" = "Αυτόματος εντοπισμός";
+"LOCID Sign-in As" = "Είσοδος ως";
+"LOCID User Name Footer" = "Χρήστες του Skype για επιχειρήσεις Online: username@domain.com\nΌλοι οι άλλοι χρήστες: τομέας\\όνομα χρήστη";
+"LOCID Hide Details" = "Απόκρυψη επιλογών για προχ/μένους";
+"LOCID More Details" = "Εμφάνιση επιλογών για προχ/μένους";
+"LOCID Save Password" = "Αποθήκευση του κωδικού μου";
+
+/* generic share button */
+"LOCID share" = "κοινή χρήση";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Εσωτ. διεύθυνση εντοπισμού";
+"LOCID External Server Address" = "Εξωτ. διεύθυνση εντοπισμού";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Βοηθήστε μας να βελτιώσουμε το Skype για επιχειρήσεις με την αποστολή των πληροφοριών σφάλματος εισόδου σας.";
+"LOCID Sign In BRB Reason 2" = "Μπορούμε να συλλέξουμε ορισμένες πληροφορίες σχετικά με αυτό το σφάλμα και μελλοντικά σφάλματα εισόδου; Μπορείτε να αλλάξετε αυτήν την επιλογή οποιαδήποτε στιγμή στην περιοχή \"Επιλογές\".";
+"LOCID BRBDonotshow" = "Να μην εμφανιστεί ξανά";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Είσοδος";
+"LOCID Sign Out" = "Έξοδος";
+"LOCID Cancel Sign in" = "Ακύρωση εισόδου";
+"LOCID Lync Is Signing In" = "Το Skype για επιχειρήσεις πραγματοποιεί είσοδο";
+"LOCID Lync Is Signing Out" = "Το Skype για επιχειρήσεις πραγματοποιεί έξοδο";
+
+// Help
+"LOCID signin help" = "Βοήθεια για την είσοδο";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Κατάσταση";
+"LOCID Contacts" = "Επαφές";
+"LOCID Conversations" = "Συνομιλίες";
+"LOCID Meetings" = "Συσκέψεις";
+"LOCID Phone" = "Τηλέφωνο";
+"LOCID Signing In" = "Είσοδος...";
+"LOCID Signed Out" = "Εξήλθε";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Τι συμβαίνει σήμερα;";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Προσωπική σημείωση";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Εισάγετε προσωπική σημείωση";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Πατήστε δύο φορές για επεξεργασία";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Άγνωστο";
+"LOCID Available" = "Διαθέσιμος";
+"LOCID Busy" = "Απασχολημένος";
+"LOCID Busy Inactive" = "Απασχολημένος (ανενεργός)";
+"LOCID Do Not Disturb" = "Μην ενοχλείτε";
+"LOCID Be Right Back" = "Επιστρέφω αμέσως";
+"LOCID Presence unknown" = "Άγνωστη παρουσία";
+"LOCID Off Work" = "Εκτός γραφείου";
+"LOCID Appear Away" = "Ένδειξη \"Απουσιάζω\"";
+"LOCID Away" = "Απουσιάζω";
+"LOCID Inactive" = "Ανενεργός";
+"LOCID Reset Status" = "Επαναφορά";
+"LOCID Offline" = "Εκτός σύνδεσης";
+"LOCID Blocked" = "Αποκλεισμένος";
+"LOCID Sign In As Header" = "Επιλογή κατάστασης προς εμφάνιση:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Σε κλήση";
+"LOCID In a Conference Call" = "Σε κλήση διάσκεψης";
+"LOCID Presenting" = "Κάνει παρουσίαση";
+"LOCID In a Meeting" = "Σε σύσκεψη";
+"LOCID Out of Office" = "Εκτός γραφείου";
+"LOCID Urgent Interruptions Only" = "Μόνο επείγουσες διακοπές";
+"LOCID Out To Lunch" = "Λείπω για φαγητό";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Το Skype για επιχειρήσεις δεν μπορεί να εμφανίσει τις επαφές του iPhone σας. Μπορείτε να το διορθώσετε αυτό στις ρυθμίσεις του iPhone σας.";
+"LOCID ContactsPermissionNotGiven iPad" = "Το Skype για επιχειρήσεις δεν μπορεί να εμφανίσει τις επαφές του iPad σας. Μπορείτε να το διορθώσετε αυτό στις ρυθμίσεις του iPad σας.";
+"LOCID Other Contacts" = "Άλλες επαφές";
+"LOCID Pinned Contacts" = "Αγαπημένα";
+"LOCID Retrieving Members" = "Περιμένετε...";
+"LOCID Cannot connect Try again" = "Δεν είναι δυνατή η λήψη των μελών ομάδας. Δοκιμάστε ξανά αργότερα.";
+"LOCID Group is too large to display" = "Η ομάδα είναι πολύ μεγάλη για εμφάνιση.";
+"LOCID No members" = "Κανένα μέλος";
+"LOCID Searching the company directory" = "Αναζήτηση στον εταιρ. κατάλογο...";
+"LOCID Please signin to search" = "Για αναζήτηση στον εταιρικό κατάλογο, πραγματοποιήστε είσοδο.";
+"LOCID Too many results" = "Υπερβολικός αριθμός αποτελεσμάτων. Περιορίστε την αναζήτησή σας.";
+"LOCID Unable to connect to the server" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή αυτήν τη στιγμή. Δοκιμάστε ξανά.";
+"LOCID E_SearchTooLong" = "Δεν βρήκαμε κάτι που να συμφωνεί. Δοκιμάστε συντομότερη αναζήτηση.";
+"LOCID No Name" = "Χωρίς όνομα";
+"LOCID idle day" = "%d ημέρα";
+"LOCID idle days" = "%d ημέρες";
+"LOCID idle hour" = "%d ώρα";
+"LOCID idle hours" = "%d ώρες";
+"LOCID idle minutes" = "%d λεπτά";
+"LOCID inactive idle day" = "Ανενεργή %d ημέρα";
+"LOCID inactive idle days" = "Ανενεργή %d ημέρες";
+"LOCID inactive idle hour" = "Ανενεργή %d ώρα";
+"LOCID inactive idle hours" = "Ανενεργή %d ώρες";
+"LOCID inactive idle minutes" = "Ανενεργή %d λεπτά";
+"LOCID DG does not exist" = "Η ομάδα διανομής δεν υπάρχει πλέον.";
+"LOCID Access to DG denied" = "Η πρόσβαση στην ομάδα διανομής απορρίφθηκε";
+"LOCID No Contacts Placeholder" = "Οι επαφές σας θα εμφανίζονται εδώ";
+"LOCID No Contacts" = "Καμία επαφή";
+"LOCID You currently have no contacts" = "Δεν έχετε επαφές αυτήν τη στιγμή";
+"LOCID Retrieving Contacts..." = "Λήψη επαφών...";
+"LOCID Expanded" = "Ομάδα %@, αναπτυγμένη";
+"LOCID Collapsed" = "Ομάδα %@, συμπτυγμένη";
+"LOCID Group card- acc" = "Κάρτα ομάδας";
+"LOCID Open group card - acc" = "Πατήστε για να ανοίξετε την κάρτα ομάδας";
+
+/* Contact Card*/
+"LOCID Loading name" = "Φόρτωση ονόματος...";
+"LOCID Details" = "Κάρτα";
+"LOCID Work" = "Εργασία";
+"LOCID Home" = "Οικία";
+"LOCID Mobile" = "Κινητό";
+"LOCID Other" = "Άλλο";
+"LOCID other lowercase" = "άλλο";
+"LOCID Office" = "Γραφείο";
+"LOCID Company" = "Εταιρεία";
+"LOCID Department" = "Τμήμα";
+"LOCID Send Text Message" = "Αποστολή μηνύματος κειμένου";
+"LOCID IM" = "IM";
+"LOCID E-Mail" = "Email";
+"LOCID unknown lowercase" = "άγνωστο";
+"LOCID Location lowercase" = "τοποθεσία";
+"LOCID Calendar" = "ημερολόγιο";
+"LOCID Link" = "σύνδεση";
+"LOCID Disabled" = "%@, απενεργοποιημένο"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Σημείωση";
+"LOCID Video" = "Βίντεο";
+
+/* DG Card*/
+"LOCID Members" = "ΜΕΛΗ"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Πρόσκληση";
+"LOCID Transfer" = "Μεταφορά";
+
+/* Certificate UI */
+"LOCID certTitle" = "Το Skype για επιχειρήσεις προσπαθεί να σας ανακατευθύνει στο:";
+"LOCID certIssuedBy" = "Έκδοση από:";
+"LOCID certSubject" = "Θέμα:";
+"LOCID certExpires" = "Λήξη:";
+"LOCID certSignature" = "Αλγόριθμος υπογραφής:";
+"LOCID certDonotshow" = "Να μην εμφανιστεί ξανά αυτό το μήνυμα.";
+"LOCID Continue" = "Συνέχεια";
+"LOCID certNone" = "Χωρίς κρυπτογράφηση";
+"LOCID certRSA" = "Κρυπτογράφηση RSA";
+"LOCID certDSA" = "Κρυπτογράφηση DSA";
+"LOCID certDH" = "Κρυπτογράφηση DH";
+"LOCID certEC" = "Κρυπτογράφηση EC";
+"LOCID certHMAC" = "Κρυπτογράφηση HMAC";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Συζήτηση";
+"LOCID Chats - Phone Call" = "Τηλεφωνική κλήση";
+"LOCID Chats - Video Call" = "Κλήση βίντεο";
+"LOCID Chats - Meeting" = "Σύσκεψη";
+"LOCID Chats - Missed Call" = "Αναπάντητη κλήση";
+"LOCID Chats - Missed Video Call" = "Αναπάντητη κλήση βίντεο";
+"LOCID Chats - Current Call" = "Τρέχουσα κλήση";
+"LOCID Chats - Current Call With Duration" = "Τρέχουσα κλήση, %@";
+"LOCID Phone Status - Connecting" = "Γίνεται σύνδεση...";
+"LOCID Phone Status - On Hold" = "Σε αναμονή";
+"LOCID Phone Status - Transferring" = "Μεταφορά";
+"LOCID Transferring to" = "Γίνεται μεταφορά σε %@...";
+"LOCID Chats Full" = "Πληροφοριακά: Αυτή η λίστα είναι πλήρης. Οι παλαιότερες συζητήσεις θα καταργούνται καθώς προστίθενται νέες.";
+"LOCID Close Conversation" = "Διαγραφή συζήτησης";
+"LOCID View Participants List" = "Προβολή συμμετεχόντων";
+"LOCID Call Contact" = "Κλήση του χρήστη %@";
+"LOCID Video Call Contact" = "Κλήση βίντεο";
+"LOCID Video Conference Contact" = "Διάσκεψη με βίντεο";
+"LOCID Edit" = "Επεξεργασία";
+"LOCID Deselect All" = "Κατάργηση επιλογής όλων";
+"LOCID Select All" = "Επιλογή όλων";
+"LOCID Me" = "Εγώ: %@";
+"LOCID Missed" = "Χαμένη: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Ομαδική συζήτηση";
+"LOCID Tap To Enter Text" = "Πατήστε για πληκτρολόγηση";
+"LOCID No Conversations" = "Καμία συζήτηση";
+"LOCID No Conversations Hint" = "Δεν έχετε συζητήσεις αυτήν τη στιγμή";
+"LOCID Delete Count" = "Διαγραφή (%d)";
+"LOCID Delete None" = "Διαγραφή";
+"LOCID Escalating audio conference" = "Έναρξη κλήσης διάσκεψης...";
+"LOCID Escalating video conference" = "Έναρξη διάσκεψης με βίντεο...";
+"LOCID No Participants" = "Κανείς";
+"LOCID No Other Participants" = "Κανένας άλλος";
+"LOCID One Participant" = "1 συμμετέχων";
+"LOCID Some Participants" = "%d συμμ/χοντες";
+"LOCID Max Participants" = "%d+ συμμ/χοντες";
+"LOCID Large Meeting" = "Μεγάλη σύσκεψη";
+"LOCID Toast No Invite" = "σας προσκαλεί σε μια συζήτηση";
+"LOCID Participant Join" = "Ο χρήστης %@ συνδέθηκε στη σύσκεψη";
+"LOCID Participant Leave" = "Ο χρήστης %@ αποχώρησε από τη σύσκεψη";
+"LOCID Participant Join Failure" = "Δεν ήταν δυνατή η συμμετοχή του χρήστη %@ στην σύσκεψη";
+"LOCID Large Conference" = "Μεγάλη σύσκεψη";
+"LOCID Large Conference Detail" = "Η λίστα συμμετεχόντων δεν είναι διαθέσιμη για μεγάλες συσκέψεις.";
+"LOCID No Participants Detail" = "Δεν υπάρχουν συμμετέχοντες σε αυτήν τη συζήτηση";
+"LOCID cannotSend" = "Δεν μπορέσαμε να στείλουμε το μήνυμά σας:";
+"LOCID Missed Conversation" = "Χαμένη συζήτηση";
+"LOCID Send as Email" = "Αποστολή ως email";
+"LOCID Email Subject" = "Συζήτηση %1$@ με: %2$@";
+"LOCID Anonymous" = "Ανώνυμος";
+"LOCID Duration" = "Διάρκεια:";
+"LOCID Switch Camera" = "Εναλλαγή κάμερας";
+"LOCID Swap PIP" = "Εναλλαγή Pic-in-Pic";
+"LOCID Leave Video" = "Έξοδος από βίντεο";
+"LOCID Start My Video" = "Έναρξη βίντεο";
+"LOCID Stop My Video" = "Διακοπή βίντεο";
+"LOCID End Video" = "Τερματισμός βίντεο";
+"LOCID LargeMtgActiveSpeakerMissing" = "Οι πληροφορίες ηχείου δεν είναι διαθέσιμες για μεγάλες συσκέψεις.";
+"LOCID Swap Preview" = "Εναλλαγή προεπισκόπησης";
+"LOCID Speaker On" = "Ηχείο ενεργοποιημένο";
+"LOCID Speaker Off" = "Ηχείο απενεργοποιημένο";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Το βίντεο ενεργοποιήθηκε";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Πατήστε δύο φορές για να απενεργοποιήσετε το βίντεο.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Το βίντεό σας είναι απενεργοποιημένο";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Πατήστε δύο φορές για να ενεργοποιήσετε το βίντεο.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Το ηχείο του τηλεφώνου είναι ενεργοποιημένο";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Πατήστε δύο φορές για να απενεργοποιήσετε το ηχείο.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Το ηχείο του τηλεφώνου είναι απενεργοποιημένο";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Πατήστε δύο φορές για να ενεργοποιήσετε το ηχείο.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Κλήση σε σίγαση";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Πατήστε δύο φορές για κατάργηση σίγασης.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Καταργήθηκε η σίγαση της κλήσης";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Πατήστε δύο φορές για σίγαση.";
+
+"LOCID Instant Messaging" = "Ανταλλαγή άμεσων μηνυμάτων";
+"LOCID Voice" = "Φων. υπηρεσία";
+"LOCID Collaboration" = "Συνεργασία";
+"LOCID Participants" = "Συμμετέχοντες";
+"LOCID Full Screen" = "Πλήρης οθόνη";
+"LOCID Exit Full Screen" = "Έξοδος από πλήρη οθόνη";
+"LOCID Local Participant Alone in Conference Msg" = "Φαίνεται ότι είστε ο μόνος συμμετέχων στην κλήση.";
+"LOCID 1 or more participants" = "1 ή περισσότεροι συμμετέχοντες";
+"LOCID Call Started" = "Η κλήση ξεκίνησε - %@";
+"LOCID Call Ended Missed" = "Η κλήση τερματίστηκε - %@ [Αναπάντητη]";
+"LOCID Call Ended Duration" = "Η κλήση τερματίστηκε - %@ [Διάρκεια: %@]";
+"LOCID ConferenceEndedRejoin" = "Έχετε αποσυνδεθεί από τη σύσκεψη. Πατήστε πιο κάτω για να συνδεθείτε ξανά.";
+"LOCID ConferenceEndedContinue" = "Η επανεκκίνηση αυτής συνομιλίας θα στείλει μια νέα πρόσκληση σε όλους όσοι συμμετείχαν.";
+"LOCID IM P2P Toast Voiceover" = "Ο χρήστης %@ σάς προσκαλεί σε μια συνομιλία. Πατήστε δύο φορές για αποδοχή.";
+"LOCID IM Conf Toast Voiceover" = "Ο χρήστης %@ σάς προσκαλεί σε μια ομαδική συνομιλία. Πατήστε δύο φορές για αποδοχή.";
+"LOCID Video is Locked on you" = "Το βίντεο είναι κλειδωμένο σε εσάς.";
+
+"LOCID SFB Call Started" = "Η κλήση άρχισε";
+"LOCID SFB Call Ended" = "Η κλήση τερματίστηκε";
+"LOCID SFB Call Ended Duration" = "Η κλήση τερματίστηκε, %@";
+
+/* Roster*/
+"LOCID Presenters" = "ΠΑΡΟΥΣΙΑΣΤΕΣ (%d)";
+"LOCID Attendees" = "ΠΑΡΕΥΡΙΣΚΟΜΕΝΟΙ (%d)";
+"LOCID In Lobby" = "ΧΩΡΟΣ ΑΝΑΜΟΝΗΣ (%d)";
+"LOCID Guest" = "Επισκέπτης";
+"LOCID Remove" = "Κατάργηση";
+"LOCID E_RemoveFailed" = "Εμείς δεν ήταν δυνατή η κατάργηση του συμμετέχοντος.";
+"LOCID E_AddFailed" = "Δεν μπορέσαμε να προσθέσουμε τον συμμετέχοντα.";
+
+/*Lobby*/
+"LOCID Admit all" = "Αποδοχή όλων";
+"LOCID Deny all" = "Απόρριψη όλων";
+"LOCID Admit" = "Αποδοχή";
+"LOCID Deny" = "Απόρριψη";
+"LOCID See Lobby" = "Προβολή χώρου αναμονής";
+"LOCID Conference In the Lobby" = "Υπάρχουν συμμετέχοντες στο χώρο αναμονής.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Να γίνει παρουσιαστής";
+"LOCID Demote" = "Να γίνει παρευρισκόμενος";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Κινητό";
+"LOCID Voice and IM Unavailable" = "Μη διαθέσιμη φωνητική υπηρεσία και IM";
+"LOCID Voice Only" = "Μόνο φων. υπηρ.";
+"LOCID Voice and Video Only" = "Φωνή και βίντεο μόνο";
+"LOCID IM Only" = "Μόνο IM";
+"LOCID No Voice" = "Χωρίς φων. υπηρ.";
+"LOCID Video capable" = "Με δυνατότητα βίντεο";
+"LOCID No IM" = "Χωρίς IM";
+"LOCID Mobile Cap" = "Κινητό";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Πληκτρολόγιο";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "";
+"LOCID Dialpad" = "Πληκτρολόγιο";
+"LOCID Dialpad STAR Key" = "Αστέρι";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Δίεση"; // Used for accessibility
+"LOCID Delete Key" = "Διαγραφή";   // Used for accessibility
+"LOCID Emergency number" = "Αριθμός έκτακτης ανάγκης"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "απόκρυψη";
+"LOCID Dialpad Search Recent Calls" = "πρόσφατες κλήσεις";
+"LOCID Dialpad Search Native Contacts" = "επαφές τηλεφώνου";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Πρόβλημα με τις Επαφές";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Παρουσιάστηκε πρόβλημα πρόσβασης σε αριθμούς τηλεφώνου από τις Επαφές σας. Για να διορθώσετε το πρόβλημα, δοκιμάστε να συγχρονίσετε ξανά τους λογαριασμούς αλληλογραφίας στις Ρυθμίσεις.";
+
+/* My Status Tab */
+"LOCID Options" = "Ρυθμίσεις";
+"LOCID Send Feedback" = "Αποστολή σχολίων";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ έως %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Από %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "έως %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "από %1$@ έως %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Καμία σύσκεψη";
+"LOCID All" = "Όλες";
+"LOCID No Meetings Scheduled" = "Δεν έχετε καμία προγραμματισμένη σύσκεψη";
+"LOCID None" = "Χωρίς επιλογή";
+"LOCID Organizer" = "Διοργανωτής";
+"LOCID Invitees" = "ΠΡΟΣΚΕΚΛΗΜΕΝΟΙ";
+"LOCID Notes" = "ΣΗΜΕΙΩΣΕΙΣ";
+"LOCID Join" = "Συμμετοχή";
+"LOCID Updated DATE TIME" = "Ενημέρωση: %1$@ %2$@";
+"LOCID Online" = "Σε σύνδεση";
+"LOCID Tentative" = "Αβέβαιος";
+"LOCID Event" = "Εκδήλωση";
+"LOCID Updating..." = "Ενημέρωση...";
+"LOCID Tentative Voiceover" = "%@, αβέβαιη";
+"LOCID Pull to refresh" = "Τραβήξτε για ανανέωση";
+"LOCID Today" = "ΣΗΜΕΡΑ"; // CAPS
+"LOCID Tomorrow" = "ΑΥΡΙΟ"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Εάν δεν είστε ο διοργανωτής, το μικρόφωνό σας θα είναι σε σίγαση κατά τη σύνδεσή σας.";
+"LOCID Lync Conferencing" = "Σύσκεψη Skype";
+"LOCID Joining Step 1" = "Γίνεται σύνδεση...";
+"LOCID Please wait to be admitted" = "Περιμένετε την αποδοχή σας";
+"LOCID Join Conf Error" = "Η σύνδεση στη σύσκεψη χάθηκε.";
+"LOCID Anonymous Join" = "Ανώνυμη συμμετοχή";
+"LOCID Enter your name" = "Πληκτρολογήστε το όνομά σας";
+"LOCID Anonymous Join Greeting" = "Καλώς ορίσατε στο Skype για επιχειρήσεις";
+"LOCID Sign in with Lync" = "Είσοδος με Skype για επιχειρήσεις";
+"LOCID Sign in as guest" = "Είσοδος ως επισκέπτης";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Δεν μπορούμε να σας συνδέσουμε στη σύσκεψη χωρίς τον αριθμό του iPhone σας. Προσθέστε τον αριθμό του iPhone σας στις επιλογές του Skype για επιχειρήσεις.";
+"LOCID Join Conf Error - No Number iPad" = "Δεν μπορούμε να σας συνδέσουμε στη σύσκεψη χωρίς τον αριθμό του τηλεφώνου σας. Προσθέστε τον αριθμό του τηλεφώνου σας στις επιλογές του Skype για επιχειρήσεις.";
+"LOCID Join Meeting Line 1 Text" = "Συμμετοχή στη σύσκεψη\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Γίνεται κλήση σας στον αριθμό %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Γεια σας. Βρίσκεστε στον εικονικό χώρο υποδοχής μας, νιώστε σαν στο σπίτι σας. Μην απομακρυνθείτε από την εφαρμογή—ο διοργανωτής θα σας επιτρέψει την είσοδο σύντομα.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Δεν γίνατε αποδεκτοί, επειδή ο διοργανωτής δεν ήταν εκεί ή δεν αποκρίθηκε.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Η σύνδεση χάθηκε. Συνδεθείτε για να δοκιμάσετε ξανά.";
+"LOCID View" = "Προβολή";
+"LOCID Join Meeting" = "Συμμετοχή σε σύσκεψη";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Συμμετοχή σε σύσκεψη";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Δεν μπορούμε να σας συνδέσουμε, επειδή η σύσκεψη είναι πλήρης. Δοκιμάστε να επικοινωνήσετε με το διοργανωτή.";
+"LOCID AdmittedToLobby" = "Έχετε γίνει δεκτοί. Σας καλούμε αυτήν τη στιγμή...";
+"LOCID MtgDisclaimerAccept" = "Αποδοχή";
+"LOCID MtgDisclaimerDecline" = "Παράβλεψη";
+"LOCID E_MeetingNotFound" = "Η σύσκεψη στην οποία προσπαθείτε να συμμετάσχετε δεν υπάρχει.";
+"LOCID E_MeetingsNotEnabled" = "Αυτή η δυνατότητα σύσκεψης δεν είναι ενεργοποιημένη για τον οργανισμό σας.";
+"LOCID E_OutsideOrg" = "Αυτό το άτομο ή σύσκεψη δεν έχει δικαιώματα στο δίκτυό σας.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Κλήσεις και συσκέψεις";
+"LOCID credentialsSection" = "Τα διαπιστευτήριά μου";
+"LOCID contactsSection" = "Επαφές";
+"LOCID accessibilitySection" = "Προσβασιμότητα";
+"LOCID otherSection" = "Άλλο";
+"LOCID Show Recent Contacts" = "Πρόσφατες επαφές";
+"LOCID Show Pinned Contacts" = "Καρφιτσωμ. επαφές";
+"LOCID Show Photos" = "Φωτογραφίες";
+"LOCID Sort by availability" = "Ταξινόμηση ανά διαθεσιμότητα";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Καταγραφή";
+"LOCID About" = "Πληροφορίες";
+"LOCID About Version" = "Έκδοση %@";
+"LOCID Status" = "Κατάσταση";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "Proxy HTTP";
+"LOCID Require WiFi" = "Να απαιτείται Wi-Fi για";
+"LOCID WiFi VoIP" = "Φων. υπηρεσία";
+"LOCID WiFi Video" = "Βίντεο";
+"LOCID WiFi Collab" = "Περιεχόμενο σύσκεψης";
+"LOCID WiFi Warning" = "Όταν είναι απενεργοποιημένο, μπορείτε να λάβετε κλήσεις μέσω της σύνδεσης δεδομένων σας (πιθανές χρεώσεις και χαμηλότερη ποιότητα).";
+"LOCID WiFi Warning iPad" = "Όταν είναι απενεργοποιημένο, μπορείτε να λαμβάνετε κλήσεις και περιεχόμενο σύσκεψης μέσω της σύνδεσης δεδομένων σας (πιθανές χρεώσεις και χαμηλότερη ποιότητα).";
+"LOCID Not a SfB User" = "Δεν είστε χρήστης Skype για επιχειρήσεις;";
+
+
+/* About View */
+"LOCID About Title" = "Πληροφορίες";
+"LOCID version" = "Έκδοση: %@";
+"LOCID Long Product Name" = "Skype® για επιχειρήσεις για %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Με επιφύλαξη κάθε νόμιμου δικαιώματος.";
+"LOCID online help" = "Βοήθεια";
+"LOCID Terms Of Use" = "Όροι χρήσης";
+"LOCID Privacy title" = "Προστασία προσωπικών δεδομένων";
+"LOCID Third Party Notices" = "Ανακοινώσεις τρίτων";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nΕκκρεμούν διπλώματα ευρεσιτεχνίας";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Η επωνυμία Skype, τα σχετιζόμενα εμπορικά σήματα και λογότυπα και το λογότυπο “S” είναι εμπορικά σήματα της Skype ή σχετιζόμενων οντοτήτων.\n\nΠροσοχή: Αυτό το πρόγραμμα προστατεύεται από τους νόμους και τις διεθνείς συμβάσεις περί πνευματικής ιδιοκτησίας. Η μη εξουσιοδοτημένη αναπαραγωγή ή διανομή αυτού του προγράμματος, ή οποιουδήποτε τμήματος αυτού, μπορεί να οδηγήσει σε σοβαρές ποινικές και αστικές κυρώσεις και θα διώκεται στο μέγιστο δυνατό βαθμό, σύμφωνα με το νόμο.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Προώθηση κλήσεων";
+"LOCID Forward Section" = "Επιλογή αριθμού";
+"LOCID Apply Setting Section" = "Εφαρμογή ρυθμίσεων";
+"LOCID Summary Section" = "Οι τρέχουσες ρυθμίσεις σας:";
+"LOCID Do Not Forward" = "Να μην γίνεται προώθηση κλήσεων";
+"LOCID Forward Calls" = "Προώθηση κλήσεων";
+"LOCID Forward Calls To" = "Προώθηση κλήσεων σε:";
+"LOCID Simultaneously Ring" = "Ταυτόχρονη κλήση";
+"LOCID On" = "Ναι";
+"LOCID Off" = "Όχι";
+"LOCID During Working Hours" = "Τις ώρες εργασίας";
+"LOCID Voicemail" = "Τηλεφωνητής";
+"LOCID Team Call" = "Μέλη ομαδικής κλήσης";
+"LOCID Delegates" = "Εκπρόσωποι";
+"LOCID Pending Persons" = "Προσθήκη από";
+"LOCID Delegate Target" = "στους εκπροσώπους σας";
+"LOCID TeamCall Target" = "στα μέλη ομάδας της ομάδας ομαδικών κλήσεών σας";
+"LOCID Voicemail Target" = "στον τηλεφωνητή σας";
+"LOCID DoNotForward Summary" = "Οι κλήσεις θα λαμβάνονται στον αριθμό εργασίας σας και δεν θα προωθούνται. Δεν θα λαμβάνετε κλήσεις στο κινητό σας όταν δεν είναι διαθέσιμο το VoIP.";
+"LOCID DoNotForward Summary iPad" = "Οι κλήσεις θα λαμβάνονται στην εργασία σας και δεν θα προωθούνται. Δεν θα λαμβάνετε κλήσεις στο iPad σας όταν το VoIP δεν είναι διαθέσιμο.";
+"LOCID ForwardCalls Summary" = "Οι κλήσεις θα προωθούνται απευθείας στο %@. Εάν δεν είναι αυτός ο αριθμός του κινητού σας, δεν θα λαμβάνετε κλήσεις στο κινητό σας.";
+"LOCID ForwardCalls Summary iPad" = "Οι κλήσεις θα προωθούνται απευθείας στο %@ και δεν θα λαμβάνονται στο iPad.";
+"LOCID Simulring Summary" = "Οι κλήσεις θα λαμβάνονται στον αριθμό εργασίας σας αλλά και στο %@. Εάν είναι αυτός ο αριθμός του κινητού σας, θα λαμβάνετε κλήσεις στο κινητό σας όταν το VoIP δεν είναι διαθέσιμο.";
+"LOCID Simulring Summary iPad" = "Οι κλήσεις θα λαμβάνονται στην εργασία σας αλλά και στο %@. Δεν θα λαμβάνετε κλήσεις στο iPad σας όταν το VoIP δεν είναι διαθέσιμο.";
+"LOCID View Settings" = "Προβολή τρεχουσών ρυθμίσεων";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Εφαρμογή ρυθμίσεων";
+"LOCID All the Time" = "Συνεχώς";
+"LOCID During Outlook Working Hours" = "Όταν λειτουργεί το Outlook";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Εργασία";
+"LOCID Home Capitalized" = "Οικία";
+"LOCID Mobile Capitalized" = "Κινητό";
+"LOCID Custom Capitalized" = "Προσαρμογή";
+"LOCID Other Capitalized" = "Άλλο";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Άκυρο";
+"LOCID Add" = "Προσθήκη";
+"LOCID New Number" = "Νέος αριθμός";
+"LOCID New Contact" = "Νέα επαφή";
+"LOCID Contact" = "Επαφή";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Αποστ. αρχείων εισόδου";
+"LOCID SignInBRB - Always" = "Πάντα";
+"LOCID SignInBRB - Never" = "Ποτέ";
+"LOCID SignInBRB - Ask Me" = "Να ερωτηθώ";
+"LOCID Send Log Files" = "Αποστολή καταγραφής";
+"LOCID Log Email Subject" = "Αρχεία καταγραφής του Skype για επιχειρήσεις"; //product name
+"LOCID Device Model" = "Μοντέλο συσκευής:";
+"LOCID Device OS Name" = "Όνομα λειτουργικού συστήματος συσκευής:";
+"LOCID Device OS Version" = "Έκδοση λειτουργικού συστήματος συσκευής:";
+"LOCID Enable Logging" = "Ενεργοποίηση";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Proxy HTTP";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Για να ολοκληρώσετε τη ρύθμιση του Proxy HTTP, χρησιμοποιήστε τις ρυθμίσεις Wi-Fi του %@ σας.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Χρήση διαπιστευτηρίων του Skype για επιχειρήσεις";
+"LOCID Exchange Credentials Info" = "Το Skype για επιχειρήσεις χρειάζεται τα διαπιστευτήρια Exchange για να εμφανίσει όλες τις συσκέψεις και τις πληροφορίες του τηλεφωνητή σας.";
+"LOCID Email Address" = "Διεύθυνση email";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Αριθμός του κινητού μου";
+"LOCID My Mobile Number Details" = "Πληκτρολογήστε τον αριθμό του iPhone σας με κωδικό χώρας και περιοχής:";
+"LOCID My Mobile Number Details iPad" = "Πληκτρολογήστε τον αριθμό του τηλεφώνου σας με κωδικό χώρας και περιοχής:";
+"LOCID My Mobile Number Footer" = "Αυτό σας επιτρέπει να πραγματοποιείτε και να λαμβάνετε επαγγελματικές κλήσεις καθώς και να συμμετέχετε σε συσκέψεις από το Skype για επιχειρήσεις.\n(Εάν χρησιμοποιείτε το VoIP και δεν είναι διαθέσιμο, αυτή είναι η εναλλακτική λύση.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Αυτό σας επιτρέπει να συμμετέχετε σε συσκέψεις από το Skype για επιχειρήσεις.\n(Εάν χρησιμοποιείτε το VoIP και δεν είναι διαθέσιμο, αυτή είναι η εναλλακτική λύση.)";
+"LOCID iPhone Number" = "Αριθμός τηλεφώνου";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Κλήση από το γραφείο";
+"LOCID Missing iPhone Number Error" = "Αριθμός χαμένου τηλεφώνου";
+"LOCID Missing iPhone Number Error Text" = "Δεν είναι δυνατή η ολοκλήρωση αυτής της κλήσης. Καταχωρήστε τον αριθμό του iPhone σας στις Επιλογές και δοκιμάστε να καλέσετε ξανά.";
+"LOCID Missing iPad Number Error Text" = "Δεν είναι δυνατή η ολοκλήρωση αυτής της κλήσης. Καταχωρήστε τον αριθμό τηλεφώνου σας στις Επιλογές και δοκιμάστε να καλέσετε ξανά.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Προτού ξεκινήσετε";
+"LOCID Main text" = "Καθένας μπορεί να χρησιμοποιήσει την εφαρμογή Skype για επιχειρήσεις, για κινητές συσκευές όταν προσκληθεί σε Σύσκεψη Skype. Ωστόσο, για να επωφεληθείτε από τις πλήρεις δυνατότητες της εφαρμογής, θα πρέπει να διαθέτετε λογαριασμό Skype για επιχειρήσεις.";
+"LOCID Understand" = "ΟΚ";
+
+/*Group Picker*/
+"LOCID More Options" = "Περισσότερες επιλογές";
+"LOCID Add Contact" = "Προσθήκη επαφής";
+"LOCID Add to Group" = "Προσθήκη σε ομάδα";
+"LOCID Remove Contact" = "Κατάργηση επαφής";
+"LOCID Remove from Group" = "Κατάργηση από ομάδα";
+"LOCID Groups" = "Ομάδες";
+"LOCID E_AddContactFailureGeneral" = "Δεν μπορούμε να προσθέσουμε αυτήν την επαφή τώρα. Προσπαθήστε ξανά αργότερα.";
+"LOCID E_AddContactFull" = "Δεν μπορείτε να προσθέσετε άλλες επαφές σε αυτήν την ομάδα.";
+"LOCID E_AddContactInGroup" = "Η επαφή βρίσκεται ήδη σε αυτήν την ομάδα.";
+"LOCID E_RemoveContactFailureGeneral" = "Δεν μπορούμε να καταργήσουμε αυτήν την επαφή τώρα. Προσπαθήστε ξανά αργότερα.";
+"LOCID Confirm Remove Contact" = "Η ενέργεια αυτή θα καταργήσει το %@ από τη λίστα επαφών σας.";
+"LOCID Ignore" = "Παράβλεψη";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Μάθετε περισσότερα";
+"LOCID CEIP More Info" = "Βοηθήστε το Skype για επιχειρήσεις να βελτιωθεί ακόμη περισσότερο, στέλνοντας ανώνυμες πληροφορίες χρήσης στη Microsoft.";
+"LOCID ceipSectionTitle" = "Πρόγραμμα βελτίωσης εμπειρίας πελατών";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Καλώς ορίσατε.";
+"LOCID Lets begin" = "Ας ξεκινήσουμε...";
+
+/* First Run Experience */
+"LOCID Close" = "Κλείσιμο";
+"LOCID Change" = "Ναι";
+"LOCID Don't change" = "Όχι";
+"LOCID Next" = "Επόμενο";
+"LOCID Done" = "Τέλος";
+"LOCID First Run First Step" = "Το Lync έγινε Skype για επιχειρήσεις - συνδυάζει την εμπειρία του Skype με την επαγγελματική ποιότητα της Microsoft.";
+"LOCID First Run Second Step" = "Οποιοσδήποτε μπορεί να χρησιμοποιήσει αυτή την εφαρμογή για να συμμετάσχει σε μια σύσκεψη Skype. Ωστόσο, για να επωφεληθείτε από τις πλήρεις δυνατότητες, θα χρειαστείτε λογαριασμό Skype για επιχειρήσεις και ο οργανισμός σας θα πρέπει να έχει ενεργοποιήσει την εφαρμογή.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "ΑΛΛΑΓΗ ΡΥΘΜΙΣΕΩΝ ΠΡΟΩΘΗΣΗΣ ΚΛΗΣΕΩΝ;";
+"LOCID First Run CF Current Settings" = "Οι τρέχουσες ρυθμίσεις σας:";
+"LOCID First Run CF Change Settings" = "Νέες ρυθμίσεις:";
+"LOCID First Run Change Summary" = "Έχετε καταχωρήσει τον αριθμό τηλεφώνου σας για να λαμβάνετε επαγγελματικές κλήσεις. Πρέπει τώρα να αλλάξουμε τις τρέχουσες ρυθμίσεις προώθησης κλήσεων προκειμένου να κτυπά το τηλέφωνό σας.";
+"LOCID First Run Change Request" = "Μπορούμε να το αλλάξουμε ώστε να λαμβάνετε τις επαγγελματικές κλήσεις στην εργασία σας και στο %@;";
+"LOCID DoNotForward Summary - First Run" = "Οι κλήσεις θα λαμβάνονται στον αριθμό εργασίας και δεν θα προωθούνται σε άλλον αριθμό.";
+"LOCID ForwardCalls Summary - First Run" = "Οι κλήσεις θα προωθούνται απευθείας στον αριθμό %@.";
+"LOCID Simulring Summary - First Run" = "Λήψη κλήσεων στην εργασία και σε %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "ΠΟΤΕ ΠΙΑ ΑΝΑΠΑΝΤΗΤΕΣ ΕΠΑΓΓΕΛΜΑΤΙΚΕΣ ΚΛΗΣΕΙΣ";
+"LOCID My Mobile Number Title 2" = "ΚΑΜΙΑ ΧΑΜΕΝΗ ΣΥΣΚΕΨΗ";
+"LOCID My Mobile Number Details First Run" = "Χρειαζόμαστε τον αριθμό του iPhone σας με κωδικό χώρας και περιοχής:";
+"LOCID My Mobile Number Details First Run_iPad" = "Χρειαζόμαστε τον αριθμό τηλεφώνου σας με κωδικό χώρας και περιοχής:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "ΔΙΑΧΕΙΡΙΣΗ ΧΡΗΣΗΣ ΔΕΔΟΜΕΝΩΝ";
+"LOCID Setup Work Calls Sub Text" = "Αυτές οι ρυθμίσεις διαχειρίζονται τη χρήση δεδομένων και τα πιθανά κόστη για κλήσεις και συσκέψεις.";
+
+"LOCID Require Wifi for VoIP calls" = "Να απαιτείται Wi-Fi για κλήσεις VoIP";
+"LOCID Require Wifi for VoIP calls off subtext" = "Όταν το Wi-Fi δεν είναι διαθέσιμο, οι κλήσεις θα χρησιμοποιούν τη σύνδεση δεδομένων σας.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Οι κλήσεις θα γίνονται πάντα μέσω Wi-Fi. Δεν θα χρησιμοποιούμε ποτέ τη σύνδεση δεδομένων σας.";
+
+"LOCID Require Wifi for Video calls" = "Να απαιτείται Wi-Fi για κλήσεις βίντεο";
+"LOCID Require Wifi for Video calls off subtext" = "Όταν το Wi-Fi δεν είναι διαθέσιμο, οι κλήσεις βίντεο θα χρησιμοποιούν τη σύνδεση δεδομένων σας. (Μπορεί να πρόκειται για μεγάλο όγκο δεδομένων.)";
+"LOCID Require Wifi for Video calls on subtext" = "Οι κλήσεις βίντεο θα γίνονται πάντα μέσω Wi-Fi. Δεν θα χρησιμοποιούμε ποτέ τη σύνδεση δεδομένων σας.";
+
+"LOCID Require Wifi for meeting content" = "Να απαιτείται Wi-Fi για περιεχόμενο σύσκεψης";
+"LOCID Require Wifi for meeting content off subtext" = "Όταν το Wi-Fi δεν είναι διαθέσιμο, θα χρησιμοποιούμε τη σύνδεση δεδομένων σας για τη λήψη περιεχομένου σύσκεψης. (Μπορεί να πρόκειται για μεγάλο όγκο δεδομένων.)";
+"LOCID Require Wifi for meeting content on subtext" = "Θα χρησιμοποιούμε πάντα το Wi-Fi για τη λήψη περιεχομένου σύσκεψης—ποτέ τη σύνδεση δεδομένων σας.";
+
+"LOCID Skip" = "Παράλειψη";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Αρχίσετε να χρησιμοποιείτε το Skype για επιχειρήσεις";
+
+"LOCID First Run Successful Setup" = "ΕΙΣΤΕ ΕΤΟΙΜΟΙ!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "ΚΑΛΩΣ ΟΡΙΣΑΤΕ!";
+"LOCID First Run Successful Setup Details" = "Μπορείτε να κάνετε αλλαγές οποιαδήποτε στιγμή από τις \"Ρυθμίσεις\".";
+
+"LOCID improve lync" = "Ας βελτιώσουμε το Skype για επιχειρήσεις";
+"LOCID whyphonenumber" = "Γιατί χρειαζόμαστε τον αριθμό του τηλεφώνου σας";
+"LOCID more detail" = "Περισσότερες λεπτομέρειες";
+
+"LOCID Emergency Call Disclaimer" = "Τα \"ψιλά\" γράμματα:";
+"LOCID Emergency Call Disclaimer Details" = "Για όλες τις κλήσεις ισχύουν οι κανονικές χρεώσεις των εταιρειών κινητής τηλεφωνίας.\n\nΣημαντικό: Μην χρησιμοποιείτε το Skype για επιχειρήσεις για κλήσεις έκτακτης ανάγκης.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Σημαντικό";
+"LOCID Emergency Call Disclaimer Details iPad" = "Μην χρησιμοποιείτε το Skype για επιχειρήσεις για κλήσεις έκτακτης ανάγκης.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Ειδοποιήσεις Push";
+"LOCID Push Notification Legal1" = "Προτού αποδεχτείτε τη χρήση των ειδοποιήσεων προώθησης, λάβετε υπόψη ότι όλες οι ειδοποιήσεις προώθησης και το περιεχόμενό τους στέλνονται μέσω της υπηρεσίας ειδοποιήσεων προώθησης της Apple και του συστήματος ειδοποιήσεων προώθησης της Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Αλλάξατε τις ρυθμίσεις ειδοποιήσεων προώθησης στις ρυθμίσεις ειδοποιήσεων του %1$@ σας, αλλά πρέπει να ξεκινήσετε ξανά το Skype για επιχειρήσεις, για να διακόψετε την παράδοση όλου του περιεχομένου ειδοποιήσεων.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Χρήση κινητού";
+"LOCID Call via Work Not Available Error" = "Δεν είναι δυνατή η κλήση μέσω Skype για επιχειρήσεις, επειδή βρίσκεστε εκτός σύνδεσης. Δοκιμάστε να καλέσετε από τον αριθμό του κινητού σας.";
+"LOCID Call via Work Not Available Error iPad" = "Δεν μπορείτε να κάνετε κλήση Skype για επιχειρήσεις γιατί είστε εκτός σύνδεσης.";
+"LOCID Answer incoming call" = "Απάντηση εισερχόμενης κλήσης";
+"LOCID to connect you to... display name" = "για να σας συνδέσει στο..\n%@";
+
+"LOCID Call via Work Connecting" = "Γίνεται σύνδεση...\n Απαντήσετε στην επόμενη εισερχόμενη κλήση.";
+"LOCID Call via Work Connected" = "Έχετε συνδεθεί από τον αριθμό %1$@";
+"LOCID Video Disclaimer" = "Δεν θα μπορείτε να δείτε ή να κάνετε κοινή χρήση βίντεο.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Συμμετέχετε από το %1$@.";
+
+/* Errors */
+"LOCID Error" = "Σφάλμα";
+"LOCID E_GenericFailure" = "Παρουσιάστηκε σφάλμα στο Skype για επιχειρήσεις. Δοκιμάστε ξανά. Αν το πρόβλημα συνεχιστεί, επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_GroupNotFound" = "Δεν μπορούμε να βρούμε αυτή την ομάδα.";
+"LOCID E_PermissionsForGroup" = "Δεν έχετε δικαίωμα επέκτασης αυτής της ομάδας.";
+"LOCID E_ConnectionError" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή. Ελέγξτε τη σύνδεση δικτύου και τη διεύθυνση διακομιστή και δοκιμάστε ξανά.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή. 1) Ενδέχεται να μην είναι διαθέσιμος. 2) Ελέγξτε τη σύνδεση του δικτύου σας. 3) Βεβαιωθείτε ότι χρησιμοποιείτε τις πληροφορίες λογαριασμού Skype για επιχειρήσεις που σας δόθηκαν από την εταιρεία σας. 4) Το όνομα χρήστη που χρησιμοποιείτε ενδέχεται να είναι διαφορετικό από το όνομα εισόδου. Πατήστε \"Επιλογές για προχωρημένους\" και πληκτρολογήστε το όνομα χρήστη ή τον τομέα\\όνομα χρήστη που χρησιμοποιείτε.";
+"LOCID E_AutoDiscoveryInBackground" = "Οι παράμετροι διακομιστή έχουν αλλάξει. Κάντε επανεκκίνηση του Skype για επιχειρήσεις.";
+"LOCID E_SslError" = "Δεν είναι δυνατή η επαλήθευση του πιστοποιητικού από το διακομιστή. Επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_SslCertExpiredError" = "Δεν είναι δυνατή η επαλήθευση του πιστοποιητικού από το διακομιστή. Επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_ProxyAuthError" = "Δεν είναι δυνατή η είσοδος. Στις ρυθμίσεις του %@ και τις \\\"Επιλογές\\\" του Skype για επιχειρήσεις, ρυθμίστε τις παραμέτρους του διακομιστή μεσολάβησης HTTP ή χρησιμοποιήστε 3G για να συνδεθείτε.";
+"LOCID E_ConnectionTimeoutError" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή. Ενδέχεται να είναι απασχολημένος ή προσωρινά μη διαθέσιμος. Δοκιμάστε ξανά.";
+"LOCID E_GenericApplicationError" = "Υπάρχει σφάλμα στην εφαρμογή. Επανεκκινήστε την εφαρμογή.";
+"LOCID E_AuthError" = "Δεν είναι δυνατή η είσοδος. Ελέγξτε τις πληροφορίες του λογαριασμού σας και δοκιμάστε ξανά.";
+"LOCID E_InvalidCredentials" = "Δεν είναι δυνατή η είσοδος. Ελέγξτε τις πληροφορίες του λογαριασμού σας και δοκιμάστε ξανά.";
+"LOCID E_InvalidSignInAddress" = "Δεν είναι δυνατή η είσοδος. Επαληθεύστε τη διεύθυνση εισόδου σας και δοκιμάστε ξανά.";
+"LOCID E_InvalidLyncAccount" = "Οι πληροφορίες εισόδου δεν είναι έγκυρες.  Πρέπει να εισέλθετε με το λογαριασμό Skype για επιχειρήσεις που παρέχεται από τον οργανισμό σας.";
+"LOCID E_WrongHomePool" = "Οι παράμετροί σας δεν έχουν ρυθμιστεί για σύνδεση με το διακομιστή. Επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_ImSendError" = "Η αποστολή απέτυχε:";
+"LOCID GenericRetryError" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή. Επανάληψη...";
+"LOCID GenericError" = "Παρουσιάστηκε σφάλμα διακομιστή. Δοκιμάστε ξανά.";
+"LOCID RequestFailed" = "Η επεξεργασία της αίτησης απέτυχε.  Δοκιμάστε ξανά.";
+"LOCID DecodingError" = "Η επεξεργασία της απόκρισης διακομιστή απέτυχε. Δοκιμάστε ξανά. Εάν το πρόβλημα παραμείνει, επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID VersionMismatch" = "Δεν είναι δυνατή η είσοδος με αυτή την έκδοση του Skype για επιχειρήσεις. Εγκαταστήστε μια νεότερη έκδοση. Εάν αυτό δεν έχει αποτέλεσμα, επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID SignInCredentialsAreNeeded" = "Έχετε εξέλθει. Χρειαζόμαστε τα στοιχεία του λογαριασμού σας για να εισέλθετε πάλι.";
+"LOCID NeedLyncPassword" = "Χρειαζόμαστε τον κωδικό πρόσβασής σας για είσοδο.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή αυτήν τη στιγμή. Δοκιμάστε ξανά.";
+"LOCID E_HttpRequestTimeout" = "Δεν είναι δυνατή η είσοδος, επειδή ο διακομιστής δεν είναι προσωρινά διαθέσιμος.";
+"LOCID E_CannotConnectToServer" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή. Επιχειρείται αποκατάσταση της σύνδεσης. Εάν το πρόβλημα συνεχιστεί, επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_InvalidServerUrl" = "Το όνομα διακομιστή είναι εσφαλμένο. Ελέγξτε το και δοκιμάστε ξανά.";
+"LOCID E_NoValidIp" = "Δεν ήταν δυνατή η σύνδεση στο δίκτυο. Ελέγξτε τις ρυθμίσεις σύνδεσης.";
+"LOCID E_MetaDataNotFound" = "Δεν είναι δυνατή η επικοινωνία με το διακομιστή. Επαληθεύστε τη διεύθυνση διακομιστή ή δοκιμάστε ξανά αργότερα.";
+"LOCID E_TimeSkewError" = "Δεν είναι δυνατός ο συγχρονισμός του ρολογιού της συσκευής σας με το διακομιστή. Αλλάξτε τις ρυθμίσεις ώρας σας ή επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_MobilityDisabled" = "Δεν είναι δυνατή η είσοδος επειδή δεν έχει ρυθμιστεί η χρήση του Skype για επιχειρήσεις. Επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_TooManyApplications" = "Δεν είναι δυνατή η είσοδός σας. Φαίνεται ότι έχετε ήδη εισέλθει από πολλές συσκευές.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Η \"Κλήση από την εργασία\" είναι απενεργοποιημένη. Πληκτρολογήστε τον αριθμό τηλεφώνου σας στις επιλογές, για να πραγματοποιήσετε μια κλήση Skype για επιχειρήσεις με αυτόν το χρήστη.";
+"LOCID E_UI_OfflineLyncCall" = "Για να πραγματοποιήσετε μια κλήση Skype για επιχειρήσεις με αυτόν το χρήστη, πρέπει να είστε στο Internet ή να έχετε σύνδεση δεδομένων κινητής τηλεφωνίας.";
+"LOCID E_EwsError" = "Δεν είναι δυνατή η σύνδεση στο Exchange. Δοκιμάστε ξανά αργότερα.";
+"LOCID E_EwsBadCredentials" = "Τα διαπιστευτήρια σύνδεσης στο Exchange δεν είναι έγκυρα. Δοκιμάστε να ενημερώσετε τα διαπιστευτήρια του Exchange ή του Skype για επιχειρήσεις.";
+"LOCID W_Retrying" = "Δεν είναι δυνατή η επικοινωνία με το διακομιστή, επανάληψη...";
+"LOCID E_UI_CallViaCellError" = "Ελέγξτε τον αριθμό και δοκιμάστε ξανά.";
+"LOCID E_LiveIdPasswordExpired" = "Ο κωδικός πρόσβασής σας έχει λήξει. Ενημερώστε τον και δοκιμάστε ξανά.";
+"LOCID E_LiveIdInvalidCredentails" = "Δεν είναι δυνατή η είσοδος. Ελέγξτε τις πληροφορίες του λογαριασμού σας και δοκιμάστε ξανά.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Ο κωδικός πρόσβασής σας πρέπει να αλλάξει. Ενημερώστε τον και δοκιμάστε ξανά.";
+"LOCID E_LiveIdPasswordLockedOut" = "Ο κωδικός πρόσβασής σας πρέπει να αλλάξει. Ενημερώστε τον και δοκιμάστε ξανά.";
+"LOCID E_LiveIdConnectionFailed" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή αυτήν τη στιγμή. Δοκιμάστε ξανά.";
+"LOCID E_LiveIdServiceUnavailable" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή αυτήν τη στιγμή. Δοκιμάστε ξανά.";
+"LOCID E_LiveIdGenericError" = "Δεν είναι δυνατή η είσοδος. Δοκιμάστε ξανά.";
+"LOCID E_InvalidLiveIDUserNameError" = "Δεν είναι δυνατή η είσοδος. Επιβεβαιώστε ότι το όνομα χρήστη που χρησιμοποιείτε είναι της μορφής someone@example.com και ότι ο κωδικός πρόσβασής σας είναι σωστός.";
+"LOCID E_InvalidSmtpAddress" = "Δεν είναι δυνατή η σύνδεση στο Exchange. Ελέγξτε τις πληροφορίες του λογαριασμού σας και δοκιμάστε ξανά.";
+"LOCID E_LogoffUnsuccessful" = "Δεν είναι δυνατή η σύνδεση στο Skype για επιχειρήσεις, επειδή χάθηκε η σύνδεση διακομιστή.";
+"LOCID E_ClientVersionMismatch" = "Δεν είναι δυνατή η είσοδος διότι ο οργανισμός σας δεν υποστηρίζει αυτή την έκδοση του Skype για επιχειρήσεις. Εγκαταστήστε το Lync 2010 από το ηλεκτρονικό κατάστημα.";
+"LOCID E_ClientServerSchemaMisMatch" = "Δεν είναι δυνατή η είσοδος με αυτή την έκδοση του Skype για επιχειρήσεις. Εγκαταστήστε μια νεότερη έκδοση. Εάν αυτό δεν έχει αποτέλεσμα, επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_ClientVersionCheck" = "Δεν είναι δυνατή η είσοδος με αυτή την έκδοση του Skype για επιχειρήσεις. Εγκαταστήστε μια νεότερη έκδοση. Εάν αυτό δεν έχει αποτέλεσμα, επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_VersionMismatch" = "Δεν είναι δυνατή η είσοδος με αυτή την έκδοση του Skype για επιχειρήσεις. Εγκαταστήστε μια νεότερη έκδοση. Εάν αυτό δεν έχει αποτέλεσμα, επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_AutoDConfigurationError" = "Δεν είναι δυνατή η είσοδος. Επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_AutoDPasswordExpiredError" = "Ο κωδικός πρόσβασής σας έχει λήξει. Ενημερώστε τον και δοκιμάστε ξανά.";
+"LOCID E_InvalidProxySettingsError" = "Δεν είναι δυνατή η είσοδος. Οι ρυθμίσεις του διακομιστή μεσολάβησης δεν είναι έγκυρες. Ελέγξτε τις και δοκιμάστε ξανά.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Έχετε αποσυνδεθεί λόγω αδράνειας.";
+"LOCID E_GeneralGoneError" = "Δεν είναι δυνατή η είσοδος. Επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_InternalServerError" = "Δεν είναι δυνατή η είσοδος. Επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_TooManyApps" = "Δεν είναι δυνατή η είσοδος. Φαίνεται ότι είστε ήδη συνδεδεμένοι με πάρα πολλές συσκευές.";
+"LOCID E_ResponseUnkown" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή. Αν χρησιμοποιείτε Wi-Fi, ανοίξτε το πρόγραμμα περιήγησης για να δείτε αν υπάρχει σύνδεση. Διαφορετικά, απενεργοποιήστε τυχόν συνδέσεις hotspot ή κοινές συνδέσεις. Αν το πρόβλημα επιμένει, επικοινωνήστε με την εταιρεία παροχής δικτύου.";
+"LOCID E_CannotLoadADFSPage" = "Δεν ήταν δυνατή η είσοδός σας. Δοκιμάστε ξανά. Αν το πρόβλημα επιμένει, επικοινωνήστε με την ομάδα υποστήριξης.";
+"LOCID E_UserNotSipEnabled" = "Δεν έχετε ρυθμιστεί για σύνδεση στο διακομιστή. Επικοινωνήστε με την ομάδα υποστήριξής σας.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Δεν μπορείτε να πραγματοποιήσετε μια κλήση VoIP αυτήν τη στιγμή. Δοκιμάστε να καλέσετε από τον αριθμό του κινητού σας.";
+"LOCID E_VoicePSTNCallActive" = "Δεν μπορείτε να πραγματοποιήσετε μια κλήση VoIP αυτήν τη στιγμή. Δοκιμάστε να καλέσετε από τον αριθμό εργασίας σας.";
+"LOCID E_VoicePSTNCallActive - Button" = "Κλήση από το γραφείο";
+"LOCID E_VideoOverWiFiBlocked" = "Αυτή ήταν μια πρόσκληση σε κλήση βίντεο, αλλά, αφού δεν έχετε σύνδεση Wi-Fi, συνδέσαμε μόνο τον ήχο.";
+"LOCID E_HistoryNotDisplayed" = "Δεν είναι δυνατό να εμφανιστεί το ιστορικό για αυτήν τη συζήτηση.";
+"LOCID E_IMAcceptedElsewhere" = "Αποδεχτήκατε αυτήν τη συζήτηση από κάπου αλλού. Για να την επανεκκινήσετε, στείλτε ένα νέο μήνυμα.";
+"LOCID E_MuteFailed" = "Εξαιτίας ενός σφάλματος, οι άλλοι δεν μπορούν να δουν ότι είστε σε σίγαση αυτήν τη στιγμή.";
+"LOCID E_UnmuteFailed" = "Εξαιτίας ενός σφάλματος, είστε ακόμα σε σίγαση. Δοκιμάστε ξανά να διακόψετε τη σίγαση.";
+"LOCID E_DgExpansionGenericFailure" = "Δεν είναι δυνατή η λήψη μελών ομάδας για αποστολή πρόσκλησης. Δοκιμάστε ξανά αργότερα.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Η ομάδα είναι πολύ μεγάλη για αποστολή πρόσκλησης.";
+"LOCID E_DgExpansionNoMembersFailure" = "Η ομάδα δεν έχει μεμονωμένα μέλη και δεν είναι δυνατή η αποστολή πρόσκλησης.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "Ο χρήστης %@ δεν είναι διαθέσιμος ή ίσως βρίσκεται εκτός σύνδεσης.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "Η κατάσταση του χρήστη %@ είναι \"Μην ενοχλείτε\".";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "Ο αριθμός %@ δεν λειτουργεί. Ελέγξτε τον αριθμό.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "Ο χρήστης %@ βρίσκεται σε άλλη κλήση.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "Ο χρήστης %@ δεν απάντησε.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "Ο χρήστης %@ δεν μπορεί να απαντήσει στην κλήση.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Δεν είναι δυνατή η ολοκλήρωση αυτής της κλήσης ενώ βρίσκεστε εκτός σύνδεσης. Δοκιμάστε να πραγματοποιήσετε είσοδο στο Skype για επιχειρήσεις, για να πραγματοποιήσετε την κλήση.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Η λειτουργία δεν ήταν επιτυχής.";
+"LOCID E_VoiceGenericError" = "Η κλήση δεν ολοκληρώθηκε ή τερματίστηκε.";
+"LOCID E_VoiceFeatureNotEnabled" = "Η δυνατότητα κλήσεων είναι απενεργοποιημένη.";
+"LOCID E_VoiceCheckNumber" = "Ελέγξτε τον αριθμό και δοκιμάστε ξανά.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Δεν ήταν δυνατή η ολοκλήρωση της κλήσης. Δοκιμάστε ξανά αργότερα.";
+"LOCID E_VoiceCallUnsuccessful" = "Δεν είναι δυνατή η σύνδεση της κλήσης.";
+"LOCID E_VoiceCallTypeNotSupported" = "Η κλήση απέτυχε. Αυτός ο τύπος κλήσης δεν υποστηρίζεται.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Αυτό το μήνυμα ενδέχεται να μην στάλθηκε στο χρήστη %@ επειδή έληξε το χρονικό όριο του διακομιστή:";
+
+"LOCID E_SharingAnotherOperation" = "Προσπαθούμε να βρούμε μια εναλλακτική λύση για εσάς. Περιμένετε λίγο και δοκιμάστε ξανά.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "Ο χρήστης %@ δεν έλαβε το μήνυμα, λόγω σφάλματος διακομιστή:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "Ο χρήστης %@ βρίσκεται εκτός σύνδεσης και δεν έλαβε το μήνυμα:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "Ο χρήστης %@ είναι σε κατάσταση \"Μην ενοχλείτε\" και δεν έλαβε αυτό το μήνυμα:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Δεν μπορέσαμε να στείλουμε αυτό το μήνυμα επειδή δεν ήταν δυνατή η εύρεση του χρήστη %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Δεν είναι δυνατή η αποστολή του μηνύματος, λόγω αποκλεισμένου περιεχομένου:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "Δεν μπορέσαμε να επικοινωνήσουμε με το χρήστη %@ για να στείλουμε αυτό το μήνυμα:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Δεν μπορέσαμε να ολοκληρώσουμε την κλήση σας.";
+
+"LOCID E_ConfLocked" = "Δεν μπορείτε να συμμετάσχετε στη σύσκεψη επειδή είναι κλειδωμένη. Προσπαθήστε να επικοινωνήσετε με τον διοργανωτή.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Υπάρχει μια ασυμφωνία κρυπτογράφησης ανάμεσα σε εσάς και τον χρήστη %@. Επικοινωνήστε με την ομάδα υποστήριξης.";
+
+"LOCID E_ConferencingServerError" = "Παρουσιάστηκε σφάλμα διακομιστή. Επικοινωνήστε με την ομάδα υποστήριξης.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "Δεν είναι δυνατή η επικοινωνία με το χρήστη %@ και ίσως να βρίσκεται εκτός σύνδεσης.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "Ο χρήστης %@ έχει κατάσταση \"Μην ενοχλείτε\" και δεν είναι δυνατή η επικοινωνία μαζί του.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "Ο χρήστης %@ δεν απάντησε στην πρόσκληση.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Δεν είναι δυνατή η επικοινωνία με το χρήστη %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Δεν έχουν γίνει ρυθμίσεις για συμμετοχή σε συσκέψεις Skype.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Δεν είναι δυνατή η συμμετοχή στη διάσκεψη, ενώ η εφαρμογή δεν έχει εισέλθει.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = "Δεν ήταν δυνατή η συμμετοχή του χρήστη %@ στη σύσκεψη.";
+"LOCID E_ConferencingEnded" = "Η σύσκεψη στην οποία προσπαθείτε να συμμετάσχετε δεν είναι διαθέσιμη.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Δεν είναι δυνατή η επικοινωνία με το χρήστη %@. Δοκιμάστε ξανά αργότερα.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "Δεν είναι δυνατή η εύρεση του χρήστη %@. Ελέγξτε τη διεύθυνση.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Δεν είναι δυνατή η επικοινωνία με το χρήστη %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "Ο χρήστης %@ απέρριψε την πρόσκλησή σας.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Ένας παρουσιαστής τερμάτισε τη σύσκεψη.";
+"LOCID E_ConferencingCallDisconnected" = "Η κλήση αποσυνδέθηκε.";
+"LOCID ConferenceUnexpectedDisconnect" = "Έχετε αποσυνδεθεί από τη διάσκεψη.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Η κλήση δεν ολοκληρώθηκε ή τερματίστηκε.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Δεν είναι δυνατή η προσθήκη του χρήστη %@ στη σύσκεψη, επειδή το δίκτυο είναι απασχολημένο.";
+
+"LOCID E_ConferencingCannotConnect" = "Η κλήση δεν ολοκληρώθηκε ή τερματίστηκε.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Δεν είναι δυνατή η σύνδεση σε αυτόν τον τύπο ηλεκτρονικής σύσκεψης.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Δεν είναι δυνατή η πρόσκληση του χρήστη %@, επειδή η σύσκεψη είναι πλήρης.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Δεν είναι δυνατή η συμμετοχή στη σύσκεψη ως ανώνυμος συμμετέχων.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Δεν είναι δυνατή η συμμετοχή στη σύσκεψη, λόγω σφάλματος πρόσκλησης.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Δεν έχετε δικαίωμα συμμετοχής στη σύσκεψη.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Δεν μπορέσαμε να σας συνδέσουμε στη σύσκεψη. Δοκιμάστε ξανά.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Δεν είναι δυνατή η συμμετοχή στη σύσκεψη εκτός του οργανισμού σας.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Δεν είναι δυνατή η συμμετοχή σε αυτόν τον τύπο ηλεκτρονικής σύσκεψης.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Δεν είναι δυνατή η επικοινωνία με το χρήστη %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Δεν είναι δυνατή η έναρξη μιας σύσκεψης, επειδή ξεκινά μια άλλη σύσκεψη.";
+"LOCID E_ConferencingEncryptionIssues" = "Δεν είναι δυνατή η έναρξη της σύσκεψης Skype λόγω προβλημάτων κρυπτογράφησης.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Δεν έχετε επαρκή δικαιώματα για συμμετοχή από άλλη συσκευή ή για κλήση σε άλλη συσκευή.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Η κλήση δεν ολοκληρώθηκε ή τερματίστηκε.";
+"LOCID E_ConferencingFull" = "Η σύσκεψη είναι πλήρης.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Δεν έχετε δικαίωμα συμμετοχής σε αυτήν τη σύσκεψη.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Η πρόσκληση στο χρήστη %@ έληξε.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Η σύσκεψη τερματίστηκε, επειδή οι διοργανωτές αποχώρησαν.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Δεν μπορείτε να συμμετάσχετε στη σύσκεψη, επειδή το δίκτυο είναι απασχολημένο.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Η γραμμή θέματος είναι υπερβολικά μεγάλη.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Η δυνατότητα σύσκεψης δεν είναι ενεργοποιημένη από τον οργανισμό σας.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Η σύσκεψη τερματίστηκε λόγω αδράνειας.";
+"LOCID E_ConferencingCannotBeFound" = "Δεν είναι δυνατή η εύρεση της ηλεκτρονικής σύσκεψης.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Δεν έχετε δικαίωμα συμμετοχής σε αυτήν τη σύσκεψη.";
+"LOCID E_ConferencingUserNotAdmitted" = "Δεν έγινε αποδεκτή η συμμετοχή σας στη σύσκεψη.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Καταργηθήκατε από τη σύσκεψη.";
+"LOCID E_ConfGenericError" = "Δεν ήταν δυνατή η συμμετοχή σας στη σύσκεψη. Δοκιμάστε ξανά.";
+"LOCID E_ConferenceDenied" = "Ο παρουσιαστής απέρριψε την είσοδό σας.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Βρίσκεστε ήδη σε σύσκεψη. Θέλετε να βγείτε από την τρέχουσα σύσκεψη και να συνδεθείτε σε αυτή;";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Ο διακομιστής δεν υποστηρίζει ανώνυμη συμμετοχή στη σύσκεψη μέσω αυτής της συσκευής.";
+"LOCID ConferenceVideoLock" = "Ένας παρουσιαστής κλείδωσε την ανάδειξη εικόνας σε κάποιον.";
+"LOCID ConferenceVideoUnlock" = "Ένας παρουσιαστής ξεκλείδωσε την ανάδειξη εικόνας.";
+"LOCID ConferenceVideoSelfLock" = "Όλοι είναι κλειδωμένοι στο βίντεό σας.";
+"LOCID ConferenceVideoSelfUnlock" = "Κανείς δεν είναι πλέον κλειδωμένος στο βίντεό σας.";
+
+"LOCID E_DomainNotTrusted" = "Δεν είναι δυνατή η σύνδεση στο διακομιστή. Αποδεχτείτε την προτροπή ανακατεύθυνσης.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "Ο χρήστης %@ δεν έλαβε το μήνυμα, επειδή αυτή η μορφή δεν επιτρέπεται:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Η συσκευή που χρησιμοποιεί ο χρήστης %@ δεν μπορεί να λάβει μηνύματα.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "Ο χρήστης %@ δεν έλαβε το μήνυμα, επειδή είναι πολύ μεγάλο:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "Ο χρήστης %@ δεν έλαβε το μήνυμα, επειδή η πολιτική περιορίζει την παράδοση:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Δεν μπορούμε να στείλουμε το άμεσο μήνυμά σας—είστε ήδη σε συζήτηση με το χρήστη %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Δεν είναι δυνατή η αποστολή του μηνύματος, λόγω αποκλεισμένου περιεχομένου:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Δεν έχετε εξουσιοδότηση να στέλνετε άμεσα μηνύματα στο χρήστη %@. Δεν το στείλαμε αυτό:";
+
+"LOCID E_IMConfGenericError" = "Ένας ή περισσότεροι συμμετέχοντες δεν έλαβαν αυτό το μήνυμα:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "Ο χρήστης %@ δεν είναι διαθέσιμος.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Η κλήση τερματίστηκε, επειδή ο χρήστης %@ πραγματοποίησε έξοδο.";
+
+"LOCID E_VoiceCallTimeout" = "Η κλήση δεν ολοκληρώθηκε εξαιτίας προβλημάτων δικτύου. Δοκιμάστε ξανά.";
+"LOCID E_VoiceCallDisconnected" = "Η κλήση αποσυνδέθηκε. Δοκιμάστε ξανά.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Η κλήση δεν ολοκληρώθηκε ή τερματίστηκε.";
+"LOCID E_VoiceCallNotCompleted" = "Ο χρήστης %@ δεν μπορεί να λάβει κλήσεις. Δοκιμάστε την ανταλλαγή άμεσων μηνυμάτων ή το ηλεκτρονικό ταχυδρομείο.";
+"LOCID E_VoiceServerError" = "Δεν είναι δυνατή η σύνδεση της κλήσης, λόγω σφάλματος διακομιστή. Δοκιμάστε ξανά.";
+"LOCID E_VoiceCannotConnect" = "Δεν είναι δυνατή η σύνδεση στην ηλεκτρονική σύσκεψη.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Δεν είναι δυνατή η επικοινωνία με το χρήστη %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Δεν είναι δυνατός ο εντοπισμός του χρήστη %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "Δεν είναι δυνατή η έναρξη της σύσκεψης Skype λόγω προβλημάτων κρυπτογράφησης.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Το άτομο που καλέσατε απάντησε με άμεσο μήνυμα.";
+"LOCID E_VoiceCannotCompleteCall" = "Δεν είναι δυνατή η ολοκλήρωση της κλήσης για τον αριθμό που πληκτρολογήσατε.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Δεν είναι δυνατή η ολοκλήρωση της κλήσης, λόγω προβλήματος στο διακομιστή.";
+"LOCID E_VoiceServerCannotForwardCall" = "Ο διακομιστής δεν μπορεί να προωθήσει την κλήση. Δοκιμάστε ξανά.";
+"LOCID E_VoiceServerDidNotRespond" = "Ο διακομιστής δεν ανταποκρίνεται. Δοκιμάστε ξανά αργότερα.";
+"LOCID E_VoiceCannotPlaceCall" = "Δεν είναι δυνατή η κλήση. Ελέγξτε τον αριθμό και δοκιμάστε ξανά.";
+"LOCID E_VoiceNumberNotSupported" = "Ο οργανισμός σας δεν υποστηρίζει την κλήση αυτού του αριθμού.";
+"LOCID E_IncomingPSTNCall" = "Δεν μπορέσαμε να ολοκληρώσουμε την κλήση σας.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Δεν μπορείτε να καλέσετε το %@ επειδή οι κλήσεις περιορίζονται από πολιτική.";
+
+"LOCID E_CallFailed" = "Η κλήση σας τερματίστηκε λόγω ζητημάτων συνδεσιμότητας. Δοκιμάστε ξανά.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Αποσυνδεθήκατε επειδή εισήλθατε από άλλο πρόγραμμα-πελάτη.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Καταργηθήκατε από τη σύσκεψη.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Δεν ήταν δυνατή η ολοκλήρωση της κλήσης, επειδή το δίκτυο είναι απασχολημένο.";
+"LOCID E_VoiceNotSupported" = "Ο χρήστης %@ δεν μπορεί να αποδεχθεί κλήσεις ήχου.";
+"LOCID E_RepliedWIthOtherModality" = "Ο αποδέκτης επέλεξε να απαντήσει με άμεσο μήνυμα.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Δεν είναι δυνατή η ενημέρωση του ιστορικού συνομιλίας αυτήν τη στιγμή και ίσως να μην είναι συγχρονισμένο.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Δεν είναι δυνατή η ενημέρωση του ιστορικού συνομιλίας αυτήν τη στιγμή και ίσως να μην είναι συγχρονισμένο.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Δεν είναι δυνατή η προώθηση κλήσεων σε αυτήν την επαφή. Επιλέξτε μία από τις επαφές σας στο Skype για επιχειρήσεις, για να κάνετε προώθηση κλήσεων ή επιλέξτε \"Νέος αριθμός\" για να εισαγάγετε έναν αριθμό τηλεφώνου.";
+
+// Conversation window alerts
+"LOCID TTY On" = "Η λειτουργία TTY είναι ενεργοποιημένη";
+"LOCID RemoteHoldSucceeded" = "Ο απομακρυσμένος χρήστης σας έθεσε σε αναμονή.";
+"LOCID RemoteUnholdSucceeded" = "Η απομακρυσμένη διακοπή αναμονής ολοκληρώθηκε με επιτυχία";
+"LOCID LocalHoldSucceeded" = "Η τοπική θέση σε αναμονή ολοκληρώθηκε με επιτυχία";
+"LOCID LocalUnholdSucceeded" = "Η τοπική διακοπή αναμονής ολοκληρώθηκε με επιτυχία";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Συνέχιση κλήσης";
+"LOCID is recording" = "Ο χρήστης %@ κάνει εγγραφή";
+"LOCID Multiple Recording" = "Κάποιος κάνει εγγραφή";
+"LOCID OnHoldOutOfApp" = "Η κλήση %@ είναι σε αναμονή.";
+"LOCID OnStopOutOfApp" = "Η κλήση %@ τερματίστηκε.";
+"LOCID RecordingAlert" = "Ο χρήστης %@ εγγράφει αυτήν την κλήση.";
+"LOCID CoversationP2PIsRecording" = "Ο χρήστης %@ εγγράφει αυτήν την κλήση.";
+"LOCID CoversationP2PIsRecordingNoName" = "Γίνεται εγγραφή αυτής της κλήσης.";
+"LOCID CoversationConferenceIsRecording" = "Κάποιος πραγματοποιεί εγγραφή της σύσκεψης.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Η λίστα είναι σχεδόν πλήρης. Οι πιο παλιές συζητήσεις θα καταργούνται καθώς θα προστίθενται νέες.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Ένας παρουσιαστής έθεσε σε σίγαση το ακροατήριο.";
+"LOCID Audience Unlock" = "Ένας παρουσιαστής κατάργησε τη σίγαση του ακροατηρίου.";
+"LOCID Conference Mute" = "Ένας παρουσιαστής σάς έθεσε σε σίγαση.";
+"LOCID Conference Unmute" = "Ένας παρουσιαστής θέλει να διακόψετε τη σίγασή σας μόνοι σας.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Ένας παρουσιαστής απέκλεισε τους παρευρισκόμενους από την αποστολή βίντεο.";
+"LOCID PresenterBlockedVideo - Presenter" = "Ένας παρουσιαστής απέκλεισε τους παρευρισκόμενους από την αποστολή βίντεο. Εάν είστε παρουσιαστής, μπορείτε να ενεργοποιήσετε την κάμερά σας και να κάνετε κοινή χρήση του βίντεό σας.";
+"LOCID PresenterBlockedVideo - Unblock" = "Ένας παρουσιαστής διέκοψε τον αποκλεισμό των παρευρισκόμενων από την αποστολή βίντεο.";
+"LOCID VideoLockOnYou" = "Όλοι είναι κλειδωμένοι στο βίντεό σας.";
+"LOCID VideoLock" = "Ένας παρουσιαστής κλείδωσε την ανάδειξη εικόνας σε κάποιον.";
+"LOCID VideoNotLockOnYou" = "Κανείς δεν είναι πλέον κλειδωμένος στο βίντεό σας.";
+"LOCID VideoSpotlightUnlocked" = "Ένας παρουσιαστής ξεκλείδωσε την ανάδειξη εικόνας.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Πίσω";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Η \"Κλήση από το γραφείο\" δεν είναι διαθέσιμη.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Κανένα μήνυμα τηλεφωνητή";
+"LOCID You currently have no voicemail messages" = "Δεν έχετε κανένα μήνυμα τηλεφωνητή.";
+"LOCID Audio" = "Ήχος";
+"LOCID Speaker" = "Ηχείο";
+"LOCID Can not play locally" = "Δεν είναι δυνατή η αναπαραγωγή αυτού του μηνύματος. Πατήστε \"Αναπαραγωγή\", για να λάβετε μια κλήση και να το ακούσετε.";
+"LOCID Play Voice Mail" = "Αναπαραγωγή τηλεφωνητή";
+"LOCID PLAY_VOICEMAIL_HINT" = "Αναπαράγει το φωνητικό ταχυδρομείο";
+"LOCID Pause Voice Mail" = "Παύση τηλεφωνητή";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Διακόπτει προσωρινά το φωνητικό ταχυδρομείο";
+"LOCID Play On Phone Error - No Number" = "Για επιστροφή κλήσης, πρέπει να πληκτρολογήσετε τον αριθμό τηλεφώνου σας στις \"Επιλογές\".";
+"LOCID Call Back" = "Επιστρ. κλήσης";
+"LOCID Delete" = "Διαγραφή";
+"LOCID More voicemails iPad" = "Για να ακούσετε παλαιότερα μηνύματα, πατήστε το εικονίδιο τηλεφωνητή.";
+"LOCID More voicemails" = "Για να ακούσετε παλαιότερα μηνύματα, πατήστε παρατεταμένα τον αριθμό 1 στο πληκτρολόγιο ή μεταβείτε στο Outlook.";
+"LOCID More voicemails No keypad" = "Μεταβείτε στο Outlook, για να ακούσετε παλαιότερα μηνύματα τηλεφωνητή.";
+"LOCID Can not play IRMed" = "Αυτό το μήνυμα υπόκειται σε διαχείριση δικαιωμάτων. Πατήστε \"Αναπαραγωγή\" για να το ακούσετε.";
+"LOCID Lync Call" = "Κλήση Skype για επιχειρήσεις";
+"LOCID Can't play on phone" = "Δεν μπορούμε να κάνουμε αναπαραγωγή του μηνύματος. Ελέγξτε τη σύνδεση δικτύου σας και δοκιμάστε ξανά αργότερα.";
+"LOCID Yes" = "Ναι";
+"LOCID No" = "Όχι";
+"LOCID VMCallerID" = "Τηλεφωνητής";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Αναπαραγωγή του φωνητικού ταχυδρομείου σε κανονική ταχύτητα";
+"LOCID VM Playback -2X Acc" = "Αναπαραγωγή του φωνητικού ταχυδρομείου πιο αργά στη μισή ταχύτητα";
+"LOCID VM Playback 2X Acc" = "Αναπαραγωγή του φωνητικού ταχυδρομείου πιο γρήγορα στη διπλάσια ταχύτητα";
+"LOCID Voicemail From" = "Τηλεφωνητής από %@";
+"LOCID No Voicemails Placeholder" = "Τα μηνύματα φωνητικού ταχυδρομείου σας θα εμφανίζονται εδώ";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Ματαίωση";
+"LOCID Accept" = "Αποδοχή";
+"LOCID Not yet implemented feature" = "Αυτή η δυνατότητα δεν έχει υλοποιηθεί ακόμη. Δοκιμάστε ξανά σε μελλοντική έκδοση.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Έχετε 1 νέο μήνυμα τηλεφωνητή";
+"LOCID Missed VMs" = "Έχετε %d νέα μηνύματα φωνητικού ταχυδρομείου";
+"LOCID Missed Collab Out of App" = "Αναπάντητη περίοδος λειτουργίας συνεργασίας από %@";
+"LOCID Missed Video Call Out of App" = "Αναπάντητη κλήση βίντεο από %@";
+"LOCID Missed Audio Call Out of App" = "Αναπάντητη κλήση από %@";
+"LOCID Missed Message Out of App" = "Αναπάντητο άμεσο μήνυμα από %@";
+"LOCID Missed Audio Conf Out of App" = "Αναπάντητη κλήση διάσκεψης από %@";
+
+"LOCID Audio Call Out of App" = "Κλήση από %@";
+"LOCID Conference Call Out of App" = "Κλήση διάσκεψης από %@";
+"LOCID Dismiss Call" = "Παράβλεψη";
+"LOCID Answer Call" = "Αποδοχή";
+"LOCID Answer Call with Video" = "Βίντεο";
+"LOCID Audio Call" = "Κλήση";
+"LOCID Conference Call" = "Κλήση διάσκεψης";
+"LOCID Unknown Caller" = "Άγνωστος καλών";
+
+"LOCID Video conf accessibility" = "Διάσκεψη με βίντεο από %@";
+"LOCID Video accessibility" = "Κλήση βίντεο από %@";
+"LOCID Audio conf accessibility" = "Κλήση διάσκεψης από %@";
+"LOCID Audio accessibility" = "Κλήση από %@";
+
+"LOCID Video Call Out of App" = "Κλήση βίντεο από %@";
+"LOCID Video Conference Call Out of App" = "Διάσκεψη με βίντεο από %@";
+"LOCID Video Call" = "Κλήση βίντεο";
+"LOCID Video Conference Call" = "Διάσκεψη με βίντεο";
+"LOCID Video Escalation Name" = "Ο χρήστης %@ κάνει κοινή χρήση βίντεο";
+"LOCID Video Escalation" = "κάνει κοινή χρήση βίντεο";
+"LOCID Video Escalation Conf" = "Κάποιος κάνει κοινή χρήση βίντεο";
+"LOCID VideoInvitationRejected" = "Το τμήμα βίντεο της κλήσης δεν έγινε αποδεκτό.  Η κλήση θα συνεχιστεί μόνο με ήχο.";
+"LOCID E_VideoDecline" = "Ο χρήστης %@ δεν αποδέχτηκε το βίντεό σας.";
+"LOCID E_VideoGeneric" = "Δεν μπορέσαμε να ξεκινήσουμε το βίντεό σας. Δοκιμάστε ξανά.";
+"LOCID E_VideoNotStarted" = "Δεν μπορέσαμε να ξεκινήσουμε το βίντεό σας.";
+"LOCID E_VideoNotSupported" = "Ο χρήστης %@ δεν μπορεί να αποδεχθεί κλήσεις βίντεο.";
+"LOCID E_VideoNotAccepted" = "Το τμήμα βίντεο της κλήσης δεν έγινε αποδεκτό από το χρήστη %@. Η κλήση θα συνεχιστεί μόνο με ήχο.";
+
+"LOCID E_VoiceTransferGenericError" = "Δεν ήταν δυνατή η μεταφορά της κλήσης.";
+"LOCID E_VoiceTransferParticipantError" = "Δεν ήταν δυνατή η μεταφορά της κλήσης επειδή δεν είναι δυνατή η επικοινωνία με τον αποδέκτη.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "σίγαση";
+"LOCID Mute Capitalized" = "Σίγαση";
+"LOCID Unmute" = "Κατάργηση σίγασης";
+"LOCID keypad" = "πληκτρολόγιο";
+"LOCID add call" = "προσθήκη κλήσης";
+"LOCID hold" = "αναμονή";
+"LOCID End" = "Τέλος";
+"LOCID Hide Keypad" = "Απόκρυψη πληκτρολογίου";
+"LOCID Call Lync" = "Κλήση Skype για επιχειρήσεις";
+"LOCID Call Work" = "Εργασία: %@";
+"LOCID Call Mobile" = "Κινητό: %@";
+"LOCID Call Home" = "Οικία: %@";
+"LOCID Call Other" = "Άλλο: %@";
+"LOCID Decline" = "Απόρριψη";
+"LOCID Video Menu" = "Μενού βίντεο";
+"LOCID Hold Call" = "Κράτηση κλήσης";
+"LOCID Hang Up" = "Τερματισμός κλήσης";
+"LOCID Dial Pad Only" = "Πληκτρολόγιο";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u συμμετέχοντες - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u συμμετέχων - %@";
+"LOCID Call Status Connecting" = "Γίνεται σύνδεση...";
+"LOCID Call Status Connecting Remote" = "Γίνεται σύνδεση...";
+"LOCID Call Status Connected" = "Συνδεδεμένοι";
+"LOCID Call Status On Hold - Passive" = "Αναμονή";
+"LOCID Call Status On Hold" = "Σε αναμονή";
+"LOCID Call Status Ended" = "Η κλήση τερματίστηκε";
+"LOCID Call Status Transfering" = "Μεταφορά";
+"LOCID On behalf of" = "Εκ μέρους του χρήστη %@";
+"LOCID Call for" = "Κλήση του χρήστη %@";
+"LOCID Call for - Astana" = "Κλήση του χρήστη %@";
+"LOCID Transferred by" = "Μεταφορά από το χρήστη %@";
+"LOCID Forwarded by" = "Προώθηση από το χρήστη %@";
+"LOCID Private call" = "Ιδιωτική κλήση";
+"LOCID Also ringing" = "Κλήση επίσης στο %@";
+"LOCID Also ringing delegates" = "Κλήση επίσης στους πληρεξουσίους σας";
+"LOCID Will ring" = "Θα καλέσει στο %@";
+"LOCID Also ringing team call" = "Κλήση επίσης στην ομάδα σας";
+"LOCID The recipient" = "Ο αποδέκτης";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Προετοιμασία ...";
+"LOCID DataCollab Connecting" = "Γίνεται σύνδεση ...";
+"LOCID DataCollab Loading" = "Φόρτωση...";
+"LOCID DataCollab No Content" = "Οι παρουσιαστές έχουν διακόψει την κοινή χρήση του περιεχομένου.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Η δυνατότητα κοινής χρήσης δεδομένων δεν είναι διαθέσιμη λόγω αποτυχίας σύνδεσης διακομιστή.";
+"LOCID DisconnectedOnConnectivityIssue" = "Ορισμένες δυνατότητες παρουσίασης δεν είναι διαθέσιμες λόγω ζητημάτων συνδεσιμότητας διακομιστή.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Έχετε αποσυνδεθεί, επειδή συνδεθήκατε από διαφορετικό υπολογιστή-πελάτη.";
+"LOCID DisconnectedOnNetworkFailure" = "Προβλήματα δικτύου εμποδίζουν την προβολή της παρουσίασης.";
+"LOCID DataCollab Known UnSupported" = "Ο παρουσιαστής χρησιμοποιεί μια δυνατότητα που δεν υποστηρίζεται από αυτήν την έκδοση του Skype για επιχειρήσεις.";
+"LOCID DataCollab Generic UnSupported" = "Ο παρουσιαστής χρησιμοποιεί μια δυνατότητα που δεν υποστηρίζεται από αυτήν την έκδοση του Skype για επιχειρήσεις ή ενδέχεται να έχει συνδεθεί σε παλαιότερο διακομιστή.";
+"LOCID DataCollab ContentPresenter" = "Παρουσιαστής: %@";
+"LOCID DataCollab NoPresenter" = "Κανείς δεν κάνει παρουσίαση";
+"LOCID Collab Unsupported PPTContent" = "Δεν μπορούμε να αναπαραγάγουμε το πολυμέσο σε αυτήν την παρουσίαση.";
+"LOCID Retry" = "Επανάληψη";
+"LOCID DataCollab Generic PPT Error" = "Ορισμένες δυνατότητες παρουσίασης δεν είναι διαθέσιμες λόγω ζητημάτων συνδεσιμότητας διακομιστή.";
+"LOCID Start Viewing" = "Έναρξη προβολής";
+"LOCID Stop Viewing" = "Διακοπή προβολής";
+"LOCID Collab Escalation" = "Ο χρήστης %@ θέλει να ξεκινήσει παρουσίαση";
+"LOCID PowerPoint content Accessibility" = "Περιεχόμενο PowerPoint";
+
+"LOCID SyncPresenterButton" = "Συγχρονισμός στην προβολή παρουσιαστή";
+"LOCID NavigateBackButton" = "Πίσω κατά μία διαφάνεια";
+"LOCID NavigateForwardButton" = "Εμπρός κατά μία διαφάνεια";
+"LOCID SlideNumber" = "%1$d από %2$d";
+"LOCID SlideNumber Accessibility" = "Διαφάνεια %1$d από %2$d";
+
+"LOCID E_SharingDisabled" = "Η δυνατότητα παρουσίασης είναι απενεργοποιημένη.";
+"LOCID E_SharingNetworkIssues" = "Δεν μπορείτε να παρουσιάσετε λόγω προβλημάτων δικτύου. Δοκιμάστε ξανά αργότερα.";
+"LOCID E_SharingNotSupported" = "Δεν υποστηρίζονται παρουσιάσεις με αυτή την επαφή.";
+"LOCID E_SharingTimeout" = "Η παρουσίαση δεν ξεκίνησε επειδή ο διακομιστής είναι απασχολημένος. Δοκιμάστε ξανά αργότερα.";
+"LOCID SharingAnotherType" = "Αυτή η παρουσίαση τερματίστηκε επειδή ξεκίνησε μια άλλη.";
+"LOCID E_GetMediaSdpFailed" = "Δεν είναι δυνατή η σύνδεσή σας στην παρουσίαση επιφάνειας εργασίας ή προγράμματος αυτήν τη στιγμή.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Δεν θα δείτε το περιεχόμενο που παρουσιάζεται επειδή δεν είστε συνδεδεμένοι με Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "Δεν μπορείτε να πραγματοποιήσετε κλήση Skype για επιχειρήσεις, επειδή δεν είστε συνδεδεμένοι σε Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Η παρουσίαση είναι υπερβολικά μεγάλη για προβολή στη συσκευή σας.";
+"LOCID E_CollabDisconnectedNetworkError" = "Έχετε αποσυνδεθεί από την παρουσίαση λόγω προβλημάτων δικτύου.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Έχετε αποσυνδεθεί, επειδή συνδεθήκατε από διαφορετικό υπολογιστή-πελάτη.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Η κοινή χρήση περιεχομένου φορτώνεται.";
+"LOCID AppSharing Shared Content" = "Κοινόχρηστο περιεχόμενο.";
+"LOCID AppSharing Desktop" = "Επιφάνεια εργασίας";
+"LOCID AppSharing Application" = "Εφαρμογή";
+"LOCID AppSharing SharingPaused" = "Υπάρχει παύση της κοινής χρήσης αυτήν τη στιγμή."; // Not used
+"LOCID AppSharing SharingIdle" = "Η κοινή χρήση είναι επί του παρόντος αδρανής."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Όλοι οι πόροι είναι ελαχιστοποιημένοι."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "Ο χρήστης %@ προσπάθησε να ξεκινήσει μια παρουσίαση οθόνης, αλλά αυτή η έκδοση της εφαρμογής υποστηρίζει αυτήν τη δυνατότητα μόνο σε κλήσεις διάσκεψης και συσκέψεις Skype.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Έναρξη IM";
+"LOCID send IM" = "Αποστολή";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Τερματισμός συζήτησης";
+"LOCID View Contact Card" = "Εμφάνιση κάρτας επαφής";
+"LOCID Invite Others" = "Πρόσκληση άλλων";
+"LOCID Send Location action" = "Αποστολή τοποθεσίας";
+"LOCID Send as Email action" = "Αποστολή ως email";
+"LOCID View Participants" = "Εμφάνιση συμμετεχόντων";
+"LOCID Rejoin" = "Επανάληψη συμμετοχής";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Διπλό κτύπημα για ανάπτυξη";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Κακή ποιότητα κλήσης";
+"LOCID ACI Call Muted" = "Αυτήν τη στιγμή είναι σε σίγαση, πατήστε δύο φορές για κατάργηση σίγασης";
+"LOCID ACI Call Unmuted" = "Αυτήν τη στιγμή είναι σε κατάργηση σίγασης, πατήστε δύο φορές για σίγαση";
+
+/* Search results */
+"LOCID No Results" = "Δεν υπάρχουν αποτελέσματα";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "Το %@ τερματίστηκε απροσδόκητα";
+"LOCID Dont Send" = "Να μην αποσταλεί";
+"LOCID Send Report" = "Αποστολή αναφοράς";
+"LOCID Would you like to send a report so we can fix the problem" = "Θέλετε να γίνει αποστολή αναφοράς ώστε να διορθώσουμε το πρόβλημα;";
+
+// Skype for Business
+"LOCID Product Name" = "Skype για επιχειρήσεις";
+
+// Timeline
+"LOCID Timeline Home" = "οικία";
+"LOCID Timeline Contacts" = "επαφές";
+"LOCID Timeline Meetings" = "συσκέψεις";
+"LOCID Timeline Search Placeholder" = "αναζήτηση επαφών";
+"LOCID Timeline Recent" = "πρόσφατες";
+"LOCID Timeline Upcoming" = "προσεχείς";
+"LOCID Timeline TableView" = "λωρίδα χρόνου";
+"LOCID Timeline Meeting Time All Day" = "ολοήμερο";
+"LOCID Timeline Search Skype Contacts" = "επαφές";
+"LOCID Timeline Search Phone Contacts" = "επαφές τηλεφώνου";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "επαφές";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "πληκτρολόγιο κλήσης και φωνητικό ταχυδρομείο";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "πληκτρολόγιο κλήσης, %ld νέο μήνυμα φωνητικού ταχυδρομείου";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "πληκτρολόγιο κλήσης, %ld νέα μηνύματα φωνητικού ταχυδρομείου";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "συσκέψεις";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "οικία";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "κατάσταση";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, νέα μηνύματα, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "κλήση";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "κλήση βίντεο";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "σήμανση ως αναγνωσμένου";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "διαγραφή";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "συμμετοχή σε σύσκεψη";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "ματαίωση";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "αποδοχή";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "διαθέσιμος";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "απασχολημένος";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "απουσιάζω";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "εκτός σύνδεσης";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "μην ενοχλείτε";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "άγνωστη παρουσία";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "απαλοιφή κειμένου";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "αναζήτηση επαφών";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "κλήση βίντεο";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "κλήση";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Συμμετοχή σε σύσκεψη";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Κενή συνομιλία";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Εικόνα προφίλ";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld νέο μήνυμα φωνητικού ταχυδρομείου";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld νέα μηνύματα φωνητικού ταχυδρομείου";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Αγγελούδι";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Θυμωμένος";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Μούτρο";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Ποδόσφαιρο";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Μπύρα";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Γέλιο";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Ποδήλατο";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Ντροπή";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Υπόκλιση";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Ραγισμένη καρδιά";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Τούρτα";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Κλήση";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Κάμερα";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Μπορείς να μιλήσεις;";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Αυτοκίνητο";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Μετρητά";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Γάτα";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Χειροκροτώ";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Καφές";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Υπολογιστής";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Εμπιστευτικό";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Άνεση";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Κλάμα";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Χορεύω";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Διαβολάκι";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Σκύλος";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Εννοείται";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Ποτό";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Βαριέμαι";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Ζήλια";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Σατανικό χαμόγελο";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Έλεος";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Ευχή για καλή τύχη";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Λουλούδι";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Παιχνίδια";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Δώρο";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Γελάκι";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Καλή τύχη";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Πρέπει να φύγω";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Χειραψία";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Ευτυχισμένος";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Χτυπάω το κεφάλι μου στον τοίχο";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Καρδιά";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Σκίουρος";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Γεια σου";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Κόλλα το";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Αναμονή";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Αγκαλιά";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Ιδέα";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Ερωτευμένος";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Νησί";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Δεν ήμουν εγώ!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Φιλί";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Λα-λα-λα";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Να συναντηθούμε";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Τα χείλη μου είναι σφραγισμένα";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Έχεις μήνυμα";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Βάφομαι";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Άνδρας";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "μμμμμ…";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Ταινία";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Μυώδης";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Μουσική";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Σπασικλάκι";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Νίντζα";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Όχι";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Καταφατικό νεύμα";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Πάρτι";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Τηλέφωνο";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Πίτσα";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Αεροπλάνο";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Εμετός";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Γροθιά";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Βρέχει";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Ουράνιο τόξο";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Πέφτω κάτω από τα γέλια";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Λυπημένος";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Άρνηση";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Νύστα";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Χαμόγελο";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Αυτάρεσκο χαμόγελο";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Σαλιγκάρι";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Άφωνος";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Αστέρι";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Στοπ";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Λιακάδα";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Έκπληξη";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Βρισιές";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Ιδρώτας";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Μιλάω";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Μίλα στο χέρι";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Σκέφτομαι";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Ώρα";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Πάρα πολλές πληροφορίες";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Ο Γελαστούλης κοροϊδεύει";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Κινούμενος θάμνος";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Ομπρέλα";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Περίμενε";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Αναμονή";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Εργασία από το σπίτι";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Τι γίνεται;";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Ανακούφιση";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Νεύμα";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Γυναίκα";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Αναρωτιέμαι";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Ανήσυχος";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Χασμουρητό";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Ναι";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Πληκτρολογήστε εδώ το μήνυμά σας";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Πείτε γεια στον χρήστη %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Πείτε γεια στην ομάδα";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Οι συζητήσεις σας θα εμφανίζονται εδώ";
+"CHAT_FAILED_TO_SEND" = "Δεν ήταν δυνατό να στείλουμε αυτό το μήνυμα: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Εμφάνιση συνομιλίας";
+"LOCID CONVERSATION_HIDE_CHAT" = "Απόκρυψη συνομιλίας";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Εμφάνιση πλαϊνής στήλης";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Απόκρυψη πλαϊνής στήλης";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "Εικονίδια emoticon";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "η";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "η";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "ω";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "ω";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "λεπτό";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "λεπτό";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "δ";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "δ";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d νέες ειδοποιήσεις";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Μία νέα ειδοποίηση";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Καμία νέα ειδοποίηση";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "η διάσκεψη τερματίστηκε";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u συμμετέχοντες";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "ματαίωση";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "άνοιγμα";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "αντιγραφή";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "προσθήκη στη λίστα ανάγνωσης";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "άνοιγμα στο Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "πίσω";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "προώθηση";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "ΟΚ";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "άκυρο";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "Ο χρήστης %@ πληκτρολογεί...";
+"CHATTYPING_TWOUSERS" = "Οι χρήστες %@ και %@ πληκτρολογούν...";
+"CHATTYPING_THREEUSERS" = "Οι χρήστες %@, %@ και ένας ακόμη πληκτρολογούν...";
+"CHATTYPING_MULTIPLEUSERS" = "Οι χρήστες %@, %@ και %d ακόμη πληκτρολογούν...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "αποστολή email";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "εμφάνιση κάρτας επαφής";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "συμμετέχοντες";
+"DROPDOWN_ADD_PARTICIPANTS" = "προσθήκη συμμετεχόντων";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Εισερχόμενη";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Εξερχόμενη";
+
+"LOCID Meetings Page Title" = "Συσκέψεις";
+"LOCID No Meetings Placeholder" = "Οι συσκέψεις σας θα εμφανίζονται εδώ";
+"LOCID Meetings Today" = "Σήμερα";
+"LOCID Meetings Tomorrow" = "Αύριο";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Ορίστε την προσωπική σημείωσή σας";
+
+"PARTICIPANTS_VIEW_TITLE" = "Συμμετέχοντες";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Περιμένουν στο χώρο αναμονής";
+"PARTICIPANTS_VIEW_ON_CALL" = "Σε αυτή την κλήση";
+
+"MEETING_VIEW_TITLE" = "Σύσκεψη";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Συμμετοχή σε σύσκεψη";
+"MEETING_VIEW_ORGANISER_LABEL" = "Διοργανωτής";
+"MEETING_VIEW_INVITEES_LABEL" = "Προσκεκλημένοι";
+"MEETING_VIEW_NOTES_LABEL" = "Σημειώσεις";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Γίνεται σύνδεση...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Επιλέξτε ένα emoticon";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Αποστολή μηνύματος";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Η κλήση τερματίστηκε";
+"INVITE_PARTICIPANTS" = "Πρόσκληση συμμετεχόντων";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Πίσω";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Βιβλίο διευθύνσεων";
+"LOCID_PHONE_NUMBER" = "Αριθμός τηλεφώνου";
+"LOCID_MORE" = "Περισσότερα";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Εναλλαγή βίντεο";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Εμφάνιση προφίλ επαφής";
+"CHAT_OPTION_PARTICIPANTS" = "Συμμετέχοντες";
+"LOCID_CONTACTS_TABLE_VIEW" = "Προβολή επαφών";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Εισερχόμενη κλήση";
+"LOCID_MEETINGS_TABLE_VIEW" = "Προβολή συσκέψεων";
