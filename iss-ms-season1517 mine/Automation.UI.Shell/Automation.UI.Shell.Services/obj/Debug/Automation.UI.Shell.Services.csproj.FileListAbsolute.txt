@@ -1,0 +1,5 @@
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.Services\bin\Debug\Automation.UI.Shell.Services.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.Services\bin\Debug\Automation.UI.Shell.Services.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.Services\obj\Debug\Automation.UI.Shell.Services.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.Services\obj\Debug\Automation.UI.Shell.Services.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\Automation.UI.Shell\Automation.UI.Shell.Services\obj\Debug\Automation.UI.Shell.Services.csprojResolveAssemblyReference.cache

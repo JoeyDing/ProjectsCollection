@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SfbConfig xmlns="sfb">
+  <O15>
+    <InstallationFile>
+      P:\office15\signed\client\en-us\%buildnumber%_ProfessionalPlus_volume_ship_x64_en-us\setup.com
+    </InstallationFile>
+    <LanguagePackageInstallationFile>
+      P:\office15\signed\client\%cultureid%\%buildnumber%_SingleLanguagePack_none_ship_x64_%cultureid%\setup.com
+    </LanguagePackageInstallationFile>
+    <LipLanguagesInstallationFile>
+      P:\office15\signed\client\%cultureid%\%buildnumber%_LanguageInterfacePack_none_ship_x64_%cultureid%\lip.msi
+    </LipLanguagesInstallationFile>
+  </O15>
+  <O16>
+    <InstallationFile>
+      P:\office16\signed\client\en-us\%buildnumber%_ProfessionalPlus_volume_ship_x64_en-us\setup.com
+    </InstallationFile>
+    <LanguagePackageInstallationFile>
+      P:\office16\signed\client\%cultureid%\%buildnumber%_SingleLanguagePack_none_ship_x64_%cultureid%\setup.com
+    </LanguagePackageInstallationFile>
+    <LipLanguagesInstallationFile>
+      P:\office16\signed\client\%cultureid%\%buildnumber%_LanguageInterfacePack_none_ship_x64_%cultureid%\lip.msi
+    </LipLanguagesInstallationFile>
+  </O16>
+  <LocCultures>
+    <LocCulture CultureName= "en-US"	 LCID= "1033"	 EnglishName= "English (US)" IsLip ="True" />
+    <LocCulture CultureName= "sq-AL"	 LCID= "1052"	 EnglishName= "Albanian" IsLip ="True" />
+    <LocCulture CultureName= "ar-SA"	 LCID= "1025"	 EnglishName= "Arabic" />
+    <LocCulture CultureName= "az-Latn-AZ"	 LCID= "1068"	 EnglishName= "Azerbaijani (Latin)" IsLip ="True" />
+    <LocCulture CultureName= "eu-ES"	 LCID= "1069"	 EnglishName= "Basque" IsLip ="True" />
+    <LocCulture CultureName= "bg-BG"	 LCID= "1026"	 EnglishName= "Bulgarian" />
+    <LocCulture CultureName= "ca-ES"	 LCID= "1027"	 EnglishName= "Catalan" IsLip ="True" />
+    <LocCulture CultureName= "zh-CN"	 LCID= "2052"	 EnglishName= "Chinese (Simplified)" />
+    <LocCulture CultureName= "zh-TW"	 LCID= "1028"	 EnglishName= "Chinese (Traditional)" />
+    <LocCulture CultureName= "hr-HR"	 LCID= "1050"	 EnglishName= "Croatian" />
+    <LocCulture CultureName= "cs-CZ"	 LCID= "1029"	 EnglishName= "Czech" />
+    <LocCulture CultureName= "da-DK"	 LCID= "1030"	 EnglishName= "Danish" />
+    <LocCulture CultureName= "nl-NL"	 LCID= "1043"	 EnglishName= "Dutch" />
+    <LocCulture CultureName= "et-EE"	 LCID= "1061"	 EnglishName= "Estonian" />
+    <LocCulture CultureName= "fil-PH"	 LCID= "1124"	 EnglishName= "Filipino" IsLip ="True" />
+    <LocCulture CultureName= "fi-FI"	 LCID= "1035"	 EnglishName= "Finnish" />
+    <LocCulture CultureName= "fr-FR"	 LCID= "1036"	 EnglishName= "French" />
+    <LocCulture CultureName= "gl-ES"	 LCID= "1110"	 EnglishName= "Galician" IsLip ="True" />
+    <LocCulture CultureName= "de-DE"	 LCID= "1031"	 EnglishName= "German" />
+    <LocCulture CultureName= "el-GR"	 LCID= "1032"	 EnglishName= "Greek" />
+    <LocCulture CultureName= "he-IL"	 LCID= "1037"	 EnglishName= "Hebrew" />
+    <LocCulture CultureName= "hi-IN"	 LCID= "1081"	 EnglishName= "Hindi" />
+    <LocCulture CultureName= "hu-HU"	 LCID= "1038"	 EnglishName= "Hungarian" />
+    <LocCulture CultureName= "id-ID"	 LCID= "1057"	 EnglishName= "Indonesian" />
+    <LocCulture CultureName= "it-IT"	 LCID= "1040"	 EnglishName= "Italian" />
+    <LocCulture CultureName= "ja-JP"	 LCID= "1041"	 EnglishName= "Japanese" />
+    <LocCulture CultureName= "kk-KZ"	 LCID= "1087"	 EnglishName= "Kazakh" />
+    <LocCulture CultureName= "ko-KR"	 LCID= "1042"	 EnglishName= "Korean" />
+    <LocCulture CultureName= "lv-LV"	 LCID= "1062"	 EnglishName= "Latvian" />
+    <LocCulture CultureName= "lt-LT"	 LCID= "1063"	 EnglishName= "Lithuanian" />
+    <LocCulture CultureName= "mk-MK"	 LCID= "1071"	 EnglishName= "Macedonian" IsLip ="True" />
+    <LocCulture CultureName= "ms-MY"	 LCID= "1086"	 EnglishName= "Malay (Malaysia)" />
+    <LocCulture CultureName= "nb-NO"	 LCID= "1044"	 EnglishName= "Norwegian (Bokmål)" />
+    <LocCulture CultureName= "fa-IR"	 LCID= "1065"	 EnglishName= "Persian" IsLip ="True" />
+    <LocCulture CultureName= "pl-PL"	 LCID= "1045"	 EnglishName= "Polish" />
+    <LocCulture CultureName= "pt-BR"	 LCID= "1046"	 EnglishName= "Portuguese (Brazil)" />
+    <LocCulture CultureName= "pt-PT"	 LCID= "2070"	 EnglishName= "Portuguese (Portugal)" />
+    <LocCulture CultureName= "ro-RO"	 LCID= "1048"	 EnglishName= "Romanian" />
+    <LocCulture CultureName= "ru-RU"	 LCID= "1049"	 EnglishName= "Russian" />
+    <LocCulture CultureName= "sk-SK"	 LCID= "1051"	 EnglishName= "Slovak" />
+    <LocCulture CultureName= "sl-SI"	 LCID= "1060"	 EnglishName= "Slovenian" />
+    <LocCulture CultureName= "es-ES"	 LCID= "3082"	 EnglishName= "Spanish" />
+    <LocCulture CultureName= "sv-SE"	 LCID= "1053"	 EnglishName= "Swedish" />
+    <LocCulture CultureName= "th-TH"	 LCID= "1054"	 EnglishName= "Thai" />
+    <LocCulture CultureName= "tr-TR"	 LCID= "1055"	 EnglishName= "Turkish" />
+    <LocCulture CultureName= "uk-UA"	 LCID= "1058"	 EnglishName= "Ukrainian" />
+    <LocCulture CultureName= "uz-Latn-UZ"	 LCID= "1091"	 EnglishName= "Uzbek" IsLip ="True" />
+    <LocCulture CultureName= "vi-VN"	 LCID= "1066"	 EnglishName= "Vietnamese" />
+    <LocCulture CultureName= "sr-Latn-CS"	 LCID= "2074"	 EnglishName= "Serbian (Latin, Serbia and Montenegro (Former))" />
+    <LocCulture CultureName= "sr-Cyrl-CS"	 LCID= "3098"	 EnglishName= "Serbian (Cyrillic, Serbia and Montenegro (Former))" IsLip ="True" />
+    <LocCulture CultureName= "be-by"	 LCID= "1059"	 EnglishName= "Belarusian" IsLip ="True" />
+    <LocCulture CultureName= "sr-Cyrl-RS"	 LCID= "10266"	 EnglishName= "Serbian (Cyrillic, Serbia)" IsLip ="True" />
+    <LocCulture CultureName= "sr-Latn-RS"	 LCID= "9242"	 EnglishName= "Serbian (Latin, Serbia)" />
+  </LocCultures>
+</SfbConfig>

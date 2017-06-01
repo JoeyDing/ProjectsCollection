@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Sfb.LanguageInstaller.Wpf.StringListControl.ListBoxControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Sfb.LanguageInstaller.Wpf"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <!--<UserControl.Resources>
+        <ImageBrush  x:Key="DeleteImage"  ImageSource="../Image/red_x_mark.png" Stretch="UniformToFill"></ImageBrush>
+    </UserControl.Resources>-->
+    <Grid ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBox Name="newItem" Width="100" Margin="5" Grid.Column="0" Grid.Row="0"></TextBox>
+        <telerik:RadButton Click="RadButton_Click_1" Grid.Column="1" Grid.Row="0" Width="100" HorizontalAlignment="Left" Margin="5"  Content="Add"></telerik:RadButton>
+
+        <telerik:RadListBox Name="xRadListBox" Margin="5"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2">
+            <telerik:RadListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+
+                        <telerik:RadButton Click="RadButton_Click" BorderThickness="0"  Grid.Column="0" Grid.Row="0">
+                            <Image Source="../Image/red_x_mark.png" />
+                        </telerik:RadButton>
+                        <Label Content="{Binding}"></Label>
+                    </StackPanel>
+                </DataTemplate>
+            </telerik:RadListBox.ItemTemplate>
+        </telerik:RadListBox>
+    </Grid>
+</UserControl>

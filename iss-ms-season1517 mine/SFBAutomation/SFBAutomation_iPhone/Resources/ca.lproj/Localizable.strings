@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Respon";
+"JOIN" = "Accepta";
+"VIEW" = "Mostra";
+"IGNORE" = "Ignora";
+"LAUNCH" = "Inicia";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "us està convidant a una conversa";
+"NEW_IM_BURNT_TOAST" = "Conversa perduda amb %@";
+"SIGN_IN" = "Inicia la sessió";
+"SIGN_OUT" = "S'ha tancat la vostra sessió per inactivitat.";
+"MWI" = "Missatges de correu de veu nous: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Adreça d'inici de sessió";
+"LOCID Password" = "Contrasenya";
+"LOCID User Name" = "Nom d'usuari";
+"LOCID Domain" = "Domini";
+"LOCID Auto-Detect Server" = "Detecta el servidor automàticament";
+"LOCID Sign-in As" = "Inicia la sessió com a";
+"LOCID User Name Footer" = "Usuaris de Skype for Business Online: nomdusuari@domini.com\nLa resta d'usuaris: domini\\nomdusuari";
+"LOCID Hide Details" = "Amaga les opcions avançades";
+"LOCID More Details" = "Mostra les opcions avançades";
+"LOCID Save Password" = "Desa la meva contrasenya";
+
+/* generic share button */
+"LOCID share" = "Comparteix";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Adreça de descobriment intern";
+"LOCID External Server Address" = "Adreça de descobriment extern";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Envieu-nos la informació d'error d'inici de sessió per ajudar-nos a millorar Skype for Business.";
+"LOCID Sign In BRB Reason 2" = "Podem recopilar informació determinada sobre aquest error i sobre errors futurs d'inici de sessió? Sempre podeu canviar aquesta opció a Opcions.";
+"LOCID BRBDonotshow" = "No tornis a mostrar aquesta opció";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Inicia la sessió";
+"LOCID Sign Out" = "Tanca la sessió";
+"LOCID Cancel Sign in" = "Cancel·la l'inici de sessió";
+"LOCID Lync Is Signing In" = "Skype for Business està iniciant la sessió";
+"LOCID Lync Is Signing Out" = "Skype for Business està tancant la sessió";
+
+// Help
+"LOCID signin help" = "Ajuda per a l'inici de sessió";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Informació";
+"LOCID Contacts" = "Contactes";
+"LOCID Conversations" = "Xats";
+"LOCID Meetings" = "Reunions";
+"LOCID Phone" = "Telèfon";
+"LOCID Signing In" = "Iniciant ses...";
+"LOCID Signed Out" = "Tan. sess.";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Què passa avui?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Nota personal";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Escriviu la nota personal";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Toqueu dues vegades per editar";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Desconegut";
+"LOCID Available" = "Disponible";
+"LOCID Busy" = "Ocupat";
+"LOCID Busy Inactive" = "Ocupat inactiu";
+"LOCID Do Not Disturb" = "No molesteu";
+"LOCID Be Right Back" = "Torno de seguida";
+"LOCID Presence unknown" = "Persona desconeguda";
+"LOCID Off Work" = "Absent de la feina";
+"LOCID Appear Away" = "Aparèixer com a Absent";
+"LOCID Away" = "Absent";
+"LOCID Inactive" = "Inactiu";
+"LOCID Reset Status" = "Restableix l'estat";
+"LOCID Offline" = "Fora de línia";
+"LOCID Blocked" = "Bloquejat";
+"LOCID Sign In As Header" = "Seleccioneu l'estat que vulgueu mostrar:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Parlo per telèfon";
+"LOCID In a Conference Call" = "En una trucada de conferència";
+"LOCID Presenting" = "S'està presentant";
+"LOCID In a Meeting" = "En una reunió";
+"LOCID Out of Office" = "Fora de l'oficina";
+"LOCID Urgent Interruptions Only" = "Només interrupcions urgents";
+"LOCID Out To Lunch" = "Estic dinant";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype for Business no pot mostrar els vostres contactes de l'iPhone. Podeu solucionar-ho a la configuració de l'iPhone.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype for Business no pot mostrar els vostres contactes de l'iPad. Podeu solucionar-ho a la configuració de l'iPad.";
+"LOCID Other Contacts" = "Altres contactes";
+"LOCID Pinned Contacts" = "Preferits";
+"LOCID Retrieving Members" = "Espereu...";
+"LOCID Cannot connect Try again" = "No es poden obtenir els membres del grup en aquests moments. Torneu-ho a provar més tard.";
+"LOCID Group is too large to display" = "El grup és massa gran per mostrar-se.";
+"LOCID No members" = "No hi ha cap membre";
+"LOCID Searching the company directory" = "S'està cercant al directori de l'empresa...";
+"LOCID Please signin to search" = "Inicieu la sessió per cercar el directori de l'empresa.";
+"LOCID Too many results" = "Massa resultats; proveu de refinar la cerca.";
+"LOCID Unable to connect to the server" = "No es pot connectar al servidor en aquests moments. Torneu-ho a provar més tard.";
+"LOCID E_SearchTooLong" = "No s'ha trobat cap coincidència. Proveu de fer una cerca més curta.";
+"LOCID No Name" = "No hi ha cap nom";
+"LOCID idle day" = "%d dia";
+"LOCID idle days" = "%d dies";
+"LOCID idle hour" = "%d hora";
+"LOCID idle hours" = "%d hores";
+"LOCID idle minutes" = "%d minuts";
+"LOCID inactive idle day" = "Inactiu %d dia";
+"LOCID inactive idle days" = "Inactiu %d dies";
+"LOCID inactive idle hour" = "Inactiu %d hora";
+"LOCID inactive idle hours" = "Inactiu %d hores";
+"LOCID inactive idle minutes" = "Inactiu %d minuts";
+"LOCID DG does not exist" = "El grup de distribució ja no existeix.";
+"LOCID Access to DG denied" = "S'ha denegat l'accés al grup de distribució";
+"LOCID No Contacts Placeholder" = "Els contactes es mostraran aquí";
+"LOCID No Contacts" = "No hi ha cap contacte";
+"LOCID You currently have no contacts" = "En aquests moments no teniu cap contacte";
+"LOCID Retrieving Contacts..." = "S'estan obtenint contactes...";
+"LOCID Expanded" = "Grup %@, expandit";
+"LOCID Collapsed" = "Grup %@, reduït";
+"LOCID Group card- acc" = "Targeta de grup";
+"LOCID Open group card - acc" = "Toca per obrir la targeta de grup";
+
+/* Contact Card*/
+"LOCID Loading name" = "S'està carregant el nom...";
+"LOCID Details" = "Targeta";
+"LOCID Work" = "Feina";
+"LOCID Home" = "Casa";
+"LOCID Mobile" = "Mòbil";
+"LOCID Other" = "Altres";
+"LOCID other lowercase" = "altres";
+"LOCID Office" = "Oficina";
+"LOCID Company" = "Empresa";
+"LOCID Department" = "Departament";
+"LOCID Send Text Message" = "Envia un missatge de text";
+"LOCID IM" = "MI";
+"LOCID E-Mail" = "Correu";
+"LOCID unknown lowercase" = "desconegut";
+"LOCID Location lowercase" = "ubicació";
+"LOCID Calendar" = "calendari";
+"LOCID Link" = "enllaç";
+"LOCID Disabled" = "%@, inhabilitat"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Nota";
+"LOCID Video" = "Vídeo";
+
+/* DG Card*/
+"LOCID Members" = "MEMBRES"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Convida";
+"LOCID Transfer" = "Transfereix";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business està provant de redirigir-vos a:";
+"LOCID certIssuedBy" = "Emès per:";
+"LOCID certSubject" = "Tema:";
+"LOCID certExpires" = "Caduca:";
+"LOCID certSignature" = "Algoritme de la signatura:";
+"LOCID certDonotshow" = "No m'ho tornis a mostrar.";
+"LOCID Continue" = "Continua";
+"LOCID certNone" = "Sense xifrar";
+"LOCID certRSA" = "Xifratge RSA";
+"LOCID certDSA" = "Xifratge DSA";
+"LOCID certDH" = "Xifratge DH";
+"LOCID certEC" = "Xifratge EC";
+"LOCID certHMAC" = "Xifratge HMAC";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Conversa";
+"LOCID Chats - Phone Call" = "Trucada";
+"LOCID Chats - Video Call" = "Videotrucada";
+"LOCID Chats - Meeting" = "Reunió";
+"LOCID Chats - Missed Call" = "Trucada perduda";
+"LOCID Chats - Missed Video Call" = "Videotrucada perduda";
+"LOCID Chats - Current Call" = "Trucada actual";
+"LOCID Chats - Current Call With Duration" = "Trucada actual, %@";
+"LOCID Phone Status - Connecting" = "S'està connectant...";
+"LOCID Phone Status - On Hold" = "En espera";
+"LOCID Phone Status - Transferring" = "S'està transferint";
+"LOCID Transferring to" = "S'està transferint a %@...";
+"LOCID Chats Full" = "Nota: Aquesta llista és plena. Les converses més antigues se suprimiran a mesura que se n'afegeixin de noves.";
+"LOCID Close Conversation" = "Suprimeix la conversa";
+"LOCID View Participants List" = "Mostra la llista de participants";
+"LOCID Call Contact" = "Truca a %@";
+"LOCID Video Call Contact" = "Videotrucada";
+"LOCID Video Conference Contact" = "Videoconferència";
+"LOCID Edit" = "Edita";
+"LOCID Deselect All" = "Anul·la tota la selecció";
+"LOCID Select All" = "Selecciona-ho tot";
+"LOCID Me" = "Jo: %@";
+"LOCID Missed" = "Perdut: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Conversa de grup";
+"LOCID Tap To Enter Text" = "Toqueu per escriure";
+"LOCID No Conversations" = "No hi ha cap conversa";
+"LOCID No Conversations Hint" = "En aquests moments no teniu cap conversa";
+"LOCID Delete Count" = "Suprimeix (%d)";
+"LOCID Delete None" = "Suprimeix";
+"LOCID Escalating audio conference" = "S'està iniciant la trucada de conferència...";
+"LOCID Escalating video conference" = "S'està iniciant la videoconferència...";
+"LOCID No Participants" = "No hi ha cap participant";
+"LOCID No Other Participants" = "No hi ha més participants";
+"LOCID One Participant" = "1 participant";
+"LOCID Some Participants" = "%d participants";
+"LOCID Max Participants" = "%d participants més";
+"LOCID Large Meeting" = "Reunió gran";
+"LOCID Toast No Invite" = "us està convidant a una conversa";
+"LOCID Participant Join" = "%@ ha entrat a la reunió";
+"LOCID Participant Leave" = "%@ ha sortit de la reunió";
+"LOCID Participant Join Failure" = "%@ no pot entrar a la reunió";
+"LOCID Large Conference" = "Reunió de moltes persones";
+"LOCID Large Conference Detail" = "La llista de participants no està disponible per a reunions de moltes persones.";
+"LOCID No Participants Detail" = "No hi ha cap participant en aquesta conversa";
+"LOCID cannotSend" = "No s'ha pogut enviar el missatge:";
+"LOCID Missed Conversation" = "Conversa perduda";
+"LOCID Send as Email" = "Envia com a correu";
+"LOCID Email Subject" = "Conversa del %1$@ amb %2$@";
+"LOCID Anonymous" = "Anònim";
+"LOCID Duration" = "Durada:";
+"LOCID Switch Camera" = "Canvia la càmera";
+"LOCID Swap PIP" = "Intercanvia Pic-in-Pic";
+"LOCID Leave Video" = "Surt del vídeo";
+"LOCID Start My Video" = "Inicia el meu vídeo";
+"LOCID Stop My Video" = "Atura el meu vídeo";
+"LOCID End Video" = "Finalitza el vídeo";
+"LOCID LargeMtgActiveSpeakerMissing" = "La informació de l'altaveu no està disponible per a reunions de moltes persones.";
+"LOCID Swap Preview" = "Canvia de visualització prèvia";
+"LOCID Speaker On" = "Altaveu activat";
+"LOCID Speaker Off" = "Altaveu desactivat";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "El vídeo està activat";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Toqueu dues vegades per desactivar el vídeo.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "El vídeo està desactivat";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Toqueu dues vegades per activar el vídeo.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "El mans lliures està activat";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Toqueu dues vegades per desactivar el mans lliures.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "El mans lliures està desactivat";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Toqueu dues vegades per activar el mans lliures.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Trucada silenciada";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Toqueu dues vegades per activar el so.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "So de la trucada activat";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Toqueu dues vegades per silenciar.";
+
+"LOCID Instant Messaging" = "Missatgeria instantània";
+"LOCID Voice" = "Veu";
+"LOCID Collaboration" = "Col·laboració";
+"LOCID Participants" = "Participants";
+"LOCID Full Screen" = "Pantalla completa";
+"LOCID Exit Full Screen" = "Surt de la pantalla completa";
+"LOCID Local Participant Alone in Conference Msg" = "Sembla que sou l'única persona de la trucada.";
+"LOCID 1 or more participants" = "1 o més participants";
+"LOCID Call Started" = "Trucada iniciada - %@";
+"LOCID Call Ended Missed" = "Trucada finalitzada - %@ Perduda]";
+"LOCID Call Ended Duration" = "Trucada finalitzada - %@ [Durada: %@]";
+"LOCID ConferenceEndedRejoin" = "Us heu desconnectat de la reunió. Toqueu a sota per tornar a unir-vos-hi.";
+"LOCID ConferenceEndedContinue" = "Si es reinicia la conversa s'enviarà una invitació nova a tothom que hi participava.";
+"LOCID IM P2P Toast Voiceover" = "%@ us està convidant a una conversa. Toqueu dues vegades per acceptar-la.";
+"LOCID IM Conf Toast Voiceover" = "%@ us està convidant a una conversa de grup. Toqueu dues vegades per acceptar-la.";
+"LOCID Video is Locked on you" = "Teniu el vídeo bloquejat.";
+
+"LOCID SFB Call Started" = "Trucada iniciada";
+"LOCID SFB Call Ended" = "Trucada finalitzada";
+"LOCID SFB Call Ended Duration" = "Trucada finalitzada, %@";
+
+/* Roster*/
+"LOCID Presenters" = "PRESENTADORS (%d)";
+"LOCID Attendees" = "ASSISTENTS (%d)";
+"LOCID In Lobby" = "SALA D'ESPERA (%d)";
+"LOCID Guest" = "Convidat";
+"LOCID Remove" = "Suprimeix";
+"LOCID E_RemoveFailed" = "No hem pogut suprimir el participant.";
+"LOCID E_AddFailed" = "No hem pogut afegir el participant.";
+
+/*Lobby*/
+"LOCID Admit all" = "Admet-los tots";
+"LOCID Deny all" = "Denega'ls tots";
+"LOCID Admit" = "Admet";
+"LOCID Deny" = "Denega";
+"LOCID See Lobby" = "Mostra la sala d'espera";
+"LOCID Conference In the Lobby" = "Hi ha participants que esperen a la sala d'espera.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Fes que sigui presentador";
+"LOCID Demote" = "Fes que sigui assistent";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Mòbil";
+"LOCID Voice and IM Unavailable" = "Veu i MI no disponibles";
+"LOCID Voice Only" = "Només veu";
+"LOCID Voice and Video Only" = "Només veu i vídeo";
+"LOCID IM Only" = "Només MI";
+"LOCID No Voice" = "Sense veu";
+"LOCID Video capable" = "Vídeo habilitat";
+"LOCID No IM" = "Sense MI";
+"LOCID Mobile Cap" = "Mòbil";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Teclat numèric";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "";
+"LOCID Dialpad" = "Teclat";
+"LOCID Dialpad STAR Key" = "Estrella";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Lliura"; // Used for accessibility
+"LOCID Delete Key" = "Suprimeix";   // Used for accessibility
+"LOCID Emergency number" = "Número d'emergència"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "amaga";
+"LOCID Dialpad Search Recent Calls" = "trucades recents";
+"LOCID Dialpad Search Native Contacts" = "contactes del telèfon";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Problemes amb Contactes";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Hi ha hagut un problema a l'hora d'accedir a números de telèfon de Contactes. Proveu de tornar a sincronitzar les vostres adreces de correu a Configuració per solucionar el problema.";
+
+/* My Status Tab */
+"LOCID Options" = "Configuració";
+"LOCID Send Feedback" = "Envia coment.";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "De %1$@ a %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "De les %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "a les %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "de les %1$@ a les %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "No hi ha cap reunió";
+"LOCID All" = "Tots";
+"LOCID No Meetings Scheduled" = "No teniu cap reunió programada";
+"LOCID None" = "Cap";
+"LOCID Organizer" = "Organitzador";
+"LOCID Invitees" = "CONVIDATS";
+"LOCID Notes" = "NOTES";
+"LOCID Join" = "Entra";
+"LOCID Updated DATE TIME" = "Actualització: %1$@ %2$@";
+"LOCID Online" = "En línia";
+"LOCID Tentative" = "Provisional";
+"LOCID Event" = "Esdeveniment";
+"LOCID Updating..." = "S'està actualitzant...";
+"LOCID Tentative Voiceover" = "%@, provisional";
+"LOCID Pull to refresh" = "Estireu per actualitzar";
+"LOCID Today" = "AVUI"; // CAPS
+"LOCID Tomorrow" = "DEMÀ"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Si no sou l'organitzador, el vostre micròfon se silenciarà quan entreu.";
+"LOCID Lync Conferencing" = "Reunió de Skype";
+"LOCID Joining Step 1" = "S'està connectant...";
+"LOCID Please wait to be admitted" = "Espereu que us admetin";
+"LOCID Join Conf Error" = "S'ha perdut la connexió amb la reunió.";
+"LOCID Anonymous Join" = "Entrar com a anònim";
+"LOCID Enter your name" = "Introduïu el vostre nom";
+"LOCID Anonymous Join Greeting" = "Benvingut a Skype for Business";
+"LOCID Sign in with Lync" = "Inicia la sessió amb Skype for Business";
+"LOCID Sign in as guest" = "Inicia la sessió com a convidat";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "No podem connectar-vos a la reunió sense el vostre número d'iPhone. Afegiu el vostre número d'iPhone a les opcions de Skype for Business.";
+"LOCID Join Conf Error - No Number iPad" = "No podem connectar-vos a la reunió sense el vostre número de telèfon. Afegiu el vostre número de telèfon a les opcions Skype for Business.";
+"LOCID Join Meeting Line 1 Text" = "S'està entrant a la reunió\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Se us està trucant a %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Hola. Sou a la sala d'espera virtual, així que poseu-vos còmode. No sortiu de l'aplicació— l'organitzador us hi deixarà entrar aviat.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "No se us ha admès perquè l'organitzador no hi és o no respon.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "S'ha perdut la connexió. Toqueu Entra per tornar-ho a provar.";
+"LOCID View" = "Mostra";
+"LOCID Join Meeting" = "Entra a la reunió";
+"LOCID Join Meeting Line 2 - Generic MSG" = "S'està entrant a la reunió";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "No us podem connectar a la reunió perquè és plena. Proveu de posar-vos en contacte amb l'organitzador.";
+"LOCID AdmittedToLobby" = "Se us ha admès. Us estem trucant...";
+"LOCID MtgDisclaimerAccept" = "Accepta";
+"LOCID MtgDisclaimerDecline" = "Ignora";
+"LOCID E_MeetingNotFound" = "La reunió a la qual us proveu d'unir no existeix.";
+"LOCID E_MeetingsNotEnabled" = "La vostra organització no ha habilitat aquesta característica de la reunió.";
+"LOCID E_OutsideOrg" = "Aquesta persona o reunió no té permisos a la vostra xarxa.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Trucades i reunions";
+"LOCID credentialsSection" = "Les meves credencials";
+"LOCID contactsSection" = "Contactes";
+"LOCID accessibilitySection" = "Accessibilitat";
+"LOCID otherSection" = "Altres";
+"LOCID Show Recent Contacts" = "Contactes recents";
+"LOCID Show Pinned Contacts" = "Contactes ancorats";
+"LOCID Show Photos" = "Fotos";
+"LOCID Sort by availability" = "Ordena per disponibilitat";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Registre";
+"LOCID About" = "Quant a";
+"LOCID About Version" = "Versió %@";
+"LOCID Status" = "Estat";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "Proxy HTTP";
+"LOCID Require WiFi" = "Es requereix Wi-Fi per a";
+"LOCID WiFi VoIP" = "Veu";
+"LOCID WiFi Video" = "Vídeo";
+"LOCID WiFi Collab" = "Contingut de la reunió";
+"LOCID WiFi Warning" = "Quan sigueu fora, podeu rebre trucades mitjançant la connexió de dades (pot ser que se us apliquin càrrecs i que la qualitat sigui inferior).";
+"LOCID WiFi Warning iPad" = "Si esteu desconnectat, podeu rebre trucades i contingut de la reunió mitjançant la connexió de dades (pot ser que s'apliqui algun càrrec i que la qualitat sigui inferior).";
+"LOCID Not a SfB User" = "No sou un usuari de Skype for Business?";
+
+
+/* About View */
+"LOCID About Title" = "Quant a";
+"LOCID version" = "Versió: %@";
+"LOCID Long Product Name" = "Skype® for Business per a %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Tots els drets reservats.";
+"LOCID online help" = "Ajuda";
+"LOCID Terms Of Use" = "Condicions d'ús";
+"LOCID Privacy title" = "Privadesa";
+"LOCID Third Party Notices" = "Avisos de tercers";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nPatent pendent";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "El nom de Skype, les marques registrades associades, els seus logotips i el logotip \"S\" són marques registrades de Skype o entitats relacionades.\n\nAdvertiment: Aquest programa està protegit per les lleis de propietat intel·lectual i per tractats internacionals. La distribució o la reproducció total o parcial d'aquest programa sense autorització poden donar lloc a fortes sancions civils i penals, i estaran sotmeses als màxims càrrecs establerts per la llei.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Desviament de trucades";
+"LOCID Forward Section" = "Trieu un número";
+"LOCID Apply Setting Section" = "Aplica la configuració";
+"LOCID Summary Section" = "La vostra configuració actual:";
+"LOCID Do Not Forward" = "No les desviïs";
+"LOCID Forward Calls" = "Desvia les trucades";
+"LOCID Forward Calls To" = "Desvia les trucades a";
+"LOCID Simultaneously Ring" = "Truca simultàniament";
+"LOCID On" = "Sí";
+"LOCID Off" = "No";
+"LOCID During Working Hours" = "En hores de feina";
+"LOCID Voicemail" = "Correu de veu";
+"LOCID Team Call" = "Membres de la trucada d'equip";
+"LOCID Delegates" = "Delegats";
+"LOCID Pending Persons" = "Afegit per";
+"LOCID Delegate Target" = "els vostres delegats";
+"LOCID TeamCall Target" = "els membres del grup de la vostra trucada d'equip";
+"LOCID Voicemail Target" = "el vostre correu de veu";
+"LOCID DoNotForward Summary" = "Les trucades us arribaran a la feina i no es desviaran. No rebreu trucades al telèfon mòbil quan VoIP no estigui disponible.";
+"LOCID DoNotForward Summary iPad" = "Les trucades us arribaran a la feina i no es desviaran. No rebreu trucades a l'iPad quan VoIP no estigui disponible.";
+"LOCID ForwardCalls Summary" = "Les trucades es desviaran directament a: %@. Si aquest no és el vostre número de telèfon, no rebreu trucades al telèfon mòbil.";
+"LOCID ForwardCalls Summary iPad" = "Les trucades es desviaran directament a: %@. No arribaran al vostre iPad.";
+"LOCID Simulring Summary" = "Les trucades us arribaran a la feina i també a: %@. Si aquest és el vostre número de telèfon mòbil, rebreu trucades mòbils quan VoIP no estigui disponible.";
+"LOCID Simulring Summary iPad" = "Les trucades us arribaran a la feina i també es trucarà a: %@. No rebreu trucades a l'iPad quan VoIP no estigui disponible.";
+"LOCID View Settings" = "Mostra la configuració actual";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Aplica la configuració";
+"LOCID All the Time" = "Sempre";
+"LOCID During Outlook Working Hours" = "Durant hores feina de l'Outlook";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Feina";
+"LOCID Home Capitalized" = "Casa";
+"LOCID Mobile Capitalized" = "Mòbil";
+"LOCID Custom Capitalized" = "Personalitzat";
+"LOCID Other Capitalized" = "Altres";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Cancel·la";
+"LOCID Add" = "Afegeix";
+"LOCID New Number" = "Número nou";
+"LOCID New Contact" = "Contacte nou";
+"LOCID Contact" = "Contacte";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Puja els registres d'inici de sessió";
+"LOCID SignInBRB - Always" = "Sempre";
+"LOCID SignInBRB - Never" = "Mai";
+"LOCID SignInBRB - Ask Me" = "Pregunta'm";
+"LOCID Send Log Files" = "Envia els fitxers de registre";
+"LOCID Log Email Subject" = "Fitxers de registre de Skype for Business"; //product name
+"LOCID Device Model" = "Model del dispositiu:";
+"LOCID Device OS Name" = "Nom de l'SO del dispositiu:";
+"LOCID Device OS Version" = "Versió de l'SO del dispositiu:";
+"LOCID Enable Logging" = "Habilita el registre";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Proxy HTTP";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Per completar la configuració del proxy HTTP, feu servir la configuració de la Wi-Fi de l'%@.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Fes servir les credencials de Skype for Business";
+"LOCID Exchange Credentials Info" = "Skype for Business necessita les vostres credencials de l'Exchange per mostrar la informació de totes les vostres reunions i del correu de veu.";
+"LOCID Email Address" = "Adreça electrònica";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "El meu número de mòbil";
+"LOCID My Mobile Number Details" = "Introduïu el número del vostre iPhone amb els codis de país i de regió:";
+"LOCID My Mobile Number Details iPad" = "Introduïu el vostre número de telèfon amb els codis de país i de regió:";
+"LOCID My Mobile Number Footer" = "Us permet fer i rebre trucades de feina i unir-vos a reunions de Skype for Business.\n(Si utilitzeu VoIP i no està disponible, aquesta és la vostra opció alternativa).";
+"LOCID My Mobile Number Footer - Conf Join" = "Us permet participar en reunions des de Skype.\n(Si utilitzeu VoIP i no està disponible, aquesta és la vostra opció alternativa).";
+"LOCID iPhone Number" = "Número de telèfon";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Truca des del número de la feina";
+"LOCID Missing iPhone Number Error" = "Falta el número de telèfon";
+"LOCID Missing iPhone Number Error Text" = "Aquesta trucada no es pot completar. Introduïu el vostre número d'iPhone a Opcions i torneu a provar de trucar.";
+"LOCID Missing iPad Number Error Text" = "Aquesta trucada no es pot completar. Introduïu el vostre número de telèfon a Opcions i torneu a provar de trucar.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Abans de començar";
+"LOCID Main text" = "Qualsevol usuari pot utilitzar l'aplicació mòbil de Skype for Business quan és convidat a una reunió de Skype. No obstant això, per gaudir de tota la funcionalitat de l'aplicació, heu de tenir un compte de Skype for Business.";
+"LOCID Understand" = "D'acord";
+
+/*Group Picker*/
+"LOCID More Options" = "Més opcions";
+"LOCID Add Contact" = "Afegeix un contacte";
+"LOCID Add to Group" = "Afegeix al grup";
+"LOCID Remove Contact" = "Suprimeix el contacte";
+"LOCID Remove from Group" = "Suprimeix del grup";
+"LOCID Groups" = "Grups";
+"LOCID E_AddContactFailureGeneral" = "No podem afegir el contacte en aquest moment. Torneu-ho a provar més tard.";
+"LOCID E_AddContactFull" = "No es poden afegir més contactes a aquest grup.";
+"LOCID E_AddContactInGroup" = "El contacte ja és al grup.";
+"LOCID E_RemoveContactFailureGeneral" = "No podem suprimir el contacte en aquest moment. Torneu-ho a provar més tard.";
+"LOCID Confirm Remove Contact" = "Això suprimirà el contacte %@ de la Llista de contactes.";
+"LOCID Ignore" = "Ignora";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Més informació";
+"LOCID CEIP More Info" = "Ajudeu-nos a millorar Skype for Business enviant dades d'ús anònimes a Microsoft.";
+"LOCID ceipSectionTitle" = "Programa de millora de l'experiència dels clients";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Benvingut.";
+"LOCID Lets begin" = "Comencem...";
+
+/* First Run Experience */
+"LOCID Close" = "Tanca";
+"LOCID Change" = "Sí";
+"LOCID Don't change" = "No";
+"LOCID Next" = "Següent";
+"LOCID Done" = "Fet";
+"LOCID First Run First Step" = "El Lync ara és Skype for Business: la combinació de l'experiència de Skype i la qualitat empresarial de Microsoft.";
+"LOCID First Run Second Step" = "Tothom pot utilitzar aquesta aplicació per participar en una reunió de Skype. No obstant això, per gaudir de totes les característiques, necessiteu un compte de Skype for Business i l'empresa ha d'habilitar l'aplicació.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "VOLEU CANVIAR LA CONFIGURACIÓ DEL DESVIAMENT DE TRUCADES?";
+"LOCID First Run CF Current Settings" = "Configuració actual:";
+"LOCID First Run CF Change Settings" = "Configuració nova:";
+"LOCID First Run Change Summary" = "Heu introduït el vostre número de telèfon per rebre trucades de feina. Ara hem de canviar la configuració actual del desviament de trucades perquè el vostre telèfon rebi trucades.";
+"LOCID First Run Change Request" = "Podem canviar aquesta configuració perquè les trucades de feina us arribin simultàniament a la feina i al %@?";
+"LOCID DoNotForward Summary - First Run" = "Les trucades us arribaran a la feina i no es desviaran a cap altre número de telèfon.";
+"LOCID ForwardCalls Summary - First Run" = "Les trucades es desviaran directament a: %@.";
+"LOCID Simulring Summary - First Run" = "Les trucades us arribaran a la feina i també a: %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "NO US PERDEU MAI LES TRUCADES DE FEINA";
+"LOCID My Mobile Number Title 2" = "NO US PERDEU MAI UNA REUNIÓ";
+"LOCID My Mobile Number Details First Run" = "Necessitem el número del vostre iPhone amb els codis de país i de regió:";
+"LOCID My Mobile Number Details First Run_iPad" = "Necessitem el número del vostre telèfon amb els codis de país i de regió:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "ADMINISTRA L'ÚS DE LES DADES";
+"LOCID Setup Work Calls Sub Text" = "Aquesta configuració administra l'ús que feu de les dades i els possibles costos de les reunions i les trucades.";
+
+"LOCID Require Wifi for VoIP calls" = "Es requereix Wi-Fi per a les trucades de VoIP";
+"LOCID Require Wifi for VoIP calls off subtext" = "Quan la Wi-Fi no estigui disponible, les trucades utilitzaran la connexió de dades.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Les trucades sempre es faran a través de la Wi-Fi. Mai no utilitzarem la connexió de dades.";
+
+"LOCID Require Wifi for Video calls" = "Es requereix Wi-Fi per a les videotrucades";
+"LOCID Require Wifi for Video calls off subtext" = "Quan la Wi-Fi no estigui disponible, les videotrucades utilitzaran la connexió de dades. (Això pot implicar una gran quantitat de dades.)";
+"LOCID Require Wifi for Video calls on subtext" = "Les videotrucades sempre es faran a través de la Wi-Fi. Mai no utilitzarem la connexió de dades.";
+
+"LOCID Require Wifi for meeting content" = "Es requereix Wi-Fi per a contingut de reunió";
+"LOCID Require Wifi for meeting content off subtext" = "Quan la Wi-Fi no estigui disponible, utilitzarem la connexió de dades per obtenir el contingut de les reunions. (Això pot implicar una gran quantitat de dades.)";
+"LOCID Require Wifi for meeting content on subtext" = "Sempre utilitzarem la Wi-Fi per obtenir el contingut de les reunions,—mai la connexió de dades.";
+
+"LOCID Skip" = "Omet";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Comenceu a fer servir Skype for Business";
+
+"LOCID First Run Successful Setup" = "CONFIGURACIÓ FINALITZADA.";
+"LOCID First Run Successful Setup WiFi only_iPad" = "BENVINGUT!";
+"LOCID First Run Successful Setup Details" = "Podeu fer canvis en qualsevol moment a Configuració.";
+
+"LOCID improve lync" = "Ajudeu-nos a millorar Skype for Business";
+"LOCID whyphonenumber" = "Motiu pel qual necessitem el vostre número de telèfon";
+"LOCID more detail" = "Més informació";
+
+"LOCID Emergency Call Disclaimer" = "Detalls addicionals:";
+"LOCID Emergency Call Disclaimer Details" = "S'apliquen els càrrecs d'operador habituals a totes les trucades.\n\nImportant: No utilitzeu l'aplicació de Skype for Business per fer trucades d'emergència.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Important";
+"LOCID Emergency Call Disclaimer Details iPad" = "No utilitzeu l'aplicació de Skype for Business per fer trucades d'emergència.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Notificacions de tramesa automàtica";
+"LOCID Push Notification Legal1" = "Abans d'acceptar l'ús de les notificacions de tramesa automàtica, tingueu en compte que totes les notificacions d'aquest tipus i el seu contingut s'envien mitjançant el servei de notificacions d'Apple i el servei de notificacions de Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Heu canviat la configuració de les notificacions de tramesa automàtica a la configuració de notificacions de %1$@, però heu de tornar a iniciar Skype for Business per aturar l'entrega de tot el contingut de la notificació.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Utilitza el mòbil";
+"LOCID Call via Work Not Available Error" = "No podeu fer trucades de Skype for Business perquè esteu fora de línia. Proveu de trucar des del número de mòbil.";
+"LOCID Call via Work Not Available Error iPad" = "No podeu fer una trucada de Skype for Business perquè esteu fora de línia.";
+"LOCID Answer incoming call" = "Respon a la trucada entrant";
+"LOCID to connect you to... display name" = "per connectar-vos a...\n%@";
+
+"LOCID Call via Work Connecting" = "S'està connectant...\n Responeu a la següent trucada entrant.";
+"LOCID Call via Work Connected" = "Heu entrat des de %1$@";
+"LOCID Video Disclaimer" = "No podreu veure ni compartir vídeo.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Us heu unit des del número %1$@.";
+
+/* Errors */
+"LOCID Error" = "Error";
+"LOCID E_GenericFailure" = "S'ha produït un error a Skype for Business. Torneu-ho a provar. Si el problema continua, poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_GroupNotFound" = "No s'ha trobat el grup.";
+"LOCID E_PermissionsForGroup" = "No teniu permís per expandir aquest grup.";
+"LOCID E_ConnectionError" = "No es pot connectar al servidor. Comproveu la connexió a la xarxa i l'adreça del servidor i torneu-ho a provar.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "No es pot connectar al servidor. 1) Pot ser que no estigui disponible. 2) Comproveu la connexió a la xarxa. 3) Assegureu-vos que utilitzeu la informació del compte de Skype for Business que us ha proporcionat la vostra organització. 4) Pot ser que el vostre nom d'usuari sigui diferent del nom d'inici de sessió. Toqueu Opcions avançades i introduïu el vostre nom d'usuari o domini\\nomusuari.";
+"LOCID E_AutoDiscoveryInBackground" = "La configuració del servidor ha canviat. Inicieu Skype for Business.";
+"LOCID E_SslError" = "No es pot verificar el certificat del servidor. Poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_SslCertExpiredError" = "No es pot verificar el certificat del servidor. Poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_ProxyAuthError" = "No es pot iniciar la vostra sessió. Configureu els paràmetres del servidor intermediari HTTP a la configuració de %@ i a Opcions de Skype for Business, o bé feu servir 3G per connectar-vos.";
+"LOCID E_ConnectionTimeoutError" = "No es pot connectar al servidor. Pot ser que estigui ocupat o no disponible temporalment. Torneu-ho a provar.";
+"LOCID E_GenericApplicationError" = "S'ha produït un error en l'aplicació. Reinicieu-la.";
+"LOCID E_AuthError" = "No se us pot iniciar la sessió. Verifiqueu la informació del vostre compte i torneu-ho a provar.";
+"LOCID E_InvalidCredentials" = "No se us pot iniciar la sessió. Verifiqueu la informació del vostre compte i torneu-ho a provar.";
+"LOCID E_InvalidSignInAddress" = "No es pot iniciar la sessió. Verifiqueu l'adreça d'inici de sessió i torneu-ho a provar.";
+"LOCID E_InvalidLyncAccount" = "Aquestes dades d'inici de sessió no són vàlides. Heu d'iniciar la sessió amb el compte de Skype for Business que us hagi proporcionat la vostra organització.";
+"LOCID E_WrongHomePool" = "No teniu la configuració adequada per connectar-vos al servidor. Poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_ImSendError" = "No s'ha pogut enviar:";
+"LOCID GenericRetryError" = "No es pot connectar al servidor. S'està tornant a provar...";
+"LOCID GenericError" = "S'ha produït un error de servidor. Torneu-ho a provar.";
+"LOCID RequestFailed" = "No s'ha pogut processar la sol·licitud. Torneu-ho a provar.";
+"LOCID DecodingError" = "No s'ha pogut processar la resposta del servidor. Torneu-ho a provar. Si el problema continua, poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID VersionMismatch" = "No podeu iniciar la sessió amb aquesta versió de Skype for Business. Instal·leu una versió més recent. Si això no funciona, poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID SignInCredentialsAreNeeded" = "S'ha tancat la vostra sessió. Necessitem la informació del vostre compte perquè pugueu tornar a iniciar la sessió.";
+"LOCID NeedLyncPassword" = "Necessitem la contrasenya per iniciar la sessió.";
+"LOCID E_ServiceBusyOrUnAvailable" = "En aquests moments no es pot connectar al servidor. Torneu-ho a provar més tard.";
+"LOCID E_HttpRequestTimeout" = "No es pot iniciar la sessió perquè el servidor no està disponible temporalment.";
+"LOCID E_CannotConnectToServer" = "No es pot connectar amb el servidor. Proveu de tornar a establir la connexió. Si el problema continua, poseu-vos en contacte amb l'equip d’assistència tècnica.";
+"LOCID E_InvalidServerUrl" = "El nom del servidor és incorrecte. Verifiqueu-lo i torneu-ho a provar.";
+"LOCID E_NoValidIp" = "No s'ha pogut connectar a la xarxa. Comproveu la configuració de la connexió.";
+"LOCID E_MetaDataNotFound" = "No es pot connectar al servidor. Verifiqueu l'adreça del servidor o torneu-ho a provar més tard.";
+"LOCID E_TimeSkewError" = "No es pot sincronitzar el rellotge del vostre dispositiu amb el servidor. Canvieu la configuració de l'hora o poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_MobilityDisabled" = "No us podem iniciar la sessió perquè la vostra configuració no estableix que pugueu utilitzar Skype for Business. Contacteu amb l'equip d'assistència tècnica.";
+"LOCID E_TooManyApplications" = "No us podem iniciar la sessió. Sembla que ja teniu la sessió iniciada en massa dispositius.";
+"LOCID E_UI_OutsideVoiceDisabled" = "La trucada des del número de la feina està desactivada. Escriviu el vostre número de telèfon a les opcions per fer una trucada des de Skype for Business a aquesta persona.";
+"LOCID E_UI_OfflineLyncCall" = "Heu d'estar en línia o tenir connectivitat de dades mòbils per fer una trucada des de Skype for Business a aquesta persona.";
+"LOCID E_EwsError" = "No es pot connectar a l'Exchange. Torneu-ho a provar més tard.";
+"LOCID E_EwsBadCredentials" = "Les credencials d'inici de sessió de l'Exchange no són vàlides. Proveu d'actualitzar les credencials de l'Exchange o de Skype for Business.";
+"LOCID W_Retrying" = "No es pot connectar al servidor; s'està tornant a intentar...";
+"LOCID E_UI_CallViaCellError" = "Comproveu el número i torneu-ho a provar.";
+"LOCID E_LiveIdPasswordExpired" = "La vostra contrasenya ha caducat. Actualitzeu-la i torneu-ho a provar.";
+"LOCID E_LiveIdInvalidCredentails" = "No es pot iniciar la vostra sessió. Comproveu la informació del vostre compte i torneu-ho a provar.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Heu de canviar la contrasenya. Actualitzeu-la i torneu-ho a provar.";
+"LOCID E_LiveIdPasswordLockedOut" = "Heu de canviar la contrasenya. Actualitzeu-la i torneu-ho a provar.";
+"LOCID E_LiveIdConnectionFailed" = "En aquests moments no es pot connectar al servidor. Torneu-ho a provar més tard.";
+"LOCID E_LiveIdServiceUnavailable" = "En aquests moments no es pot connectar al servidor. Torneu-ho a provar més tard.";
+"LOCID E_LiveIdGenericError" = "No se us pot iniciar la sessió. Torneu-ho a provar.";
+"LOCID E_InvalidLiveIDUserNameError" = "No se us pot iniciar la sessió. Comproveu que el vostre nom d'usuari té el format nom@example.com i que la contrasenya és vàlida.";
+"LOCID E_InvalidSmtpAddress" = "No es pot connectar a l'Exchange. Comproveu la informació del compte i torneu-ho a provar.";
+"LOCID E_LogoffUnsuccessful" = "No us podem connectar a Skype for Business perquè s'ha perdut la connexió amb el servidor.";
+"LOCID E_ClientVersionMismatch" = "No podeu iniciar la sessió perquè la vostra organització no admet aquesta versió de Skype for Business. Instal·leu el Lync 2010 des de la botiga d'aplicacions per a mòbil.";
+"LOCID E_ClientServerSchemaMisMatch" = "No podeu iniciar la sessió amb aquesta versió de Skype for Business. Instal·leu una versió més recent. Si això no funciona, poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_ClientVersionCheck" = "No podeu iniciar la sessió amb aquesta versió de Skype for Business. Instal·leu una versió més recent. Si això no funciona, poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_VersionMismatch" = "No podeu iniciar la sessió amb aquesta versió de Skype for Business. Instal·leu una versió més recent. Si això no funciona, poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_AutoDConfigurationError" = "No se us pot iniciar la sessió. Poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_AutoDPasswordExpiredError" = "La contrasenya ha caducat. Actualitzeu-la i torneu-ho a provar.";
+"LOCID E_InvalidProxySettingsError" = "No se us pot iniciar la sessió. La configuració del servidor intermediari no és vàlida. Comproveu-la i torneu-ho a provar.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "S'ha tancat la sessió a causa de la inactivitat.";
+"LOCID E_GeneralGoneError" = "No se us pot iniciar la sessió. Poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_InternalServerError" = "No se us pot iniciar la sessió. Poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_TooManyApps" = "No se us pot iniciar la sessió. Ja heu iniciat la sessió a massa dispositius.";
+"LOCID E_ResponseUnkown" = "No podem connectar amb el servidor. Si feu servir Wi-Fi, obriu l'explorador per veure si teniu connexió. També podeu inhabilitar les connexions de zona activa o de tethering. Si el problema continua, contacteu amb el proveïdor de serveis de xarxa.";
+"LOCID E_CannotLoadADFSPage" = "No hem pogut iniciar la vostra sessió. Torneu-ho a provar. Si el problema continua, poseu-vos en contacte amb l'equip de suport tècnic.";
+"LOCID E_UserNotSipEnabled" = "No heu configurat la connexió amb el servidor. Poseu-vos en contacte amb l'equip d’assistència tècnica.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "No podeu fer trucades de VoIP en aquests moments. Proveu de trucar des del número de mòbil.";
+"LOCID E_VoicePSTNCallActive" = "No podeu fer trucades de VoIP en aquests moments. Proveu de trucar des del número de la feina.";
+"LOCID E_VoicePSTNCallActive - Button" = "Truca des del número de la feina";
+"LOCID E_VideoOverWiFiBlocked" = "Això és una invitació a una videotrucada, però com que no teniu connexió Wi-Fi, només hem connectat l'àudio.";
+"LOCID E_HistoryNotDisplayed" = "No es pot mostrar l'historial d'aquesta conversa.";
+"LOCID E_IMAcceptedElsewhere" = "Heu acceptat aquesta conversa en algun altre lloc. Per reiniciar-la, envieu un missatge nou.";
+"LOCID E_MuteFailed" = "A causa d'un error, els altres no poden veure que en aquests moments esteu silenciat.";
+"LOCID E_UnmuteFailed" = "A causa d'un error, continueu silenciat. Proveu de tornar a activar el so.";
+"LOCID E_DgExpansionGenericFailure" = "No s'obtenen membres de grup per convidar. Torneu-ho a provar més tard.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "El grup és massa gran per convidar.";
+"LOCID E_DgExpansionNoMembersFailure" = "El grup no té cap membre individual i no s'hi pot convidar.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ no està disponible o pot ser que estigui fora de línia.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ està definit com a No molesteu.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ està fora de servei. Comproveu-ne el número.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ està en una altra trucada.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ no ha respost.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ no pot respondre a aquesta trucada.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Aquesta trucada no es pot completar perquè sou fora de línia. Proveu d'iniciar la sessió a Skype for Business per fer la trucada.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "L'operació no s'ha pogut dur a terme correctament.";
+"LOCID E_VoiceGenericError" = "La trucada no s'ha completat o ha finalitzat.";
+"LOCID E_VoiceFeatureNotEnabled" = "La característica de trucada està inhabilitada.";
+"LOCID E_VoiceCheckNumber" = "Comproveu el número i torneu-ho a provar.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "La trucada no es pot completar. Torneu-ho a provar més tard.";
+"LOCID E_VoiceCallUnsuccessful" = "No es pot connectar la trucada.";
+"LOCID E_VoiceCallTypeNotSupported" = "Error de trucada. Aquest tipus de trucada no s'admet.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Pot ser que aquest missatge no s'hagi enviat a %@ perquè el servidor ha superat el temps d'espera:";
+
+"LOCID E_SharingAnotherOperation" = "Estem provant de fer una altra cosa. Espereu un moment i torneu-ho a provar.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ no ha rebut aquest missatge a causa d'un problema del servidor:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ està fora de línia i no ha rebut aquest missatge:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ té l'estat No molesteu i no ha rebut aquest missatge:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "No s'ha pogut enviar aquest missatge perquè no s'ha trobat %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "No es pot enviar aquest missatge perquè conté elements bloquejats:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "No s'ha pogut contactar amb %@ per enviar-li aquest missatge:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "No s'ha pogut completar la trucada.";
+
+"LOCID E_ConfLocked" = "No us podeu unir a la reunió perquè està bloquejada. Poseu-vos en contacte amb l'organitzador.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Hi ha una discrepància de xifratge entre l'usuari i %@. Poseu-vos en contacte amb l'equip de suport tècnic.";
+
+"LOCID E_ConferencingServerError" = "S'ha produït un error del servidor. Poseu-vos en contacte amb l'equip de suport tècnic.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "No es pot contactar amb %@; pot estar fora de línia.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ té l'estat No molesteu i no s'hi pot contactar.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ no ha respost a la invitació.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "No es pot contactar amb %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "La vostra configuració no us permet unir-vos a reunions de Skype.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "No es pot entrar a la conferència si no s'inicia la sessió a l'aplicació.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ no es pot entrar a la reunió.";
+"LOCID E_ConferencingEnded" = "La reunió a la qual proveu d'entrar no està disponible.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "No es pot contactar amb %@. Torneu-ho a provar més tard.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "%@ no es pot trobar. Comproveu l'adreça.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "No es pot contactar amb %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ ha rebutjat la vostra invitació.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Un presentador ha finalitzat la reunió.";
+"LOCID E_ConferencingCallDisconnected" = "S'ha desconnectat la trucada.";
+"LOCID ConferenceUnexpectedDisconnect" = "Se us ha desconnectat de la conferència.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "La trucada no s'ha completat o ha finalitzat.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "No es pot afegir %@ a la reunió perquè la xarxa està ocupada.";
+
+"LOCID E_ConferencingCannotConnect" = "La trucada no s'ha completat o ha finalitzat.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "No es pot connectar a aquest tipus de reunió en línia.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "No es pot convidar %@ perquè la reunió és plena.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "No es pot entrar a la reunió com a assistent anònim.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "No es pot entrar a la reunió per un error en la invitació.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "No teniu permís per entrar a la reunió.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "No us hem pogut fer entrar a la reunió. Torneu-ho a provar.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "No es pot entrar a aquesta reunió des de fora de l'empresa.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "No es pot entrar a aquest tipus de reunió en línia.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "No es pot contactar amb %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "No podeu iniciar una reunió perquè se n'està iniciant una altra.";
+"LOCID E_ConferencingEncryptionIssues" = "No es pot iniciar la reunió de Skype per problemes de xifratge.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "No teniu prou permisos per entrar o per marcar des d'un altre dispositiu.";
+"LOCID E_ConferencingMediaSessionTerminated" = "La trucada no s'ha completat o ha finalitzat.";
+"LOCID E_ConferencingFull" = "La reunió és plena.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "No teniu permís per entrar en aquesta reunió.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "La invitació a %@ ha caducat.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "La reunió ha finalitzat perquè els amfitrions han marxat.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "No podeu entrar a la reunió perquè la xarxa està ocupada.";
+"LOCID E_ConferencingSubjectLineTooLong" = "La línia d'assumpte és massa llarga.";
+"LOCID E_ConferencingFeatureNotEnabled" = "La vostra empresa no ha habilitat aquesta característica de reunió.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Aquesta reunió ha finalitzat per inactivitat.";
+"LOCID E_ConferencingCannotBeFound" = "Aquesta reunió en línia no s'ha trobat.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "No teniu permís per entrar en aquesta reunió.";
+"LOCID E_ConferencingUserNotAdmitted" = "No se us ha admès a la reunió.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Se us ha suprimit de la reunió.";
+"LOCID E_ConfGenericError" = "No us hem pogut unir a la reunió. Torneu-ho a provar.";
+"LOCID E_ConferenceDenied" = "El presentador us ha denegat l'accés.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Ja sou en una reunió. Voleu sortir-ne i unir-vos a aquesta altra?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "El servidor no permet unir-se a una reunió de manera anònima amb aquest dispositiu.";
+"LOCID ConferenceVideoLock" = "Un presentador ha bloquejat el vídeo seleccionat d'algú.";
+"LOCID ConferenceVideoUnlock" = "Un presentador ha desbloquejat el vídeo seleccionat.";
+"LOCID ConferenceVideoSelfLock" = "S'ha bloquejat el vostre vídeo per a tothom.";
+"LOCID ConferenceVideoSelfUnlock" = "Ja no hi ha ningú bloquejat al vostre vídeo.";
+
+"LOCID E_DomainNotTrusted" = "No es pot connectar al servidor. Accepteu la sol·licitud de redirecció.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ no ha rebut aquest missatge perquè el format no està permès:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "El dispositiu %@ fa servir missatges que no es poden obtenir.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ no ha rebut aquest missatge perquè és massa llarg:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ no ha rebut aquest missatge perquè la política en restringeix l'entrega:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "No es pot enviar el missatge instantani—ja heu iniciat una conversa amb %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "No es pot enviar aquest missatge perquè conté elements bloquejats:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "No teniu autorització per enviar missatges instantanis a %@. No hem enviat el següent:";
+
+"LOCID E_IMConfGenericError" = "Un o més participants no han obtingut aquest missatge:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ no està disponible.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "La trucada ha finalitzat perquè %@ ha tancat la sessió.";
+
+"LOCID E_VoiceCallTimeout" = "La trucada no s'ha completat a causa d'un error de xarxa. Torneu-ho a provar.";
+"LOCID E_VoiceCallDisconnected" = "S'ha desconnectat la trucada. Torneu-ho a provar.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "La trucada no s'ha completat o ha finalitzat.";
+"LOCID E_VoiceCallNotCompleted" = "%@ no pot rebre trucades. Proveu la missatgeria instantània o el correu.";
+"LOCID E_VoiceServerError" = "No es pot connectar la trucada per un error de servidor. Torneu-ho a provar.";
+"LOCID E_VoiceCannotConnect" = "No es pot connectar a la reunió en línia.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "No es pot contactar amb %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "No es pot localitzar %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "No es pot iniciar la reunió de Skype per problemes de xifratge.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "La persona a la qual heu trucat ha respost amb un missatge instantani.";
+"LOCID E_VoiceCannotCompleteCall" = "La trucada no es pot completar tal com s'ha marcat.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "La trucada no es pot completar per un problema del servidor.";
+"LOCID E_VoiceServerCannotForwardCall" = "El servidor no pot desviar la trucada. Torneu-ho a provar.";
+"LOCID E_VoiceServerDidNotRespond" = "El servidor no respon. Torneu-ho a provar.";
+"LOCID E_VoiceCannotPlaceCall" = "No es pot trucar. Comproveu el número i torneu-ho a provar.";
+"LOCID E_VoiceNumberNotSupported" = "La vostra organització no permet trucades a aquest número.";
+"LOCID E_IncomingPSTNCall" = "No s'ha pogut finalitzar la trucada.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "No podeu trucar a %@ perquè la norma restringeix les trucades.";
+
+"LOCID E_CallFailed" = "La trucada ha finalitzat per problemes de connectivitat. Torneu-ho a provar.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Se us ha desconnectat perquè us heu unit des d'un altre client.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Se us ha suprimit de la reunió.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "No s'ha pogut completar la trucada perquè la xarxa està ocupada.";
+"LOCID E_VoiceNotSupported" = "%@ no pot acceptar trucades d'àudio.";
+"LOCID E_RepliedWIthOtherModality" = "El destinatari ha decidit respondre amb un missatge instantani.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Ara mateix no es pot actualitzar l'historial de la conversa i, per tant, no estarà sincronitzat.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Ara mateix no es pot actualitzar l'historial de la conversa i, per tant, no estarà sincronitzat.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "No podem desviar les trucades a aquest contacte; seleccioneu un dels vostres contactes de Skype for Business per desviar-hi les trucades o bé seleccioneu \"Número nou\" per escriure un número de telèfon.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY està activat";
+"LOCID RemoteHoldSucceeded" = "Un usuari remot us ha posat en espera.";
+"LOCID RemoteUnholdSucceeded" = "La trucada s'ha atès correctament de manera remota";
+"LOCID LocalHoldSucceeded" = "La trucada s'ha retingut correctament de manera local";
+"LOCID LocalUnholdSucceeded" = "La trucada s'ha atès correctament de manera local";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Reprèn la trucada";
+"LOCID is recording" = "%@ està enregistrant";
+"LOCID Multiple Recording" = "Algú està enregistrant";
+"LOCID OnHoldOutOfApp" = "La vostra trucada del %@ està en espera.";
+"LOCID OnStopOutOfApp" = "La vostra trucada del %@ ha finalitzat inesperadament.";
+"LOCID RecordingAlert" = "%@ està enregistrant aquesta trucada.";
+"LOCID CoversationP2PIsRecording" = "%@ està enregistrant aquesta trucada.";
+"LOCID CoversationP2PIsRecordingNoName" = "S'està enregistrant aquesta trucada.";
+"LOCID CoversationConferenceIsRecording" = "Algú està enregistrant aquesta reunió.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Aquesta llista gairebé està plena. Les converses més antigues se suprimiran quan se n'afegeixin de noves.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Un presentador ha silenciat el públic.";
+"LOCID Audience Unlock" = "Un presentador ha activat el so del públic.";
+"LOCID Conference Mute" = "Un presentador us ha silenciat.";
+"LOCID Conference Unmute" = "Un presentador vol que us silencieu.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Un presentador ha bloquejat la possibilitat que els assistents enviïn vídeo.";
+"LOCID PresenterBlockedVideo - Presenter" = "Un presentador ha bloquejat la possibilitat que els assistents enviïn vídeo. Si sou presentador, podeu activar la càmera i compartir el vostre vídeo.";
+"LOCID PresenterBlockedVideo - Unblock" = "Un presentador ha desbloquejat la possibilitat que els assistents enviïn vídeo.";
+"LOCID VideoLockOnYou" = "S'ha bloquejat el vostre vídeo per a tothom.";
+"LOCID VideoLock" = "Un presentador ha bloquejat el vídeo seleccionat d'algú.";
+"LOCID VideoNotLockOnYou" = "Ja no hi ha ningú bloquejat al vostre vídeo.";
+"LOCID VideoSpotlightUnlocked" = "Un presentador ha desbloquejat el vídeo seleccionat.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Enrere";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "La trucada des del número de la feina no està disponible.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "No hi ha cap correu de veu";
+"LOCID You currently have no voicemail messages" = "No teniu cap correu de veu.";
+"LOCID Audio" = "Àudio";
+"LOCID Speaker" = "Altaveu";
+"LOCID Can not play locally" = "No podem reproduir aquest missatge. Toqueu Reprodueix per rebre una trucada i escoltar-lo.";
+"LOCID Play Voice Mail" = "Reprodueix el correu de veu";
+"LOCID PLAY_VOICEMAIL_HINT" = "Reprodueix el correu de veu";
+"LOCID Pause Voice Mail" = "Atura el correu de veu";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Pausa el correu de veu";
+"LOCID Play On Phone Error - No Number" = "Heu d'introduir el vostre número de telèfon a Opcions perquè us tornin la trucada.";
+"LOCID Call Back" = "Torna la trucada";
+"LOCID Delete" = "Suprimeix";
+"LOCID More voicemails iPad" = "Per escoltar correus de veu antics, toqueu la icona de la bústia de veu.";
+"LOCID More voicemails" = "Per escoltar correus de veu antics, toqueu uns segons la tecla 1 del teclat numèric o aneu a l'Outlook.";
+"LOCID More voicemails No keypad" = "Aneu a l'Outlook per escoltar correus de veu més antics.";
+"LOCID Can not play IRMed" = "Aquest missatge té els drets gestionats. Toqueu Reprodueix per rebre una trucada i escoltar-lo.";
+"LOCID Lync Call" = "Trucada de Skype for Business";
+"LOCID Can't play on phone" = "No podem reproduir aquest missatge. Comproveu la connexió de xarxa i torneu-ho a provar més tard.";
+"LOCID Yes" = "Sí";
+"LOCID No" = "No";
+"LOCID VMCallerID" = "Correu de veu";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Reprodueix el missatge de bústia de veu a la velocitat normal";
+"LOCID VM Playback -2X Acc" = "Reprodueix el missatge de bústia de veu més lentament a la meitat de velocitat";
+"LOCID VM Playback 2X Acc" = "Reprodueix el missatge de bústia de veu més ràpidament al doble de velocitat";
+"LOCID Voicemail From" = "Correu de veu de %@";
+"LOCID No Voicemails Placeholder" = "Les bústies de correu es mostraran aquí";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Descarta";
+"LOCID Accept" = "Accepta";
+"LOCID Not yet implemented feature" = "Aquesta característica encara no s'ha implementat. Torneu. a provar en una versió posterior.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Teniu 1 correu de veu nou";
+"LOCID Missed VMs" = "Teniu %d correus de veu nous";
+"LOCID Missed Collab Out of App" = "Sessió de col·laboració perduda amb %@";
+"LOCID Missed Video Call Out of App" = "Videotrucada perduda amb %@";
+"LOCID Missed Audio Call Out of App" = "Trucada perduda amb %@";
+"LOCID Missed Message Out of App" = "Missatge instantani perdut amb %@";
+"LOCID Missed Audio Conf Out of App" = "Trucada de conferència perduda amb %@";
+
+"LOCID Audio Call Out of App" = "Trucada de %@";
+"LOCID Conference Call Out of App" = "Trucada de conferència de %@";
+"LOCID Dismiss Call" = "Ignora";
+"LOCID Answer Call" = "Accepta";
+"LOCID Answer Call with Video" = "Vídeo";
+"LOCID Audio Call" = "Trucada";
+"LOCID Conference Call" = "Trucada de conferència";
+"LOCID Unknown Caller" = "Autor de la trucada desconegut";
+
+"LOCID Video conf accessibility" = "Videoconferència de %@";
+"LOCID Video accessibility" = "Videotrucada de %@";
+"LOCID Audio conf accessibility" = "Trucada de conferència de %@";
+"LOCID Audio accessibility" = "Trucada de %@";
+
+"LOCID Video Call Out of App" = "Videotrucada de %@";
+"LOCID Video Conference Call Out of App" = "Videoconferència de %@";
+"LOCID Video Call" = "Videotrucada";
+"LOCID Video Conference Call" = "Videoconferència";
+"LOCID Video Escalation Name" = "%@ està compartint un vídeo";
+"LOCID Video Escalation" = "està compartint un vídeo";
+"LOCID Video Escalation Conf" = "Algú està compartint un vídeo";
+"LOCID VideoInvitationRejected" = "La part de vídeo de la trucada no s'ha acceptat. La trucada continuarà només amb àudio.";
+"LOCID E_VideoDecline" = "%@ no ha acceptat el vídeo.";
+"LOCID E_VideoGeneric" = "No s'ha pogut iniciar el vídeo. Torneu-ho a provar.";
+"LOCID E_VideoNotStarted" = "No s'ha pogut iniciar el vídeo.";
+"LOCID E_VideoNotSupported" = "%@ no pot acceptar videotrucades.";
+"LOCID E_VideoNotAccepted" = "%@ no ha acceptat la porció de vídeo de la trucada. La trucada continuarà només amb àudio.";
+
+"LOCID E_VoiceTransferGenericError" = "No s'ha pogut transferir la trucada.";
+"LOCID E_VoiceTransferParticipantError" = "No s'ha pogut transferir la trucada perquè no es pot establir contacte amb el destinatari.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "silencia";
+"LOCID Mute Capitalized" = "Silencia";
+"LOCID Unmute" = "Activa el so";
+"LOCID keypad" = "teclat numèric";
+"LOCID add call" = "afegeix una trucada";
+"LOCID hold" = "retén";
+"LOCID End" = "Finalitza";
+"LOCID Hide Keypad" = "Amaga el teclat numèric";
+"LOCID Call Lync" = "Trucada de Skype for Business";
+"LOCID Call Work" = "Feina: %@";
+"LOCID Call Mobile" = "Mòbil: %@";
+"LOCID Call Home" = "Particular: %@";
+"LOCID Call Other" = "Un altre: %@";
+"LOCID Decline" = "Rebutja";
+"LOCID Video Menu" = "Menú de vídeo";
+"LOCID Hold Call" = "Trucada en espera";
+"LOCID Hang Up" = "Penja";
+"LOCID Dial Pad Only" = "Teclat";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u participants - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u participant - %@";
+"LOCID Call Status Connecting" = "S'està connectant...";
+"LOCID Call Status Connecting Remote" = "S'està connectant...";
+"LOCID Call Status Connected" = "Connectat";
+"LOCID Call Status On Hold - Passive" = "Retén";
+"LOCID Call Status On Hold" = "En espera";
+"LOCID Call Status Ended" = "Trucada finalitzada";
+"LOCID Call Status Transfering" = "S'està transferint";
+"LOCID On behalf of" = "En nom de %@";
+"LOCID Call for" = "Truca a %@";
+"LOCID Call for - Astana" = "Truca a %@";
+"LOCID Transferred by" = "Transferida per %@";
+"LOCID Forwarded by" = "Desviada per %@";
+"LOCID Private call" = "Trucada privada";
+"LOCID Also ringing" = "També trucarà al %@";
+"LOCID Also ringing delegates" = "També està trucant als vostres delegats";
+"LOCID Will ring" = "Trucarà a: %@";
+"LOCID Also ringing team call" = "També està trucant al vostre equip";
+"LOCID The recipient" = "El destinatari";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "S'està inicialitzant...";
+"LOCID DataCollab Connecting" = "S'està connectant...";
+"LOCID DataCollab Loading" = "S'està carregant...";
+"LOCID DataCollab No Content" = "Els presentadors han deixat de compartir contingut.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "La característica d'ús compartit de dades no està disponible per un error de connexió del servidor.";
+"LOCID DisconnectedOnConnectivityIssue" = "Algunes característiques de presentació no estan disponibles per problemes de connectivitat amb el servidor.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Se us ha desconnectat perquè us heu unit des d'un altre client.";
+"LOCID DisconnectedOnNetworkFailure" = "No podeu veure la presentació per problemes de xarxa.";
+"LOCID DataCollab Known UnSupported" = "El presentador està fent servir una característica que no s'admet en aquesta versió de Skype for Business.";
+"LOCID DataCollab Generic UnSupported" = "El presentador està fent servir una característica que no s'admet en aquesta versió de Skype for Business o pot ser que estigui connectat a un servidor més antic.";
+"LOCID DataCollab ContentPresenter" = "Presentador: %@";
+"LOCID DataCollab NoPresenter" = "Ningú no està presentant";
+"LOCID Collab Unsupported PPTContent" = "No podem reproduir els elements multimèdia d'aquesta presentació.";
+"LOCID Retry" = "Torna-ho a provar";
+"LOCID DataCollab Generic PPT Error" = "Algunes característiques de la presentació no estan disponibles a causa de problemes de connectivitat del servidor.";
+"LOCID Start Viewing" = "Comença a mostrar";
+"LOCID Stop Viewing" = "Deixa de mostrar";
+"LOCID Collab Escalation" = "%@ vol iniciar una presentació";
+"LOCID PowerPoint content Accessibility" = "Contingut del PowerPoint";
+
+"LOCID SyncPresenterButton" = "Sincronitza amb la visualització del presentador";
+"LOCID NavigateBackButton" = "Retrocedeix una diapositiva";
+"LOCID NavigateForwardButton" = "Avança una diapositiva";
+"LOCID SlideNumber" = "%1$d de %2$d";
+"LOCID SlideNumber Accessibility" = "Diapositiva %1$d de %2$d";
+
+"LOCID E_SharingDisabled" = "La presentació està inhabilitada.";
+"LOCID E_SharingNetworkIssues" = "No podeu fer la presentació per problemes de xarxa. Torneu-ho a provar més tard.";
+"LOCID E_SharingNotSupported" = "No es permeten presentacions amb aquest contacte.";
+"LOCID E_SharingTimeout" = "La presentació no s'ha iniciat perquè el servidor està ocupat. Torneu-ho a provar més tard.";
+"LOCID SharingAnotherType" = "Aquesta presentació ha finalitzat perquè se n'ha iniciat una altra.";
+"LOCID E_GetMediaSdpFailed" = "En aquest moment no us podem connectar amb la presentació del programa o l'escriptori.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "No veureu contingut presentat perquè no esteu connectat a la Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "No podeu fer una trucada de Skype for Business perquè no esteu connectat a cap Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "La presentació és massa gran per poder-se mostrar al vostre dispositiu.";
+"LOCID E_CollabDisconnectedNetworkError" = "Se t'ha desconnectat de la presentació a causa d'errors amb la xarxa.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Heu estat desconnectat perquè heu entrat des d'un altre client.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "S'està carregant l'ús compartit de contingut.";
+"LOCID AppSharing Shared Content" = "Contingut compartit.";
+"LOCID AppSharing Desktop" = "Escriptori";
+"LOCID AppSharing Application" = "Aplicació";
+"LOCID AppSharing SharingPaused" = "L'ús compartit està en pausa en aquests moments."; // Not used
+"LOCID AppSharing SharingIdle" = "L'ús compartit està inactiu en aquests moments."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Tots els recursos estan minimitzats."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ ha provat d'iniciar una presentació de pantalla, però aquesta versió de l'aplicació només admet aquesta característica a les trucades de conferència i a les reunions de Skype.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Inicia la MI";
+"LOCID send IM" = "Envia";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Finalitza la conversa";
+"LOCID View Contact Card" = "Mostra la targeta de contacte";
+"LOCID Invite Others" = "Convida altres persones";
+"LOCID Send Location action" = "Envia la ubicació";
+"LOCID Send as Email action" = "Envia com a correu";
+"LOCID View Participants" = "Visualitza els participants";
+"LOCID Rejoin" = "Torna a entrar";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Feu dos tocs per ampliar";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "La qualitat de la trucada és baixa";
+"LOCID ACI Call Muted" = "Actualment està silenciat; toqueu dues vegades per activar-ne el so";
+"LOCID ACI Call Unmuted" = "Actualment té el so activat; toqueu dues vegades toc per silenciar-lo";
+
+/* Search results */
+"LOCID No Results" = "No hi ha cap resultat";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ s'ha tancat de manera inesperada";
+"LOCID Dont Send" = "No l'enviïs";
+"LOCID Send Report" = "Envia l'informe";
+"LOCID Would you like to send a report so we can fix the problem" = "Voleu enviar un informe perquè puguem resoldre el problema?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "inici";
+"LOCID Timeline Contacts" = "contactes";
+"LOCID Timeline Meetings" = "reunions";
+"LOCID Timeline Search Placeholder" = "cerca de contactes";
+"LOCID Timeline Recent" = "recents";
+"LOCID Timeline Upcoming" = "propers";
+"LOCID Timeline TableView" = "cronologia";
+"LOCID Timeline Meeting Time All Day" = "tot el dia";
+"LOCID Timeline Search Skype Contacts" = "contactes";
+"LOCID Timeline Search Phone Contacts" = "contactes del telèfon";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "contactes";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "teclat i correu de veu";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "teclat, %ld correu de veu nou";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "teclat, %ld correus de veu nous";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "reunions";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "inici";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "la meva informació";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, missatges nous, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "trucada";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "videotrucada";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "marca-ho com a llegit";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "suprimeix";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "entra a la reunió";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "descarta";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "Admet";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "disponible";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "ocupat";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "absent";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "fora de línia";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "no molesteu";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "persona desconeguda";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "esborra el text";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "cerca de contactes";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "videotrucada";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "trucada";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Entra a la reunió";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Buida el xat";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Foto de perfil";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld correu de veu nou";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld correus de veu nous";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Suprimeix";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Àngel";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Enfadat";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Bandit";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Futbol";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Cervesa";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Riure";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Bicicleta";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Vergonya";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Reverència";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Cor trencat";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Pastís";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Trucada";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Càmera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Pots parlar?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Cotxe";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Diners";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Gat";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Aplaudint";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Cafè";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Ordinador";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Confidencial";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Genial";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Plorant";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Ballant";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Dimoni";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Gos";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Caram!";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Beguda";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Apagat";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Enveja";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Malvat";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Exasperant";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Creuem els dits";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Flor";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Jocs";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Regal";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Rialleta";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Bona sort";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Haig de córrer";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Encaixada de mans";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Feliç";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Cops de cap contra la paret";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Cor";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Esquirol";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Hola!";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Toca-la!";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "En espera";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Abraçada";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Idea";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Enamorat";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Illa";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "No he estat jo!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Petó";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Lalala";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Reunim-nos";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "No obriré la boca";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Heu rebut correu";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Maquillatge";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Home";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Pel·lícula";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Múscul";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Música";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Setciències";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "No";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Assentiment";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Festa";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telèfon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Avió";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Vomitant";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Cop de puny";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Pluja";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Arc de Sant Martí";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Mort de riure";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Trist";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Negació";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Endormiscat";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Somriure";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Somriure amb satisfacció";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Cargol";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Bocabadat";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Estrella";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Atura";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Llum del sol";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Sorprès";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Insults";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Suant";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Parlant";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Parla amb la mà";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Pensant";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Hora";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Massa informació";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Cara traient la llengua";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Estepicursor";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Paraigua";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Espera";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Esperant";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Treballant des de casa";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Què passa?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Uf";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Picada d'ullet";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Dona";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Dubtant";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Preocupat";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Badallant";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Sí";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Escriviu un missatge aquí";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Saluda %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Saludar el grup";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Les converses es mostraran aquí";
+"CHAT_FAILED_TO_SEND" = "No hem pogut enviar aquest missatge: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Mostra el xat";
+"LOCID CONVERSATION_HIDE_CHAT" = "Amaga el xat";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Mostra la barra lateral";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Amaga la barra lateral";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "emoticones";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "d";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "d";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "h";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "h";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "min";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "min";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "s";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "s";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d notificacions noves";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Una notificació nova";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "No hi ha cap notificació nova";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "conferència finalitzada";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u participants";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "descarta";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "obre";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "copia";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "afegeix a la Llista de lectura";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "obre a Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "enrere";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "desvia";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "d'acord";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "cancel·la";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ està escrivint...";
+"CHATTYPING_TWOUSERS" = "%@ i %@ estan escrivint...";
+"CHATTYPING_THREEUSERS" = "%@, %@ i una altra persona estan escrivint...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ i %d persones més estan escrivint...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "envia un missatge de correu electrònic";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "mostra la targeta de contacte";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "participants";
+"DROPDOWN_ADD_PARTICIPANTS" = "afegeix participants";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Entrant";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Sortint";
+
+"LOCID Meetings Page Title" = "Reunions";
+"LOCID No Meetings Placeholder" = "Les reunions es mostraran aquí";
+"LOCID Meetings Today" = "Avui";
+"LOCID Meetings Tomorrow" = "Demà";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Establiu la nota personal";
+
+"PARTICIPANTS_VIEW_TITLE" = "Participants";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Esperant a la sala d'espera";
+"PARTICIPANTS_VIEW_ON_CALL" = "En aquesta trucada";
+
+"MEETING_VIEW_TITLE" = "Reunió";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Entra a la reunió";
+"MEETING_VIEW_ORGANISER_LABEL" = "Organitzador";
+"MEETING_VIEW_INVITEES_LABEL" = "Convidats";
+"MEETING_VIEW_NOTES_LABEL" = "Notes";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Click to join \"%@\" using Skype for Business:"; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "S'està connectant...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Trieu una emoticona";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Envia el missatge";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Trucada finalitzada";
+"INVITE_PARTICIPANTS" = "Convida participants";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Enrere";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Retrocés";
+"LOCID_ADDRESS_BOOK" = "Llibreta d'adreces";
+"LOCID_PHONE_NUMBER" = "Número de telèfon";
+"LOCID_MORE" = "Més";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Canvia de vídeo";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Mostra el perfil de contacte";
+"CHAT_OPTION_PARTICIPANTS" = "Participants";
+"LOCID_CONTACTS_TABLE_VIEW" = "Visualització de contactes";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Trucada entrant";
+"LOCID_MEETINGS_TABLE_VIEW" = "Visualització de reunions";

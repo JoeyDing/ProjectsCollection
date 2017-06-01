@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "答复";
+"JOIN" = "接受";
+"VIEW" = "查看";
+"IGNORE" = "忽略";
+"LAUNCH" = "启动";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "正在邀请您加入对话";
+"NEW_IM_BURNT_TOAST" = "已错过与 %@ 的对话";
+"SIGN_IN" = "登录";
+"SIGN_OUT" = "由于您处于不活动状态，已被注销。";
+"MWI" = "新的语音邮件: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "登录地址";
+"LOCID Password" = "密码";
+"LOCID User Name" = "用户名";
+"LOCID Domain" = "域";
+"LOCID Auto-Detect Server" = "自动检测服务器";
+"LOCID Sign-in As" = "登录状态";
+"LOCID User Name Footer" = "Skype for Business Online用户: username@domain.com\n所有其他用户: 域\\用户名";
+"LOCID Hide Details" = "隐藏高级选项";
+"LOCID More Details" = "显示高级选项";
+"LOCID Save Password" = "保存我的密码";
+
+/* generic share button */
+"LOCID share" = "共享";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "内部服务器地址";
+"LOCID External Server Address" = "外部服务器地址";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "向我们发送你的登录错误信息，帮助我们改进Skype for Business。";
+"LOCID Sign In BRB Reason 2" = "是否可以收集一些有关此问题和未来登录错误的信息? 您以后始终可以在“选项”中更改此设置。";
+"LOCID BRBDonotshow" = "不再显示此信息";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "登录";
+"LOCID Sign Out" = "注销";
+"LOCID Cancel Sign in" = "取消登录";
+"LOCID Lync Is Signing In" = "Skype for Business正在登录";
+"LOCID Lync Is Signing Out" = "Skype for Business正在注销";
+
+// Help
+"LOCID signin help" = "登录帮助";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "我的信息";
+"LOCID Contacts" = "联系人";
+"LOCID Conversations" = "聊天";
+"LOCID Meetings" = "会议";
+"LOCID Phone" = "电话";
+"LOCID Signing In" = "正在登录...";
+"LOCID Signed Out" = "已注销";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "今天发生了什么事?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "个人备注";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "输入你的个人备注";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "双击以编辑";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "未知";
+"LOCID Available" = "有空";
+"LOCID Busy" = "忙碌";
+"LOCID Busy Inactive" = "忙碌(非活动状态)";
+"LOCID Do Not Disturb" = "请勿打扰";
+"LOCID Be Right Back" = "马上回来";
+"LOCID Presence unknown" = "显示状态未知";
+"LOCID Off Work" = "下班";
+"LOCID Appear Away" = "显示为离开";
+"LOCID Away" = "离开";
+"LOCID Inactive" = "非活动状态";
+"LOCID Reset Status" = "重置状态";
+"LOCID Offline" = "脱机";
+"LOCID Blocked" = "已阻止";
+"LOCID Sign In As Header" = "选择要显示的状态:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "接听电话";
+"LOCID In a Conference Call" = "电话会议中";
+"LOCID Presenting" = "正在演示";
+"LOCID In a Meeting" = "正在开会";
+"LOCID Out of Office" = "外出";
+"LOCID Urgent Interruptions Only" = "仅限紧急联系";
+"LOCID Out To Lunch" = "外出就餐";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype for Business无法显示你的iPhone联系人。你可以在iphone设置解决此问题。";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype for Business无法显示你的iPad联系人。你可以在iphone设置解决此问题。";
+"LOCID Other Contacts" = "其他联系人";
+"LOCID Pinned Contacts" = "常用联系人";
+"LOCID Retrieving Members" = "请稍等...";
+"LOCID Cannot connect Try again" = "当前无法获得组成员。请稍后再试。";
+"LOCID Group is too large to display" = "组太大，无法显示。";
+"LOCID No members" = "无成员";
+"LOCID Searching the company directory" = "正在搜索公司目录...";
+"LOCID Please signin to search" = "请登录以搜索公司目录。";
+"LOCID Too many results" = "结果太多；请尝试细化您的搜索。";
+"LOCID Unable to connect to the server" = "当前无法连接到服务器。请重试。";
+"LOCID E_SearchTooLong" = "未找到任何匹配项。请尝试使用稍短的搜索。";
+"LOCID No Name" = "无名称";
+"LOCID idle day" = "%d 天";
+"LOCID idle days" = "%d 天";
+"LOCID idle hour" = "%d 小时";
+"LOCID idle hours" = "%d 小时";
+"LOCID idle minutes" = "%d 分钟";
+"LOCID inactive idle day" = "“非活动状态”已持续 %d 天";
+"LOCID inactive idle days" = "“非活动状态”已持续 %d 天";
+"LOCID inactive idle hour" = "“非活动状态”已持续 %d 小时";
+"LOCID inactive idle hours" = "“非活动状态”已持续 %d 小时";
+"LOCID inactive idle minutes" = "“非活动状态”已持续 %d 分钟";
+"LOCID DG does not exist" = "通讯组不再存在。";
+"LOCID Access to DG denied" = "对通讯组的访问被拒绝";
+"LOCID No Contacts Placeholder" = "你的联系人列表将在此显示";
+"LOCID No Contacts" = "无联系人";
+"LOCID You currently have no contacts" = "您当前没有联系人";
+"LOCID Retrieving Contacts..." = "正在获取联系人...";
+"LOCID Expanded" = "组 %@，已展开";
+"LOCID Collapsed" = "组 %@，已折叠";
+"LOCID Group card- acc" = "组卡片";
+"LOCID Open group card - acc" = "点击以打开组卡片";
+
+/* Contact Card*/
+"LOCID Loading name" = "正在加载名称...";
+"LOCID Details" = "卡片";
+"LOCID Work" = "工作电话";
+"LOCID Home" = "家庭电话";
+"LOCID Mobile" = "移动电话";
+"LOCID Other" = "其他电话";
+"LOCID other lowercase" = "其他";
+"LOCID Office" = "办公室";
+"LOCID Company" = "公司";
+"LOCID Department" = "部门电话";
+"LOCID Send Text Message" = "发送短信";
+"LOCID IM" = "IM";
+"LOCID E-Mail" = "电子邮件";
+"LOCID unknown lowercase" = "未知";
+"LOCID Location lowercase" = "位置";
+"LOCID Calendar" = "日历";
+"LOCID Link" = "链接";
+"LOCID Disabled" = "%@，已禁用"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "注释";
+"LOCID Video" = "视频";
+
+/* DG Card*/
+"LOCID Members" = "成员"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "邀请";
+"LOCID Transfer" = "转接";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business正在尝试将你重定向到：";
+"LOCID certIssuedBy" = "颁发者:";
+"LOCID certSubject" = "主题:";
+"LOCID certExpires" = "有效期:";
+"LOCID certSignature" = "签名算法:";
+"LOCID certDonotshow" = "不再显示此信息。";
+"LOCID Continue" = "继续";
+"LOCID certNone" = "未加密";
+"LOCID certRSA" = "RSA 加密";
+"LOCID certDSA" = "DSA 加密";
+"LOCID certDH" = "DH 加密";
+"LOCID certEC" = "EC 加密";
+"LOCID certHMAC" = "HMAC 加密";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "对话";
+"LOCID Chats - Phone Call" = "电话呼叫";
+"LOCID Chats - Video Call" = "视频呼叫";
+"LOCID Chats - Meeting" = "会议";
+"LOCID Chats - Missed Call" = "错过的呼叫";
+"LOCID Chats - Missed Video Call" = "错过的视频呼叫";
+"LOCID Chats - Current Call" = "当前通话";
+"LOCID Chats - Current Call With Duration" = "当前通话，%@";
+"LOCID Phone Status - Connecting" = "正在连接...";
+"LOCID Phone Status - On Hold" = "保持";
+"LOCID Phone Status - Transferring" = "正在转接";
+"LOCID Transferring to" = "正在转接到 %@...";
+"LOCID Chats Full" = "仅供参考: 此列表已满。添加新对话时，最旧的对话将被删除。";
+"LOCID Close Conversation" = "删除对话";
+"LOCID View Participants List" = "查看参与者名单";
+"LOCID Call Contact" = "呼叫 %@";
+"LOCID Video Call Contact" = "视频呼叫";
+"LOCID Video Conference Contact" = "视频会议";
+"LOCID Edit" = "编辑";
+"LOCID Deselect All" = "取消全选";
+"LOCID Select All" = "全选";
+"LOCID Me" = "我: %@";
+"LOCID Missed" = "错过: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "组对话";
+"LOCID Tap To Enter Text" = "点击以键入";
+"LOCID No Conversations" = "无对话";
+"LOCID No Conversations Hint" = "您当前没有对话";
+"LOCID Delete Count" = "删除 (%d)";
+"LOCID Delete None" = "删除";
+"LOCID Escalating audio conference" = "正在开始电话会议...";
+"LOCID Escalating video conference" = "正在开始视频会议...";
+"LOCID No Participants" = "无参与者";
+"LOCID No Other Participants" = "无其他参与者";
+"LOCID One Participant" = "1 个参与者";
+"LOCID Some Participants" = "%d 个参与者";
+"LOCID Max Participants" = "%d+ 个参与者";
+"LOCID Large Meeting" = "大型会议";
+"LOCID Toast No Invite" = "正在邀请您加入对话";
+"LOCID Participant Join" = "%@ 已加入会议";
+"LOCID Participant Leave" = "%@ 已离开会议";
+"LOCID Participant Join Failure" = "%@ 无法加入会议";
+"LOCID Large Conference" = "大型会议";
+"LOCID Large Conference Detail" = "参与者列表不可用于大型会议。";
+"LOCID No Participants Detail" = "没有人参与此对话";
+"LOCID cannotSend" = "无法发送您的消息:";
+"LOCID Missed Conversation" = "错过的对话";
+"LOCID Send as Email" = "通过电子邮件发送";
+"LOCID Email Subject" = "与 %2$@ 之间的 %1$@ 对话";
+"LOCID Anonymous" = "匿名";
+"LOCID Duration" = "持续时间:";
+"LOCID Switch Camera" = "切换摄像机";
+"LOCID Swap PIP" = "交换画中画";
+"LOCID Leave Video" = "离开视频";
+"LOCID Start My Video" = "启动我的视频";
+"LOCID Stop My Video" = "停止我的视频";
+"LOCID End Video" = "结束视频";
+"LOCID LargeMtgActiveSpeakerMissing" = "发言人信息不可用于大型会议。";
+"LOCID Swap Preview" = "交换预览";
+"LOCID Speaker On" = "扬声器打开";
+"LOCID Speaker Off" = "扬声器关闭";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "视频已打开";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "双击以关闭视频。";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "视频已关闭";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "双击以打开视频。";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "免提电话已打开";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "双击以关闭免提电话。";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "免提电话已关闭";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "双击以打开免提电话。";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "通话已静音";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "双击以取消静音。";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "通话已取消静音";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "双击以静音。";
+
+"LOCID Instant Messaging" = "即时消息";
+"LOCID Voice" = "语音";
+"LOCID Collaboration" = "协作";
+"LOCID Participants" = "参与者";
+"LOCID Full Screen" = "全屏";
+"LOCID Exit Full Screen" = "退出全屏";
+"LOCID Local Participant Alone in Conference Msg" = "看起来您是唯一加入呼叫的人员。";
+"LOCID 1 or more participants" = "1 个或多个参与者";
+"LOCID Call Started" = "呼叫已开始 - %@";
+"LOCID Call Ended Missed" = "呼叫已结束 - %@ [已错过]";
+"LOCID Call Ended Duration" = "呼叫已结束 - %@ [持续时间: %@]";
+"LOCID ConferenceEndedRejoin" = "您未连接会议。点击下面按钮重新加入。";
+"LOCID ConferenceEndedContinue" = "重新启动对话将向会议中所有人发送新邀请。";
+"LOCID IM P2P Toast Voiceover" = "%@正在邀请你加入对话。双击以接受。";
+"LOCID IM Conf Toast Voiceover" = "%@正在邀请你加入组对话。双击以接受。";
+"LOCID Video is Locked on you" = "视频已锁定您。";
+
+"LOCID SFB Call Started" = "通话已开始";
+"LOCID SFB Call Ended" = "通话已结束";
+"LOCID SFB Call Ended Duration" = "通话已结束，%@";
+
+/* Roster*/
+"LOCID Presenters" = "演示者 (%d)";
+"LOCID Attendees" = "与会者 (%d)";
+"LOCID In Lobby" = "大厅 (%d)";
+"LOCID Guest" = "来宾";
+"LOCID Remove" = "删除";
+"LOCID E_RemoveFailed" = "无法删除参与者。";
+"LOCID E_AddFailed" = "无法添加参与者。";
+
+/*Lobby*/
+"LOCID Admit all" = "全部允许";
+"LOCID Deny all" = "全部拒绝";
+"LOCID Admit" = "允许";
+"LOCID Deny" = "拒绝";
+"LOCID See Lobby" = "查看大厅";
+"LOCID Conference In the Lobby" = "有参与者正在大厅中等待。";
+
+/*Presenter Controls*/
+"LOCID Promote" = "设为演示者";
+"LOCID Demote" = "设为与会者";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "移动电话";
+"LOCID Voice and IM Unavailable" = "语音和 IM 不可用";
+"LOCID Voice Only" = "仅语音";
+"LOCID Voice and Video Only" = "仅语音和视频";
+"LOCID IM Only" = "仅 IM";
+"LOCID No Voice" = "无语音";
+"LOCID Video capable" = "支持视频";
+"LOCID No IM" = "无 IM";
+"LOCID Mobile Cap" = "移动电话";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "小键盘";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "呼叫";
+"LOCID Dialpad" = "拨号盘";
+"LOCID Dialpad STAR Key" = "星号键";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "井号键"; // Used for accessibility
+"LOCID Delete Key" = "删除";   // Used for accessibility
+"LOCID Emergency number" = "紧急号码"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "隐藏";
+"LOCID Dialpad Search Recent Calls" = "最近通话";
+"LOCID Dialpad Search Native Contacts" = "电话联系人";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "通讯录出现问题";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "访问通讯录中的电话号码时出现问题。请尝试在“设置”中重新同步你的邮件帐户，以解决此问题。";
+
+/* My Status Tab */
+"LOCID Options" = "设置";
+"LOCID Send Feedback" = "发送反馈";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ 至%2$@";
+"LOCID DateOfMeeting Format" = "%2$@ %1$@";
+"LOCID InfoCell DateTime Format" = "%2$@, %1$@ ";
+"LOCID DialPad List Format" = "%1$@, %2$@ ";
+"LOCID Calendar Event View From Date Format" = "自 %3$@ %2$@ %1$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "至 %2$@ %1$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "自%1$@ 至%2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "无会议";
+"LOCID All" = "全部";
+"LOCID No Meetings Scheduled" = "您没有已安排的任何会议";
+"LOCID None" = "无";
+"LOCID Organizer" = "组织者";
+"LOCID Invitees" = "被邀请者";
+"LOCID Notes" = "便笺";
+"LOCID Join" = "加入";
+"LOCID Updated DATE TIME" = "已更新 %1$@ %2$@";
+"LOCID Online" = "联机";
+"LOCID Tentative" = "暂定";
+"LOCID Event" = "事件";
+"LOCID Updating..." = "正在更新...";
+"LOCID Tentative Voiceover" = "%@，暂定";
+"LOCID Pull to refresh" = "下拉以刷新";
+"LOCID Today" = "今天"; // CAPS
+"LOCID Tomorrow" = "明天"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "如果您不是组织者，当您加入时，您的麦克风将被静音。";
+"LOCID Lync Conferencing" = "Skype会议";
+"LOCID Joining Step 1" = "正在连接...";
+"LOCID Please wait to be admitted" = "请等待得到允许";
+"LOCID Join Conf Error" = "会议连接已断开。";
+"LOCID Anonymous Join" = "匿名加入";
+"LOCID Enter your name" = "输入名称";
+"LOCID Anonymous Join Greeting" = "欢迎使用Skype for Business";
+"LOCID Sign in with Lync" = "使用Skype for Business登录";
+"LOCID Sign in as guest" = "以来宾身份登录";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "没有iPhone号码将无法连接到会议。请在Skype for Business选项中添加你的iPhone号码。";
+"LOCID Join Conf Error - No Number iPad" = "没有电话号码将无法连接到会议。请在Skype for Business选项中添加你的电话号码。";
+"LOCID Join Meeting Line 1 Text" = "正在加入会议\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "通过 %@ 呼叫您...";
+"LOCID Join Meeting Line 2 - Lobby" = "您好! 您已位于虚拟会议厅中，请放松身心。请不要离开该应用程序，组织者不久将让您加入。";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "您未获得准许，因为组织者不在或者未响应。";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "已断开连接。点击“加入”重试。";
+"LOCID View" = "查看";
+"LOCID Join Meeting" = "加入会议";
+"LOCID Join Meeting Line 2 - Generic MSG" = "加入会议";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "无法连接您，因为会议已满。请尝试联系组织者。";
+"LOCID AdmittedToLobby" = "您已获得准许。现在将呼叫您...";
+"LOCID MtgDisclaimerAccept" = "接受";
+"LOCID MtgDisclaimerDecline" = "忽略";
+"LOCID E_MeetingNotFound" = "您正尝试加入的会议不存在。";
+"LOCID E_MeetingsNotEnabled" = "贵组织未启用此会议功能。";
+"LOCID E_OutsideOrg" = "此人或会议对您的网络不具有权限。";
+
+/* Options View */
+"LOCID voiceConfSection" = "呼叫和会议";
+"LOCID credentialsSection" = "我的凭据";
+"LOCID contactsSection" = "联系人";
+"LOCID accessibilitySection" = "辅助功能";
+"LOCID otherSection" = "其他";
+"LOCID Show Recent Contacts" = "最近的联系人";
+"LOCID Show Pinned Contacts" = "固定的联系人";
+"LOCID Show Photos" = "照片";
+"LOCID Sort by availability" = "按可用性排序";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "日志记录";
+"LOCID About" = "关于";
+"LOCID About Version" = "版本 %@";
+"LOCID Status" = "状态";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP 代理";
+"LOCID Require WiFi" = "需要 Wi-Fi";
+"LOCID WiFi VoIP" = "语音";
+"LOCID WiFi Video" = "视频";
+"LOCID WiFi Collab" = "会议内容";
+"LOCID WiFi Warning" = "关闭时，您可以通过数据连接获得呼叫(可能需要付费，并且质量有所降低)。";
+"LOCID WiFi Warning iPad" = "关闭时，您可以通过数据连接获得呼叫和会议内容(可能需要付费，并且质量有所降低)。";
+"LOCID Not a SfB User" = "不是Skype for Business用户？";
+
+
+/* About View */
+"LOCID About Title" = "关于";
+"LOCID version" = "版本: %@";
+"LOCID Long Product Name" = "%1$@版Skype® for Business"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation。"; // copyright symbol
+"LOCID all rights reserved" = "保留所有权利。";
+"LOCID online help" = "帮助";
+"LOCID Terms Of Use" = "使用条款";
+"LOCID Privacy title" = "隐私";
+"LOCID Third Party Notices" = "第三方声明";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype&Microsoft\n专利申请中";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Skype用户名、相关商标和徽标以及“S”徽标为Skype或相关实体的商标。\n\n警告：本程序受版权法和国际公约的保护。如未经授权而擅自复制或传播本程序或其中的任何部分，将受到严厉的民事及刑事制裁，还将在法律许可的范围内受到最大程度的起诉。";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "呼叫转移";
+"LOCID Forward Section" = "选择号码";
+"LOCID Apply Setting Section" = "应用设置";
+"LOCID Summary Section" = "您的当前设置:";
+"LOCID Do Not Forward" = "不转接";
+"LOCID Forward Calls" = "转接呼叫";
+"LOCID Forward Calls To" = "将呼叫转接至";
+"LOCID Simultaneously Ring" = "同时拨打";
+"LOCID On" = "打开";
+"LOCID Off" = "关闭";
+"LOCID During Working Hours" = "在工作时间";
+"LOCID Voicemail" = "语音邮件";
+"LOCID Team Call" = "团队呼叫成员";
+"LOCID Delegates" = "代理人";
+"LOCID Pending Persons" = "已将您添加为联系人的人员";
+"LOCID Delegate Target" = "您的代理人";
+"LOCID TeamCall Target" = "您的团队呼叫组成员";
+"LOCID Voicemail Target" = "您的语音邮件";
+"LOCID DoNotForward Summary" = "呼叫将拨打您的工作电话且不进行转接。当 VoIP 不可用时，您将不会在移动电话上接收呼叫。";
+"LOCID DoNotForward Summary iPad" = "呼叫将拨打您的工作电话且不进行转接。当 VoIP 不可用时，您将不会在 iPad 上收到呼叫。";
+"LOCID ForwardCalls Summary" = "呼叫将直接转接至%@。如果这不是您的移动电话号码，您将不会在移动电话上接收呼叫。";
+"LOCID ForwardCalls Summary iPad" = "呼叫将直接转接至%@，且不拨打您的 iPad。";
+"LOCID Simulring Summary" = "呼叫将拨打您的工作电话，同时拨打%@。如果这是您的移动电话号码，当 VoIP 不可用时，您将会接收移动电话呼叫。";
+"LOCID Simulring Summary iPad" = "呼叫将拨打您的工作电话，同时拨打%@。当 VoIP 不可用时，您将不会在 iPad 上收到呼叫。";
+"LOCID View Settings" = "查看您的当前设置";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "应用设置";
+"LOCID All the Time" = "所有时间";
+"LOCID During Outlook Working Hours" = "在 Outlook 工作时间";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "工作电话";
+"LOCID Home Capitalized" = "家庭电话";
+"LOCID Mobile Capitalized" = "移动电话";
+"LOCID Custom Capitalized" = "自定义";
+"LOCID Other Capitalized" = "其他";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "取消";
+"LOCID Add" = "添加";
+"LOCID New Number" = "新号码";
+"LOCID New Contact" = "新建联系人";
+"LOCID Contact" = "联系人";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "上载登录日志";
+"LOCID SignInBRB - Always" = "始终";
+"LOCID SignInBRB - Never" = "从不";
+"LOCID SignInBRB - Ask Me" = "询问我";
+"LOCID Send Log Files" = "发送日志文件";
+"LOCID Log Email Subject" = "Skype for Business日志文件"; //product name
+"LOCID Device Model" = "设备型号:";
+"LOCID Device OS Name" = "设备 OS 名称:";
+"LOCID Device OS Version" = "设备 OS 版本:";
+"LOCID Enable Logging" = "启用日志记录";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "HTTP 代理";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "若要完成对 HTTP 代理的设置，请使用 %@ Wi-Fi 设置。";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "使用Skype for Business凭据";
+"LOCID Exchange Credentials Info" = "Skype for Business需要你提供Exchange凭据才能显示你的所有会议和语音邮件信息。";
+"LOCID Email Address" = "电子邮件地址";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "我的移动电话号码";
+"LOCID My Mobile Number Details" = "输入带有国家和地区代码的 iPhone 号码:";
+"LOCID My Mobile Number Details iPad" = "输入带有国家和地区代码的电话号码:";
+"LOCID My Mobile Number Footer" = "可让你拨打和接听工作电话，并从Skype for Business加入会议。\n（如果你使用的是VoIP，则VoIP无法使用时，这是你的备用方案。）";
+"LOCID My Mobile Number Footer - Conf Join" = "这可让你从Skype for Business加入会议。\n（如果你使用的是VoIP，则VoIP无法使用时，这是你的备用方案。）";
+"LOCID iPhone Number" = "电话号码";
+
+/* Call Via Work */
+"LOCID Call via Work" = "通过工作电话呼叫";
+"LOCID Missing iPhone Number Error" = "未接的电话号码";
+"LOCID Missing iPhone Number Error Text" = "无法完成此呼叫。请在“选项”中输入您 的 iPhone 号码，然后重试呼叫。";
+"LOCID Missing iPad Number Error Text" = "无法完成此呼叫。请在“选项”中输入您的电话号码，然后重试呼叫。";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "开始之前";
+"LOCID Main text" = "凡是受邀参加Skype会议的与会者都可以使用Skype for Business移动应用。但是，你必须拥有Skype for Business帐户才能体验此应用的全部功能。";
+"LOCID Understand" = "确定";
+
+/*Group Picker*/
+"LOCID More Options" = "更多选项";
+"LOCID Add Contact" = "添加联系人";
+"LOCID Add to Group" = "添加到组";
+"LOCID Remove Contact" = "删除联系人";
+"LOCID Remove from Group" = "从组中删除";
+"LOCID Groups" = "组";
+"LOCID E_AddContactFailureGeneral" = "当前无法添加此联系人。请稍后再试。";
+"LOCID E_AddContactFull" = "无法再向此群组添加其他联系人。";
+"LOCID E_AddContactInGroup" = "该联系人已在此组中。";
+"LOCID E_RemoveContactFailureGeneral" = "当前无法删除此联系人。请稍后再试。";
+"LOCID Confirm Remove Contact" = "这将从您的联系人列表中删除 %@。";
+"LOCID Ignore" = "忽略";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "了解更多信息";
+"LOCID CEIP More Info" = "向Microsoft匿名发送使用数据以便帮助改进Skype for Business。";
+"LOCID ceipSectionTitle" = "客户体验改善计划";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "欢迎使用。";
+"LOCID Lets begin" = "让我们开始吧...";
+
+/* First Run Experience */
+"LOCID Close" = "关闭";
+"LOCID Change" = "是";
+"LOCID Don't change" = "否";
+"LOCID Next" = "下一步";
+"LOCID Done" = "完成";
+"LOCID First Run First Step" = "Lync现已是 Skype for Business - 结合了Skype的体验和Microsoft的企业质量。";
+"LOCID First Run Second Step" = "任何人都可以使用此应用加入Skype会议，但是，要体验全部功能，需要一个Skype for Business帐户且你的组织必须启动了此应用。";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "是否更改呼叫转接设置?";
+"LOCID First Run CF Current Settings" = "您的当前设置:";
+"LOCID First Run CF Change Settings" = "新设置:";
+"LOCID First Run Change Summary" = "您已输入您的电话号码以接收工作呼叫。现在，我们需要更改您的当前呼叫转接设置，以便您的电话将响铃。";
+"LOCID First Run Change Request" = "我们是否可以更改此设置以便工作呼叫同时拨打您的工作电话和 %@?";
+"LOCID DoNotForward Summary - First Run" = "呼叫时将拨打您的工作电话，且不会转接至任何其他电话号码。";
+"LOCID ForwardCalls Summary - First Run" = "呼叫将直接转接至%@。";
+"LOCID Simulring Summary - First Run" = "呼叫将拨打您的工作电话，同时拨打%@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "从不错过您的工作呼叫";
+"LOCID My Mobile Number Title 2" = "从不错过会议";
+"LOCID My Mobile Number Details First Run" = "需要带有国家和地区代码的 iPhone 号码:";
+"LOCID My Mobile Number Details First Run_iPad" = "需要带有国家和地区代码的电话号码:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "管理数据使用";
+"LOCID Setup Work Calls Sub Text" = "这些设置管理呼叫和会议的数据使用和潜在成本。";
+
+"LOCID Require Wifi for VoIP calls" = "需要 Wi-Fi 才能进行 VoIP 呼叫";
+"LOCID Require Wifi for VoIP calls off subtext" = "当 Wi-Fi 不可用时，呼叫将使用您的数据连接。";
+"LOCID Require Wifi for VoIP calls on subtext" = "呼叫始终通过 Wi-Fi 进行。从不使用您的数据连接。";
+
+"LOCID Require Wifi for Video calls" = "需要 Wi-Fi 才能进行视频呼叫";
+"LOCID Require Wifi for Video calls off subtext" = "当 Wi-Fi 不可用时，视频呼叫将使用您的数据连接。(数据量庞大。)";
+"LOCID Require Wifi for Video calls on subtext" = "视频呼叫始终通过 Wi-Fi 进行。从不使用您的数据连接。";
+
+"LOCID Require Wifi for meeting content" = "需要 Wi-Fi 获得会议内容";
+"LOCID Require Wifi for meeting content off subtext" = "当 Wi-Fi 不可用时，我们将始终使用数据连接获得会议内容。(数据量庞大。)";
+"LOCID Require Wifi for meeting content on subtext" = "我们将使用 Wi-Fi 获得会议内容 - 从不使用您的数据连接。";
+
+"LOCID Skip" = "跳过";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "开始使用Skype for Business";
+
+"LOCID First Run Successful Setup" = "您已全部设置!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "欢迎使用!";
+"LOCID First Run Successful Setup Details" = "您可以随时在“设置”中进行更改。";
+
+"LOCID improve lync" = "帮助我们改进Skype for Business";
+"LOCID whyphonenumber" = "为什么需要您的电话号码";
+"LOCID more detail" = "更多详细信息";
+
+"LOCID Emergency Call Disclaimer" = "附属细则:";
+"LOCID Emergency Call Disclaimer Details" = "所有通话都将收取普通运营商费用。\n\n重要：请勿使用Skype for Business应用拨打紧急电话。";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "重要";
+"LOCID Emergency Call Disclaimer Details iPad" = "请勿使用Skype for Business应用拨打紧急电话。";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Push 通知";
+"LOCID Push Notification Legal1" = "在接受使用推送通知前，请注意所有推送通知及其内容都是通过 Apple 推送通知服务和 Microsoft 的推送通知系统发送的。";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "你已在%1$@通知设置中更改推送通知设置，但必须再次启动Skype for Business才能停止传送所有通知内容。";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "使用移动电话";
+"LOCID Call via Work Not Available Error" = "由于你处于离线状态，无法进行Skype for Business通话。请尝试从你的移动电话号码进行通话。";
+"LOCID Call via Work Not Available Error iPad" = "由于你处于离线状态，无法进行Skype for Business通话。";
+"LOCID Answer incoming call" = "应答传入呼叫";
+"LOCID to connect you to... display name" = "将您连接到...\n%@";
+
+"LOCID Call via Work Connecting" = "正在连接...\n 应答下一个传入呼叫。";
+"LOCID Call via Work Connected" = "您已从 %1$@ 加入";
+"LOCID Video Disclaimer" = "您不能查看或共享视频。";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "您已从 %1$@ 加入。";
+
+/* Errors */
+"LOCID Error" = "错误";
+"LOCID E_GenericFailure" = "Skype for Business出现错误。请重试。如果问题仍然存在，请与支持团队联系。";
+"LOCID E_GroupNotFound" = "无法找到该组。";
+"LOCID E_PermissionsForGroup" = "您无权展开此组。";
+"LOCID E_ConnectionError" = "无法连接到服务器。请检查您的网络连接和服务器地址，然后重试。";
+"LOCID E_AutoDiscoveryConnectionFailure" = "无法连接到服务器。1) 它可能不可用。2) 请检查网络连接。3) 确保使用你组织提供的Skype for Business帐户信息。4) 你的用户名可能不同于你的登录名。点击“高级选项”，然后输入你的用户名或域\\用户名。";
+"LOCID E_AutoDiscoveryInBackground" = "你的服务器配置已更改。请重新启动Skype for Business。";
+"LOCID E_SslError" = "无法验证来自服务器的证书。请与支持团队联系。";
+"LOCID E_SslCertExpiredError" = "无法验证来自服务器的证书。请与支持团队联系。";
+"LOCID E_ProxyAuthError" = "你无法登录。请在%@设置和Skype for Business选项中配置你的HTTP代理设置或使用3G连接。";
+"LOCID E_ConnectionTimeoutError" = "无法连接到服务器。服务器可能忙碌或暂时无法访问。请重试。";
+"LOCID E_GenericApplicationError" = "应用程序出错，请重新启动此应用程序。";
+"LOCID E_AuthError" = "无法登录。请检查您的帐户信息，然后重试。";
+"LOCID E_InvalidCredentials" = "无法登录。请检查您的帐户信息，然后重试。";
+"LOCID E_InvalidSignInAddress" = "无法登录。请验证您的登录地址，然后重试。";
+"LOCID E_InvalidLyncAccount" = "登录信息无效。需要使用你组织提供的Skype for Business帐户登录。";
+"LOCID E_WrongHomePool" = "未配置为连接到服务器。请与支持团队联系。";
+"LOCID E_ImSendError" = "未能发送:";
+"LOCID GenericRetryError" = "无法连接到服务器。正在重试...";
+"LOCID GenericError" = "服务器发生错误。请重试。";
+"LOCID RequestFailed" = "无法处理请求。请重试。";
+"LOCID DecodingError" = "无法处理服务器响应。请重试。如果问题仍然存在，请与支持团队联系。";
+"LOCID VersionMismatch" = "你无法使用此版本的Skype for Business登录。请安装较新版本。如果无法解决问题，请与支持团队联系。";
+"LOCID SignInCredentialsAreNeeded" = "您已注销。我们需要您的帐户信息才能再次将您登录。";
+"LOCID NeedLyncPassword" = "我们需要您的密码才能登录。";
+"LOCID E_ServiceBusyOrUnAvailable" = "现在无法连接到服务器。请重试。";
+"LOCID E_HttpRequestTimeout" = "无法登录，因为服务器暂时无法访问。";
+"LOCID E_CannotConnectToServer" = "无法连接到服务器。正在尝试重新建立连接。如果问题仍然存在，请联系你的支持团队。";
+"LOCID E_InvalidServerUrl" = "服务器名称不正确。请检查该名称，然后重试。";
+"LOCID E_NoValidIp" = "无法连接到网络。请检查您的连接设置。";
+"LOCID E_MetaDataNotFound" = "无法联系服务器。请验证您的服务器地址或稍后重试。";
+"LOCID E_TimeSkewError" = "无法将您的设备时钟与服务器同步。请更改您的时间设置，或联系技术支持团队。";
+"LOCID E_MobilityDisabled" = "无法登录，因为你未设置为使用Skype for Business。请与支持团队联系。";
+"LOCID E_TooManyApplications" = "您无法登录。看起来您已登录过多的设备。";
+"LOCID E_UI_OutsideVoiceDisabled" = "“通过工号拨号”已关闭。请在选项中输入电话号码以与此人进行Skype for Business通话。";
+"LOCID E_UI_OfflineLyncCall" = "需要在线或进行移动数据连接才能与此人进行Skype for Business通话。";
+"LOCID E_EwsError" = "无法连接到 Exchange。请稍后再试。";
+"LOCID E_EwsBadCredentials" = "你的Exchange登录凭据无效。请尝试更新你的Exchange或Skype for Business凭据。";
+"LOCID W_Retrying" = "无法与服务器连接，正在重试...";
+"LOCID E_UI_CallViaCellError" = "请检查号码，然后重试。";
+"LOCID E_LiveIdPasswordExpired" = "您的密码已过期。请更新密码，然后重试。";
+"LOCID E_LiveIdInvalidCredentails" = "无法登录。请检查您的帐户信息，然后重试。";
+"LOCID E_LiveIdPasswordChangeRequired" = "需要更改您的密码。请更新密码，然后重试。";
+"LOCID E_LiveIdPasswordLockedOut" = "需要更改您的密码。请更新密码，然后重试。";
+"LOCID E_LiveIdConnectionFailed" = "现在无法连接到服务器。请重试。";
+"LOCID E_LiveIdServiceUnavailable" = "现在无法连接到服务器。请重试。";
+"LOCID E_LiveIdGenericError" = "无法登录。请重试。";
+"LOCID E_InvalidLiveIDUserNameError" = "无法登录。请验证您的用户名是否采用格式 someone@example.com 以及您的密码是否有效。";
+"LOCID E_InvalidSmtpAddress" = "无法连接到 Exchange。请检查您的帐户信息，然后重试。";
+"LOCID E_LogoffUnsuccessful" = "无法连接到Skype for Business，因为服务器连接丢失。";
+"LOCID E_ClientVersionMismatch" = "无法登录，因为你的组织不支持此版本的Skype for Business。请从你的移动应用商店安装Lync 2010。";
+"LOCID E_ClientServerSchemaMisMatch" = "你无法使用此版本的Skype for Business登录。请安装较新版本。如果无法解决问题，请与支持团队联系。";
+"LOCID E_ClientVersionCheck" = "你无法使用此版本的Skype for Business登录。请安装较新版本。如果无法解决问题，请与支持团队联系。";
+"LOCID E_VersionMismatch" = "你无法使用此版本的Skype for Business登录。请安装较新版本。如果无法解决问题，请与支持团队联系。";
+"LOCID E_AutoDConfigurationError" = "无法登录。请与您的支持团队联系。";
+"LOCID E_AutoDPasswordExpiredError" = "密码已过期。请更新它，然后再试。";
+"LOCID E_InvalidProxySettingsError" = "无法登录。代理设置无效。请检查它们，然后再试。";
+"LOCID E_ApplicationExpiredDueToInactivity" = "由于您处于非活动状态，已被注销。";
+"LOCID E_GeneralGoneError" = "无法登录。请与您的支持团队联系。";
+"LOCID E_InternalServerError" = "无法登录。请与您的支持团队联系。";
+"LOCID E_TooManyApps" = "无法登录。看起来您登录了太多设备。";
+"LOCID E_ResponseUnkown" = "无法连接至服务器。如果您正在使用 Wi-Fi，请打开浏览器查看您是否已有连接。否则，禁用任何热点或 Tethering 连接。如果问题仍然存在，请联系您的网络提供商。";
+"LOCID E_CannotLoadADFSPage" = "无法将您登录。请重试。如果此问题仍然存在，请与您的支持团队联系。";
+"LOCID E_UserNotSipEnabled" = "你尚未配置为连接到服务器。请与你的支持团队联系。";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "目前无法进行 VoIP 呼叫。请尝试从您的移动电话号码进行呼叫。";
+"LOCID E_VoicePSTNCallActive" = "目前无法进行 VoIP 呼叫。请尝试从您的工作电话号码进行呼叫。";
+"LOCID E_VoicePSTNCallActive - Button" = "通过工作电话呼叫";
+"LOCID E_VideoOverWiFiBlocked" = "这是视频呼叫邀请，但是由于您没有 Wi-Fi 连接，我们仅连接了音频。";
+"LOCID E_HistoryNotDisplayed" = "无法显示此对话的历史记录。";
+"LOCID E_IMAcceptedElsewhere" = "您在其他位置接受了此对话。要重新启动，请发送一条新消息。";
+"LOCID E_MuteFailed" = "由于发生错误，其他人目前看不到您已静音。";
+"LOCID E_UnmuteFailed" = "由于发生错误，您仍然静音。请再次尝试取消静音。";
+"LOCID E_DgExpansionGenericFailure" = "无法邀请组成员。请稍后重试。";
+"LOCID E_DgExpansionTooManyMembersFailure" = "组过大，无法邀请。";
+"LOCID E_DgExpansionNoMembersFailure" = "组中没有任何个人成员，因此无法邀请。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ 无法访问或者可能已脱机。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ 已设置为“请勿打扰”。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ 未在使用中。请检查号码。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ 正在接听另一个呼叫。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ 未应答。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ 无法应答此呼叫。";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "你处于离线状态时无法完成此通话。请尝试登录到Skype for Business进行通话。";
+
+"LOCID E_VoiceOperationUnsuccessful" = "操作不成功。";
+"LOCID E_VoiceGenericError" = "呼叫未完成或已结束。";
+"LOCID E_VoiceFeatureNotEnabled" = "呼叫功能已禁用。";
+"LOCID E_VoiceCheckNumber" = "请检查号码，然后重试。";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "无法完成呼叫。请稍后重试。";
+"LOCID E_VoiceCallUnsuccessful" = "无法连接呼叫。";
+"LOCID E_VoiceCallTypeNotSupported" = "呼叫失败。不支持此类型的呼叫。";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "由于服务器超时，此消息可能未发送到 %@:";
+
+"LOCID E_SharingAnotherOperation" = "正在尝试为您执行某些其他操作。请稍等片刻，然后再试。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ 未获取此消息，因为服务器出现问题:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ 已脱机，因此未获取此消息:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ 处于“请勿打扰”状态，无法收到此消息:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "由于找不到 %@，无法发送此消息。";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "由于内容被阻止，因此无法发送此消息:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "无法联系 %@ 以发送此消息:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "无法完成您的呼叫。";
+
+"LOCID E_ConfLocked" = "您无法加入会议，因为它已锁定。请尝试联系组织者。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "您与 %@ 之间的加密不匹配。请与您的支持团队联系。";
+
+"LOCID E_ConferencingServerError" = "服务器发生错误。请与支持团队联系。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ 无法连接，可能已脱机。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ 处于“请勿打扰”状态，无法联系。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ 未响应邀请。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "无法联系 %@。";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "你未设置为加入Skype会议。";
+
+"LOCID E_ConferenceJoinWhileOffline" = "应用程序未登录因此无法加入会议。";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ 无法加入会议。";
+"LOCID E_ConferencingEnded" = "您正尝试加入的会议不可用。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "无法连接 %@。稍后重试。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "找不到 %@。请检查地址。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "无法联系 %@。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ 已拒绝您的邀请。";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "演示者已经结束了会议。";
+"LOCID E_ConferencingCallDisconnected" = "呼叫已断开。";
+"LOCID ConferenceUnexpectedDisconnect" = "您已断开会议连接。";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "呼叫未完成或已结束。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "无法将 %@ 添加到会议，因为网络忙碌。";
+
+"LOCID E_ConferencingCannotConnect" = "呼叫未完成或已结束。";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "无法加入这种类型的联机会议。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "无法邀请 %@，因为会议人员已满。";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "无法以匿名参与者身份加入会议。";
+"LOCID E_ConferencingCannotJoinInvitationError" = "由于邀请错误，无法加入会议。";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "您没有加入会议的权限。";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "无法将您加入会议。请重试。";
+"LOCID E_ConferencingCannotJoinFromOutside" = "无法从组织外加入此会议。";
+"LOCID E_ConferencingCannotJoinMeetingType" = "无法加入此类型的联机会议。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "无法连接 %@。";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "无法开始会议，因为正在开始另一个会议。";
+"LOCID E_ConferencingEncryptionIssues" = "由于加密问题，无法开始Skype会议。";
+"LOCID E_ConferencingUnauthenticatedUsers" = "您没有足够的权限从另一设备加入或拨出到另一设备。";
+"LOCID E_ConferencingMediaSessionTerminated" = "呼叫未完成或已结束。";
+"LOCID E_ConferencingFull" = "会议人员已满。";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "您没有加入此会议的权限。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "对 %@ 的邀请已过期。";
+
+"LOCID E_ConferencingEndedHostsLeft" = "会议已结束，因为主持人已离开。";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "您无法加入会议，因为网络忙碌。";
+"LOCID E_ConferencingSubjectLineTooLong" = "主题行过长。";
+"LOCID E_ConferencingFeatureNotEnabled" = "您的组织未启用此会议功能。";
+"LOCID E_ConferencingEndedDueToInactivity" = "由于长时间处于非活动状态，此会议已结束。";
+"LOCID E_ConferencingCannotBeFound" = "无法找到此联机会议。";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "您没有加入此会议的权限。";
+"LOCID E_ConferencingUserNotAdmitted" = "您未获准参加会议。";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "已将您从会议中删除。";
+"LOCID E_ConfGenericError" = "无法将您加入会议。请重试。";
+"LOCID E_ConferenceDenied" = "演示者拒绝让您进入。";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "您已经加入会议。是否要离开它并加入此会议?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "服务器不支持通过此设备匿名加入会议。";
+"LOCID ConferenceVideoLock" = "演示者已将视频焦点锁定为某人。";
+"LOCID ConferenceVideoUnlock" = "演示者已解锁视频焦点。";
+"LOCID ConferenceVideoSelfLock" = "您视频上的每一个人都已锁定。";
+"LOCID ConferenceVideoSelfUnlock" = "现在您的视频上没有锁定任何人。";
+
+"LOCID E_DomainNotTrusted" = "无法连接到服务器。接受重定向提示。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ 未获取此消息，因为不允许使用该格式:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "使用的设备 %@ 无法获取消息。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ 未获取此消息，因为该消息过大:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ 未获取此消息，因为策略限制传送:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "无法发送您的即时消息 - 您已在与 %@ 进行对话。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "由于内容被阻止，因此无法发送此消息:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "您未获得授权向 %@ 发送即时消息。未发送此内容:";
+
+"LOCID E_IMConfGenericError" = "一个或多个参与者未获得此消息:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ 不可用。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "呼叫已结束，因为 %@ 已注销。";
+
+"LOCID E_VoiceCallTimeout" = "由于网络问题，未完成呼叫。请重试。";
+"LOCID E_VoiceCallDisconnected" = "很抱歉，呼叫已断开连接。请重试。";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "呼叫未完成或已结束。";
+"LOCID E_VoiceCallNotCompleted" = "%@ 无法获取呼叫。改为尝试使用即时消息或电子邮件。";
+"LOCID E_VoiceServerError" = "由于服务器错误，无法连接呼叫。请重试。";
+"LOCID E_VoiceCannotConnect" = "无法连接到联机会议。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "无法联系 %@。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "找不到 %@。";
+
+"LOCID E_VoiceEncryptionIssues" = "由于加密问题，无法开始Skype会议。";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "您呼叫的人已使用即时消息进行响应。";
+"LOCID E_VoiceCannotCompleteCall" = "拨号时无法完成呼叫。";
+"LOCID E_VoiceNoAvailableMediaPorts" = "由于出现服务器问题，呼叫无法完成。";
+"LOCID E_VoiceServerCannotForwardCall" = "服务器无法转接呼叫。请重试。";
+"LOCID E_VoiceServerDidNotRespond" = "服务器未响应。请稍后重试。";
+"LOCID E_VoiceCannotPlaceCall" = "无法发出呼叫。请检查号码，然后重试。";
+"LOCID E_VoiceNumberNotSupported" = "您的组织不支持呼叫此号码。";
+"LOCID E_IncomingPSTNCall" = "无法完成您的呼叫。";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "无法呼叫 %@，因为呼叫受策略限制。";
+
+"LOCID E_CallFailed" = "由于连接问题，您的呼叫已结束。请重试。";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "您已断开连接，因为您已从其他客户端加入。";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "已将您从会议中删除。";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "由于网络繁忙，无法完成呼叫。";
+"LOCID E_VoiceNotSupported" = "%@ 无法接受音频呼叫。";
+"LOCID E_RepliedWIthOtherModality" = "接收人选择使用即时消息进行响应。";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "对话历史记录当前无法更新，可能不同步。";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "对话历史记录当前无法更新，可能不同步。";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "无法将此呼叫转接至此联系人，请选择一个Skype for Business联系人转接此呼叫，或选择“新号码”以输入电话号码 。";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY 已打开";
+"LOCID RemoteHoldSucceeded" = "远程用户已将您置于保持状态。";
+"LOCID RemoteUnholdSucceeded" = "远程取消保持成功";
+"LOCID LocalHoldSucceeded" = "本地保持成功";
+"LOCID LocalUnholdSucceeded" = "本地取消保持成功";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "恢复通话";
+"LOCID is recording" = "%@ 正在录制";
+"LOCID Multiple Recording" = "某人正在录制";
+"LOCID OnHoldOutOfApp" = "您的 %@ 呼叫已保持。";
+"LOCID OnStopOutOfApp" = "您的 %@ 呼叫已终止。";
+"LOCID RecordingAlert" = "%@ 正在录制此呼叫。";
+"LOCID CoversationP2PIsRecording" = "%@ 正在录制此呼叫。";
+"LOCID CoversationP2PIsRecordingNoName" = "正在录制此呼叫。";
+"LOCID CoversationConferenceIsRecording" = "某人正在录制此会议。";
+
+"LOCID ConversationsExceedArchiveLimit" = "此列表几乎已满。添加新对话时，最旧的对话将被删除。";
+
+// Mute Alerts
+"LOCID Audience Lock" = "演示者已将观众设为静音。";
+"LOCID Audience Unlock" = "演示者已将观众取消静音。";
+"LOCID Conference Mute" = "演示者已将您设为静音。";
+"LOCID Conference Unmute" = "演示者希望您将自己取消静音。";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "演示者已阻止与会者发送视频。";
+"LOCID PresenterBlockedVideo - Presenter" = "演示者已阻止与会者发送视频。如果您是演示者，您可以打开摄像机并共享您的视频。";
+"LOCID PresenterBlockedVideo - Unblock" = "演示者已取消阻止与会者发送视频。";
+"LOCID VideoLockOnYou" = "您视频上的每一个人都已锁定。";
+"LOCID VideoLock" = "演示者已将视频焦点锁定为某人。";
+"LOCID VideoNotLockOnYou" = "现在您的视频上没有锁定任何人。";
+"LOCID VideoSpotlightUnlocked" = "演示者已解锁视频焦点。";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@,";
+"LOCID Back" = "返回";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "“工作电话呼叫”不可用。";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "无语音邮件";
+"LOCID You currently have no voicemail messages" = "您没有任何语音邮件。";
+"LOCID Audio" = "音频";
+"LOCID Speaker" = "扬声器";
+"LOCID Can not play locally" = "无法播放此消息。点击“播放”以接收呼叫并收听。";
+"LOCID Play Voice Mail" = "播放语音邮件";
+"LOCID PLAY_VOICEMAIL_HINT" = "播放语音邮件";
+"LOCID Pause Voice Mail" = "暂停语音邮件";
+"LOCID PAUSE_VOICEMAIL_HINT" = "暂停语音邮件";
+"LOCID Play On Phone Error - No Number" = "您需要在“选项”中输入电话号码才能获取回拨。";
+"LOCID Call Back" = "回拨";
+"LOCID Delete" = "删除";
+"LOCID More voicemails iPad" = "若要听取较早的语音邮件，请点击语音邮件图标。";
+"LOCID More voicemails" = "若要收听较早的语音邮件，请点击并按住小键盘上的 1 或转至 Outlook。";
+"LOCID More voicemails No keypad" = "转至 Outlook 收听较早的语音邮件。";
+"LOCID Can not play IRMed" = "此消息受权限管理。点击“播放”以接收呼叫并收听。";
+"LOCID Lync Call" = "Skype for Business通话";
+"LOCID Can't play on phone" = "无法播放此消息。请检查您的网络连接，然后重试。";
+"LOCID Yes" = "是";
+"LOCID No" = "否";
+"LOCID VMCallerID" = "语音邮件";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "以常规速度播放语音邮件";
+"LOCID VM Playback -2X Acc" = "慢速播放语音邮件(以常规速度的一半)";
+"LOCID VM Playback 2X Acc" = "快速播放语音邮件(以常规速度的两倍)";
+"LOCID Voicemail From" = "来自 %@ 的语音邮件";
+"LOCID No Voicemails Placeholder" = "你的语音邮件将在此显示";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "解除";
+"LOCID Accept" = "接受";
+"LOCID Not yet implemented feature" = "此功能尚未实现。请在将来的版本中重试。";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "您有 1 封新的语音邮件";
+"LOCID Missed VMs" = "您有 %d 封新的语音邮件";
+"LOCID Missed Collab Out of App" = "错过了来自 %@ 的协作会话";
+"LOCID Missed Video Call Out of App" = "错过了来自 %@ 的视频呼叫";
+"LOCID Missed Audio Call Out of App" = "错过了来自 %@ 的呼叫";
+"LOCID Missed Message Out of App" = "错过了来自 %@ 的即时消息";
+"LOCID Missed Audio Conf Out of App" = "错过了来自 %@ 的电话会议";
+
+"LOCID Audio Call Out of App" = "来自 %@ 的呼叫";
+"LOCID Conference Call Out of App" = "来自 %@ 的电话会议";
+"LOCID Dismiss Call" = "忽略";
+"LOCID Answer Call" = "接受";
+"LOCID Answer Call with Video" = "视频";
+"LOCID Audio Call" = "呼叫";
+"LOCID Conference Call" = "电话会议";
+"LOCID Unknown Caller" = "未知呼叫者";
+
+"LOCID Video conf accessibility" = "来自 %@ 的视频会议";
+"LOCID Video accessibility" = "来自 %@ 的视频呼叫";
+"LOCID Audio conf accessibility" = "来自 %@ 的电话会议";
+"LOCID Audio accessibility" = "来自 %@ 的呼叫";
+
+"LOCID Video Call Out of App" = "来自 %@ 的视频呼叫";
+"LOCID Video Conference Call Out of App" = "来自 %@ 的视频会议";
+"LOCID Video Call" = "视频呼叫";
+"LOCID Video Conference Call" = "视频会议";
+"LOCID Video Escalation Name" = "%@ 正在共享视频";
+"LOCID Video Escalation" = "正在共享视频";
+"LOCID Video Escalation Conf" = "某人正在共享视频";
+"LOCID VideoInvitationRejected" = "呼叫的视频部分未被接受。呼叫将继续仅传输音频。";
+"LOCID E_VideoDecline" = "%@ 未接受您的视频。";
+"LOCID E_VideoGeneric" = "无法启动您的视频。请重试。";
+"LOCID E_VideoNotStarted" = "无法启动您的视频。";
+"LOCID E_VideoNotSupported" = "%@ 无法接受视频呼叫。";
+"LOCID E_VideoNotAccepted" = "%@ 未接受呼叫的视频部分。呼叫将继续仅传输音频。";
+
+"LOCID E_VoiceTransferGenericError" = "无法转接呼叫。";
+"LOCID E_VoiceTransferParticipantError" = "无法转接呼叫，因为无法联系接收人。";
+
+/* Conversation voice localizations */
+"LOCID mute" = "静音";
+"LOCID Mute Capitalized" = "静音";
+"LOCID Unmute" = "取消静音";
+"LOCID keypad" = "小键盘";
+"LOCID add call" = "添加呼叫";
+"LOCID hold" = "保持";
+"LOCID End" = "结束";
+"LOCID Hide Keypad" = "隐藏小键盘";
+"LOCID Call Lync" = "Skype for Business通话";
+"LOCID Call Work" = "工作电话: %@";
+"LOCID Call Mobile" = "移动电话: %@";
+"LOCID Call Home" = "家庭电话: %@";
+"LOCID Call Other" = "其他电话: %@";
+"LOCID Decline" = "拒绝";
+"LOCID Video Menu" = "视频菜单";
+"LOCID Hold Call" = "保持呼叫";
+"LOCID Hang Up" = "挂断";
+"LOCID Dial Pad Only" = "拨号盘";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u个参与者 - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u个参与者 - %@";
+"LOCID Call Status Connecting" = "正在连接...";
+"LOCID Call Status Connecting Remote" = "正在连接...";
+"LOCID Call Status Connected" = "已连接";
+"LOCID Call Status On Hold - Passive" = "保持";
+"LOCID Call Status On Hold" = "保持";
+"LOCID Call Status Ended" = "呼叫已结束";
+"LOCID Call Status Transfering" = "正在转接";
+"LOCID On behalf of" = "代表 %@";
+"LOCID Call for" = "%@ 的呼叫";
+"LOCID Call for - Astana" = "%@ 的呼叫";
+"LOCID Transferred by" = "已由 %@ 转接";
+"LOCID Forwarded by" = "已由 %@ 转接";
+"LOCID Private call" = "专线呼叫";
+"LOCID Also ringing" = "同时拨打 %@";
+"LOCID Also ringing delegates" = "同时拨打您的代理人";
+"LOCID Will ring" = "将拨打 %@";
+"LOCID Also ringing team call" = "同时拨打您的团队";
+"LOCID The recipient" = "接收人";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "正在初始化...";
+"LOCID DataCollab Connecting" = "正在连接...";
+"LOCID DataCollab Loading" = "正在加载...";
+"LOCID DataCollab No Content" = "演示者已停止共享内容。";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "由于服务器连接失败，数据共享功能不可用。";
+"LOCID DisconnectedOnConnectivityIssue" = "由于服务器连接问题，一些演示功能不可用。";
+"LOCID DisconnectedOnConnectedElsewhere" = "您已断开连接，因为您已从其他客户端加入。";
+"LOCID DisconnectedOnNetworkFailure" = "存在网络问题，导致您无法查看演示。";
+"LOCID DataCollab Known UnSupported" = "演示者正在使用的功能在此版本的Skype for Business不受支持。";
+"LOCID DataCollab Generic UnSupported" = "演示者正在使用的功能在此版本的Skype for Business不受支持，或者可能已连接到较旧服务器。";
+"LOCID DataCollab ContentPresenter" = "演示者: %@";
+"LOCID DataCollab NoPresenter" = "无人在演示";
+"LOCID Collab Unsupported PPTContent" = "很抱歉，无法播放此演示文稿中的媒体。";
+"LOCID Retry" = "重试";
+"LOCID DataCollab Generic PPT Error" = "由于服务器连接问题，一些演示功能不可用。";
+"LOCID Start Viewing" = "开始查看";
+"LOCID Stop Viewing" = "停止查看";
+"LOCID Collab Escalation" = "%@ 希望开始演示";
+"LOCID PowerPoint content Accessibility" = "PowerPoint 内容";
+
+"LOCID SyncPresenterButton" = "同步到演示者视图";
+"LOCID NavigateBackButton" = "向后移动一张幻灯片";
+"LOCID NavigateForwardButton" = "向前移动一张幻灯片";
+"LOCID SlideNumber" = "%1$d/%2$d";
+"LOCID SlideNumber Accessibility" = "第 %1$d 张幻灯片，共 %2$d 张";
+
+"LOCID E_SharingDisabled" = "已禁用演示。";
+"LOCID E_SharingNetworkIssues" = "由于网络问题，您无法演示。请稍后再试。";
+"LOCID E_SharingNotSupported" = "此联系人不支持演示。";
+"LOCID E_SharingTimeout" = "服务器正忙，无法开始演示。请稍后再试。";
+"LOCID SharingAnotherType" = "此演示已结束，因为另一个演示已开始。";
+"LOCID E_GetMediaSdpFailed" = "当前无法将您连接到桌面或程序演示。";
+
+"LOCID Meeting Content No Wifi_iPad"  = "由于您未连接到 Wi-Fi，无法查看演示内容。";
+"LOCID 3G user requiring Wi-Fi" = "未连接到 Wi-Fi，因此无法进行Skype for Business通话。";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "该演示文稿太大，无法在您的设备上查看。";
+"LOCID E_CollabDisconnectedNetworkError" = "由于网络问题，您与演示的连接已中断。";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "您已断开连接，因为您已从其他客户端加入。";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "正在加载内容共享。";
+"LOCID AppSharing Shared Content" = "共享的内容。";
+"LOCID AppSharing Desktop" = "桌面";
+"LOCID AppSharing Application" = "应用程序";
+"LOCID AppSharing SharingPaused" = "共享当前已暂停。"; // Not used
+"LOCID AppSharing SharingIdle" = "共享当前处于空闲状态。"; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "所有资源已最小化。"; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@尝试启动屏幕演示，但此版本的应用仅在电话会议和Skype会议中支持该功能。";
+
+/* IM Modality Page */
+"LOCID Start IM" = "启动即时消息";
+"LOCID send IM" = "发送";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "结束对话";
+"LOCID View Contact Card" = "查看联系人卡片";
+"LOCID Invite Others" = "邀请其他人";
+"LOCID Send Location action" = "发送位置";
+"LOCID Send as Email action" = "通过电子邮件发送";
+"LOCID View Participants" = "查看参与者";
+"LOCID Rejoin" = "重新加入";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "双击以展开";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "呼叫质量差";
+"LOCID ACI Call Muted" = "当前为禁止通知，双击以取消禁止通知";
+"LOCID ACI Call Unmuted" = "当前为取消禁止通知，双击以禁止通知";
+
+/* Search results */
+"LOCID No Results" = "无结果";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ 意外退出";
+"LOCID Dont Send" = "不发送";
+"LOCID Send Report" = "发送报告";
+"LOCID Would you like to send a report so we can fix the problem" = "是否要发送报告，以便我们可以修复问题?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "主页";
+"LOCID Timeline Contacts" = "联系人";
+"LOCID Timeline Meetings" = "会议";
+"LOCID Timeline Search Placeholder" = "搜索联系人";
+"LOCID Timeline Recent" = "最近";
+"LOCID Timeline Upcoming" = "即将开始";
+"LOCID Timeline TableView" = "日程表";
+"LOCID Timeline Meeting Time All Day" = "全天";
+"LOCID Timeline Search Skype Contacts" = "联系人";
+"LOCID Timeline Search Phone Contacts" = "电话联系人";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "联系人";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "拨号盘和语音邮件";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "拨号盘，%ld封新语音邮件";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "拨号盘，%ld封新语音邮件";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "会议";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "主页";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "我的信息";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@，%@，%@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@，新消息，%@，%@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "呼叫";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "视频呼叫";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "标记为已读";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "删除";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "加入会议";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "取消";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "允许";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "有空";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "忙碌";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "离开";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "离线";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "请勿打扰";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "显示状态未知";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "清除文本";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "搜索联系人";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "视频呼叫";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "呼叫";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "加入会议";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "空聊天";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "个人资料图片";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld封新语音邮件";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld封新语音邮件";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "天使";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "愤怒";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "强盗";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "足球";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "啤酒";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "大笑";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "自行车";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "害羞";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "鞠躬";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "心碎";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "蛋糕";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "通话";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "相机";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "有空聊聊吗？";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "汽车";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "钞票";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "猫";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "鼓掌";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "咖啡";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "电脑";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "保密";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "酷";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "哭泣";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "跳舞";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "魔鬼";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "狗";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "烦躁";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "饮料";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "干瞪眼";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "臭美";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "嫉妒";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "坏笑";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "沮丧";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "好运";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "鲜花";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "游戏";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "礼物";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "偷笑";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "祝你好运";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "我得走了";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "握手";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "愉快";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "用头撞墙";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "爱心";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "松鼠";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "挥手";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "为成功击掌";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "别挂断";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "拥抱";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "想法";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "恋爱";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "小岛";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "不是我干的！";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "亲吻";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "心不在焉";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "约会";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "保密";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "邮件";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "化妆";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "男人";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "品味";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "电影";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "肌肉";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "音乐";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "学霸";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "忍者";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "不要";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "点头";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "派对";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "电话";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "比萨";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "飞机";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "呕吐";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "击打";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "下雨";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "彩虹";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "摇滚";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "笑翻";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "悲伤";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "摇头";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "困";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "微笑";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "假笑";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "蜗牛";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "无语";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "星星";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "停止";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "阳光";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "惊讶";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "骂脏话";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "流汗";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "交谈";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "我不想听";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "思考";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "时间";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "头大";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "吐舌笑脸";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "风滚草";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "雨伞";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "等待";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "等待中";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "在家办公";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "发生了什么事？";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "松了一口气";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "眨眼";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "女人";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "好奇";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "担心";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "打呵欠";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "太好了";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "在此输入消息";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "向%@打招呼";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "向群组打招呼";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "你的对话将在此显示";
+"CHAT_FAILED_TO_SEND" = "无法发送此消息：%@";
+"LOCID CONVERSATION_SHOW_CHAT" = "显示聊天窗口";
+"LOCID CONVERSATION_HIDE_CHAT" = "隐藏聊天窗口";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "显示工具栏";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "隐藏工具栏";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "表情符";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "天";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "天";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "小时";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "小时";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "分";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "分";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "秒";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "秒";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d个新通知";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "1个新通知";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "没有新通知";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "会议已结束";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u个参与者";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "取消";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "打开";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "复制";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "添加到阅读列表";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "在Safari中打开";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "后退";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "前进";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "确定";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "取消";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@正在输入...";
+"CHATTYPING_TWOUSERS" = "%@和%@正在输入...";
+"CHATTYPING_THREEUSERS" = "%@、%@和其他一人正在输入...";
+"CHATTYPING_MULTIPLEUSERS" = "%@、%@和其他%d人正在输入...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "发送电子邮件";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "查看联系人卡片";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "参与者";
+"DROPDOWN_ADD_PARTICIPANTS" = "添加参与者";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "传入";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "拨出";
+
+"LOCID Meetings Page Title" = "会议";
+"LOCID No Meetings Placeholder" = "你的会议将在此显示";
+"LOCID Meetings Today" = "今天";
+"LOCID Meetings Tomorrow" = "明天";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "设置你的个人备注";
+
+"PARTICIPANTS_VIEW_TITLE" = "参与者";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "在会议厅中等待";
+"PARTICIPANTS_VIEW_ON_CALL" = "在此通话中";
+
+"MEETING_VIEW_TITLE" = "会议";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "加入会议";
+"MEETING_VIEW_ORGANISER_LABEL" = "组织者";
+"MEETING_VIEW_INVITEES_LABEL" = "被邀请者";
+"MEETING_VIEW_NOTES_LABEL" = "便笺";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "正在连接...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "选择表情符";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "发送消息";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "通话结束";
+"INVITE_PARTICIPANTS" = "邀请参与者";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "上一步";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "通讯录";
+"LOCID_PHONE_NUMBER" = "电话号码";
+"LOCID_MORE" = "更多";
+"SWITCH_VIDEO_ACCESSIBILITY" = "切换视频";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "显示联系人个人资料";
+"CHAT_OPTION_PARTICIPANTS" = "参与者";
+"LOCID_CONTACTS_TABLE_VIEW" = "联系人视图";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "来电";
+"LOCID_MEETINGS_TABLE_VIEW" = "会议视图";

@@ -1,0 +1,3 @@
+﻿<Configuration Product="OMUI.ar-SA">
+  <Display Level="basic" CompletionNotice="no" SuppressModal="Yes" AcceptEula="Yes" />
+</Configuration>

@@ -1,0 +1,277 @@
+﻿<Window x:Class="Sfb.LanguageInstaller.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sfb.LanguageInstaller.Wpf"
+        xmlns:controls="clr-namespace:Sfb.LanguageInstaller.Wpf.ConfigurationUserControl"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        WindowState="Maximized">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" />
+        <local:StatusToVisibilityConverter x:Key="StatusConverter" />
+        <Style x:Key="HyperlinkLikeButton" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+    </Window.Resources>
+    <telerik:RadDocking>
+        <telerik:RadDocking.DocumentHost>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.75*" />
+                    <RowDefinition Height="0.25*" />
+                </Grid.RowDefinitions>
+                <telerik:RadBusyIndicator Name="busyIndicator" Grid.Row="0"  IsIndeterminate="True" BusyContent="running" IsBusy="{Binding IsBusy}">
+                    <telerik:RadTabControl>
+                        <telerik:RadTabItem Header="Modify Current Version" IsSelected="True">
+                            <Grid Margin="10" IsEnabled="{Binding OfficeInstalled}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+                                <GroupBox Header="Current Office version" Padding="5" Height="auto">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto" MinWidth="150" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Content="Office Versions Installed: " />
+                                        <Label Grid.Row="0" Grid.Column="1" Content="{Binding Path=CurrentBuildVersion}" />
+
+                                        <telerik:RadButton Grid.Row="1" Content="Remove office" Command="{Binding RemoveOfficeCommand}" />
+                                    </Grid>
+                                </GroupBox>
+                                <Grid Grid.Row="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <GroupBox Header="Installed Languages" Padding="5">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="auto" />
+                                                <RowDefinition Height="auto" />
+                                                <RowDefinition Height="auto" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition />
+                                                <ColumnDefinition />
+                                            </Grid.ColumnDefinitions>
+
+                                            <telerik:RadListBox Grid.ColumnSpan="2" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                    ItemsSource="{Binding Path=InstalledLanguagesPackages}">
+                                                <telerik:RadListBox.ItemsPanel>
+                                                    <ItemsPanelTemplate>
+                                                        <WrapPanel>
+                                                        </WrapPanel>
+                                                    </ItemsPanelTemplate>
+                                                </telerik:RadListBox.ItemsPanel>
+                                                <telerik:RadListBox.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <Grid>
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition />
+                                                                <ColumnDefinition />
+                                                            </Grid.ColumnDefinitions>
+                                                            <CheckBox IsChecked="{Binding IsChecked}" />
+                                                            <Label Grid.Column="1" Content="{Binding Language.CultureName}"></Label>
+                                                        </Grid>
+                                                    </DataTemplate>
+                                                </telerik:RadListBox.ItemTemplate>
+                                            </telerik:RadListBox>
+                                            <telerik:RadButton Grid.Row="1"  Content="Remove languages(s)" Width="150" Command="{Binding RemoveLanguagesCommand}" />
+                                            <telerik:RadButton Grid.Row="1" Grid.Column="1"  Content="Check all languages(s)" Width="150" Command="{Binding CheckAllLanguagesCommand}" />
+                                            <Label Grid.Row="2" Foreground="Red" Content="Check a language"  Visibility="{Binding Path=NoCheckedInstalledLanguage, Converter={StaticResource booleanToVisibilityConverter} }" ></Label>
+                                        </Grid>
+                                    </GroupBox>
+                                    <GroupBox Grid.Row="1" Header="Uninstalled Languages" Padding="5">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*" />
+                                                <RowDefinition Height="auto" />
+                                                <RowDefinition Height="auto" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition />
+                                            </Grid.ColumnDefinitions>
+
+                                            <telerik:RadListBox Grid.ColumnSpan="2" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                    ItemsSource="{Binding Path=UninstalledLanguagesPackages}">
+                                                <telerik:RadListBox.ItemsPanel>
+                                                    <ItemsPanelTemplate>
+                                                        <WrapPanel>
+                                                        </WrapPanel>
+                                                    </ItemsPanelTemplate>
+                                                </telerik:RadListBox.ItemsPanel>
+                                                <telerik:RadListBox.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <Grid>
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition />
+                                                                <ColumnDefinition />
+                                                            </Grid.ColumnDefinitions>
+                                                            <CheckBox IsChecked="{Binding IsChecked}" />
+                                                            <Label Grid.Column="1" Content="{Binding Language.CultureName}"></Label>
+                                                        </Grid>
+                                                    </DataTemplate>
+                                                </telerik:RadListBox.ItemTemplate>
+                                            </telerik:RadListBox>
+                                            <telerik:RadButton Grid.Row="1" Grid.Column="1"  Content="Add languages(s)" Width="150" Command="{Binding InstallLanguagesCommand}" />
+                                            <Label Grid.Row="2" Foreground="Red" Content="Check a language"  Visibility="{Binding Path=NoCheckedUninstalledLanguage, Converter={StaticResource booleanToVisibilityConverter} }" ></Label>
+                                        </Grid>
+                                    </GroupBox>
+                                </Grid>
+                            </Grid>
+                        </telerik:RadTabItem>
+                        <telerik:RadTabItem Header="Install New Version">
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+                                <GroupBox Header="Install Office" Padding="5" Height="auto">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto" MinWidth="150" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Label Content="Build Version: " />
+                                        <TextBox Grid.Column="1" Text="{Binding Mode=TwoWay, Path=UserTypedBuildVersion,UpdateSourceTrigger=PropertyChanged}" />
+                                        <Label Grid.Row="1" Content="Version: " />
+                                        <Label Grid.Row="1" Grid.Column="1" Content="{Binding Path=UserSelectedOfficeVersion}" />
+                                    </Grid>
+                                </GroupBox>
+
+                                <GroupBox Grid.Row="1" Header="Select office languages you want to install" Padding="5">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition />
+                                        </Grid.ColumnDefinitions>
+
+                                        <telerik:RadListBox Grid.ColumnSpan="2" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                    ItemsSource="{Binding Path=LanguagesPackages}">
+                                            <telerik:RadListBox.ItemsPanel>
+                                                <ItemsPanelTemplate>
+                                                    <WrapPanel>
+                                                    </WrapPanel>
+                                                </ItemsPanelTemplate>
+                                            </telerik:RadListBox.ItemsPanel>
+                                            <telerik:RadListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition />
+                                                            <ColumnDefinition />
+                                                        </Grid.ColumnDefinitions>
+                                                        <CheckBox IsChecked="{Binding IsChecked}" />
+                                                        <Label Grid.Column="1" Content="{Binding Language.CultureName}"></Label>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </telerik:RadListBox.ItemTemplate>
+                                        </telerik:RadListBox>
+                                        <telerik:RadButton Grid.Row="1" Content="Install Office" Width="150" Command="{Binding InstallOfficeCommand}" />
+                                        <Label Grid.Row="2" Foreground="Red" Content="You need to type a valid build number and make sure the version hasn't been installed" Visibility="{Binding Path=NoUserTypedBuildVersion, Converter={StaticResource booleanToVisibilityConverter} }" ></Label>
+                                    </Grid>
+                                </GroupBox>
+                                <GroupBox Grid.Row="3" Header="Email" Padding="5" Height="auto">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="auto" />
+                                                <RowDefinition Height="auto" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="auto" />
+                                                <ColumnDefinition Width="auto" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Email Configuration:      " />
+                                            <controls:ConfigUserControl Grid.Row="0" Grid.Column="1"></controls:ConfigUserControl>
+                                            <TextBlock Grid.Row="1" Grid.Column="0"  Text="Send Email:" />
+                                            <CheckBox Grid.Row="1" Grid.Column="1" Margin="5 0 0 0" IsChecked="{Binding CanSendEmail, Mode=TwoWay}" />
+                                        </Grid>
+                                    </StackPanel>
+                                </GroupBox>
+                            </Grid>
+                        </telerik:RadTabItem>
+                    </telerik:RadTabControl>
+                </telerik:RadBusyIndicator>
+                <GroupBox Grid.Row="1" Header="Log:">
+                    <DockPanel>
+                        <TextBox Name="log" VerticalScrollBarVisibility="Visible" Text="{Binding LogText}" />
+                    </DockPanel>
+                </GroupBox>
+            </Grid>
+        </telerik:RadDocking.DocumentHost>
+        <telerik:RadSplitContainer Orientation="Vertical" InitialPosition="DockedRight" Width="500">
+            <telerik:RadPaneGroup>
+                <telerik:RadPane Header="Installing Language Status">
+
+                    <telerik:RadGridView
+                            x:Name="grid_History"
+                            ShowGroupPanel="False"
+                            AutoGenerateColumns="False"
+                            MinWidth="800"
+                            MinHeight="500"
+                           ItemsSource="{Binding  Path=Histories}">
+
+                        <telerik:RadGridView.GroupDescriptors>
+                            <telerik:GroupDescriptor Member="Group">
+                            </telerik:GroupDescriptor>
+                        </telerik:RadGridView.GroupDescriptors>
+
+                        <telerik:RadGridView.GroupHeaderTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center">
+                                    <TextBlock Text="{Binding Group.Key}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </telerik:RadGridView.GroupHeaderTemplate>
+                        <telerik:RadGridView.Columns>
+                            <telerik:GridViewDataColumn DataMemberBinding="{Binding Path=Op.OperationName}"></telerik:GridViewDataColumn>
+                            <telerik:GridViewDataColumn DataMemberBinding="{Binding Language}" Width="50"></telerik:GridViewDataColumn>
+                            <telerik:GridViewDataColumn DataMemberBinding="{Binding Path=Op.BuildVersion}" Width="70"></telerik:GridViewDataColumn>
+                            <telerik:GridViewDataColumn DataMemberBinding="{Binding Path=Op.Version}" Width="40"></telerik:GridViewDataColumn>
+                            <telerik:GridViewColumn Header="Error" Width="50">
+                                <telerik:GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <telerik:RadButton Style="{StaticResource HyperlinkLikeButton}" Content="Link" CommandParameter="{Binding Msg}" Command="{Binding Path=DataContext.LinkClickCommand, RelativeSource={RelativeSource AncestorType=Window}}" />
+                                    </DataTemplate>
+                                </telerik:GridViewColumn.CellTemplate>
+                            </telerik:GridViewColumn>
+                            <telerik:GridViewImageColumn   Header="Status"  DataMemberBinding="{Binding Status, Converter={StaticResource StatusConverter}}" />
+                            <telerik:GridViewDataColumn DataMemberBinding="{Binding runTime}" Header="Time" ></telerik:GridViewDataColumn>
+                        </telerik:RadGridView.Columns>
+                    </telerik:RadGridView>
+                </telerik:RadPane>
+            </telerik:RadPaneGroup>
+        </telerik:RadSplitContainer>
+    </telerik:RadDocking>
+</Window>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseInfoDetails>
+<SipUri1>lmtest8@microsoft.com</SipUri1>
+<DisplayName1>lmtest8</DisplayName1>
+<Password1>Pass@nov2015</Password1>
+<PhoneNumber1>1371522</PhoneNumber1>
+<SipUri2>lmtest25@microsoft.com</SipUri2>
+<DisplayName2>lmtest25</DisplayName2>
+<Password2>Pass@nov2015</Password2>
+<PhoneNumber2>1371522</PhoneNumber2>
+<SipUri3>test4@lyncmobileintl2.ccsctp.net</SipUri3>
+<DisplayName3>test4</DisplayName3>
+<Password3>08Apples</Password3>
+<PhoneNumber3>1371522</PhoneNumber3>
+<SipUri4>lmtest19@microsoft.com</SipUri4>
+<DisplayName4>lmtest19</DisplayName4>
+<Password4>Pass@jul2015</Password4>
+<PhoneNumber4>1371522</PhoneNumber4>
+<SipUri5>Skynext2@testlyog131.partner.onmschina.cn</SipUri5>
+<DisplayName5>Skynext2</DisplayName5>
+<Password5>07Apples</Password5>
+<PhoneNumber5>1371522</PhoneNumber5>
+<InternalServerAddress2>https://comose.clientee.rtmp.selfhost.corp.microsoft.com/autodiscover/autodiscoverservice.svc/root</InternalServerAddress2>
+<ExternalServerAddress2>https://comose.clientee.rtmp.selfhost.corp.microsoft.com/autodiscover/autodiscoverservice.svc/root</ExternalServerAddress2>
+<GalBuddyDisplayName>lmtest5</GalBuddyDisplayName>
+<GalBuddyAlias>lmtest5</GalBuddyAlias>
+<GroupName>Test</GroupName>
+<GalGroupName>Lync UI Automation</GalGroupName>
+<BuddyListDisplayName>lmtest6</BuddyListDisplayName>
+<OnlineMeetingSubject>Online Meeting (Test)</OnlineMeetingSubject>
+<OfflineMeetingSubject>Meeting (Test)</OfflineMeetingSubject>
+<SendFeedBackAlias>v-ninli@microsoft.com</SendFeedBackAlias>
+
+//Template for Contacts DFTs, will have to update
+ <BuddyNote>Personal Note</BuddyNote>
+    <BuddyTitle>SDET3</BuddyTitle>
+    <BuddyWorkNumber>+1 (765) 511-3403</BuddyWorkNumber>
+    <BuddyEmail>C_v-yamu4@clientee.rtmp.selfhost.corp.microsoft.com</BuddyEmail>
+    <BuddyCompany>iSoftStone</BuddyCompany>
+    <BuddyOffice>MSP-Automation/31701</BuddyOffice>
+
+<SearchByFirstNameString>Ning Li</SearchByFirstNameString>
+<SearchByLastNameString>Li</SearchByLastNameString>
+<OtherContactsGroupName>Other Contacts</OtherContactsGroupName>
+<ContactToAddRemoveName>C_v-yamu4</ContactToAddRemoveName>
+
+<OnlineMeetingTime>iPhoneTest</OnlineMeetingTime>
+    <OnlineMeetingLocation>Lync Meeting</OnlineMeetingLocation>
+    <OnlineMeetingUrl>https://meet.comotest.rtmp.selfhost.corp.microsoft.com/ipadbvtuser4/YV9KVDGY</OnlineMeetingUrl>
+    <OnlineMeetingInvitees>C_v-yamu5, C_v-yamu6, C_v-yamu3, C_v-yamu1</OnlineMeetingInvitees>
+    <OnlineMeetingNote>....</OnlineMeetingNote>
+    <OnlineMeetingOrganizer>iPadBVTUser4</OnlineMeetingOrganizer>
+
+
+<LobbyJoinMeetingSubject>Lobby join meeting</LobbyJoinMeetingSubject>
+</TestCaseInfoDetails>

@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Odgovori";
+"JOIN" = "Prihvati";
+"VIEW" = "Prikaz";
+"IGNORE" = "Zanemari";
+"LAUNCH" = "Pokreni";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "vas poziva u razgovor";
+"NEW_IM_BURNT_TOAST" = "Propušten razgovor s korisnikom %@";
+"SIGN_IN" = "Prijava";
+"SIGN_OUT" = "Odjavljeni ste zbog neaktivnosti.";
+"MWI" = "Nove poruke govorne pošte: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Adresa za prijavu";
+"LOCID Password" = "Lozinka";
+"LOCID User Name" = "Korisničko ime";
+"LOCID Domain" = "Domena";
+"LOCID Auto-Detect Server" = "Automatsko otkrivanje poslužitelja";
+"LOCID Sign-in As" = "Prijavi se kao";
+"LOCID User Name Footer" = "Korisnici servisa Skype za tvrtke online: korisničkoime@domena.com\nSvi ostali korisnici: domena\\korisničkoime";
+"LOCID Hide Details" = "Sakrij dodatne mogućnosti";
+"LOCID More Details" = "Prikaži dodatne mogućnosti";
+"LOCID Save Password" = "Spremi lozinku";
+
+/* generic share button */
+"LOCID share" = "zajednički koristi";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Interna adresa za otkrivanje";
+"LOCID External Server Address" = "Vanjska adresa za otkrivanje";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Pridonesite poboljšanju Skypea za tvrtke slanjem informacija o pogrešci prilikom prijave.";
+"LOCID Sign In BRB Reason 2" = "Možemo li prikupiti neke informacije o toj i budućim pogreškama prilikom prijave? Odabranu postavku uvijek možete naknadno promijeniti u mogućnostima.";
+"LOCID BRBDonotshow" = "Ne prikazuj to više";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Prijava";
+"LOCID Sign Out" = "Odjava";
+"LOCID Cancel Sign in" = "Odustani od prijave";
+"LOCID Lync Is Signing In" = "Prijavljuje se Skype za tvrtke";
+"LOCID Lync Is Signing Out" = "Odjavljuje se Skype za tvrtke";
+
+// Help
+"LOCID signin help" = "Pomoć za prijavu";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Moji podaci";
+"LOCID Contacts" = "Kontakti";
+"LOCID Conversations" = "Razgovori";
+"LOCID Meetings" = "Sastanci";
+"LOCID Phone" = "Telefon";
+"LOCID Signing In" = "Prijavljivanje...";
+"LOCID Signed Out" = "Odjavljen";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Što se danas događa?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Osobna napomena";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Unesite osobnu napomenu";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Dvostruko dodirnite da biste uredili";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Nepoznato";
+"LOCID Available" = "Dostupan";
+"LOCID Busy" = "Zauzet";
+"LOCID Busy Inactive" = "Zauzet i neaktivan";
+"LOCID Do Not Disturb" = "Ne ometaj";
+"LOCID Be Right Back" = "Vraćam se odmah";
+"LOCID Presence unknown" = "Prisutnost nepoznata";
+"LOCID Off Work" = "Odsutan s posla";
+"LOCID Appear Away" = "Naizgled odsutan";
+"LOCID Away" = "Odsutan";
+"LOCID Inactive" = "Neaktivan";
+"LOCID Reset Status" = "Ponovno postavi status";
+"LOCID Offline" = "Izvan mreže";
+"LOCID Blocked" = "Blokirano";
+"LOCID Sign In As Header" = "Odaberite status koji želite prikazati:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Poziv u tijeku";
+"LOCID In a Conference Call" = "Na konferencijskom pozivu";
+"LOCID Presenting" = "Prezentacija";
+"LOCID In a Meeting" = "Na sastanku";
+"LOCID Out of Office" = "Izvan ureda";
+"LOCID Urgent Interruptions Only" = "Samo hitni prekidi";
+"LOCID Out To Lunch" = "Na ručku";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype za tvrtke ne može prikazati kontakte iz uređaja iPhone. To možete ispraviti u postavkama uređaja iPhone.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype za tvrtke ne može prikazati kontakte iz uređaja iPad. To možete ispraviti u postavkama uređaja iPad.";
+"LOCID Other Contacts" = "Ostali kontakti";
+"LOCID Pinned Contacts" = "Najdraži kontakti";
+"LOCID Retrieving Members" = "Pričekajte...";
+"LOCID Cannot connect Try again" = "Dohvaćanje članova grupe trenutno nije moguće. Pokušajte ponovno kasnije.";
+"LOCID Group is too large to display" = "Grupa je prevelika za prikaz";
+"LOCID No members" = "Nema članova";
+"LOCID Searching the company directory" = "Pretraživanje imenika tvrtke...";
+"LOCID Please signin to search" = "Prijavite se da biste pretražili imenik tvrtke.";
+"LOCID Too many results" = "Previše rezultata; pokušajte suziti pretragu.";
+"LOCID Unable to connect to the server" = "Povezivanje s poslužiteljem trenutno nije moguće. Pokušajte ponovno kasnije.";
+"LOCID E_SearchTooLong" = "Nije pronađen nijedan rezultat. Pokušajte s kraćim pretraživanjem.";
+"LOCID No Name" = "Bez imena";
+"LOCID idle day" = "%d dan";
+"LOCID idle days" = "%d dana";
+"LOCID idle hour" = "%d h";
+"LOCID idle hours" = "%d h";
+"LOCID idle minutes" = "%d min";
+"LOCID inactive idle day" = "Neaktivan %d dan";
+"LOCID inactive idle days" = "Neaktivan %d dana";
+"LOCID inactive idle hour" = "Neaktivan %d h";
+"LOCID inactive idle hours" = "Neaktivan %d h";
+"LOCID inactive idle minutes" = "Neaktivan %d min";
+"LOCID DG does not exist" = "Grupa za raspodjelu više ne postoji.";
+"LOCID Access to DG denied" = "Odbijen je pristup grupi za raspodjelu";
+"LOCID No Contacts Placeholder" = "Vaši će se kontakti prikazivati ovdje";
+"LOCID No Contacts" = "Nema kontakata";
+"LOCID You currently have no contacts" = "Trenutno nemate nijedan kontakt";
+"LOCID Retrieving Contacts..." = "Dohvaćanje kontakata...";
+"LOCID Expanded" = "Grupa %@, proširena";
+"LOCID Collapsed" = "Grupa %@, sažeta";
+"LOCID Group card- acc" = "Kartica grupe";
+"LOCID Open group card - acc" = "Dodirom otvorite karticu grupe";
+
+/* Contact Card*/
+"LOCID Loading name" = "Učitavanje imena...";
+"LOCID Details" = "Kartica";
+"LOCID Work" = "Službeni";
+"LOCID Home" = "Kod kuće";
+"LOCID Mobile" = "Mobilni telefon";
+"LOCID Other" = "Ostalo";
+"LOCID other lowercase" = "ostalo";
+"LOCID Office" = "Ured";
+"LOCID Company" = "Tvrtka";
+"LOCID Department" = "Odjel";
+"LOCID Send Text Message" = "Pošalji tekstnu poruku";
+"LOCID IM" = "Izr. poruka";
+"LOCID E-Mail" = "E-pošta";
+"LOCID unknown lowercase" = "nepoznato";
+"LOCID Location lowercase" = "mjesto";
+"LOCID Calendar" = "kalendar";
+"LOCID Link" = "veza";
+"LOCID Disabled" = "%@, onemogućeno"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Napomena";
+"LOCID Video" = "Videopoziv";
+
+/* DG Card*/
+"LOCID Members" = "ČLANOVI"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Pozovi";
+"LOCID Transfer" = "Prenesi";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype za tvrtke pokušava se preusmjeriti na vas:";
+"LOCID certIssuedBy" = "Izdavatelj:";
+"LOCID certSubject" = "Predmet:";
+"LOCID certExpires" = "Istječe:";
+"LOCID certSignature" = "Algoritam potpisa:";
+"LOCID certDonotshow" = "Ne prikazuj mi to ponovno.";
+"LOCID Continue" = "Nastavi";
+"LOCID certNone" = "Bez šifriranja";
+"LOCID certRSA" = "RSA šifriranje";
+"LOCID certDSA" = "DSA šifriranje";
+"LOCID certDH" = "DH šifriranje";
+"LOCID certEC" = "EC šifriranje";
+"LOCID certHMAC" = "HMAC šifriranje";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Razgovor";
+"LOCID Chats - Phone Call" = "Telefonski poziv";
+"LOCID Chats - Video Call" = "Videopoziv";
+"LOCID Chats - Meeting" = "Sastanak";
+"LOCID Chats - Missed Call" = "Propušteni poziv";
+"LOCID Chats - Missed Video Call" = "Propušteni videopoziv";
+"LOCID Chats - Current Call" = "Trenutni poziv";
+"LOCID Chats - Current Call With Duration" = "Trenutni poziv, %@";
+"LOCID Phone Status - Connecting" = "Povezivanje...";
+"LOCID Phone Status - On Hold" = "Na čekanju";
+"LOCID Phone Status - Transferring" = "Prenošenje";
+"LOCID Transferring to" = "Prenosi se na %@...";
+"LOCID Chats Full" = "Napomena: ovaj je popis pun. Kako se budu dodavali novi razgovori, stari će se uklanjati.";
+"LOCID Close Conversation" = "Izbriši razgovor";
+"LOCID View Participants List" = "Prikaži popis sudionika";
+"LOCID Call Contact" = "Nazovi %@";
+"LOCID Video Call Contact" = "Videopoziv";
+"LOCID Video Conference Contact" = "Videokonferencija";
+"LOCID Edit" = "Uredi";
+"LOCID Deselect All" = "Poništi odabir svega";
+"LOCID Select All" = "Odaberi sve";
+"LOCID Me" = "Ja: %@";
+"LOCID Missed" = "Propušteno: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Grupni razgovor";
+"LOCID Tap To Enter Text" = "Dodirnite da biste upisivali";
+"LOCID No Conversations" = "Nema razgovora";
+"LOCID No Conversations Hint" = "Trenutno nemate nijedan razgovor";
+"LOCID Delete Count" = "Izbriši (%d)";
+"LOCID Delete None" = "Izbriši";
+"LOCID Escalating audio conference" = "Pokretanje konferencijskog poziva...";
+"LOCID Escalating video conference" = "Pokretanje videokonferencije...";
+"LOCID No Participants" = "Nema sudionika";
+"LOCID No Other Participants" = "Nema drugih sudionika";
+"LOCID One Participant" = "1 sudionik";
+"LOCID Some Participants" = "Broj sudionika: %d";
+"LOCID Max Participants" = "%d i više sudionika";
+"LOCID Large Meeting" = "Veliki sastanak";
+"LOCID Toast No Invite" = "vas poziva u razgovor";
+"LOCID Participant Join" = "Korisnik %@ uključio se u sastanak";
+"LOCID Participant Leave" = "Korisnik %@ napustio je sastanak";
+"LOCID Participant Join Failure" = "Korisnik %@ ne može se uključiti u sastanak";
+"LOCID Large Conference" = "Veliki sastanak";
+"LOCID Large Conference Detail" = "Popis sudionika nije dostupan tijekom većih sastanaka.";
+"LOCID No Participants Detail" = "U ovom razgovoru nema sudionika";
+"LOCID cannotSend" = "Poruku nije moguće poslati:";
+"LOCID Missed Conversation" = "Propušteni razgovor";
+"LOCID Send as Email" = "Pošalji kao poruku e-pošte";
+"LOCID Email Subject" = "Razgovor programa %1$@ sa sudionicima: %2$@";
+"LOCID Anonymous" = "Anoniman";
+"LOCID Duration" = "Trajanje:";
+"LOCID Switch Camera" = "Prijeđi na drugu kameru";
+"LOCID Swap PIP" = "Zamijeni sliku u slici";
+"LOCID Leave Video" = "Napusti videoprikaz";
+"LOCID Start My Video" = "Pokreni moj videozapis";
+"LOCID Stop My Video" = "Zaustavi moj videozapis";
+"LOCID End Video" = "Završi videorazgovor";
+"LOCID LargeMtgActiveSpeakerMissing" = "Informacije o govorniku nisu dostupne na većim sastancima.";
+"LOCID Swap Preview" = "Zamijeni pretpregled";
+"LOCID Speaker On" = "Zvučnik je uključen";
+"LOCID Speaker Off" = "Zvučnik je isključen";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Videoprikaz je uključen";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Dostruko dodirnite da biste isključili videoprikaz.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Videoprikaz je isključen";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Dvostruko dodirnite da biste uključili videoprikaz.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Zvučnik je uključen";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Dvostruko dodirnite da biste isključili zvučnik.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Zvučnik je isključen";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Dvostruko dodirnite da biste uključili zvučnik.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Zvuk poziva je isključen";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Dvaput dodirnite da biste uključili zvuk.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Zvuk poziva je uključen";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Dvaput dodirnite da biste isključili zvuk.";
+
+"LOCID Instant Messaging" = "Razmjena izravnih poruka";
+"LOCID Voice" = "Govorni poziv";
+"LOCID Collaboration" = "Suradnja";
+"LOCID Participants" = "Sudionici";
+"LOCID Full Screen" = "Cijeli zaslon";
+"LOCID Exit Full Screen" = "Izlaz iz prikaza na cijelom zaslonu";
+"LOCID Local Participant Alone in Conference Msg" = "Čini se da ste jedini u pozivu.";
+"LOCID 1 or more participants" = "Jedan ili više sudionika";
+"LOCID Call Started" = "Poziv je započeo – %@";
+"LOCID Call Ended Missed" = "Poziv je završio – %@ [propušten]";
+"LOCID Call Ended Duration" = "Poziv je završio – %@ [trajanje: %@]";
+"LOCID ConferenceEndedRejoin" = "Prekinuta vam je veza sa sastankom. Dodirnite dolje da biste se ponovno uključili.";
+"LOCID ConferenceEndedContinue" = "Ponovnim pokretanjem razgovora svim će se sudionicima poslati nova pozivnica.";
+"LOCID IM P2P Toast Voiceover" = "Korisnik %@ poziva vas u razgovor. Dvostruko dodirnite da biste prihvatili.";
+"LOCID IM Conf Toast Voiceover" = "Korisnik %@ poziva vas u grupni razgovor. Dvostruko dodirnite da biste prihvatili.";
+"LOCID Video is Locked on you" = "Videozapis je za vas zaključan.";
+
+"LOCID SFB Call Started" = "Započet poziv";
+"LOCID SFB Call Ended" = "Završen poziv";
+"LOCID SFB Call Ended Duration" = "Završen poziv, %@";
+
+/* Roster*/
+"LOCID Presenters" = "IZLAGAČI (%d)";
+"LOCID Attendees" = "SUDIONICI (%d)";
+"LOCID In Lobby" = "PREDVORJE (%d)";
+"LOCID Guest" = "Gost";
+"LOCID Remove" = "Ukloni";
+"LOCID E_RemoveFailed" = "Ne možemo ukloniti sudionika.";
+"LOCID E_AddFailed" = "Ne možemo dodati sudionika.";
+
+/*Lobby*/
+"LOCID Admit all" = "Uključi sve";
+"LOCID Deny all" = "Uskrati svima";
+"LOCID Admit" = "Uključi";
+"LOCID Deny" = "Uskrati";
+"LOCID See Lobby" = "Prikaži predvorje";
+"LOCID Conference In the Lobby" = "Neki sudionici čekaju u predvorju.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Proglasi izlagačem";
+"LOCID Demote" = "Pretvori u sudionika";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Mobilni telefon";
+"LOCID Voice and IM Unavailable" = "Nema govornih ni izravnih poruka";
+"LOCID Voice Only" = "Samo govorne poruke";
+"LOCID Voice and Video Only" = "Samo govorna i videokomunikacija";
+"LOCID IM Only" = "Samo izravne poruke";
+"LOCID No Voice" = "Nema govornih poruka";
+"LOCID Video capable" = "Podrška za videozapise";
+"LOCID No IM" = "Bez izravnih poruka";
+"LOCID Mobile Cap" = "Mobilni telefon";
+"LOCID txt-txt" = "%1$@ – %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ – %2$@ – %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Telefonska tipkovnica";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Zovi";
+"LOCID Dialpad" = "Tipkovnica telefona";
+"LOCID Dialpad STAR Key" = "Zvjezdica";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Ljestve"; // Used for accessibility
+"LOCID Delete Key" = "Izbriši";   // Used for accessibility
+"LOCID Emergency number" = "Broj za hitne slučajeve"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "sakrij";
+"LOCID Dialpad Search Recent Calls" = "nedavni pozivi";
+"LOCID Dialpad Search Native Contacts" = "telefonski kontakti";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Problem s kontaktima";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Došlo je do problema prilikom pristupa telefonskim brojevima kontakata. Pokušajte riješiti problem ponovnom sinkronizacijom računa za poštu u odjeljku Postavke.";
+
+/* My Status Tab */
+"LOCID Options" = "Postavke";
+"LOCID Send Feedback" = "Slanje povratnih informacija";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "od %1$@ do %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Od %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "do %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "od %1$@ do %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Nema sastanaka";
+"LOCID All" = "Sve";
+"LOCID No Meetings Scheduled" = "Nemate nijedan zakazani sastanak";
+"LOCID None" = "Ništa";
+"LOCID Organizer" = "Organizator";
+"LOCID Invitees" = "POZVANI";
+"LOCID Notes" = "BILJEŠKE";
+"LOCID Join" = "Uključite se";
+"LOCID Updated DATE TIME" = "Ažurirano %1$@ %2$@";
+"LOCID Online" = "Na mreži";
+"LOCID Tentative" = "Uvjetno";
+"LOCID Event" = "Događaj";
+"LOCID Updating..." = "Ažuriranje...";
+"LOCID Tentative Voiceover" = "%@, uvjetno";
+"LOCID Pull to refresh" = "Osvježite povlačenjem";
+"LOCID Today" = "DANAS"; // CAPS
+"LOCID Tomorrow" = "SUTRA"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Ako niste organizator, mikrofon će vam prilikom uključivanja biti isključen.";
+"LOCID Lync Conferencing" = "Sastanak Skypea";
+"LOCID Joining Step 1" = "Povezivanje...";
+"LOCID Please wait to be admitted" = "Pričekajte da vas uvedu";
+"LOCID Join Conf Error" = "Prekinuta je veza sa sastankom.";
+"LOCID Anonymous Join" = "Anonimno uključivanje";
+"LOCID Enter your name" = "Unesite svoje ime";
+"LOCID Anonymous Join Greeting" = "Dobro došli u Skype za tvrtke";
+"LOCID Sign in with Lync" = "Prijavite se putem računa za Skype za tvrtke";
+"LOCID Sign in as guest" = "Prijavi se kao gost";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Ne možemo vas povezati sa sastankom bez broja uređaja iPhone. Dodajte broj uređaja iPhone u mogućnostima Skypea za tvrtke.";
+"LOCID Join Conf Error - No Number iPad" = "Ne možemo vas povezati sa sastankom bez broja telefona. Dodajte broj telefona u mogućnostima Skypea za tvrtke.";
+"LOCID Join Meeting Line 1 Text" = "Uključivanje u sastanak\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Pozivanje na broj %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Pozdrav. Nalazite se u našem virtualnom predvorju. Raskomotite se i nemojte napuštati aplikaciju – organizator će vas uskoro pustiti da uđete.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Niste uključeni u sastanak jer nema organizatora ili nije odgovorio.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Veza je prekinuta. Da biste pokušali ponovno, dodirnite Uključite se.";
+"LOCID View" = "Prikaz";
+"LOCID Join Meeting" = "Uključite se u sastanak";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Uključivanje u sastanak";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Ne možemo vas povezati jer je sastanak pun. Pokušajte se obratiti organizatoru.";
+"LOCID AdmittedToLobby" = "Uvedeni ste. Upravo vas pozivamo...";
+"LOCID MtgDisclaimerAccept" = "Prihvati";
+"LOCID MtgDisclaimerDecline" = "Zanemari";
+"LOCID E_MeetingNotFound" = "Nema sastanka u koji se pokušavate uključiti.";
+"LOCID E_MeetingsNotEnabled" = "Vaša tvrtka ili ustanova nije omogućila ovu značajku sastanaka.";
+"LOCID E_OutsideOrg" = "Ta osoba ili sastanak nemaju dozvole u vašoj mreži.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Pozivi i sastanci";
+"LOCID credentialsSection" = "Moje vjerodajnice";
+"LOCID contactsSection" = "Kontakti";
+"LOCID accessibilitySection" = "Pristupačnost";
+"LOCID otherSection" = "Ostalo";
+"LOCID Show Recent Contacts" = "Nedavni kontakti";
+"LOCID Show Pinned Contacts" = "Prikvačeni kontakti";
+"LOCID Show Photos" = "Fotografije";
+"LOCID Sort by availability" = "Sortiraj po dostupnosti";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Zapisivanje";
+"LOCID About" = "O programu";
+"LOCID About Version" = "Verzija %@";
+"LOCID Status" = "Status";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP proxy";
+"LOCID Require WiFi" = "Obavezan Wi-Fi za";
+"LOCID WiFi VoIP" = "Govorni poziv";
+"LOCID WiFi Video" = "Videopoziv";
+"LOCID WiFi Collab" = "Sadržaj sastanka";
+"LOCID WiFi Warning" = "Kada je isključeno, pozive možete primati putem podatkovne veze (moguća naplata i manja kvaliteta).";
+"LOCID WiFi Warning iPad" = "Kada je ta mogućnost isključena, pozive i sadržaj sastanka možete primati putem podatkovne veze (moguća je naplata naknada i slabija kvaliteta).";
+"LOCID Not a SfB User" = "Ne koristite Skype za tvrtke?";
+
+
+/* About View */
+"LOCID About Title" = "O programu";
+"LOCID version" = "Verzija: %@";
+"LOCID Long Product Name" = "Skype® za tvrtke za %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Sva prava pridržana.";
+"LOCID online help" = "Pomoć";
+"LOCID Terms Of Use" = "Uvjeti korištenja";
+"LOCID Privacy title" = "Zaštita privatnosti";
+"LOCID Third Party Notices" = "Obavijesti trećih strana";
+"LOCID ABOUT_COPYRIGHT" = "© 2003. – 2015. Skype i Microsoft\nPatent u postupku priznavanja";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Naziv Skype, povezani zaštitni znakovi i logotipi te logotip \"S\" zaštitni su znakovi Skypea i povezanih entiteta.\n\nUpozorenje: ovaj je program zaštićen zakonom o autorskim pravima i međunarodnim sporazumima. Neovlašteno umnožavanje ili raspačavanje programa ili bilo kojeg njegova dijela kažnjivo je prema građanskom i krivičnom zakonu, a protiv počinitelja bit će upotrijebljena sva zakonom dopuštena sredstva.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Prosljeđivanje poziva";
+"LOCID Forward Section" = "Odaberite broj";
+"LOCID Apply Setting Section" = "Primijeni postavke";
+"LOCID Summary Section" = "Trenutne postavke:";
+"LOCID Do Not Forward" = "Nemoj prosljeđivati";
+"LOCID Forward Calls" = "Proslijedi pozive";
+"LOCID Forward Calls To" = "Proslijedi pozive na broj";
+"LOCID Simultaneously Ring" = "Istodobno pozivanje";
+"LOCID On" = "Uklj.";
+"LOCID Off" = "Isklj.";
+"LOCID During Working Hours" = "Tijekom radnog vremena";
+"LOCID Voicemail" = "Govorna pošta";
+"LOCID Team Call" = "Članovi timskog poziva";
+"LOCID Delegates" = "Ovlaštenici";
+"LOCID Pending Persons" = "Dodali";
+"LOCID Delegate Target" = "vaši ovlaštenici";
+"LOCID TeamCall Target" = "članovi vaše grupe za timski poziv";
+"LOCID Voicemail Target" = "vašu govornu poštu";
+"LOCID DoNotForward Summary" = "Pozivi će stizati na službeni telefon te se neće prosljeđivati. Kad VoIP nije dostupan, nećete primati pozive na mobilnom telefonu.";
+"LOCID DoNotForward Summary iPad" = "Pozivi će stizati na službeni telefon te se neće prosljeđivati. Kad VoIP nije dostupan, nećete primati pozive na uređaju iPad.";
+"LOCID ForwardCalls Summary" = "Pozivi će se izravno prosljeđivati na broj koji koristi %@. Ako to nije broj vašeg mobitela, nećete primati pozive na mobilni telefon.";
+"LOCID ForwardCalls Summary iPad" = "Pozivi će se izravno prosljeđivati na %@ te neće stizati na iPad.";
+"LOCID Simulring Summary" = "Pozivi će stizati na službeni telefon, ali će ih primati i %@. Ako to nije broj vašeg mobitela, kad VoIP nije dostupan, primat ćete pozive putem mobilne mreže.";
+"LOCID Simulring Summary iPad" = "Pozivi će stizati na službeni telefon, ali će ih primati i %@. Kad VoIP nije dostupan, nećete primati pozive na uređaj iPad.";
+"LOCID View Settings" = "Prikaz trenutnih postavki";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Primijeni postavke";
+"LOCID All the Time" = "Uvijek";
+"LOCID During Outlook Working Hours" = "Za rad. vrem. u prog. Outlook";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Službeni";
+"LOCID Home Capitalized" = "Kod kuće";
+"LOCID Mobile Capitalized" = "Mobilni telefon";
+"LOCID Custom Capitalized" = "Prilagođeno";
+"LOCID Other Capitalized" = "Ostalo";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Odustani";
+"LOCID Add" = "Dodaj";
+"LOCID New Number" = "Novi broj";
+"LOCID New Contact" = "Novi kontakt";
+"LOCID Contact" = "Kontakt";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Prijenos zapisnika prijave";
+"LOCID SignInBRB - Always" = "Uvijek";
+"LOCID SignInBRB - Never" = "Nikad";
+"LOCID SignInBRB - Ask Me" = "Pitaj me";
+"LOCID Send Log Files" = "Slanje datoteka zapisnika";
+"LOCID Log Email Subject" = "Datoteke zapisnika Skypea za tvrtke"; //product name
+"LOCID Device Model" = "Model uređaja:";
+"LOCID Device OS Name" = "Naziv operacijskog sustava uređaja:";
+"LOCID Device OS Version" = "Verzija operacijskog sustava uređaja:";
+"LOCID Enable Logging" = "Omogući zapisivanje";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "HTTP proxy";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Postavljanje HTTP proxyja dovršite pomoću postavki za Wi-Fi uređaja %@.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Koristi vjerodajnice za Skype za tvrtke";
+"LOCID Exchange Credentials Info" = "Skypeu za tvrtke potrebne su vjerodajnice za Exchange da bi vam mogao prikazati sve podatke o sastancima i govornoj pošti.";
+"LOCID Email Address" = "Adresa e-pošte";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Broj mobitela";
+"LOCID My Mobile Number Details" = "Unesite broj uređaja iPhone zajedno s predbrojem države i regije:";
+"LOCID My Mobile Number Details iPad" = "Unesite telefonski broj zajedno s predbrojem države i regije:";
+"LOCID My Mobile Number Footer" = "Time vam se omogućuje upućivanje i primanje službenih poziva te uključivanje u sastanke Skypea za tvrtke.\n(To je zamjenska mogućnost ako koristite VoIP i on nije dostupan.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Time vam se omogućuje uključivanje u sastanke Skypea za tvrtke.\n(To je zamjenska mogućnost ako koristite VoIP i on nije dostupan.)";
+"LOCID iPhone Number" = "Telefonski broj";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Pozovi putem službenog";
+"LOCID Missing iPhone Number Error" = "Nema telefonskog broja";
+"LOCID Missing iPhone Number Error Text" = "Poziv nije moguće uspostaviti. U odjeljku Mogućnosti unesite broj uređaja iPhone pa pokušajte ponovno uspostaviti poziv.";
+"LOCID Missing iPad Number Error Text" = "Poziv nije moguće uspostaviti. U odjeljku Mogućnosti unesite broj telefona pa pokušajte ponovno uspostaviti poziv.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Prije nego što počnete";
+"LOCID Main text" = "Mobilnu aplikaciju Skypea za tvrtke može koristiti svatko tko primi pozivnicu za sastanak Skypea. No da biste uživali u svim mogućnostima aplikacije, morate imati račun za Skype za tvrtke.";
+"LOCID Understand" = "U redu";
+
+/*Group Picker*/
+"LOCID More Options" = "Dodatne mogućnosti";
+"LOCID Add Contact" = "Dodaj kontakt";
+"LOCID Add to Group" = "Dodaj u grupu";
+"LOCID Remove Contact" = "Ukloni kontakt";
+"LOCID Remove from Group" = "Ukloni iz grupe";
+"LOCID Groups" = "Grupe";
+"LOCID E_AddContactFailureGeneral" = "Trenutno ne možemo dodati taj kontakt. Pokušajte ponovno kasnije.";
+"LOCID E_AddContactFull" = "Ne možemo dodati više kontakata u tu grupu.";
+"LOCID E_AddContactInGroup" = "Kontakt je već u grupi.";
+"LOCID E_RemoveContactFailureGeneral" = "Trenutno ne možemo ukloniti taj kontakt. Pokušajte ponovno kasnije.";
+"LOCID Confirm Remove Contact" = "Time će se %@ ukloniti s popisa kontakata.";
+"LOCID Ignore" = "Zanemari";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Dodatne informacije";
+"LOCID CEIP More Info" = "Pridonesite poboljšanju Skypea za tvrtke slanjem anonimnih podataka o korištenju Microsoftu.";
+"LOCID ceipSectionTitle" = "Program unaprjeđivanja zadovoljstva korisnika";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Dobro došli.";
+"LOCID Lets begin" = "Počnimo...";
+
+/* First Run Experience */
+"LOCID Close" = "Zatvori";
+"LOCID Change" = "Da";
+"LOCID Don't change" = "Ne";
+"LOCID Next" = "Sljedeće";
+"LOCID Done" = "Gotovo";
+"LOCID First Run First Step" = "Lync je sada Skype za tvrtke – objedinjuje sučelje programa Skype s korporativnom kvalitetom tvrtke Microsoft.";
+"LOCID First Run Second Step" = "Svatko se može uključiti u sastanak programa Skype pomoću te aplikacije, ali da biste koristili sve značajke, potreban vam je račun za Skype za tvrtke i tvrtka ili ustanova mora omogućiti tu aplikaciju.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "ŽELITE LI PROMIJENITI POSTAVKE PROSLJEĐIVANJA POZIVA?";
+"LOCID First Run CF Current Settings" = "Trenutne postavke:";
+"LOCID First Run CF Change Settings" = "Nove postavke:";
+"LOCID First Run Change Summary" = "Unijeli ste telefonski broj za primanje službenih poziva. Sada moramo promijeniti vaše trenutne postavke prosljeđivanja poziva da bi vaš telefon zvonio.";
+"LOCID First Run Change Request" = "Možemo li to promijeniti da bi službeni pozivi istodobno stizali na vaš službeni telefon i na %@?";
+"LOCID DoNotForward Summary - First Run" = "Pozivi će zvoniti na službenom telefonu i neće se prosljeđivati ni na koji drugi telefonski broj.";
+"LOCID ForwardCalls Summary - First Run" = "Pozivi će se prosljeđivati izravno na broj %@.";
+"LOCID Simulring Summary - First Run" = "Pozivi će stizati na službeni telefon te će se također upućivati na %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "NEMOJTE NIKAD PROPUSTITI SLUŽBENE POZIVE";
+"LOCID My Mobile Number Title 2" = "NEMOJTE NIKAD PROPUSTITI SASTANAK";
+"LOCID My Mobile Number Details First Run" = "Potreban nam je vaš broj na uređaju iPhone zajedno s predbrojem za državu i regiju:";
+"LOCID My Mobile Number Details First Run_iPad" = "Potreban nam je vaš telefonski broj zajedno s predbrojem za državu i regiju:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "KORIŠTENJE PODATAKA";
+"LOCID Setup Work Calls Sub Text" = "Te postavke upravljaju vašim korištenjem podataka i potencijalnim troškovima za pozive i sastanke.";
+
+"LOCID Require Wifi for VoIP calls" = "Obavezan Wi-Fi za VoIP pozive";
+"LOCID Require Wifi for VoIP calls off subtext" = "Kada Wi-Fi mreža nije dostupna, pozivi će koristiti podatkovnu vezu.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Pozivi će se uvijek odvijati putem Wi-Fi mreže. Nećemo koristiti podatkovnu vezu.";
+
+"LOCID Require Wifi for Video calls" = "Obavezan Wi-Fi za videopozive";
+"LOCID Require Wifi for Video calls off subtext" = "Kada Wi-Fi nije dostupan, videopozivi će koristiti podatkovnu vezu (to može obuhvaćati prijenos velike količine podataka).";
+"LOCID Require Wifi for Video calls on subtext" = "Videopozivi će se uvijek odvijati putem Wi-Fi mreže. Nećemo koristiti podatkovnu vezu.";
+
+"LOCID Require Wifi for meeting content" = "Obavezna Wi-Fi mreža za sadržaj sastanka";
+"LOCID Require Wifi for meeting content off subtext" = "Kada Wi-Fi nije dostupan, koristit ćemo podatkovnu vezu za dohvaćanje sadržaja sastanka (to može obuhvaćati prijenos velike količine podataka).";
+"LOCID Require Wifi for meeting content on subtext" = "Za dohvaćanje sadržaja sastanka uvijek ćemo koristiti Wi-Fi, a nikad podatkovnu vezu.";
+
+"LOCID Skip" = "Preskoči";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Počnite koristiti Skype za tvrtke";
+
+"LOCID First Run Successful Setup" = "SPREMNI STE ZA RAD!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "DOBRO DOŠLI!";
+"LOCID First Run Successful Setup Details" = "Promjene možete u svakom trenutku unijeti u postavkama.";
+
+"LOCID improve lync" = "Pomozite poboljšati Skype za tvrtke";
+"LOCID whyphonenumber" = "Zašto nam je potreban vaš broj telefona";
+"LOCID more detail" = "Više detalja";
+
+"LOCID Emergency Call Disclaimer" = "Napomena:";
+"LOCID Emergency Call Disclaimer Details" = "Na sve pozive primjenjuju se uobičajene naknade operatera.\n\nVažno: aplikaciju Skype za tvrtke nemojte koristiti za upućivanje poziva hitnim službama.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Važno";
+"LOCID Emergency Call Disclaimer Details iPad" = "Aplikaciju Skype za tvrtke nemojte koristiti za upućivanje poziva hitnim službama.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Obavijesti";
+"LOCID Push Notification Legal1" = "Prije prihvaćanja korištenja obavijesti morate imati na umu da se sve obavijesti i njihov sadržaj šalju putem Appleova servisa za obavijesti i Microsoftova sustava za slanje obavijesti.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Promijenili ste postavke obavijesti u postavkama obavijesti uređaja %1$@, no morate ponovno pokrenuti Skype za tvrtke da biste prekinuli dostavu cjelokupnog sadržaja obavijesti.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Koristi mobitel";
+"LOCID Call via Work Not Available Error" = "Ne možete uspostaviti poziv u Skypeu za tvrtke jer niste na mreži. Pokušajte poziv uputiti s mobitela.";
+"LOCID Call via Work Not Available Error iPad" = "Poziv u Skypeu za tvrtke nije moguće uputiti jer ste u izvanmrežnom načinu rada.";
+"LOCID Answer incoming call" = "Odgovorite na dolazni poziv";
+"LOCID to connect you to... display name" = "da biste se povezali s korisnikom...\n%@";
+
+"LOCID Call via Work Connecting" = "Povezivanje...\n Odgovorite na sljedeći dolazni poziv.";
+"LOCID Call via Work Connected" = "Uključili ste se s broja %1$@";
+"LOCID Video Disclaimer" = "Nećete moći vidjeti videoprikaz ni omogućiti zajedničko korištenje videoprikaza.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Uključili ste se s broja %1$@.";
+
+/* Errors */
+"LOCID Error" = "Pogreška";
+"LOCID E_GenericFailure" = "U Skypeu za tvrtke došlo je do pogreške. Pokušajte ponovno. Ako se problem nastavi pojavljivati, obratite se službi za podršku.";
+"LOCID E_GroupNotFound" = "Nije moguće pronaći tu grupu.";
+"LOCID E_PermissionsForGroup" = "Nemate dozvolu za proširivanje te grupe.";
+"LOCID E_ConnectionError" = "Povezivanje s poslužiteljem nije moguće. Provjerite mrežnu vezu i adresu poslužitelja pa pokušajte ponovno.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Povezivanje s poslužiteljem nije moguće. 1) Možda nije dostupan. 2) Provjerite mrežnu vezu. 3) Provjerite koristite li podatke računa za Skype za tvrtke koje ste dobili u svojoj tvrtki ili ustanovi. 4) Korisničko ime možda se razlikuje od imena za prijavu. Dodirnite Dodatne mogućnosti i unesite korisničko ime ili domenu\\korisničkoime.";
+"LOCID E_AutoDiscoveryInBackground" = "Promijenjena je konfiguracija poslužitelja. Ponovno pokrenite Skype za tvrtke.";
+"LOCID E_SslError" = "Nije moguće provjeriti certifikat s poslužitelja. Obratite se službi za podršku.";
+"LOCID E_SslCertExpiredError" = "Nije moguće provjeriti certifikat s poslužitelja. Obratite se službi za podršku.";
+"LOCID E_ProxyAuthError" = "Ne možemo vas prijaviti. Konfigurirajte postavke HTTP proxyja u postavkama uređaja %@ i mogućnostima Skypea za tvrtke ili za povezivanje koristite 3G.";
+"LOCID E_ConnectionTimeoutError" = "Povezivanje s poslužiteljem nije moguće. Možda je zauzet ili privremeno nije dostupan. Pokušajte ponovno.";
+"LOCID E_GenericApplicationError" = "Došlo je do pogreške u aplikaciji. Ponovno je pokrenite.";
+"LOCID E_AuthError" = "Ne možemo vas prijaviti. Provjerite podatke o računu pa pokušajte ponovno.";
+"LOCID E_InvalidCredentials" = "Ne možemo vas prijaviti. Provjerite podatke o računu pa pokušajte ponovno.";
+"LOCID E_InvalidSignInAddress" = "Prijava nije moguća. Provjerite adresu za prijavu pa pokušajte ponovno.";
+"LOCID E_InvalidLyncAccount" = "To nisu valjani podaci za prijavu.  Morate se prijaviti pomoću računa za Skype za tvrtke koji ste dobili od tvrtke ili ustanove.";
+"LOCID E_WrongHomePool" = "Povezivanje s poslužiteljem nije konfigurirano. Obratite se službi za podršku.";
+"LOCID E_ImSendError" = "Slanje nije uspjelo:";
+"LOCID GenericRetryError" = "Povezivanje s poslužiteljem nije moguće. Ponovni pokušaj...";
+"LOCID GenericError" = "Došlo je do pogreške na poslužitelju. Pokušajte ponovno.";
+"LOCID RequestFailed" = "Obrada zahtjeva nije uspjela. Pokušajte ponovno.";
+"LOCID DecodingError" = "Obrada odgovora poslužitelja nije uspjela. Pokušajte ponovno. Ako se problem nastavi pojavljivati, obratite se službi za podršku.";
+"LOCID VersionMismatch" = "Prijava nije moguća uz ovu verziju programa Skypea za tvrtke. Instalirajte noviju verziju. Ako to ne uspije, obratite se službi za podršku.";
+"LOCID SignInCredentialsAreNeeded" = "Odjavljeni ste. Trebaju nam podaci o vašem računu da bismo vas ponovno prijavili.";
+"LOCID NeedLyncPassword" = "Za prijavu je potrebna vaša lozinka.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Povezivanje s poslužiteljem trenutno nije moguće. Pokušajte ponovno.";
+"LOCID E_HttpRequestTimeout" = "Prijava nije moguća jer poslužitelj trenutno nije dostupan.";
+"LOCID E_CannotConnectToServer" = "Ne možemo se povezati s poslužiteljem. Pokušavamo ponovno uspostaviti vezu. Ako se problem ne riješi, obratite se timu za podršku.";
+"LOCID E_InvalidServerUrl" = "Naziv poslužitelja nije točan. Provjerite ga pa pokušajte ponovno.";
+"LOCID E_NoValidIp" = "Povezivanje s mrežom nije moguće. Provjerite postavke veze.";
+"LOCID E_MetaDataNotFound" = "Nije moguće uspostaviti vezu s poslužiteljem. Provjerite adresu poslužitelja ili pokušajte ponovno kasnije.";
+"LOCID E_TimeSkewError" = "Sat uređaja nije moguće sinkronizirati s poslužiteljem. Provjerite postavke vremena ili se obratite službi za podršku.";
+"LOCID E_MobilityDisabled" = "Ne možemo vas prijaviti jer niste postavljeni za korištenje Skypea za tvrtke. Obratite se timu za podršku.";
+"LOCID E_TooManyApplications" = "Ne možemo vas prijaviti. Čini se da ste već prijavljeni na previše uređaja.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Isključeno je pozivanje putem službenog telefona. Da biste toj osobi uputili poziv u Skypeu za tvrtke unesite telefonski broj u odjeljku mogućnosti.";
+"LOCID E_UI_OfflineLyncCall" = "Da biste toj osobi uputili poziv u Skypeu za tvrtke morate biti na mreži ili imati aktivnu mobilnu podatkovnu vezu.";
+"LOCID E_EwsError" = "Povezivanje sa sustavom Exchange nije moguće. Pokušajte ponovno kasnije.";
+"LOCID E_EwsBadCredentials" = "Vjerodajnice za prijavu u Exchange nisu valjane. Pokušajte s ažuriranjem vjerodajnica za Exchange ili Skype za tvrtke.";
+"LOCID W_Retrying" = "Nije moguće uspostaviti vezu s poslužiteljem, pokušava se ponovno...";
+"LOCID E_UI_CallViaCellError" = "Provjerite broj pa pokušajte ponovno.";
+"LOCID E_LiveIdPasswordExpired" = "Lozinka je istekla. Ažurirajte je i pokušajte ponovno.";
+"LOCID E_LiveIdInvalidCredentails" = "Ne možemo vas prijaviti. Provjerite podatke o računu pa pokušajte ponovno.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Morate promijeniti lozinku. Ažurirajte je i pokušajte ponovno.";
+"LOCID E_LiveIdPasswordLockedOut" = "Morate promijeniti lozinku. Ažurirajte je i pokušajte ponovno.";
+"LOCID E_LiveIdConnectionFailed" = "Trenutno nije moguće povezivanje s poslužiteljem. Pokušajte ponovno kasnije.";
+"LOCID E_LiveIdServiceUnavailable" = "Trenutno nije moguće povezivanje s poslužiteljem. Pokušajte ponovno kasnije.";
+"LOCID E_LiveIdGenericError" = "Nije moguće prijaviti vas. Pokušajte ponovno.";
+"LOCID E_InvalidLiveIDUserNameError" = "Nije moguće prijaviti vas. Provjerite je li vaše korisničko ime u obliku netko@example.com i je li vaša lozinka valjana.";
+"LOCID E_InvalidSmtpAddress" = "Nije moguće povezati se sa sustavom Exchange. Provjerite podatke o računu pa pokušajte ponovno.";
+"LOCID E_LogoffUnsuccessful" = "Ne možemo vas povezati sa Skypeom za tvrtke jer je prekinuta veza s poslužiteljem.";
+"LOCID E_ClientVersionMismatch" = "Ne možemo vas prijaviti jer vaša tvrtka ili ustanova ne podržava ovu verziju Skypea za tvrtke. Instalirajte Lync 2010 iz trgovine aplikacija za mobilne uređaje.";
+"LOCID E_ClientServerSchemaMisMatch" = "Prijava nije moguća uz ovu verziju programa Skypea za tvrtke. Instalirajte noviju verziju. Ako to ne uspije, obratite se službi za podršku.";
+"LOCID E_ClientVersionCheck" = "Prijava nije moguća uz ovu verziju programa Skype za tvrtke. Instalirajte noviju verziju. Ako to ne uspije, obratite se službi za podršku.";
+"LOCID E_VersionMismatch" = "Prijava nije moguća uz ovu verziju programa Skype za tvrtke. Instalirajte noviju verziju. Ako to ne uspije, obratite se službi za podršku.";
+"LOCID E_AutoDConfigurationError" = "Nije moguće prijaviti vas. Obratite se timu za podršku.";
+"LOCID E_AutoDPasswordExpiredError" = "Lozinka je istekla. Ažurirajte je i pokušajte ponovno.";
+"LOCID E_InvalidProxySettingsError" = "Nije moguće prijaviti vas. Postavke proxyja nisu valjane. Provjerite ih i pokušajte ponovno.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Odjavljeni ste zbog neaktivnosti.";
+"LOCID E_GeneralGoneError" = "Nije moguće prijaviti vas. Obratite se timu za podršku.";
+"LOCID E_InternalServerError" = "Nije moguće prijaviti vas. Obratite se timu za podršku.";
+"LOCID E_TooManyApps" = "Nije moguće prijaviti vas. Čini se da ste već prijavljeni na previše uređaja.";
+"LOCID E_ResponseUnkown" = "Ne možemo se povezati s poslužiteljem. Ako koristite Wi-Fi, otvorite preglednik da biste provjerili je li veza uspostavljena. U suprotnom onemogućite veze putem pristupne točke ili mobilne pristupne točke. Ako se problem ne riješi, obratite se davatelju usluge korištenja mreže.";
+"LOCID E_CannotLoadADFSPage" = "Ne možemo vas prijaviti. Pokušajte ponovno. Ako se problem nastavi pojavljivati, obratite se službi za podršku.";
+"LOCID E_UserNotSipEnabled" = "Niste konfigurirani za povezivanje s poslužiteljem. Obratite se timu za podršku.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Trenutno ne možete uputiti VoIP poziv. Pokušajte pozvati s broja mobitela.";
+"LOCID E_VoicePSTNCallActive" = "Trenutno ne možete uputiti VoIP poziv. Pokušajte pozvati sa službenog broja.";
+"LOCID E_VoicePSTNCallActive - Button" = "Pozovi putem službenog";
+"LOCID E_VideoOverWiFiBlocked" = "Ovo je pozivnica za videopoziv, no niste povezani s Wi-Fi mrežom pa smo povezali samo zvuk.";
+"LOCID E_HistoryNotDisplayed" = "Nije moguće prikazati povijest ovog razgovora.";
+"LOCID E_IMAcceptedElsewhere" = "Razgovor ste prihvatili negdje drugdje. Da biste ga ponovno pokrenuli, pošaljite novu poruku.";
+"LOCID E_MuteFailed" = "Drugi zbog pogreške trenutno ne mogu vidjeti da vam je isključen zvuk.";
+"LOCID E_UnmuteFailed" = "Zbog pogreške vam je i dalje isključen zvuk. Pokušajte ga ponovno uključiti.";
+"LOCID E_DgExpansionGenericFailure" = "Nije moguće dohvatiti članove grupe za pozivnicu. Pokušajte ponovno kasnije.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Grupa je prevelika da biste je pozvali.";
+"LOCID E_DgExpansionNoMembersFailure" = "Grupa ne sadrži pojedinačne članove pa je nije moguće pozvati.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "Korisnik %@ nije dostupan ili je izvan mreže.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "Korisnik %@ ima status Ne ometaj.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "Korisnik %@ ne koristi servis. Provjerite broj.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "Korisnik %@ sudjeluje u drugom pozivu.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "Korisnik %@ nije odgovorio.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "Korisnik %@ ne može odgovoriti na ovaj poziv.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Poziv nije moguće uspostaviti dok ste izvan mreže. Prijavite se u Skype za tvrtke da biste uputili poziv.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Operacija nije uspjela.";
+"LOCID E_VoiceGenericError" = "Poziv nije uspostavljen ili je završio.";
+"LOCID E_VoiceFeatureNotEnabled" = "Onemogućena je značajka pozivanja.";
+"LOCID E_VoiceCheckNumber" = "Provjerite broj pa pokušajte ponovno.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Poziv nije moguće uspostaviti. Pokušajte ponovno kasnije.";
+"LOCID E_VoiceCallUnsuccessful" = "Poziv nije moguće uspostaviti.";
+"LOCID E_VoiceCallTypeNotSupported" = "Poziv nije uspio. Ta vrsta poziva nije podržana.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Ova poruka možda nije poslana korisniku %@ zbog isteka vremena čekanja poslužitelja:";
+
+"LOCID E_SharingAnotherOperation" = "Pokušavamo vam pomoći na drugi način. Pričekajte trenutak pa pokušajte ponovno.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "Korisnik %@ nije primio poruku zbog problema s poslužiteljem:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "Korisnik %@ trenutno je izvan mreže pa nije primio ovu poruku:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "Korisnik %@ ima status Ne ometaj pa nije primio poruku:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Poruku nije moguće poslati jer nije moguće pronaći korisnika %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Poruku nije moguće poslati zbog blokiranog sadržaja:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "Nije moguće uspostaviti vezu s korisnikom %@ radi slanja ove poruke:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Uspostavljanje poziva nije moguće.";
+
+"LOCID E_ConfLocked" = "Uključivanje u sastanak nije moguće jer je zaključan. Obratite se organizatoru.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Postoji nepodudaranje šifriranja između vas i korisnika %@. Obratite se službi za podršku.";
+
+"LOCID E_ConferencingServerError" = "Došlo je do pogreške na poslužitelju. Obratite se službi za podršku.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "Nije moguće uspostaviti vezu s korisnikom %@. Možda je izvan mreže.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "Korisnik %@ ima status Ne ometaj pa nije moguće uspostaviti vezu s njime.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "Korisnik %@ nije odgovorio na pozivnicu.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Nije moguće uspostaviti vezu s korisnikom %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Niste postavljeni za uključivanje u sastanke Skypea.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Ne možete se uključiti u konferenciju dok niste prijavljeni u aplikaciju.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " Korisnik %@ ne može se uključiti u sastanak.";
+"LOCID E_ConferencingEnded" = "Sastanak u koji se pokušavate uključiti nije dostupan.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Nije moguće uspostaviti vezu s korisnikom %@. Pokušajte ponovno kasnije.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "Korisnika %@ nije moguće pronaći. Provjerite adresu.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Nije moguće uspostaviti vezu s korisnikom %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "Korisnik %@ odbio je pozivnicu.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Izlagač je završio sastanak.";
+"LOCID E_ConferencingCallDisconnected" = "Poziv je prekinut.";
+"LOCID ConferenceUnexpectedDisconnect" = "Prekinuta vam je veza s konferencijom.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Poziv nije uspostavljen ili je završio.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Mreža je zauzeta pa nije moguće dodati korisnika %@ u sastanak.";
+
+"LOCID E_ConferencingCannotConnect" = "Poziv nije uspostavljen ili je završio.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Uključivanje u tu vrstu mrežnog sastanka nije moguće.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Nije moguće pozvati korisnika %@ jer je sastanak pun.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Ne možete se uključiti u sastanak kao anonimni sudionik.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Ne možete se uključiti u sastanak zbog pogreške s pozivnicom.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Nemate dozvolu za uključivanje u sastanak.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Nismo vas uspjeli uključiti u sastanak. Pokušajte ponovno.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "U sastanak se ne možete uključiti ako ste izvan tvrtke ili ustanove.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Nije moguće uključiti se u tu vrstu mrežnog sastanka.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Nije moguće uspostaviti vezu s korisnikom %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Nije moguće pokrenuti sastanak jer se pokreće drugi sastanak.";
+"LOCID E_ConferencingEncryptionIssues" = "Sastanak Skypea nije moguće pokrenuti zbog problema sa šifriranjem.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Nemate dovoljne dozvole za uključivanje ili za pozivanje drugog uređaja.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Poziv nije uspostavljen ili je završio.";
+"LOCID E_ConferencingFull" = "Sastanak je pun.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Nemate dozvolu za uključivanje u taj sastanak.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Istekla je pozivnica za korisnika %@.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Sastanak je završio jer su ga domaćini napustili.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Ne možete se uključiti u sastanak jer je mreža zauzeta.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Redak je predmeta predug.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Tvrtke ili ustanova nije omogućila tu značajku sastanka.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Sastanak je završio zbog neaktivnosti.";
+"LOCID E_ConferencingCannotBeFound" = "Mrežni sastanak nije moguće pronaći.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Nemate dozvolu za uključivanje u taj sastanak.";
+"LOCID E_ConferencingUserNotAdmitted" = "Niste primljeni na sastanak.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Uklonjeni ste iz sastanka.";
+"LOCID E_ConfGenericError" = "Nije moguće uključiti vas u sastanak. Pokušajte ponovno.";
+"LOCID E_ConferenceDenied" = "Izlagač vam nije dopustio ulaz.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Već sudjelujete u sastanku. Želite li napustiti taj sastanak i uključiti se u ovaj?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Poslužitelj ne podržava anonimno uključivanje u sastanke putem ovog uređaja.";
+"LOCID ConferenceVideoLock" = "Izlagač je svima zaključao fokus videozapisa na nekoga.";
+"LOCID ConferenceVideoUnlock" = "Izlagač je otključao fokus za videozapise.";
+"LOCID ConferenceVideoSelfLock" = "Svi su fokusirani na vaš videozapis.";
+"LOCID ConferenceVideoSelfUnlock" = "Nitko više nije fokusiran na vaš videozapis.";
+
+"LOCID E_DomainNotTrusted" = "Povezivanje s poslužiteljem nije moguće. Prihvatite upit o preusmjeravanju.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "Korisnik %@ nije primio poruku jer oblik nije dopušten:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Uređaj koji %@ koristi ne može primati poruke.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "Korisnik %@ nije primio poruku jer je prevelika:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "Korisnik %@ nije primio poruku jer pravilnik ograničava isporuku:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Slanje vaše izravne poruke nije moguće – već sudjelujete u razgovoru s korisnikom %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Poruku nije moguće poslati zbog blokiranog sadržaja:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Niste ovlašteni za slanje izravnih poruka korisniku %@. Mi nismo poslali ovo:";
+
+"LOCID E_IMConfGenericError" = "Neki sudionici nisu dobili ovu poruku:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "Korisnik %@ nije dostupan.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Poziv je završio jer se korisnik %@ odjavio.";
+
+"LOCID E_VoiceCallTimeout" = "Poziv nije uspostavljen zbog problema s mrežom. Pokušajte ponovno.";
+"LOCID E_VoiceCallDisconnected" = "Nažalost, poziv je prekinut. Pokušajte ponovno.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Poziv nije uspostavljen ili je završio.";
+"LOCID E_VoiceCallNotCompleted" = "Korisnik %@ ne može primati pozive. Pokušajte poslati izravnu poruku ili poruku e-pošte.";
+"LOCID E_VoiceServerError" = "Poziv nije moguće uspostaviti zbog pogreške poslužitelja. Pokušajte ponovno kasnije.";
+"LOCID E_VoiceCannotConnect" = "Povezivanje s mrežnim sastankom nije moguće.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Nije moguće uspostaviti vezu s korisnikom %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Nije moguće pronaći korisnika %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "Sastanak Skypea nije moguće pokrenuti zbog problema sa šifriranjem.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Osoba koju ste nazvali odgovorila je izravnom porukom.";
+"LOCID E_VoiceCannotCompleteCall" = "Poziv se ne može uspostaviti na pozvanom broju.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Poziv se ne može uspostaviti zbog problema s poslužiteljem.";
+"LOCID E_VoiceServerCannotForwardCall" = "Poslužitelj ne može proslijediti poziv. Pokušajte ponovno kasnije.";
+"LOCID E_VoiceServerDidNotRespond" = "Poslužitelj ne odgovara. Pokušajte ponovno kasnije.";
+"LOCID E_VoiceCannotPlaceCall" = "Nije moguće uspostaviti poziv. Provjerite broj pa pokušajte ponovno.";
+"LOCID E_VoiceNumberNotSupported" = "Tvrtka ili ustanova ne podržava pozivanje tog broja.";
+"LOCID E_IncomingPSTNCall" = "Uspostavljanje poziva nije moguće.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Nije moguće uputiti poziv korisniku %@ jer su pozivi ograničeni pravilnikom.";
+
+"LOCID E_CallFailed" = "Poziv je završio zbog problema s vezom. Pokušajte ponovno.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Veza se prekinula jer ste se uključili putem drugog klijentskog računala.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Uklonjeni ste iz sastanka.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Nije moguće uspostaviti poziv jer je mreža prezauzeta.";
+"LOCID E_VoiceNotSupported" = "%@ ne može prihvaćati audiopozive.";
+"LOCID E_RepliedWIthOtherModality" = "Primatelj je odlučio odgovoriti izravnom porukom.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Povijest razgovora trenutno nije moguće ažurirati i možda nije sinkronizirana.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Povijest razgovora trenutno nije moguće ažurirati i možda nije sinkronizirana.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Ne možemo proslijediti pozive tom kontaktu. Odaberite neki od kontakata u programu Skype za tvrtke kojemu želite prosljeđivati pozive ili odaberite \"Novi broj\" da biste unijeli telefonski broj.";
+
+// Conversation window alerts
+"LOCID TTY On" = "Uključen je TTY";
+"LOCID RemoteHoldSucceeded" = "Udaljeni korisnik stavio vas je na čekanje.";
+"LOCID RemoteUnholdSucceeded" = "Uspjelo je daljinsko prekidanje čekanja";
+"LOCID LocalHoldSucceeded" = "Uspjelo je lokalno čekanje";
+"LOCID LocalUnholdSucceeded" = "Uspjelo je lokalno prekidanje čekanja";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Nastavi poziv";
+"LOCID is recording" = "%@ snima";
+"LOCID Multiple Recording" = "Netko snima";
+"LOCID OnHoldOutOfApp" = "Vaš je poziv programa %@ na čekanju.";
+"LOCID OnStopOutOfApp" = "Vaš je poziv programa %@ prekinut.";
+"LOCID RecordingAlert" = "%@ snima ovaj poziv.";
+"LOCID CoversationP2PIsRecording" = "%@ snima ovaj poziv.";
+"LOCID CoversationP2PIsRecordingNoName" = "Snimanje poziva.";
+"LOCID CoversationConferenceIsRecording" = "Netko snima ovaj sastanak.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Ovo je gotovo puno. Kako se budu dodavali novi razgovori, stari će se uklanjati.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Izlagač je isključio zvuk sudionicima.";
+"LOCID Audience Unlock" = "Izlagač je publici omogućio govor.";
+"LOCID Conference Mute" = "Izlagač je isključio vaš zvuk.";
+"LOCID Conference Unmute" = "Izlagač želi da uključite svoj zvuk.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Izlagač je blokirao slanje videozapisa za sudionike.";
+"LOCID PresenterBlockedVideo - Presenter" = "Izlagač je blokirao slanje videozapisa za sudionike. Ako ste vi izlagač, možete uključiti kameru i omogućiti zajedničko korištenje videoprikaza.";
+"LOCID PresenterBlockedVideo - Unblock" = "Izlagač je deblokirao slanje videozapisa za sudionike.";
+"LOCID VideoLockOnYou" = "Svi su fokusirani na vaš videozapis.";
+"LOCID VideoLock" = "Izlagač je svima zaključao fokus videozapisa na nekoga.";
+"LOCID VideoNotLockOnYou" = "Nitko više nije fokusiran na vaš videozapis.";
+"LOCID VideoSpotlightUnlocked" = "Izlagač je otključao fokus za videozapise.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Natrag";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Pozivanje putem službenog telefona nije dostupno.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "– %1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Nema govorne pošte";
+"LOCID You currently have no voicemail messages" = "Nemate nijednu poruku govorne pošte.";
+"LOCID Audio" = "Zvuk";
+"LOCID Speaker" = "Zvučnik";
+"LOCID Can not play locally" = "Poruku nije moguće reproducirati. Dodirnite Reproduciraj da biste primili i čuli poziv.";
+"LOCID Play Voice Mail" = "Reproduciraj govornu poštu";
+"LOCID PLAY_VOICEMAIL_HINT" = "Reproducira govornu poštu";
+"LOCID Pause Voice Mail" = "Pauziraj govornu poštu";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Pauzira govornu poštu";
+"LOCID Play On Phone Error - No Number" = "Da biste primili povratni poziv, morate u mogućnostima unijeti broj telefona.";
+"LOCID Call Back" = "Povratni poziv";
+"LOCID Delete" = "Izbriši";
+"LOCID More voicemails iPad" = "Da biste poslušali starije poruke govorne pošte, dodirnite ikonu govorne pošte.";
+"LOCID More voicemails" = "Da biste poslušali starije poruke govorne pošte, dodirnite i držite tipku 1 na telefonskoj tipkovnici ili idite u Outlook.";
+"LOCID More voicemails No keypad" = "Prijeđite u Outlook da biste poslušali starije poruke govorne pošte.";
+"LOCID Can not play IRMed" = "Poruka sadrži upravljana prava. Dodirnite Reproduciraj da biste primili i čuli poziv.";
+"LOCID Lync Call" = "Poziv u Skypeu za tvrtke";
+"LOCID Can't play on phone" = "Ne možemo reproducirati poruku. Provjerite mrežnu vezu i pokušajte ponovno kasnije.";
+"LOCID Yes" = "Da";
+"LOCID No" = "Ne";
+"LOCID VMCallerID" = "Govorna pošta";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Reprodukcija govorne pošte normalnom brzinom";
+"LOCID VM Playback -2X Acc" = "Reprodukcija govorne pošte upola sporije";
+"LOCID VM Playback 2X Acc" = "Reprodukcija govorne pošte dva puta brže";
+"LOCID Voicemail From" = "Glasovna pošta korisnika %@";
+"LOCID No Voicemails Placeholder" = "Vaše će se poruke govorne pošte prikazivati ovdje";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Odbaci";
+"LOCID Accept" = "Prihvati";
+"LOCID Not yet implemented feature" = "Ta značajka još nije implementirana. Pokušajte ponovno u sljedećem izdanju.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Imate jednu novu poruku govorne pošte";
+"LOCID Missed VMs" = "Imate sljedeći broj novih poruka govorne pošte: %d";
+"LOCID Missed Collab Out of App" = "Propuštena sesija suradnje s korisnikom %@";
+"LOCID Missed Video Call Out of App" = "Propušten videopoziv od korisnika %@";
+"LOCID Missed Audio Call Out of App" = "Propušten poziv od korisnika %@";
+"LOCID Missed Message Out of App" = "Propuštena izravna poruka od korisnika %@";
+"LOCID Missed Audio Conf Out of App" = "Propušten konferencijski poziv od korisnika %@";
+
+"LOCID Audio Call Out of App" = "Poziv korisnika %@";
+"LOCID Conference Call Out of App" = "Konferencijski poziv korisnika %@";
+"LOCID Dismiss Call" = "Zanemari";
+"LOCID Answer Call" = "Prihvati";
+"LOCID Answer Call with Video" = "Videopoziv";
+"LOCID Audio Call" = "Poziv";
+"LOCID Conference Call" = "Konferencijski poziv";
+"LOCID Unknown Caller" = "Nepoznati pozivatelj";
+
+"LOCID Video conf accessibility" = "Videokonferencija korisnika %@";
+"LOCID Video accessibility" = "Videopoziv korisnika %@";
+"LOCID Audio conf accessibility" = "Konferencijski poziv korisnika %@";
+"LOCID Audio accessibility" = "Poziv korisnika %@";
+
+"LOCID Video Call Out of App" = "Videopoziv korisnika %@";
+"LOCID Video Conference Call Out of App" = "Videokonferencija korisnika %@";
+"LOCID Video Call" = "Videopoziv";
+"LOCID Video Conference Call" = "Videokonferencija";
+"LOCID Video Escalation Name" = "%@ zajednički koristi videozapis";
+"LOCID Video Escalation" = "zajednički koristi videozapis";
+"LOCID Video Escalation Conf" = "Netko zajednički koristi videozapis";
+"LOCID VideoInvitationRejected" = "Videokomponenta poziva nije prihvaćena. Poziv će se nastaviti uz samo zvuk.";
+"LOCID E_VideoDecline" = "%@ nije prihvatio vaš videoprikaz.";
+"LOCID E_VideoGeneric" = "Pokretanje videozapisa nije moguće. Pokušajte ponovno.";
+"LOCID E_VideoNotStarted" = "Pokretanje videozapisa nije moguće.";
+"LOCID E_VideoNotSupported" = "%@ ne može prihvaćati videopozive.";
+"LOCID E_VideoNotAccepted" = "Korisnik %@ nije prihvatio dio poziva s videozapisom. Poziv će se nastaviti samo uz zvuk.";
+
+"LOCID E_VoiceTransferGenericError" = "Poziv se ne može prenijeti.";
+"LOCID E_VoiceTransferParticipantError" = "Poziv se ne može prenijeti jer nije moguće uspostaviti vezu s primateljem.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "isključi zvuk";
+"LOCID Mute Capitalized" = "Isključi zvuk";
+"LOCID Unmute" = "Uključi zvuk";
+"LOCID keypad" = "telefonska tipkovnica";
+"LOCID add call" = "dodaj poziv";
+"LOCID hold" = "zadrži";
+"LOCID End" = "Završi";
+"LOCID Hide Keypad" = "Sakrij telefonsku tipkovnicu";
+"LOCID Call Lync" = "Poziv u Skypeu za tvrtke";
+"LOCID Call Work" = "Službeni broj: %@";
+"LOCID Call Mobile" = "Mobitel: %@";
+"LOCID Call Home" = "Broj kod kuće: %@";
+"LOCID Call Other" = "Drugi broj: %@";
+"LOCID Decline" = "Odbij";
+"LOCID Video Menu" = "Izbornik videozapisa";
+"LOCID Hold Call" = "Stavi poziv na čekanje";
+"LOCID Hang Up" = "Prekid veze";
+"LOCID Dial Pad Only" = "Tipkovnica";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "Broj sudionika: %u – %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u sudionik – %@";
+"LOCID Call Status Connecting" = "Povezivanje...";
+"LOCID Call Status Connecting Remote" = "Povezivanje...";
+"LOCID Call Status Connected" = "Povezan";
+"LOCID Call Status On Hold - Passive" = "Zadrži";
+"LOCID Call Status On Hold" = "Na čekanju";
+"LOCID Call Status Ended" = "Poziv je završio";
+"LOCID Call Status Transfering" = "Prenošenje";
+"LOCID On behalf of" = "U ime korisnika %@";
+"LOCID Call for" = "Poziv za korisnika %@";
+"LOCID Call for - Astana" = "Poziv za korisnika %@";
+"LOCID Transferred by" = "Prenio korisnik %@";
+"LOCID Forwarded by" = "Proslijedio korisnik %@";
+"LOCID Private call" = "Privatni poziv";
+"LOCID Also ringing" = "Zvoni i korisniku %@";
+"LOCID Also ringing delegates" = "Zvoni i vašim ovlaštenicima";
+"LOCID Will ring" = "Zvonit će korisniku %@";
+"LOCID Also ringing team call" = "Zvoni i vašem timu";
+"LOCID The recipient" = "Primatelj";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Inicijalizacija ...";
+"LOCID DataCollab Connecting" = "Povezivanje ...";
+"LOCID DataCollab Loading" = "Učitavanje...";
+"LOCID DataCollab No Content" = "Izlagači su prekinuli zajedničko korištenje sadržaja.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Značajka zajedničkog korištenja podataka nije dostupna zbog pogreške u vezi s poslužiteljem.";
+"LOCID DisconnectedOnConnectivityIssue" = "Neke značajke prezentacije nisu dostupne zbog problema s vezom s poslužiteljem.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Veza je prekinuta jer ste se uključili s drugog klijentskog računala.";
+"LOCID DisconnectedOnNetworkFailure" = "Ne možete vidjeti prezentaciju zbog problema s mrežom.";
+"LOCID DataCollab Known UnSupported" = "Izlagač koristi značajku koju ova verzija Skypea za tvrtke ne podržava.";
+"LOCID DataCollab Generic UnSupported" = "Izlagač koristi značajku koju ova verzija Skypea za tvrtke ne podržava ili je povezan sa starijim poslužiteljem.";
+"LOCID DataCollab ContentPresenter" = "Izlagač: %@";
+"LOCID DataCollab NoPresenter" = "Nitko ne izlaže";
+"LOCID Collab Unsupported PPTContent" = "Nažalost, ne možemo reproducirati medijski sadržaj iz prezentacije.";
+"LOCID Retry" = "Pokušaj ponovo";
+"LOCID DataCollab Generic PPT Error" = "Neke značajke prezentacije nisu dostupne zbog problema s vezom s poslužiteljem.";
+"LOCID Start Viewing" = "Započni prikaz";
+"LOCID Stop Viewing" = "Prekini prikaz";
+"LOCID Collab Escalation" = "%@ želi započeti prezentaciju";
+"LOCID PowerPoint content Accessibility" = "Sadržaj za PowerPoint";
+
+"LOCID SyncPresenterButton" = "Sinkroniziraj s prikazom izlagača";
+"LOCID NavigateBackButton" = "Pomak unatrag za jedan slajd";
+"LOCID NavigateForwardButton" = "Pomak prema naprijed za jedan slajd";
+"LOCID SlideNumber" = "%1$d od %2$d";
+"LOCID SlideNumber Accessibility" = "Slajd %1$d od %2$d";
+
+"LOCID E_SharingDisabled" = "Prezentacija je onemogućena.";
+"LOCID E_SharingNetworkIssues" = "Prezentacija nije moguća zbog problema s mrežom. Pokušajte ponovno kasnije.";
+"LOCID E_SharingNotSupported" = "Za ovaj kontakt prezentacija nije podržana.";
+"LOCID E_SharingTimeout" = "Prezentacija nije započela jer je poslužitelj prezauzet. Pokušajte ponovno kasnije.";
+"LOCID SharingAnotherType" = "Ova je prezentacija završila jer je započela druga prezentacija.";
+"LOCID E_GetMediaSdpFailed" = "Trenutno nije moguće povezivanje s radnom površinom ili programskom prezentacijom.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Nećete vidjeti sadržaj prezentacije jer niste povezani s Wi-Fi mrežom.";
+"LOCID 3G user requiring Wi-Fi" = "Ne možete uputiti poziv u Skypeu za tvrtke jer niste povezani s Wi-Fi mrežom.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Prezentacija je prevelika da bi se vidjela na vašem uređaju.";
+"LOCID E_CollabDisconnectedNetworkError" = "Prekinuta vam je veza s prezentacijom uslijed problema s mrežom.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Veza je prekinuta jer ste se uključili s drugog klijentskog računala.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Učitava se zajedničko korištenje sadržaja.";
+"LOCID AppSharing Shared Content" = "Zajednički sadržaji.";
+"LOCID AppSharing Desktop" = "Radna površina";
+"LOCID AppSharing Application" = "Aplikacija";
+"LOCID AppSharing SharingPaused" = "Zajedničko korištenje privremeno je zaustavljeno."; // Not used
+"LOCID AppSharing SharingIdle" = "Zajedničko je korištenje neaktivno."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Svi su resursi minimizirani."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "Korisnik %@ pokušao je pokrenuti prezentaciju na zaslonu, ali ova verzija aplikacije to podržava samo u konferencijskim pozivima i sastancima programa Skype.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Započni razmjenu izravnih poruka";
+"LOCID send IM" = "Pošalji";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Završi razgovor";
+"LOCID View Contact Card" = "Pogledajte karticu kontakta";
+"LOCID Invite Others" = "Pozovite ostale";
+"LOCID Send Location action" = "Pošalji mjesto";
+"LOCID Send as Email action" = "Pošalji kao poruku e-pošte";
+"LOCID View Participants" = "Pogledajte sudionike";
+"LOCID Rejoin" = "Ponovno se uključi";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Dvostruko dodirnite da biste proširili";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Loša kvaliteta poziva";
+"LOCID ACI Call Muted" = "Zvuk je trenutno isključen, dvostruko dodirnite da biste ga uključili";
+"LOCID ACI Call Unmuted" = "Zvuk je trenutno uključen, dvostruko dodirnite da biste ga isključili";
+
+/* Search results */
+"LOCID No Results" = "Nema rezultata";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "Aplikacija %@ neočekivano se zatvorila";
+"LOCID Dont Send" = "Nemoj slati";
+"LOCID Send Report" = "Pošalji izvješće";
+"LOCID Would you like to send a report so we can fix the problem" = "Želite li poslati izvješće da bismo mogli riješiti problem?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype za tvrtke";
+
+// Timeline
+"LOCID Timeline Home" = "početna";
+"LOCID Timeline Contacts" = "kontakti";
+"LOCID Timeline Meetings" = "sastanci";
+"LOCID Timeline Search Placeholder" = "traži kontakte";
+"LOCID Timeline Recent" = "nedavno";
+"LOCID Timeline Upcoming" = "nadolazeće";
+"LOCID Timeline TableView" = "vremenska traka";
+"LOCID Timeline Meeting Time All Day" = "cijeli dan";
+"LOCID Timeline Search Skype Contacts" = "kontakti";
+"LOCID Timeline Search Phone Contacts" = "telefonski kontakti";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "kontakti";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "tipkovnica i govorna pošta";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "tipkovnica, %ld nova poruka govorne pošte";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "tipkovnica, %ld novih poruka govorne pošte";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "sastanci";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "početna";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "moji podaci";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, nove poruke, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "poziv";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "videopoziv";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "označi kao pročitano";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "izbriši";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "uključite se u sastanak";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "odbaci";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "prihvati";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "dostupan";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "zauzet";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "odsutan";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "izvan mreže";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "ne ometaj";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "prisutnost nepoznata";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "očisti tekst";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "traži kontakte";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "videopoziv";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "poziv";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Uključite se u sastanak";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Prazan razgovor";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Slika profila";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld nova poruka govorne pošte";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld novih poruka govorne pošte";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Izbriši";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Anđeo";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Ljutnja";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Bandit";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Nogometaš";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Pivo";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Smijem se";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Bicikl";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Crvenim se od srama";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Moj naklon";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Slomljeno srce";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Torta";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Poziv";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Fotoaparat";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Možeš li razgovarati?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Automobil";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Novac";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Mačka";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Plješćem";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Kava";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Računalo";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Povjerljivo";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Cool sam";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Plačem";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Ples";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Vrag";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Pas";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Ma nemoj!";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Piće";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Dosadno mi je";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Zavidan/na sam";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Zločest/a sam";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Ooooo neeee";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Držim palčeve";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Cvijet";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Igre";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Poklon";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Hihoćem se";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Sretno";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Moram ići";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Rukovanje";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Sretan/na sam";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Udaranje glavom o zid";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Srce";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Vjeverica";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Mahanje";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Daj pet";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Pričekaj";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Zagrljaj";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Ideja";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Zaljubljen/a sam";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Otok";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Nisam ja!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Šaljem poljubac";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Ništa ne čujem";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Nađimo se";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Nikom ni riječi";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Imate poštu";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Šminkam se";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Čovjek";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Film";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Mišići";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Glazba";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Štreber";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Nindža";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Ne";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Kimam glavom";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Zabava";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telefon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Avion";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Povraćanje";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Udarac";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Kiša";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Duga";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Valjam se po podu od smijeha";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Tužan/na sam";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Odmahujem glavom";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Pospan/a sam";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Osmjehujem se";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Zlobni smiješak";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Puž";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Bez teksta";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Zvjezdica";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Stop";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Sunce";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Iznenađen/a sam";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Psovanje";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Preznojavanje";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Razgovor";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Pričaj nekom drugom";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Razmišljam";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Vrijeme";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Previše podataka";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Smješko s isplaženim jezikom";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Pustinja";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Kišobran";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Čekaj";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Čekanje";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Rad od kuće";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Što se događa?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Laknulo mi je";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Namigujem";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Žena";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Čudim se";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Zabrinuta/a sam";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Zijevanje";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Da";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Ovdje upišite poruku";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Pozdravite osobu %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Pozdravite grupu";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Vaši će se razgovori prikazivati ovdje";
+"CHAT_FAILED_TO_SEND" = "Poruku nismo mogli poslati: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Prikaži čavrljanje";
+"LOCID CONVERSATION_HIDE_CHAT" = "Sakrij čavrljanje";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Prikaži rubni stupac";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Sakrij rubni stupac";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "emotikoni";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "d";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "d";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "h";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "h";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "min";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "min";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "s";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "s";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "Nove obavijesti (%d)";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Jedna nova obavijest";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Nema novih obavijesti";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "konferencija je završila";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "broj sudionika: %u";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "odbaci";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "otvori";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "kopiraj";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "dodaj na Popis za čitanje";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "otvori u pregledniku Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "natrag";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "naprijed";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "U redu";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "odustani";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ upisuje tekst...";
+"CHATTYPING_TWOUSERS" = "%@ i %@ upisuju tekst...";
+"CHATTYPING_THREEUSERS" = "%@, %@ i još jedna osoba upisuju tekst...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ i još %d osobe/a upisuju tekst...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "pošalji e-poštu";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "pogledajte karticu kontakta";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "sudionici";
+"DROPDOWN_ADD_PARTICIPANTS" = "dodaj sudionike";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Dolazni";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Odlazni";
+
+"LOCID Meetings Page Title" = "Sastanci";
+"LOCID No Meetings Placeholder" = "Vaši će se sastanci prikazivati ovdje";
+"LOCID Meetings Today" = "Danas";
+"LOCID Meetings Tomorrow" = "Sutra";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Postavite osobnu napomenu";
+
+"PARTICIPANTS_VIEW_TITLE" = "Sudionici";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Čekaju u predvorju";
+"PARTICIPANTS_VIEW_ON_CALL" = "Sudjeluju u pozivu";
+
+"MEETING_VIEW_TITLE" = "Sastanak";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Uključite se u sastanak";
+"MEETING_VIEW_ORGANISER_LABEL" = "Organizator";
+"MEETING_VIEW_INVITEES_LABEL" = "Pozvane osobe";
+"MEETING_VIEW_NOTES_LABEL" = "Bilješke";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Click to join \"%@\" using Skype for Business:"; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Povezivanje...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Odaberite emotikon";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Pošalji poruku";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Poziv je završio";
+"INVITE_PARTICIPANTS" = "Pozovi sudionike";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Natrag";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Adresar";
+"LOCID_PHONE_NUMBER" = "Telefonski broj";
+"LOCID_MORE" = "Više";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Prebaci kameru";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Prikaži profil kontakta";
+"CHAT_OPTION_PARTICIPANTS" = "Sudionici";
+"LOCID_CONTACTS_TABLE_VIEW" = "Prikaz kontakata";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Dolazni poziv";
+"LOCID_MEETINGS_TABLE_VIEW" = "Prikaz sastanaka";

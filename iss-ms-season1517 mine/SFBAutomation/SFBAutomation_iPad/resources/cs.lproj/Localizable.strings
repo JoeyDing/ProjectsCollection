@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Odpovědět";
+"JOIN" = "Přijmout";
+"VIEW" = "Zobrazit";
+"IGNORE" = "Ignorovat";
+"LAUNCH" = "Spustit";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "vás zve do konverzace.";
+"NEW_IM_BURNT_TOAST" = "Zmeškaná konverzace s: %@";
+"SIGN_IN" = "Přihlásit se";
+"SIGN_OUT" = "Byli jste odhlášeni z důvodu nečinnosti.";
+"MWI" = "Nové zprávy hlasové pošty: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Přihlašovací adresa";
+"LOCID Password" = "Heslo";
+"LOCID User Name" = "Uživatel. jméno";
+"LOCID Domain" = "Doména";
+"LOCID Auto-Detect Server" = "Autodetekce serveru";
+"LOCID Sign-in As" = "Přihlásit se jako";
+"LOCID User Name Footer" = "Uživatelé Online Skypu pro firmy: uživatelské_jméno@domena.com\nVšichni ostatní uživatelé: doména\\uživatelské_jméno";
+"LOCID Hide Details" = "Skrýt upřesňující možnosti";
+"LOCID More Details" = "Zobrazit upřesňující možnosti";
+"LOCID Save Password" = "Uložit moje heslo";
+
+/* generic share button */
+"LOCID share" = "sdílet";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Adresa pro interní vyhledávání";
+"LOCID External Server Address" = "Adresa pro externí vyhledávání";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Pomozte nám zlepšovat Skype pro firmy tím, že nám budete zasílat informace o chybách přihlášení.";
+"LOCID Sign In BRB Reason 2" = "Můžeme shromažďovat nějaké informace o těchto a budoucích chybách přihlášení? Toto nastavení můžete později kdykoli změnit v dialogovém okně Možnosti.";
+"LOCID BRBDonotshow" = "Tento dialog už nezobrazovat";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Přihlásit se";
+"LOCID Sign Out" = "Odhlásit se";
+"LOCID Cancel Sign in" = "Zrušit přihlášení";
+"LOCID Lync Is Signing In" = "Skype pro firmy se přihlašuje";
+"LOCID Lync Is Signing Out" = "Skype pro firmy se odhlašuje";
+
+// Help
+"LOCID signin help" = "Nápověda k přihlášení";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Můj stav";
+"LOCID Contacts" = "Kontakty";
+"LOCID Conversations" = "Chaty";
+"LOCID Meetings" = "Schůzky";
+"LOCID Phone" = "Telefon";
+"LOCID Signing In" = "Přihlašuji...";
+"LOCID Signed Out" = "Odhlášen";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Co je dnes nového?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Osobní zpráva";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Zadejte osobní zprávu.";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Upravte poklepáním.";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Neznámý";
+"LOCID Available" = "Online";
+"LOCID Busy" = "Zaneprázdněn(a)";
+"LOCID Busy Inactive" = "Zaneprázdněn(a), neaktivní";
+"LOCID Do Not Disturb" = "Nerušit";
+"LOCID Be Right Back" = "Přijdu hned";
+"LOCID Presence unknown" = "Neznámý stav";
+"LOCID Off Work" = "Mimo kancelář";
+"LOCID Appear Away" = "Zobrazit jako pryč";
+"LOCID Away" = "Pryč";
+"LOCID Inactive" = "Neaktiv.";
+"LOCID Reset Status" = "Obnovit stav";
+"LOCID Offline" = "Offline";
+"LOCID Blocked" = "Blokované";
+"LOCID Sign In As Header" = "Vyberte stav, který chcete zobrazit:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Telefonuje";
+"LOCID In a Conference Call" = "V konferenčním hovoru";
+"LOCID Presenting" = "Na prezentaci";
+"LOCID In a Meeting" = "Na schůzce";
+"LOCID Out of Office" = "Mimo kancelář";
+"LOCID Urgent Interruptions Only" = "Pouze naléhavé zprávy";
+"LOCID Out To Lunch" = "Na obědě";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype pro firmy nemůže zobrazit vaše kontakty iPhonu. Tuto chybu můžete opravit v nastavení iPhonu.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype pro firmy nemůže zobrazit vaše kontakty iPadu. Tuto chybu můžete opravit v nastavení iPadu.";
+"LOCID Other Contacts" = "Ostatní kontakty";
+"LOCID Pinned Contacts" = "Oblíbené";
+"LOCID Retrieving Members" = "Pracuji...";
+"LOCID Cannot connect Try again" = "Momentálně nemůžeme načíst členy skupiny. Zkuste to znovu později.";
+"LOCID Group is too large to display" = "Skupina se nedá zobrazit, protože je příliš velká.";
+"LOCID No members" = "Žádní členové";
+"LOCID Searching the company directory" = "Hledám v podnikovém adresáři...";
+"LOCID Please signin to search" = "Chcete-li hledat v podnikovém adresáři, je třeba se přihlásit.";
+"LOCID Too many results" = "Příliš mnoho výsledků. Zkuste hledání zúžit.";
+"LOCID Unable to connect to the server" = "Momentálně se nemůžeme připojit k serveru. Zkuste to znovu později.";
+"LOCID E_SearchTooLong" = "Nenašli jsme žádné shody. Vyzkoušejte kratší vyhledávací řetězec.";
+"LOCID No Name" = "Žádné jméno";
+"LOCID idle day" = "%d den";
+"LOCID idle days" = "%d dny/dnů";
+"LOCID idle hour" = "%d h";
+"LOCID idle hours" = "%d h";
+"LOCID idle minutes" = "%d min.";
+"LOCID inactive idle day" = "%d den nečinnosti";
+"LOCID inactive idle days" = "Nečinný: %d dnů";
+"LOCID inactive idle hour" = "Nečinný: %d h";
+"LOCID inactive idle hours" = "Nečinný: %d h";
+"LOCID inactive idle minutes" = "Nečinný: %d";
+"LOCID DG does not exist" = "Distribuční skupina už neexistuje.";
+"LOCID Access to DG denied" = "Přístup do distribuční skupiny byl odepřen.";
+"LOCID No Contacts Placeholder" = "Vaše kontakty se zobrazí tady.";
+"LOCID No Contacts" = "Žádné kontakty";
+"LOCID You currently have no contacts" = "Aktuálně nemáte žádné kontakty.";
+"LOCID Retrieving Contacts..." = "Načítání kontaktů...";
+"LOCID Expanded" = "Skupina %@, rozbalená";
+"LOCID Collapsed" = "Skupina %@, sbalená";
+"LOCID Group card- acc" = "Karta skupiny";
+"LOCID Open group card - acc" = "Klepnutím kartu skupiny otevřete.";
+
+/* Contact Card*/
+"LOCID Loading name" = "Načítá se jméno...";
+"LOCID Details" = "Karta";
+"LOCID Work" = "Práce";
+"LOCID Home" = "Domů";
+"LOCID Mobile" = "Mobil";
+"LOCID Other" = "Další";
+"LOCID other lowercase" = "další";
+"LOCID Office" = "Kancelář";
+"LOCID Company" = "Společnost";
+"LOCID Department" = "Oddělení";
+"LOCID Send Text Message" = "Odeslat textovou zprávu";
+"LOCID IM" = "zpráva";
+"LOCID E-Mail" = "E-mail";
+"LOCID unknown lowercase" = "neznámé";
+"LOCID Location lowercase" = "poloha";
+"LOCID Calendar" = "kalendář";
+"LOCID Link" = "odkaz";
+"LOCID Disabled" = "%@, zakázáno"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Poznámka";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "ČLENOVÉ"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Pozvat";
+"LOCID Transfer" = "Přepojit";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype pro firmy se pokouší vás přesměrovat na:";
+"LOCID certIssuedBy" = "Vystavitel:";
+"LOCID certSubject" = "Předmět:";
+"LOCID certExpires" = "Platnost vyprší:";
+"LOCID certSignature" = "Algoritmus podpisu:";
+"LOCID certDonotshow" = "Již příště nezobrazovat";
+"LOCID Continue" = "Pokračovat";
+"LOCID certNone" = "Bez šifrování";
+"LOCID certRSA" = "Šifrování RSA";
+"LOCID certDSA" = "Šifrování DSA";
+"LOCID certDH" = "Šifrování DH";
+"LOCID certEC" = "Šifrování EC";
+"LOCID certHMAC" = "Šifrování HMAC";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Konverzace";
+"LOCID Chats - Phone Call" = "Telefonní hovor";
+"LOCID Chats - Video Call" = "Videohovor";
+"LOCID Chats - Meeting" = "Schůzka";
+"LOCID Chats - Missed Call" = "Zmeškaný hovor";
+"LOCID Chats - Missed Video Call" = "Zmeškaný videohovor";
+"LOCID Chats - Current Call" = "Aktuální hovor";
+"LOCID Chats - Current Call With Duration" = "Aktuální hovor, %@";
+"LOCID Phone Status - Connecting" = "Připojování...";
+"LOCID Phone Status - On Hold" = "Přidržený hovor";
+"LOCID Phone Status - Transferring" = "Přenáším";
+"LOCID Transferring to" = "Přepojování na: %@...";
+"LOCID Chats Full" = "Pro vaši informaci: Tenhle seznam je plný. Při přidání nových konverzací se nejstarší konverzace odstraní.";
+"LOCID Close Conversation" = "Odstranit konverzaci";
+"LOCID View Participants List" = "Zobrazit seznam účastníků";
+"LOCID Call Contact" = "Volat: %@";
+"LOCID Video Call Contact" = "Videohovor";
+"LOCID Video Conference Contact" = "Videokonference";
+"LOCID Edit" = "Upravit";
+"LOCID Deselect All" = "Zrušit výběr";
+"LOCID Select All" = "Vybrat vše";
+"LOCID Me" = "Já: %@";
+"LOCID Missed" = "Zmeškané: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Skupinová konverzace";
+"LOCID Tap To Enter Text" = "Klepněte a pište.";
+"LOCID No Conversations" = "Žádné konverzace";
+"LOCID No Conversations Hint" = "Aktuálně nemáte žádné konverzace.";
+"LOCID Delete Count" = "Odstranit (%d)";
+"LOCID Delete None" = "Odstranit";
+"LOCID Escalating audio conference" = "Spouští se konferenční hovor...";
+"LOCID Escalating video conference" = "Spouští se videokonference...";
+"LOCID No Participants" = "Žádní účastníci";
+"LOCID No Other Participants" = "Žádní další účastníci";
+"LOCID One Participant" = "1 účastník";
+"LOCID Some Participants" = "Účastníci: %d";
+"LOCID Max Participants" = "Účastníci: více než %d";
+"LOCID Large Meeting" = "Velká schůzka";
+"LOCID Toast No Invite" = "vás zve do konverzace.";
+"LOCID Participant Join" = "%@ se připojil(a) ke schůzce.";
+"LOCID Participant Leave" = "%@ opustil(a) schůzku.";
+"LOCID Participant Join Failure" = "%@ se nemohl(a) připojit ke schůzce.";
+"LOCID Large Conference" = "Velká schůzka";
+"LOCID Large Conference Detail" = "Seznam účastníků není pro velké schůzky dostupný.";
+"LOCID No Participants Detail" = "V této konverzaci nejsou žádní účastníci.";
+"LOCID cannotSend" = "Nemohli jsme odeslat vaši zprávu:";
+"LOCID Missed Conversation" = "Zmeškaná konverzace";
+"LOCID Send as Email" = "Odeslat jako e-mail";
+"LOCID Email Subject" = "Konverzace aplikace %1$@ s účastníky: %2$@";
+"LOCID Anonymous" = "Anonymní";
+"LOCID Duration" = "Trvání:";
+"LOCID Switch Camera" = "Přepnout kameru";
+"LOCID Swap PIP" = "Přepnout obrázek v obrázku";
+"LOCID Leave Video" = "Ukončit video";
+"LOCID Start My Video" = "Spustit moje video";
+"LOCID Stop My Video" = "Zastavit moje video";
+"LOCID End Video" = "Ukončit video";
+"LOCID LargeMtgActiveSpeakerMissing" = "Informace o mluvčím nejsou u velkých schůzek dostupné.";
+"LOCID Swap Preview" = "Přepnout náhled";
+"LOCID Speaker On" = "Reproduktor zapnutý";
+"LOCID Speaker Off" = "Reproduktor vypnutý";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Video je zapnuté.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Poklepáním video vypnete.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Video je vypnuté.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Poklepáním video zapnete.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Hlasitý telefon je zapnutý.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Poklepáním hlasitý telefon vypnete.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Hlasitý telefon je vypnutý.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Poklepáním hlasitý telefon zapnete.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Ztlumený hovor";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Poklepáním ztlumení zrušíte.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Neztlumený hovor";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Poklepáním ztlumíte.";
+
+"LOCID Instant Messaging" = "Zasílání rychlých zpráv";
+"LOCID Voice" = "Hlas";
+"LOCID Collaboration" = "Spolupráce";
+"LOCID Participants" = "Účastníci";
+"LOCID Full Screen" = "Celá obrazovka";
+"LOCID Exit Full Screen" = "Ukončit režim na celé obrazovce";
+"LOCID Local Participant Alone in Conference Msg" = "Zdá se, že jste jediný účastník hovoru.";
+"LOCID 1 or more participants" = "1 nebo více účastníků";
+"LOCID Call Started" = "Hovor zahájen - %@";
+"LOCID Call Ended Missed" = "Hovor ukončen - %@ [Zmeškán]";
+"LOCID Call Ended Duration" = "Hovor ukončen - %@ [Trvání: %@]";
+"LOCID ConferenceEndedRejoin" = "Jste odpojení od schůzky. Klepnutím na možnost dole se můžete zase připojit.";
+"LOCID ConferenceEndedContinue" = "Pokud budete chtít tuto konverzaci začít znovu, pošle se všem lidem, kteří na ní byli, nová pozvánka.";
+"LOCID IM P2P Toast Voiceover" = "%@ vás zve do konverzace. Pozvání přijmete poklepáním.";
+"LOCID IM Conf Toast Voiceover" = "%@ vás zve do skupinové konverzace. Pozvání přijmete poklepáním.";
+"LOCID Video is Locked on you" = "Video je uzamčené u vás.";
+
+"LOCID SFB Call Started" = "Začátek hovoru";
+"LOCID SFB Call Ended" = "Konec hovoru";
+"LOCID SFB Call Ended Duration" = "Konec hovoru, %@";
+
+/* Roster*/
+"LOCID Presenters" = "PREZENTUJÍCÍ (%d)";
+"LOCID Attendees" = "ÚČASTNÍCI (%d)";
+"LOCID In Lobby" = "PŘEDSÁLÍ (%d)";
+"LOCID Guest" = "Host";
+"LOCID Remove" = "Odebrat";
+"LOCID E_RemoveFailed" = "Nemohli jsme odebrat účastníka.";
+"LOCID E_AddFailed" = "Nemohli jsme přidat účastníka.";
+
+/*Lobby*/
+"LOCID Admit all" = "Povolit všem";
+"LOCID Deny all" = "Odepřít všem";
+"LOCID Admit" = "Povolit";
+"LOCID Deny" = "Odepřít";
+"LOCID See Lobby" = "Zobrazit předsálí";
+"LOCID Conference In the Lobby" = "V předsálí čekají účastníci.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Nastavit jako prezentujícího";
+"LOCID Demote" = "Nastavit jako účastníka";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Mobil";
+"LOCID Voice and IM Unavailable" = "Bez hlas. a rychlých zpráv";
+"LOCID Voice Only" = "Jen hlas. hovor";
+"LOCID Voice and Video Only" = "Jen hlas a video";
+"LOCID IM Only" = "Jen rychlé zprávy";
+"LOCID No Voice" = "Bez hlas. hovoru";
+"LOCID Video capable" = "S možností videa";
+"LOCID No IM" = "Bez rychl. zpráv";
+"LOCID Mobile Cap" = "Mobil";
+"LOCID txt-txt" = "%1$@ – %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ – %2$@ – %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Klávesnice";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "";
+"LOCID Dialpad" = "Číselník";
+"LOCID Dialpad STAR Key" = "Hvězdička";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Křížek"; // Used for accessibility
+"LOCID Delete Key" = "Odstranit";   // Used for accessibility
+"LOCID Emergency number" = "Číslo tísňového volání"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "skrýt";
+"LOCID Dialpad Search Recent Calls" = "nedávné hovory";
+"LOCID Dialpad Search Native Contacts" = "telefonní kontakty";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Problém s kontakty";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Byl problém s přístupem k telefonním číslům z vašich kontaktů. Zkuste ho vyřešit tak, že si v nastaveních znovu synchronizujete e-mailové účty.";
+
+/* My Status Tab */
+"LOCID Options" = "Nastavení";
+"LOCID Send Feedback" = "Odeslat názor";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ až %2$@";
+"LOCID DateOfMeeting Format" = "%1$@, %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Od %2$@ %3$@, %1$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "do %2$@, %1$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "%1$@ až %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Žádné schůzky";
+"LOCID All" = "Vše";
+"LOCID No Meetings Scheduled" = "Nemáte naplánované žádné schůzky.";
+"LOCID None" = "Nic";
+"LOCID Organizer" = "Organizátor";
+"LOCID Invitees" = "POZVANÍ";
+"LOCID Notes" = "POZNÁMKY";
+"LOCID Join" = "Připojit se";
+"LOCID Updated DATE TIME" = "Aktualizováno %1$@ %2$@";
+"LOCID Online" = "Online";
+"LOCID Tentative" = "Nezávazně";
+"LOCID Event" = "Událost";
+"LOCID Updating..." = "Aktualizuji...";
+"LOCID Tentative Voiceover" = "%@, nezávazně";
+"LOCID Pull to refresh" = "Aktualizovat tažením";
+"LOCID Today" = "DNES"; // CAPS
+"LOCID Tomorrow" = "ZÍTRA"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Pokud nejste organizátor, mikrofon se při připojení ztlumí.";
+"LOCID Lync Conferencing" = "Skypová schůzka";
+"LOCID Joining Step 1" = "Připojování...";
+"LOCID Please wait to be admitted" = "Počkejte prosím na povolení připojit se.";
+"LOCID Join Conf Error" = "Připojení ke schůzce bylo přerušeno.";
+"LOCID Anonymous Join" = "Připojit se anonymně";
+"LOCID Enter your name" = "Zadejte své jméno";
+"LOCID Anonymous Join Greeting" = "Vítá vás Skype pro firmy";
+"LOCID Sign in with Lync" = "Přihlásit se přes Skype pro firmy";
+"LOCID Sign in as guest" = "Přihlásit se jako host";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Ke schůzce vás nemůžeme připojit bez čísla vašeho zařízení iPhone. Přidejte tento údaj do možností Skypu pro firmy.";
+"LOCID Join Conf Error - No Number iPad" = "Ke schůzce vás nemůžeme připojit bez vašeho telefonního čísla. Přidejte tento údaj do možností Skypu pro firmy.";
+"LOCID Join Meeting Line 1 Text" = "Připojování ke schůzce\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Volání na vaše číslo %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Vítejte! Jste v našem virtuálním předsálí. Udělejte si pohodlí. Neodcházejte prosím z aplikace. Organizátor vás brzy pozve dál.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Nedostali jste povolení, protože organizátor není přítomný nebo neodpověděl.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Došlo ke ztrátě připojení. Opakujte akci klepnutím na možnost Připojit se.";
+"LOCID View" = "Zobrazit";
+"LOCID Join Meeting" = "Připojit se ke schůzce";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Připojování ke schůzce";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Nemůžeme vás připojit, protože schůzka je plná. Zkuste se obrátit na organizátora.";
+"LOCID AdmittedToLobby" = "Byli jste přijatí. Právě vám voláme...";
+"LOCID MtgDisclaimerAccept" = "Přijmout";
+"LOCID MtgDisclaimerDecline" = "Ignorovat";
+"LOCID E_MeetingNotFound" = "Schůzka, ke které se pokoušíte připojit, neexistuje.";
+"LOCID E_MeetingsNotEnabled" = "Tuto funkci schůzky vaše organizace nepovoluje.";
+"LOCID E_OutsideOrg" = "Tato osoba nebo schůzka nemá ve vaší síti oprávnění.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Hovory a schůzky";
+"LOCID credentialsSection" = "Moje přihlašovací údaje";
+"LOCID contactsSection" = "Kontakty";
+"LOCID accessibilitySection" = "Usnadnění";
+"LOCID otherSection" = "Jiné";
+"LOCID Show Recent Contacts" = "Nedávné kontakty";
+"LOCID Show Pinned Contacts" = "Připnuté kontakty";
+"LOCID Show Photos" = "Fotky";
+"LOCID Sort by availability" = "Seřadit podle dostupnosti";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Protokolování";
+"LOCID About" = "O produktu";
+"LOCID About Version" = "Verze %@";
+"LOCID Status" = "Stav";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP proxy";
+"LOCID Require WiFi" = "Vyžadovat Wi-Fi pro";
+"LOCID WiFi VoIP" = "Hlas";
+"LOCID WiFi Video" = "Video";
+"LOCID WiFi Collab" = "Obsah schůzky";
+"LOCID WiFi Warning" = "Když máte vypnutý telefon, můžete přijímat hovory prostřednictvím datového připojení (možná budete platit poplatky a kvalita bude nižší).";
+"LOCID WiFi Warning iPad" = "Při vypnutí můžete přijímat hovory a obsah schůzek prostřednictvím datového připojení (tzn. případné poplatky a nižší kvalita).";
+"LOCID Not a SfB User" = "Nepoužíváte Skype pro firmy?";
+
+
+/* About View */
+"LOCID About Title" = "O produktu";
+"LOCID version" = "Verze: %@";
+"LOCID Long Product Name" = "Skype® pro firmy pro %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Všechna práva vyhrazena.";
+"LOCID online help" = "Nápověda";
+"LOCID Terms Of Use" = "Podmínky použití";
+"LOCID Privacy title" = "Ochrana osobních údajů";
+"LOCID Third Party Notices" = "Oznámení třetích stran";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nPatent čekající na schválení";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Název Skype, související ochranné známky a loga a logo „S“ jsou ochranné známky společnosti Skype nebo přidružených entit.\n\nUpozornění: Tento program je chráněn autorským zákonem a mezinárodními úmluvami. Neoprávněné kopírování nebo distribuce tohoto programu nebo jakékoli jeho části může mít za následek vážný postih na základě občanského a trestního práva a bude postihováno v maximálním rozsahu, jaký umožňuje zákon.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Přesměrování hovorů";
+"LOCID Forward Section" = "Vybrat číslo";
+"LOCID Apply Setting Section" = "Použít nastavení";
+"LOCID Summary Section" = "Vaše aktuální nastavení:";
+"LOCID Do Not Forward" = "Nepřesměrovávat";
+"LOCID Forward Calls" = "Přesměrovat hovory";
+"LOCID Forward Calls To" = "Přesměrovat na";
+"LOCID Simultaneously Ring" = "Vyzvánět souběžně";
+"LOCID On" = "Zap.";
+"LOCID Off" = "Vyp.";
+"LOCID During Working Hours" = "Během pracovní doby";
+"LOCID Voicemail" = "Hlasová pošta";
+"LOCID Team Call" = "Členové týmového hovoru";
+"LOCID Delegates" = "Delegáti";
+"LOCID Pending Persons" = "Přidali si mě";
+"LOCID Delegate Target" = "vaše delegáty";
+"LOCID TeamCall Target" = "členy vaší skupiny týmových hovorů";
+"LOCID Voicemail Target" = "vaši hlasovou poštu";
+"LOCID DoNotForward Summary" = "Hovory vám budou vyzvánět v zaměstnání a nepřesměrují se. Když nebude technologie VoIP dostupná, nebudou hovory vyzvánět v mobilním telefonu.";
+"LOCID DoNotForward Summary iPad" = "Hovory vám budou vyzvánět v zaměstnání a nepřesměrují se. Když nebude technologie VoIP dostupná, nebudou hovory vyzvánět v iPadu.";
+"LOCID ForwardCalls Summary" = "Hovory se přesměrují přímo na: %@. Pokud se nejedná o vaše mobilní číslo, nebudou vám vyzvánět v mobilním telefonu.";
+"LOCID ForwardCalls Summary iPad" = "Hovory se přesměrují přímo na: %@ a nebudou vyzvánět v iPadu.";
+"LOCID Simulring Summary" = "Hovory vám budou vyzvánět v zaměstnání a současně na: %@. Pokud se jedná o vaše mobilní číslo, budete v případě nedostupné technologie VoIP přijímat hovory na mobilu.";
+"LOCID Simulring Summary iPad" = "Hovory vám budou vyzvánět v zaměstnání a současně na: %@. Když nebude technologie VoIP dostupná, nebudou hovory vyzvánět v iPadu.";
+"LOCID View Settings" = "Zobrazit aktuální nastavení";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Použít nastavení";
+"LOCID All the Time" = "Vždy";
+"LOCID During Outlook Working Hours" = "V pracovní době (Outlook)";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Zam.";
+"LOCID Home Capitalized" = "Domů";
+"LOCID Mobile Capitalized" = "Mobil";
+"LOCID Custom Capitalized" = "Vlastní";
+"LOCID Other Capitalized" = "Jiné";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Zrušit";
+"LOCID Add" = "Přidat";
+"LOCID New Number" = "Nové číslo";
+"LOCID New Contact" = "Nový kontakt";
+"LOCID Contact" = "Kontakt";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Nahrát přihlašovací protokoly";
+"LOCID SignInBRB - Always" = "Vždy";
+"LOCID SignInBRB - Never" = "Nikdy";
+"LOCID SignInBRB - Ask Me" = "Ptát se";
+"LOCID Send Log Files" = "Odeslat protokoly";
+"LOCID Log Email Subject" = "Soubory protokolu Skypu pro firmy"; //product name
+"LOCID Device Model" = "Model zařízení:";
+"LOCID Device OS Name" = "Název OS zařízení:";
+"LOCID Device OS Version" = "Verze OS zařízení:";
+"LOCID Enable Logging" = "Povolit protokolování";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "HTTP proxy";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Chcete-li dokončit nastavení HTTP proxy, použijte nastavení Wi-Fi ve svém zařízení %@.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Použít přihlašovací údaje pro Skype pro firmy";
+"LOCID Exchange Credentials Info" = "Skype pro firmy potřebuje k zobrazení informací o vašich schůzkách a hlasové poště vaše přihlašovací údaje pro Exchange.";
+"LOCID Email Address" = "E-mailová adresa";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Moje mobilní číslo";
+"LOCID My Mobile Number Details" = "Zadejte číslo svého zařízení iPhone s kódem země a oblasti:";
+"LOCID My Mobile Number Details iPad" = "Zadejte své telefonní číslo s kódem země a oblasti:";
+"LOCID My Mobile Number Footer" = "To vám umožní přijímat a uskutečňovat pracovní hovory a připojovat se ke schůzkám ze Skypu pro firmy.\n(Záložní řešení pro případ, že používáte technologii VoIP a ta není dostupná.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Budete se moct připojovat ke schůzkám ze Skypu pro firmy.\n(Záložní řešení pro případ, že používáte technologii VoIP a ta není dostupná.)";
+"LOCID iPhone Number" = "Telefonní číslo";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Volat z práce";
+"LOCID Missing iPhone Number Error" = "Chybějící telefonní číslo";
+"LOCID Missing iPhone Number Error Text" = "Tento hovor nelze uskutečnit. Zadejte číslo svého iPhonu do menu Možnosti a zkuste to znovu.";
+"LOCID Missing iPad Number Error Text" = "Tento hovor nelze uskutečnit. Zadejte své telefonní číslo do menu Možnosti a zkuste to znovu.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Než začnete";
+"LOCID Main text" = "Každý, kdo je pozvaný na skypovou schůzku, může použít mobilní aplikaci Skype pro firmy. Pokud ale chcete používat všechny funkce aplikace, musíte mít účet Skypu pro firmy.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "Další možnosti";
+"LOCID Add Contact" = "Přidat kontakt";
+"LOCID Add to Group" = "Přidat do skupiny";
+"LOCID Remove Contact" = "Odebrat kontakt";
+"LOCID Remove from Group" = "Odebrat ze skupiny";
+"LOCID Groups" = "Skupiny";
+"LOCID E_AddContactFailureGeneral" = "Tento kontakt teď nemůžeme přidat. Zkuste to prosím znovu později.";
+"LOCID E_AddContactFull" = "Do této skupiny už nemůžete přidávat žádné kontakty.";
+"LOCID E_AddContactInGroup" = "Kontakt už v této skupině je.";
+"LOCID E_RemoveContactFailureGeneral" = "Tento kontakt teď nemůžeme odebrat. Zkuste to prosím znovu později.";
+"LOCID Confirm Remove Contact" = "Tím odeberete kontakt %@ ze svého seznamu kontaktů.";
+"LOCID Ignore" = "Ignorovat";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Další informace";
+"LOCID CEIP More Info" = "Pomozte vylepšit Skype pro firmy posíláním anonymních dat o použití do Microsoftu.";
+"LOCID ceipSectionTitle" = "Zlepšování softwaru a služeb na základě zkušeností uživatelů";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Vítejte.";
+"LOCID Lets begin" = "Pusťme se do toho...";
+
+/* First Run Experience */
+"LOCID Close" = "Zavřít";
+"LOCID Change" = "Ano";
+"LOCID Don't change" = "Ne";
+"LOCID Next" = "Další";
+"LOCID Done" = "Hotovo";
+"LOCID First Run First Step" = "Lync je teď Skype pro firmy – spojuje v sobě všechno, co nabízí Skype, s kvalitou produktů Microsoftu pro podniky.";
+"LOCID First Run Second Step" = "Každý se může pomocí této aplikace připojit ke schůzce přes Skype. Abyste ale mohli využívat všechny funkce, budete potřebovat účet Skypu pro firmy a vaše organizace musí mít tuto aplikaci povolenou.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "CHCETE ZMĚNIT NASTAVENÍ PŘESMĚROVÁNÍ HOVORŮ?";
+"LOCID First Run CF Current Settings" = "Vaše aktuální nastavení:";
+"LOCID First Run CF Change Settings" = "Nové nastavení:";
+"LOCID First Run Change Summary" = "Zadali jste telefonní číslo pro příjem pracovních hovorů. Teď musíme změnit vaše aktuální nastavení přesměrování hovorů, aby váš telefon při přesměrování vyzváněl.";
+"LOCID First Run Change Request" = "Můžeme změnit toto nastavení, aby vaše pracovní hovory vyzváněly současně v práci i na čísle %@?";
+"LOCID DoNotForward Summary - First Run" = "Volání budou vyzvánět v zaměstnání a nebudou přesměrována na žádné jiné telefonní číslo.";
+"LOCID ForwardCalls Summary - First Run" = "Volání budou přímo přesměrována na %@.";
+"LOCID Simulring Summary - First Run" = "Hovory vám budou vyzvánět v zaměstnání a současně na %@.";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "UŽ NIKDY NEZMEŠKÁTE PRACOVNÍ HOVOR";
+"LOCID My Mobile Number Title 2" = "NIKDY NEZMEŠKÁTE SCHŮZKU";
+"LOCID My Mobile Number Details First Run" = "Potřebujeme číslo vašeho iPhonu s kódem země a oblasti:";
+"LOCID My Mobile Number Details First Run_iPad" = "Potřebujeme vaše telefonní číslo s kódem země a oblasti:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "SPRÁVA POUŽITÍ DAT";
+"LOCID Setup Work Calls Sub Text" = "Tato nastavení určují vaše používání dat a případné náklady na hovory a schůzky.";
+
+"LOCID Require Wifi for VoIP calls" = "Vyžadovat Wi-Fi pro hovory VoIP";
+"LOCID Require Wifi for VoIP calls off subtext" = "Jestliže není dostupná síť Wi-Fi, použije se pro hovory vaše datové připojení.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Hovory budou probíhat vždy prostřednictvím sítě Wi-Fi. Nikdy nepoužijeme vaše datové připojení.";
+
+"LOCID Require Wifi for Video calls" = "Vyžadovat Wi-Fi pro videohovory";
+"LOCID Require Wifi for Video calls off subtext" = "Pokud není dostupná síť Wi-Fi, použije se pro videohovory vaše datové připojení. (Pozor, jde o velké objemy dat.)";
+"LOCID Require Wifi for Video calls on subtext" = "Videohovory budou probíhat vždy prostřednictvím sítě Wi-Fi. Nikdy nepoužijeme vaše datové připojení.";
+
+"LOCID Require Wifi for meeting content" = "Vyžadovat Wi-Fi pro obsah schůzky";
+"LOCID Require Wifi for meeting content off subtext" = "Pokud není dostupná síť Wi-Fi, pro získání obsahu schůzky se použije vaše datové připojení. (Pozor, jde o velké objemy dat.)";
+"LOCID Require Wifi for meeting content on subtext" = "Pro získání obsahu schůzky se použije vždy jen síť Wi-Fi, nikdy datové připojení.";
+
+"LOCID Skip" = "Přeskočit";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Začít používat Skype pro firmy";
+
+"LOCID First Run Successful Setup" = "NASTAVENÍ BYLO DOKONČENO.";
+"LOCID First Run Successful Setup WiFi only_iPad" = "VÍTEJTE!";
+"LOCID First Run Successful Setup Details" = "Můžete ho kdykoli změnit.";
+
+"LOCID improve lync" = "Pomozte nám vylepšit Skype pro firmy";
+"LOCID whyphonenumber" = "K čemu potřebujeme vaše telefonní číslo.";
+"LOCID more detail" = "Další podrobnosti";
+
+"LOCID Emergency Call Disclaimer" = "Poznámka na závěr:";
+"LOCID Emergency Call Disclaimer Details" = "Na všechny hovory se vztahuje standardní ceník operátora.\n\nDůležité: Nepoužívejte aplikaci Skype pro firmy pro tísňová volání.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Důležité";
+"LOCID Emergency Call Disclaimer Details iPad" = "Nepoužívejte aplikaci Skype pro firmy pro tísňová volání.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Nabízená oznámení";
+"LOCID Push Notification Legal1" = "Před přijetím nabízených oznámení mějte na paměti, že veškerá nabízená oznámení a jejich obsah se odesílají pomocí služby nabízených oznámení společnosti Apple a systému nabízených oznámení společnosti Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "V nastavení oznámení zařízení %1$@ jste změnili nastavení nabízených oznámení, ale doručování všech oznámení se zastaví až po opětovném spuštění Skypu pro firmy.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Použít mobil";
+"LOCID Call via Work Not Available Error" = "Nemůžete uskutečnit hovor Skypu pro firmy, protože jste offline. Zkuste zavolat ze svého mobilního čísla.";
+"LOCID Call via Work Not Available Error iPad" = "Nemůžete uskutečnit hovor Skypu pro firmy, protože jste offline.";
+"LOCID Answer incoming call" = "Přijmout příchozí volání";
+"LOCID to connect you to... display name" = "pro připojení k...\n%@";
+
+"LOCID Call via Work Connecting" = "Připojování...\n Přijměte další příchozí hovor.";
+"LOCID Call via Work Connected" = "Jste připojení z čísla %1$@";
+"LOCID Video Disclaimer" = "Nebudete moci prohlížet ani sdílet video.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Připojili jste se z čísla %1$@.";
+
+/* Errors */
+"LOCID Error" = "Chyba";
+"LOCID E_GenericFailure" = "Došlo k chybě ve Skypu pro firmy. Zkuste to prosím znova. Pokud problém nezmizí, obraťte se na tým podpory.";
+"LOCID E_GroupNotFound" = "Tuto skupinu nemůžeme najít.";
+"LOCID E_PermissionsForGroup" = "Nemáte oprávnění rozbalit tuto skupinu.";
+"LOCID E_ConnectionError" = "Nemůžeme se připojit k serveru. Zkontrolujte připojení k síti a adresu serveru a potom to zkuste znovu.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Nemůžeme se připojit k serveru. 1) Možná je nedostupný. 2) Zkontrolujte připojení k síti. 3) Zkontrolujte, jestli používáte informace o účtu Skypu pro firmy, které vám poskytla vaše organizace. 4) Vaše uživatelské jméno se může lišit od přihlašovacího jména. Klepněte na Upřesnit možnosti a zadejte své uživatelské jméno nebo řetězec doména\\uživatelské_jméno.";
+"LOCID E_AutoDiscoveryInBackground" = "Vaše konfigurace serveru se změnila. Restartujte prosím Skype pro firmy.";
+"LOCID E_SslError" = "Nemůžeme ověřit certifikát ze serveru. Obraťte se na tým podpory.";
+"LOCID E_SslCertExpiredError" = "Nemůžeme ověřit certifikát ze serveru. Obraťte se na tým podpory.";
+"LOCID E_ProxyAuthError" = "Nemůžeme vás přihlásit. Nakonfigurujte prosím nastavení HTTP proxy v nastavení zařízení %@ a možnostech pro Skype pro firmy nebo se připojte pomocí sítě 3G.";
+"LOCID E_ConnectionTimeoutError" = "Nelze se připojit k serveru. Může být zaneprázdněný nebo dočasně nedostupný. Zkuste to znovu.";
+"LOCID E_GenericApplicationError" = "Došlo k chybě v aplikaci a je třeba ji restartovat.";
+"LOCID E_AuthError" = "Nemůžeme vás přihlásit. Zkontrolujte informace o svém účtu a zkuste to znovu.";
+"LOCID E_InvalidCredentials" = "Nemůžeme vás přihlásit. Zkontrolujte informace o svém účtu a zkuste to znovu.";
+"LOCID E_InvalidSignInAddress" = "Nelze se přihlásit. Zkontrolujte svou přihlašovací adresu a zkuste to znovu.";
+"LOCID E_InvalidLyncAccount" = "Toto nejsou platné přihlašovací informace.  Musíte se přihlásit s účtem Skypu pro firmy, který máte od svojí organizace.";
+"LOCID E_WrongHomePool" = "Nemáte nakonfigurováno připojení k serveru. Obraťte se na tým podpory.";
+"LOCID E_ImSendError" = "Nelze odeslat:";
+"LOCID GenericRetryError" = "Nemůžeme se připojit k serveru. Probíhá opakovaný pokus...";
+"LOCID GenericError" = "Došlo k chybě serveru. Zkuste to znovu.";
+"LOCID RequestFailed" = "Žádost nelze zpracovat. Zkuste to znovu.";
+"LOCID DecodingError" = "Odpověď serveru se nepodařilo zpracovat. Zkuste to znovu. Pokud potíže potrvají, obraťte se na tým podpory.";
+"LOCID VersionMismatch" = "K přihlášení nemůžete použít tuto verzi Skypu pro firmy. Nainstalujte si prosím novější verzi. Pokud se tím problém nevyřeší, obraťte se na tým podpory.";
+"LOCID SignInCredentialsAreNeeded" = "Byli jste odhlášeni. Potřebujeme informace o vašem účtu, abychom vás mohli znovu přihlásit.";
+"LOCID NeedLyncPassword" = "Potřebujeme vaše heslo, abychom vás mohli přihlásit.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Momentálně se nemůžeme připojit k serveru. Zkuste to prosím znovu.";
+"LOCID E_HttpRequestTimeout" = "Nelze se přihlásit, protože server je dočasně nedostupný.";
+"LOCID E_CannotConnectToServer" = "Na server se nedá připojit. Probíhá pokus o opětovné připojení. Pokud s tím budou dál problémy, kontaktujte tým podpory.";
+"LOCID E_InvalidServerUrl" = "Název serveru je nesprávný. Zkontrolujte jej a opakujte akci.";
+"LOCID E_NoValidIp" = "Nemůžeme se připojit k síti. Zkontrolujte nastavení připojení.";
+"LOCID E_MetaDataNotFound" = "Server není dostupný. Ověřte adresu serveru nebo to zkuste znovu později.";
+"LOCID E_TimeSkewError" = "Hodiny na vašem přístroji se nedají synchronizovat se serverem. Změňte nastavení data a času nebo kontaktujte tým podpory.";
+"LOCID E_MobilityDisabled" = "Nemůžeme vás přihlásit, protože nemáte všechno nastavené tak, abyste mohli používat Skype pro firmy. Kontaktujte prosím tým podpory.";
+"LOCID E_TooManyApplications" = "Nemůžeme vás přihlásit. Vypadá to, že už jste přihlášení na moc zařízeních.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Funkce Volat z práce je vypnutá. Pokud chcete této osobě zavolat pomocí Skypu pro firmy, zadejte v možnostech své telefonní číslo.";
+"LOCID E_UI_OfflineLyncCall" = "Pokud chcete tomuto uživateli zavolat pomocí Skypu pro firmy, musíte být online nebo mít mobilní datové připojení.";
+"LOCID E_EwsError" = "Nemůžeme se připojit k serveru Exchange. Zkuste to prosím znovu později.";
+"LOCID E_EwsBadCredentials" = "Vaše přihlašovací údaje pro Exchange jsou neplatné. Zkuste aktualizovat Exchange nebo přihlašovací údaje pro Skype pro firmy.";
+"LOCID W_Retrying" = "Server není dostupný, akce se opakuje...";
+"LOCID E_UI_CallViaCellError" = "Zkontrolujte číslo a zkuste to znovu.";
+"LOCID E_LiveIdPasswordExpired" = "Vypršela platnost vašeho hesla. Aktualizujte ho a zkuste to znovu.";
+"LOCID E_LiveIdInvalidCredentails" = "Nemůžeme vás přihlásit. Zkontrolujte informace o svém účtu a zkuste to znovu.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Vaše heslo je třeba změnit. Aktualizujte je a zkuste to znovu.";
+"LOCID E_LiveIdPasswordLockedOut" = "Vaše heslo je třeba změnit. Aktualizujte je a zkuste to znovu.";
+"LOCID E_LiveIdConnectionFailed" = "Momentálně se nemůžeme připojit k serveru. Zkuste to prosím znovu.";
+"LOCID E_LiveIdServiceUnavailable" = "Momentálně se nemůžeme připojit k serveru. Zkuste to prosím znovu.";
+"LOCID E_LiveIdGenericError" = "Nemůžeme vás přihlásit. Zkuste to prosím znovu.";
+"LOCID E_InvalidLiveIDUserNameError" = "Nemůžeme vás přihlásit. Ověřte, jestli je vaše uživatelské jméno ve formátu adresa@example.com a jestli používáte platné heslo.";
+"LOCID E_InvalidSmtpAddress" = "Nemůžeme se připojit k serveru Exchange. Zkontrolujte informace o svém účtu a zkuste to znovu.";
+"LOCID E_LogoffUnsuccessful" = "Nemůžeme vás přihlásit ke Skypu pro firmy, protože se přerušilo připojení k serveru.";
+"LOCID E_ClientVersionMismatch" = "Nemůžeme vás přihlásit, protože vaše organizace tuto verzi Skypu pro firmy nepodporuje. Nainstalujte si prosím Lync 2010 z vašeho mobilního obchodu.";
+"LOCID E_ClientServerSchemaMisMatch" = "K přihlášení nemůžete použít tuto verzi Skypu pro firmy. Nainstalujte si prosím novější verzi. Pokud se tím potíže nevyřeší, obraťte se na tým podpory.";
+"LOCID E_ClientVersionCheck" = "K přihlášení nemůžete použít tuto verzi Skypu pro firmy. Nainstalujte si prosím novější verzi. Pokud se tím potíže nevyřeší, obraťte se na tým podpory.";
+"LOCID E_VersionMismatch" = "K přihlášení nemůžete použít tuto verzi Skypu pro firmy. Nainstalujte si prosím novější verzi. Pokud se tím potíže nevyřeší, obraťte se na tým podpory.";
+"LOCID E_AutoDConfigurationError" = "Nemůžeme vás přihlásit. Obraťte se prosím na tým podpory.";
+"LOCID E_AutoDPasswordExpiredError" = "Vypršela platnost vašeho hesla. Aktualizujte ho a zkuste to znovu.";
+"LOCID E_InvalidProxySettingsError" = "Nemůžeme vás přihlásit. Nastavení proxy serveru nejsou platná. Zkontrolujte prosím tato nastavení a zkuste to znovu.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Odhlásili jsme vás, protože jste dlouho nic nedělali.";
+"LOCID E_GeneralGoneError" = "Nemůžeme vás přihlásit. Obraťte se prosím na tým podpory.";
+"LOCID E_InternalServerError" = "Nemůžeme vás přihlásit. Obraťte se prosím na tým podpory.";
+"LOCID E_TooManyApps" = "Nemůžeme vás přihlásit. Vypadá to, že jste už přihlášení v příliš velkém počtu zařízení.";
+"LOCID E_ResponseUnkown" = "Nemůžeme se připojit k serveru. Pokud používáte Wi-Fi, otevřete si prohlížeč a zjistěte, jestli máte připojení. Jinak deaktivujte všechna hotspot připojení nebo sdílená internetová připojení. Pokud budete mít s připojením dál problémy, kontaktujte poskytovatele připojení k síti.";
+"LOCID E_CannotLoadADFSPage" = "Nemohli jsme vás přihlásit. Zkuste to prosím znovu. Pokud problém přetrvává, obraťte se na tým podpory.";
+"LOCID E_UserNotSipEnabled" = "Nemáte nakonfigurovanou možnost připojení k serveru. Obraťte se na tým podpory.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Momentálně nemůžete uskutečnit hovor VoIP. Zkuste zavolat ze svého mobilního čísla.";
+"LOCID E_VoicePSTNCallActive" = "Momentálně nemůžete uskutečnit hovor VoIP. Zkuste zavolat ze svého pracovního čísla.";
+"LOCID E_VoicePSTNCallActive - Button" = "Volat z práce";
+"LOCID E_VideoOverWiFiBlocked" = "Tohle bylo pozvání k videohovoru, ale protože nemáte připojení Wi-Fi, připojili jsme jen zvuk.";
+"LOCID E_HistoryNotDisplayed" = "Není možné zobrazit historii téhle konverzace.";
+"LOCID E_IMAcceptedElsewhere" = "Tuhle konverzaci jste přijali někde jinde. Pokud ji chcete restartovat, odešlete novou zprávu.";
+"LOCID E_MuteFailed" = "Kvůli chybě nevidí ostatní, že jste právě ztlumili hlasitost.";
+"LOCID E_UnmuteFailed" = "Ztlumení trvá kvůli chybě. Zkuste ho znovu zrušit.";
+"LOCID E_DgExpansionGenericFailure" = "Nelze načíst členy skupiny, které by bylo možné pozvat. Opakujte akci později.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Skupina je příliš velká, aby ji bylo možné pozvat.";
+"LOCID E_DgExpansionNoMembersFailure" = "Skupina neobsahuje žádné jednotlivé členy a nelze ji pozvat.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "Účastník %@ není dostupný nebo je offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ má nastaven stav Nerušit.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ se ve službě nenachází. Zkontrolujte číslo.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ se právě účastní jiného hovoru.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ neodpovídá.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ nemůže volání přijmout.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Hovor nejde uskutečnit, když jste offline. Pro volání se zkuste přihlásit do Skypu pro firmy.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Operace byla neúspěšná.";
+"LOCID E_VoiceGenericError" = "Hovor nebyl spojen nebo byl ukončen.";
+"LOCID E_VoiceFeatureNotEnabled" = "Funkce volání je zakázána.";
+"LOCID E_VoiceCheckNumber" = "Zkontrolujte číslo a zkuste to znovu.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Volání nelze spojit. Zkuste to znovu později.";
+"LOCID E_VoiceCallUnsuccessful" = "Volání nelze spojit.";
+"LOCID E_VoiceCallTypeNotSupported" = "Hovor se nepodařilo uskutečnit. Tento typ hovoru není podporován.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Je možné, že tato zpráva nebyla doručena účastníkovi %@, protože vypršel časový limit serveru:";
+
+"LOCID E_SharingAnotherOperation" = "Snažíme se pro vás udělat něco jiného. Chviličku počkejte a pak to zkuste znovu.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ nedostal(a) tuto zprávu kvůli potížím se serverem:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ je offline a nedostal(a) tuto zprávu:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "Účastník %@ má stav Nerušit a tuto zprávu nedostal:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Nemohli jsme odeslat tuto zprávu, protože se nepovedlo najít účastníka %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Tuto zprávu nelze odeslat kvůli blokovanému obsahu:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "Nepovedlo se nám zastihnout účastníka %@ a doručit mu tuto zprávu:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Nemohli jsme spojit váš hovor.";
+
+"LOCID E_ConfLocked" = "Nemůžete se připojit ke schůzce, protože je uzamčená. Zkuste se obrátit na jejího organizátora.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Došlo k neshodě šifrování mezi vámi a účastníkem %@. Obraťte se na tým podpory.";
+
+"LOCID E_ConferencingServerError" = "Došlo k chybě serveru. Obraťte se na tým podpory.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "Účastník %@ není dostupný a je zřejmě offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "Účastník %@ je ve stavu Nerušit a není dostupný.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "Účastník %@ neodpověděl na pozvání.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Nepovedlo se zastihnout účastníka %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Nemůžete se připojit ke skypovým schůzkám.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Není možné připojit se ke konferenci, když není aplikace přihlášená.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = "Účastník %@ se nemohl připojit ke schůzce.";
+"LOCID E_ConferencingEnded" = "Schůzka, ke které se pokoušíte připojit, není dostupná.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Účastník %@ není dostupný. Zkuste to znovu později.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "Účastník %@ nebyl nalezen. Zkontrolujte adresu.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Nepovedlo se zastihnout účastníka %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "Účastník %@ odmítl vaše pozvání.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Předvádějící schůzku ukončil.";
+"LOCID E_ConferencingCallDisconnected" = "Hovor byl přerušen.";
+"LOCID ConferenceUnexpectedDisconnect" = "Byli jste odpojeni z konference.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Hovor nebyl spojen nebo byl ukončen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Účastníka %@ nemůžeme přidat ke schůzce, protože síť je zaneprázdněná.";
+
+"LOCID E_ConferencingCannotConnect" = "Hovor nebyl spojen nebo byl ukončen.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Nemůžete se připojit k tomuto typu online schůzky.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Účastníka %@ nelze pozvat, protože schůzka je plně obsazena.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Ke schůzce se nelze připojit jako anonymní účastník.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Ke schůzce se nelze připojit kvůli chybě pozvání.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Nemáte oprávnění k připojení ke schůzce.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Nemohli jsme vás připojit ke schůzce. Zkuste to prosím znovu.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "K této schůzce se nelze připojit z míst mimo vaši organizaci.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Nelze se připojit k tomuto typu online schůzky.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Účastník %@ není dostupný.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Schůzku nemůžete zahájit, protože se právě zahajuje jiná schůzka.";
+"LOCID E_ConferencingEncryptionIssues" = "Skypovou schůzku nemůžeme zahájit kvůli problémům se šifrováním.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Nemáte dostatečná oprávnění k připojení z jiného zařízení nebo k vytočení jiného zařízení.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Hovor nebyl spojen nebo byl ukončen.";
+"LOCID E_ConferencingFull" = "Schůzka je plně obsazena.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Nemáte oprávnění k připojení k této schůzce.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Platnost pozvání na konferenci %@ vypršela.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Schůzka byla ukončena, protože hostitelé ji opustili.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Ke schůzce se nelze připojit, protože síť je zaneprázdněna.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Předmět je příliš dlouhý.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Tato funkce schůzky není vaší organizací povolena.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Tato schůzka byla ukončena z důvodu nečinnosti.";
+"LOCID E_ConferencingCannotBeFound" = "Tato online schůzka nebyla nalezena.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Nemáte oprávnění k připojení k této schůzce.";
+"LOCID E_ConferencingUserNotAdmitted" = "Nebylo vám povoleno připojit se ke schůzce.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Byli jste odebráni ze schůzky.";
+"LOCID E_ConfGenericError" = "Nemohli jsme vás připojit ke schůzce. Zkuste to prosím znovu.";
+"LOCID E_ConferenceDenied" = "Prezentující vám odepřel přístup.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Už na schůzce jste. Chcete ji opustit a připojit se k této schůzce?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Server nepodporuje anonymní připojení se ke schůzce prostřednictvím tohoto zařízení.";
+"LOCID ConferenceVideoLock" = "Prezentující zamkl zobrazení něčího videa.";
+"LOCID ConferenceVideoUnlock" = "Prezentující odemkl zobrazení videa.";
+"LOCID ConferenceVideoSelfLock" = "Všichni mají zamknuté zobrazení vašeho videa.";
+"LOCID ConferenceVideoSelfUnlock" = "Nikdo už nemá zamknuté zobrazení vašeho videa.";
+
+"LOCID E_DomainNotTrusted" = "Nelze se připojit k serveru. Přijměte výzvu k přesměrování.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "Účastník %@ nedostal tuto zprávu, protože formát není povolen:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Účastník %@ nemůže přijímat zprávy ve svém zařízení.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ nedostal(a) tuto zprávu, protože je příliš dlouhá:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ nedostal(a) tuto zprávu, protože v doručení brání zásady:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Vaši rychlou zprávu nemůžeme odeslat. Už jste totiž zahájili konverzaci s účastníkem %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Tuto zprávu nelze odeslat kvůli blokovanému obsahu:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Nemáte oprávnění k odesílání rychlých zpráv účastníkovi %@. Tuto zprávu jsme neodeslali:";
+
+"LOCID E_IMConfGenericError" = "Jeden nebo více účastníků nedostali tuto zprávu:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "Uživatel %@ není dostupný.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Volání bylo ukončeno, protože %@ se odhlásil(a).";
+
+"LOCID E_VoiceCallTimeout" = "Hovor nebylo možné uskutečnit kvůli potížím se sítí. Zkuste to znovu.";
+"LOCID E_VoiceCallDisconnected" = "Je nám líto, ale hovor byl přerušen. Zkuste to prosím znovu.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Hovor nebyl spojen nebo byl ukončen.";
+"LOCID E_VoiceCallNotCompleted" = "%@ nemůže přijímat volání. Zkuste místo toho zasílání rychlých zpráv nebo e-mail.";
+"LOCID E_VoiceServerError" = "Volání nelze spojit kvůli chybě serveru. Zkuste to znovu.";
+"LOCID E_VoiceCannotConnect" = "Nelze se připojit k online schůzce.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Účastníka %@ nelze kontaktovat.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Účastníka %@ nelze vyhledat.";
+
+"LOCID E_VoiceEncryptionIssues" = "Skypovou schůzku nemůžeme zahájit kvůli problémům se šifrováním.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Osoba, které jste volali, odpověděla rychlou zprávou.";
+"LOCID E_VoiceCannotCompleteCall" = "Vytáčené číslo nelze spojit.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Volání nelze spojit kvůli potížím se serverem.";
+"LOCID E_VoiceServerCannotForwardCall" = "Server nemůže přesměrovat volání. Zkuste to znovu.";
+"LOCID E_VoiceServerDidNotRespond" = "Server neodpovídá. Zkuste to znovu později.";
+"LOCID E_VoiceCannotPlaceCall" = "Volání nelze uskutečnit. Zkontrolujte číslo a zkuste to znovu.";
+"LOCID E_VoiceNumberNotSupported" = "Vaše organizace nepodporuje volání na toto číslo.";
+"LOCID E_IncomingPSTNCall" = "Nemohli jsme spojit váš hovor.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Nemůžete volat účastníkovi %@, protože hovory jsou zakázány zásadami.";
+
+"LOCID E_CallFailed" = "Volání skončilo kvůli chybám s připojením. Zkuste to prosím znovu.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Spojení bylo přerušeno, protože jste se připojili z jiného klienta.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Byli jste odebráni ze schůzky.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Hovor se nedal spojit, protože síť je zaneprázdněná.";
+"LOCID E_VoiceNotSupported" = "%@ nemůže přijímat hlasové hovory.";
+"LOCID E_RepliedWIthOtherModality" = "Příjemce se rozhodl odpovědět rychlou zprávou.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Historii konverzací teď nejde aktualizovat a nemusí být synchronizovaná.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Historii konverzací teď nejde aktualizovat a nemusí být synchronizovaná.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Na tento kontakt se nedaly hovory přesměrovat. Vyberte prosím pro přesměrování některý ze svých kontaktů ve Skypu pro firmy nebo vyberte Nové číslo a zadejte telefonní číslo.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY telefon je zapnutý.";
+"LOCID RemoteHoldSucceeded" = "Vzdálený uživatel přidržel váš hovor.";
+"LOCID RemoteUnholdSucceeded" = "Vzdálené pokračování bylo úspěšné.";
+"LOCID LocalHoldSucceeded" = "Místní přidržení bylo úspěšné.";
+"LOCID LocalUnholdSucceeded" = "Místní pokračování bylo úspěšné.";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Pokračovat v hovoru";
+"LOCID is recording" = "%@ nahrává.";
+"LOCID Multiple Recording" = "Někdo nahrává.";
+"LOCID OnHoldOutOfApp" = "Váš hovor %@ je přidržený.";
+"LOCID OnStopOutOfApp" = "Váš hovor %@ byl ukončen.";
+"LOCID RecordingAlert" = "%@ tento hovor nahrává.";
+"LOCID CoversationP2PIsRecording" = "%@ tento hovor nahrává.";
+"LOCID CoversationP2PIsRecordingNoName" = "Hovor se nahrává.";
+"LOCID CoversationConferenceIsRecording" = "Někdo tuto schůzku nahrává.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Tento seznam je skoro plný. Nejstarší konverzace se odstraní, jakmile přibydou nové.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Prezentující ztlumil posluchače.";
+"LOCID Audience Unlock" = "Prezentující zrušil ztlumení posluchačů.";
+"LOCID Conference Mute" = "Prezentující vás ztlumil.";
+"LOCID Conference Unmute" = "Prezentující chce, abyste sami zrušili své ztlumení.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Prezentující zablokoval možnost účastníků odesílat video.";
+"LOCID PresenterBlockedVideo - Presenter" = "Prezentující zablokoval možnost účastníků odesílat video. Pokud jste prezentující, můžete zapnout kameru a sdílet video.";
+"LOCID PresenterBlockedVideo - Unblock" = "Prezentující odblokoval možnost účastníků odesílat video.";
+"LOCID VideoLockOnYou" = "Všichni mají zamknuté zobrazení vašeho videa.";
+"LOCID VideoLock" = "Prezentující zamkl zobrazení něčího videa.";
+"LOCID VideoNotLockOnYou" = "Nikdo už nemá zamknuté zobrazení vašeho videa.";
+"LOCID VideoSpotlightUnlocked" = "Prezentující odemkl zobrazení videa.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Zpět";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Funkce Volat z práce není k dispozici.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Žádná hlasová pošta";
+"LOCID You currently have no voicemail messages" = "Nemáte žádné zprávy hlasové pošty.";
+"LOCID Audio" = "Zvuk";
+"LOCID Speaker" = "Reproduktor";
+"LOCID Can not play locally" = "Tuhle zprávu nemůžeme přehrát. Po klepnutí na Přehrát vám zavoláme a můžete si ji poslechnout.";
+"LOCID Play Voice Mail" = "Přehrát hlasovou poštu";
+"LOCID PLAY_VOICEMAIL_HINT" = "Přehraje hlasovou poštu";
+"LOCID Pause Voice Mail" = "Pozastavit hlasovou poštu";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Pozastaví přehrávání hlasové pošty";
+"LOCID Play On Phone Error - No Number" = "Aby vám bylo možné zavolat zpět, je třeba, abyste zadali své telefonní číslo v možnostech.";
+"LOCID Call Back" = "Volat zpět";
+"LOCID Delete" = "Odstranit";
+"LOCID More voicemails iPad" = "Chcete-li si poslechnout starší zprávy hlasové pošty, klepněte na ikonu hlasové pošty.";
+"LOCID More voicemails" = "Pokud si chcete poslechnout starší zprávy hlasové pošty, klepněte na číslici 1 na klávesnici a podržte ji nebo přejděte do Outlooku.";
+"LOCID More voicemails No keypad" = "Pokud si chcete poslechnout starší zprávy hlasové pošty, přejděte do Outlooku.";
+"LOCID Can not play IRMed" = "Tahle zpráva má spravovaná přístupová práva. Po klepnutí na Přehrát vám zavoláme a můžete si ji poslechnout.";
+"LOCID Lync Call" = "Hovor ve Skypu pro firmy";
+"LOCID Can't play on phone" = "Tuhle zprávu nemůžeme přehrát. Zkontrolujte připojení k síti a zkuste to znovu později.";
+"LOCID Yes" = "Ano";
+"LOCID No" = "Ne";
+"LOCID VMCallerID" = "Hlasová pošta";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Přehrát hlasovou zprávu standardní rychlostí";
+"LOCID VM Playback -2X Acc" = "Přehrát hlasovou zprávu pomaleji poloviční rychlostí";
+"LOCID VM Playback 2X Acc" = "Přehrát hlasovou zprávu rychleji dvojnásobnou rychlostí";
+"LOCID Voicemail From" = "Hlasová pošta od: %@";
+"LOCID No Voicemails Placeholder" = "Vaše hlasová pošta se zobrazí tady.";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Zavřít";
+"LOCID Accept" = "Přijmout";
+"LOCID Not yet implemented feature" = "Tato funkce ještě není implementovaná. Zkuste ji prosím použít znovu v některé z budoucích verzí.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Máte 1 novou zprávu hlasové pošty.";
+"LOCID Missed VMs" = "Máte %d nové zprávy hlasové pošty.";
+"LOCID Missed Collab Out of App" = "Zmeškaná relace spolupráce od: %@";
+"LOCID Missed Video Call Out of App" = "Zmeškaný videohovor od: %@";
+"LOCID Missed Audio Call Out of App" = "Zmeškaný hovor od: %@";
+"LOCID Missed Message Out of App" = "Zmeškaná rychlá zpráva od: %@";
+"LOCID Missed Audio Conf Out of App" = "Zmeškaný konferenční hovor od: %@";
+
+"LOCID Audio Call Out of App" = "Hovor od: %@";
+"LOCID Conference Call Out of App" = "Konferenční hovor od: %@";
+"LOCID Dismiss Call" = "Ignorovat";
+"LOCID Answer Call" = "Přijmout";
+"LOCID Answer Call with Video" = "Video";
+"LOCID Audio Call" = "Hovor";
+"LOCID Conference Call" = "Konferenční hovor";
+"LOCID Unknown Caller" = "Neznámý volající";
+
+"LOCID Video conf accessibility" = "Videokonference od: %@";
+"LOCID Video accessibility" = "Videohovor od: %@";
+"LOCID Audio conf accessibility" = "Konferenční hovor od: %@";
+"LOCID Audio accessibility" = "Hovor od: %@";
+
+"LOCID Video Call Out of App" = "Videohovor od: %@";
+"LOCID Video Conference Call Out of App" = "Videokonference od: %@";
+"LOCID Video Call" = "Videohovor";
+"LOCID Video Conference Call" = "Videokonference";
+"LOCID Video Escalation Name" = "%@ sdílí video";
+"LOCID Video Escalation" = "sdílí video";
+"LOCID Video Escalation Conf" = "Někdo sdílí video";
+"LOCID VideoInvitationRejected" = "Vizuální část hovoru nebyla přijata. Hovor bude pokračovat jen ve zvukové podobě.";
+"LOCID E_VideoDecline" = "Účastník %@ nepřijal vaše video.";
+"LOCID E_VideoGeneric" = "Nemohli jsme spustit vaše video. Zkuste to prosím znovu.";
+"LOCID E_VideoNotStarted" = "Nemohli jsme spustit vaše video.";
+"LOCID E_VideoNotSupported" = "%@ nemůže přijímat videohovory.";
+"LOCID E_VideoNotAccepted" = "Účastník %@ nepřijal přenos videa v rámci tohoto hovoru. Hovor bude pokračovat jenom se zvukem.";
+
+"LOCID E_VoiceTransferGenericError" = "Hovor nešel přepojit.";
+"LOCID E_VoiceTransferParticipantError" = "Hovor nešel přepojit, protože příjemce je nedostupný.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "ztlumit";
+"LOCID Mute Capitalized" = "Ztlumit";
+"LOCID Unmute" = "Zrušit ztlumení";
+"LOCID keypad" = "klávesnice";
+"LOCID add call" = "přidat hovor";
+"LOCID hold" = "přidržet";
+"LOCID End" = "Konec";
+"LOCID Hide Keypad" = "Skrýt klávesnici";
+"LOCID Call Lync" = "Hovor ve Skypu pro firmy";
+"LOCID Call Work" = "Práce: %@";
+"LOCID Call Mobile" = "Mobil: %@";
+"LOCID Call Home" = "Domů: %@";
+"LOCID Call Other" = "Jiné: %@";
+"LOCID Decline" = "Odmítnout";
+"LOCID Video Menu" = "Nabídka videa";
+"LOCID Hold Call" = "Podržet hovor";
+"LOCID Hang Up" = "Zavěsit";
+"LOCID Dial Pad Only" = "Číselník";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "Účastníci: %u – %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "Účastníci: %u – %@";
+"LOCID Call Status Connecting" = "Připojování...";
+"LOCID Call Status Connecting Remote" = "Připojování...";
+"LOCID Call Status Connected" = "Připojeno";
+"LOCID Call Status On Hold - Passive" = "Přidržet";
+"LOCID Call Status On Hold" = "Přidržený hovor";
+"LOCID Call Status Ended" = "Konec hovoru";
+"LOCID Call Status Transfering" = "Přenáším";
+"LOCID On behalf of" = "Jménem uživatele %@";
+"LOCID Call for" = "Volání za uživatele %@";
+"LOCID Call for - Astana" = "Volání za uživatele %@";
+"LOCID Transferred by" = "Převedl(a): %@";
+"LOCID Forwarded by" = "Přesměroval(a): %@";
+"LOCID Private call" = "Soukromý hovor";
+"LOCID Also ringing" = "Vyzvání také %@";
+"LOCID Also ringing delegates" = "Vyzvání také u vašich delegátů";
+"LOCID Will ring" = "Zazvoní u %@";
+"LOCID Also ringing team call" = "Vyzvání také u vašeho týmu";
+"LOCID The recipient" = "Příjemce";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Inicializace...";
+"LOCID DataCollab Connecting" = "Připojování...";
+"LOCID DataCollab Loading" = "Načítání...";
+"LOCID DataCollab No Content" = "Prezentující přestali sdílet obsah.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Funkce sdílení dat není dostupná kvůli selhání připojení serveru.";
+"LOCID DisconnectedOnConnectivityIssue" = "Některé funkce prezentace nejsou dostupné kvůli problémům s připojením serveru.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Byli jste odpojení, protože jste se připojili z jiného klienta.";
+"LOCID DisconnectedOnNetworkFailure" = "Prezentace se vám nezobrazuje kvůli potížím se sítí.";
+"LOCID DataCollab Known UnSupported" = "Prezentující používá funkci, kterou Skype pro firmy v této verzi nepodporuje.";
+"LOCID DataCollab Generic UnSupported" = "Prezentující používá funkci, kterou Skype pro firmy v této verzi nepodporuje, nebo je připojený ke staršímu serveru.";
+"LOCID DataCollab ContentPresenter" = "Prezentující: %@";
+"LOCID DataCollab NoPresenter" = "Nikdo neprezentuje.";
+"LOCID Collab Unsupported PPTContent" = "V téhle prezentaci bohužel nemůžeme přehrávat média.";
+"LOCID Retry" = "Opakovat";
+"LOCID DataCollab Generic PPT Error" = "Některé funkce prezentace nejsou dostupné kvůli problémům s připojením serveru.";
+"LOCID Start Viewing" = "Zahájit prohlížení";
+"LOCID Stop Viewing" = "Ukončit prohlížení";
+"LOCID Collab Escalation" = "%@ chce zahájit prezentaci.";
+"LOCID PowerPoint content Accessibility" = "Powerpointový obsah";
+
+"LOCID SyncPresenterButton" = "Synchronizovat se zobrazením prezentujícího";
+"LOCID NavigateBackButton" = "O jeden snímek zpátky";
+"LOCID NavigateForwardButton" = "O jeden snímek dopředu";
+"LOCID SlideNumber" = "%1$d z %2$d";
+"LOCID SlideNumber Accessibility" = "%1$d. snímek z %2$d";
+
+"LOCID E_SharingDisabled" = "Prezentace jsou vypnuté.";
+"LOCID E_SharingNetworkIssues" = "Nemůžete předvést prezentaci kvůli potížím se sítí. Zkuste to prosím znovu později.";
+"LOCID E_SharingNotSupported" = "Tento kontakt nepodporuje prezentování.";
+"LOCID E_SharingTimeout" = "Prezentace se nespustila, protože server je zaneprázdněný. Zkuste to prosím znovu později.";
+"LOCID SharingAnotherType" = "Tato prezentace skončila, protože byla spuštěna jiná prezentace.";
+"LOCID E_GetMediaSdpFailed" = "Právě teď vás nemůžeme připojit k desktopové nebo programové prezentaci.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Nebudete moci zobrazit prezentovaný obsah, protože nejste připojení k síti Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "Hovor ve Skypu pro firmy není možné uskutečnit, protože nejste připojení k Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Prezentace je pro zobrazení na tomto zařízení moc velká.";
+"LOCID E_CollabDisconnectedNetworkError" = "Byli jste odpojeni od prezentace kvůli potížím se sítí.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Odpojili jsme vás, protože jste se připojili z jiného klienta.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Načítá se obsah pro sdílení.";
+"LOCID AppSharing Shared Content" = "Sdílený obsah";
+"LOCID AppSharing Desktop" = "Desktop";
+"LOCID AppSharing Application" = "Aplikace";
+"LOCID AppSharing SharingPaused" = "Sílení je momentálně pozastavené."; // Not used
+"LOCID AppSharing SharingIdle" = "Sdílení je momentálně nečinné."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Všechny zdroje jsou minimalizované."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ se pokusil(a) zahájit prezentaci obrazovky, ale tato verze aplikace tuto funkci podporuje jenom u konferenčních hovorů a skypových schůzek.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Spustit rychlé zprávy";
+"LOCID send IM" = "Poslat";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Ukončit konverzaci";
+"LOCID View Contact Card" = "Zobrazit kartu kontaktu";
+"LOCID Invite Others" = "Pozvat další";
+"LOCID Send Location action" = "Odeslat polohu";
+"LOCID Send as Email action" = "Odeslat jako e-mail";
+"LOCID View Participants" = "Zobrazit účastníky";
+"LOCID Rejoin" = "Znovu připojit";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Dvojitým klepnutím rozbalte.";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Nízká kvalita hovoru";
+"LOCID ACI Call Muted" = "Momentálně ztlumeno; poklepáním ztlumení zrušíte.";
+"LOCID ACI Call Unmuted" = "Momentálně ztlumení zrušeno; poklepáním ztlumíte.";
+
+/* Search results */
+"LOCID No Results" = "Žádné výsledky";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "Aplikace %@ se neočekávaně ukončila";
+"LOCID Dont Send" = "Neposílat";
+"LOCID Send Report" = "Poslat zprávu";
+"LOCID Would you like to send a report so we can fix the problem" = "Chcete poslat zprávu, abychom mohli problém odstranit?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype pro firmy";
+
+// Timeline
+"LOCID Timeline Home" = "domů";
+"LOCID Timeline Contacts" = "kontakty";
+"LOCID Timeline Meetings" = "schůzky";
+"LOCID Timeline Search Placeholder" = "prohledat kontakty";
+"LOCID Timeline Recent" = "poslední";
+"LOCID Timeline Upcoming" = "nadcházející";
+"LOCID Timeline TableView" = "časová osa";
+"LOCID Timeline Meeting Time All Day" = "celodenní";
+"LOCID Timeline Search Skype Contacts" = "kontakty";
+"LOCID Timeline Search Phone Contacts" = "telefonní kontakty";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "kontakty";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "číselník a hlasová pošta";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "číselník, %ld nová zpráva hlasové pošty";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "číselník, %ld nových zpráv hlasové pošty";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "schůzky";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "domů";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "můj stav";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, nové zprávy, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "hovor";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "videohovor";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "označit jako přečtené";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "odstranit";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "připojit se ke schůzce";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "zavřít";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "povolit přístup";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "online";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "nemám čas";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "pryč";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "offline";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "nerušit";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "neznámý stav";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "vymazat text";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "prohledat kontakty";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "videohovor";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "hovor";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Připojit se ke schůzce";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Prázdný chat";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Profilový obrázek";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld nová zpráva hlasové pošty";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld nových zpráv hlasové pošty";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Odstranit";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Anděl";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Rozzlobený";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Bandita";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Fotbal";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Pivo";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Smích";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Jízdní kolo";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Červenám se";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Klaním se";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Zlomené srdce";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Dort";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Hovor";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Kamera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Můžete mluvit?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Auto";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Prachy";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Kočka";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Tleskám";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Kafe";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Počítač";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Důvěrné";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Pohoda";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Pláču";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Tančím";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Ďábel";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Pes";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Sakra";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Drink";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Nechápu";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Závidím";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Zlý";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "To snad není možné";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Držím palce";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Květina";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Hry";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Dárek";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Hihňám se";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Hodně štěstí";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Musím jít";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Domluveno";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Šťastný";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Třískám hlavou o zeď";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Srdce";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Veverka";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Ahoj";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Plácnem si";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Počkej";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Objímám";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Nápad";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Zamilovaný";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Ostrov";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "To já ne!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Líbám";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Neposlouchám";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Dáme si schůzku?";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Mlčím jako hrob";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Přišla ti pošta";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Líčím se";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Muž";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "Mmmmm…";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Film";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Velké svaly";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Hudba";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Brejlovec";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Nindža";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Ne";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Souhlas";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Párty";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telefon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Letadlo";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Zvracím";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Rána pěstí";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Prší";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Duha";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Válím se smíchy po podlaze";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Smutek";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Nesouhlas";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Chce se mi spát";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Úsměv";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Drzý úsměv";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Hlemýžď";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Nemám slov";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Hvězdička";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Stop";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Sluníčko";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Překvapení";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Nadávky";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Potím se";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Mluvím";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Nechci to poslouchat";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Přemýšlím";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Čas";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Moc informací";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Vyplazený jazyk";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Ticho před bouří";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Deštník";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Čekej";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Čekám";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Práce z domova";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Co se děje?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Uff";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Mrkám";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Žena";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Údiv";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Obavy";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Zívám";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Ano";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Sem zadejte zprávu.";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Pošlete pozdrav uživateli %@.";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Pošlete pozdrav skupině.";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Vaše konverzace se zobrazí tady.";
+"CHAT_FAILED_TO_SEND" = "Nepovedlo se nám poslat tuto zprávu: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Zobrazit chat";
+"LOCID CONVERSATION_HIDE_CHAT" = "Skrýt chat";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Zobrazit postranní panel";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Skrýt postranní panel";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "emotikony";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "d";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "d";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "h";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "h";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "min";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "min";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "s";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "s";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "Počet nových oznámení: %d";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Jedno nové oznámení";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Žádná nová oznámení";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "konec konference";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "Počet účastníků: %u";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "zavřít";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "otevřít";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "kopírovat";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "přidat do seznamu K přečtení";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "otevřít v Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "zpět";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "vpřed";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "zrušit";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ píše...";
+"CHATTYPING_TWOUSERS" = "%@ a %@ píší...";
+"CHATTYPING_THREEUSERS" = "%@, %@ a jeden další píší...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ a %d dalších uživatelů píše...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "poslat e-mail";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "Zobrazit kartu kontaktu";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "účastníci";
+"DROPDOWN_ADD_PARTICIPANTS" = "přidat účastníky";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Příchozí";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Odchozí";
+
+"LOCID Meetings Page Title" = "Schůzky";
+"LOCID No Meetings Placeholder" = "Vaše schůzky se zobrazí tady.";
+"LOCID Meetings Today" = "Dnes";
+"LOCID Meetings Tomorrow" = "Zítra";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Zadejte osobní zprávu.";
+
+"PARTICIPANTS_VIEW_TITLE" = "Účastníci";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Čekají v předsálí";
+"PARTICIPANTS_VIEW_ON_CALL" = "V tomto hovoru";
+
+"MEETING_VIEW_TITLE" = "Schůzka";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Připojit se ke schůzce";
+"MEETING_VIEW_ORGANISER_LABEL" = "Organizátor";
+"MEETING_VIEW_INVITEES_LABEL" = "Pozvaní";
+"MEETING_VIEW_NOTES_LABEL" = "Poznámky";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Click to join \"%@\" using Skype for Business:"; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Připojování...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Zvolte emotikonu";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Poslat zprávu";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Hovor skončil.";
+"INVITE_PARTICIPANTS" = "Pozvat účastníky";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Zpět";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Adresář";
+"LOCID_PHONE_NUMBER" = "Telefonní číslo";
+"LOCID_MORE" = "Více";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Přepnout video";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Zobrazit profil kontaktu";
+"CHAT_OPTION_PARTICIPANTS" = "Účastníci";
+"LOCID_CONTACTS_TABLE_VIEW" = "Zobrazení kontaktů";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Příchozí hovor";
+"LOCID_MEETINGS_TABLE_VIEW" = "Zobrazení schůzek";

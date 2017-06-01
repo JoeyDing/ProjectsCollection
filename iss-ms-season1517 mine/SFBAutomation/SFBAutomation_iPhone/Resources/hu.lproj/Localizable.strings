@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Válasz";
+"JOIN" = "Elfogadás";
+"VIEW" = "Megjelenítés";
+"IGNORE" = "Kihagyás";
+"LAUNCH" = "Indítás";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "beszélgetésre hívja Önt";
+"NEW_IM_BURNT_TOAST" = "Kihagyott beszélgetés: %@";
+"SIGN_IN" = "Bejelentkezés";
+"SIGN_OUT" = "Tétlenség miatt a rendszer kijelentkeztette.";
+"MWI" = "Új hangpostaüzenet: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Bejelentkezési cím";
+"LOCID Password" = "Jelszó";
+"LOCID User Name" = "Felhasználónév";
+"LOCID Domain" = "Tartomány";
+"LOCID Auto-Detect Server" = "Kiszolgáló észlelése";
+"LOCID Sign-in As" = "Bejelentkezési állapot";
+"LOCID User Name Footer" = "A Skype Vállalati online verzió felhasználói: felhasználónév@tartomány.com\nMás típusú felhasználók: tartomány\\felhasználónév";
+"LOCID Hide Details" = "Speciális beállítások elrejtése";
+"LOCID More Details" = "Speciális beállítások megjelenítése";
+"LOCID Save Password" = "Jelszó mentése";
+
+/* generic share button */
+"LOCID share" = "megosztás";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Belső észlelési cím";
+"LOCID External Server Address" = "Külső észlelési cím";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Küldje el nekünk a bejelentkezési hibák adatait, hogy továbbfejleszthessük a Skype Vállalati verziót.";
+"LOCID Sign In BRB Reason 2" = "Gyűjthetünk adatokat erről és a jövőbeni bejelentkezési hibákról? Később bármikor módosíthatja ennek beállítását a Beállítások lapon.";
+"LOCID BRBDonotshow" = "Ne jelenjen meg ismét";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Bejelentkezés";
+"LOCID Sign Out" = "Kijelentkezés";
+"LOCID Cancel Sign in" = "Bejelentkezés megszakítása";
+"LOCID Lync Is Signing In" = "A Skype Vállalati verzió bejelentkezik...";
+"LOCID Lync Is Signing Out" = "A Skype Vállalati verzió kijelentkezik...";
+
+// Help
+"LOCID signin help" = "Segítség a bejelentkezéshez";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Adataim";
+"LOCID Contacts" = "Partnerek";
+"LOCID Conversations" = "Csevegések";
+"LOCID Meetings" = "Értekezlet";
+"LOCID Phone" = "Telefon";
+"LOCID Signing In" = "Bejelentkezés...";
+"LOCID Signed Out" = "Kilépve";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Mi történik ma?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Személyes megjegyzés";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Íjra be a személyes megjegyzését";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Koppintson duplán a szerkesztéshez";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Ismeretlen";
+"LOCID Available" = "Elérhető";
+"LOCID Busy" = "Elfoglalt";
+"LOCID Busy Inactive" = "Elfoglalt, inaktív";
+"LOCID Do Not Disturb" = "Ne zavarjanak";
+"LOCID Be Right Back" = "Rögtön jövök";
+"LOCID Presence unknown" = "Ismeretlen";
+"LOCID Off Work" = "Nem dolgozom";
+"LOCID Appear Away" = "Látszólag távol";
+"LOCID Away" = "Távol";
+"LOCID Inactive" = "Inaktív";
+"LOCID Reset Status" = "Alapállapot";
+"LOCID Offline" = "Nem elérhető";
+"LOCID Blocked" = "Letiltva";
+"LOCID Sign In As Header" = "Válassza ki a megjelenítendő állapotot:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Telefonál";
+"LOCID In a Conference Call" = "Konferenciahívásban";
+"LOCID Presenting" = "Bemutatót tart";
+"LOCID In a Meeting" = "Értekezleten";
+"LOCID Out of Office" = "Házon kívül";
+"LOCID Urgent Interruptions Only" = "Csak sürgős megkeresésre";
+"LOCID Out To Lunch" = "Ebédel";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "A Skype Vállalati verzió nem tudja megjeleníteni az iPhone-partnereket. A hibát az iPhone beállításaiban javíthatja ki.";
+"LOCID ContactsPermissionNotGiven iPad" = "A Skype Vállalati verzió nem tudja megjeleníteni az iPad-partnereket. A hibát az iPad beállításaiban javíthatja ki.";
+"LOCID Other Contacts" = "Egyéb partnerek";
+"LOCID Pinned Contacts" = "Kedvencek";
+"LOCID Retrieving Members" = "Kis türelmet...";
+"LOCID Cannot connect Try again" = "A csoporttagok most nem olvashatók be a kiszolgálóról. Próbálkozzon később.";
+"LOCID Group is too large to display" = "A csoport mérete miatt nem jeleníthető meg.";
+"LOCID No members" = "Nincsenek tagok";
+"LOCID Searching the company directory" = "Keresés a vállalati címtárban...";
+"LOCID Please signin to search" = "A vállalati címtárban való kereséshez jelentkezzen be.";
+"LOCID Too many results" = "Túl sok a találat. Pontosítsa a keresési feltételeket.";
+"LOCID Unable to connect to the server" = "Most nem sikerült csatlakozni a kiszolgálóhoz. Próbálkozzon később.";
+"LOCID E_SearchTooLong" = "Nincs találat. Próbálkozzon rövidebb keresőkifejezéssel.";
+"LOCID No Name" = "Nincs név";
+"LOCID idle day" = "%d napja";
+"LOCID idle days" = "%d napja";
+"LOCID idle hour" = "%d órája";
+"LOCID idle hours" = "%d órája";
+"LOCID idle minutes" = "%d perce";
+"LOCID inactive idle day" = "Inaktív %d napja";
+"LOCID inactive idle days" = "Inaktív %d napja";
+"LOCID inactive idle hour" = "Inaktív %d órája";
+"LOCID inactive idle hours" = "Inaktív %d órája";
+"LOCID inactive idle minutes" = "Inaktív %d perce";
+"LOCID DG does not exist" = "A terjesztési csoport már nem létezik.";
+"LOCID Access to DG denied" = "Nincs jogosultsága a terjesztési csoport elérésére";
+"LOCID No Contacts Placeholder" = "Itt jelennek meg majd a partnerek";
+"LOCID No Contacts" = "Nincsenek partnerek";
+"LOCID You currently have no contacts" = "Jelenleg nincs partnere";
+"LOCID Retrieving Contacts..." = "Partnerek beolvasása...";
+"LOCID Expanded" = "%@ csoport, kibontva";
+"LOCID Collapsed" = "%@ csoport, összecsukva";
+"LOCID Group card- acc" = "Csoportkártya";
+"LOCID Open group card - acc" = "Koppintson ide a csoportkártya megnyitásához";
+
+/* Contact Card*/
+"LOCID Loading name" = "Név betöltése...";
+"LOCID Details" = "Névjegykártya";
+"LOCID Work" = "Munkahelyi";
+"LOCID Home" = "Otthoni";
+"LOCID Mobile" = "Mobil";
+"LOCID Other" = "Egyéb";
+"LOCID other lowercase" = "egyéb";
+"LOCID Office" = "Irodai";
+"LOCID Company" = "Vállalati";
+"LOCID Department" = "Részleg";
+"LOCID Send Text Message" = "SMS küldése";
+"LOCID IM" = "csevegés";
+"LOCID E-Mail" = "E-mail";
+"LOCID unknown lowercase" = "ismeretlen";
+"LOCID Location lowercase" = "hely";
+"LOCID Calendar" = "naptár";
+"LOCID Link" = "hivatkozás";
+"LOCID Disabled" = "%@, letiltva"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Megjegyzés";
+"LOCID Video" = "Videó";
+
+/* DG Card*/
+"LOCID Members" = "TAGOK"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Meghívás";
+"LOCID Transfer" = "Átadás";
+
+/* Certificate UI */
+"LOCID certTitle" = "A Skype Vállalati verzió próbálja Önt átirányítani a következőhöz:";
+"LOCID certIssuedBy" = "Kiállító:";
+"LOCID certSubject" = "Tárgy:";
+"LOCID certExpires" = "Elévül:";
+"LOCID certSignature" = "Aláírási algoritmus:";
+"LOCID certDonotshow" = "Ne jelenjen meg többször.";
+"LOCID Continue" = "Tovább";
+"LOCID certNone" = "Nincs titkosítás";
+"LOCID certRSA" = "RSA titkosítás";
+"LOCID certDSA" = "DSA titkosítás";
+"LOCID certDH" = "DH titkosítás";
+"LOCID certEC" = "EC titkosítás";
+"LOCID certHMAC" = "HMAC titkosítás";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Beszélgetés";
+"LOCID Chats - Phone Call" = "Telefonhívás";
+"LOCID Chats - Video Call" = "Videohívás";
+"LOCID Chats - Meeting" = "Értekezlet";
+"LOCID Chats - Missed Call" = "Nem fogadott hívás";
+"LOCID Chats - Missed Video Call" = "Nem fogadott videohívás";
+"LOCID Chats - Current Call" = "Aktuális hívás";
+"LOCID Chats - Current Call With Duration" = "Aktuális hívás, %@";
+"LOCID Phone Status - Connecting" = "Kapcsolódás...";
+"LOCID Phone Status - On Hold" = "Várakoztatva";
+"LOCID Phone Status - Transferring" = "Átadás folyamatban";
+"LOCID Transferring to" = "Átadás a következőnek: %@...";
+"LOCID Chats Full" = "Figyelem: A lista megtelt. Az újabb beszélgetések felülírják a régebbieket.";
+"LOCID Close Conversation" = "Beszélgetés törlése";
+"LOCID View Participants List" = "Résztvevők listája";
+"LOCID Call Contact" = "Hívás: %@";
+"LOCID Video Call Contact" = "Videohívás";
+"LOCID Video Conference Contact" = "Videokonferencia";
+"LOCID Edit" = "Szerkesztés";
+"LOCID Deselect All" = "Az összes kijelölés törlése";
+"LOCID Select All" = "Az összes kijelölése";
+"LOCID Me" = "Én: %@";
+"LOCID Missed" = "Kihagyva: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Csoportos beszélgetés";
+"LOCID Tap To Enter Text" = "Koppintson az íráshoz";
+"LOCID No Conversations" = "Nincs beszélgetés";
+"LOCID No Conversations Hint" = "Jelenleg nincs beszélgetés";
+"LOCID Delete Count" = "Törlés (%d)";
+"LOCID Delete None" = "Törlés";
+"LOCID Escalating audio conference" = "Konferenciahívás indítása...";
+"LOCID Escalating video conference" = "Videokonferencia indítása...";
+"LOCID No Participants" = "Nincs résztvevő";
+"LOCID No Other Participants" = "Nincs több résztvevő";
+"LOCID One Participant" = "1 résztvevő";
+"LOCID Some Participants" = "%d résztvevő";
+"LOCID Max Participants" = "%d+ résztvevő";
+"LOCID Large Meeting" = "Nagy értekezlet";
+"LOCID Toast No Invite" = "beszélgetésre hívja Önt";
+"LOCID Participant Join" = "%@ bekapcsolódott az értekezletbe";
+"LOCID Participant Leave" = "%@ kilépett az értekezletből";
+"LOCID Participant Join Failure" = "%@ nem tudott bekapcsolódni az értekezletbe";
+"LOCID Large Conference" = "Nagy értekezlet";
+"LOCID Large Conference Detail" = "A résztvevőlista sokrésztvevős értekezleteken nem érhető el.";
+"LOCID No Participants Detail" = "A beszélgetésnek nincsenek résztvevői";
+"LOCID cannotSend" = "Nem sikerült kézbesíteni az üzenetet:";
+"LOCID Missed Conversation" = "Kihagyott beszélgetés";
+"LOCID Send as Email" = "Küldés e-mailként";
+"LOCID Email Subject" = "%1$@-beszélgetés: %2$@";
+"LOCID Anonymous" = "Névtelen";
+"LOCID Duration" = "Időtartam:";
+"LOCID Switch Camera" = "Kameraváltás";
+"LOCID Swap PIP" = "PIP váltása";
+"LOCID Leave Video" = "Kilépés a videóból";
+"LOCID Start My Video" = "Videokép indítása";
+"LOCID Stop My Video" = "Videokép leállítása";
+"LOCID End Video" = "Videó befejezése";
+"LOCID LargeMtgActiveSpeakerMissing" = "Az előadói adatok sokrésztvevős értekezleteknél nem érhetők el.";
+"LOCID Swap Preview" = "Képváltás";
+"LOCID Speaker On" = "Hangszóró bekapcsolva";
+"LOCID Speaker Off" = "Hangszóró kikapcsolva";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "A videó be van kapcsolva";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Koppintson duplán a videó kikapcsolásához.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "A videó ki van kapcsolva";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Koppintson duplán a videó bekapcsolásához.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "A kihangosítható telefon be van kapcsolva";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Koppintson duplán a kihangosítható telefon kikapcsolásához.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "A kihangosítható telefon ki van kapcsolva";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Koppintson duplán a kihangosítható telefon bekapcsolásához.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Hívás elnémítva";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Koppintson duplán a visszahangosításhoz.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Hívás visszahangosítva";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Koppintson duplán az elnémításhoz.";
+
+"LOCID Instant Messaging" = "Csevegés";
+"LOCID Voice" = "Hang";
+"LOCID Collaboration" = "Együttműködés";
+"LOCID Participants" = "Résztvevők";
+"LOCID Full Screen" = "Teljes képernyő";
+"LOCID Exit Full Screen" = "Kilépés a teljes képernyős nézetből";
+"LOCID Local Participant Alone in Conference Msg" = "A beszélgetésnek jelenleg nincs más résztvevője.";
+"LOCID 1 or more participants" = "Legalább egy résztvevő";
+"LOCID Call Started" = "A hívás elkezdődött – %@";
+"LOCID Call Ended Missed" = "A hívás befejeződött – %@ (nem fogadott hívás)";
+"LOCID Call Ended Duration" = "A hívás befejeződött – %@ (időtartam: %@)";
+"LOCID ConferenceEndedRejoin" = "Már nem kapcsolódik az értekezlethez. Az újracsatlakozáshoz koppintson alább.";
+"LOCID ConferenceEndedContinue" = "Ha újraindítja a beszélgetést, akkor új meghívót kap minden korábbi résztvevő.";
+"LOCID IM P2P Toast Voiceover" = "%@ beszélgetésre hívja Önt. Koppintson duplán az elfogadáshoz.";
+"LOCID IM Conf Toast Voiceover" = "%@ csoportos beszélgetésre hívja Önt. Koppintson duplán az elfogadáshoz.";
+"LOCID Video is Locked on you" = "A videókép rögzítve van Önön.";
+
+"LOCID SFB Call Started" = "Hívás elindítva";
+"LOCID SFB Call Ended" = "Hívás vége";
+"LOCID SFB Call Ended Duration" = "Hívás vége, időtartam: %@";
+
+/* Roster*/
+"LOCID Presenters" = "ELŐADÓK (%d)";
+"LOCID Attendees" = "NÉZŐK (%d)";
+"LOCID In Lobby" = "ELŐSZOBA (%d)";
+"LOCID Guest" = "Vendég";
+"LOCID Remove" = "Eltávolítás";
+"LOCID E_RemoveFailed" = "Nem sikerült a résztvevő eltávolítása.";
+"LOCID E_AddFailed" = "Nem sikerült a résztvevő felvétele.";
+
+/*Lobby*/
+"LOCID Admit all" = "Összes beengedése";
+"LOCID Deny all" = "Összes elutasítása";
+"LOCID Admit" = "Beengedés";
+"LOCID Deny" = "Elutasítás";
+"LOCID See Lobby" = "Előszoba megjelenítése";
+"LOCID Conference In the Lobby" = "Résztvevők várnak az előszobában.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Beállítás előadónak";
+"LOCID Demote" = "Beállítás nézőnek";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Mobil";
+"LOCID Voice and IM Unavailable" = "Nincs hang/csevegés";
+"LOCID Voice Only" = "Csak hang";
+"LOCID Voice and Video Only" = "Csak hang/videokép";
+"LOCID IM Only" = "Csak csevegés";
+"LOCID No Voice" = "Nincs hang";
+"LOCID Video capable" = "Videohívást is tud fogadni";
+"LOCID No IM" = "Nincs csevegés";
+"LOCID Mobile Cap" = "Mobil";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Billentyűzet";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Hívás";
+"LOCID Dialpad" = "Tárcsázó";
+"LOCID Dialpad STAR Key" = "Csillag";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Kettőskereszt"; // Used for accessibility
+"LOCID Delete Key" = "Törlés";   // Used for accessibility
+"LOCID Emergency number" = "Segélyhívó szám"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "elrejtés";
+"LOCID Dialpad Search Recent Calls" = "legutóbbi hívások";
+"LOCID Dialpad Search Native Contacts" = "telefonos partnerek";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Hiba a partnerekkel";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "A telefonszámok névjegyekből való lekérdezése közben hiba történt. A probléma megoldásához próbálja újraszinkronizálni a levelezőfiókjait a Beállítások alatt.";
+
+/* My Status Tab */
+"LOCID Options" = "Beállítások";
+"LOCID Send Feedback" = "Visszajelzés";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ - %2$@";
+"LOCID DateOfMeeting Format" = "%2$@, %1$@";
+"LOCID InfoCell DateTime Format" = "%2$@, %1$@";
+"LOCID DialPad List Format" = "%2$@, %1$@";
+"LOCID Calendar Event View From Date Format" = "%2$@, %3$@ %1$@ -"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "%2$@, %1$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "%1$@ - %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Nincs értekezlet";
+"LOCID All" = "Mind";
+"LOCID No Meetings Scheduled" = "Nincs ütemezett értekezlet";
+"LOCID None" = "Nincs";
+"LOCID Organizer" = "Szervező";
+"LOCID Invitees" = "MEGHÍVOTTAK";
+"LOCID Notes" = "MEGJEGYZÉSEK";
+"LOCID Join" = "Bekapcsolódás";
+"LOCID Updated DATE TIME" = "Frissítve: %1$@, %2$@";
+"LOCID Online" = "Online";
+"LOCID Tentative" = "Feltételes";
+"LOCID Event" = "Esemény";
+"LOCID Updating..." = "Frissítés...";
+"LOCID Tentative Voiceover" = "%@, feltételes";
+"LOCID Pull to refresh" = "Húzza le a frissítéshez";
+"LOCID Today" = "MA"; // CAPS
+"LOCID Tomorrow" = "HOLNAP"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Ha Ön nem szervező, csatlakozásakor a mikrofonja el lesz némítva.";
+"LOCID Lync Conferencing" = "Skype-értekezlet";
+"LOCID Joining Step 1" = "Kapcsolódás...";
+"LOCID Please wait to be admitted" = "Várjon a beengedésre";
+"LOCID Join Conf Error" = "Megszűnt a kapcsolat az értekezlettel.";
+"LOCID Anonymous Join" = "Bekapcsolódás névtelenül";
+"LOCID Enter your name" = "Írja be a nevét";
+"LOCID Anonymous Join Greeting" = "Üdvözli a Skype Vállalati verzió";
+"LOCID Sign in with Lync" = "Bejelentkezés a Skype Vállalati verzióval";
+"LOCID Sign in as guest" = "Bejelentkezés vendégként";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Nem tudjuk az értekezlethez csatlakoztatni Önt az iPhone-száma nélkül. Adja meg a számot a Skype Vállalati verzió beállításaiban.";
+"LOCID Join Conf Error - No Number iPad" = "Nem tudjuk az értekezlethez csatlakoztatni Önt a telefonszáma nélkül. Adja meg a számot a Skype Vállalati verzió beállításaiban.";
+"LOCID Join Meeting Line 1 Text" = "Bekapcsolódás az értekezletbe\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Hívás itt: %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Üdvözöljük! Helyezze magát kényelembe ebben a virtuális előszobában, és ne váltson át más alkalmazásra, mert a szervező hamarosan beengedi.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Nem sikerült csatlakozni az értekezlethez, mert a szervező nincs jelen vagy nem válaszolt.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Megszakadt a kapcsolat. A Bekapcsolódás gombra koppintva próbálkozzon újra.";
+"LOCID View" = "Megjelenítés";
+"LOCID Join Meeting" = "Bekapcsolódás értekezletbe";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Bekapcsolódás az értekezletbe";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Nem tudjuk csatlakoztatni Önt, mert az értekezlet megtelt. Forduljon a szervezőhöz.";
+"LOCID AdmittedToLobby" = "Beengedték az értekezletre. Máris hívjuk Önt...";
+"LOCID MtgDisclaimerAccept" = "Elfogadás";
+"LOCID MtgDisclaimerDecline" = "Kihagyás";
+"LOCID E_MeetingNotFound" = "Nem érhető el az értekezlet, amelybe megpróbál bekapcsolódni.";
+"LOCID E_MeetingsNotEnabled" = "Ez az értekezletfunkció szervezeti szinten nincs engedélyezve.";
+"LOCID E_OutsideOrg" = "Az illetőnek vagy az értekezletnek nincs engedélye az Ön hálózatában.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Hívások és értekezletek";
+"LOCID credentialsSection" = "Saját hitelesítő adatok";
+"LOCID contactsSection" = "Partnerek";
+"LOCID accessibilitySection" = "Kisegítő lehetőségek";
+"LOCID otherSection" = "Egyéb";
+"LOCID Show Recent Contacts" = "Közelmúltbeli beszélgetési partnerek";
+"LOCID Show Pinned Contacts" = "Kiemelt partnerek";
+"LOCID Show Photos" = "Fényképek";
+"LOCID Sort by availability" = "Rendezés elérhetőség alapján";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Naplózás";
+"LOCID About" = "Névjegy";
+"LOCID About Version" = "Verzió: %@";
+"LOCID Status" = "Állapot";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP-proxy";
+"LOCID Require WiFi" = "Ez a funkció csak Wi-Fi kapcsolatot használhat:";
+"LOCID WiFi VoIP" = "Hang";
+"LOCID WiFi Video" = "Videó";
+"LOCID WiFi Collab" = "Értekezlettartalom";
+"LOCID WiFi Warning" = "Ha ez a beállítás le van tiltva, az adatkapcsolaton keresztül intézhet hívásokat (ez esetleg extra költséget és rosszabb minőséget jelent).";
+"LOCID WiFi Warning iPad" = "Ha ez a beállítás ki van kapcsolva, adatkapcsolaton keresztül is fogadhat hívásokat és értekezlettartalmakat (azonban ez díjköteles lehet, és alacsonyabb minőséget jelenthet).";
+"LOCID Not a SfB User" = "Nem Skype Vállalati verziós felhasználó?";
+
+
+/* About View */
+"LOCID About Title" = "Névjegy";
+"LOCID version" = "Verzió: %@";
+"LOCID Long Product Name" = "%1$@-hoz készült Skype® Vállalati verzió"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Minden jog fenntartva.";
+"LOCID online help" = "Súgó";
+"LOCID Terms Of Use" = "Használati feltételek";
+"LOCID Privacy title" = "Adatvédelem";
+"LOCID Third Party Notices" = "Harmadik felekkel kapcsolatos nyilatkozatok";
+"LOCID ABOUT_COPYRIGHT" = "© 2003–2015 Skype & Microsoft\nBejelentett szabadalom";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "A Skype név, illetve a vonatkozó védjegyek és emblémák, valamint az „S” embléma a Skype vagy kapcsolódó jogalanyainak védjegye.\n\nFigyelem: Ezt a programot szerzői jogok és nemzetközi egyezmények védik. A programnak vagy bármely részének engedély nélküli másolása vagy terjesztése súlyos büntetőjogi és polgári következményekkel járhat, és a lehető legszigorúbb büntetést vonja maga után.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Hívásátirányítás";
+"LOCID Forward Section" = "Szám választása";
+"LOCID Apply Setting Section" = "Beállítások alkalmazása";
+"LOCID Summary Section" = "Jelenlegi beállítások:";
+"LOCID Do Not Forward" = "Nincs átirányítás";
+"LOCID Forward Calls" = "Hívások átirányítása";
+"LOCID Forward Calls To" = "Hívásátirányítás ide:";
+"LOCID Simultaneously Ring" = "Egyidejű csengetés";
+"LOCID On" = "Be";
+"LOCID Off" = "Ki";
+"LOCID During Working Hours" = "Munkaidőben";
+"LOCID Voicemail" = "Hangposta";
+"LOCID Team Call" = "Csoportos hívás tagjai";
+"LOCID Delegates" = "Meghatalmazottak";
+"LOCID Pending Persons" = "Akik felvettek";
+"LOCID Delegate Target" = "meghatalmazottai";
+"LOCID TeamCall Target" = "csapathívási csoporttagjai";
+"LOCID Voicemail Target" = "az Ön hangpostája";
+"LOCID DoNotForward Summary" = "A hívások a munkahelyi telefonjára érkeznek, és nem lesznek átirányítva. A mobiltelefonjára nem érkeznek hívások, ha nem érhető el internetes telefonálási (VoIP) szolgáltatás.";
+"LOCID DoNotForward Summary iPad" = "A hívások a munkahelyi telefonjára érkeznek, és nem lesznek átirányítva. Az iPadjére nem érkeznek hívások, ha nem érhető el internetes telefonálási (VoIP) szolgáltatás.";
+"LOCID ForwardCalls Summary" = "A hívások közvetlenül ide lesznek átirányítva: %@. Ha ez nem mobiltelefonja hívószáma, akkor oda nem fognak hívások érkezni.";
+"LOCID ForwardCalls Summary iPad" = "A hívások közvetlenül ide lesznek átirányítva: %@, és iPadjére nem fognak hívások érkezni.";
+"LOCID Simulring Summary" = "A hívások a munkahelyi telefonjára és ide érkeznek: %@. Ha ez mobiltelefonja hívószáma, akkor oda is eljutnak a hívások, ha nincs elérhető internetes telefonálási (VoIP) szolgáltatás.";
+"LOCID Simulring Summary iPad" = "A hívások meg fognak érkezni a munkahelyi telefonjára és ide is: %@. Ha nincs elérhető internetes telefonálási (VoIP) szolgáltatás, iPadjére nem fognak hívások érkezni.";
+"LOCID View Settings" = "Jelenlegi beállítások megtekintése";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Beállítások alkalmazása";
+"LOCID All the Time" = "Mindig";
+"LOCID During Outlook Working Hours" = "Outlook-munkaidőben";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Munkah.";
+"LOCID Home Capitalized" = "Otthoni";
+"LOCID Mobile Capitalized" = "Mobil";
+"LOCID Custom Capitalized" = "Egyéni";
+"LOCID Other Capitalized" = "Egyéb";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Mégse";
+"LOCID Add" = "Hozzáadás";
+"LOCID New Number" = "Új szám";
+"LOCID New Contact" = "Új partner";
+"LOCID Contact" = "Partner";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Bejelentkezési naplók feltöltése";
+"LOCID SignInBRB - Always" = "Mindig";
+"LOCID SignInBRB - Never" = "Soha";
+"LOCID SignInBRB - Ask Me" = "Kérdést kérek";
+"LOCID Send Log Files" = "Naplók küldése";
+"LOCID Log Email Subject" = "Skype Vállalati verziós naplófájlok"; //product name
+"LOCID Device Model" = "Eszköz típusa:";
+"LOCID Device OS Name" = "Eszköz operációs rendszere:";
+"LOCID Device OS Version" = "Eszköz operációsrendszer-verziója:";
+"LOCID Enable Logging" = "Naplózás engedélyez.";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "HTTP-proxy";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "A HTTP-proxy beállítását a(z) %@ Wi-Fi beállításainál fejezheti be.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Skype Vállalati verziós hitelesítő adatok használata";
+"LOCID Exchange Credentials Info" = "A Skype Vállalati verzió csak az Exchange-fiók hitelesítő adatainak beolvasása után tudja megjeleníteni az összes értekezlet- és hangposta-információt.";
+"LOCID Email Address" = "E-mail cím";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Saját mobilszámom";
+"LOCID My Mobile Number Details" = "Írja be iPhone-számát az országhívószámmal és a körzetszámmal együtt:";
+"LOCID My Mobile Number Details iPad" = "Írja be telefonszámát az országhívószámmal és a körzetszámmal együtt:";
+"LOCID My Mobile Number Footer" = "Ezzel a funkcióval munkahelyi hívásokat indíthat és fogadhat, valamint értekezletekbe kapcsolódhat be a Skype Vállalati verzióból.\n(Ha VoIP szolgáltatást használ, de az éppen nem érhető el, akkor a program a mobilján keresztül fog csatlakozni.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Ezzel a funkcióval értekezletekbe kapcsolódhat be a Skype Vállalati verzióból.\n(Ha VoIP szolgáltatást használ, de az éppen nem érhető el, akkor a program a mobilján keresztül fog csatlakozni.)";
+"LOCID iPhone Number" = "Telefonszám";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Hívás hivatali számról";
+"LOCID Missing iPhone Number Error" = "Nincs megadva telefonszám";
+"LOCID Missing iPhone Number Error Text" = "A hívás nem építhető fel. Írja be az iPhone-telefonszámát a Beállítások képernyőn, és indítsa újra a hívást.";
+"LOCID Missing iPad Number Error Text" = "A hívás nem építhető fel. Írja be a telefonszámát a Beállítások képernyőn, és indítsa újra a hívást.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Használatbavétel előtt";
+"LOCID Main text" = "Bárki használhatja a Skype Vállalati verzió mobilappját, aki meghívást kap egy Skype-értekezletbe. Az app összes funkcióját azonban csak Skype Vállalati verziós fiókkal élvezheti.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "További beállítások";
+"LOCID Add Contact" = "Partner hozzáadása";
+"LOCID Add to Group" = "Hozzáadás a csoporthoz";
+"LOCID Remove Contact" = "Partner eltávolítása";
+"LOCID Remove from Group" = "Törlés a csoportból";
+"LOCID Groups" = "Csoportok";
+"LOCID E_AddContactFailureGeneral" = "A partnert most nem lehet felvenni. Később próbálkozzon újra.";
+"LOCID E_AddContactFull" = "Nem vehet fel több partnert ebbe a csoportba.";
+"LOCID E_AddContactInGroup" = "A partner már ebben a csoportban van.";
+"LOCID E_RemoveContactFailureGeneral" = "A partnert most nem lehet eltávolítani. Később próbálkozzon újra.";
+"LOCID Confirm Remove Contact" = "Ezzel a művelettel %@ nevű partnerét eltávolítja a Partnerek listából.";
+"LOCID Ignore" = "Mellőzés";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "További információ";
+"LOCID CEIP More Info" = "Segítse a Skype Vállalati verzió fejlesztését azzal, hogy névtelen használati adatait a Microsoft rendelkezésére bocsátja.";
+"LOCID ceipSectionTitle" = "Felhasználói élmény fokozása program";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Üdvözöljük!";
+"LOCID Lets begin" = "Lássunk hozzá...";
+
+/* First Run Experience */
+"LOCID Close" = "Bezárás";
+"LOCID Change" = "Igen";
+"LOCID Don't change" = "Nem";
+"LOCID Next" = "Tovább";
+"LOCID Done" = "Kész";
+"LOCID First Run First Step" = "A Lyncből Skype Vállalati verzió lett, ami egyesíti a Skype tapasztalatát a Microsoft nagyvállalati minőségével.";
+"LOCID First Run Second Step" = "Bárki használhatja ezt az alkalmazást és bekapcsolódhat egy Skype-értekezletbe, de az összes funkciót csak Skype Vállalati verzióbeli fiókkal érheti el, és csak akkor, ha szervezete engedélyezte az alkalmazást.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "MÓDOSÍTJA A HÍVÁSÁTIRÁNYÍTÁSI BEÁLLÍTÁSOKAT?";
+"LOCID First Run CF Current Settings" = "Jelenlegi beállítások:";
+"LOCID First Run CF Change Settings" = "Új beállítások:";
+"LOCID First Run Change Summary" = "Megadta telefonszámát, amin munkahelyi hívásokat fogadhat. Most módosítani kell a jelenlegi hívásátirányítási beállításokat, hogy eljussanak a hívások a telefonjára.";
+"LOCID First Run Change Request" = "Engedélyezi a módosítást, hogy a munkahelyi telefonja és a(z) %@ telefonja egyszerre csengjen?";
+"LOCID DoNotForward Summary - First Run" = "A hívások a munkahelyi telefonra érkeznek, és nem lesznek átirányítva más számra.";
+"LOCID ForwardCalls Summary - First Run" = "A hívások ide lesznek átirányítva: %@.";
+"LOCID Simulring Summary - First Run" = "A hívások a munkahelyi telefonjára és ide érkeznek: %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "SOSEM KELL LEMARADNIA EGY HÍVÁSRÓL";
+"LOCID My Mobile Number Title 2" = "SOSEM KELL KIHAGYNIA EGY ÉRTEKEZLETET";
+"LOCID My Mobile Number Details First Run" = "Írja be iPhone-ja telefonszámát az országhívószámmal és a körzetszámmal együtt:";
+"LOCID My Mobile Number Details First Run_iPad" = "Írja be telefonszámát az országhívószámmal és a körzetszámmal együtt:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "ADATFORGALOM-KEZELÉS";
+"LOCID Setup Work Calls Sub Text" = "Az adatforgalom, a hívások és az értekezletek forgalmi díjainak kezelése.";
+
+"LOCID Require Wifi for VoIP calls" = "VoIP-hívásokhoz Wi-Fire van szükség";
+"LOCID Require Wifi for VoIP calls off subtext" = "Ha nincs Wi-Fi kapcsolat, a hívások mobilhálózati adatkapcsolattal fognak zajlani.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Csak Wi-Fi hálózati kapcsolaton zajlanak a hívások, mobil adatforgalmat nem generál az alkalmazás.";
+
+"LOCID Require Wifi for Video calls" = "Videohívásokhoz Wi-Fire van szükség";
+"LOCID Require Wifi for Video calls off subtext" = "Ha nincs Wi-Fi kapcsolat, a videohívások mobilhálózati adatkapcsolattal fognak zajlani. (Legyen óvatos, ez nagy mennyiségű adatot jelenthet.)";
+"LOCID Require Wifi for Video calls on subtext" = "Csak Wi-Fi hálózati kapcsolaton zajlanak a videohívások, mobil adatforgalmat nem generál az alkalmazás.";
+
+"LOCID Require Wifi for meeting content" = "Értekezlettartalmakhoz Wi-Fire van szükség";
+"LOCID Require Wifi for meeting content off subtext" = "Ha nincs Wi-Fi kapcsolat, az értekezlettartalmak beolvasása mobilhálózati adatkapcsolattal fog zajlani. (Legyen óvatos, ez nagy mennyiségű adatot jelenthet.)";
+"LOCID Require Wifi for meeting content on subtext" = "Az értekezlettartalmak beolvasása mindig Wi-Fi kapcsolattal történik, sosem mobilhálózati adatkapcsolattal.";
+
+"LOCID Skip" = "Kihagyás";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "A Skype Vállalati verzió használatbavétele";
+
+"LOCID First Run Successful Setup" = "MINDEN ELKÉSZÜLT!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "ÜDVÖZÖLJÜK!";
+"LOCID First Run Successful Setup Details" = "A Beállítások lapon bármikor módosíthatja a beállításokat.";
+
+"LOCID improve lync" = "Segítse a Skype Vállalati verzió fejlesztését";
+"LOCID whyphonenumber" = "Miért van szükségünk a telefonszámára?";
+"LOCID more detail" = "Részletek";
+
+"LOCID Emergency Call Disclaimer" = "Fontos információk:";
+"LOCID Emergency Call Disclaimer Details" = "A szolgáltató az összes hívásért a szokásos díjakat számítja fel.\n\nFontos: ne használja a Skype Vállalati verziót segélyhívásra.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Fontos";
+"LOCID Emergency Call Disclaimer Details iPad" = "Ne használja a Skype Vállalati verziót segélyhívásra.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Leküldéses értesítések";
+"LOCID Push Notification Legal1" = "A funkció használatának elfogadása előtt tájékoztatjuk, hogy a leküldéses értesítések és azok tartalma az Apple Push Notification szolgáltatásán és a Microsoft Push Notification rendszerén lesznek továbbítva.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Módosította a leküldéses értesítések beállításait a(z) %1$@ értesítési beállításaiban, de a Skype Vállalati verziót újra kell indítania az értesítések leállításához.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Mobil használata";
+"LOCID Call via Work Not Available Error" = "Nem kezdeményezhet Skype Vállalati verziós hívást, mert a program offline állapotban van. Indítsa a hívást a mobilszámáról.";
+"LOCID Call via Work Not Available Error iPad" = "Nem kezdeményezhet Skype Vállalati verziós hívást, mert offline.";
+"LOCID Answer incoming call" = "Válasz bejövő hívásra";
+"LOCID to connect you to... display name" = "kapcsolódáshoz...\n%@";
+
+"LOCID Call via Work Connecting" = "Kapcsolódás...\n A következő bejövő hívás fogadása.";
+"LOCID Call via Work Connected" = "Erről a számról kapcsolódott be: %1$@";
+"LOCID Video Disclaimer" = "Nem láthat és nem oszthat meg videót.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Bekapcsolódott a(z) %1$@ hívószámról.";
+
+/* Errors */
+"LOCID Error" = "Hiba";
+"LOCID E_GenericFailure" = "Hiba történt a Skype Vállalati verzióban. Kérjük, próbálkozzon újra. Ha a probléma nem szűnik meg, forduljon a támogatási csoporthoz.";
+"LOCID E_GroupNotFound" = "A keresett csoport nem található.";
+"LOCID E_PermissionsForGroup" = "Nincs engedélye a csoport kibontásához.";
+"LOCID E_ConnectionError" = "Nem sikerült a kiszolgálóhoz csatlakozni. Ellenőrizze a hálózati kapcsolatot és a kiszolgáló címét, majd próbálkozzon újra.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Nem sikerült csatlakozni a kiszolgálóhoz. 1) Lehet, hogy nem érhető el. 2) Ellenőrizze a hálózati kapcsolatot. 3) Győződjön meg arról, hogy a szervezetétől kapott Skype Vállalati verziós fiókadatokat használja. 4) Felhasználóneve nem feltétlenül egyezik meg a bejelentkezési nevével. Koppintson a Speciális beállítások elemre, és írja be a felhasználónevét vagy a tartománynév\\felhasználónév alakban használatos bejelentkezési nevét.";
+"LOCID E_AutoDiscoveryInBackground" = "Megváltoztak a kiszolgáló beállításai. Kérjük, indítsa újra a Skype Vállalati verziót.";
+"LOCID E_SslError" = "Nem sikerült ellenőrizni a kiszolgáló tanúsítványát. Kérje a támogatási csoport segítségét.";
+"LOCID E_SslCertExpiredError" = "Nem sikerült ellenőrizni a kiszolgáló tanúsítványát. Kérje a támogatási csoport segítségét.";
+"LOCID E_ProxyAuthError" = "Nem sikerült a bejelentkezés. A(z) %@ és a Skype Vállalati verzió beállításai között adja meg a HTTP-proxy beállításait, vagy csatlakozzon 3G hálózaton.";
+"LOCID E_ConnectionTimeoutError" = "Nem lehet a kiszolgálóhoz csatlakozni. Lehet, hogy foglalt, vagy ideiglenesen nem érhető el. Próbálkozzon újra.";
+"LOCID E_GenericApplicationError" = "Alkalmazáshiba történt, indítsa újra az alkalmazást.";
+"LOCID E_AuthError" = "Nem sikerült bejelentkezni. Ellenőrizze fiókadatait, és próbálkozzon újra.";
+"LOCID E_InvalidCredentials" = "Nem sikerült bejelentkezni. Ellenőrizze fiókadatait, és próbálkozzon újra.";
+"LOCID E_InvalidSignInAddress" = "Nem lehet bejelentkezni. Ellenőrizze a bejelentkezési címet, és próbálkozzon újra.";
+"LOCID E_InvalidLyncAccount" = "Érvénytelen bejelentkezési adatokat írt be.  Jelentkezzen be a szervezetétől kapott Skype Vállalati verziós fiók használatával.";
+"LOCID E_WrongHomePool" = "Nincs beállítva a kiszolgálókapcsolat. Forduljon a támogatási csoporthoz.";
+"LOCID E_ImSendError" = "Sikertelen küldés:";
+"LOCID GenericRetryError" = "Nem sikerült a kiszolgálóhoz csatlakozni. Az alkalmazás újra próbálkozik...";
+"LOCID GenericError" = "Kiszolgálóhiba történt. Próbálkozzon újra.";
+"LOCID RequestFailed" = "Nem sikerült feldolgozni a kérést. Próbálkozzon újra.";
+"LOCID DecodingError" = "Nem sikerült feldolgozni a kiszolgáló válaszát. Próbálkozzon újra. Ha a probléma továbbra is fennáll, forduljon a támogatási csoporthoz.";
+"LOCID VersionMismatch" = "Ezzel a Skype Vállalati verzióval nem tud bejelentkezni. Telepítsen egy újabb verziót. Ha az sem oldja meg a problémát, forduljon a támogatási csoporthoz.";
+"LOCID SignInCredentialsAreNeeded" = "Ki lett jelentkeztetve. Szükségünk van a fiókadataira ahhoz, hogy ismét beléptessük.";
+"LOCID NeedLyncPassword" = "A bejelentkezéshez adja meg a jelszavát.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Nem sikerült csatlakozni a kiszolgálóhoz. Próbálkozzon újra.";
+"LOCID E_HttpRequestTimeout" = "Nem lehet bejelentkezni, mert a kiszolgáló ideiglenesen nem érhető el.";
+"LOCID E_CannotConnectToServer" = "Nem sikerült csatlakozni a kiszolgálóhoz. Megpróbáljuk helyreállítani a kapcsolatot. Ha a probléma nem szűnik meg, forduljon a támogatási csoporthoz.";
+"LOCID E_InvalidServerUrl" = "Helytelen a kiszolgálónév. Ellenőrizze, és próbálkozzon újra.";
+"LOCID E_NoValidIp" = "Nem sikerült csatlakozni a hálózathoz. Ellenőrizze a csatlakozási beállításokat.";
+"LOCID E_MetaDataNotFound" = "Nem lehet elérni a kiszolgálót. Ellenőrizze a címét, vagy próbálkozzon később.";
+"LOCID E_TimeSkewError" = "Nem sikerült szinkronizálni az eszköz óráját a kiszolgálóval. Módosítsa az időbeállításokat, vagy kérje támogatási munkatársai segítségét.";
+"LOCID E_MobilityDisabled" = "A bejelentkezés nem sikerült, mert nincs beállítva a Skype Vállalati verzió használata. Kérje a támogatási csoport segítségét.";
+"LOCID E_TooManyApplications" = "Sikertelen a bejelentkezés. Valószínűleg túl sok eszközről jelentkezett be egyszerre.";
+"LOCID E_UI_OutsideVoiceDisabled" = "A Hívás hivatali számról funkció ki van kapcsolva. Adja meg a telefonszámát a beállításokban, ha Skype Vállalati verziós hívást szeretne kezdeményezni ezzel a személlyel.";
+"LOCID E_UI_OfflineLyncCall" = "Online állapot vagy mobil adatkapcsolat szükséges, ha Skype Vállalati verziós hívást szeretne kezdeményezni ezzel a személlyel.";
+"LOCID E_EwsError" = "Nem sikerült csatlakozni az Exchange-hez. Próbálkozzon újra később.";
+"LOCID E_EwsBadCredentials" = "Érvénytelenek az Exchange-beli bejelentkezési hitelesítő adatai. Frissítse az ottani vagy a Skype Vállalati verzióbeli hitelesítő adatait.";
+"LOCID W_Retrying" = "Nem lehet elérni a kiszolgálót, újrapróbálkozás...";
+"LOCID E_UI_CallViaCellError" = "Ellenőrizze a számot, és próbálkozzon újra.";
+"LOCID E_LiveIdPasswordExpired" = "A jelszó lejárt. Állítson be új jelszót, és próbálkozzon újra.";
+"LOCID E_LiveIdInvalidCredentails" = "Nem sikerült bejelentkezni. Ellenőrizze fiókadatait, és próbálkozzon újra.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Változtassa meg a jelszót, és próbálkozzon újra.";
+"LOCID E_LiveIdPasswordLockedOut" = "Változtassa meg a jelszót, és próbálkozzon újra.";
+"LOCID E_LiveIdConnectionFailed" = "Nem sikerült csatlakozni a kiszolgálóhoz. Próbálkozzon újra.";
+"LOCID E_LiveIdServiceUnavailable" = "Nem sikerült csatlakozni a kiszolgálóhoz. Próbálkozzon újra.";
+"LOCID E_LiveIdGenericError" = "Nem sikerült bejelentkezni. Próbálkozzon újra.";
+"LOCID E_InvalidLiveIDUserNameError" = "Nem sikerült bejelentkezni. Ellenőrizze, hogy felhasználónevét valaki@example.com alakban adta-e meg, és hogy jelszava érvényes-e.";
+"LOCID E_InvalidSmtpAddress" = "Nem sikerült csatlakozni az Exchange-hez. Ellenőrizze fiókadatait, és próbálkozzon újra.";
+"LOCID E_LogoffUnsuccessful" = "Nem lehet csatlakozni a Skype Vállalati verzióhoz, mert nincs kiszolgálókapcsolat.";
+"LOCID E_ClientVersionMismatch" = "Nem lehet bejelentkezni, mert a munkahelye nem támogatja ezt a Skype Vállalati verziót. Telepítse a 2010-es verziót a mobiláruházából.";
+"LOCID E_ClientServerSchemaMisMatch" = "Ezzel a Skype Vállalati verzióval nem tud bejelentkezni. Telepítsen egy újabb verziót. Ha az sem oldja meg a problémát, forduljon a támogatási csoporthoz.";
+"LOCID E_ClientVersionCheck" = "Ezzel a Skype Vállalati verzióval nem tud bejelentkezni. Telepítsen egy újabb verziót. Ha az sem oldja meg a problémát, forduljon a támogatási csoporthoz.";
+"LOCID E_VersionMismatch" = "Ezzel a Skype Vállalati verzióval nem tud bejelentkezni. Telepítsen egy újabb verziót. Ha az sem oldja meg a problémát, forduljon a támogatási csoporthoz.";
+"LOCID E_AutoDConfigurationError" = "Nem sikerült bejelentkezni. Kérje támogatási munkatársai segítségét.";
+"LOCID E_AutoDPasswordExpiredError" = "A jelszó lejárt. Állítson be új jelszót, és próbálkozzon újra.";
+"LOCID E_InvalidProxySettingsError" = "Nem sikerült bejelentkezni, mert a proxybeállítások érvénytelenek. Ellenőrizze őket, és próbálkozzon újra.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Kiléptette a rendszer, mert egy ideje nem érzékelt felhasználói műveletet.";
+"LOCID E_GeneralGoneError" = "Nem sikerült bejelentkezni. Kérje támogatási munkatársai segítségét.";
+"LOCID E_InternalServerError" = "Nem sikerült bejelentkezni. Kérje támogatási munkatársai segítségét.";
+"LOCID E_TooManyApps" = "Nem sikerült bejelentkezni. A jelek szerint túl sok eszközről jelentkezett be egyszerre.";
+"LOCID E_ResponseUnkown" = "Nem sikerült csatlakozni a kiszolgálóhoz. Ha Wi-Fi kapcsolatot használ, a böngésző megnyitásával ellenőrizze, hogy van-e kapcsolat. Ha van, akkor tiltson le minden elérési pontot és internetmegosztást. Ha így sem szűnik meg a probléma, kérje a mobilszolgáltató segítségét.";
+"LOCID E_CannotLoadADFSPage" = "Nem sikerült bejelentkezni. Próbálkozzon újra. Ha a hiba nem szűnik meg, kérje támogatási munkatársai segítségét.";
+"LOCID E_UserNotSipEnabled" = "Nincs konfigurálva a kiszolgálókapcsolat. Kérjük, forduljon a támogatási csoporthoz.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Most nem lehet VoIP-hívást kezdeményezni. Próbáljon a mobilszámáról telefonálni.";
+"LOCID E_VoicePSTNCallActive" = "Most nem lehet VoIP-hívást kezdeményezni. Próbáljon a munkahelyi számáról telefonálni.";
+"LOCID E_VoicePSTNCallActive - Button" = "Hívás hivatali számról";
+"LOCID E_VideoOverWiFiBlocked" = "Ez egy videohívásra szóló felkérés volt, de mivel nincs Wi-Fi kapcsolata, csak a hangot kapcsoltuk.";
+"LOCID E_HistoryNotDisplayed" = "Nem jeleníthetők meg a beszélgetés előzményei.";
+"LOCID E_IMAcceptedElsewhere" = "Valahol máshol elfogadta ezt a beszélgetést. Az újrakezdéséhez küldjön új üzenetet.";
+"LOCID E_MuteFailed" = "Hiba miatt mások nem látják, hogy jelenleg el van némítva.";
+"LOCID E_UnmuteFailed" = "Hiba miatt még mindig el van némítva. Próbálja meg újra a visszahangosítást.";
+"LOCID E_DgExpansionGenericFailure" = "Nem érhetők el a csoport tagjai a meghíváshoz. Próbálkozzon később.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "A csoport túl nagy ahhoz, hogy meg lehessen hívni.";
+"LOCID E_DgExpansionNoMembersFailure" = "A csoport nem tartalmaz tagokat, ezért nem lehet meghívni.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ nem érhető el, vagy lehet, hogy offline állapotú.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ állapota Ne zavarjanak.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ nem található. Ellenőrizze a telefonszámot.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ mással beszél.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ nem válaszolt.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ nem tudja fogadni a hívást.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Ez a hívás nem hajtható végre, amíg Ön offline állapotban van. Kérjük, a híváshoz jelentkezzen be a Skype Vállalati verzióba.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "A művelet sikertelen volt.";
+"LOCID E_VoiceGenericError" = "A hívás nem lett felépítve, vagy befejeződött.";
+"LOCID E_VoiceFeatureNotEnabled" = "A hívási funkció le van tiltva.";
+"LOCID E_VoiceCheckNumber" = "Ellenőrizze a számot, és próbálkozzon újra.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "A hívás nem építhető fel. Próbálkozzon később.";
+"LOCID E_VoiceCallUnsuccessful" = "A hívást nem sikerült kapcsolni.";
+"LOCID E_VoiceCallTypeNotSupported" = "A hívás sikertelen. Ez a hívástípus nem támogatott.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "%@ a kiszolgáló időtúllépése miatt nem kapta meg a következő üzenetet:";
+
+"LOCID E_SharingAnotherOperation" = "Éppen folyamatban van egy művelet. Próbálkozzon újra néhány másodperc múlva.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ kiszolgálóhiba miatt nem kapta meg ezt az üzenetet:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ offline állapotú, és nem kapta meg ezt az üzenetet:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ Ne zavarjanak állapotban van, ezért nem kapta meg a következő üzenetet:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Az üzenetet nem sikerült kézbesíteni, mert %@ nem található.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Az üzenetet blokkolt tartalom miatt nem lehet elküldeni:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "%@ nem érhető el, ezért nem sikerült elküldeni neki a következő üzenetet:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Nem sikerült felépíteni a hívást.";
+
+"LOCID E_ConfLocked" = "Nem kapcsolódhat be ebbe az értekezletbe, mert zárolt. Próbáljon meg kapcsolatba lépni a szervezőjével.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Ön és %@ más titkosítási módot használnak. Kérje támogatási munkatársai segítségét.";
+
+"LOCID E_ConferencingServerError" = "Kiszolgálóhiba történt. Forduljon a támogatási csoporthoz.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ nem érhető el. Lehet, hogy offline állapotú.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ Ne zavarjanak állapotban van, ezért nem lehet vele kapcsolatba lépni.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ nem válaszolt a meghívásra.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "%@ nem érhető el.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Nincsenek megadva a Skype-értekezletekbe való bekapcsolódás beállításai.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Nem kapcsolódhat be a konferenciába, amíg az alkalmazás nem jelentkezik be.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ nem tudott bekapcsolódni az értekezletbe.";
+"LOCID E_ConferencingEnded" = "Nem érhető el az az értekezlet, amelybe megpróbál bekapcsolódni.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "%@ nem érhető el. Próbálkozzon később.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "%@ nem található. Ellenőrizze a címet.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "%@ nem érhető el.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ visszautasította a meghívást.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Az előadó befejezte az értekezletet.";
+"LOCID E_ConferencingCallDisconnected" = "A hívás megszakadt.";
+"LOCID ConferenceUnexpectedDisconnect" = "Megszakadt a kapcsolata a konferenciával.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "A hívás nem lett felépítve, vagy befejeződött.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "%@ nem tud csatlakozni az értekezlethez, mert a hálózat foglalt.";
+
+"LOCID E_ConferencingCannotConnect" = "A hívás nem lett felépítve, vagy befejeződött.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Nem csatlakozhat ilyen online értekezlethez.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "%@ nem hívható meg, mert az értekezlet megtelt.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Nem lehet névtelen résztvevőként bekapcsolódni az értekezletbe.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Meghívási hiba miatt nem lehet bekapcsolódni az értekezletbe.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Nincs engedélye az értekezletbe való bekapcsolódásra.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Nem tudtuk Önt bekapcsolni az értekezletbe. Próbálkozzon újra.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Szervezeten kívülről nem lehet bekapcsolódni az értekezletbe.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Nem lehet bekapcsolódni ilyen típusú online értekezletbe.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "%@ nem érhető el.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Nem lehet értekezletet kezdeni, mert egy másik éppen kezdődik.";
+"LOCID E_ConferencingEncryptionIssues" = "Titkosítási problémák miatt nem kezdhető el a Skype-értekezletet.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Nincs engedélye arra, hogy másik eszközről bekapcsolódjon, vagy másik eszközt tárcsázzon.";
+"LOCID E_ConferencingMediaSessionTerminated" = "A hívás nem lett felépítve, vagy befejeződött.";
+"LOCID E_ConferencingFull" = "Az értekezlet megtelt.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Nincs engedélye az értekezletbe való bekapcsolódásra.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "%@ meghívása lejárt.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Az értekezlet befejeződött, mivel a szervezők kiléptek.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Nem lehet bekapcsolódni az értekezletbe, mert a hálózat foglalt.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Ez a tárgysor túl hosszú.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Ezt az értekezletfunkciót a szervezet nem engedélyezi.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Az értekezlet tevékenységek hiányában befejeződött.";
+"LOCID E_ConferencingCannotBeFound" = "Nem található az online értekezlet.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Nincs engedélye az értekezletbe való bekapcsolódásra.";
+"LOCID E_ConferencingUserNotAdmitted" = "Nem engedték be az értekezletre.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Eltávolították az értekezletről.";
+"LOCID E_ConfGenericError" = "Nem sikerült bekapcsolódni az értekezletbe. Próbálkozzon újra.";
+"LOCID E_ConferenceDenied" = "Az előadó megtagadta a belépést.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Már részt vesz egy értekezleten. Kilép belőle, hogy bekapcsolódhasson ebbe?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "A kiszolgáló nem támogatja a névtelen bekapcsolódást az értekezletekbe erről az eszközről.";
+"LOCID ConferenceVideoLock" = "Az előadó egy személyre fókuszálta a videót.";
+"LOCID ConferenceVideoUnlock" = "Az előadó feloldotta a videokép fókuszának zárolását.";
+"LOCID ConferenceVideoSelfLock" = "A videón mindenki zárolt állapotú.";
+"LOCID ConferenceVideoSelfUnlock" = "Most már senkinek a videoképe nincs zárolva.";
+
+"LOCID E_DomainNotTrusted" = "Nem lehet csatlakozni a kiszolgálóhoz. Fogadja el az átirányítást.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ nem kapta meg ezt az üzenetet, mert ez a formátum nem engedélyezett:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "%@ nem tud üzeneteket fogadni az eszközén.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ nem kapta meg ezt az üzenetet, mert az túl hosszú:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ nem kapta meg ezt az üzenetet, mert a kézbesítést házirend korlátozza:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Nem sikerült elküldeni a csevegőüzenetet, mert már folyamatban van egy beszélgetés Ön és %@ között.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Az üzenetet blokkolt tartalom miatt nem lehet elküldeni:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Nincs engedélye csevegőüzenetet küldeni %@ részére, ezért nem sikerült elküldeni a következő üzenetet:";
+
+"LOCID E_IMConfGenericError" = "A következő üzenetet nem kapta meg minden résztvevő:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ nem érhető el.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "A hívás befejeződött, mert %@ kilépett.";
+
+"LOCID E_VoiceCallTimeout" = "Hálózati problémák miatt sikertelen a hívás. Próbálkozzon újra.";
+"LOCID E_VoiceCallDisconnected" = "A hívás megszakadt. Próbálkozzon újra.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "A hívás nem lett felépítve, vagy befejeződött.";
+"LOCID E_VoiceCallNotCompleted" = "%@ nem fogadhat hívásokat. Próbálkozzon csevegőüzenet vagy e-mail küldésével.";
+"LOCID E_VoiceServerError" = "Kiszolgálóhiba miatt a hívást nem sikerült kapcsolni. Próbálkozzon újra.";
+"LOCID E_VoiceCannotConnect" = "Nem lehet csatlakozni az online értekezlethez.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "%@ nem érhető el.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "%@ nem található.";
+
+"LOCID E_VoiceEncryptionIssues" = "Titkosítási problémák miatt nem kezdhető el a Skype-értekezletet.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "A hívott fél csevegőüzenetben válaszolt.";
+"LOCID E_VoiceCannotCompleteCall" = "A hívást nem sikerült tárcsázottként felépíteni.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "A hívást kiszolgálóhiba miatt nem sikerült felépíteni.";
+"LOCID E_VoiceServerCannotForwardCall" = "A kiszolgáló nem tudja átirányítani a hívást. Próbálkozzon újra.";
+"LOCID E_VoiceServerDidNotRespond" = "A kiszolgáló nem válaszol. Próbálkozzon később.";
+"LOCID E_VoiceCannotPlaceCall" = "A hívást nem sikerült felépíteni. Ellenőrizze a számot, és próbálkozzon újra.";
+"LOCID E_VoiceNumberNotSupported" = "A szervezet nem támogatja ennek a számnak a hívását.";
+"LOCID E_IncomingPSTNCall" = "Nem sikerült felépíteni a hívást.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "%@ nem hívható fel, mert házirend tiltja a híváskezdeményezést.";
+
+"LOCID E_CallFailed" = "A hívás kapcsolathiba miatt megszakadt. Próbálkozzon újra.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "A kapcsolat megszakadt, mert egy másik ügyfélről csatlakozott.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Eltávolították az értekezletről.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "A hívást nem sikerült felépíteni, mert a hálózat foglalt.";
+"LOCID E_VoiceNotSupported" = "%@ nem tud hanghívásokat fogadni.";
+"LOCID E_RepliedWIthOtherModality" = "A címzett csevegőüzenetben válaszolt.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "A beszélgetési előzmények most nem frissíthetők, és lehet, hogy nem aktuálisak.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "A beszélgetési előzmények most nem frissíthetők, és lehet, hogy nem aktuálisak.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Nem sikerült átirányítani a hívásokat ehhez a partnerhez. Adja meg, hogy melyik Skype Vállalati verziós partneréhez szeretné átirányítani a hívásokat, vagy az Új szám lehetőséget választva írjon be egy telefonszámot.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY-mód bekapcsolva";
+"LOCID RemoteHoldSucceeded" = "Távoli felhasználó várakoztatja a hívását.";
+"LOCID RemoteUnholdSucceeded" = "Távoli várakoztatás sikeresen megszüntetve";
+"LOCID LocalHoldSucceeded" = "Helyi várakoztatás sikerült";
+"LOCID LocalUnholdSucceeded" = "Helyi várakoztatás sikeresen megszüntetve";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Hívás folytatása";
+"LOCID is recording" = "%@ elindította a felvevőt";
+"LOCID Multiple Recording" = "Valaki rögzíti a hívást";
+"LOCID OnHoldOutOfApp" = "%@-hívása várakoztatva van.";
+"LOCID OnStopOutOfApp" = "%@-hívása megszakadt.";
+"LOCID RecordingAlert" = "%@ rögzíti ezt a hívást.";
+"LOCID CoversationP2PIsRecording" = "%@ rögzíti ezt a hívást.";
+"LOCID CoversationP2PIsRecordingNoName" = "A hívás rögzítése folyamatban van.";
+"LOCID CoversationConferenceIsRecording" = "Valaki felvételt készít az értekezletről.";
+
+"LOCID ConversationsExceedArchiveLimit" = "A lista már majdnem megtelt. Az újabb beszélgetések felülírják a régebbieket.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Az előadó elnémította a közönséget.";
+"LOCID Audience Unlock" = "Egy előadó visszahangosította a közönséget.";
+"LOCID Conference Mute" = "Az előadó elnémította az Ön mikrofonját.";
+"LOCID Conference Unmute" = "Az előadó azt szeretné, ha Ön visszahangosítaná magát.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Az előadó letiltotta a nézőknek a videokép küldését.";
+"LOCID PresenterBlockedVideo - Presenter" = "Az előadó letiltotta a nézőknek a videokép küldését. Ha Ön előadó, bekapcsolhatja a kamerát, és megoszthatja a videoképét.";
+"LOCID PresenterBlockedVideo - Unblock" = "Az előadó engedélyezte a nézőknek a videokép küldését.";
+"LOCID VideoLockOnYou" = "A videón mindenki zárolt állapotú.";
+"LOCID VideoLock" = "Az előadó egy személyre fókuszálta a videót.";
+"LOCID VideoNotLockOnYou" = "Most már senkinek a videoképe nincs zárolva.";
+"LOCID VideoSpotlightUnlocked" = "Az előadó feloldotta a videokép fókuszának zárolását.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Vissza";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "A Hívás hivatali számról nem érhető el.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Nincs hangpostaüzenet";
+"LOCID You currently have no voicemail messages" = "Nincs hangpostaüzenete.";
+"LOCID Audio" = "Hang";
+"LOCID Speaker" = "Hangszóró";
+"LOCID Can not play locally" = "Az üzenet nem játszható le. A Lejátszás gombra koppintva meghallgathatja telefonon.";
+"LOCID Play Voice Mail" = "Hangüzenet lejátszása";
+"LOCID PLAY_VOICEMAIL_HINT" = "Hangüzenet lejátszása";
+"LOCID Pause Voice Mail" = "Hangpostaüzenet szüneteltetése";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Hangüzenet szüneteltetése";
+"LOCID Play On Phone Error - No Number" = "A visszahíváskéréshez meg kell adnia a telefonszámát a beállítások között.";
+"LOCID Call Back" = "Visszahívás";
+"LOCID Delete" = "Törlés";
+"LOCID More voicemails iPad" = "Régebbi hangpostaüzenetek meghallgatásához koppintson a hangpostaikonra.";
+"LOCID More voicemails" = "Régebbi hangüzenetei meghallgatásához koppintson a billentyűzet 1-es billentyűjére, tartsa nyomva, vagy használja az Outlookot.";
+"LOCID More voicemails No keypad" = "Régebbi hangpostaüzenetek meghallgatásához használja az Outlookot.";
+"LOCID Can not play IRMed" = "Ez az üzenet tartalomvédelemmel van ellátva. A Lejátszás gombra koppintva meghallgathatja telefonon.";
+"LOCID Lync Call" = "Skype Vállalati verziós hívás";
+"LOCID Can't play on phone" = "Az üzenet nem játszható le. Ellenőrizze a hálózati kapcsolatot, és később próbálkozzon újra.";
+"LOCID Yes" = "Igen";
+"LOCID No" = "Nem";
+"LOCID VMCallerID" = "Hangposta";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Hangposta lejátszása normál sebességgel";
+"LOCID VM Playback -2X Acc" = "Hangposta lejátszása fele sebességgel";
+"LOCID VM Playback 2X Acc" = "Hangposta lejátszása kétszeres sebességgel";
+"LOCID Voicemail From" = "Hangpostaüzenet: %@";
+"LOCID No Voicemails Placeholder" = "Itt jelennek majd meg a hangposta-üzenetek";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Bezárás";
+"LOCID Accept" = "Elfogadás";
+"LOCID Not yet implemented feature" = "Ez a szolgáltatás még nem működőképes. Próbálkozzon újra egy későbbi kiadásban.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "1 új hangpostaüzenete van";
+"LOCID Missed VMs" = "%d új hangpostaüzenete van";
+"LOCID Missed Collab Out of App" = "Kihagyott együttműködés: %@";
+"LOCID Missed Video Call Out of App" = "Kihagyott videohívás: %@";
+"LOCID Missed Audio Call Out of App" = "Kihagyott hívás: %@";
+"LOCID Missed Message Out of App" = "Kihagyott csevegőüzenet: %@";
+"LOCID Missed Audio Conf Out of App" = "Kihagyott konferenciahívás: %@";
+
+"LOCID Audio Call Out of App" = "Hívás: %@";
+"LOCID Conference Call Out of App" = "Konferenciahívás: %@";
+"LOCID Dismiss Call" = "Kihagyás";
+"LOCID Answer Call" = "Elfogadás";
+"LOCID Answer Call with Video" = "Videó";
+"LOCID Audio Call" = "Hívás";
+"LOCID Conference Call" = "Konferenciahívás";
+"LOCID Unknown Caller" = "Ismeretlen hívó";
+
+"LOCID Video conf accessibility" = "Videokonferencia: %@";
+"LOCID Video accessibility" = "Videohívás: %@";
+"LOCID Audio conf accessibility" = "Konferenciahívás: %@";
+"LOCID Audio accessibility" = "Hívás: %@";
+
+"LOCID Video Call Out of App" = "Videohívás: %@";
+"LOCID Video Conference Call Out of App" = "Videokonferencia: %@";
+"LOCID Video Call" = "Videohívás";
+"LOCID Video Conference Call" = "Videokonferencia";
+"LOCID Video Escalation Name" = "%@ videót oszt meg";
+"LOCID Video Escalation" = "videót oszt meg";
+"LOCID Video Escalation Conf" = "Valaki videót oszt meg";
+"LOCID VideoInvitationRejected" = "A hívott fél nem fogadta el a videokép továbbítását, ezért a hívás hanghívássá alakult át.";
+"LOCID E_VideoDecline" = "%@ nem fogadta a videoképet.";
+"LOCID E_VideoGeneric" = "Nem sikerült elkezdeni a képátvitelt. Próbálkozzon újra.";
+"LOCID E_VideoNotStarted" = "Nem sikerült elkezdeni a képátvitelt.";
+"LOCID E_VideoNotSupported" = "%@ nem tud videohívásokat fogadni.";
+"LOCID E_VideoNotAccepted" = "A hívott fél (%@) nem fogadta a videokép továbbítását, ezért a hívás hanghívássá alakult át.";
+
+"LOCID E_VoiceTransferGenericError" = "A hívás átadása nem sikerült.";
+"LOCID E_VoiceTransferParticipantError" = "A hívás átadása nem sikerült, mert a fogadó fél nem érhető el.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "elnémítás";
+"LOCID Mute Capitalized" = "Elnémítás";
+"LOCID Unmute" = "Visszahangosítás";
+"LOCID keypad" = "billentyűzet";
+"LOCID add call" = "hívás hozzáadása";
+"LOCID hold" = "várakoztatás";
+"LOCID End" = "Befejezés";
+"LOCID Hide Keypad" = "Billentyűzet elrejtése";
+"LOCID Call Lync" = "Skype Vállalati verziós hívás";
+"LOCID Call Work" = "Munkahelyi: %@";
+"LOCID Call Mobile" = "Mobil: %@";
+"LOCID Call Home" = "Otthoni: %@";
+"LOCID Call Other" = "Egyéb: %@";
+"LOCID Decline" = "Elutasítás";
+"LOCID Video Menu" = "Videó menü";
+"LOCID Hold Call" = "Hívás várakoztatása";
+"LOCID Hang Up" = "Vonalbontás";
+"LOCID Dial Pad Only" = "Tárcsázó";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u résztvevő – %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u résztvevő – %@";
+"LOCID Call Status Connecting" = "Kapcsolódás...";
+"LOCID Call Status Connecting Remote" = "Kapcsolódás...";
+"LOCID Call Status Connected" = "Összekapcsolva";
+"LOCID Call Status On Hold - Passive" = "Várakoztatás";
+"LOCID Call Status On Hold" = "Várakoztatva";
+"LOCID Call Status Ended" = "A hívás befejeződött";
+"LOCID Call Status Transfering" = "Átadás folyamatban";
+"LOCID On behalf of" = "%@ nevében";
+"LOCID Call for" = "%@ hívása";
+"LOCID Call for - Astana" = "%@ hívása";
+"LOCID Transferred by" = "Átadta %@";
+"LOCID Forwarded by" = "Átirányította %@";
+"LOCID Private call" = "Magánjellegű hívás";
+"LOCID Also ringing" = "%@ csengetése is";
+"LOCID Also ringing delegates" = "Meghatalmazottak csengetése is";
+"LOCID Will ring" = "%@ csengetése";
+"LOCID Also ringing team call" = "A csapatnál is cseng";
+"LOCID The recipient" = "A címzett";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Inicializálás...";
+"LOCID DataCollab Connecting" = "Kapcsolódás...";
+"LOCID DataCollab Loading" = "Betöltés...";
+"LOCID DataCollab No Content" = "Az előadók befejezték a tartalom megosztását.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Az adatmegosztási szolgáltatás a kiszolgálóval való kapcsolódási problémák miatt nem érhetők el.";
+"LOCID DisconnectedOnConnectivityIssue" = "Egyes bemutatófunkciók nem érhetők el a kiszolgáló csatlakozási problémái miatt.";
+"LOCID DisconnectedOnConnectedElsewhere" = "A kapcsolat megszakadt, mivel egy másik ügyfélről csatlakozott.";
+"LOCID DisconnectedOnNetworkFailure" = "Hálózati problémák miatt nem láthatja a bemutatót.";
+"LOCID DataCollab Known UnSupported" = "Az előadó olyan funkciót használ, amelyet ez a Skype Vállalati verzió nem támogat.";
+"LOCID DataCollab Generic UnSupported" = "Az előadó olyan funkciót használ, amelyet ez a Skype Vállalati verzió nem támogat, vagy régebbi kiszolgálóhoz csatlakozik.";
+"LOCID DataCollab ContentPresenter" = "Előadó: %@";
+"LOCID DataCollab NoPresenter" = "Senki nem tart bemutatót";
+"LOCID Collab Unsupported PPTContent" = "Ebben a bemutatóban ezt a médiafájlt nem lehet lejátszani.";
+"LOCID Retry" = "Újra";
+"LOCID DataCollab Generic PPT Error" = "Egyes bemutatófunkciók nem érhetők el a kiszolgáló csatlakozási problémái miatt.";
+"LOCID Start Viewing" = "Megtekintés";
+"LOCID Stop Viewing" = "Megtekintés vége";
+"LOCID Collab Escalation" = "%@ bemutatót szeretne indítani";
+"LOCID PowerPoint content Accessibility" = "PowerPoint-tartalom";
+
+"LOCID SyncPresenterButton" = "Szinkronizálás az előadói nézettel";
+"LOCID NavigateBackButton" = "Vissza egy diával";
+"LOCID NavigateForwardButton" = "Előre egy diával";
+"LOCID SlideNumber" = "%1$d/%2$d";
+"LOCID SlideNumber Accessibility" = "Dia: %1$d/%2$d";
+
+"LOCID E_SharingDisabled" = "A megosztás le van tiltva.";
+"LOCID E_SharingNetworkIssues" = "Hálózati problémák miatt nem lehet bemutatót tartani. Próbálkozzon újra később.";
+"LOCID E_SharingNotSupported" = "Ezzel a partnerrel nem támogatott a bemutatók tartása.";
+"LOCID E_SharingTimeout" = "A bemutató a kiszolgáló foglaltsága miatt nem kezdhető el. Próbálkozzon később.";
+"LOCID SharingAnotherType" = "Ez a megosztás véget ért, mert egy másik elkezdődött.";
+"LOCID E_GetMediaSdpFailed" = "Jelenleg nem lehet az asztal- vagy programmegosztáshoz kapcsolódni.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "A bemutató nem tekinthető meg, mert nincs Wi-Fi kapcsolata.";
+"LOCID 3G user requiring Wi-Fi" = "Nem indítható Skype Vállalati verziós hívás, mert nincs Wi-Fi kapcsolat.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "A bemutató nem jeleníthető meg ezen az eszközön, mert túl nagy.";
+"LOCID E_CollabDisconnectedNetworkError" = "Hálózati problémák miatt megszakadt a kapcsolat a bemutatóval.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "A kapcsolat megszakadt, mivel egy másik ügyfélről csatlakozott.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Most betöltjük a megosztani kívánt tartalmat.";
+"LOCID AppSharing Shared Content" = "Itt jelenik meg a megosztott tartalom.";
+"LOCID AppSharing Desktop" = "Asztal";
+"LOCID AppSharing Application" = "Alkalmazás";
+"LOCID AppSharing SharingPaused" = "A megosztás szünetel."; // Not used
+"LOCID AppSharing SharingIdle" = "A megosztás üresjáratban van."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Az összes erőforrás minimalizált."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ képernyőmegosztást próbált elindítani, de az app jelen verziója ezt csak konferenciahívások és Skype-értekezletek során teszi lehetővé.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Csevegés indítása";
+"LOCID send IM" = "Küldés";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Beszélgetés befejezése";
+"LOCID View Contact Card" = "Névjegykártya megtekintése";
+"LOCID Invite Others" = "Mások meghívása";
+"LOCID Send Location action" = "Hely elküldése";
+"LOCID Send as Email action" = "Küldés e-mailként";
+"LOCID View Participants" = "Résztvevők megtekintése";
+"LOCID Rejoin" = "Bekapcsolódás újra";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Koppintson duplán a kibontáshoz";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Gyenge hívásminőség";
+"LOCID ACI Call Muted" = "Elnémítva; koppintson duplán a visszahangosításhoz";
+"LOCID ACI Call Unmuted" = "Nincs elnémítva; koppintson duplán az elnémításhoz";
+
+/* Search results */
+"LOCID No Results" = "Nincs találat";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "A(z) %@ váratlanul kilépett";
+"LOCID Dont Send" = "Ne küldjön";
+"LOCID Send Report" = "Küldjön jelentést";
+"LOCID Would you like to send a report so we can fix the problem" = "Szeretne jelentést küldeni, hogy kijavíthassuk a problémát?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype Vállalati verzió";
+
+// Timeline
+"LOCID Timeline Home" = "kezdőlap";
+"LOCID Timeline Contacts" = "partnerek";
+"LOCID Timeline Meetings" = "értekezletek";
+"LOCID Timeline Search Placeholder" = "partnerek keresése";
+"LOCID Timeline Recent" = "legutóbbiak";
+"LOCID Timeline Upcoming" = "közelgőek";
+"LOCID Timeline TableView" = "ütemterv";
+"LOCID Timeline Meeting Time All Day" = "egész napos";
+"LOCID Timeline Search Skype Contacts" = "partnerek";
+"LOCID Timeline Search Phone Contacts" = "telefonos partnerek";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "partnerek";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "tárcsázó és hangposta";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "tárcsázó, %ld új hangüzenet";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "tárcsázó, %ld új hangüzenet";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "értekezletek";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "kezdőlap";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "adataim";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, új üzenetek, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "hívás";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "videohívás";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "megjelölés olvasottként";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "törlés";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "bekapcsolódás értekezletbe";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "mellőzés";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "beengedés";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "elérhető";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "elfoglalt";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "távol";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "nem elérhető";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "ne zavarjanak";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "ismeretlen";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "szöveg törlése";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "partnerek keresése";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "videohívás";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "hívás";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Bekapcsolódás értekezletbe";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Üres csevegés";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Profilkép";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld új hangüzenet";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld új hangüzenet";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Törlés";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Angyal";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Mérges";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Gazember";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Foci";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Sör";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Nevet";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Bicikli";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Zavarban";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Meghajol";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Összetört szív";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Torta";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Hívás";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Kamera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Tudsz beszélni?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Autó";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Pénz";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Macska";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Tapsol";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Kávé";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Számítógép";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Bizalmas";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Laza";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Sír";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Tánc";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Ördög";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Kutya";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Ó, egek!";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Koktél";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Unalmas";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emós";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Irigy";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Gonosz vigyor";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Atyavilág!";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Drukkolok!";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Virág";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Játékok";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Ajándék";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Kuncog";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Sok szerencsét";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Rohanok";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Kezet ráz";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Vidám";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Fejét a falba veri";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Szív";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Mókuska";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Integet";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Pacsi";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Várj egy percet";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Átölel";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Ötlet";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Szerelmes";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Sziget";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Nem én voltam!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Csók";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Úgysem hallom!";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Találkozzunk";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Hallgatok, mint a sír";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Üzenet";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Csinibaba";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Férfi";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "Mmmmm...";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Film";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Izom";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Zene";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Okoska";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Nindzsa";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Nem";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Bólogat";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Buli";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telefon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Repülő";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Hány";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Üt";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Eső";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Szivárvány";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rocker";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Fetreng a röhögéstől";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Szomorú";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Rázza a fejét";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Álmos";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Mosoly";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Önelégült mosoly";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Csiga";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Fogalmam sincs";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Csillag";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Állj!";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Napsütés";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Meglepett";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Káromkodik";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Izzad";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Beszél";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "A falnak beszél";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Gondolkodik";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Idő";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Nem akarom tudni";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Nyelvet ölt";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Ördögszekér";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Napernyő";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Várj!";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Várok";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Otthonról dolgozom";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Mi a helyzet?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Huh!";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Kacsint";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Nő";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Csodálkozik";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Aggódik";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Ásít";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Igen";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Ide írhatja az üzenetet";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Üdvözölje %@ nevű partnerét";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Üdvözölje a csoportot";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Itt jelennek majd meg a beszélgetések";
+"CHAT_FAILED_TO_SEND" = "Nem tudjuk elküldeni ezt az üzenetet: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Csevegés megjelenítése";
+"LOCID CONVERSATION_HIDE_CHAT" = "Csevegés elrejtése";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Oldalsáv megjelenítése";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Oldalsáv elrejtése";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "hangulatjelek";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "nap";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "nap";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "ó";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "ó";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "perc";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "perc";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "mp";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "mp";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d új értesítés";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Egy új értesítés";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Nincs új értesítés";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "konferencia vége";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u résztvevő";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "mellőzés";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "Megnyitás";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "másolás";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "hozzáadás a könyvjelzőkhöz";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "megnyitás a Safariban";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "vissza";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "előre";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "mégse";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ épp ír...";
+"CHATTYPING_TWOUSERS" = "%@ és %@ épp ír...";
+"CHATTYPING_THREEUSERS" = "%@, %@ és egy harmadik felhasználó épp ír...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ és %d további felhasználó épp ír...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "e-mail küldése";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "névjegykártya megtekintése";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "résztvevők";
+"DROPDOWN_ADD_PARTICIPANTS" = "résztvevők hozzáadása";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Bejövő";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Kimenő";
+
+"LOCID Meetings Page Title" = "Értekezletek";
+"LOCID No Meetings Placeholder" = "Itt jelennek majd meg az értekezletek";
+"LOCID Meetings Today" = "Ma";
+"LOCID Meetings Tomorrow" = "Holnap";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Személyes megjegyzés megadása";
+
+"PARTICIPANTS_VIEW_TITLE" = "Résztvevők";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Várakozás az előszobában";
+"PARTICIPANTS_VIEW_ON_CALL" = "Ebben a hívásban";
+
+"MEETING_VIEW_TITLE" = "Értekezlet";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Bekapcsolódás az értekezletbe";
+"MEETING_VIEW_ORGANISER_LABEL" = "Szervező";
+"MEETING_VIEW_INVITEES_LABEL" = "Meghívottak";
+"MEETING_VIEW_NOTES_LABEL" = "Jegyzetek";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Click to join \"%@\" using Skype for Business:"; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Csatlakozás...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Válasszon egy hangulatjelet";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Üzenet küldése";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Hívás vége";
+"INVITE_PARTICIPANTS" = "Résztvevők meghívása";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Vissza";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Címjegyzék";
+"LOCID_PHONE_NUMBER" = "Telefonszám";
+"LOCID_MORE" = "Több";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Váltás videóra";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Partner profiljának megjelenítése";
+"CHAT_OPTION_PARTICIPANTS" = "Résztvevők";
+"LOCID_CONTACTS_TABLE_VIEW" = "Partnerek nézet";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Bejövő hívás";
+"LOCID_MEETINGS_TABLE_VIEW" = "Értekezletnézet";

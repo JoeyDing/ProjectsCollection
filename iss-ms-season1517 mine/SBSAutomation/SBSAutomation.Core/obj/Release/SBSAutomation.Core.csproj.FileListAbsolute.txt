@@ -1,0 +1,10 @@
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\bin\Release\SBSAutomation.Core.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\bin\Release\SBSAutomation.Core.pdb
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\bin\Release\Castle.Core.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\bin\Release\TestStack.White.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\bin\Release\WebDriver.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\bin\Release\Castle.Core.xml
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\bin\Release\TestStack.White.xml
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\bin\Release\WebDriver.xml
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\obj\Release\SBSAutomation.Core.dll
+C:\Users\v-joding\Source\Repos\internal_test_loc-automation\SBSAutomation\SBSAutomation.Core\obj\Release\SBSAutomation.Core.pdb

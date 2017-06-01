@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Beantwoorden";
+"JOIN" = "Accept.";
+"VIEW" = "Weergeven";
+"IGNORE" = "Negeren";
+"LAUNCH" = "Starten";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "nodigt u uit voor een gesprek";
+"NEW_IM_BURNT_TOAST" = "Gemist gesprek met %@";
+"SIGN_IN" = "Aanmelden";
+"SIGN_OUT" = "U bent afgemeld vanwege inactiviteit.";
+"MWI" = "Nieuwe voicemailberichten: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Aanmeldingsadres";
+"LOCID Password" = "Wachtwoord";
+"LOCID User Name" = "Gebruikersnaam";
+"LOCID Domain" = "Domein";
+"LOCID Auto-Detect Server" = "Server autom. detect.";
+"LOCID Sign-in As" = "Aanmelden als";
+"LOCID User Name Footer" = "Gebruikers van Skype voor Bedrijven Online: gebruikersnaam@domein.com\nAlle andere gebruikers: domein\\gebruikersnaam";
+"LOCID Hide Details" = "Geavanceerde opties verbergen";
+"LOCID More Details" = "Geavanceerde opties weergeven";
+"LOCID Save Password" = "Mijn wachtwoord opslaan";
+
+/* generic share button */
+"LOCID share" = "delen";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Intern detectieadres";
+"LOCID External Server Address" = "Extern detectieadres";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Help Skype voor Bedrijven te verbeteren door informatie over fouten bij aanmelden te verzenden.";
+"LOCID Sign In BRB Reason 2" = "Mogen we enige info hierover en toekomstige fouten bij aanmelden verzamelen? U kunt dit later altijd nog veranderen in Opties.";
+"LOCID BRBDonotshow" = "Toon dit niet nog eens";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Aanmelden";
+"LOCID Sign Out" = "Afmelden";
+"LOCID Cancel Sign in" = "Aanmelden annuleren";
+"LOCID Lync Is Signing In" = "Aanmelden bij Skype voor Bedrijven...";
+"LOCID Lync Is Signing Out" = "Afmelden bij Skype voor Bedrijven...";
+
+// Help
+"LOCID signin help" = "Hulp bij aanmelden";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Mijn info";
+"LOCID Contacts" = "Contacten";
+"LOCID Conversations" = "Chats";
+"LOCID Meetings" = "Vergaderingen";
+"LOCID Phone" = "Telefoon";
+"LOCID Signing In" = "Aanmelden...";
+"LOCID Signed Out" = "Afgemeld";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Wat gebeurt er vandaag?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Persoonlijke notitie";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Voer uw persoonlijke notitie in";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Dubbeltikken om te bewerken";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Onbekend";
+"LOCID Available" = "Beschikbaar";
+"LOCID Busy" = "Bezet";
+"LOCID Busy Inactive" = "Bezet (inactief)";
+"LOCID Do Not Disturb" = "Niet storen";
+"LOCID Be Right Back" = "Zo terug";
+"LOCID Presence unknown" = "Aanwezigheid onbekend";
+"LOCID Off Work" = "Niet op het werk";
+"LOCID Appear Away" = "Als Afwezig weergeven";
+"LOCID Away" = "Afwezig";
+"LOCID Inactive" = "Inactief";
+"LOCID Reset Status" = "Status opnieuw instellen";
+"LOCID Offline" = "Offline";
+"LOCID Blocked" = "Geblokkeerd";
+"LOCID Sign In As Header" = "Selecteer de status die u wilt weergeven:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "In gesprek";
+"LOCID In a Conference Call" = "In een telef. vergadering";
+"LOCID Presenting" = "Presenteren";
+"LOCID In a Meeting" = "In een vergadering";
+"LOCID Out of Office" = "Niet aanwezig";
+"LOCID Urgent Interruptions Only" = "Alleen urgente onderbrekingen";
+"LOCID Out To Lunch" = "Lunchpauze";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Uw iPhone-contacten kunnen niet worden weergegeven in Skype voor Bedrijven. U kunt dit oplossen in uw iPhone-instellingen.";
+"LOCID ContactsPermissionNotGiven iPad" = "Uw iPad-contacten kunnen niet worden weergegeven in Skype voor Bedrijven. U kunt dit oplossen in uw iPad-instellingen.";
+"LOCID Other Contacts" = "Overige contacten";
+"LOCID Pinned Contacts" = "Favorieten";
+"LOCID Retrieving Members" = "Een ogenblik geduld...";
+"LOCID Cannot connect Try again" = "De groepsleden kunnen nu niet worden opgehaald. Probeer het later opnieuw.";
+"LOCID Group is too large to display" = "De groep is te groot om weer te geven.";
+"LOCID No members" = "Geen leden";
+"LOCID Searching the company directory" = "Zoeken in bedrijfsadreslijst...";
+"LOCID Please signin to search" = "Meld u aan om te zoeken in de adreslijst van het bedrijf.";
+"LOCID Too many results" = "Te veel resultaten. Verfijn uw zoekopdracht.";
+"LOCID Unable to connect to the server" = "Er kan geen verbinding met de server worden gemaakt. Probeer het later opnieuw.";
+"LOCID E_SearchTooLong" = "Er zijn geen overeenkomende resultaten gevonden. Probeer een kortere zoekterm.";
+"LOCID No Name" = "Geen naam";
+"LOCID idle day" = "%d dag";
+"LOCID idle days" = "%d dagen";
+"LOCID idle hour" = "%d uur";
+"LOCID idle hours" = "%d uur";
+"LOCID idle minutes" = "%d minuten";
+"LOCID inactive idle day" = "%d dag inactief";
+"LOCID inactive idle days" = "%d dagen inactief";
+"LOCID inactive idle hour" = "%d uur inactief";
+"LOCID inactive idle hours" = "%d uur inactief";
+"LOCID inactive idle minutes" = "%d minuten inactief";
+"LOCID DG does not exist" = "De distributiegroep bestaat niet meer.";
+"LOCID Access to DG denied" = "De toegang tot de distributiegroep is geweigerd";
+"LOCID No Contacts Placeholder" = "Uw contacten worden hier weergegeven";
+"LOCID No Contacts" = "Geen contacten";
+"LOCID You currently have no contacts" = "U hebt momenteel geen contacten";
+"LOCID Retrieving Contacts..." = "Contacten ophalen...";
+"LOCID Expanded" = "Groep %@, uitgevouwen";
+"LOCID Collapsed" = "Groep %@, samengevouwen";
+"LOCID Group card- acc" = "Groepskaart";
+"LOCID Open group card - acc" = "Tik om de groepskaart te openen";
+
+/* Contact Card*/
+"LOCID Loading name" = "Naam wordt geladen...";
+"LOCID Details" = "Kaart";
+"LOCID Work" = "Werk";
+"LOCID Home" = "Thuis";
+"LOCID Mobile" = "Mobiel";
+"LOCID Other" = "Overige";
+"LOCID other lowercase" = "overige";
+"LOCID Office" = "Kantoor";
+"LOCID Company" = "Bedrijf";
+"LOCID Department" = "Afdeling";
+"LOCID Send Text Message" = "Tekstbericht (SMS) verzenden";
+"LOCID IM" = "chat";
+"LOCID E-Mail" = "E-mail";
+"LOCID unknown lowercase" = "onbekend";
+"LOCID Location lowercase" = "locatie";
+"LOCID Calendar" = "agenda";
+"LOCID Link" = "koppeling";
+"LOCID Disabled" = "%@, uitgeschakeld"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Opmerking";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "LEDEN"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Uitnodigen";
+"LOCID Transfer" = "Doorverbinden";
+
+/* Certificate UI */
+"LOCID certTitle" = "Er wordt geprobeerd u om te leiden in Skype voor Bedrijven naar:";
+"LOCID certIssuedBy" = "Uitgegeven door:";
+"LOCID certSubject" = "Onderwerp:";
+"LOCID certExpires" = "Vervaldatum:";
+"LOCID certSignature" = "Handtekeningalgoritme:";
+"LOCID certDonotshow" = "Dit niet opnieuw weergeven.";
+"LOCID Continue" = "Doorgaan";
+"LOCID certNone" = "Geen versleuteling";
+"LOCID certRSA" = "RSA-versleuteling";
+"LOCID certDSA" = "DSA-versleuteling";
+"LOCID certDH" = "DH-versleuteling";
+"LOCID certEC" = "EC-versleuteling";
+"LOCID certHMAC" = "HMAC-versleuteling";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Gesprek";
+"LOCID Chats - Phone Call" = "Oproep";
+"LOCID Chats - Video Call" = "Video-oproep";
+"LOCID Chats - Meeting" = "Vergadering";
+"LOCID Chats - Missed Call" = "Gemiste oproep";
+"LOCID Chats - Missed Video Call" = "Gemiste video-oproep";
+"LOCID Chats - Current Call" = "Huidig gesprek";
+"LOCID Chats - Current Call With Duration" = "Huidig gesprek, %@";
+"LOCID Phone Status - Connecting" = "Verbinden...";
+"LOCID Phone Status - On Hold" = "In wachtstand";
+"LOCID Phone Status - Transferring" = "Doorverbinden";
+"LOCID Transferring to" = "Doorverbinden met %@...";
+"LOCID Chats Full" = "Deze lijst is vol. De oudste gesprekken worden verwijderd naarmate er meer nieuwe worden toegevoegd.";
+"LOCID Close Conversation" = "Gesprek verwijderen";
+"LOCID View Participants List" = "Deelnemerlijst weergeven";
+"LOCID Call Contact" = "Bel %@";
+"LOCID Video Call Contact" = "Video-oproep";
+"LOCID Video Conference Contact" = "Videovergadering";
+"LOCID Edit" = "Bewerken";
+"LOCID Deselect All" = "Alle selecties opheffen";
+"LOCID Select All" = "Alles selecteren";
+"LOCID Me" = "Ik: %@";
+"LOCID Missed" = "Gemist: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Groepsgesprek";
+"LOCID Tap To Enter Text" = "Tik om te typen";
+"LOCID No Conversations" = "Geen gesprekken";
+"LOCID No Conversations Hint" = "U hebt op dit moment geen gesprekken";
+"LOCID Delete Count" = "Verwijderen (%d)";
+"LOCID Delete None" = "Verwijderen";
+"LOCID Escalating audio conference" = "Telefonische vergadering starten...";
+"LOCID Escalating video conference" = "Videovergadering starten...";
+"LOCID No Participants" = "Geen deelnemers";
+"LOCID No Other Participants" = "Geen andere deelnemers";
+"LOCID One Participant" = "1 deelnemer";
+"LOCID Some Participants" = "%d deelnemers";
+"LOCID Max Participants" = "Meer dan %d deelnemers";
+"LOCID Large Meeting" = "Grote vergadering";
+"LOCID Toast No Invite" = "nodigt u uit voor een gesprek";
+"LOCID Participant Join" = "%@ neemt deel aan de vergadering";
+"LOCID Participant Leave" = "%@ heeft de vergadering verlaten";
+"LOCID Participant Join Failure" = "%@ kon niet deelnemen aan de vergadering";
+"LOCID Large Conference" = "Grote vergadering";
+"LOCID Large Conference Detail" = "De deelnemerslijst is niet beschikbaar voor grote vergaderingen.";
+"LOCID No Participants Detail" = "Er zijn geen deelnemers aan dit gesprek";
+"LOCID cannotSend" = "Het bericht kan niet worden verzonden:";
+"LOCID Missed Conversation" = "Gemist gesprek";
+"LOCID Send as Email" = "Verzenden als e-mail";
+"LOCID Email Subject" = "%1$@-gesprek met %2$@";
+"LOCID Anonymous" = "Anoniem";
+"LOCID Duration" = "Tijdsduur:";
+"LOCID Switch Camera" = "Camera wisselen";
+"LOCID Swap PIP" = "Pic-in-Pic wisselen";
+"LOCID Leave Video" = "Video verlaten";
+"LOCID Start My Video" = "Mijn video starten";
+"LOCID Stop My Video" = "Mijn video stoppen";
+"LOCID End Video" = "Video beëindigen";
+"LOCID LargeMtgActiveSpeakerMissing" = "Info spreker is niet beschikbaar voor grote vergaderingen.";
+"LOCID Swap Preview" = "Voorbeeld omwisselen";
+"LOCID Speaker On" = "Luidspreker aan";
+"LOCID Speaker Off" = "Luidspreker uit";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Het videobeeld is ingeschakeld";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Dubbeltik om het videobeeld uit te schakelen.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Het videobeeld is uitgeschakeld";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Dubbeltik om het videobeeld in te schakelen.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "De luidspreker is ingeschakeld";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Dubbeltik om de luidspreker uit te schakelen.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "De luidspreker is uitgeschakeld";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Dubbeltik om de luidspreker in te schakelen.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "De oproep wordt gedempt";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Dubbeltik om de microfoon in te schakelen.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "De oproep wordt niet gedempt";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Dubbeltik om de microfoon uit te schakelen.";
+
+"LOCID Instant Messaging" = "Chatten";
+"LOCID Voice" = "Spraak";
+"LOCID Collaboration" = "Samenwerking";
+"LOCID Participants" = "Deelnemers";
+"LOCID Full Screen" = "Volledig scherm";
+"LOCID Exit Full Screen" = "Volledig scherm afsluiten";
+"LOCID Local Participant Alone in Conference Msg" = "Zo te zien bent u de enige die aan de lijn is.";
+"LOCID 1 or more participants" = "1 of meer deelnemers";
+"LOCID Call Started" = "Gesprek gestart - %@";
+"LOCID Call Ended Missed" = "Gesprek beëindigd - %@ [gemist]";
+"LOCID Call Ended Duration" = "Gesprek beëindigd - %@ [duur: %@]";
+"LOCID ConferenceEndedRejoin" = "Uw verbinding met de vergadering is verbroken. Tik hieronder om opnieuw deel te nemen.";
+"LOCID ConferenceEndedContinue" = "Wanneer u dit gesprek opnieuw opstart, wordt er een nieuwe uitnodiging verstuurd naar alle deelnemers.";
+"LOCID IM P2P Toast Voiceover" = "%@ nodigt u uit voor een gesprek. Dubbeltik om te accepteren.";
+"LOCID IM Conf Toast Voiceover" = "%@ nodigt u uit voor een groepsgesprek. Dubbeltik om te accepteren.";
+"LOCID Video is Locked on you" = "U staat in de videospotlight.";
+
+"LOCID SFB Call Started" = "Oproep gestart";
+"LOCID SFB Call Ended" = "Oproep beëindigd";
+"LOCID SFB Call Ended Duration" = "Oproep beëindigd, %@";
+
+/* Roster*/
+"LOCID Presenters" = "PRESENTATOREN (%d)";
+"LOCID Attendees" = "DEELNEMERS (%d)";
+"LOCID In Lobby" = "LOBBY (%d)";
+"LOCID Guest" = "Gast";
+"LOCID Remove" = "Verwijderen";
+"LOCID E_RemoveFailed" = "We konden de deelnemer niet verwijderen.";
+"LOCID E_AddFailed" = "We konden de deelnemer niet toevoegen.";
+
+/*Lobby*/
+"LOCID Admit all" = "Allen toelaten";
+"LOCID Deny all" = "Allen weigeren";
+"LOCID Admit" = "Toelaten";
+"LOCID Deny" = "Weigeren";
+"LOCID See Lobby" = "Lobby zien";
+"LOCID Conference In the Lobby" = "Er zijn wachtende deelnemers in de lobby.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Instellen als presentator";
+"LOCID Demote" = "Instellen als aanwezige";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Mobiel";
+"LOCID Voice and IM Unavailable" = "Stem en IM niet beschikbaar";
+"LOCID Voice Only" = "Alleen spraak";
+"LOCID Voice and Video Only" = "Alleen spraak en video";
+"LOCID IM Only" = "Alleen chatberichten";
+"LOCID No Voice" = "Geen spraak";
+"LOCID Video capable" = "Video mogelijk";
+"LOCID No IM" = "Geen IM";
+"LOCID Mobile Cap" = "Mobiel";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Toetsen";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Bel";
+"LOCID Dialpad" = "Toetsenblok";
+"LOCID Dialpad STAR Key" = "Sterretje";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Hekje"; // Used for accessibility
+"LOCID Delete Key" = "Verwijderen";   // Used for accessibility
+"LOCID Emergency number" = "Alarmnummer"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "verbergen";
+"LOCID Dialpad Search Recent Calls" = "recente oproepen";
+"LOCID Dialpad Search Native Contacts" = "telefooncontacten";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Probleem met contacten";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Er is een probleem opgetreden bij het raadplegen van de telefoonnummers van uw contacten. Probeer uw e-mailaccounts opnieuw te synchroniseren via Instellingen om het probleem op te lossen.";
+
+/* My Status Tab */
+"LOCID Options" = "Instellingen";
+"LOCID Send Feedback" = "Feedback";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ tot %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Van %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "tot %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "van %1$@ tot %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Geen vergaderingen";
+"LOCID All" = "Alles";
+"LOCID No Meetings Scheduled" = "Er zijn geen vergaderingen gepland";
+"LOCID None" = "Geen";
+"LOCID Organizer" = "Organisator";
+"LOCID Invitees" = "GENODIGDEN";
+"LOCID Notes" = "OPMERKINGEN";
+"LOCID Join" = "Deelnemen";
+"LOCID Updated DATE TIME" = "Bijgewerkt op %1$@ om %2$@";
+"LOCID Online" = "Online";
+"LOCID Tentative" = "Voorlopig";
+"LOCID Event" = "Gebeurtenis";
+"LOCID Updating..." = "Bijwerken...";
+"LOCID Tentative Voiceover" = "%@, voorlopig";
+"LOCID Pull to refresh" = "Naar beneden trekken om te vernieuwen";
+"LOCID Today" = "VANDAAG"; // CAPS
+"LOCID Tomorrow" = "MORGEN"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Als u niet de organisator bent, wordt uw microfoon gedempt als u meedoet.";
+"LOCID Lync Conferencing" = "Skype-vergadering";
+"LOCID Joining Step 1" = "Verbinden...";
+"LOCID Please wait to be admitted" = "Wacht totdat u wordt toegelaten";
+"LOCID Join Conf Error" = "De verbinding met de vergadering is verbroken.";
+"LOCID Anonymous Join" = "Anoniem deelnemen";
+"LOCID Enter your name" = "Voer een naam in";
+"LOCID Anonymous Join Greeting" = "Welkom bij Skype voor Bedrijven";
+"LOCID Sign in with Lync" = "Aanmelden bij Skype voor Bedrijven";
+"LOCID Sign in as guest" = "Aanmelden als gast";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Er kan geen verbinding worden gemaakt met de vergadering zonder uw iPhone-nummer. Voeg uw iPhone-nummer toe in de opties van Skype voor Bedrijven.";
+"LOCID Join Conf Error - No Number iPad" = "Er kan geen verbinding worden gemaakt met de vergadering zonder uw telefoonnummer. Voeg uw telefoonnummer toe in de opties van Skype voor Bedrijven.";
+"LOCID Join Meeting Line 1 Text" = "Deelnemen aan de vergadering\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Bezig met u te bellen op %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Hallo. U bent nu in onze virtuele lobby, dus maak het uzelf gemakkelijk. Ga niet te ver weg van de app—de organisator zal u snel binnenlaten.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "U bent niet toegelaten, omdat de organisator er niet is of niet heeft gereageerd.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "De verbinding is verbroken. Tik op Deelnemen om het opnieuw te proberen.";
+"LOCID View" = "Weergeven";
+"LOCID Join Meeting" = "Deelnemen aan de vergadering";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Deelnemen aan vergadering";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "We kunnen u niet verbinden, omdat de vergadering vol is. Neem contact op met de organisator.";
+"LOCID AdmittedToLobby" = "U bent toegelaten. We bellen u nu op...";
+"LOCID MtgDisclaimerAccept" = "Accept.";
+"LOCID MtgDisclaimerDecline" = "Negeren";
+"LOCID E_MeetingNotFound" = "De vergadering waaraan u wilt deelnemen bestaat niet.";
+"LOCID E_MeetingsNotEnabled" = "Deze vergaderfunctie is niet ingeschakeld door uw organisatie.";
+"LOCID E_OutsideOrg" = "Deze persoon of vergadering heeft geen machtigingen op uw netwerk.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Oproepen en vergaderingen";
+"LOCID credentialsSection" = "Mijn referenties";
+"LOCID contactsSection" = "Contacten";
+"LOCID accessibilitySection" = "Toegankelijkheid";
+"LOCID otherSection" = "Overige";
+"LOCID Show Recent Contacts" = "Recente contacten";
+"LOCID Show Pinned Contacts" = "Vastgemaakte contacten";
+"LOCID Show Photos" = "Foto's";
+"LOCID Sort by availability" = "Sorteren op beschikbaarheid";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Logboekregistratie";
+"LOCID About" = "Over";
+"LOCID About Version" = "Versie %@";
+"LOCID Status" = "Status";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP-proxy";
+"LOCID Require WiFi" = "WiFi vereist voor";
+"LOCID WiFi VoIP" = "Spraak";
+"LOCID WiFi Video" = "Video";
+"LOCID WiFi Collab" = "Inhoud voor vergadering";
+"LOCID WiFi Warning" = "Als u weg bent, kunt u gebeld worden via uw dataverbinding (mogelijk extra kosten en lagere kwaliteit).";
+"LOCID WiFi Warning iPad" = "Indien deze functie is uitgeschakeld, kunt u oproepen of inhoud van vergaderingen ontvangen via uw dataverbinding (mogelijk zijn hieraan extra kosten verbonden en is de kwaliteit minder goed).";
+"LOCID Not a SfB User" = "Bent u geen Skype voor Bedrijven-gebruiker?";
+
+
+/* About View */
+"LOCID About Title" = "Over";
+"LOCID version" = "Versie: %@";
+"LOCID Long Product Name" = "Skype® voor Bedrijven voor %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Alle rechten voorbehouden.";
+"LOCID online help" = "Help";
+"LOCID Terms Of Use" = "Gebruiksvoorwaarden";
+"LOCID Privacy title" = "Privacy";
+"LOCID Third Party Notices" = "Mededelingen van derde partijen";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype en Microsoft\nOctrooi aangevraagd";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "De Skype-naam, geassocieerde handelsmerken en logo's en het S-logo zijn handelsmerken van Skype of gelieerde entiteiten.\n\nWaarschuwing: Dit programma is auteursrechtelijk beschermd. Onrechtmatige verveelvoudiging of distributie van dit programma, of een gedeelte ervan is verboden en strafbaar, en zal met alle beschikbare juridische middelen worden bestreden.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Doorschakelen";
+"LOCID Forward Section" = "Nummer kiezen";
+"LOCID Apply Setting Section" = "Instellingen toepassen";
+"LOCID Summary Section" = "Uw huidige instellingen:";
+"LOCID Do Not Forward" = "Niet doorschakelen";
+"LOCID Forward Calls" = "Oproepen doorschakelen";
+"LOCID Forward Calls To" = "Oproepen doorschakelen naar";
+"LOCID Simultaneously Ring" = "Tegelijk bellen";
+"LOCID On" = "Aan";
+"LOCID Off" = "Uit";
+"LOCID During Working Hours" = "Tijdens werktijden";
+"LOCID Voicemail" = "Voicemail";
+"LOCID Team Call" = "Leden van teamoproep";
+"LOCID Delegates" = "Gedelegeerden";
+"LOCID Pending Persons" = "Toegevoegd door";
+"LOCID Delegate Target" = "uw gedelegeerden";
+"LOCID TeamCall Target" = "leden van uw teamoproepgroep";
+"LOCID Voicemail Target" = "uw voicemail";
+"LOCID DoNotForward Summary" = "U wordt op het werk gebeld en oproepen worden niet doorverbonden. U ontvangt geen oproepen op uw mobiele telefoon als VoIP niet beschikbaar is.";
+"LOCID DoNotForward Summary iPad" = "U wordt op uw werk gebeld en oproepen worden niet doorverbonden. U ontvangt geen oproepen op uw iPad als VoIP niet beschikbaar is.";
+"LOCID ForwardCalls Summary" = "Oproepen worden rechtstreeks doorverbonden naar %@. Als dit niet uw mobiele nummer is, ontvangt u geen oproepen op uw mobiele telefoon.";
+"LOCID ForwardCalls Summary iPad" = "Oproepen worden rechtstreeks doorverbonden naar %@ en niet naar uw iPad.";
+"LOCID Simulring Summary" = "U wordt gebeld op het werk en ook %@. Als dit uw mobiele nummer is, ontvangt u mobiele oproepen als VoIP niet beschikbaar is.";
+"LOCID Simulring Summary iPad" = "U wordt gebeld op het werk en ook %@. U ontvangt geen oproepen op uw iPad als VoIP niet beschikbaar is.";
+"LOCID View Settings" = "Huidige instellingen weergeven";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Instellingen toepassen";
+"LOCID All the Time" = "Altijd";
+"LOCID During Outlook Working Hours" = "Tijdens Outlook-werktijden";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Werk";
+"LOCID Home Capitalized" = "Privé";
+"LOCID Mobile Capitalized" = "Mobiel";
+"LOCID Custom Capitalized" = "Aangepast";
+"LOCID Other Capitalized" = "Overige";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Annuleren";
+"LOCID Add" = "Toevoegen";
+"LOCID New Number" = "Nieuw nummer";
+"LOCID New Contact" = "Nieuw contact";
+"LOCID Contact" = "Contact";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Aanmeldingslogboeken uploaden";
+"LOCID SignInBRB - Always" = "Altijd";
+"LOCID SignInBRB - Never" = "Nooit";
+"LOCID SignInBRB - Ask Me" = "Vraag het me";
+"LOCID Send Log Files" = "Logbestanden verzenden";
+"LOCID Log Email Subject" = "Skype voor Bedrijven-logboekbestanden"; //product name
+"LOCID Device Model" = "Apparaatmodel:";
+"LOCID Device OS Name" = "Naam van apparaatbesturingssysteem:";
+"LOCID Device OS Version" = "Versie van apparaatbesturingssysteem:";
+"LOCID Enable Logging" = "Logboeken inschakelen";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "HTTP-proxy";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Gebruik de WiFi-instellingen van uw %@ om het instellen van uw HTTP-proxy te voltooien.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Aanmeldgegevens voor Skype voor Bedrijven gebruiken";
+"LOCID Exchange Credentials Info" = "De Exchange-aanmeldgegevens zijn vereist om de gegevens van uw vergaderingen en voicemail weer te geven in Skype voor Bedrijven.";
+"LOCID Email Address" = "E-mailadres";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Mijn mobiele nummer";
+"LOCID My Mobile Number Details" = "Voer uw iPhone-nummer in met het land- en netnummer:";
+"LOCID My Mobile Number Details iPad" = "Voer uw telefoonnummer in met het land- en netnummer:";
+"LOCID My Mobile Number Footer" = "Hiermee kunt u bellen en worden gebeld voor uw werk en deelnemen aan vergaderingen via Skype voor Bedrijven.\nAls u VoIP gebruikt en VoIP niet beschikbaar is, is dit uw back-up.";
+"LOCID My Mobile Number Footer - Conf Join" = "Hiermee kunt u deelnemen aan vergaderingen via Skype voor Bedrijven.\nAls u VoIP gebruikt en VoIP niet beschikbaar is, is dit uw back-up.";
+"LOCID iPhone Number" = "Telefoonnummer";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Werkoproep";
+"LOCID Missing iPhone Number Error" = "Telefoonnummer ontbreekt";
+"LOCID Missing iPhone Number Error Text" = "Deze oproep kan niet worden voltooid. Voer uw iPhone-nummer in bij Opties en probeer het opnieuw.";
+"LOCID Missing iPad Number Error Text" = "Deze oproep kan niet worden voltooid. Voer uw telefoonnummer in bij Opties en probeer het opnieuw.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Voor u van start gaat";
+"LOCID Main text" = "Iedereen die wordt uitgenodigd voor een Skype-vergadering, kan de app Skype voor Bedrijven voor mobiele apparaten gebruiken. U moet echter een Skype voor Bedrijven-account hebben als u gebruik wilt maken van alle mogelijkheden van de app.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "Meer opties";
+"LOCID Add Contact" = "Contact toevoegen";
+"LOCID Add to Group" = "Aan groep toevoegen";
+"LOCID Remove Contact" = "Contact verwijderen";
+"LOCID Remove from Group" = "Uit groep verwijderen";
+"LOCID Groups" = "Groepen";
+"LOCID E_AddContactFailureGeneral" = "Dit contact kan op dit moment niet worden toegevoegd. Probeer het later opnieuw.";
+"LOCID E_AddContactFull" = "U kunt geen contacten meer toevoegen aan deze groep.";
+"LOCID E_AddContactInGroup" = "Het contact staat al in deze groep.";
+"LOCID E_RemoveContactFailureGeneral" = "Dit contact kan op dit moment niet worden verwijderd. Probeer het later opnieuw.";
+"LOCID Confirm Remove Contact" = "%@ wordt verwijderd uit uw contactenlijst.";
+"LOCID Ignore" = "Negeren";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Meer informatie";
+"LOCID CEIP More Info" = "Help Skype voor Bedrijven nog beter te worden door anonieme gegevens naar Microsoft te verzenden.";
+"LOCID ceipSectionTitle" = "Programma voor kwaliteitsverbetering";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Welkom.";
+"LOCID Lets begin" = "Aan de slag...";
+
+/* First Run Experience */
+"LOCID Close" = "Sluiten";
+"LOCID Change" = "Ja";
+"LOCID Don't change" = "Nee";
+"LOCID Next" = "Volgende";
+"LOCID Done" = "Gereed";
+"LOCID First Run First Step" = "Lync heet voortaan Skype voor Bedrijven: waar de Skype-ervaring samenkomt met de zakelijke kwaliteit van Microsoft.";
+"LOCID First Run Second Step" = "Iedereen kan met deze app deelnemen aan een Skype-vergadering, maar u moet een Skype voor Bedrijven-account hebben als u alle functies wilt gebruiken. Bovendien moet uw organisatie deze app hebben ingeschakeld.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "INSTELLINGEN VOOR DOORSCHAKELEN WIJZIGEN?";
+"LOCID First Run CF Current Settings" = "Uw huidige instellingen:";
+"LOCID First Run CF Change Settings" = "Nieuwe instellingen:";
+"LOCID First Run Change Summary" = "U hebt uw telefoonnummer ingevoerd om werkoproepen te kunnen ontvangen. Nu moet u de huidige instellingen voor doorschakelen wijzigen, zodat uw telefoon kan worden gebeld.";
+"LOCID First Run Change Request" = "Wilt u dit wijzigen, zodat u werkoproepen tegelijkertijd kunt ontvangen op uw werk en op %@?";
+"LOCID DoNotForward Summary - First Run" = "U wordt op het werk gebeld en oproepen worden niet doorgeschakeld naar andere nummers.";
+"LOCID ForwardCalls Summary - First Run" = "Oproepen worden rechtstreeks doorgeschakeld naar %@.";
+"LOCID Simulring Summary - First Run" = "U wordt gebeld op het werk en ook %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "MIS NOOIT EEN WERKOPROEP";
+"LOCID My Mobile Number Title 2" = "MIS NOOIT EEN VERGADERING";
+"LOCID My Mobile Number Details First Run" = "Uw iPhone-nummer is vereist met land- en regiocodes:";
+"LOCID My Mobile Number Details First Run_iPad" = "Uw telefoonnummer is vereist met land- en regiocodes:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "GEGEVENSVERBRUIK BEHEREN";
+"LOCID Setup Work Calls Sub Text" = "Deze instellingen beheren uw dataverbruik en mogelijke kosten voor oproepen en vergaderingen.";
+
+"LOCID Require Wifi for VoIP calls" = "WiFi vereist voor VoIP-oproepen";
+"LOCID Require Wifi for VoIP calls off subtext" = "Als WiFi niet beschikbaar is, zullen uw oproepen gebruikmaken van uw dataverbinding.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Oproepen gaan altijd via WiFi. De dataverbinding wordt nooit gebruikt.";
+
+"LOCID Require Wifi for Video calls" = "WiFi vereist voor video-oproepen";
+"LOCID Require Wifi for Video calls off subtext" = "Als WiFi niet beschikbaar is, wordt gebruik gemaakt van uw dataverbinding. (Het kan om veel gegevens gaan.)";
+"LOCID Require Wifi for Video calls on subtext" = "Video-oproepen gaan altijd over WiFi. De dataverbinding wordt nooit gebruikt.";
+
+"LOCID Require Wifi for meeting content" = "WiFi vereist voor inhoud vergadering";
+"LOCID Require Wifi for meeting content off subtext" = "Als WiFi niet beschikbaar is, wordt voor vergaderingsinhoud gebruik gemaakt van uw dataverbinding. (Het kan om veel gegevens gaan.)";
+"LOCID Require Wifi for meeting content on subtext" = "WiFi wordt altijd gebruikt om de vergaderingsinhoud op te halen—nooit de dataverbinding.";
+
+"LOCID Skip" = "Overslaan";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Skype voor Bedrijven gebruiken";
+
+"LOCID First Run Successful Setup" = "U BENT KLAAR!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "WELKOM!";
+"LOCID First Run Successful Setup Details" = "U kunt in Instellingen altijd wijzigingen aanbrengen.";
+
+"LOCID improve lync" = "Help Skype voor Bedrijven te verbeteren";
+"LOCID whyphonenumber" = "Waarom hebben we uw telefoonnummer nodig";
+"LOCID more detail" = "Meer details";
+
+"LOCID Emergency Call Disclaimer" = "De kleine lettertjes:";
+"LOCID Emergency Call Disclaimer Details" = "Voor alle oproepen gelden de normale kosten van de provider.\n\nBelangrijk: gebruik de Skype voor Bedrijven-app niet voor noodoproepen.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Belangrijk";
+"LOCID Emergency Call Disclaimer Details iPad" = "Gebruik de Skype voor Bedrijven-app niet voor noodoproepen.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Pushmeldingen";
+"LOCID Push Notification Legal1" = "Voordat u het gebruik van pushmeldingen accepteert, moet u er rekening mee houden dat alle pushmeldingen en de inhoud ervan worden verzonden via de Apple Push Notification Service en het pushmeldingssysteem van Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "U hebt de instellingen voor pushmeldingen gewijzigd in de instellingen voor %1$@-meldingen, maar u moet Skype voor Bedrijven opnieuw starten om geen meldingen meer te ontvangen.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Mobiel nummer";
+"LOCID Call via Work Not Available Error" = "U kunt geen Skype voor Bedrijven-oproep plaatsen omdat u offline bent. Probeer met uw mobiele nummer te bellen.";
+"LOCID Call via Work Not Available Error iPad" = "U kunt geen Skype voor Bedrijven-oproep plaatsen omdat u offline bent.";
+"LOCID Answer incoming call" = "Inkomend gesprek beantwoorden";
+"LOCID to connect you to... display name" = "om u te verbinden met...\n%@";
+
+"LOCID Call via Work Connecting" = "Bezig met verbinden...\n Beantwoord de volgende inkomende oproep.";
+"LOCID Call via Work Connected" = "U doet mee vanaf %1$@";
+"LOCID Video Disclaimer" = "U kunt geen video zien of delen.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "U doet mee vanaf %1$@.";
+
+/* Errors */
+"LOCID Error" = "Fout";
+"LOCID E_GenericFailure" = "Er is een fout opgetreden in Skype voor Bedrijven. Probeer het opnieuw. Als het probleem zich blijft voordoen, neemt u contact op met het ondersteuningsteam.";
+"LOCID E_GroupNotFound" = "Die groep kan niet worden gevonden.";
+"LOCID E_PermissionsForGroup" = "U bent niet gemachtigd om deze groep uit te breiden.";
+"LOCID E_ConnectionError" = "Er kan geen verbinding met de server worden gemaakt. Controleer de netwerkverbinding en het serveradres en probeer het opnieuw.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Er kan geen verbinding worden gemaakt met de server. 1) De server is mogelijk niet beschikbaar. 2) Controleer de netwerkverbinding. 3) Zorg ervoor dat u het Skype voor Bedrijven-account gebruikt dat u van uw organisatie hebt gekregen. 4) Uw gebruikersnaam moet anders zijn dan uw aanmeldnaam. Tik op Geavanceerde opties en voer uw gebruikersnaam of domein\\gebruikersnaam in.";
+"LOCID E_AutoDiscoveryInBackground" = "De configuratie van de server is gewijzigd. Start Skype voor Bedrijven opnieuw.";
+"LOCID E_SslError" = "Het certificaat van de server kan niet worden geverifieerd. Neem contact op met het ondersteuningsteam.";
+"LOCID E_SslCertExpiredError" = "Het certificaat van de server kan niet worden geverifieerd. Neem contact op met het ondersteuningsteam.";
+"LOCID E_ProxyAuthError" = "U kunt zich niet aanmelden. Configureer de HTTP-proxyinstellingen in de %@-instellingen en Skype voor Bedrijven-opties of gebruik 3G om verbinding te maken.";
+"LOCID E_ConnectionTimeoutError" = "Kan geen verbinding maken met de server. Deze is mogelijk bezet of tijdelijk niet beschikbaar. Probeer het opnieuw.";
+"LOCID E_GenericApplicationError" = "Er is een fout opgetreden in de toepassing. Start deze opnieuw.";
+"LOCID E_AuthError" = "Aanmelden is mislukt. Controleer de accountgegevens en probeer het opnieuw.";
+"LOCID E_InvalidCredentials" = "Aanmelden is mislukt. Controleer de accountgegevens en probeer het opnieuw.";
+"LOCID E_InvalidSignInAddress" = "Aanmelden niet mogelijk. Controleer het aanmeldingsadres en probeer het opnieuw.";
+"LOCID E_InvalidLyncAccount" = "Dit zijn geen geldige aanmeldingsgegevens.  U moet zich aanmelden met het Skype voor Bedrijven-account dat u van uw organisatie hebt gekregen.";
+"LOCID E_WrongHomePool" = "U bent niet geconfigureerd om verbinding te maken met de server. Neem contact op met het ondersteuningsteam.";
+"LOCID E_ImSendError" = "Verzenden mislukt:";
+"LOCID GenericRetryError" = "Er kan geen verbinding met de server worden gemaakt. Nieuwe poging...";
+"LOCID GenericError" = "Er is een serverfout opgetreden. Probeer het opnieuw.";
+"LOCID RequestFailed" = "Kan de aanvraag niet verwerken. Probeer het opnieuw.";
+"LOCID DecodingError" = "Kan het antwoord van de server niet verwerken. Probeer het opnieuw. Als het probleem zich blijft voordoen, neemt u contact op met het ondersteuningsteam.";
+"LOCID VersionMismatch" = "U kunt zich niet aanmelden met deze versie van Skype voor Bedrijven. Installeer een nieuwere versie. Neem contact op met het ondersteuningsteam als dat niet werkt.";
+"LOCID SignInCredentialsAreNeeded" = "U bent afgemeld. Uw accountgegevens zijn nodig om u opnieuw aan te melden.";
+"LOCID NeedLyncPassword" = "Uw wachtwoord is vereist voor het aanmelden.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Er kan op dit moment geen verbinding met de server worden gemaakt. Probeer het opnieuw.";
+"LOCID E_HttpRequestTimeout" = "Aanmelden bij de server is niet mogelijk omdat deze tijdelijk niet beschikbaar is.";
+"LOCID E_CannotConnectToServer" = "Er kan geen verbinding worden gemaakt met de server. Er wordt geprobeerd de verbinding te herstellen. Als het probleem zich blijft voordoen, neemt u contact op met uw ondersteuningsteam.";
+"LOCID E_InvalidServerUrl" = "De servernaam is onjuist. Controleer de naam en probeer het opnieuw.";
+"LOCID E_NoValidIp" = "Er kan geen verbinding met het netwerk worden gemaakt. Controleer de verbindingsinstellingen.";
+"LOCID E_MetaDataNotFound" = "Kan de server niet bereiken. Controleer het serveradres of probeer het later opnieuw.";
+"LOCID E_TimeSkewError" = "De klok van uw apparaat kan niet worden gesynchroniseerd met de server. Wijzig de tijdinstellingen of neem contact op met het ondersteuningsteam.";
+"LOCID E_MobilityDisabled" = "U kunt zich niet aanmelden omdat uw account voor Skype voor Bedrijven nog niet is geconfigureerd. Neem contact op met het ondersteuningsteam.";
+"LOCID E_TooManyApplications" = "Aanmelden is mislukt. U lijkt al bij te veel apparaten te zijn aangemeld.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Werkoproep is uitgeschakeld. Geef uw telefoonnummer op in de opties om een Skype voor Bedrijven-gesprek met deze persoon te starten.";
+"LOCID E_UI_OfflineLyncCall" = "U moet online zijn of een mobiele dataverbinding hebben om een Skype voor Bedrijven-gesprek met deze persoon te starten.";
+"LOCID E_EwsError" = "Er kan geen verbinding met Exchange worden gemaakt. Probeer het later opnieuw.";
+"LOCID E_EwsBadCredentials" = "Uw Exchange-aanmeldingsgegevens zijn niet geldig. Probeer uw Exchange- of Skype voor Bedrijven-aanmeldingsgegevens bij te werken.";
+"LOCID W_Retrying" = "Kan de server niet bereiken. Opnieuw proberen...";
+"LOCID E_UI_CallViaCellError" = "Controleer het nummer en probeer het opnieuw.";
+"LOCID E_LiveIdPasswordExpired" = "Uw wachtwoord is verlopen. Werk uw wachtwoord bij en probeer het opnieuw.";
+"LOCID E_LiveIdInvalidCredentails" = "Aanmelden is mislukt. Controleer de accountgegevens en probeer het opnieuw.";
+"LOCID E_LiveIdPasswordChangeRequired" = "U moet uw wachtwoord wijzigen. Werk het wachtwoord bij en probeer het opnieuw.";
+"LOCID E_LiveIdPasswordLockedOut" = "U moet uw wachtwoord wijzigen. Werk het wachtwoord bij en probeer het opnieuw.";
+"LOCID E_LiveIdConnectionFailed" = "Er kan op dit moment geen verbinding met de server worden gemaakt. Probeer het opnieuw.";
+"LOCID E_LiveIdServiceUnavailable" = "Er kan op dit moment geen verbinding met de server worden gemaakt. Probeer het opnieuw.";
+"LOCID E_LiveIdGenericError" = "Aanmelden is mislukt. Probeer het opnieuw.";
+"LOCID E_InvalidLiveIDUserNameError" = "Aanmelden is mislukt. Controleer of uw gebruikersnaam de notatie iemand@voorbeeld.com heeft en uw wachtwoord geldig is.";
+"LOCID E_InvalidSmtpAddress" = "Er kan geen verbinding met Exchange worden gemaakt. Controleer de accountgegevens en probeer het opnieuw.";
+"LOCID E_LogoffUnsuccessful" = "U kunt niet worden verbonden met Skype voor Bedrijven omdat de verbinding met de server is verbroken.";
+"LOCID E_ClientVersionMismatch" = "U kunt zich niet aanmelden omdat uw organisatie deze versie van Skype voor Bedrijven niet ondersteunt. Installeer Lync 2010 vanuit de store op uw mobiele apparaat.";
+"LOCID E_ClientServerSchemaMisMatch" = "U kunt zich niet aanmelden met deze versie van Skype voor Bedrijven. Installeer een nieuwere versie. Neem contact op met het ondersteuningsteam als dat niet werkt.";
+"LOCID E_ClientVersionCheck" = "U kunt zich niet aanmelden met deze versie van Skype voor Bedrijven. Installeer een nieuwere versie. Neem contact op met het ondersteuningsteam als dat niet werkt.";
+"LOCID E_VersionMismatch" = "U kunt zich niet aanmelden met deze versie van Skype voor Bedrijven. Installeer een nieuwere versie. Neem contact op met het ondersteuningsteam als dat niet werkt.";
+"LOCID E_AutoDConfigurationError" = "Aanmelden is mislukt. Neem contact op met het ondersteuningsteam.";
+"LOCID E_AutoDPasswordExpiredError" = "Uw wachtwoord is verlopen. Werk uw wachtwoord bij en probeer het opnieuw.";
+"LOCID E_InvalidProxySettingsError" = "Aanmelden is mislukt. De proxyinstellingen zijn niet geldig. Controleer de instellingen en probeer het opnieuw.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "U bent afgemeld vanwege inactiviteit.";
+"LOCID E_GeneralGoneError" = "Aanmelden is mislukt. Neem contact op met het ondersteuningsteam.";
+"LOCID E_InternalServerError" = "Aanmelden is mislukt. Neem contact op met het ondersteuningsteam.";
+"LOCID E_TooManyApps" = "Aanmelden is mislukt. Zo te zien bent u al bij te veel apparaten aangemeld.";
+"LOCID E_ResponseUnkown" = "Verbinding maken met de server is mislukt. Open als u Wi-fi gebruikt de browser om te controleren of een vebinding is gemaakt. Schakel als dit niet het geval is verbindingen met hot-spots of via tethering uit.";
+"LOCID E_CannotLoadADFSPage" = "Aanmelden is mislukt. Probeer het opnieuw. Als het probleem zich blijft voordoen, neemt u contact op met het ondersteuningsteam.";
+"LOCID E_UserNotSipEnabled" = "De verbinding met de server is niet geconfigureerd. Neem contact op met uw ondersteuningsteam.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "U kunt momenteel geen VoIP-oproep plaatsen. Probeer te bellen vanaf uw mobiele nummer.";
+"LOCID E_VoicePSTNCallActive" = "U kunt momenteel geen VoIP-oproep plaatsen. Probeer te bellen vanaf uw werknummer.";
+"LOCID E_VoicePSTNCallActive - Button" = "Werkoproep";
+"LOCID E_VideoOverWiFiBlocked" = "Dit is een uitnodiging voor een video-oproep, maar aangezien u geen WiFi-verbinding hebt, hebben we alleen audio aangesloten.";
+"LOCID E_HistoryNotDisplayed" = "Geschiedenis voor dit gesprek kan niet worden getoond.";
+"LOCID E_IMAcceptedElsewhere" = "U hebt dit gesprek ergens anders geaccepteerd. Om het opnieuw te starten, moet u een nieuw bericht verzenden.";
+"LOCID E_MuteFailed" = "Vanwege een fout kunnen anderen niet zien dat uw geluid nu gedempt is.";
+"LOCID E_UnmuteFailed" = "Vanwege een fout is uw geluid nog steeds gedempt. Probeer het geluid weer in te schakelen.";
+"LOCID E_DgExpansionGenericFailure" = "Kan geen groepsleden ophalen om uit te nodigen. Probeer het later opnieuw.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "De groep is te groot om uit te nodigen.";
+"LOCID E_DgExpansionNoMembersFailure" = "De groep heeft geen afzonderlijke leden en kan niet worden uitgenodigd.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ is niet beschikbaar of is mogelijk offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ is ingesteld op Niet storen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ is niet in gebruik. Controleer het nummer.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ voert een ander gesprek.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ heeft niet geantwoord.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ kan deze oproep niet beantwoorden.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Deze oproep kan niet worden voltooid wanneer u offline bent. Meld u aan bij Skype voor Bedrijven om de oproep te plaatsen.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "De bewerking is mislukt.";
+"LOCID E_VoiceGenericError" = "De oproep is niet voltooid of is beëindigd.";
+"LOCID E_VoiceFeatureNotEnabled" = "De oproepfunctie is uitgeschakeld.";
+"LOCID E_VoiceCheckNumber" = "Controleer het nummer en probeer het opnieuw.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Kan de oproep niet voltooien. Probeer het later opnieuw.";
+"LOCID E_VoiceCallUnsuccessful" = "Kan de oproep niet verbinden.";
+"LOCID E_VoiceCallTypeNotSupported" = "Oproep mislukt. Dit type oproep wordt niet ondersteund.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Dit bericht is mogelijk niet verzonden aan %@, vanwege een time-out van de server:";
+
+"LOCID E_SharingAnotherOperation" = "Er wordt een andere oplossing gezocht. Een moment geduld en probeer het opnieuw.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ heeft dit bericht niet ontvangen vanwege een serverprobleem:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ is offline en heeft dit bericht niet ontvangen:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ heeft de status Niet storen en heeft dit bericht niet ontvangen:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Dit bericht kan niet worden verzenden, omdat %@ niet te vinden is.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Kan dit bericht niet verzenden vanwege geblokkeerde inhoud:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "%@ kan niet worden bereikt om dit bericht te verzenden:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "De oproep kan niet worden voltooid.";
+
+"LOCID E_ConfLocked" = "U kunt niet deelnemen aan de vergadering, omdat deze vergrendeld is. Neem contact op met de organisator.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "De coderingen van u en %@ komen niet overeen. Neem contact op met het ondersteuningsteam.";
+
+"LOCID E_ConferencingServerError" = "Er is een serverfout opgetreden. Neem contact op met het ondersteuningsteam.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ is niet bereikbaar en is mogelijk offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ heeft de status Niet storen en is niet bereikbaar.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ heeft niet op de uitnodiging gereageerd.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "%@ is onbereikbaar.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Uw account is nog niet geconfigureerd voor deelname aan Skype-vergaderingen.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "U kunt niet deelnemen aan de telefonische vergadering als de toepassing niet aangemeld is.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ kon niet deelnemen aan de vergadering.";
+"LOCID E_ConferencingEnded" = "De vergadering waaraan u probeert deel te nemen, is niet beschikbaar.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Kan %@ niet bereiken. Probeer het later opnieuw.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "Kan %@ niet vinden. Controleer het adres.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "%@ is onbereikbaar.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ heeft uw uitnodiging geweigerd.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Een presentator heeft de vergadering beëindigd.";
+"LOCID E_ConferencingCallDisconnected" = "De oproep is verbroken.";
+"LOCID ConferenceUnexpectedDisconnect" = "De verbinding met de vergadering is verbroken.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "De oproep is niet voltooid of is beëindigd.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "%@ kan niet aan de vergadering worden toegevoegd, omdat het netwerk bezet is.";
+
+"LOCID E_ConferencingCannotConnect" = "De oproep is niet voltooid of is beëindigd.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "U kunt niet deelnemen aan dit type onlinevergadering.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Kan %@ niet uitnodigen omdat de vergadering vol is.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Aan de vergadering deelnemen als anonieme aanwezige is niet mogelijk.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Kan vanwege een uitnodigingsfout niet deelnemen aan de vergadering.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "U bent niet gemachtigd om deel te nemen aan de vergadering.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "We konden niet met u deelnemen aan de vergadering. Probeer het nog eens.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Buiten uw organisatie deelnemen aan deze vergadering is niet mogelijk.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Kan niet deelnemen aan dit type onlinevergadering.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Kan %@ niet bereiken.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "U kunt geen vergadering starten, omdat een andere vergadering wordt gestart.";
+"LOCID E_ConferencingEncryptionIssues" = "De Skype-vergadering kan niet worden gestart vanwege versleutelingsproblemen.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "U hebt onvoldoende machtigingen om deel te nemen of te bellen vanaf een ander apparaat.";
+"LOCID E_ConferencingMediaSessionTerminated" = "De oproep is niet voltooid of is beëindigd.";
+"LOCID E_ConferencingFull" = "De vergadering is vol.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "U bent niet gemachtigd om deel te nemen aan deze vergadering.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "De uitnodiging voor %@ is verlopen.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "De vergadering is beëindigd omdat de organisatoren deze hebben verlaten.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "U kunt niet deelnemen aan de vergadering omdat het netwerk bezet is.";
+"LOCID E_ConferencingSubjectLineTooLong" = "De onderwerpregel is te lang.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Uw organisatie heeft deze vergaderfunctie niet ingeschakeld.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Deze vergadering is beëindigd wegens inactiviteit.";
+"LOCID E_ConferencingCannotBeFound" = "Kan deze onlinevergadering niet vinden.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "U bent niet gemachtigd om deel te nemen aan deze vergadering.";
+"LOCID E_ConferencingUserNotAdmitted" = "U bent niet toegelaten tot de vergadering.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "U bent uit de vergadering verwijderd.";
+"LOCID E_ConfGenericError" = "U kunt niet deelnemen aan de vergadering. Probeer het opnieuw.";
+"LOCID E_ConferenceDenied" = "De toegang is geweigerd door de presentator.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "U neemt al deel aan een vergadering. Wilt u die verlaten en aan deze deelnemen?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "De server ondersteunt anonieme deelname aan een vergadering niet via dit apparaat.";
+"LOCID ConferenceVideoLock" = "Een presentator heeft de videospotlight op iemand vergrendeld.";
+"LOCID ConferenceVideoUnlock" = "Een presentator heeft de videospotlight ontgrendeld.";
+"LOCID ConferenceVideoSelfLock" = "Iedereen is op uw video vergrendeld.";
+"LOCID ConferenceVideoSelfUnlock" = "Niemand is meer op uw video vergrendeld.";
+
+"LOCID E_DomainNotTrusted" = "Kan geen verbinding maken met de server. Accepteer de omleidingsvraag.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ heeft dit bericht niet gekregen omdat de indeling niet is toegestaan:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Het apparaat dat door wordt %@ gebruikt, kan geen berichten ontvangen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ heeft dit bericht niet ontvangen omdat het te groot is:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ heeft dit bericht niet ontvangen omdat de bezorging door het beleid wordt beperkt:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Het chatbericht kan niet worden verzonden—u bent al in gesprek met %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Kan dit bericht niet verzenden vanwege geblokkeerde inhoud:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "U bent niet gemachtigd om chatberichten te verzenden naar %@. Het bericht is niet verzonden:";
+
+"LOCID E_IMConfGenericError" = "Een of meer deelnemers hebben dit bericht niet ontvangen:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ is niet beschikbaar.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "De oproep is beëindigd omdat %@ zich heeft afgemeld.";
+
+"LOCID E_VoiceCallTimeout" = "De oproep kan niet worden voltooid door netwerkproblemen. Probeer het later opnieuw.";
+"LOCID E_VoiceCallDisconnected" = "Sorry, de oproep is verbroken. Probeer het opnieuw.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "De oproep is niet voltooid of is beëindigd.";
+"LOCID E_VoiceCallNotCompleted" = "%@ kan geen oproepen ontvangen. Stuur een chatbericht of e-mailbericht.";
+"LOCID E_VoiceServerError" = "Kan vanwege een serverfout geen verbinding maken met de oproep. Probeer het opnieuw.";
+"LOCID E_VoiceCannotConnect" = "Kan geen verbinding maken met de onlinevergadering.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Kan geen contact opnemen met %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Kan %@ niet vinden.";
+
+"LOCID E_VoiceEncryptionIssues" = "De Skype-vergadering kan niet worden gestart vanwege versleutelingsproblemen.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "De persoon die u hebt gebeld, heeft geantwoord met een chatbericht.";
+"LOCID E_VoiceCannotCompleteCall" = "De oproep kan op deze belwijze niet worden voltooid.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "De oproep kan vanwege een serverprobleem niet worden voltooid.";
+"LOCID E_VoiceServerCannotForwardCall" = "De oproep kan niet worden doorgeschakeld door de server. Probeer het opnieuw.";
+"LOCID E_VoiceServerDidNotRespond" = "De server reageert niet. Probeer het later opnieuw.";
+"LOCID E_VoiceCannotPlaceCall" = "Kan de oproep niet plaatsen. Controleer het nummer en probeer het opnieuw.";
+"LOCID E_VoiceNumberNotSupported" = "Het bellen van dit nummer wordt niet door uw organisatie ondersteund.";
+"LOCID E_IncomingPSTNCall" = "De oproep kan niet worden voltooid.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "U kunt %@ niet bellen, omdat oproepen volgens de beleidsregels beperkt zijn.";
+
+"LOCID E_CallFailed" = "Uw oproep is beëindigd vanwege verbindingsproblemen. Probeer het nog eens.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Uw verbinding is verbroken, omdat u deelneemt vanaf een andere client.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "U bent uit de vergadering verwijderd.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "De oproep kan niet worden voltooid, omdat het netwerk bezet is.";
+"LOCID E_VoiceNotSupported" = "%@ kan geen oproepen met geluid accepteren.";
+"LOCID E_RepliedWIthOtherModality" = "Geadresseerde heeft gereageerd met een chat.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "De gespreksgeschiedenis kan momenteel niet worden bijgewerkt en is mogelijk niet gesynchroniseerd.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "De gespreksgeschiedenis kan momenteel niet worden bijgewerkt en is mogelijk niet gesynchroniseerd.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Er kunnen geen oproepen worden doorgeschakeld naar dit contact. Selecteer een van uw Skype voor Bedrijven-contacten om oproepen naar door te schakelen of selecteer Nieuw nummer om een telefoonnummer in te voeren.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY is aangezet";
+"LOCID RemoteHoldSucceeded" = "Externe gebruiker heeft u in de wachtstand gezet.";
+"LOCID RemoteUnholdSucceeded" = "Extern uit de wachtstand";
+"LOCID LocalHoldSucceeded" = "Lokaal in de wachtstand";
+"LOCID LocalUnholdSucceeded" = "Lokaal uit de wachtstand";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Gesprek hervatten";
+"LOCID is recording" = "%@ maakt een opname";
+"LOCID Multiple Recording" = "Iemand maakt een opname";
+"LOCID OnHoldOutOfApp" = "Uw %@-oproep staat in de wachtstand.";
+"LOCID OnStopOutOfApp" = "Uw %@-oproep is beëindigd.";
+"LOCID RecordingAlert" = "%@ maakt een opname van deze oproep.";
+"LOCID CoversationP2PIsRecording" = "%@ maakt een opname van deze oproep.";
+"LOCID CoversationP2PIsRecordingNoName" = "Deze oproep wordt opgenomen.";
+"LOCID CoversationConferenceIsRecording" = "Iemand maakt een opname van deze vergadering.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Deze lijst is bijna vol. De oudste gesprekken worden verwijderd als nieuwe worden toegevoegd.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Een presentator heeft geluid van het publiek gedempt.";
+"LOCID Audience Unlock" = "Een presentator heeft het geluid van het publiek ingeschakeld.";
+"LOCID Conference Mute" = "Een presentator heeft uw geluid gedempt.";
+"LOCID Conference Unmute" = "Een presentator wilt dat u uw geluid weer inschakelt.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Een presentator heeft het verzenden van video geblokkeerd.";
+"LOCID PresenterBlockedVideo - Presenter" = "Een presentator heeft het verzenden van video geblokkeerd. Als u een presentator bent, kunt u uw camera inschakelen om uw video te delen.";
+"LOCID PresenterBlockedVideo - Unblock" = "Een presentator heeft de deelnemers toegestaan video te verzenden.";
+"LOCID VideoLockOnYou" = "Iedereen is op uw video vergrendeld.";
+"LOCID VideoLock" = "Een presentator heeft de videospotlight op iemand vergrendeld.";
+"LOCID VideoNotLockOnYou" = "Niemand is meer op uw video vergrendeld.";
+"LOCID VideoSpotlightUnlocked" = "Een presentator heeft de videospotlight ontgrendeld.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Terug";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Werkoproep is niet beschikbaar.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Geen voicemail";
+"LOCID You currently have no voicemail messages" = "U hebt geen voicemailberichten.";
+"LOCID Audio" = "Geluid";
+"LOCID Speaker" = "Luidspreker";
+"LOCID Can not play locally" = "We kunnen dit bericht niet afspelen. Tik op Afspelen om het in een oproep te horen.";
+"LOCID Play Voice Mail" = "Voicemail afspelen";
+"LOCID PLAY_VOICEMAIL_HINT" = "De voicemail wordt afgespeeld";
+"LOCID Pause Voice Mail" = "Voicemail onderbreken";
+"LOCID PAUSE_VOICEMAIL_HINT" = "De voicemail wordt onderbroken";
+"LOCID Play On Phone Error - No Number" = "Voer in Opties uw telefoonnummer in om te worden teruggebeld.";
+"LOCID Call Back" = "Terugbellen";
+"LOCID Delete" = "Verwijderen";
+"LOCID More voicemails iPad" = "Als u oudere voicemailberichten wilt beluisteren, tikt u op het voicemailpictogram.";
+"LOCID More voicemails" = "Om oudere voicemailberichten te beluisteren, tikt u op het toetsenblok op 1 en houdt u deze toets ingedrukt, of ga naar Outlook.";
+"LOCID More voicemails No keypad" = "Ga naar Outlook om oudere voicemailberichten te horen.";
+"LOCID Can not play IRMed" = "Dit bericht wordt beheerd door rechten. Tik op Afspelen om het in een oproep af te spelen.";
+"LOCID Lync Call" = "Skype voor Bedrijven-oproep";
+"LOCID Can't play on phone" = "We kunnen het bericht niet afspelen. Controleer de netwerkverbinding en probeer het later opnieuw.";
+"LOCID Yes" = "Ja";
+"LOCID No" = "Nee";
+"LOCID VMCallerID" = "Voicemail";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "De voicemail afspelen met normale snelheid";
+"LOCID VM Playback -2X Acc" = "De voicemail langzamer afspelen op halve snelheid";
+"LOCID VM Playback 2X Acc" = "De voicemail sneller afspelen met dubbele snelheid";
+"LOCID Voicemail From" = "Voicemail van %@";
+"LOCID No Voicemails Placeholder" = "De voicemails worden hier weergegeven";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Negeren";
+"LOCID Accept" = "Accept.";
+"LOCID Not yet implemented feature" = "Deze functie is nog niet geïmplementeerd. Probeer het opnieuw in een toekomstige release.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "U hebt 1 nieuw voicemailbericht";
+"LOCID Missed VMs" = "U hebt %d nieuwe voicemailberichten";
+"LOCID Missed Collab Out of App" = "Gemiste samenwerkingssessie van %@";
+"LOCID Missed Video Call Out of App" = "Gemiste video-oproep van %@";
+"LOCID Missed Audio Call Out of App" = "Gemiste oproep van %@";
+"LOCID Missed Message Out of App" = "Gemist chatbericht van %@";
+"LOCID Missed Audio Conf Out of App" = "Gemiste telefonische vergadering van %@";
+
+"LOCID Audio Call Out of App" = "Oproep van %@";
+"LOCID Conference Call Out of App" = "Telefonische vergadering van %@";
+"LOCID Dismiss Call" = "Negeren";
+"LOCID Answer Call" = "Accept.";
+"LOCID Answer Call with Video" = "Video";
+"LOCID Audio Call" = "Gesprek";
+"LOCID Conference Call" = "Telefonische vergadering";
+"LOCID Unknown Caller" = "Onbekende beller";
+
+"LOCID Video conf accessibility" = "Videovergadering van %@";
+"LOCID Video accessibility" = "Video-oproep van %@";
+"LOCID Audio conf accessibility" = "Telefonische vergadering van %@";
+"LOCID Audio accessibility" = "Oproep van %@";
+
+"LOCID Video Call Out of App" = "Video-oproep van %@";
+"LOCID Video Conference Call Out of App" = "Videovergadering van %@";
+"LOCID Video Call" = "Video-oproep";
+"LOCID Video Conference Call" = "Videovergadering";
+"LOCID Video Escalation Name" = "%@ deelt video";
+"LOCID Video Escalation" = "deelt video";
+"LOCID Video Escalation Conf" = "Iemand deelt video";
+"LOCID VideoInvitationRejected" = "Het videogedeelte van de oproep wordt niet geaccepteerd. De oproep zal alleen met geluid verdergaan.";
+"LOCID E_VideoDecline" = "%@ heeft uw video niet geaccpeteerd.";
+"LOCID E_VideoGeneric" = "De video kan niet worden gestart. Probeer het opnieuw.";
+"LOCID E_VideoNotStarted" = "De video kan niet worden gestart.";
+"LOCID E_VideoNotSupported" = "%@ kan geen video-oproepen accepteren.";
+"LOCID E_VideoNotAccepted" = "Het videogedeelte van de oproep wordt niet geaccepteerd door %@. De oproep zal alleen met geluid verdergaan.";
+
+"LOCID E_VoiceTransferGenericError" = "Het gesprek kan niet worden doorverbonden.";
+"LOCID E_VoiceTransferParticipantError" = "Het gesprek kan niet worden doorverbonden, omdat de ontvanger niet bereikbaar is.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "gedempt";
+"LOCID Mute Capitalized" = "Geluid uitschakelen";
+"LOCID Unmute" = "Geluid inschakelen";
+"LOCID keypad" = "toetsenblok";
+"LOCID add call" = "oproep toevoegen";
+"LOCID hold" = "in wachtstand";
+"LOCID End" = "Einde";
+"LOCID Hide Keypad" = "Toetsenbord verbergen";
+"LOCID Call Lync" = "Skype voor Bedrijven-oproep";
+"LOCID Call Work" = "Werk: %@";
+"LOCID Call Mobile" = "Mobiel: %@";
+"LOCID Call Home" = "Thuis: %@";
+"LOCID Call Other" = "Anders: %@";
+"LOCID Decline" = "Afwijzen";
+"LOCID Video Menu" = "Videomenu";
+"LOCID Hold Call" = "Oproep in wachtstand";
+"LOCID Hang Up" = "Ophangen";
+"LOCID Dial Pad Only" = "Nummerkeuze";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u deelnemers - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u deelnemer - %@";
+"LOCID Call Status Connecting" = "Verbinden...";
+"LOCID Call Status Connecting Remote" = "Verbinden...";
+"LOCID Call Status Connected" = "Verbonden";
+"LOCID Call Status On Hold - Passive" = "Wachtstand";
+"LOCID Call Status On Hold" = "In wachtstand";
+"LOCID Call Status Ended" = "Oproep beëindigd";
+"LOCID Call Status Transfering" = "Doorverbinden";
+"LOCID On behalf of" = "Namens %@";
+"LOCID Call for" = "Oproep voor %@";
+"LOCID Call for - Astana" = "Oproep voor %@";
+"LOCID Transferred by" = "Doorverbonden door %@";
+"LOCID Forwarded by" = "Doorverbonden door %@";
+"LOCID Private call" = "Privé-oproep";
+"LOCID Also ringing" = "Ook %@ bellen";
+"LOCID Also ringing delegates" = "Ook uw gedelegeerden bellen";
+"LOCID Will ring" = "Zal %@ bellen";
+"LOCID Also ringing team call" = "Ook uw team bellen";
+"LOCID The recipient" = "De ontvanger";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Initialiseren ...";
+"LOCID DataCollab Connecting" = "Verbinden ...";
+"LOCID DataCollab Loading" = "Laden...";
+"LOCID DataCollab No Content" = "Presentatoren zijn gestopt de inhoud te delen.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "De functie om gegevens te delen is niet beschikbaar vanwege een verbindingsfout van de server.";
+"LOCID DisconnectedOnConnectivityIssue" = "Sommige presentatiefuncties zijn niet beschikbaar vanwege verbindingsproblemen van de server.";
+"LOCID DisconnectedOnConnectedElsewhere" = "De verbinding is verbroken omdat u deelneemt vanaf een andere client.";
+"LOCID DisconnectedOnNetworkFailure" = "Vanwege netwerkproblemen kunt u de presentatie niet zien.";
+"LOCID DataCollab Known UnSupported" = "De presentator gebruikt een functie die niet wordt ondersteund door deze versie van Skype voor Bedrijven.";
+"LOCID DataCollab Generic UnSupported" = "De presentator gebruikt een functie die niet wordt ondersteund door deze versie van Skype voor Bedrijven of de presentator is verbonden met een oudere server.";
+"LOCID DataCollab ContentPresenter" = "Presentator: %@";
+"LOCID DataCollab NoPresenter" = "Niemand presenteert";
+"LOCID Collab Unsupported PPTContent" = "Sorry, we kunnen de media in deze presentatie niet afspelen.";
+"LOCID Retry" = "Opnieuw";
+"LOCID DataCollab Generic PPT Error" = "Sommige presentatiefuncties zijn niet beschikbaar vanwege verbindingsproblemen van de server.";
+"LOCID Start Viewing" = "Weergeven starten";
+"LOCID Stop Viewing" = "Weergeven stoppen";
+"LOCID Collab Escalation" = "%@ wil beginnen met presenteren";
+"LOCID PowerPoint content Accessibility" = "PowerPoint-inhoud";
+
+"LOCID SyncPresenterButton" = "Synchroniseren naar presentatorweergave";
+"LOCID NavigateBackButton" = "Dia terug";
+"LOCID NavigateForwardButton" = "Dia verder";
+"LOCID SlideNumber" = "%1$d van %2$d";
+"LOCID SlideNumber Accessibility" = "Dia %1$d van %2$d";
+
+"LOCID E_SharingDisabled" = "Presenteren is uitgeschakeld.";
+"LOCID E_SharingNetworkIssues" = "Vanwege netwerkproblemen kunt u niet presenteren. Probeer het later opnieuw.";
+"LOCID E_SharingNotSupported" = "Presenteren wordt niet ondersteund met dit contact.";
+"LOCID E_SharingTimeout" = "De presentatie is niet gestart, omdat de server bezet is. Probeer het later opnieuw.";
+"LOCID SharingAnotherType" = "Deze presentatie is beëindigd, omdat er een andere is gestart.";
+"LOCID E_GetMediaSdpFailed" = "Er kan op het moment geen verbinding worden gemaakt met het bureaublad of met de programmapresentatie.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "U ziet geen gepresenteerde inhoud, omdat u geen WiFi-verbinding hebt.";
+"LOCID 3G user requiring Wi-Fi" = "U kunt geen Skype voor Bedrijven-oproep plaatsen omdat u niet verbonden bent met wifi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "De presentatie is te groot om op uw apparaat weer te geven.";
+"LOCID E_CollabDisconnectedNetworkError" = "De verbinding met de presentatie is verbroken vanwege netwerkproblemen.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "De verbinding is verbroken omdat u vanaf een andere client deelneemt.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Inhoud delen wordt geladen.";
+"LOCID AppSharing Shared Content" = "Gedeelde inhoud.";
+"LOCID AppSharing Desktop" = "Bureaublad";
+"LOCID AppSharing Application" = "Toepassing";
+"LOCID AppSharing SharingPaused" = "Delen is momenteel onderbroken."; // Not used
+"LOCID AppSharing SharingIdle" = "Delen is momenteel niet-actief."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Alle bronnen zijn geminimaliseerd."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ heeft geprobeerd een schermpresentatie te starten, maar deze Skype voor Bedrijven-versie ondersteunt deze functie alleen in telefonische vergaderingen en Skype-vergaderingen.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Chatten starten";
+"LOCID send IM" = "Verzenden";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Gesprek beëindigen";
+"LOCID View Contact Card" = "Zie visitekaartje";
+"LOCID Invite Others" = "Anderen uitnodigen";
+"LOCID Send Location action" = "Locatie verzenden";
+"LOCID Send as Email action" = "Verzenden als e-mail";
+"LOCID View Participants" = "Zie deelnemers";
+"LOCID Rejoin" = "Opnieuw";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Dubbeltik om uit te vouwen";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Slechte gesprekskwaliteit";
+"LOCID ACI Call Muted" = "Momenteel gedempt, dubbeltik om het dempen op te heffen";
+"LOCID ACI Call Unmuted" = "Momenteel niet gedempt, dubbeltik om te dempen";
+
+/* Search results */
+"LOCID No Results" = "Geen resultaten";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ is onverwacht afgesloten.";
+"LOCID Dont Send" = "Niet verzenden";
+"LOCID Send Report" = "Rapport verzenden";
+"LOCID Would you like to send a report so we can fix the problem" = "Wilt u een rapport verzenden zodat Microsoft een oplossing kan vinden voor het probleem?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype voor Bedrijven";
+
+// Timeline
+"LOCID Timeline Home" = "start";
+"LOCID Timeline Contacts" = "contacten";
+"LOCID Timeline Meetings" = "vergaderingen";
+"LOCID Timeline Search Placeholder" = "zoeken naar contacten";
+"LOCID Timeline Recent" = "recent";
+"LOCID Timeline Upcoming" = "binnenkort";
+"LOCID Timeline TableView" = "tijdlijn";
+"LOCID Timeline Meeting Time All Day" = "hele dag";
+"LOCID Timeline Search Skype Contacts" = "contacten";
+"LOCID Timeline Search Phone Contacts" = "telefooncontacten";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "contacten";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "toetsenblok en voicemail";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "toetsenblok, %ld nieuwe voicemail";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "toetsenblok, %ld nieuwe voicemails";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "vergaderingen";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "start";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "mijn info";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, nieuwe berichten, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "bellen";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "video-oproep";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "markeren als gelezen";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "verwijderen";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "deelnemen aan de vergadering";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "negeren";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "toelaten";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "beschikbaar";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "bezet";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "afwezig";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "offline";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "niet storen";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "aanwezigheid onbekend";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "tekst wissen";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "zoeken naar contacten";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "videogesprek";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "bellen";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Deelnemen aan vergadering";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Lege chat";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Profielafbeelding";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld nieuwe voicemail";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld nieuwe voicemails";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Engel";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Boos";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Bandiet";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Voetbal";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Bier";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Lachen";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Fiets";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Blozend";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Buigen";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Gebroken hart";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Taart";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Bellen";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Camera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Kun je praten?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Auto";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Cash";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Kat";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Klappen";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Koffie";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Computer";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Vertrouwelijk";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Cool";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Huilen";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Dansen";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Duivel";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Hond";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Doh";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Drinken";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Verveeld";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Jaloers";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Gemeen";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Facepalm";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Vingers gekruist";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Bloem";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Spelletjes";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Cadeau";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Gniffelen";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Veel succes";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Ik heb haast";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Handen schudden";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Blij";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Hoofd tegen muur slaan";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Hart";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Eekhoorn";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Zwaaien";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "High five";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Wacht even";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Knuffel";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Idee";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Verliefd";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Eiland";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Ik was het niet!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Kus";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Ik luister niet";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Zullen we afspreken?";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Ik zeg niks";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Nieuwe mail";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Make-up";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Man";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Film";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Gespierd";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Muziek";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Nerd";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Nee";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Knikken";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Party";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telefoon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Vliegtuig";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Overgeven";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Stoten";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Regen";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Regenboog";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Rolling on the floor laughing";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Bedroefd";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Schudden";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Slaperig";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Glimlachen";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Gemaakt lachen";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Slak";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Sprakeloos";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Sterretje";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Stop";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Zonneschijn";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Verbaasd";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Schelden";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Zweten";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Praten";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Ik negeer je";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Aan het nadenken";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Tijd";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Te veel info";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Emoticon die tong uitsteekt";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Tumbleweed";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Paraplu";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Wacht";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Wachten";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Werkt thuis";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Wat is er?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Phew";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Knipoog";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Vrouw";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Verwonderd";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Bezorgd";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Geeuw";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Ja";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Typ hier een bericht";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Zeg gedag tegen %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Zeg gedag tegen de groep";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Uw gesprekken worden hier weergegeven";
+"CHAT_FAILED_TO_SEND" = "Het volgende bericht kan niet worden verzonden: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Chat weergeven";
+"LOCID CONVERSATION_HIDE_CHAT" = "Chat verbergen";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Zijbalk weergeven";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Zijbalk verbergen";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "emoticons";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "d";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "d";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "u";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "u";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "min.";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "min.";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "s";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "s";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d nieuwe meldingen";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Eén nieuwe melding";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Geen nieuwe meldingen";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "telefonische vergadering beëindigd";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u deelnemers";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "negeren";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "openen";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "kopiëren";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "toevoegen aan leeslijst";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "openen in Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "terug";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "vooruit";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "annuleren";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ is aan het typen...";
+"CHATTYPING_TWOUSERS" = "%@ en %@ zijn aan het typen...";
+"CHATTYPING_THREEUSERS" = "%@, %@ en iemand anders zijn aan het typen...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ en %d anderen zijn aan het typen...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "e-mail verzenden";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "visitekaartje bekijken";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "deelnemers";
+"DROPDOWN_ADD_PARTICIPANTS" = "deelnemers toevoegen";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Binnenkomend";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Uitgaand";
+
+"LOCID Meetings Page Title" = "Vergaderingen";
+"LOCID No Meetings Placeholder" = "Uw vergaderingen worden hier weergegeven";
+"LOCID Meetings Today" = "Vandaag";
+"LOCID Meetings Tomorrow" = "Morgen";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Uw persoonlijke notitie instellen";
+
+"PARTICIPANTS_VIEW_TITLE" = "Deelnemers";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Wachtend in de lobby";
+"PARTICIPANTS_VIEW_ON_CALL" = "In dit gesprek";
+
+"MEETING_VIEW_TITLE" = "Vergadering";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Deelnemen aan vergadering";
+"MEETING_VIEW_ORGANISER_LABEL" = "Organisator";
+"MEETING_VIEW_INVITEES_LABEL" = "Genodigden";
+"MEETING_VIEW_NOTES_LABEL" = "Opmerkingen";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Verbinden...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Een emoticon selecteren";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Bericht verzenden";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "De oproep is beëindigd";
+"INVITE_PARTICIPANTS" = "Deelnemers uitnodigen";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Terug";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Adresboek";
+"LOCID_PHONE_NUMBER" = "Telefoonnummer";
+"LOCID_MORE" = "Meer";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Cameramodus wisselen";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Contactprofiel tonen";
+"CHAT_OPTION_PARTICIPANTS" = "Deelnemers";
+"LOCID_CONTACTS_TABLE_VIEW" = "Contactweergave";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Binnenkomende oproep";
+"LOCID_MEETINGS_TABLE_VIEW" = "Vergaderingsweergave";

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Setting>
+  <EmailServer>smtphost.redmond.corp.microsoft.com</EmailServer>
+  <EmailTitle>Android Automation Test Notification</EmailTitle>
+  <EmailFrom>v-haonli@microsoft.com</EmailFrom>
+  <EmailToList>
+    <EmailTo>v-haonli@microsoft.com</EmailTo>
+  </EmailToList>
+</Setting>

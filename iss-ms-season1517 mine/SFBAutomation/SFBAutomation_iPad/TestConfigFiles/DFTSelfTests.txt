@@ -1,0 +1,5 @@
+VerifySignInAutoConfigTest
+VerifySelfNoteChangeTest
+VerifyActivityStringInACall
+VerifyActivityStringInAConferenceCall
+VerifySignOutTest

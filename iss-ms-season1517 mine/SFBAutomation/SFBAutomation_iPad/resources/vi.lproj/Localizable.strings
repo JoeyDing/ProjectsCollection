@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Trả lời";
+"JOIN" = "Chấp nhận";
+"VIEW" = "Xem";
+"IGNORE" = "Bỏ qua";
+"LAUNCH" = "Khởi động";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "đang mời bạn tham gia vào hội thoại";
+"NEW_IM_BURNT_TOAST" = "Hội thoại bị nhỡ với %@";
+"SIGN_IN" = "Đăng Nhập";
+"SIGN_OUT" = "Bạn đã bị đăng xuất do không hoạt động.";
+"MWI" = "Thư thoại mới: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Địa chỉ đăng nhập";
+"LOCID Password" = "Mật khẩu";
+"LOCID User Name" = "Tên Người dùng";
+"LOCID Domain" = "Tên miền";
+"LOCID Auto-Detect Server" = "Máy chủ Tự Phát hiện";
+"LOCID Sign-in As" = "Đăng nhập dưới tên";
+"LOCID User Name Footer" = "Người dùng Skype for Business Online: tên_người_dùng@domain.com\nTất cả người dùng khác: miền\\tên_người_dùng";
+"LOCID Hide Details" = "Ẩn Tùy chọn Nâng cao";
+"LOCID More Details" = "Hiện Tùy chọn Nâng cao";
+"LOCID Save Password" = "Lưu Mật khẩu của Tôi";
+
+/* generic share button */
+"LOCID share" = "chia sẻ";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Địa chỉ Khám phá Nội bộ";
+"LOCID External Server Address" = "Địa chỉ Khám phá Bên ngoài";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Hãy giúp chúng tôi cải thiện Skype for Business bằng cách gửi cho chúng tôi thông tin về lỗi đăng nhập của bạn.";
+"LOCID Sign In BRB Reason 2" = "Chúng tôi có thể thu thập một số thông tin về các lỗi đăng nhập này và lỗi đăng nhập trong tương lai không? Bạn luôn có thể thay đổi điều này sau đó trong phần Tùy chọn.";
+"LOCID BRBDonotshow" = "Không hiện lại thông báo này";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Đăng nhập";
+"LOCID Sign Out" = "Đăng Xuất";
+"LOCID Cancel Sign in" = "Hủy bỏ đăng nhập";
+"LOCID Lync Is Signing In" = "Skype for Business đang đăng nhập";
+"LOCID Lync Is Signing Out" = "Skype for Business đang đăng xuất";
+
+// Help
+"LOCID signin help" = "Trợ giúp đăng nhập";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Thông tin của Tôi";
+"LOCID Contacts" = "Liên hệ";
+"LOCID Conversations" = "Trò chuyện";
+"LOCID Meetings" = "Cuộc họp";
+"LOCID Phone" = "Điện thoại";
+"LOCID Signing In" = "Đang đăng nhập...";
+"LOCID Signed Out" = "Đã đăng xuất";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Có gì diễn ra hôm nay?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Ghi chú cá nhân";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Nhập ghi chú cá nhân của bạn";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Gõ đúp để sửa";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Không xác định";
+"LOCID Available" = "Sẵn sàng";
+"LOCID Busy" = "Bận";
+"LOCID Busy Inactive" = "Bận rộn Không hoạt động";
+"LOCID Do Not Disturb" = "Không Làm Phiền";
+"LOCID Be Right Back" = "Sẽ Trở lại Ngay";
+"LOCID Presence unknown" = "Trạng thái hiện diện không xác định";
+"LOCID Off Work" = "Không Làm việc";
+"LOCID Appear Away" = "Xuất hiện Đi vắng";
+"LOCID Away" = "Đi vắng";
+"LOCID Inactive" = "Không hoạt động";
+"LOCID Reset Status" = "Đặt lại Trạng thái";
+"LOCID Offline" = "Ngoại tuyến";
+"LOCID Blocked" = "Bị chặn";
+"LOCID Sign In As Header" = "Chọn trạng thái hiển thị:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "Đang gọi điện";
+"LOCID In a Conference Call" = "Đang tham gia cuộc gọi hội thảo";
+"LOCID Presenting" = "Đang trình bày";
+"LOCID In a Meeting" = "Đang họp";
+"LOCID Out of Office" = "Ngoài văn phòng";
+"LOCID Urgent Interruptions Only" = "Chỉ liên lạc khi khẩn cấp";
+"LOCID Out To Lunch" = "Ra ngoài Ăn trưa";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype for Business không thể hiển thị các liên hệ trong iPhone của bạn. Bạn có thể sửa vấn đề đó trong cài đặt iPhone.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype for Business không thể hiển thị các liên hệ trong iPad của bạn. Bạn có thể sửa vấn đề đó trong cài đặt iPad.";
+"LOCID Other Contacts" = "Các Liên hệ Khác";
+"LOCID Pinned Contacts" = "Yêu thích";
+"LOCID Retrieving Members" = "Vui lòng chờ...";
+"LOCID Cannot connect Try again" = "Chúng tôi không thể liên lạc với các thành viên nhóm ngay bây giờ. Xin thử lại sau.";
+"LOCID Group is too large to display" = "Nhóm quá lớn không thể hiển thị.";
+"LOCID No members" = "Không có thành viên nào";
+"LOCID Searching the company directory" = "Đang tìm kiếm trong danh bạ của công ty...";
+"LOCID Please signin to search" = "Vui lòng đăng nhập để tìm kiếm trong danh bạ của công ty.";
+"LOCID Too many results" = "Có quá nhiều kết quả; hãy thử tinh chỉnh tìm kiếm của bạn.";
+"LOCID Unable to connect to the server" = "Chúng tôi không thể kết nối với máy chủ ngay bây giờ. Vui lòng thử lại.";
+"LOCID E_SearchTooLong" = "Chúng tôi không tìm thấy bất cứ kết quả khớp nào. Hãy thử tìm kiếm ngắn hơn.";
+"LOCID No Name" = "Không Tên";
+"LOCID idle day" = "%d ngày";
+"LOCID idle days" = "%d ngày";
+"LOCID idle hour" = "%d giờ";
+"LOCID idle hours" = "%d giờ";
+"LOCID idle minutes" = "%d phút";
+"LOCID inactive idle day" = "%d ngày không hoạt động";
+"LOCID inactive idle days" = "%d ngày không hoạt động";
+"LOCID inactive idle hour" = "%d giờ không hoạt động";
+"LOCID inactive idle hours" = "%d giờ không hoạt động";
+"LOCID inactive idle minutes" = "%d phút không hoạt động";
+"LOCID DG does not exist" = "Nhóm phân phối không còn tồn tại.";
+"LOCID Access to DG denied" = "Truy nhập vào nhóm phân phối đã bị từ chối";
+"LOCID No Contacts Placeholder" = "Danh bạ của bạn sẽ hiện tại đây";
+"LOCID No Contacts" = "Không có Liên hệ";
+"LOCID You currently have no contacts" = "Bạn hiện không có liên hệ nào";
+"LOCID Retrieving Contacts..." = "Đang tìm liên hệ...";
+"LOCID Expanded" = "Nhóm %@, Được bung rộng";
+"LOCID Collapsed" = "Nhóm %@, Được thu gọn";
+"LOCID Group card- acc" = "Thẻ nhóm";
+"LOCID Open group card - acc" = "Gõ nhẹ để mở nhóm thẻ";
+
+/* Contact Card*/
+"LOCID Loading name" = "Đang tải tên...";
+"LOCID Details" = "Thẻ";
+"LOCID Work" = "Cơ quan";
+"LOCID Home" = "Nhà riêng";
+"LOCID Mobile" = "Di động";
+"LOCID Other" = "Khác";
+"LOCID other lowercase" = "khác";
+"LOCID Office" = "Văn phòng";
+"LOCID Company" = "Công ty";
+"LOCID Department" = "Phòng ban";
+"LOCID Send Text Message" = "Gửi Tin nhắn Văn bản";
+"LOCID IM" = "IM";
+"LOCID E-Mail" = "Email";
+"LOCID unknown lowercase" = "không xác định";
+"LOCID Location lowercase" = "vị trí";
+"LOCID Calendar" = "lịch";
+"LOCID Link" = "nối kết";
+"LOCID Disabled" = "%@, Bị tắt"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Ghi chú";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "THÀNH VIÊN"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Mời";
+"LOCID Transfer" = "Chuyển tiếp";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype for Business đang cố gắng chuyển hướng bạn đến:";
+"LOCID certIssuedBy" = "Phát hành Bởi:";
+"LOCID certSubject" = "Chủ đề:";
+"LOCID certExpires" = "Hết hạn:";
+"LOCID certSignature" = "Thuật toán Chữ ký:";
+"LOCID certDonotshow" = "Không hiện lại thông báo này cho tôi.";
+"LOCID Continue" = "Tiếp tục";
+"LOCID certNone" = "Không mã hóa";
+"LOCID certRSA" = "Mã hóa RSA";
+"LOCID certDSA" = "Mã hóa DSA";
+"LOCID certDH" = "Mã hóa DH";
+"LOCID certEC" = "Mã hóa EC";
+"LOCID certHMAC" = "Mã hóa HMAC";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Hội thoại";
+"LOCID Chats - Phone Call" = "Cuộc gọi Điện thoại";
+"LOCID Chats - Video Call" = "Cuộc gọi Video";
+"LOCID Chats - Meeting" = "Cuộc họp";
+"LOCID Chats - Missed Call" = "Cuộc gọi bị nhỡ";
+"LOCID Chats - Missed Video Call" = "Cuộc gọi Video bị nhỡ";
+"LOCID Chats - Current Call" = "Cuộc gọi Hiện tại";
+"LOCID Chats - Current Call With Duration" = "Cuộc gọi Hiện tại, %@";
+"LOCID Phone Status - Connecting" = "Đang kết nối...";
+"LOCID Phone Status - On Hold" = "Đang giữ máy";
+"LOCID Phone Status - Transferring" = "Đang chuyển";
+"LOCID Transferring to" = "Đang chuyển đến %@...";
+"LOCID Chats Full" = "Thông tin cho bạn: Danh sách này đã đầy. Hội thoại cũ nhất sẽ bị loại bỏ khi bổ sung hội thoại mới.";
+"LOCID Close Conversation" = "Xóa bỏ Hội thoại";
+"LOCID View Participants List" = "Xem Danh sách Người dự";
+"LOCID Call Contact" = "Gọi %@";
+"LOCID Video Call Contact" = "Cuộc gọi Video";
+"LOCID Video Conference Contact" = "Hội thảo Video";
+"LOCID Edit" = "Sửa";
+"LOCID Deselect All" = "Bỏ chọn Tất cả";
+"LOCID Select All" = "Chọn Tất cả";
+"LOCID Me" = "Tôi: %@";
+"LOCID Missed" = "Bị nhỡ: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Hội thoại Nhóm";
+"LOCID Tap To Enter Text" = "Gõ nhẹ để nhập";
+"LOCID No Conversations" = "Không có Hội thoại nào";
+"LOCID No Conversations Hint" = "Bạn hiện không có hội thoại nào";
+"LOCID Delete Count" = "Xóa bỏ (%d)";
+"LOCID Delete None" = "Xóa bỏ";
+"LOCID Escalating audio conference" = "Đang bắt đầu cuộc gọi hội thảo...";
+"LOCID Escalating video conference" = "Đang bắt đầu cuộc hội thảo video...";
+"LOCID No Participants" = "Không có Người dự";
+"LOCID No Other Participants" = "Không có người dự khác";
+"LOCID One Participant" = "1 Người dự";
+"LOCID Some Participants" = "%d Người dự";
+"LOCID Max Participants" = "%d+ Người dự";
+"LOCID Large Meeting" = "Cuộc họp Lớn";
+"LOCID Toast No Invite" = "đang mời bạn tham gia hội thoại";
+"LOCID Participant Join" = "%@ đã gia nhập cuộc họp";
+"LOCID Participant Leave" = "%@ đã rời cuộc họp";
+"LOCID Participant Join Failure" = "%@ không thể gia nhập cuộc họp";
+"LOCID Large Conference" = "Cuộc họp Lớn";
+"LOCID Large Conference Detail" = "Danh sách người dự không sẵn sàng cho cuộc họp lớn.";
+"LOCID No Participants Detail" = "Không có người dự trong hội thoại này";
+"LOCID cannotSend" = "Chúng tôi không thể gửi tin nhắn của bạn:";
+"LOCID Missed Conversation" = "Hội thoại Bị nhỡ";
+"LOCID Send as Email" = "Gửi dưới dạng Email";
+"LOCID Email Subject" = "Hội thoại %1$@ với %2$@";
+"LOCID Anonymous" = "Ẩn danh";
+"LOCID Duration" = "Thời lượng:";
+"LOCID Switch Camera" = "Chuyển Webcam";
+"LOCID Swap PIP" = "Hoán đổi Hình ảnh";
+"LOCID Leave Video" = "Rời Video";
+"LOCID Start My Video" = "Bắt đầu Video Của tôi";
+"LOCID Stop My Video" = "Ngừng Video Của tôi";
+"LOCID End Video" = "Kết thúc Video";
+"LOCID LargeMtgActiveSpeakerMissing" = "Thông tin loa không sẵn sàng cho cuộc họp lớn.";
+"LOCID Swap Preview" = "Hoán đổi Bản xem trước";
+"LOCID Speaker On" = "Bật loa ngoài";
+"LOCID Speaker Off" = "Tắt loa ngoài";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Đang bật video";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Gõ đúp để tắt video.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Đang tắt video";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Gõ đúp để bật video.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Đang bật loa ngoài";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Gõ đúp để tắt loa ngoài.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Đang tắt loa ngoài";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Gõ đúp để bật loa ngoài.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Đã tắt tiếng cuộc gọi";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Gõ đúp để bật tiếng.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Đã bật tiếng cuộc gọi";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Gõ đúp để tắt tiếng.";
+
+"LOCID Instant Messaging" = "Nhắn tin Tức thời";
+"LOCID Voice" = "Thoại";
+"LOCID Collaboration" = "Cộng tác";
+"LOCID Participants" = "Người dự";
+"LOCID Full Screen" = "Toàn màn hình";
+"LOCID Exit Full Screen" = "Thoát khỏi Toàn màn hình";
+"LOCID Local Participant Alone in Conference Msg" = "Có vẻ như bạn là người duy nhất trong cuộc gọi.";
+"LOCID 1 or more participants" = "1 hoặc nhiều người dự";
+"LOCID Call Started" = "Cuộc gọi đã bắt đầu - %@";
+"LOCID Call Ended Missed" = "Cuộc gọi đã kết thúc - %@ [Bị nhỡ]";
+"LOCID Call Ended Duration" = "Cuộc gọi đã kết thúc - %@ [Thời lượng: %@]";
+"LOCID ConferenceEndedRejoin" = "Bạn đã bị ngắt kết nối với cuộc họp. Gõ nhẹ dưới đây để gia nhập lại.";
+"LOCID ConferenceEndedContinue" = "Bắt đầu lại hội thoại này sẽ gửi thư mời mới đến tất cả mọi người có mặt.";
+"LOCID IM P2P Toast Voiceover" = "%@ đang mời bạn tham gia cuộc hội thoại. Gõ đúp để chấp nhận.";
+"LOCID IM Conf Toast Voiceover" = "%@ đang mời bạn tham gia cuộc hội thoại. Hãy gõ đúp để chấp nhận.";
+"LOCID Video is Locked on you" = "Video được khóa trọng tâm vào bạn.";
+
+"LOCID SFB Call Started" = "Cuộc gọi đã bắt đầu";
+"LOCID SFB Call Ended" = "Cuộc gọi đã kết thúc";
+"LOCID SFB Call Ended Duration" = "Cuộc gọi đã kết thúc, %@";
+
+/* Roster*/
+"LOCID Presenters" = "DIỄN GIẢ (%d)";
+"LOCID Attendees" = "NGƯỜI DỰ (%d)";
+"LOCID In Lobby" = "PHÒNG ĐỢI (%d)";
+"LOCID Guest" = "Khách";
+"LOCID Remove" = "Loại bỏ";
+"LOCID E_RemoveFailed" = "Chúng tôi không thể loại bỏ người dự.";
+"LOCID E_AddFailed" = "Chúng tôi không thể thêm người dự.";
+
+/*Lobby*/
+"LOCID Admit all" = "Tiếp nhận tất cả";
+"LOCID Deny all" = "Từ chối tất cả";
+"LOCID Admit" = "Tiếp nhận";
+"LOCID Deny" = "Từ chối";
+"LOCID See Lobby" = "Xem Phòng đợi";
+"LOCID Conference In the Lobby" = "Bạn có người dự đang chờ ở Phòng đợi.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Chuyển thành Diễn giả";
+"LOCID Demote" = "Chuyển thành Người dự";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Di động";
+"LOCID Voice and IM Unavailable" = "Thoại và IM Không sẵn sàng";
+"LOCID Voice Only" = "Chỉ có Thoại";
+"LOCID Voice and Video Only" = "Chỉ có Thoại và Video";
+"LOCID IM Only" = "Chỉ có IM";
+"LOCID No Voice" = "Không có Thoại";
+"LOCID Video capable" = "Có bật Video";
+"LOCID No IM" = "Không có IM";
+"LOCID Mobile Cap" = "Di động";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Bàn phím";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Gọi";
+"LOCID Dialpad" = "Bàn phím số";
+"LOCID Dialpad STAR Key" = "Dấu sao";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Dấu thăng"; // Used for accessibility
+"LOCID Delete Key" = "Xóa bỏ";   // Used for accessibility
+"LOCID Emergency number" = "Số điện thoại khẩn cấp"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "ẩn";
+"LOCID Dialpad Search Recent Calls" = "các cuộc gọi gần đây";
+"LOCID Dialpad Search Native Contacts" = "danh bạ điện thoại";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Vấn đề với Danh bạ";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Đã xảy ra lỗi khi truy nhập số điện thoại từ Danh bạ của bạn. Hãy thử đồng bộ lại tài khoản thư của bạn trong phần Cài đặt để sửa lỗi.";
+
+/* My Status Tab */
+"LOCID Options" = "Thiết đặt";
+"LOCID Send Feedback" = "Gửi Phản hồi";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ đến %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Từ %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "đến %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "từ %1$@ đến %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Không có Cuộc họp";
+"LOCID All" = "Tất cả";
+"LOCID No Meetings Scheduled" = "Theo lịch, bạn không có bất kỳ cuộc họp nào";
+"LOCID None" = "Không có";
+"LOCID Organizer" = "Người tổ chức";
+"LOCID Invitees" = "NGƯỜI ĐƯỢC MỜI";
+"LOCID Notes" = "GHI CHÚ";
+"LOCID Join" = "Gia nhập";
+"LOCID Updated DATE TIME" = "Đã cập nhật %1$@ %2$@";
+"LOCID Online" = "Trực tuyến";
+"LOCID Tentative" = "Dự kiến";
+"LOCID Event" = "Sự kiện";
+"LOCID Updating..." = "Đang cập nhật...";
+"LOCID Tentative Voiceover" = "%@, Dự kiến";
+"LOCID Pull to refresh" = "Kéo để làm mới";
+"LOCID Today" = "HÔM NAY"; // CAPS
+"LOCID Tomorrow" = "NGÀY MAI"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Nếu bạn không phải là người tổ chức, micrô của bạn sẽ bị tắt tiếng khi bạn gia nhập.";
+"LOCID Lync Conferencing" = "Cuộc họp Skype";
+"LOCID Joining Step 1" = "Đang kết nối...";
+"LOCID Please wait to be admitted" = "Vui lòng đợi để được nhận vào";
+"LOCID Join Conf Error" = "Kết nối cuộc họp đã bị mất.";
+"LOCID Anonymous Join" = "Gia nhập Ẩn danh";
+"LOCID Enter your name" = "Nhập tên của bạn";
+"LOCID Anonymous Join Greeting" = "Chào mừng đến với Skype for Business";
+"LOCID Sign in with Lync" = "Đăng nhập bằng Skype for Business";
+"LOCID Sign in as guest" = "Đăng nhập là khách";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Chúng tôi không thể kết nối bạn với cuộc họp mà không có số iPhone của bạn. Vui lòng thêm số iPhone của bạn vào tùy chọn Skype for Business.";
+"LOCID Join Conf Error - No Number iPad" = "Chúng tôi không thể kết nối bạn với cuộc họp mà không có số điện thoại của bạn. Vui lòng thêm số điện thoại của bạn vào tùy chọn Skype for Business.";
+"LOCID Join Meeting Line 1 Text" = "Đang gia nhập Cuộc họp\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Đang gọi bạn theo số %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Xin chào. Bạn đang ở trong phòng đợi ảo của chúng tôi, vì vậy bạn cứ tự nhiên. Bạn đừng di chuyển ra khỏi ứng dụng - người tổ chức sẽ cho phép bạn vào sớm.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Bạn không được cho vào vì người tổ chức không ở đó hoặc  không trả lời.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Đã mất kết nối. Gõ nhẹ vào nút Gia nhập để thử lại.";
+"LOCID View" = "Xem";
+"LOCID Join Meeting" = "Gia nhập Cuộc họp";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Đang gia nhập Cuộc họp";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Chúng tôi không thể kết nối cho bạn vì phòng họp đã đầy. Hãy thử liên hệ với người tổ chức.";
+"LOCID AdmittedToLobby" = "Bạn đã được cho vào cuộc họp. Hiện chúng tôi đang gọi cho bạn...";
+"LOCID MtgDisclaimerAccept" = "Chấp nhận";
+"LOCID MtgDisclaimerDecline" = "Bỏ qua";
+"LOCID E_MeetingNotFound" = "Cuộc họp bạn đang cố gia nhập không tồn tại.";
+"LOCID E_MeetingsNotEnabled" = "Tổ chức của bạn không bật tính năng cuộc họp này.";
+"LOCID E_OutsideOrg" = "Người này hoặc cuộc họp này không có quyền gia nhập trên mạng của bạn.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Cuộc gọi và Cuộc họp";
+"LOCID credentialsSection" = "Thông tin đăng nhập của Tôi";
+"LOCID contactsSection" = "Liên hệ";
+"LOCID accessibilitySection" = "Khả năng truy nhập";
+"LOCID otherSection" = "Khác";
+"LOCID Show Recent Contacts" = "Liên hệ Gần đây";
+"LOCID Show Pinned Contacts" = "Liên hệ Được ghim";
+"LOCID Show Photos" = "Ảnh";
+"LOCID Sort by availability" = "Sắp xếp theo sự sẵn sàng";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Ghi nhật ký";
+"LOCID About" = "Thông tin";
+"LOCID About Version" = "Phiên bản %@";
+"LOCID Status" = "Trạng thái";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "Proxy HTTP";
+"LOCID Require WiFi" = "Yêu cầu Wi-Fi Cho";
+"LOCID WiFi VoIP" = "Thoại";
+"LOCID WiFi Video" = "Video";
+"LOCID WiFi Collab" = "Nội dung Cuộc họp";
+"LOCID WiFi Warning" = "Khi tắt, bạn có thể nhận cuộc gọi qua kết nối dữ liệu của bạn (có thể bị tính phí và chất lượng có thể thấp hơn).";
+"LOCID WiFi Warning iPad" = "Khi tắt, bạn có thể nhận cuộc gọi và nội dung cuộc họp qua kết nối dữ liệu của bạn (có thể bị tính phí và chất lượng có thể thấp hơn).";
+"LOCID Not a SfB User" = "Bạn Không phải là Người dùng Skype for Business?";
+
+
+/* About View */
+"LOCID About Title" = "Thông tin";
+"LOCID version" = "Phiên bản: %@";
+"LOCID Long Product Name" = "Skype® for Business dành cho %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Bảo lưu mọi quyền.";
+"LOCID online help" = "Trợ giúp";
+"LOCID Terms Of Use" = "Điều khoản Sử dụng";
+"LOCID Privacy title" = "Quyền riêng tư";
+"LOCID Third Party Notices" = "Thông báo của Bên Thứ ba";
+"LOCID ABOUT_COPYRIGHT" = "© 2003-2015 Skype & Microsoft\nĐang chờ Bằng sáng chế";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Tên Skype, thương hiệu và logo liên kết và logo “S” là thương hiệu của Skype hoặc các thực thể liên quan.\n\nCảnh báo: Chương trình này được bảo vệ bằng luật bản quyền và các công ước quốc tế. Việc tái sản xuất hoặc phân phối trái phép chương trình này hoặc bất kỳ phần nào có thể dẫn đến các hình phạt dân sự và hình sự nghiêm trọng và sẽ bị truy tố đến mức tối đa có thể theo pháp luật.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Chuyển tiếp cuộc gọi";
+"LOCID Forward Section" = "Chọn Số";
+"LOCID Apply Setting Section" = "Áp dụng Thiết đặt";
+"LOCID Summary Section" = "Thiết đặt hiện tại của bạn:";
+"LOCID Do Not Forward" = "Không Chuyển tiếp";
+"LOCID Forward Calls" = "Chuyển tiếp Cuộc gọi";
+"LOCID Forward Calls To" = "Chuyển tiếp Cuộc gọi Đến";
+"LOCID Simultaneously Ring" = "Đổ chuông Đồng thời";
+"LOCID On" = "Bật";
+"LOCID Off" = "Tắt";
+"LOCID During Working Hours" = "Trong Giờ Làm việc";
+"LOCID Voicemail" = "Thư thoại";
+"LOCID Team Call" = "Thành viên Cuộc gọi Nhóm";
+"LOCID Delegates" = "Đại diện";
+"LOCID Pending Persons" = "Thêm Bởi";
+"LOCID Delegate Target" = "đại diện của bạn";
+"LOCID TeamCall Target" = "thành viên nhóm cuộc gọi nhóm của bạn";
+"LOCID Voicemail Target" = "thư thoại của bạn";
+"LOCID DoNotForward Summary" = "Các cuộc gọi sẽ đổ chuông đến số máy cơ quan của bạn và sẽ không được chuyển tiếp. Bạn sẽ không nhận được cuộc gọi trên điện thoại di động của bạn khi VoIP không khả dụng.";
+"LOCID DoNotForward Summary iPad" = "Các cuộc gọi sẽ đổ chuông đến số máy cơ quan của bạn và sẽ không được chuyển tiếp. Bạn sẽ không nhận được cuộc gọi trên iPad của bạn khi VoIP không khả dụng.";
+"LOCID ForwardCalls Summary" = "Các cuộc gọi sẽ được chuyển tiếp trực tiếp đến %@. Nếu đó không phải là số điện thoại di động của bạn, bạn sẽ không nhận được cuộc gọi trên điện thoại di động của bạn.";
+"LOCID ForwardCalls Summary iPad" = "Các cuộc gọi sẽ được chuyển tiếp trực tiếp đến %@ và không đổ chuông trên iPad của bạn.";
+"LOCID Simulring Summary" = "Các cuộc gọi sẽ đổ chuông đến số máy cơ quan của bạn và cũng sẽ đổ chuông đến %@. Nếu đó là số điện thoại di động của bạn, bạn sẽ nhận được cuộc gọi di động khi VoIP không khả dụng.";
+"LOCID Simulring Summary iPad" = "Các cuộc gọi sẽ đổ chuông đến số máy cơ quan của bạn và cũng sẽ đổ chuông đến %@.Bạn sẽ không nhận được cuộc gọi trên iPad của bạn khi VoIP không khả dụng.";
+"LOCID View Settings" = "Xem thiết đặt hiện tại của bạn";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Áp dụng Thiết đặt";
+"LOCID All the Time" = "Mọi Lúc";
+"LOCID During Outlook Working Hours" = "Trong Giờ Làm việc của Outlook";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Cơ quan";
+"LOCID Home Capitalized" = "Nhà riêng";
+"LOCID Mobile Capitalized" = "Di động";
+"LOCID Custom Capitalized" = "Tùy chỉnh";
+"LOCID Other Capitalized" = "Khác";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Hủy bỏ";
+"LOCID Add" = "Thêm";
+"LOCID New Number" = "Số Mới";
+"LOCID New Contact" = "Liên hệ Mới";
+"LOCID Contact" = "Liên hệ";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Tải lên Nhật ký Đăng nhập";
+"LOCID SignInBRB - Always" = "Luôn luôn";
+"LOCID SignInBRB - Never" = "Không bao giờ";
+"LOCID SignInBRB - Ask Me" = "Hỏi Tôi";
+"LOCID Send Log Files" = "Gửi Tệp Nhật ký";
+"LOCID Log Email Subject" = "Tệp Nhật ký Skype for Business"; //product name
+"LOCID Device Model" = "Kiểu Thiết bị:";
+"LOCID Device OS Name" = "Tên Hệ Điều hành của Thiết bị:";
+"LOCID Device OS Version" = "Phiên bản Hệ Điều hành của Thiết bị:";
+"LOCID Enable Logging" = "Bật tính năng Ghi nhật ký";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Proxy Http";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Để hoàn tất thiết lập Proxy HTTP của bạn, vui lòng dùng thiết đặt %@ Wi-Fi của bạn.";
+"LOCID exchange.example.com" = "exchange.example.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Sử dụng Chứng danh Skype for Business";
+"LOCID Exchange Credentials Info" = "Skype for Business cần chứng danh Exchange của bạn để hiển thị tất cả các cuộc họp và thông tin thư thoại của bạn.";
+"LOCID Email Address" = "Địa chỉ Email";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Số Di động Của tôi";
+"LOCID My Mobile Number Details" = "Nhập số iPhone của bạn với mã quốc gia và mã vùng:";
+"LOCID My Mobile Number Details iPad" = "Nhập số điện thoại của bạn với mã quốc gia và mã vùng:";
+"LOCID My Mobile Number Footer" = "Điều này cho phép bạn thực hiện và nhận cuộc gọi ở nơi làm việc và gia nhập cuộc họp từ Skype for Business.\n(Nếu bạn sử dụng VoIP mà tính năng này không khả dụng thì đây là bản sao lưu của bạn.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Điều này cho phép bạn gia nhập cuộc họp từ Skype for Business.\n(Nếu bạn sử dụng VoIP mà tính năng này không khả dụng thì đây là bản sao lưu của bạn.)";
+"LOCID iPhone Number" = "Số Điện thoại";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Gọi qua Điện thoại Cơ quan";
+"LOCID Missing iPhone Number Error" = "Thiếu Số Điện thoại";
+"LOCID Missing iPhone Number Error Text" = "Không thể hoàn thành cuộc gọi này.  Vui lòng nhập số iPhone của bạn trong Tùy chọn và thử gọi lần nữa.";
+"LOCID Missing iPad Number Error Text" = "Không thể hoàn thành cuộc gọi này. Vui lòng nhập số điện thoại của bạn trong mục Tùy chọn và thử gọi lần nữa.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Trước khi Bạn Bắt đầu";
+"LOCID Main text" = "Bất kỳ ai cũng có thể sử dụng ứng dụng Skype for Business Mobile nếu được mời tham dự cuộc họp Skype. Tuy nhiên, bạn phải có tài khoản Skype for Business để có thể tận hưởng đầy đủ các tính năng của ứng dụng.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "Xem thêm Tùy chọn";
+"LOCID Add Contact" = "Thêm Liên hệ";
+"LOCID Add to Group" = "Thêm vào Nhóm";
+"LOCID Remove Contact" = "Xóa Liên hệ";
+"LOCID Remove from Group" = "Xóa khỏi Nhóm";
+"LOCID Groups" = "Nhóm";
+"LOCID E_AddContactFailureGeneral" = "Chúng tôi không thêm được liên hệ này ngay thời điểm này. Vui lòng thử lại sau.";
+"LOCID E_AddContactFull" = "Bạn không thể thêm liên hệ vào nhóm này được nữa.";
+"LOCID E_AddContactInGroup" = "Liên hệ đã có trong nhóm này.";
+"LOCID E_RemoveContactFailureGeneral" = "Chúng tôi không xóa được liên hệ này ngay thời điểm này. Vui lòng thử lại sau.";
+"LOCID Confirm Remove Contact" = "Hành động này sẽ xóa %@ từ danh sách Liên hệ của bạn.";
+"LOCID Ignore" = "Bỏ qua";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Tìm hiểu Thêm";
+"LOCID CEIP More Info" = "Giúp Skype for Business tốt hơn bằng cách gửi dữ liệu sử dụng ẩn danh đến Microsoft.";
+"LOCID ceipSectionTitle" = "Chương trình Cải thiện Trải nghiệm Khách hàng";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Chào mừng bạn.";
+"LOCID Lets begin" = "Hãy bắt đầu...";
+
+/* First Run Experience */
+"LOCID Close" = "Đóng";
+"LOCID Change" = "Có";
+"LOCID Don't change" = "Không";
+"LOCID Next" = "Tiếp";
+"LOCID Done" = "Xong";
+"LOCID First Run First Step" = "Lync bây giờ là Skype for Business - kết hợp trải nghiệm của Skype với chất lượng doanh nghiệp của Microsoft.";
+"LOCID First Run Second Step" = "Bất kỳ ai cũng có thể sử dụng ứng dụng này để tham gia Cuộc họp Skype nhưng để tận hưởng đầy đủ tất cả tính năng, bạn cần phải có tài khoản Skype for Business và tổ chức bạn phải kích hoạt ứng dụng này.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "THAY ĐỔI THIẾT ĐẶT CHUYỂN TIẾP CUỘC GỌI?";
+"LOCID First Run CF Current Settings" = "Thiết đặt hiện tại của bạn:";
+"LOCID First Run CF Change Settings" = "Thiết đặt Mới:";
+"LOCID First Run Change Summary" = "Bạn đã nhập số điện thoại của bạn để nhận các cuộc gọi công việc. Bây giờ chúng ta cần phải thay đổi thiết đặt chuyển tiếp cuộc gọi hiện tại của bạn để điện thoại của bạn sẽ đổ chuông.";
+"LOCID First Run Change Request" = "Chúng ta có thể thay đổi điều này để cuộc gọi công việc đổ chuông cùng lúc vào số máy cơ quan của bạn và tại %@?";
+"LOCID DoNotForward Summary - First Run" = "Các cuộc gọi sẽ đổ chuông vào số máy cơ quan của bạn và sẽ không được chuyển tiếp đến bất kỳ số điện thoại nào khác.";
+"LOCID ForwardCalls Summary - First Run" = "Các cuộc gọi sẽ được chuyển trực tiếp đến %@.";
+"LOCID Simulring Summary - First Run" = "Các cuộc gọi sẽ đổ chuông đến số máy cơ quan của bạn và cũng sẽ đổ chuông đến %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "KHÔNG BAO GIỜ BỎ LỠ CUỘC GỌI CÔNG VIỆC CỦA BẠN";
+"LOCID My Mobile Number Title 2" = "KHÔNG BAO GIỜ BỎ LỠ CUỘC HỌP";
+"LOCID My Mobile Number Details First Run" = "Chúng tôi cần số iPhone của bạn với mã quốc gia và mã vùng:";
+"LOCID My Mobile Number Details First Run_iPad" = "Chúng tôi cần số điện thoại của bạn với mã quốc gia và mã vùng:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "QUẢN LÝ VIỆC DÙNG DỮ LIỆU";
+"LOCID Setup Work Calls Sub Text" = "Các thiết đặt này quản lý việc dùng dữ liệu của bạn và những chi phí tiềm tàng cho các cuộc gọi và cuộc họp.";
+
+"LOCID Require Wifi for VoIP calls" = "Yêu cầu Wi-Fi cho các cuộc gọi VoIP";
+"LOCID Require Wifi for VoIP calls off subtext" = "Khi Wi-Fi không khả dụng, các cuộc gọi sẽ sử dụng kết nối dữ liệu của bạn.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Các cuộc gọi sẽ luôn vượt qua Wi-Fi. Chúng tôi sẽ không bao giờ sử dụng kết nối dữ liệu của bạn.";
+
+"LOCID Require Wifi for Video calls" = "Yêu cầu Wi-Fi cho các cuộc gọi video";
+"LOCID Require Wifi for Video calls off subtext" = "Khi Wi-Fi không khả dụng, cuộc gọi video sẽ sử dụng kết nối dữ liệu của bạn. (Có thể có nhiều dữ liệu.)";
+"LOCID Require Wifi for Video calls on subtext" = "Các cuộc gọi video sẽ luôn được thực hiện qua Wi-Fi. Chúng tôi sẽ không bao giờ sử dụng kết nối dữ liệu của bạn.";
+
+"LOCID Require Wifi for meeting content" = "Yêu cầu Wi-Fi cho nội dung cuộc họp";
+"LOCID Require Wifi for meeting content off subtext" = "Khi Wi-Fi không khả dụng, chúng tôi sẽ sử dụng kết nối dữ liệu của bạn để lấy nội dung cuộc họp. (Có thể có nhiều dữ liệu.)";
+"LOCID Require Wifi for meeting content on subtext" = "Chúng tôi sẽ luôn dùng Wi-Fi để lấy nội dung cuộc họp—chứ không bao giờ dùng kết nối dữ liệu của bạn.";
+
+"LOCID Skip" = "Bỏ qua";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Bắt đầu sử dụng Skype for Business";
+
+"LOCID First Run Successful Setup" = "BẠN ĐÃ SẴN SÀNG!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "CHÀO MỪNG BẠN!";
+"LOCID First Run Successful Setup Details" = "Bạn có thể thực hiện thay đổi bất cứ lúc nào trong phần Thiết đặt.";
+
+"LOCID improve lync" = "Giúp chúng tôi cải thiện Skype for Business";
+"LOCID whyphonenumber" = "Tại sao chúng tôi cần số điện thoại của bạn";
+"LOCID more detail" = "Xem thêm Chi tiết";
+
+"LOCID Emergency Call Disclaimer" = "Phần in chữ nhỏ:";
+"LOCID Emergency Call Disclaimer Details" = "Cước phí bình thường áp dụng đối với tất cả các cuộc gọi.\n\nLưu ý quan trọng: Không sử dụng ứng dụng Skype for Business để thực hiện cuộc gọi khẩn cấp.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Lưu ý quan trọng";
+"LOCID Emergency Call Disclaimer Details iPad" = "Không dùng ứng dụng Skype for Business để thực hiện các cuộc gọi khẩn cấp.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Thông báo Đẩy";
+"LOCID Push Notification Legal1" = "Trước khi bạn chấp nhận việc dùng Thông báo Đẩy, lưu ý rằng tất cả các Thông báo Đẩy và nội dung của chúng phải được gửi thông qua Dịch vụ Thông báo Đẩy của Apple và hệ thống Thông báo Đẩy của Microsoft.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Bạn đã thay đổi cài đặt Thông báo Đẩy trong Cài đặt Thông báo %1$@ nhưng phải khởi động lại Skype for Business để ngăn việc chuyển phát tất cả nội dung thông báo.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Sử dụng Di động";
+"LOCID Call via Work Not Available Error" = "Bạn không thể thực hiện cuộc gọi Skype for Business vì bạn đang ngoại tuyến. Hãy thử gọi từ số điện thoại di động của bạn.";
+"LOCID Call via Work Not Available Error iPad" = "Bạn không thể thực hiện cuộc gọi Skype for Business vì bạn đang ngoại tuyến.";
+"LOCID Answer incoming call" = "Trả lời cuộc gọi đến";
+"LOCID to connect you to... display name" = "để kết nối bạn với...\n%@";
+
+"LOCID Call via Work Connecting" = "Đang kết nối...\n Trả lời cuộc gọi đến sắp tới.";
+"LOCID Call via Work Connected" = "Bạn đã gia nhập từ %1$@";
+"LOCID Video Disclaimer" = "Bạn sẽ không thể thấy hoặc chia sẻ video.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Bạn đã tham gia từ %1$@.";
+
+/* Errors */
+"LOCID Error" = "Lỗi";
+"LOCID E_GenericFailure" = "Đã xảy ra lỗi trong Skype for Business. Vui lòng thử lại. Nếu vấn đề vẫn còn, hãy liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_GroupNotFound" = "Chúng tôi không thể tìm thấy nhóm đó.";
+"LOCID E_PermissionsForGroup" = "Bạn không có quyền bung rộng nhóm này.";
+"LOCID E_ConnectionError" = "Chúng tôi không thể kết nối với máy chủ. Hãy kiểm tra kết nối mạng và địa chỉ máy chủ của bạn và thử lại.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Chúng tôi không thể kết nối với máy chủ. 1) Kết nối có thể không khả dụng. 2) Kiểm tra kết nối mạng của bạn. 3) Hãy đảm bảo rằng bạn đang sử dụng thông tin tài khoản Skype for Business do tổ chức của bạn cung cấp. 4) Tên người dùng có thể khác với tên đăng nhập của bạn. Gõ nhẹ vào Tùy chọn Nâng cao và nhập tên người dùng hoặc tên miền\\tên người dùng.";
+"LOCID E_AutoDiscoveryInBackground" = "Cấu hình máy chủ của bạn đã thay đổi. Vui lòng khởi động lại Skype for Business.";
+"LOCID E_SslError" = "Chúng tôi không thể xác minh chứng chỉ từ máy chủ. Vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_SslCertExpiredError" = "Chúng tôi không thể xác minh chứng chỉ từ máy chủ. Vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_ProxyAuthError" = "Chúng tôi không thể đăng nhập bạn. Vui lòng cấu hình cài đặt proxy HTTP của bạn trong cài đặt %@ và Tùy chọn Skype for Business hoặc sử dụng 3G để kết nối.";
+"LOCID E_ConnectionTimeoutError" = "Không thể nối kết với máy chủ. Máy chủ có thể đang bận hoặc hiện không sẵn sàng. Vui lòng thử lại.";
+"LOCID E_GenericApplicationError" = "Có lỗi trong ứng dụng. Vui lòng khởi động lại ứng dụng.";
+"LOCID E_AuthError" = "Chúng tôi không thể đăng nhập cho bạn. Vui lòng kiểm tra thông tin tài khoản của bạn và thử lại.";
+"LOCID E_InvalidCredentials" = "Chúng tôi không thể đăng nhập cho bạn. Vui lòng kiểm tra thông tin tài khoản của bạn và thử lại.";
+"LOCID E_InvalidSignInAddress" = "Không thể đăng nhập. Vui lòng xác nhận địa chỉ đăng nhập của bạn và thử lại.";
+"LOCID E_InvalidLyncAccount" = "Đây không phải là thông tin đăng nhập hợp lệ.  Bạn cần phải đăng nhập bằng tài khoản Skype for Business do tổ chức của bạn cung cấp.";
+"LOCID E_WrongHomePool" = "Bạn không được cấu hình để kết nối với máy chủ. Vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_ImSendError" = "Không gửi được:";
+"LOCID GenericRetryError" = "Chúng tôi không thể kết nối với máy chủ. Đang thử lại...";
+"LOCID GenericError" = "Đã xảy ra lỗi ở máy chủ. Vui lòng thử lại.";
+"LOCID RequestFailed" = "Không xử lý được yêu cầu.  Vui lòng thử lại.";
+"LOCID DecodingError" = "Không xử lý được phản hồi của máy chủ. Vui lòng thử lại.\r\nNếu sự cố vẫn tiếp diễn, vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID VersionMismatch" = "Bạn không thể đăng nhập bằng phiên bản Skype for Business này. Vui lòng cài đặt phiên bản mới. Nếu phiên bản đó không hoạt động, hãy liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID SignInCredentialsAreNeeded" = "Bạn vừa bị đăng xuất. Chúng tôi cần thông tin tài khoản của bạn để đăng nhập bạn trở lại.";
+"LOCID NeedLyncPassword" = "Bạn cần cung cấp mật khẩu để đăng nhập.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Chúng tôi không thể kết nối với máy chủ ngay bây giờ. Vui lòng thử lại.";
+"LOCID E_HttpRequestTimeout" = "Không thể đăng nhập vì máy chủ tạm thời không khả dụng.";
+"LOCID E_CannotConnectToServer" = "Không thể kết nối với máy chủ. Đang thử thiết lập lại kết nối. Nếu vấn đề vẫn còn, hãy liên hệ nhóm hỗ trợ của bạn.";
+"LOCID E_InvalidServerUrl" = "Tên máy chủ không chính xác. Vui lòng kiểm tra và thử lại.";
+"LOCID E_NoValidIp" = "Chúng tôi không thể kết nối với mạng.Vui lòng kiểm tra thiết đặt kết nối của bạn.";
+"LOCID E_MetaDataNotFound" = "Không thể liên lạc với máy chủ. Vui lòng xác minh địa chỉ máy chủ của bạn hoặc thử lại sau.";
+"LOCID E_TimeSkewError" = "Chúng tôi không thể đồng bộ hóa đồng hồ của thiết bị với máy chủ.Vui lòng thay đổi thiết đặt thời gian của bạn hoặc liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_MobilityDisabled" = "Chúng tôi không thể đăng nhập cho bạn vì bạn không được thiết lập để sử dụng Skype for Business. Vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_TooManyApplications" = "Chúng tôi không thể đăng nhập cho bạn. Có vẻ như bạn đã đăng nhập trên quá nhiều thiết bị.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Tắt Gọi qua số Cơ quan. Nhập số điện thoại của bạn trong các tùy chọn để thực hiện cuộc gọi Skype for Business đến người này.";
+"LOCID E_UI_OfflineLyncCall" = "Cần phải trực tuyến hoặc có kết nối dữ liệu di động để thực hiện cuộc gọi Skype for Business đến người này.";
+"LOCID E_EwsError" = "Chúng tôi không thể kết nối với Exchange. Vui lòng thử lại sau.";
+"LOCID E_EwsBadCredentials" = "Chứng danh đăng nhập Exchange của bạn không hợp lệ. Hãy thử cập nhật chứng danh Exchange hoặc Skype for Business của bạn.";
+"LOCID W_Retrying" = "Không thể liên lạc với máy chủ, đang thử lại...";
+"LOCID E_UI_CallViaCellError" = "Vui lòng kiểm tra số điện thoại và thử lại.";
+"LOCID E_LiveIdPasswordExpired" = "Mật khẩu của bạn đã hết hạn. Vui lòng cập nhật mật khẩu và thử lại.";
+"LOCID E_LiveIdInvalidCredentails" = "Chúng tôi không thể đăng nhập cho bạn. Vui lòng kiểm tra thông tin tài khoản của bạn và thử lại.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Mật khẩu của bạn cần được thay đổi. Vui lòng cập nhật mật khẩu và thử lại.";
+"LOCID E_LiveIdPasswordLockedOut" = "Mật khẩu của bạn cần được thay đổi. Vui lòng cập nhật mật khẩu và thử lại.";
+"LOCID E_LiveIdConnectionFailed" = "Chúng tôi không thể kết nối với máy chủ ngay bây giờ. Vui lòng thử lại.";
+"LOCID E_LiveIdServiceUnavailable" = "Chúng tôi không thể kết nối với máy chủ ngay bây giờ. Vui lòng thử lại.";
+"LOCID E_LiveIdGenericError" = "Chúng tôi không thể đăng nhập cho bạn. Vui lòng thử lại.";
+"LOCID E_InvalidLiveIDUserNameError" = "Chúng tôi không thể đăng nhập cho bạn. Vui lòng xác minh tên người dùng của bạn có định dạng là ai_do@example.com và mật khẩu của bạn phải hợp lệ.";
+"LOCID E_InvalidSmtpAddress" = "Chúng tôi không thể kết nối với Exchange. Vui lòng kiểm tra thông tin tài khoản của bạn và thử lại.";
+"LOCID E_LogoffUnsuccessful" = "Chúng tôi không thể kết nối bạn với Skype for Business do mất kết nối với máy chủ.";
+"LOCID E_ClientVersionMismatch" = "Chúng tôi không thể đăng nhập bạn vì tổ chức không hỗ trợ phiên bản Skype for Business này. Vui lòng cài đặt Lync 2010 từ store di động của bạn.";
+"LOCID E_ClientServerSchemaMisMatch" = "Bạn không thể đăng nhập bằng phiên bản Skype for Business này. Vui lòng cài đặt phiên bản mới. Nếu phiên bản đó không hoạt động, hãy liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_ClientVersionCheck" = "Bạn không thể đăng nhập bằng phiên bản Skype for Business này. Vui lòng cài đặt phiên bản mới. Nếu phiên bản đó không hoạt động, hãy liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_VersionMismatch" = "Bạn không thể đăng nhập bằng phiên bản Skype for Business này. Vui lòng cài đặt phiên bản mới. Nếu phiên bản đó không hoạt động, hãy liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_AutoDConfigurationError" = "Chúng tôi không thể đăng nhập cho bạn. Vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_AutoDPasswordExpiredError" = "Mật khẩu của bạn đã hết hạn. Vui lòng cập nhật mật khẩu và thử lại.";
+"LOCID E_InvalidProxySettingsError" = "Chúng tôi không thể đăng nhập cho bạn. Thiết đặt proxy không hợp lệ. Vui lòng kiểm tra thiết đặt này và thử lại.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Bạn đã bị đăng xuất do không có hoạt động.";
+"LOCID E_GeneralGoneError" = "Chúng tôi không thể đăng nhập cho bạn. Vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_InternalServerError" = "Chúng tôi không thể đăng nhập cho bạn. Vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_TooManyApps" = "Chúng tôi không thể đăng nhập cho bạn. Có vẻ như bạn đã đăng nhập trên quá nhiều thiết bị.";
+"LOCID E_ResponseUnkown" = "Chúng tôi không thể kết nối với máy chủ. Nếu bạn đang sử dụng Wi-Fi, hãy mở trình duyệt của bạn để xem bạn có kết nối không. Nếu không, thì hãy tắt bất kỳ điểm truy cập hoặc kết nối chia sẻ nào. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với nhà cung cấp mạng của bạn.";
+"LOCID E_CannotLoadADFSPage" = "Chúng tôi không đăng nhập bạn vào được. Vui lòng thử lại. Nếu vấn đề vẫn tiếp diễn, vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+"LOCID E_UserNotSipEnabled" = "Bạn chưa được cấu hình để kết nối với máy chủ. Vui lòng liên hệ nhóm hỗ trợ.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Bạn không thể thực hiện cuộc gọi VoIP ngay bây giờ. Hãy thử gọi từ số điện thoại di động của bạn.";
+"LOCID E_VoicePSTNCallActive" = "Bạn không thể thực hiện cuộc gọi VoIP ngay bây giờ. Hãy thử gọi từ số điện thoại cơ quan của bạn.";
+"LOCID E_VoicePSTNCallActive - Button" = "Gọi qua Điện thoại Cơ quan";
+"LOCID E_VideoOverWiFiBlocked" = "Đây là thư mời gia nhập cuộc gọi video, nhưng do bạn không có kết nối Wi-Fi nên chúng tôi chỉ kết nối âm thanh.";
+"LOCID E_HistoryNotDisplayed" = "Không hiện lịch sử cho hội thoại này được.";
+"LOCID E_IMAcceptedElsewhere" = "Bạn đã chấp nhận hội thoại này ở một nơi khác. Để bắt đầu lại hội thoại này, hãy gửi tin nhắn mới.";
+"LOCID E_MuteFailed" = "Do có lỗi xảy ra, người khác không thể thấy rằng hiện tại bạn đang bị tắt tiếng.";
+"LOCID E_UnmuteFailed" = "Do có lỗi xảy ra, bạn vẫn còn bị tắt tiếng. Vui lòng hãy thử bật lại tiếng.";
+"LOCID E_DgExpansionGenericFailure" = "Không thể thiết lập để thành viên nhóm có thể mời được. Hãy thử lại sau.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Nhóm quá lớn không thể mời.";
+"LOCID E_DgExpansionNoMembersFailure" = "Nhóm không có bất kỳ thành viên cá nhân nào và không thể mời được.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ không sẵn sàng hoặc có thể đang ngoại tuyến.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ được đặt thành Không Làm Phiền.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ không có trong dịch vụ. Vui lòng kiểm tra số.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ đang thực hiện một cuộc gọi khác.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ không trả lời.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ không thể trả lời cuộc gọi này.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Không thể hoàn thành cuộc gọi này trong khi bạn đang ngoại tuyến. Vui lòng thử đăng nhập vào Skype for Business để thực hiện cuộc gọi.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Thao tác không thành công.";
+"LOCID E_VoiceGenericError" = "Cuộc gọi không hoàn thành hoặc đã kết thúc.";
+"LOCID E_VoiceFeatureNotEnabled" = "Tính năng cuộc gọi đã bị tắt.";
+"LOCID E_VoiceCheckNumber" = "Vui lòng kiểm tra số điện thoại và thử lại.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Không thể hoàn thành cuộc gọi. Vui lòng thử lại sau.";
+"LOCID E_VoiceCallUnsuccessful" = "Không thể kết nối cuộc gọi.";
+"LOCID E_VoiceCallTypeNotSupported" = "Cuộc gọi không thành công. Kiểu cuộc gọi này không được hỗ trợ.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Có thể tin nhắn này chưa được gửi đến %@ vì máy chủ đã hết thời gian chờ:";
+
+"LOCID E_SharingAnotherOperation" = "Chúng tôi đang thử làm điều gì khác cho bạn. Vui lòng chờ trong giây lát và thử lại.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ đã không nhận được tin nhắn này do một sự cố máy chủ:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ đang ngoại tuyến và không nhận được tin nhắn này:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ có trạng thái Không Làm Phiền và không nhận được tin nhắn này:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Chúng tôi không thể gửi tin nhắn này bởi vì chúng tôi không thể tìm thấy%@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Không thể gửi tin nhắn này vì nội dung bị chặn:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "Chúng tôi không thể liên lạc với %@ để gửi tin nhắn này:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Chúng tôi không thể hoàn thành cuộc gọi của bạn.";
+
+"LOCID E_ConfLocked" = "Bạn không thể tham gia cuộc họp bởi vì cuộc họp đã bị khóa. Hãy thử liên hệ với người tổ chức.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Có sự không khớp mã hóa giữa bạn và %@. Hãy liên hệ với nhóm hỗ trợ của bạn.";
+
+"LOCID E_ConferencingServerError" = "Đã xảy ra lỗi ở máy chủ. Vui lòng liên hệ với nhóm hỗ trợ của bạn.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ không thể liên lạc và có thể đang ngoại tuyến.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ đang ở trạng thái Không Làm Phiền và không thể liên lạc.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ đã không phản hồi cho thư mời.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Chúng tôi không thể liên lạc với %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Bạn chưa được thiết lập để gia nhập Cuộc họp Skype.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Không thể gia nhập cuộc hội thảo khi chưa đăng nhập ứng dụng.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = "%@ không thể gia nhập cuộc họp.";
+"LOCID E_ConferencingEnded" = "Cuộc họp bạn đang thử gia nhập hiện không sẵn sàng.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Không thể liên lạc với %@. Hãy thử lại sau.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "Không thể tìm thấy %@. Vui lòng kiểm tra địa chỉ.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Chúng tôi không thể liên lạc với %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ đã từ chối thư mời của bạn.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "Diễn giả đã kết thúc cuộc họp.";
+"LOCID E_ConferencingCallDisconnected" = "Cuộc gọi đã bị ngắt kết nối.";
+"LOCID ConferenceUnexpectedDisconnect" = "Bạn đã bị ngắt kết nối với hội thảo.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Cuộc gọi không hoàn thành hoặc đã kết thúc.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Chúng tôi không thể thêm %@ vào cuộc họp vì mạng đang bận.";
+
+"LOCID E_ConferencingCannotConnect" = "Cuộc gọi không hoàn thành hoặc đã kết thúc.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Bạn không thể gia nhập kiểu cuộc họp trực tuyến này.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Không thể mời %@ vì phòng họp đã đầy.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Không thể gia nhập cuộc họp dưới tên người dự ẩn danh.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Không thể gia nhập cuộc họp do lỗi của thư mời.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Bạn không có quyền gia nhập cuộc họp.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Chúng tôi không thể kết nối bạn với cuộc họp. Vui lòng thử lại.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Không thể gia nhập cuộc họp này từ bên ngoài tổ chức của bạn.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Không thể gia nhập kiểu cuộc họp trực tuyến này.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Không thể liên lạc với %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Bạn không thể bắt đầu cuộc họp vì một người khác đang bắt đầu.";
+"LOCID E_ConferencingEncryptionIssues" = "Chúng tôi không thể bắt đầu Cuộc họp Skype do vấn đề về mã hóa.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Bạn không có đủ quyền để gia nhập hoặc quay số ra từ một thiết bị khác.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Cuộc gọi không hoàn thành hoặc đã kết thúc.";
+"LOCID E_ConferencingFull" = "Phòng họp đã đầy.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Bạn không có quyền gia nhập cuộc họp này.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Thư mời gửi đến %@ đã hết hạn.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Cuộc họp đã kết thúc vì người tổ chức đã rời khỏi cuộc họp.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Bạn không thể gia nhập cuộc họp vì mạng đang bận.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Dòng chủ đề quá dài.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Tổ chức của bạn không bật tính năng cuộc họp này.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Cuộc họp này đã kết thúc do không có hoạt động.";
+"LOCID E_ConferencingCannotBeFound" = "Không thể tìm thấy cuộc họp trực tuyến này.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Bạn không có quyền gia nhập cuộc họp này.";
+"LOCID E_ConferencingUserNotAdmitted" = "Bạn đã không được nhận vào cuộc họp.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Bạn đã bị loại khỏi cuộc họp.";
+"LOCID E_ConfGenericError" = "Chúng tôi không thể kết nối bạn với cuộc họp. Vui lòng thử lại.";
+"LOCID E_ConferenceDenied" = "Diễn giả đã từ chối cho bạn gia nhập.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Bạn đã ở trong cuộc họp. Bạn có muốn thoát khỏi cuộc họp này và gia nhập cuộc họp này không?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Máy chủ không hỗ trợ gia nhập cuộc họp dưới dạng ẩn danh thông qua thiết bị này.";
+"LOCID ConferenceVideoLock" = "Diễn giả đã khóa trọng tâm video vào một người nhất định.";
+"LOCID ConferenceVideoUnlock" = "Diễn giả đã mở khóa trọng tâm video.";
+"LOCID ConferenceVideoSelfLock" = "Mọi người đều bị khóa trọng tâm vào video của bạn.";
+"LOCID ConferenceVideoSelfUnlock" = "Không còn ai bị khóa trọng tâm vào video của bạn nữa.";
+
+"LOCID E_DomainNotTrusted" = "Không thể kết nối với máy chủ. Chấp nhận lời nhắc chuyển hướng.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ không nhận được tin nhắn này vì định dạng không cho phép:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Thiết bị %@ đang dùng không thể nhận được tin nhắn.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ đã không nhận được tin nhắn này vì dung lượng của tin quá lớn:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ không nhận được tin nhắn này do chính sách hạn chế chuyển phát:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Chúng tôi không thể gửi IM của bạn —bạn đã gia nhập hội thoại với %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Không thể gửi tin nhắn này vì nội dung bị chặn:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Bạn không được phép gửi IM đến %@. Chúng tôi đã không gửi tin nhắn này:";
+
+"LOCID E_IMConfGenericError" = "Một hoặc nhiều người dự đã không nhận được tin nhắn này:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ không sẵn sàng.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Cuộc gọi kết thúc vì %@ đã đăng xuất.";
+
+"LOCID E_VoiceCallTimeout" = "Cuộc gọi không hoàn thành do có sự cố mạng. Vui lòng thử lại.";
+"LOCID E_VoiceCallDisconnected" = "Rất tiếc, cuộc gọi đã bị ngắt kết nối. Vui lòng thử lại.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Cuộc gọi không hoàn thành hoặc đã kết thúc.";
+"LOCID E_VoiceCallNotCompleted" = "%@ không thể nhận cuộc gọi. Thay vào đó, hãy thử gửi tin nhắn tức thời hoặc email.";
+"LOCID E_VoiceServerError" = "Không thể kết nối cuộc gọi do lỗi máy chủ. Vui lòng thử lại.";
+"LOCID E_VoiceCannotConnect" = "Không thể kết nối với cuộc họp trực tuyến.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Không thể liên lạc với %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Không thể định vị %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "Chúng tôi không thể bắt đầu Cuộc họp Skype do vấn đề về mã hóa.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Người mà bạn gọi đã trả lời bằng một IM.";
+"LOCID E_VoiceCannotCompleteCall" = "Cuộc gọi không thể hoàn thành.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Cuộc gọi không hoàn thành do có sự cố máy chủ.";
+"LOCID E_VoiceServerCannotForwardCall" = "Máy chủ không thể chuyển tiếp cuộc gọi. Vui lòng thử lại.";
+"LOCID E_VoiceServerDidNotRespond" = "Máy chủ không phản hồi. Vui lòng thử lại sau.";
+"LOCID E_VoiceCannotPlaceCall" = "Không thể thực hiện cuộc gọi. Vui lòng kiểm tra số điện thoại và thử lại.";
+"LOCID E_VoiceNumberNotSupported" = "Tổ chức của bạn không hỗ trợ gọi cho số này.";
+"LOCID E_IncomingPSTNCall" = "Chúng tôi không thể hoàn thành cuộc gọi của bạn.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Bạn không thể gọi %@ vì cuộc gọi bị chính sách hạn chế.";
+
+"LOCID E_CallFailed" = "Cuộc gọi của bạn kết thúc do có sự cố kết nối. Vui lòng thử lại.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Bạn bị ngắt kết nối vì bạn đã gia nhập từ một máy khách khác.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Bạn đã bị loại khỏi cuộc họp.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Không thể hoàn thành cuộc gọi do mạng đang bận.";
+"LOCID E_VoiceNotSupported" = "%@ không thể chấp nhận cuộc gọi thoại.";
+"LOCID E_RepliedWIthOtherModality" = "Người nhận chọn trả lời bằng tin nhắn tức thời.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Không thể cập nhật lịch sử hội thoại ngay lúc này và có thể không đồng bộ.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Không thể cập nhật lịch sử hội thoại ngay lúc này và có thể không đồng bộ.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Chúng tôi không thể chuyển tiếp cuộc gọi đến liên hệ này. Vui lòng chọn một trong các liên hệ trong Skype for Business của bạn để chuyển tiếp cuộc gọi hoặc chọn \"Số Mới\" để nhập số điện thoại.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY đã được bật";
+"LOCID RemoteHoldSucceeded" = "Người dùng từ xa đã giữ cuộc gọi của bạn.";
+"LOCID RemoteUnholdSucceeded" = "Đã bỏ giữ cuộc gọi từ xa thành công";
+"LOCID LocalHoldSucceeded" = "Tiếp tục giữ cuộc gọi nội bộ thành công";
+"LOCID LocalUnholdSucceeded" = "Tiếp tục Giữ cuộc gọi Nội bộ Thành công";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Tiếp tục cuộc gọi";
+"LOCID is recording" = "%@ đang ghi";
+"LOCID Multiple Recording" = "Ai đó đang ghi";
+"LOCID OnHoldOutOfApp" = "Đang giữ cuộc gọi %@ của bạn.";
+"LOCID OnStopOutOfApp" = "Cuộc gọi %@ của bạn đã bị chấm dứt .";
+"LOCID RecordingAlert" = "%@ đang ghi cuộc gọi này.";
+"LOCID CoversationP2PIsRecording" = "%@ đang ghi cuộc gọi này.";
+"LOCID CoversationP2PIsRecordingNoName" = "Đang ghi cuộc gọi này.";
+"LOCID CoversationConferenceIsRecording" = "Ai đó đang ghi cuộc họp này.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Danh sách này gần như đã đầy. Hội thoại cũ nhất sẽ được loại bỏ khi bổ sung hội thoại mới.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "Diễn giả đã tắt tiếng khán giả.";
+"LOCID Audience Unlock" = "Diễn giả đã bật tiếng khán giả.";
+"LOCID Conference Mute" = "Diễn giả đã tắt tiếng bạn.";
+"LOCID Conference Unmute" = "Diễn giả muốn bạn tự bật tiếng của mình.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "Diễn giả đã chặn việc người dự gửi video.";
+"LOCID PresenterBlockedVideo - Presenter" = "Diễn giả đã chặn việc người dự gửi video. Nếu bạn là một diễn giả, bạn có thể bật webcam và chia sẻ video của mình.";
+"LOCID PresenterBlockedVideo - Unblock" = "Diễn giả đã bỏ chặn việc người dự gửi video.";
+"LOCID VideoLockOnYou" = "Mọi người đều bị khóa trọng tâm vào video của bạn.";
+"LOCID VideoLock" = "Diễn giả đã khóa trọng tâm video vào một người nhất định.";
+"LOCID VideoNotLockOnYou" = "Không còn ai bị khóa trọng tâm vào video của bạn nữa.";
+"LOCID VideoSpotlightUnlocked" = "Diễn giả đã mở khóa video của người ở vị trí nổi bật.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@,";
+"LOCID Back" = "Quay lại";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Gọi qua Điện thoại Cơ quan không sẵn sàng.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Không có Thư Thoại";
+"LOCID You currently have no voicemail messages" = "Bạn không có bất kỳ thư thoại nào.";
+"LOCID Audio" = "Âm thanh";
+"LOCID Speaker" = "Loa";
+"LOCID Can not play locally" = "Chúng tôi không thể phát thư thoại này. Hãy gõ nhẹ vào Phát để nhận và nghe thư thoại đó.";
+"LOCID Play Voice Mail" = "Phát Thư Thoại";
+"LOCID PLAY_VOICEMAIL_HINT" = "Phát Thư Thoại";
+"LOCID Pause Voice Mail" = "Tạm dừng Thư Thoại.";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Dừng Thư Thoại";
+"LOCID Play On Phone Error - No Number" = "Bạn cần nhập số điện thoại của mình trong Tùy chọn để nhận cuộc gọi lại.";
+"LOCID Call Back" = "Gọi Lại";
+"LOCID Delete" = "Xóa bỏ";
+"LOCID More voicemails iPad" = "Để nghe các thông báo thư thoại cũ, hãy gõ nhẹ vào biểu tượng thư thoại.";
+"LOCID More voicemails" = "Để nghe thư thoại cũ, gõ nhẹ và giữ phím 1 trên bàn phím hoặc đi đến Outlook.";
+"LOCID More voicemails No keypad" = "Đi tới Outlook để nghe thư thoại cũ.";
+"LOCID Can not play IRMed" = "Thư thoại này được quản lý bằng quyền. Hãy gõ nhẹ vào Phát để nhận và nghe thư thoại đó.";
+"LOCID Lync Call" = "Cuộc gọi Skype for Business";
+"LOCID Can't play on phone" = "Chúng tôi không thể phát thư thoại này. Vui lòng kiểm tra kết nối mạng của bạn và thử lại sau.";
+"LOCID Yes" = "Có";
+"LOCID No" = "Không";
+"LOCID VMCallerID" = "Thư Thoại";
+"LOCID VM Playback 1X" = "1X";
+"LOCID VM Playback 2X" = "2X";
+"LOCID VM Playback -2X" = "X/2";
+"LOCID VM Playback 1X Acc" = "Phát thư thoại ở tốc độ bình thường";
+"LOCID VM Playback -2X Acc" = "Phát thư thoại với tốc độ chậm hơn một nửa";
+"LOCID VM Playback 2X Acc" = "Phát thư thoại với tốc độ nhanh hơn gấp hai lần";
+"LOCID Voicemail From" = "Thư thoại từu %@";
+"LOCID No Voicemails Placeholder" = "Thư thoại của bạn sẽ hiện tại đây";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Bỏ qua";
+"LOCID Accept" = "Chấp nhận";
+"LOCID Not yet implemented feature" = "Tính năng này chưa được thực hiện. Vui lòng thử lại trong bản phát hành trong tương lai.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Bạn có 1 thư thoại mới";
+"LOCID Missed VMs" = "Bạn có %d thư thoại mới";
+"LOCID Missed Collab Out of App" = "Phiên cộng tác bị nhỡ từ %@";
+"LOCID Missed Video Call Out of App" = "Cuộc gọi Video bị nhỡ từ %@";
+"LOCID Missed Audio Call Out of App" = "Cuộc gọi bị nhỡ từ %@";
+"LOCID Missed Message Out of App" = "Tin nhắn tức thời bị nhỡ từ %@";
+"LOCID Missed Audio Conf Out of App" = "Cuộc gọi hội thảo bị nhỡ từ %@";
+
+"LOCID Audio Call Out of App" = "Cuộc gọi từ %@";
+"LOCID Conference Call Out of App" = "Cuộc gọi hội thảo từ %@";
+"LOCID Dismiss Call" = "Bỏ qua";
+"LOCID Answer Call" = "Chấp nhận";
+"LOCID Answer Call with Video" = "Video";
+"LOCID Audio Call" = "Gọi";
+"LOCID Conference Call" = "Cuộc gọi Hội thảo";
+"LOCID Unknown Caller" = "Người gọi Không xác định";
+
+"LOCID Video conf accessibility" = "Hội thảo video từ %@";
+"LOCID Video accessibility" = "Cuộc gọi video từ %@";
+"LOCID Audio conf accessibility" = "Cuộc gọi hội thảo từ %@";
+"LOCID Audio accessibility" = "Cuộc gọi từ %@";
+
+"LOCID Video Call Out of App" = "Cuộc gọi video từ %@";
+"LOCID Video Conference Call Out of App" = "Cuộc hội thảo video từ %@";
+"LOCID Video Call" = "Cuộc gọi Video";
+"LOCID Video Conference Call" = "Hội thảo Video";
+"LOCID Video Escalation Name" = "%@ đang chia sẻ video";
+"LOCID Video Escalation" = "đang chia sẻ video";
+"LOCID Video Escalation Conf" = "Ai đó đang chia sẻ video";
+"LOCID VideoInvitationRejected" = "Phần video của cuộc gọi đã không được chấp nhận. Cuộc gọi sẽ tiếp tục chỉ với phần âm thanh.";
+"LOCID E_VideoDecline" = "%@ đã không chấp nhận video của bạn.";
+"LOCID E_VideoGeneric" = "Chúng tôi không thể bắt đầu video của bạn. Vui lòng thử lại.";
+"LOCID E_VideoNotStarted" = "Chúng tôi không thể bắt đầu video của bạn.";
+"LOCID E_VideoNotSupported" = "%@ không chấp nhận cuộc gọi video của bạn.";
+"LOCID E_VideoNotAccepted" = "Phần video của cuộc gọi đã không được %@ chấp nhận. Cuộc gọi sẽ tiếp tục chỉ với phần âm thanh.";
+
+"LOCID E_VoiceTransferGenericError" = "Không thể chuyển cuộc gọi.";
+"LOCID E_VoiceTransferParticipantError" = "Không thể chuyển cuộc gọi do không liên lạc được với người nhận.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "tắt tiếng";
+"LOCID Mute Capitalized" = "Tắt tiếng";
+"LOCID Unmute" = "Bật tiếng";
+"LOCID keypad" = "bàn phím";
+"LOCID add call" = "thêm cuộc gọi";
+"LOCID hold" = "giữ";
+"LOCID End" = "Kết thúc";
+"LOCID Hide Keypad" = "Ẩn Bàn phím";
+"LOCID Call Lync" = "Cuộc gọi Skype for Business";
+"LOCID Call Work" = "Cơ quan: %@";
+"LOCID Call Mobile" = "Di động: %@";
+"LOCID Call Home" = "Nhà riêng: %@";
+"LOCID Call Other" = "Khác: %@";
+"LOCID Decline" = "Từ chối";
+"LOCID Video Menu" = "Menu Video";
+"LOCID Hold Call" = "Giữ Cuộc gọi";
+"LOCID Hang Up" = "Gác máy";
+"LOCID Dial Pad Only" = "Bàn phím Số";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u người dự - %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u người dự - %@";
+"LOCID Call Status Connecting" = "Đang kết nối...";
+"LOCID Call Status Connecting Remote" = "Đang kết nối...";
+"LOCID Call Status Connected" = "Đã kết nối";
+"LOCID Call Status On Hold - Passive" = "Giữ";
+"LOCID Call Status On Hold" = "Đang giữ máy";
+"LOCID Call Status Ended" = "Cuộc gọi đã Kết thúc";
+"LOCID Call Status Transfering" = "Đang chuyển";
+"LOCID On behalf of" = "Thay mặt %@";
+"LOCID Call for" = "Cuộc gọi cho %@";
+"LOCID Call for - Astana" = "Cuộc gọi cho %@";
+"LOCID Transferred by" = "Được chuyển máy bởi %@";
+"LOCID Forwarded by" = "Được chuyển tiếp bởi %@";
+"LOCID Private call" = "Cuộc gọi riêng tư";
+"LOCID Also ringing" = "Cũng sẽ đổ chuông vào %@";
+"LOCID Also ringing delegates" = "Cũng sẽ đổ chuông vào số máy của người đại diện của bạn";
+"LOCID Will ring" = "Sẽ đổ chuông %@";
+"LOCID Also ringing team call" = "Cũng sẽ đổ chuông vào số máy của nhóm của bạn";
+"LOCID The recipient" = "Người nhận";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Đang khởi tạo ...";
+"LOCID DataCollab Connecting" = "Đang kết nối ...";
+"LOCID DataCollab Loading" = "Đang tải...";
+"LOCID DataCollab No Content" = "Các diễn giả đã ngừng chia sẻ nội dung.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Tính năng chia sẻ dữ liệu không khả dụng do không kết nối được với máy chủ.";
+"LOCID DisconnectedOnConnectivityIssue" = "Một số tính năng trình bày không sẵn dùng do có sự cố kết nối với máy chủ.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Bạn bị ngắt kết nối vì bạn đã gia nhập từ một máy khách khác.";
+"LOCID DisconnectedOnNetworkFailure" = "Sự cố mạng đang làm cho bạn không xem được bản trình bày.";
+"LOCID DataCollab Known UnSupported" = "Diễn giả đang sử dụng tính năng không được phiên bản Skype for Business này hỗ trợ.";
+"LOCID DataCollab Generic UnSupported" = "Diễn giả đang sử dụng tính năng không được phiên bản Skype for Business này hỗ trợ hoặc có thể là họ đã kết nối với một máy chủ cũ hơn.";
+"LOCID DataCollab ContentPresenter" = "Diễn giả: %@";
+"LOCID DataCollab NoPresenter" = "Không có ai trình bày";
+"LOCID Collab Unsupported PPTContent" = "Rất tiếc, chúng tôi không thể phát đa phương tiện trong bản trình bày này.";
+"LOCID Retry" = "Thử lại";
+"LOCID DataCollab Generic PPT Error" = "Một số tính năng trình bày không sẵn dùng do có sự cố kết nối với máy chủ.";
+"LOCID Start Viewing" = "Bắt đầu Xem";
+"LOCID Stop Viewing" = "Dừng Xem";
+"LOCID Collab Escalation" = "%@ muốn bắt đầu trình bày";
+"LOCID PowerPoint content Accessibility" = "Nội dung PowerPoint";
+
+"LOCID SyncPresenterButton" = "Đồng bộ với dạng xem diễn giả";
+"LOCID NavigateBackButton" = "Chuyển về trang chiếu trước";
+"LOCID NavigateForwardButton" = "Chuyển đến trang chiếu tiếp";
+"LOCID SlideNumber" = "%1$d / %2$d";
+"LOCID SlideNumber Accessibility" = "Trang chiếu %1$d / %2$d";
+
+"LOCID E_SharingDisabled" = "Tính năng trình bày đã tắt.";
+"LOCID E_SharingNetworkIssues" = "Bạn không thể trình bày do có sự cố mạng. Vui lòng thử lại sau.";
+"LOCID E_SharingNotSupported" = "Tính năng trình bày không được hỗ trợ với liên hệ này.";
+"LOCID E_SharingTimeout" = "Bản trình bày đã không bắt đầu do máy chủ đang bận. Vui lòng thử lại sau.";
+"LOCID SharingAnotherType" = "Bản trình bày này đã kết thúc vì một bản trình bày khác đã bắt đầu.";
+"LOCID E_GetMediaSdpFailed" = "Không thể kết nối bạn với máy tính hoặc chương trình trình bày ngay bây giờ.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Bạn sẽ không xem được nội dung trình bày vì bạn không kết nối Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "Bạn không thể thực hiện cuộc gọi Skype for Business vì bạn không kết nối Wi-Fi.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Bản trình bày quá lớn không hiển thị được trên thiết bị này của bạn.";
+"LOCID E_CollabDisconnectedNetworkError" = "Bạn đã bị ngắt kết nối với bản trình bày do các sự cố mạng.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Bạn đã bị ngắt kết nối bởi vì bạn gia nhập từ một máy khách khác.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Đang tải nội dung chia sẻ.";
+"LOCID AppSharing Shared Content" = "Nội dung được chia sẻ.";
+"LOCID AppSharing Desktop" = "Màn hình máy tính";
+"LOCID AppSharing Application" = "Ứng dụng";
+"LOCID AppSharing SharingPaused" = "Tính năng Chia sẻ hiện đang tạm dừng."; // Not used
+"LOCID AppSharing SharingIdle" = "Tính năng Chia sẻ hiện đang ở trạng thái chờ."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Tất cả tài nguyên đều được giảm thiểu."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ đã cố bắt đầu trình bày màn hình nhưng phiên bản này chỉ hỗ trợ tính năng đó trong cuộc gọi hội thảo và Cuộc họp Skype.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Bắt đầu IM";
+"LOCID send IM" = "Gửi";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Kết thúc Hội thoại";
+"LOCID View Contact Card" = "Xem Thẻ Liên hệ";
+"LOCID Invite Others" = "Mời Người khác";
+"LOCID Send Location action" = "Gửi Vị trí";
+"LOCID Send as Email action" = "Gửi dưới dạng Email";
+"LOCID View Participants" = "Xem Người dự";
+"LOCID Rejoin" = "Gia nhập lại";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Gõ đúp nhẹ để bung rộng";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Chất lượng cuộc gọi kém";
+"LOCID ACI Call Muted" = "Hiện đã tắt tiếng, hãy gõ đúp để bật tiếng";
+"LOCID ACI Call Unmuted" = "Hiện đã bật tiếng, hãy gõ đúp để tắt tiếng";
+
+/* Search results */
+"LOCID No Results" = "Không có Kết quả";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ Thoát Bất ngờ";
+"LOCID Dont Send" = "Không Gửi";
+"LOCID Send Report" = "Gửi Báo cáo";
+"LOCID Would you like to send a report so we can fix the problem" = "Bạn có muốn gửi báo cáo để chúng tôi có thể xử lý vấn đề không?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype for Business";
+
+// Timeline
+"LOCID Timeline Home" = "nhà riêng";
+"LOCID Timeline Contacts" = "liên hệ";
+"LOCID Timeline Meetings" = "cuộc họp";
+"LOCID Timeline Search Placeholder" = "tìm kiếm danh bạ";
+"LOCID Timeline Recent" = "gần đây";
+"LOCID Timeline Upcoming" = "sắp tới";
+"LOCID Timeline TableView" = "đường thời gian";
+"LOCID Timeline Meeting Time All Day" = "cả ngày";
+"LOCID Timeline Search Skype Contacts" = "liên hệ";
+"LOCID Timeline Search Phone Contacts" = "danh bạ điện thoại";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "liên hệ";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "bàn phím số và thư thoại";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "bàn phím số, %ld thư thoại mới";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "bàn phím số, %ld thư thoại mới";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "cuộc họp";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "trang chủ";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "thông tin của tôi";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, tin nhấn mới, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "gọi";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "cuộc gọi video";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "đánh dấu là đã đọc";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "xóa";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "gia nhập cuộc họp";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "bỏ";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "chấp nhận";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "sẵn sàng";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "bận";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "vắng mặt";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "ngoại tuyến";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "không làm phiền";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "trạng thái hiện diện không xác định";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "xóa văn bản";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "tìm kiếm danh bạ";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "cuộc gọi video";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "gọi";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Gia nhập cuộc họp";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Phần chat trống";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Ảnh hồ sơ";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld thư thoại mới";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld thư thoại mới";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Delete";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Thiên thần";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Tức giận";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Kẻ cướp";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Bóng đá";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Bia";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Cười lớn";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Xe đạp";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Xấu hổ";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Cúi chào";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Trái tim tan vỡ";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Bánh";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Gọi";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Camera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Bạn có thể nói chuyện không?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Xe hơi";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Tiền";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Mèo";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Vỗ tay";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Cà phê";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Máy tính";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Bí mật";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Ngầu";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Khóc";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Khiêu vũ";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Ác quỷ";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Chó";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Chết thật";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Đồ uống";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Tối dạ";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Ghen tị";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Quỷ quyệt";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Chịu hết nổi";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Vắt chéo ngón tay";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Hoa";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Trò chơi";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Món quà";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Cười khúc khích";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Chúc may mắn";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Phải chạy";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Bắt tay";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Vui vẻ";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Đập đầu vào tường";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Trái tim";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Con sóc";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Vẫy tay chào";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Đập tay";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Chờ";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Ôm";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Ý tưởng";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Đang yêu";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Đảo";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Không phải tôi!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Hôn";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Không nghe";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Gặp nhau nhé";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Không nói được đâu";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Bạn có thư";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Trang điểm";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Đàn ông";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Phim";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Cơ bắp";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Nhạc";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Mọt sách";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Không";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Gật đầu";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Tiệc tùng";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Điện thoại";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Bánh Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Máy bay";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Đang nôn";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Đấm";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Mưa";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Cầu vồng";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Chơi nhạc Rock";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Đang cười lăn lộn";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Buồn";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Lắc đầu";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Buồn ngủ";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Mỉm cười";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Cười nhếch mép";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Ốc sên";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Không nói nên lời";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Dấu sao";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Dừng";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Nắng";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Ngạc nhiên";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Chửi thề";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Đang đổ mồ hôi";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Đang nói";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Nói với bàn tay";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Đang suy nghĩ";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Thời gian";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "Quá nhiều thông tin";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Mặt lè lưỡi";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Cây cỏ lăn";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Cái ô";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Đợi";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Đang đợi";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Đang làm việc từ nhà";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Chuyện gì đang xảy ra";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Úi chà";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Nháy mắt";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Phụ nữ";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Đang phân vân";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Lo lắng";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Đang ngáp ngủ";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Có";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Nhập tin nhắn ở đây";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Nói lời chào với %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Nói lời chào với nhóm";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Cuộc hội thoại của bạn sẽ hiện tại đây";
+"CHAT_FAILED_TO_SEND" = "Chúng tôi không thể gửi tin nhắn này: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Hiện phần chat";
+"LOCID CONVERSATION_HIDE_CHAT" = "Ẩn phần chat";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Hiển thị thanh bên";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Ẩn thanh bên";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "biểu tượng cảm xúc";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "ngày";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "ngày";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "giờ";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "giờ";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "phút";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "phút";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "giây";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "giây";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d thông báo mới";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Một thông báo mới";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Không có thông báo mới";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "hội thảo đã kết thúc";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u người tham gia";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "Bỏ qua";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "mở";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "sao chép";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "thêm vào Danh sách Đọc";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "mở bằng Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "Lùi lại";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "tiến";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "hủy bỏ";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ đang nhập...";
+"CHATTYPING_TWOUSERS" = "%@ và %@ đang nhập...";
+"CHATTYPING_THREEUSERS" = "%@, %@ và một người khác đang nhập...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ và %d người khác đang nhập...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "gửi email";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "xem thẻ liên hệ";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "người dự";
+"DROPDOWN_ADD_PARTICIPANTS" = "thêm người dự";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Cuộc gọi đến";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Cuộc gọi đi";
+
+"LOCID Meetings Page Title" = "Cuộc họp";
+"LOCID No Meetings Placeholder" = "Cuộc họp của bạn sẽ hiện tại đây";
+"LOCID Meetings Today" = "Hôm nay";
+"LOCID Meetings Tomorrow" = "Ngày mai";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Đặt ghi chú cá nhân của bạn";
+
+"PARTICIPANTS_VIEW_TITLE" = "Người dự";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Đang chờ tại Phòng đợi";
+"PARTICIPANTS_VIEW_ON_CALL" = "Trong cuộc gọi này";
+
+"MEETING_VIEW_TITLE" = "Cuộc họp";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Gia nhập Cuộc họp";
+"MEETING_VIEW_ORGANISER_LABEL" = "Người tổ chức";
+"MEETING_VIEW_INVITEES_LABEL" = "Người được mời";
+"MEETING_VIEW_NOTES_LABEL" = "Ghi chú";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Join \"%@\" using the following URL."; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Đang kết nối...";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Chọn biểu tượng cảm xúc";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Gửi tin nhắn";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Cuộc gọi đã kết thúc";
+"INVITE_PARTICIPANTS" = "Mời người dự";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Quay lại";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backspace";
+"LOCID_ADDRESS_BOOK" = "Sổ Địa chỉ";
+"LOCID_PHONE_NUMBER" = "Số Điện thoại";
+"LOCID_MORE" = "Xem thêm";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Chuyển Video";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Hiện Hồ sơ của Số liên hệ";
+"CHAT_OPTION_PARTICIPANTS" = "Người dự";
+"LOCID_CONTACTS_TABLE_VIEW" = "Dạng xem Danh bạ";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Cuộc gọi Đến";
+"LOCID_MEETINGS_TABLE_VIEW" = "Dạng xem Cuộc hộp";

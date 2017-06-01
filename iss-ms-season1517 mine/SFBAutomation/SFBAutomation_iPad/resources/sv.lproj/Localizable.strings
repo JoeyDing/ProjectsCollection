@@ -1,0 +1,1473 @@
+/* Version 2.0.0077 */
+/* push notification payload */
+"REPLY" = "Svara";
+"JOIN" = "Acceptera";
+"VIEW" = "Visa";
+"IGNORE" = "Ignorera";
+"LAUNCH" = "Starta";
+"NEW_IM_MESG" = "%@: %@";
+"NEW_IM_CONFERENCE_INVITE" = "bjuder in dig till en konversation";
+"NEW_IM_BURNT_TOAST" = "Missad konversation med %@";
+"SIGN_IN" = "Logga in";
+"SIGN_OUT" = "Du har loggats ut på grund av inaktivitet.";
+"MWI" = "Nya röstmeddelanden: %@";
+
+/* Labels used in account settings */
+"LOCID Sign-in address" = "Inloggningsadress";
+"LOCID Password" = "Lösenord";
+"LOCID User Name" = "Användarnamn";
+"LOCID Domain" = "Domän";
+"LOCID Auto-Detect Server" = "Automatisk igenkänning";
+"LOCID Sign-in As" = "Logga in som";
+"LOCID User Name Footer" = "Skype för företag – Online-användare: användarnamn@domän.com\nAlla andra användare: domän\\användarnamn";
+"LOCID Hide Details" = "Dölj avancerade alternativ";
+"LOCID More Details" = "Visa avancerade alternativ";
+"LOCID Save Password" = "Spara mitt lösenord";
+
+/* generic share button */
+"LOCID share" = "dela";
+
+/* Place holder text used in account settings.*/
+"LOCID Internal Server Address" = "Intern identifieringsadress";
+"LOCID External Server Address" = "Extern identifieringsadress";
+
+/*Sign in BRB*/
+"LOCID Sign In BRB Reason" = "Du kan hjälpa oss att förbättra Skype för företag genom att skicka information om inloggningsfelet.";
+"LOCID Sign In BRB Reason 2" = "Får vi samla in lite information om det här och framtida inloggningsfel? Du kan ändra detta senare i Alternativ.";
+"LOCID BRBDonotshow" = "Visa inte detta igen";
+
+/* Navigation bar buttons and title for settings */
+"LOCID Sign in" = "Logga in";
+"LOCID Sign Out" = "Logga ut";
+"LOCID Cancel Sign in" = "Avbryt inloggning";
+"LOCID Lync Is Signing In" = "Loggar in i Skype för företag";
+"LOCID Lync Is Signing Out" = "Loggar ut från Skype för företag";
+
+// Help
+"LOCID signin help" = "Inloggningshjälp";
+
+/* Tab names (should not exceed > 10 chars) */
+"LOCID My Status" = "Min info";
+"LOCID Contacts" = "Kontakter";
+"LOCID Conversations" = "Chattar";
+"LOCID Meetings" = "Möten";
+"LOCID Phone" = "Telefon";
+"LOCID Signing In" = "Loggar in...";
+"LOCID Signed Out" = "Utloggad";
+
+/* Note place holder*/
+"LOCID What's happening today?" = "Vad händer idag?";
+"LOCID MY_INFO_MOOD_MESSAGE" = "Personlig anteckning";
+"LOCID MY_INFO_EMPTY_MOOD_MESSAGE" = "Ange din personliga anteckning";
+"LOCID MY_INFO_EDIT_MOOD_MESSAGE_HINT" = "Dubbeltryck för att redigera";
+
+/* Contact availability used for self contact and contacts in contact list */
+"LOCID Unknown" = "Okänd";
+"LOCID Available" = "Tillgänglig";
+"LOCID Busy" = "Upptagen";
+"LOCID Busy Inactive" = "Upptagen (inaktiv)";
+"LOCID Do Not Disturb" = "Stör ej";
+"LOCID Be Right Back" = "Strax tillbaka";
+"LOCID Presence unknown" = "Närvaro okänd";
+"LOCID Off Work" = "Inte på jobbet";
+"LOCID Appear Away" = "Visa som Inte vid datorn";
+"LOCID Away" = "Inte vid datorn";
+"LOCID Inactive" = "Inaktiv";
+"LOCID Reset Status" = "Återställ status";
+"LOCID Offline" = "Offline";
+"LOCID Blocked" = "Blockerad";
+"LOCID Sign In As Header" = "Välj en status som ska visas:";
+
+/* Token related availability strings */
+"LOCID In a Call" = "I samtal";
+"LOCID In a Conference Call" = "I konferenssamtal";
+"LOCID Presenting" = "Presenterar";
+"LOCID In a Meeting" = "I möte";
+"LOCID Out of Office" = "Frånvarande";
+"LOCID Urgent Interruptions Only" = "Endast brådskande meddelanden";
+"LOCID Out To Lunch" = "På lunch";
+
+/* Contact List*/
+"LOCID ContactsPermissionNotGiven iPhone" = "Skype för företag kan inte visa dina iPhone-kontakter. Du kan åtgärda det i iPhone-inställningarna.";
+"LOCID ContactsPermissionNotGiven iPad" = "Skype för företag kan inte visa dina iPad-kontakter. Du kan åtgärda det i iPad-inställningarna.";
+"LOCID Other Contacts" = "Andra kontakter";
+"LOCID Pinned Contacts" = "Favoriter";
+"LOCID Retrieving Members" = "Vänta...";
+"LOCID Cannot connect Try again" = "Det går inte att hämta gruppmedlemmarna just nu. Försök igen senare.";
+"LOCID Group is too large to display" = "Gruppen är för stor för att visas.";
+"LOCID No members" = "Inga medlemmar";
+"LOCID Searching the company directory" = "Söker i företagskatalogen...";
+"LOCID Please signin to search" = "Logga in för att söka i företagskatalogen.";
+"LOCID Too many results" = "För många resultat. Förfina sökningen.";
+"LOCID Unable to connect to the server" = "Det går inte att ansluta till servern just nu. Försök igen.";
+"LOCID E_SearchTooLong" = "Vi hittade inga träffar. Försök med en kortare sökning.";
+"LOCID No Name" = "Inget namn";
+"LOCID idle day" = "%d dag";
+"LOCID idle days" = "%d dagar";
+"LOCID idle hour" = "%d timme";
+"LOCID idle hours" = "%d tim.";
+"LOCID idle minutes" = "%d minuter";
+"LOCID inactive idle day" = "Inaktiv %d dag";
+"LOCID inactive idle days" = "Inaktiv %d dagar";
+"LOCID inactive idle hour" = "Inaktiv %d timme";
+"LOCID inactive idle hours" = "Inaktiv %d timmar";
+"LOCID inactive idle minutes" = "Inaktiv %d minuter";
+"LOCID DG does not exist" = "Distributionsgruppen finns inte längre.";
+"LOCID Access to DG denied" = "Åtkomst till distributionsgruppen nekades";
+"LOCID No Contacts Placeholder" = "Dina kontakter visas här";
+"LOCID No Contacts" = "Inga kontakter";
+"LOCID You currently have no contacts" = "Du har för närvarande inga kontakter";
+"LOCID Retrieving Contacts..." = "Hämtar kontakter...";
+"LOCID Expanded" = "Grupp %@, Visad";
+"LOCID Collapsed" = "Grupp %@, Dold";
+"LOCID Group card- acc" = "Gruppkort";
+"LOCID Open group card - acc" = "Tryck för att öppna gruppkortet";
+
+/* Contact Card*/
+"LOCID Loading name" = "Läser in namn...";
+"LOCID Details" = "Kort";
+"LOCID Work" = "Arbete";
+"LOCID Home" = "Privat";
+"LOCID Mobile" = "Mobil";
+"LOCID Other" = "Annat";
+"LOCID other lowercase" = "annat";
+"LOCID Office" = "Kontor";
+"LOCID Company" = "Företag";
+"LOCID Department" = "Avdelning";
+"LOCID Send Text Message" = "Skicka SMS";
+"LOCID IM" = "snabbmeddelande";
+"LOCID E-Mail" = "E-post";
+"LOCID unknown lowercase" = "okänd";
+"LOCID Location lowercase" = "plats";
+"LOCID Calendar" = "kalender";
+"LOCID Link" = "länk";
+"LOCID Disabled" = "%@, Inaktiverat"; // %@ is the button text. e.g. "IM, disabled"
+"LOCID Note" = "Anteckning";
+"LOCID Video" = "Video";
+
+/* DG Card*/
+"LOCID Members" = "MEDLEMMAR"; // CAPS
+
+/* Contact Picker*/
+"LOCID Invite" = "Bjud in";
+"LOCID Transfer" = "Överför";
+
+/* Certificate UI */
+"LOCID certTitle" = "Skype för företag försöker omdirigera dig till:";
+"LOCID certIssuedBy" = "Utfärdat av:";
+"LOCID certSubject" = "Ämne:";
+"LOCID certExpires" = "Förfallodatum:";
+"LOCID certSignature" = "Signaturalgoritm:";
+"LOCID certDonotshow" = "Visa inte det här igen.";
+"LOCID Continue" = "Fortsätt";
+"LOCID certNone" = "Ingen kryptering";
+"LOCID certRSA" = "RSA-kryptering";
+"LOCID certDSA" = "DSA-kryptering";
+"LOCID certDH" = "DH-kryptering";
+"LOCID certEC" = "EC-kryptering";
+"LOCID certHMAC" = "HMAC-kryptering";
+
+/* Conversation Tab */
+"LOCID CVWTitle" = "Konversation";
+"LOCID Chats - Phone Call" = "Telefonsamtal";
+"LOCID Chats - Video Call" = "Videosamtal";
+"LOCID Chats - Meeting" = "Möte";
+"LOCID Chats - Missed Call" = "Missat samtal";
+"LOCID Chats - Missed Video Call" = "Missat videosamtal";
+"LOCID Chats - Current Call" = "Aktuellt samtal";
+"LOCID Chats - Current Call With Duration" = "Aktuellt samtal, %@";
+"LOCID Phone Status - Connecting" = "Ansluter...";
+"LOCID Phone Status - On Hold" = "Parkerat";
+"LOCID Phone Status - Transferring" = "Överför";
+"LOCID Transferring to" = "Överför till %@ ...";
+"LOCID Chats Full" = "Obs! Listan är full. De äldsta konversationerna kommer att tas bort när nya läggs till.";
+"LOCID Close Conversation" = "Ta bort konversation";
+"LOCID View Participants List" = "Visa deltagarlista";
+"LOCID Call Contact" = "Ring upp %@";
+"LOCID Video Call Contact" = "Videosamtal";
+"LOCID Video Conference Contact" = "Videokonferens";
+"LOCID Edit" = "Redigera";
+"LOCID Deselect All" = "Avmarkera allt";
+"LOCID Select All" = "Markera allt";
+"LOCID Me" = "Jag: %@";
+"LOCID Missed" = "Missat: %@"; // %@ is the first message of the missed conversation. e.g. "Missed: Hello?"
+"LOCID Group Chat" = "Gruppkonversation";
+"LOCID Tap To Enter Text" = "Klicka för att skriva";
+"LOCID No Conversations" = "Inga konversationer";
+"LOCID No Conversations Hint" = "Du har inga konversationer just nu";
+"LOCID Delete Count" = "Ta bort (%d)";
+"LOCID Delete None" = "Ta bort";
+"LOCID Escalating audio conference" = "Startar konferenssamtal...";
+"LOCID Escalating video conference" = "Startar videokonferens...";
+"LOCID No Participants" = "Inga deltagare";
+"LOCID No Other Participants" = "Inga andra deltagare";
+"LOCID One Participant" = "1 deltagare";
+"LOCID Some Participants" = "%d deltagare";
+"LOCID Max Participants" = "%d+ deltagare";
+"LOCID Large Meeting" = "Stort möte";
+"LOCID Toast No Invite" = "bjuder in dig till en konversation";
+"LOCID Participant Join" = "%@ har anslutit till mötet";
+"LOCID Participant Leave" = "%@ har lämnat mötet";
+"LOCID Participant Join Failure" = "%@ kunde inte ansluta till mötet";
+"LOCID Large Conference" = "Stort möte";
+"LOCID Large Conference Detail" = "Deltagarlistan finns inte tillgänglig för stora möten.";
+"LOCID No Participants Detail" = "Det finns inga deltagare i den här konversationen";
+"LOCID cannotSend" = "Ditt meddelande kunde inte skickas:";
+"LOCID Missed Conversation" = "Missad konversation";
+"LOCID Send as Email" = "Skicka som e-post";
+"LOCID Email Subject" = "%1$@-konversation med %2$@";
+"LOCID Anonymous" = "Anonym";
+"LOCID Duration" = "Varaktighet:";
+"LOCID Switch Camera" = "Växla kamera";
+"LOCID Swap PIP" = "Byt bild-i-bild";
+"LOCID Leave Video" = "Lämna video";
+"LOCID Start My Video" = "Starta min video";
+"LOCID Stop My Video" = "Stoppa min video";
+"LOCID End Video" = "Avsluta video";
+"LOCID LargeMtgActiveSpeakerMissing" = "Info om talare är inte tillgänglig för stora möten.";
+"LOCID Swap Preview" = "Byt förhandsgranskning";
+"LOCID Speaker On" = "Högtalare på";
+"LOCID Speaker Off" = "Högtalare av";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_LABEL" = "Video är aktiverad";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOON_ACCESSIBILITY_HINT" = "Dubbeltryck för att stänga av video.";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_LABEL" = "Video är inaktiverad";
+"LOCID LIVECALL_VIDEO_BUTTON_VIDEOOFF_ACCESSIBILITY_HINT" = "Dubbeltryck för att slå på video.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_LABEL" = "Högtalartelefonen är aktiverad";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEON_ACCESSIBILITY_HINT" = "Dubbeltryck för att stänga av högtalartelefonen.";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_LABEL" = "Högtalartelefonen är inaktiverad";
+"LOCID LIVECALL_SPEAKERPHONE_BUTTON_SPEAKERPHONEOFF_ACCESSIBILITY_HINT" = "Dubbeltryck för att slå på högtalartelefonen.";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_LABEL" = "Mikrofonen inaktiverad";
+"LOCID LIVECALL_MUTE_BUTTON_MUTED_ACCESSIBILITY_HINT" = "Dubbeltryck för att slå på mikrofon.";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_LABEL" = "Mikrofonen aktiverad";
+"LOCID LIVECALL_MUTE_BUTTON_UNMUTED_ACCESSIBILITY_HINT" = "Dubbeltryck för att stänga av mikrofon.";
+
+"LOCID Instant Messaging" = "Skicka snabbmeddelanden";
+"LOCID Voice" = "Röst";
+"LOCID Collaboration" = "Samarbete";
+"LOCID Participants" = "Deltagare";
+"LOCID Full Screen" = "Helskärm";
+"LOCID Exit Full Screen" = "Avsluta helskärmsläge";
+"LOCID Local Participant Alone in Conference Msg" = "Det verkar som att du är den enda i samtalet.";
+"LOCID 1 or more participants" = "1 eller fler deltagare";
+"LOCID Call Started" = "Samtalet startades - %@";
+"LOCID Call Ended Missed" = "Samtalet avslutades - %@ [missat]";
+"LOCID Call Ended Duration" = "Samtalet avslutades - %@ [längd: %@]";
+"LOCID ConferenceEndedRejoin" = "Du har kopplats bort från mötet. Tryck nedan om du vill ansluta på nytt.";
+"LOCID ConferenceEndedContinue" = "Om du startar om konversationen skickas en ny inbjudan till alla som deltog.";
+"LOCID IM P2P Toast Voiceover" = "%@ har bjudit in dig till en konversation. Dubbeltryck för att acceptera.";
+"LOCID IM Conf Toast Voiceover" = "%@ har bjudit in dig till en gruppkonversation. Dubbeltryck för att acceptera.";
+"LOCID Video is Locked on you" = "Videon är låst på dig.";
+
+"LOCID SFB Call Started" = "Samtal påbörjat";
+"LOCID SFB Call Ended" = "Samtal avslutat";
+"LOCID SFB Call Ended Duration" = "Samtal avslutat, %@";
+
+/* Roster*/
+"LOCID Presenters" = "PRESENTATÖRER (%d)";
+"LOCID Attendees" = "DELTAGARE (%d)";
+"LOCID In Lobby" = "LOBBY (%d)";
+"LOCID Guest" = "Gäst";
+"LOCID Remove" = "Ta bort";
+"LOCID E_RemoveFailed" = "Vi kunde inte ta bort deltagaren.";
+"LOCID E_AddFailed" = "Vi kunde inte lägga till deltagaren.";
+
+/*Lobby*/
+"LOCID Admit all" = "Tillåt alla";
+"LOCID Deny all" = "Neka alla";
+"LOCID Admit" = "Tillåt";
+"LOCID Deny" = "Neka";
+"LOCID See Lobby" = "Visa lobbyn";
+"LOCID Conference In the Lobby" = "Det finns deltagare som väntar i lobbyn.";
+
+/*Presenter Controls*/
+"LOCID Promote" = "Skapa presentatör";
+"LOCID Demote" = "Skapa deltagare";
+
+/* Capability Strings */
+"LOCID DeviceType Mobile" = "Mobil";
+"LOCID Voice and IM Unavailable" = "Röst- och snabbmedd. ej tillgängligt";
+"LOCID Voice Only" = "Endast röst";
+"LOCID Voice and Video Only" = "Endast röst och video";
+"LOCID IM Only" = "Endast snabbmeddelanden";
+"LOCID No Voice" = "Ingen röst";
+"LOCID Video capable" = "Redo för video";
+"LOCID No IM" = "Inga snabbmedd.";
+"LOCID Mobile Cap" = "Mobil";
+"LOCID txt-txt" = "%1$@ - %2$@";               // Use in contact presence 1 is activity, 2 is idle time or capability, "Available - No Voice" or "Away - 12 hours"
+"LOCID txt-txt-txt" = "%1$@ - %2$@ - %3$@";    // Use in the contact presence 1 is activity, 2 is idle time, 3 is capability. "Away - 12 minutes - Voice Only"
+
+/* Dial Pad Tab */
+"LOCID Dial Pad" = "Knappsats";
+
+/* Numbers and Letters on the Dial Pad in the Dial Pad View */
+"LOCID Call" = "Ring";
+"LOCID Dialpad" = "Knappsats";
+"LOCID Dialpad STAR Key" = "Stjärna";  // Used for accessibility
+"LOCID Dialpad POUND Key" = "Pundtecken"; // Used for accessibility
+"LOCID Delete Key" = "Ta bort";   // Used for accessibility
+"LOCID Emergency number" = "Nödsamtal"; // Used for accessibility
+"LOCID HIDE_DIALPAD_BUTTON" = "dölj";
+"LOCID Dialpad Search Recent Calls" = "senaste samtal";
+"LOCID Dialpad Search Native Contacts" = "telefonkontakter";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_TITLE" = "Problem med Kontakter";
+"LOCID DIALPAD_CORRUPTEDADDRESSBOOK_MESSAGE" = "Ett problem uppstod med att få åtkomst till telefonnummer från dina kontakter. Försök lösa problemet genom att synkronisera om dina e-postkonton i Inställningar.";
+
+/* My Status Tab */
+"LOCID Options" = "Inställningar";
+"LOCID Send Feedback" = "Skicka feedback";
+
+/* Meeting Tab */
+"LOCID TimeOfMeeting Format" = "%1$@ till %2$@";
+"LOCID DateOfMeeting Format" = "%1$@ %2$@";
+"LOCID InfoCell DateTime Format" = "%1$@, %2$@";
+"LOCID DialPad List Format" = "%1$@, %2$@";
+"LOCID Calendar Event View From Date Format" = "Från %1$@ %2$@ %3$@"; // 1 - hour, 2 - day, 3 - date.
+"LOCID Calendar Event View To Date Format" = "till %1$@ %2$@"; // 1 - hour, 2 - date.
+"LOCID Calendar Event View From-To Format" = "från %1$@ till %2$@"; // 1 - start hour, 2 - end hour.
+"LOCID No Meetings" = "Inga möten";
+"LOCID All" = "Alla";
+"LOCID No Meetings Scheduled" = "Du har inga schemalagda möten";
+"LOCID None" = "Ingen";
+"LOCID Organizer" = "Organisatör";
+"LOCID Invitees" = "INBJUDNA";
+"LOCID Notes" = "ANTECKNINGAR";
+"LOCID Join" = "Anslut";
+"LOCID Updated DATE TIME" = "Uppdaterat den %1$@ %2$@";
+"LOCID Online" = "Online";
+"LOCID Tentative" = "Preliminärt";
+"LOCID Event" = "Evenemang";
+"LOCID Updating..." = "Uppdaterar...";
+"LOCID Tentative Voiceover" = "%@, Preliminärt";
+"LOCID Pull to refresh" = "Dra och uppdatera";
+"LOCID Today" = "IDAG"; // CAPS
+"LOCID Tomorrow" = "IMORGON"; // CAPS
+
+/* Joining Meeting View */
+"LOCID Meeting Join Mute" = "Om du inte är organisatören är ljudet för din mikrofon avstängt.";
+"LOCID Lync Conferencing" = "Skype-möte";
+"LOCID Joining Step 1" = "Ansluter...";
+"LOCID Please wait to be admitted" = "Vänta på tillåtelse att delta";
+"LOCID Join Conf Error" = "Mötesanslutningen bröts.";
+"LOCID Anonymous Join" = "Anonym anslutning";
+"LOCID Enter your name" = "Ange ditt namn";
+"LOCID Anonymous Join Greeting" = "Välkommen till Skype för företag";
+"LOCID Sign in with Lync" = "Logga in med Skype för företag";
+"LOCID Sign in as guest" = "Logga in som gäst";
+
+// Both are product name.
+"LOCID Join Conf Error - No Number iPhone" = "Det går inte att ansluta dig till mötet utan ditt iPhone-nummer. Lägg till ditt iPhone-nummer i Skype för företag-alternativen.";
+"LOCID Join Conf Error - No Number iPad" = "Det går inte att ansluta dig till mötet utan ditt telefonnummer. Lägg till ditt telefonnummer i Skype för företag-alternativen.";
+"LOCID Join Meeting Line 1 Text" = "Ansluter till mötet\n%@";
+"LOCID Join Meeting Line 2 - Joining" = "Ringer upp dig på %@...";
+"LOCID Join Meeting Line 2 - Lobby" = "Hej! Du är nu i vår virtuella lobby. Gå ingenstans, organisatören släpper strax in dig.";
+"LOCID Join Meeting Line 2 - Lobby Timeout" = "Du fick inte tillträde eftersom organisatören inte är där eller inte svarade.";
+"LOCID Join Meeting Line 2 - Lobby Disconnect" = "Anslutningen avbröts. Tryck på Anslut och försök igen.";
+"LOCID View" = "Visa";
+"LOCID Join Meeting" = "Anslut till möte";
+"LOCID Join Meeting Line 2 - Generic MSG" = "Ansluter till möte";
+"LOCID Join Meeting Line 2 - Lobby Conference Full" = "Vi kan inte ansluta dig eftersom mötet är fullt. Försök att kontakta organisatören.";
+"LOCID AdmittedToLobby" = "Du har fått tillträde. Vi ringer upp dig nu...";
+"LOCID MtgDisclaimerAccept" = "Acceptera";
+"LOCID MtgDisclaimerDecline" = "Ignorera";
+"LOCID E_MeetingNotFound" = "Mötet du försöker ansluta till finns inte.";
+"LOCID E_MeetingsNotEnabled" = "Mötesfunktionen är inte aktiverad för din organisation.";
+"LOCID E_OutsideOrg" = "Personen eller mötet har inte behörighet till ditt nätverk.";
+
+/* Options View */
+"LOCID voiceConfSection" = "Samtal och möten";
+"LOCID credentialsSection" = "Mina autentiseringsuppgifter";
+"LOCID contactsSection" = "Kontakter";
+"LOCID accessibilitySection" = "Hjälpmedel";
+"LOCID otherSection" = "Annat";
+"LOCID Show Recent Contacts" = "Aktuella kontakter";
+"LOCID Show Pinned Contacts" = "Fästa kontakter";
+"LOCID Show Photos" = "Foton";
+"LOCID Sort by availability" = "Sortera efter tillgänglighet";
+"LOCID TTY Enabled" = "TTY";
+"LOCID Logging" = "Loggning";
+"LOCID About" = "Om";
+"LOCID About Version" = "Version %@";
+"LOCID Status" = "Status";
+"LOCID Exchange Credentials" = "Exchange";
+"LOCID HTTP Proxy Credentials" = "HTTP-proxy";
+"LOCID Require WiFi" = "Trådlöst nätverk krävs för";
+"LOCID WiFi VoIP" = "Röst";
+"LOCID WiFi Video" = "Video";
+"LOCID WiFi Collab" = "Mötesinnehåll";
+"LOCID WiFi Warning" = "I avstängt läge kan du få samtal över din dataanslutning (avgifter kan tillkomma och kvaliteten kan bli sämre).";
+"LOCID WiFi Warning iPad" = "När funktionen är avstängd kan du få samtal och mötesinnehåll via din dataanslutning (vilket kan leda till avgifter och sämre kvalitet).";
+"LOCID Not a SfB User" = "Är du inte Skype för företag-användare?";
+
+
+/* About View */
+"LOCID About Title" = "Om";
+"LOCID version" = "Version: %@";
+"LOCID Long Product Name" = "Skype® för företag för %1$@"; // %1$@ is platform name
+"LOCID copyright" = "%@ 2015 Microsoft Corporation."; // copyright symbol
+"LOCID all rights reserved" = "Med ensamrätt.";
+"LOCID online help" = "Hjälp";
+"LOCID Terms Of Use" = "Användningsvillkor";
+"LOCID Privacy title" = "Sekretess";
+"LOCID Third Party Notices" = "Meddelanden gällande tredje part";
+"LOCID ABOUT_COPYRIGHT" = "© 2003–2015 Skype & Microsoft\nPatentsökt";
+"LOCID ABOUT_COPYRIGHT_TEXT" = "Namnet Skype, relaterade varumärken och loggor samt S-loggan är varumärken som tillhör Skype eller relaterade entiteter.\n\nVarning: Det här programmet skyddas av copyrightlagstiftning och internationella lagfördrag. Otillåten reproduktion eller distribution av det här programmet i dess helhet eller delvis kan resultera i allvarliga civilrättsliga och straffrättsliga påföljder och kommer att beivras i största möjliga utsträckning enligt gällande lagar.";
+
+
+/* Call Forwarding View */
+"LOCID Call Forwarding" = "Vidarekoppling av samtal";
+"LOCID Forward Section" = "Välj nummer";
+"LOCID Apply Setting Section" = "Använd inställningar";
+"LOCID Summary Section" = "Dina aktuella inställningar:";
+"LOCID Do Not Forward" = "Vidarekoppla inte";
+"LOCID Forward Calls" = "Vidarekoppla samtal";
+"LOCID Forward Calls To" = "Vidarekoppla samtal till";
+"LOCID Simultaneously Ring" = "Ring samtidigt";
+"LOCID On" = "På";
+"LOCID Off" = "Av";
+"LOCID During Working Hours" = "Under arbetstid";
+"LOCID Voicemail" = "Röstbrevlåda";
+"LOCID Team Call" = "Medlemmar i svarsgrupp";
+"LOCID Delegates" = "Ombud";
+"LOCID Pending Persons" = "Har lagts till av";
+"LOCID Delegate Target" = "dina ombud";
+"LOCID TeamCall Target" = "medlemmarna i svarsgruppen";
+"LOCID Voicemail Target" = "din röstbrevlåda";
+"LOCID DoNotForward Summary" = "Samtal kopplas till ditt arbete men vidarekopplas inte. Du får inga samtal till din mobiltelefon när VoIP inte är tillgängligt.";
+"LOCID DoNotForward Summary iPad" = "Samtal kopplas till ditt arbete men vidarekopplas inte. Du får inga samtal till din iPad när VoIP inte är tillgängligt.";
+"LOCID ForwardCalls Summary" = "Samtal vidarekopplas direkt till %@. Om det inte är ditt mobilnummer kommer du inte att få några samtal till mobiltelefonen.";
+"LOCID ForwardCalls Summary iPad" = "Samtal vidarekopplas direkt till %@ och inte till din iPad.";
+"LOCID Simulring Summary" = "Samtal kopplas till ditt arbete och till %@. Om det är ditt mobilnummer kommer du att få samtal till mobiltelefonen när VoIP inte är tillgängligt.";
+"LOCID Simulring Summary iPad" = "Samtal kopplas till ditt arbete och till %@. Du får inga samtal till din iPad när VoIP inte är tillgängligt.";
+"LOCID View Settings" = "Visa dina aktuella inställningar";
+
+/* Work Hours */
+"LOCID Working Hours Header" = "Använd inställningar";
+"LOCID All the Time" = "Hela tiden";
+"LOCID During Outlook Working Hours" = "Under Outlook-arbetstid";
+
+/* Call Forwarding View Labels */
+"LOCID Work Capitalized" = "Arbete";
+"LOCID Home Capitalized" = "Hem";
+"LOCID Mobile Capitalized" = "Mobil";
+"LOCID Custom Capitalized" = "Anpassat";
+"LOCID Other Capitalized" = "Annat";
+
+/* Adding a New Number or Contact */
+"LOCID Cancel" = "Avbryt";
+"LOCID Add" = "Lägg till";
+"LOCID New Number" = "Nytt nummer";
+"LOCID New Contact" = "Ny kontakt";
+"LOCID Contact" = "Kontakt";
+
+/* Logging View and Sending Logs */
+"LOCID SendSignInBRB" = "Ladda upp inloggningsloggar";
+"LOCID SignInBRB - Always" = "Alltid";
+"LOCID SignInBRB - Never" = "Aldrig";
+"LOCID SignInBRB - Ask Me" = "Fråga mig";
+"LOCID Send Log Files" = "Skicka loggfiler";
+"LOCID Log Email Subject" = "Loggfiler för Skype för företag"; //product name
+"LOCID Device Model" = "Enhetsmodell:";
+"LOCID Device OS Name" = "Enhetens operativsystem:";
+"LOCID Device OS Version" = "Enhetens operativsystemversion:";
+"LOCID Enable Logging" = "Aktivera loggning";
+
+/* Http Proxy */
+"LOCID Http Proxy Credentials Title" = "Http-proxy";
+
+// %@ placeholder is for the device model name (e.g., "...please use your iPad Wi-Fi Settings.")
+"LOCID Http Proxy Credentials Info" = "Slutför konfigurationen av HTTP-proxyn genom att använda Wi-Fi-inställningarna på din %@.";
+"LOCID exchange.example.com" = "exchange.exempel.com";
+
+/* Exchange Credentials */
+"LOCID Exchange" = "Exchange";
+"LOCID Use Lync Credentials" = "Använd Skype för företag-autentiseringsuppgifter";
+"LOCID Exchange Credentials Info" = "Dina Exchange-autentiseringsuppgifter behövs för att Skype för företag ska kunna visa alla möten och all information i din röstbrevlåda.";
+"LOCID Email Address" = "E-postadress";
+
+/* My Mobile Number */
+"LOCID My Mobile Number" = "Mitt mobilnummer";
+"LOCID My Mobile Number Details" = "Ange ditt iPhone-nummer med lands- och riktnummer:";
+"LOCID My Mobile Number Details iPad" = "Ange ditt telefonnummer med lands- och regionnummer:";
+"LOCID My Mobile Number Footer" = "Det här gör att du kan ringa och ta emot jobbsamtal och ansluta till Skype för företag-möten.\n(Om du använder VoIP och det är otillgängligt är det här en reservlösning.)";
+"LOCID My Mobile Number Footer - Conf Join" = "Det här gör att du kan ansluta till möten från Skype för företag.\n(Om du använder VoIP och det inte är tillgängligt är det här en reservlösning.)";
+"LOCID iPhone Number" = "Telefonnummer";
+
+/* Call Via Work */
+"LOCID Call via Work" = "Ring via arbetet";
+"LOCID Missing iPhone Number Error" = "Telefonnummer saknas";
+"LOCID Missing iPhone Number Error Text" = "Samtalet kan inte slutföras. Ange ditt iPhone-nummer i Alternativ och försök igen.";
+"LOCID Missing iPad Number Error Text" = "Samtalet kan inte slutföras. Ange ditt telefonnummer i Alternativ och försök igen.";
+
+/* First Time Warning Page*/
+"LOCID First things first" = "Innan du börjar";
+"LOCID Main text" = "Alla kan använda mobilappen för Skype för företag när de bjuds in till ett Skype-möte. Men du behöver ett Skype för företag-konto för att kunna använda alla funktioner i appen.";
+"LOCID Understand" = "OK";
+
+/*Group Picker*/
+"LOCID More Options" = "Fler alternativ";
+"LOCID Add Contact" = "Lägg till kontakt";
+"LOCID Add to Group" = "Lägg till i grupp";
+"LOCID Remove Contact" = "Ta bort kontakt";
+"LOCID Remove from Group" = "Ta bort från grupp";
+"LOCID Groups" = "Grupper";
+"LOCID E_AddContactFailureGeneral" = "Vi kan inte lägga till den här kontakten nu. Försök igen senare.";
+"LOCID E_AddContactFull" = "Du kan inte lägga till fler kontakter i den här gruppen.";
+"LOCID E_AddContactInGroup" = "Kontakten finns redan i gruppen.";
+"LOCID E_RemoveContactFailureGeneral" = "Vi kan inte ta bort den här kontakten nu. Försök igen senare.";
+"LOCID Confirm Remove Contact" = "Det här tar bort %@ från din kontaktlista.";
+"LOCID Ignore" = "Ignorera";
+
+/* CEIP */
+"LOCID CEIP Learn More" = "Läs mer";
+"LOCID CEIP More Info" = "Du kan hjälpa oss att förbättra Skype för företag ännu mer genom att skicka anonyma användningsdata till Microsoft.";
+"LOCID ceipSectionTitle" = "Customer Experience Improvement Program";
+
+/* Welcome Screen (First First Run Experience) */
+"LOCID Welcome" = "Välkommen.";
+"LOCID Lets begin" = "Låt oss börja...";
+
+/* First Run Experience */
+"LOCID Close" = "Stäng";
+"LOCID Change" = "Ja";
+"LOCID Don't change" = "Nej";
+"LOCID Next" = "Nästa";
+"LOCID Done" = "Klar";
+"LOCID First Run First Step" = "Lync är nu Skype för företag – med funktionerna hos Skype och kvalitet i företagsklass från Microsoft.";
+"LOCID First Run Second Step" = "Alla kan använda den här appen för att ansluta till ett Skype-möte. Men om du vill använda alla funktionerna måste du ha ett Skype för företag-konto, och organisationen måste ha aktiverat appen.";
+
+/* First Run Experience - Call Forwarding */
+"LOCID First Run CF Title" = "ÄNDRA INSTÄLLNINGAR FÖR VIDAREKOPPLING?";
+"LOCID First Run CF Current Settings" = "Dina aktuella inställningar:";
+"LOCID First Run CF Change Settings" = "Nya inställningar:";
+"LOCID First Run Change Summary" = "Du har angett ditt telefonnummer för att få arbetssamtal dit. Nu behöver vi bara ändra dina aktuella inställningar för vidarekoppling av samtal så att de kommer till telefonen.";
+"LOCID First Run Change Request" = "Kan vi ändra detta så att arbetssamtal samtidigt kopplas till ditt arbete och till %@?";
+"LOCID DoNotForward Summary - First Run" = "Samtal kopplas fram till ditt arbete och vidarekopplas inte till andra telefonnummer.";
+"LOCID ForwardCalls Summary - First Run" = "Samtal vidarekopplas direkt till %@.";
+"LOCID Simulring Summary - First Run" = "Samtal kopplas till ditt arbete och även till %@";
+
+/* First Run Experience - Mobile Number */
+"LOCID My Mobile Number Title 1" = "MISSA ALDRIG DINA ARBETSSAMTAL";
+"LOCID My Mobile Number Title 2" = "MISSA ALDRIG ETT MÖTE";
+"LOCID My Mobile Number Details First Run" = "Vi behöver ditt iPhone-nummer med landskod och riktnummer:";
+"LOCID My Mobile Number Details First Run_iPad" = "Vi behöver ditt telefonnummer med landskod och riktnummer:";
+
+/* First Run Experience - VoIP */
+"LOCID Setup Work Calls" = "HANTERA DATAANVÄNDING";
+"LOCID Setup Work Calls Sub Text" = "De här inställningarna hanterar din dataanvändning och eventuella kostnader för samtal och möten.";
+
+"LOCID Require Wifi for VoIP calls" = "Wi-Fi krävs för VoIP-samtal";
+"LOCID Require Wifi for VoIP calls off subtext" = "När Wi-Fi inte är tillgängligt används din dataanslutning för samtal.";
+"LOCID Require Wifi for VoIP calls on subtext" = "Samtal sker endast över Wi-Fi. Vi använder aldrig din dataanslutning.";
+
+"LOCID Require Wifi for Video calls" = "Wi-Fi krävs för videosamtal";
+"LOCID Require Wifi for Video calls off subtext" = "När trådlöst nätverk inte är tillgängligt används din dataanslutning för videosamtal. (Det kan bli en stor mängd data.)";
+"LOCID Require Wifi for Video calls on subtext" = "Videosamtal sker endast över Wi-Fi. Vi använder aldrig din dataanslutning.";
+
+"LOCID Require Wifi for meeting content" = "Wi-Fi krävs för mötesinnehåll";
+"LOCID Require Wifi for meeting content off subtext" = "När trådlöst nätverk inte är tillgängligt använder vi din dataanslutning för att hämta mötesinnehåll. (Det kan bli en stor mängd data.)";
+"LOCID Require Wifi for meeting content on subtext" = "Vi använder alltid trådlöst nätverk för att hämta mötesinnehåll, aldrig din dataanslutning.";
+
+"LOCID Skip" = "Hoppa över";
+
+/* First Run Experience - Done */
+"LOCID Start using Lync" = "Börja använda Skype för företag";
+
+"LOCID First Run Successful Setup" = "KLART!";
+"LOCID First Run Successful Setup WiFi only_iPad" = "VÄLKOMMEN!";
+"LOCID First Run Successful Setup Details" = "Du kan när som helst göra ändringar i Inställningar.";
+
+"LOCID improve lync" = "Hjälp oss att förbättra Skype för företag";
+"LOCID whyphonenumber" = "Varför vi behöver ditt telefonnummer";
+"LOCID more detail" = "Mer information";
+
+"LOCID Emergency Call Disclaimer" = "Det finstilta:";
+"LOCID Emergency Call Disclaimer Details" = "Normala operatörsavgifter gäller för alla samtal.\n\nViktigt! Använd inte Skype för företag-appen för att ringa nödsamtal.";
+
+// iPad Specific Strings
+"LOCID Emergency Call Disclaimer Title iPad" = "Viktigt!";
+"LOCID Emergency Call Disclaimer Details iPad" = "Använd inte Skype för företag-appen för att ringa nödsamtal.";
+
+// replacing Lync.
+"LOCID Push Notifications" = "Push-meddelanden";
+"LOCID Push Notification Legal1" = "Innan du accepterar användning av push-meddelanden bör du tänka på att alla push-meddelanden med innehåll skickas via Apples push-meddelandetjänst och Microsofts push-meddelandesystem.";
+// %1$@ is platform (e.g., iPhone), %2$@ is product name (e.g., Lync)
+"LOCID Push Notification Legal2" = "Du kan ändra inställningarna för push-meddelanden i %1$@-inställningarna för push-meddelanden, men du måste starta om Skype för företag för att stoppa leveransen av allt meddelandeinnehåll.";
+
+/* Outside Voice */
+"LOCID Use Mobile" = "Använd mobil";
+"LOCID Call via Work Not Available Error" = "Du kan inte ringa Skype för företag-samtal eftersom du är offline. Prova att ringa från ditt mobilnummer.";
+"LOCID Call via Work Not Available Error iPad" = "Du kan inte ringa Skype för företag-samtal eftersom du är offline.";
+"LOCID Answer incoming call" = "Svara på inkommande samtal";
+"LOCID to connect you to... display name" = "för att ansluta dig till...\n%@";
+
+"LOCID Call via Work Connecting" = "Ansluter...\n Svara på nästa inkommande samtal.";
+"LOCID Call via Work Connected" = "Du har anslutit från %1$@";
+"LOCID Video Disclaimer" = "Du kan inte se eller dela video.";
+// %1$@ is the user's phone number in the display format.
+"LOCID Call via Work Connected to Conference" = "Du har anslutit från %1$@.";
+
+/* Errors */
+"LOCID Error" = "Fel";
+"LOCID E_GenericFailure" = "Ett fel uppstod i Skype för företag. Försök igen. Kontakta supportteamet om problemet kvarstår.";
+"LOCID E_GroupNotFound" = "Vi kan inte hitta den gruppen.";
+"LOCID E_PermissionsForGroup" = "Du har inte behörighet att visa den här gruppen.";
+"LOCID E_ConnectionError" = "Det går inte att ansluta till servern. Kontrollera nätverksanslutningen och serveradressen och försök igen.";
+"LOCID E_AutoDiscoveryConnectionFailure" = "Det går inte att ansluta till servern. 1) Den kanske inte är tillgänglig. 2) Kontrollera nätverksanslutningen. 3) Kontrollera att du använder den Skype för företag-kontoinformation du fått från din organisation. 4) Ditt användarnamn kanske inte är detsamma som ditt inloggningsnamn. Tryck på Avancerade alternativ och ange ditt användarnamn eller domän\\användarnamn.";
+"LOCID E_AutoDiscoveryInBackground" = "Serverkonfigurationen har ändrats. Starta om Skype för företag.";
+"LOCID E_SslError" = "Det går inte att verifiera certifikatet från servern. Kontakta supportteamet.";
+"LOCID E_SslCertExpiredError" = "Det går inte att verifiera certifikatet från servern. Kontakta supportteamet.";
+"LOCID E_ProxyAuthError" = "Det går inte att logga in. Konfigurera HTTP-proxyinställningarna i %@-inställningarna och Skype för företag-alternativen, eller anslut via 3G.";
+"LOCID E_ConnectionTimeoutError" = "Det går inte att ansluta till servern. Den kanske är upptagen eller är inte tillgänglig för tillfället. Försök igen.";
+"LOCID E_GenericApplicationError" = "Ett fel uppstod i programmet. Starta om programmet.";
+"LOCID E_AuthError" = "Det går inte att logga in. Kontrollera kontoinformationen och försök igen.";
+"LOCID E_InvalidCredentials" = "Det går inte att logga in. Kontrollera kontoinformationen och försök igen.";
+"LOCID E_InvalidSignInAddress" = "Det går inte att logga in. Kontrollera inloggningsadressen och försök igen.";
+"LOCID E_InvalidLyncAccount" = "Inloggningsuppgifterna är ogiltiga. Du måste logga in med det Skype för företag-konto du fått från organisationen.";
+"LOCID E_WrongHomePool" = "Du kan inte ansluta till servern. Kontakta supportteamet.";
+"LOCID E_ImSendError" = "Det gick inte att skicka:";
+"LOCID GenericRetryError" = "Det går inte att ansluta till servern. Försöker igen...";
+"LOCID GenericError" = "Ett serverfel uppstod. Försök igen.";
+"LOCID RequestFailed" = "Det gick inte att bearbeta begäran. Försök igen.";
+"LOCID DecodingError" = "Det gick inte att bearbeta serversvaret. Försök igen. Om problemet kvarstår kontaktar du supporten.";
+"LOCID VersionMismatch" = "Du kan inte logga in med den här versionen av Skype för företag. Installera en nyare version. Om det inte fungerar kontaktar du supportteamet.";
+"LOCID SignInCredentialsAreNeeded" = "Du har loggats ut. Din kontoinformation behövs för att logga in dig igen.";
+"LOCID NeedLyncPassword" = "Vi behöver ditt lösenord för att logga in.";
+"LOCID E_ServiceBusyOrUnAvailable" = "Det går inte att ansluta till servern just nu. Försök igen.";
+"LOCID E_HttpRequestTimeout" = "Det går inte att logga in eftersom servern inte är tillgänglig för tillfället.";
+"LOCID E_CannotConnectToServer" = "Det går inte att ansluta till servern. Ett försök görs att återupprätta anslutningen. Om problemet kvarstår kontaktar du supporten.";
+"LOCID E_InvalidServerUrl" = "Servernamnet är felaktigt. Kontrollera det och försök igen.";
+"LOCID E_NoValidIp" = "Det går inte att ansluta till nätverket. Kontrollera anslutningsinställningarna.";
+"LOCID E_MetaDataNotFound" = "Det går inte att nå servern. Verifiera serveradressen eller försök igen senare.";
+"LOCID E_TimeSkewError" = "Det går inte att synkronisera enhetens klocka med servern. Ändra tidsinställningarna eller kontakta ditt supportteam.";
+"LOCID E_MobilityDisabled" = "Det gick inte att logga in eftersom Skype för företag inte har konfigurerats för dig. Kontakta supportteamet.";
+"LOCID E_TooManyApplications" = "Det gick inte att logga in. Det verkar som om du redan är inloggad på för många enheter.";
+"LOCID E_UI_OutsideVoiceDisabled" = "Ring via arbetet är inaktiverat. Ange ditt telefonnummer i alternativen om du vill ringa ett Skype för företag-samtal till den här personen.";
+"LOCID E_UI_OfflineLyncCall" = "Du måste vara online eller ha mobildataanslutning för att ringa ett Skype för företag-samtal till den här personen.";
+"LOCID E_EwsError" = "Det går inte att ansluta till Exchange. Försök igen senare.";
+"LOCID E_EwsBadCredentials" = "Dina Exchange-autentiseringsuppgifter är inte giltiga. Försök att uppdatera dina Exchange- eller Skype för företag-autentiseringsuppgifter.";
+"LOCID W_Retrying" = "Det går inte att nå servern, försöker igen...";
+"LOCID E_UI_CallViaCellError" = "Kontrollera numret och försök igen.";
+"LOCID E_LiveIdPasswordExpired" = "Ditt lösenord har gått ut. Uppdatera det och försök igen.";
+"LOCID E_LiveIdInvalidCredentails" = "Det går inte att logga in. Kontrollera kontoinformationen och försök igen.";
+"LOCID E_LiveIdPasswordChangeRequired" = "Ditt lösenord måste ändras. Uppdatera det och försök igen.";
+"LOCID E_LiveIdPasswordLockedOut" = "Ditt lösenord måste ändras. Uppdatera det och försök igen.";
+"LOCID E_LiveIdConnectionFailed" = "Det går inte att ansluta till servern just nu. Försök igen.";
+"LOCID E_LiveIdServiceUnavailable" = "Det går inte att ansluta till servern just nu. Försök igen.";
+"LOCID E_LiveIdGenericError" = "Det går inte att logga in. Försök igen.";
+"LOCID E_InvalidLiveIDUserNameError" = "Det går inte att logga in. Kontrollera att ditt användarnamn har formatet namn@example.com och att ditt lösenord är giltigt.";
+"LOCID E_InvalidSmtpAddress" = "Det går inte att ansluta till Exchange. Kontrollera kontoinformationen och försök igen.";
+"LOCID E_LogoffUnsuccessful" = "Det går inte att ansluta dig till Skype för företag eftersom serveranslutningen bröts.";
+"LOCID E_ClientVersionMismatch" = "Du kan inte logga in eftersom din organisation inte har stöd för den här versionen av Skype för företag. Installera Lync 2010 från appbutiken för din mobil.";
+"LOCID E_ClientServerSchemaMisMatch" = "Du kan inte logga in med den här versionen av Skype för företag. Installera en nyare version. Om det inte fungerar kontaktar du supportteamet.";
+"LOCID E_ClientVersionCheck" = "Du kan inte logga in med den här versionen av Skype för företag. Installera en nyare version. Om det inte fungerar kontaktar du supportteamet.";
+"LOCID E_VersionMismatch" = "Du kan inte logga in med den här versionen av Skype för företag. Installera en nyare version. Om det inte fungerar kontaktar du supportteamet.";
+"LOCID E_AutoDConfigurationError" = "Det går inte att logga in. Kontakta supportteamet.";
+"LOCID E_AutoDPasswordExpiredError" = "Ditt lösenord har gått ut. Uppdatera det och försök igen.";
+"LOCID E_InvalidProxySettingsError" = "Det går inte att logga in. Proxyinställningarna är inte giltiga. Kontrollera dem och försök igen.";
+"LOCID E_ApplicationExpiredDueToInactivity" = "Du har loggats ut på grund av inaktivitet.";
+"LOCID E_GeneralGoneError" = "Det går inte att logga in. Kontakta supportteamet.";
+"LOCID E_InternalServerError" = "Det går inte att logga in. Kontakta supportteamet.";
+"LOCID E_TooManyApps" = "Det går inte att logga in. Det verkar som att du redan är inloggad på för många enheter.";
+"LOCID E_ResponseUnkown" = "Det gick inte att ansluta till servern. Om du använder trådlöst nätverk kan du öppna webbläsaren och kontrollera att du har anslutning. Inaktivera annars eventuella surfpunkts- eller Internetdelningsanslutningar. Kontakta nätverksoperatören om problemet inte försvinner.";
+"LOCID E_CannotLoadADFSPage" = "Det gick inte att logga in dig. Försök igen. Kontakta din support om problemet kvarstår.";
+"LOCID E_UserNotSipEnabled" = "Du har ingen konfiguration för att ansluta till servern. Kontakta supporten.";
+
+/* Conversation errors */
+
+"LOCID E_VoicePSTNCallActive - Verizon" = "Du kan inte ringa något VoIP-samtal just nu. Prova att ringa från ditt mobilnummer.";
+"LOCID E_VoicePSTNCallActive" = "Du kan inte ringa något VoIP-samtal just nu. Prova att ringa från ditt arbetsnummer.";
+"LOCID E_VoicePSTNCallActive - Button" = "Ringa via arbete";
+"LOCID E_VideoOverWiFiBlocked" = "Detta var en inbjudan till ett videosamtal, men eftersom du inte har någon Wi-Fi-anslutning anslöt vi bara ljudet.";
+"LOCID E_HistoryNotDisplayed" = "Konversationens historik kan inte visas.";
+"LOCID E_IMAcceptedElsewhere" = "Du accepterade den här konversationen någon annanstans. Skicka ett nytt meddelande om du vill starta om den.";
+"LOCID E_MuteFailed" = "På grund av ett fel kan andra inte se att ditt ljud är avstängt för tillfället.";
+"LOCID E_UnmuteFailed" = "På grund av ett fel är ditt ljud fortfarande avstängt. Prova att slå på ljudet igen.";
+"LOCID E_DgExpansionGenericFailure" = "Det går inte att hämta gruppmedlemmar att bjuda in. Försök igen senare.";
+"LOCID E_DgExpansionTooManyMembersFailure" = "Gruppen är för stor att bjuda in.";
+"LOCID E_DgExpansionNoMembersFailure" = "Gruppen har inga enskilda medlemmar och kan inte bjudas in.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailableOrOffline" = "%@ är inte tillgänglig eller kan vara offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotToBeDisturbed" = "%@ har angett inställningen Stör ej.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantNotFound" = "%@ är inte i tjänst. Kontrollera numret.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantInAnotherCall" = "%@ är upptagen med ett annat samtal.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantDidNotAnswerCall" = "%@ svarade inte.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantCannotAnswerCall" = "%@ kan inte svara på samtalet.";
+
+"LOCID E_VoiceCannotCompleteCallTryAgainSignedOut" = "Det går inte att ringa samtalet när du är offline. Försök att logga in i Skype för företag för att ringa.";
+
+"LOCID E_VoiceOperationUnsuccessful" = "Åtgärden misslyckades.";
+"LOCID E_VoiceGenericError" = "Samtalet gick ej att ringa eller har avslutats.";
+"LOCID E_VoiceFeatureNotEnabled" = "Samtalsfunktionen är inaktiverad.";
+"LOCID E_VoiceCheckNumber" = "Kontrollera numret och försök igen.";
+"LOCID E_VoiceCannotCompleteCallTryAgain" = "Det gick inte att ringa samtalet. Försök igen senare.";
+"LOCID E_VoiceCallUnsuccessful" = "Det går inte att koppla samtalet.";
+"LOCID E_VoiceCallTypeNotSupported" = "Samtalet misslyckades. Den här typen av samtal stöds inte.";
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServiceNotAvailable" = "Det är möjligt att meddelandet inte skickades till %@ på grund av en timeout hos servern:";
+
+"LOCID E_SharingAnotherOperation" = "En annan åtgärd prövas. Vänta och försök igen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMServerDidNotRespond" = "%@ fick inte det här meddelandet på grund av ett serverproblem:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantUnavailableOrOffline" = "%@ är offline och fick inte det här meddelandet:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotToBeDisturbed" = "%@ har statusen Stör ej och fick inte det här meddelandet:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantNotFound" = "Vi kunde inte skicka det här meddelandet eftersom vi inte hittade %@.";
+
+"LOCID E_IMParticipantCannotReceiveContentType" = "Det gick inte att skicka meddelandet på grund av blockerat innehåll:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotBeReached" = "Vi kunde inte nå %@ och skicka det här meddelandet:";
+
+"LOCID E_ConferencingServiceDidNotRespond" = "Det gick inte att ringa samtalet.";
+
+"LOCID E_ConfLocked" = "Du kan inte ansluta till mötet eftersom det är låst. Försök att kontakta organisatören.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_EncryptionMismatch" = "Krypteringen stämmer inte överens mellan dig och %@. Kontakta supportteamet.";
+
+"LOCID E_ConferencingServerError" = "Ett serverfel har inträffat. Kontakta supportteamet.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantUnavailableOrOffline" = "%@ kan inte nås och kan vara offline.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotToBeDisturbed" = "%@ har statusen Stör ej och kan inte nås.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDidNotRespondToInvitation" = "%@ svarade inte på inbjudan.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeReached" = "Det gick inte att nå %@.";
+
+// %@ placeholder is for the short product name.
+"LOCID E_ConfNotSupported" = "Du har inte konfigurerats att ansluta till Skype för företag-möten.";
+
+"LOCID E_ConferenceJoinWhileOffline" = "Det går inte att ansluta till en konferens när programmet inte är inloggat.";
+"LOCID E_ConferencingParticipantCannotBeAddedGenericFailure" = " %@ kunde inte ansluta till mötet.";
+"LOCID E_ConferencingEnded" = "Mötet du försöker ansluta till är inte tillgängligt.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipantTryAgain" = "Det går inte att nå %@. Försök igen senare.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantNotFound" = "Det går inte att hitta %@. Kontrollera adressen.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantServiceIssues" = "Det gick inte att nå %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantDeclinedUserInvitation" = "%@ tackade nej till din inbjudan.";
+
+"LOCID E_ConferencingPresenterEndedMeeting" = "En presentatör har avslutat mötet.";
+"LOCID E_ConferencingCallDisconnected" = "Samtalet kopplades från.";
+"LOCID ConferenceUnexpectedDisconnect" = "Du har kopplats bort från konferensen.";
+"LOCID E_ConferencingCallNotCompletedOrEnded" = "Samtalet gick ej att ringa eller har avslutats.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedNetworkBusy" = "Det går inte att lägga till %@ i mötet eftersom nätverket är upptaget.";
+
+"LOCID E_ConferencingCannotConnect" = "Samtalet gick ej att ringa eller har avslutats.";
+"LOCID E_ConferencingCannotConnectToMeetingType" = "Du kan inte ansluta till den här typen av onlinemöte.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingParticipantCannotBeAddedMeetingFull" = "Det går inte att bjuda in %@ eftersom mötet är fullt.";
+
+"LOCID E_ConferencingCannotJoinAsAnonymous" = "Det går inte att ansluta till mötet som anonym deltagare.";
+"LOCID E_ConferencingCannotJoinInvitationError" = "Det går inte att ansluta till mötet på grund av ett inbjudningsfel.";
+"LOCID E_ConferencingCannotJoinDueToUserPermissions" = "Du har inte behörighet att ansluta till mötet.";
+"LOCID E_ConferencingCannotJoinGenericFailure" = "Vi kunde inte ansluta dig till mötet. Försök igen.";
+"LOCID E_ConferencingCannotJoinFromOutside" = "Det går inte att ansluta till mötet från en plats utanför företaget.";
+"LOCID E_ConferencingCannotJoinMeetingType" = "Det går inte att ansluta till den här typen av onlinemöte.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingCannotReachParticipant" = "Det går inte att nå %@.";
+
+"LOCID E_ConferencingAnotherMeetingIsStarting" = "Du kan inte starta ett möte eftersom ett annat möte håller på att startas.";
+"LOCID E_ConferencingEncryptionIssues" = "Det går inte att starta Skype-mötet på grund av krypteringsproblem.";
+"LOCID E_ConferencingUnauthenticatedUsers" = "Du har inte behörighet att ansluta från eller ringa ut till en annan enhet.";
+"LOCID E_ConferencingMediaSessionTerminated" = "Samtalet gick ej att ringa eller har avslutats.";
+"LOCID E_ConferencingFull" = "Mötet är fullt.";
+"LOCID E_ConferencingUserCannotJoinDueToPermissions" = "Du har inte behörighet att ansluta till det här mötet.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_ConferencingInvitationExpired" = "Inbjudan till %@ har upphört att gälla.";
+
+"LOCID E_ConferencingEndedHostsLeft" = "Mötet har avslutats eftersom värdarna har lämnat det.";
+"LOCID E_ConferencingCannotJoinNetworkBusy" = "Du kan inte ansluta till mötet eftersom nätverket är upptaget.";
+"LOCID E_ConferencingSubjectLineTooLong" = "Ämnesraden är för lång.";
+"LOCID E_ConferencingFeatureNotEnabled" = "Mötesfunktionen är inte aktiverad för din organisation.";
+"LOCID E_ConferencingEndedDueToInactivity" = "Mötet har avslutats på grund av inaktivitet.";
+"LOCID E_ConferencingCannotBeFound" = "Det går inte att hitta onlinemötet.";
+"LOCID E_ConferencingUserHasNoPermissionToJoin" = "Du har inte behörighet att ansluta till det här mötet.";
+"LOCID E_ConferencingUserNotAdmitted" = "Du fick inte tillåtelse att delta i mötet.";
+"LOCID E_ConferencingUserRemovedFromMeeting" = "Du togs bort från mötet.";
+"LOCID E_ConfGenericError" = "Vi kunde inte ansluta dig till mötet. Försök igen.";
+"LOCID E_ConferenceDenied" = "Du nekades inträde av presentatören.";
+"LOCID E_ConferencingJoinWhileOngoingConference" = "Du är redan i ett möte. Vill du lämna det och gå med i det nya mötet?";
+"LOCID E_ConferencingAnonymousJoinClientForbidden" = "Servern stöder inte anonym anslutning till möten via den här enheten.";
+"LOCID ConferenceVideoLock" = "En presentatör låste videons spotlight på någon.";
+"LOCID ConferenceVideoUnlock" = "En presentatör låste upp videons spotlight.";
+"LOCID ConferenceVideoSelfLock" = "Alla är låsta till din video.";
+"LOCID ConferenceVideoSelfUnlock" = "Ingen är låst till din video längre.";
+
+"LOCID E_DomainNotTrusted" = "Det går inte att ansluta till servern. Acceptera meddelandet om omdirigering.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessageFormat" = "%@ har inte fått det här meddelandet eftersom formatet inte tillåts:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMParticipantCannotReceiveMessages" = "Enheten %@ använder kan inte ta mot meddelanden.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMMessageTooLarge" = "%@ fick inte det här meddelandet eftersom det är för stort:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMActionRestrictedByPolicy" = "%@ fick inte det här meddelandet eftersom leveransen begränsas av en princip:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMConversationAlreadyInProgress" = "Vi kan inte skicka ditt snabbmeddelande. Du har redan en pågående konversation med %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMContentRestrictedByPolicy" = "Det gick inte att skicka meddelandet på grund av blockerat innehåll:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_IMUserNotAuthorizedToMessageParticipant" = "Du har inte behörighet att skicka snabbmeddelanden till %@. Följande meddelande skickades inte:";
+
+"LOCID E_IMConfGenericError" = "En eller flera deltagare fick inte det här meddelandet:";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantUnavailable" = "%@ är inte tillgänglig.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceParticipantEndedCallBySigningOut" = "Samtalet avslutades eftersom %@ loggade ut.";
+
+"LOCID E_VoiceCallTimeout" = "Samtalet genomfördes inte på grund av nätverksproblem. Försök igen.";
+"LOCID E_VoiceCallDisconnected" = "Samtalet kopplades från. Försök igen.";
+"LOCID E_VoiceCallNotCompletedOrEnded" = "Samtalet gick ej att ringa eller har avslutats.";
+"LOCID E_VoiceCallNotCompleted" = "%@ kan inte ta emot samtal. Försök med snabbmeddelanden eller e-post istället.";
+"LOCID E_VoiceServerError" = "Det går inte att koppla samtalet på grund av ett serverfel. Försök igen.";
+"LOCID E_VoiceCannotConnect" = "Det går inte att ansluta till onlinemötet.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotReachParticipant" = "Det går inte att kontakta %@.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceCannotFindParticipant" = "Det går inte att hitta %@.";
+
+"LOCID E_VoiceEncryptionIssues" = "Det går inte att starta Skype-mötet på grund av krypteringsproblem.";
+"LOCID E_VoiceParticipantChoseToRespondWithIM" = "Personen du ringde svarade med ett snabbmeddelande.";
+"LOCID E_VoiceCannotCompleteCall" = "Det går inte att ringa upp det angivna numret.";
+"LOCID E_VoiceNoAvailableMediaPorts" = "Det går inte att ringa samtalet på grund av ett serverproblem.";
+"LOCID E_VoiceServerCannotForwardCall" = "Servern kan inte vidarekoppla samtalet. Försök igen.";
+"LOCID E_VoiceServerDidNotRespond" = "Servern svarar inte. Försök igen senare.";
+"LOCID E_VoiceCannotPlaceCall" = "Det går inte att koppla samtalet. Kontrollera numret och försök igen.";
+"LOCID E_VoiceNumberNotSupported" = "Det går inte att ringa det här numret från företaget.";
+"LOCID E_IncomingPSTNCall" = "Det gick inte att ringa samtalet.";
+
+// %@ placeholder is for the conversation participant's name.
+"LOCID E_VoiceRestrictedByPolicy" = "Du kan inte ringa %@ eftersom samtal är begränsade enligt policyn.";
+
+"LOCID E_CallFailed" = "Ditt samtal bröts på grund av anslutningsproblem. Försök igen.";
+
+"LOCID E_DisconnectedOnConnectedElsewhere" = "Du har kopplats bort eftersom du har anslutit från en annan klient.";
+"LOCID E_ConferenceUserRemovedFromMeeting" = "Du togs bort från mötet.";
+"LOCID E_VoiceCannotCompleteCallNetworkBusy" = "Det gick inte att ringa samtalet eftersom nätverket är upptaget.";
+"LOCID E_VoiceNotSupported" = "%@ kan inte ta emot ljudsamtal.";
+"LOCID E_RepliedWIthOtherModality" = "Mottagaren valde att svara med ett snabbmeddelande.";
+
+// Conversation History
+"LOCID E_ConversationHistoryServiceUnavailable" = "Det går inte att uppdatera konversationshistoriken just nu och den kanske inte är synkroniserad.";
+"LOCID E_ConversationHistoryServiceNotificationsDisabled" = "Det går inte att uppdatera konversationshistoriken just nu och den kanske inte är synkroniserad.";
+
+/* Call Routing */
+"LOCID E_InvalidCallRoutingTarget" = "Det går inte att vidarekoppla samtal till den här kontakten. Välj en av dina Skype för företag-kontakter att vidarekoppla samtal till, eller välj Nytt nummer och ange ett telefonnummer.";
+
+// Conversation window alerts
+"LOCID TTY On" = "TTY är aktiverat";
+"LOCID RemoteHoldSucceeded" = "En fjärranvändare har parkerat ditt samtal.";
+"LOCID RemoteUnholdSucceeded" = "Fjärravparkering av samtal lyckades";
+"LOCID LocalHoldSucceeded" = "Lokal parkering av samtal lyckades";
+"LOCID LocalUnholdSucceeded" = "Lokal avparkering av samtal lyckades";
+"LOCID LIVECALL_RESUME_BUTTON_LOCALLY_HELD_ACCESSIBILITY_LABEL" = "Återuppta samtal";
+"LOCID is recording" = "%@ spelar in";
+"LOCID Multiple Recording" = "Någon spelar in";
+"LOCID OnHoldOutOfApp" = "Ditt %@-samtal är parkerat.";
+"LOCID OnStopOutOfApp" = "Ditt %@-samtal har avslutats.";
+"LOCID RecordingAlert" = "%@ spelar in samtalet.";
+"LOCID CoversationP2PIsRecording" = "%@ spelar in samtalet.";
+"LOCID CoversationP2PIsRecordingNoName" = "Spelar in samtalet.";
+"LOCID CoversationConferenceIsRecording" = "Någon spelar in mötet.";
+
+"LOCID ConversationsExceedArchiveLimit" = "Listan är nästan full. De äldsta konversationerna tas bort när nya läggs till.";
+
+// Mute Alerts
+"LOCID Audience Lock" = "En presentatör har stängt av ljudet för deltagarna.";
+"LOCID Audience Unlock" = "En presentatör har slagit på ljudet för deltagarna.";
+"LOCID Conference Mute" = "En presentatör har stängt av ljudet för dig.";
+"LOCID Conference Unmute" = "En presentatör vill att du slår på ljudet för dig.";
+
+/*Conference alerts*/
+"LOCID PresenterBlockedVideo" = "En presentatör har blockerat deltagarna från att skicka video.";
+"LOCID PresenterBlockedVideo - Presenter" = "En presentatör har blockerat deltagarna från att skicka video. Om du är presentatör kan du slå på din kamera och dela video.";
+"LOCID PresenterBlockedVideo - Unblock" = "En presentatör har tillåtit deltagarna att skicka video.";
+"LOCID VideoLockOnYou" = "Alla är låsta till din video.";
+"LOCID VideoLock" = "En presentatör har låst videospotlighten till någon.";
+"LOCID VideoNotLockOnYou" = "Ingen är låst till din video längre.";
+"LOCID VideoSpotlightUnlocked" = "En presentatör har låst upp videospotlighten.";
+
+
+/* Other */
+"LOCID Sequence Delimiter" = "%@, ";
+"LOCID Back" = "Föregående";
+
+/* iPad Specific */
+"LOCID E_UI_CallViaWorkNotAvailableError" = "Ring via arbetet är inte tillgängligt.";
+
+/* Voicemail Page */
+"LOCID Elapsed Time Format" = "%1$01d:%2$02d"; // Time a voice mail has been played 1:35 (one minute 35 seconds)
+"LOCID Remaining Time Format" = "-%1$01d:%2$02d"; // Time a remaining to play -2:33 (2 minutes 33 seconds)
+"LOCID No Voicemails" = "Inget röstmeddelande";
+"LOCID You currently have no voicemail messages" = "Du har inga röstmeddelanden.";
+"LOCID Audio" = "Ljud";
+"LOCID Speaker" = "Högtalare";
+"LOCID Can not play locally" = "Det går inte att spela upp meddelandet. Tryck på Spela upp om du vill få ett samtal och lyssna på det.";
+"LOCID Play Voice Mail" = "Spela upp röstmeddelande";
+"LOCID PLAY_VOICEMAIL_HINT" = "Spelar upp röstmeddelande";
+"LOCID Pause Voice Mail" = "Pausa röstmeddelande";
+"LOCID PAUSE_VOICEMAIL_HINT" = "Pausar röstmeddelande";
+"LOCID Play On Phone Error - No Number" = "Du måste ange ditt telefonnummer i Alternativ för att kunna få ett samtal.";
+"LOCID Call Back" = "Ring upp igen";
+"LOCID Delete" = "Ta bort";
+"LOCID More voicemails iPad" = "Tryck på ikonen för röstbrevlåda om du vill lyssna på äldre röstmeddelanden.";
+"LOCID More voicemails" = "Håll ned 1 på knappsatsen eller gå till Outlook om du vill lyssna på äldre röstmeddelanden.";
+"LOCID More voicemails No keypad" = "Gå till Outlook om du vill lyssna på äldre röstmeddelanden.";
+"LOCID Can not play IRMed" = "Det här meddelandet är rättighetsskyddat. Tryck på Spela upp om du vill få ett samtal och lyssna på det.";
+"LOCID Lync Call" = "Skype för företag-samtal";
+"LOCID Can't play on phone" = "Det går inte att spela upp meddelandet. Kontrollera nätverksanslutningen och försök igen senare.";
+"LOCID Yes" = "Ja";
+"LOCID No" = "Nej";
+"LOCID VMCallerID" = "Röstbrevlåda";
+"LOCID VM Playback 1X" = "1x";
+"LOCID VM Playback 2X" = "2x";
+"LOCID VM Playback -2X" = "x/2";
+"LOCID VM Playback 1X Acc" = "Spela upp röstmeddelandet med normal hastighet";
+"LOCID VM Playback -2X Acc" = "Spela upp röstmeddelandet med halva hastigheten";
+"LOCID VM Playback 2X Acc" = "Spela upp röstmeddelandet med dubbla hastigheten";
+"LOCID Voicemail From" = "Röstmeddelande från %@";
+"LOCID No Voicemails Placeholder" = "Dina röstmeddelanden visas här";
+
+/* For dogfood reporting tool, do not need to be localized */
+"LOCID AppSharingArea" = "App Sharing";
+"LOCID ContactsArea" = "Contacts";
+"LOCID ConversationHistory" = "Conversation History";
+"LOCID DataCollabArea" = "Data Collab";
+"LOCID IMArea" = "Instant Messaging";
+"LOCID MeetingsArea" = "Meetings";
+"LOCID MySettingsArea" = "My Settings";
+"LOCID NotificationsArea" = "Notifications";
+"LOCID PresenceArea" = "Presence";
+"LOCID SignInArea" = "Sign-in";
+"LOCID VideoArea" = "Video";
+"LOCID VoicePhoneArea" = "Voice/Phone";
+/* End dogfood reporting tool strings */
+
+/* Alert*/
+"LOCID Dismiss" = "Stäng";
+"LOCID Accept" = "Acceptera";
+"LOCID Not yet implemented feature" = "Den här funktionen har inte implementerats ännu. Försök igen i en framtida version.";
+
+/* Notification*/
+"LOCID 1 Missed VM" = "Du har 1 nytt röstmeddelande";
+"LOCID Missed VMs" = "Du har %d nya röstmeddelanden";
+"LOCID Missed Collab Out of App" = "Missad samarbetssession från %@";
+"LOCID Missed Video Call Out of App" = "Missat videosamtal från %@";
+"LOCID Missed Audio Call Out of App" = "Missat samtal från %@";
+"LOCID Missed Message Out of App" = "Missat snabbmeddelande från %@";
+"LOCID Missed Audio Conf Out of App" = "Missat konferenssamtal från %@";
+
+"LOCID Audio Call Out of App" = "Samtal från %@";
+"LOCID Conference Call Out of App" = "Konferenssamtal från %@";
+"LOCID Dismiss Call" = "Ignorera";
+"LOCID Answer Call" = "Acceptera";
+"LOCID Answer Call with Video" = "Video";
+"LOCID Audio Call" = "Samtal";
+"LOCID Conference Call" = "Konferenssamtal";
+"LOCID Unknown Caller" = "Okänd uppringare";
+
+"LOCID Video conf accessibility" = "Videokonferens från %@";
+"LOCID Video accessibility" = "Videosamtal från %@";
+"LOCID Audio conf accessibility" = "Konferenssamtal från %@";
+"LOCID Audio accessibility" = "Samtal från %@";
+
+"LOCID Video Call Out of App" = "Videosamtal från %@";
+"LOCID Video Conference Call Out of App" = "Videokonferens från %@";
+"LOCID Video Call" = "Videosamtal";
+"LOCID Video Conference Call" = "Videokonferens";
+"LOCID Video Escalation Name" = "%@ delar video";
+"LOCID Video Escalation" = "delar video";
+"LOCID Video Escalation Conf" = "Någon delar video";
+"LOCID VideoInvitationRejected" = "Videodelen av samtalet accepterades inte. Samtalet fortsätter med endast ljud.";
+"LOCID E_VideoDecline" = "%@ accepterade inte din video.";
+"LOCID E_VideoGeneric" = "Det gick inte att starta din video. Försök igen.";
+"LOCID E_VideoNotStarted" = "Det gick inte att starta din video.";
+"LOCID E_VideoNotSupported" = "%@ kan inte ta emot videosamtal.";
+"LOCID E_VideoNotAccepted" = "Videodelen av samtalet accepterades inte av %@. Samtalet fortsätter med ljud endast.";
+
+"LOCID E_VoiceTransferGenericError" = "Det gick inte att överföra samtalet.";
+"LOCID E_VoiceTransferParticipantError" = "Det gick inte att överföra samtalet eftersom mottagaren inte kan nås.";
+
+/* Conversation voice localizations */
+"LOCID mute" = "stäng av ljudet";
+"LOCID Mute Capitalized" = "Stäng av ljudet";
+"LOCID Unmute" = "Slå på ljudet";
+"LOCID keypad" = "knappsats";
+"LOCID add call" = "lägg till samtal";
+"LOCID hold" = "parkera";
+"LOCID End" = "Avsluta";
+"LOCID Hide Keypad" = "Dölj knappsats";
+"LOCID Call Lync" = "Skype för företag-samtal";
+"LOCID Call Work" = "Arbete: %@";
+"LOCID Call Mobile" = "Mobil: %@";
+"LOCID Call Home" = "Hem: %@";
+"LOCID Call Other" = "Annat: %@";
+"LOCID Decline" = "Avböj";
+"LOCID Video Menu" = "Videomeny";
+"LOCID Hold Call" = "Parkera samtalet";
+"LOCID Hang Up" = "Lägg på";
+"LOCID Dial Pad Only" = "Knappsats";
+
+/* People area */
+"LOCID CONVERSATION_NUMBER_OF_PARTICIPANTS_WITH_DURATION" = "%u deltagare – %@";
+"LOCID CONVERSATION_PARTICIPANT_WITH_DURATION" = "%u deltagare – %@";
+"LOCID Call Status Connecting" = "Ansluter...";
+"LOCID Call Status Connecting Remote" = "Ansluter...";
+"LOCID Call Status Connected" = "Ansluten";
+"LOCID Call Status On Hold - Passive" = "Parkera";
+"LOCID Call Status On Hold" = "Parkerat";
+"LOCID Call Status Ended" = "Samtal avslutat";
+"LOCID Call Status Transfering" = "Överför";
+"LOCID On behalf of" = "För %@";
+"LOCID Call for" = "Samtal till %@";
+"LOCID Call for - Astana" = "Samtal till %@";
+"LOCID Transferred by" = "Överfört av %@";
+"LOCID Forwarded by" = "Vidarekopplat av %@";
+"LOCID Private call" = "Privat samtal";
+"LOCID Also ringing" = "Ringer också upp %@";
+"LOCID Also ringing delegates" = "Ringer också upp dina ombud";
+"LOCID Will ring" = "Kommer att ringa upp %@";
+"LOCID Also ringing team call" = "Ringer också upp din grupp";
+"LOCID The recipient" = "Mottagaren";
+
+/* Conversation data collab localizations */
+"LOCID DataCollab Initializing" = "Initierar ...";
+"LOCID DataCollab Connecting" = "Ansluter ...";
+"LOCID DataCollab Loading" = "Läser in...";
+"LOCID DataCollab No Content" = "Presentatörerna has slutat dela innehållet.";
+"LOCID SessionState_DisconnectedOnConnectionFailure" = "Informationsdelningsfunktionen är otillgänglig på grund av att anslutningen till servern misslyckades.";
+"LOCID DisconnectedOnConnectivityIssue" = "Vissa presentationsfunktioner är inte tillgängliga på grund av problem med serveranslutningen.";
+"LOCID DisconnectedOnConnectedElsewhere" = "Du kopplades bort eftersom du anslöt från en annan klient.";
+"LOCID DisconnectedOnNetworkFailure" = "Nätverksproblem gör att du inte kan se presentationen.";
+"LOCID DataCollab Known UnSupported" = "Presentatören använder en funktion som inte stöds i den här versionen av Skype för företag.";
+"LOCID DataCollab Generic UnSupported" = "Presentatören använder en funktion som inte stöds i den här versionen av Skype för företag, eller så är han eller hon ansluten till en äldre server.";
+"LOCID DataCollab ContentPresenter" = "Presentatör: %@";
+"LOCID DataCollab NoPresenter" = "Ingen presenterar";
+"LOCID Collab Unsupported PPTContent" = "Tyvärr kan vi inte spela upp media i presentationen.";
+"LOCID Retry" = "Försök igen";
+"LOCID DataCollab Generic PPT Error" = "Vissa presentationsfunktioner är inte tillgängliga på grund av problem med serveranslutningen.";
+"LOCID Start Viewing" = "Börja visning";
+"LOCID Stop Viewing" = "Stoppa visning";
+"LOCID Collab Escalation" = "%@ vill starta en presentation";
+"LOCID PowerPoint content Accessibility" = "PowerPoint-innehåll";
+
+"LOCID SyncPresenterButton" = "Synkronisera till presentatörsvyn";
+"LOCID NavigateBackButton" = "Gå en bild bakåt";
+"LOCID NavigateForwardButton" = "Gå en bild framåt";
+"LOCID SlideNumber" = "%1$d av %2$d";
+"LOCID SlideNumber Accessibility" = "Bild %1$d av %2$d";
+
+"LOCID E_SharingDisabled" = "Presentation är inaktiverat.";
+"LOCID E_SharingNetworkIssues" = "Du kan inte presentera på grund av nätverksproblem. Försök igen senare.";
+"LOCID E_SharingNotSupported" = "Presentationer stöds inte för den här kontakten.";
+"LOCID E_SharingTimeout" = "Presentationen startade inte eftersom servern var upptagen. Försök igen senare.";
+"LOCID SharingAnotherType" = "Presentationen har avslutats på grund av att en annan presentation startade.";
+"LOCID E_GetMediaSdpFailed" = "Det går för tillfället inte att ansluta dig till skrivbordet eller programpresentationen.";
+
+"LOCID Meeting Content No Wifi_iPad"  = "Du kommer inte att se det presenterade innehållet eftersom du inte är ansluten till Wi-Fi.";
+"LOCID 3G user requiring Wi-Fi" = "Du kan inte ringa Skype för företag-samtal eftersom du inte är ansluten till ett trådlöst nätverk.";
+"LOCID E_SharingBiggerScreenThanSupportedOnThisDevice" = "Presentationen är för stor för att visas på den här enheten.";
+"LOCID E_CollabDisconnectedNetworkError" = "Du kopplades bort från presentationen på grund av nätverksproblem.";
+"LOCID E_CollabDisconnectedDueToAnotherEndpoint" = "Du kopplades bort eftersom du anslöt från en annan klient.";
+
+/* Conversation app sharing localizations */
+"LOCID AppSharing Loading" = "Innehållsdelning läses in.";
+"LOCID AppSharing Shared Content" = "Delat innehåll.";
+"LOCID AppSharing Desktop" = "Skrivbordet";
+"LOCID AppSharing Application" = "Program";
+"LOCID AppSharing SharingPaused" = "Delning är pausad för tillfället."; // Not used
+"LOCID AppSharing SharingIdle" = "Delning används inte för tillfället."; // Not used
+"LOCID AppSharing AllResourcesMinimized" = "Alla resurser är minimerade."; // Not used
+"LOCID AppSharingCannotAcceptP2PScreenSharing" = "%@ försökte starta en skärmpresentation, men den här versionen av appen har endast stöd för den funktionen i konferenssamtal och Skype-möten.";
+
+/* IM Modality Page */
+"LOCID Start IM" = "Starta snabbmeddelande";
+"LOCID send IM" = "Skicka";
+
+/* Modality Page Container */
+"LOCID End Conversation" = "Avsluta konversation";
+"LOCID View Contact Card" = "Visa kontaktkort";
+"LOCID Invite Others" = "Bjud in andra";
+"LOCID Send Location action" = "Skicka plats";
+"LOCID Send as Email action" = "Skicka som e-post";
+"LOCID View Participants" = "Visa deltagare";
+"LOCID Rejoin" = "Anslut igen";
+
+/* Active Call Indicator */
+"LOCID ACI hour" = "%1$02ld:%2$02ld:%3$02ld"; // hh::mm:ss for the timer
+"LOCID ACI min" = "%1$02ld:%2$02ld"; // mm:ss for the timer
+"LOCID ACI Expand" = "Dubbeltryck för att visa";
+"LOCID ACI Call Quality Good" = "";
+"LOCID ACI Call Quality Bad" = "Dålig samtalskvalitet";
+"LOCID ACI Call Muted" = "Ljudet är av. Dubbeltryck för att slå på ljud";
+"LOCID ACI Call Unmuted" = "Ljudet är på. Dubbeltryck för att stänga av ljud";
+
+/* Search results */
+"LOCID No Results" = "Inga resultat";
+
+/* HockeyApp */
+"LOCID Lync Quit Unexpectedly" = "%@ avslutades oväntat";
+"LOCID Dont Send" = "Skicka inte";
+"LOCID Send Report" = "Skicka rapport";
+"LOCID Would you like to send a report so we can fix the problem" = "Vill du skicka en rapport så att vi kan åtgärda felet?";
+
+// Skype for Business
+"LOCID Product Name" = "Skype för företag";
+
+// Timeline
+"LOCID Timeline Home" = "start";
+"LOCID Timeline Contacts" = "kontakter";
+"LOCID Timeline Meetings" = "möten";
+"LOCID Timeline Search Placeholder" = "sök efter kontakter";
+"LOCID Timeline Recent" = "senaste";
+"LOCID Timeline Upcoming" = "kommande";
+"LOCID Timeline TableView" = "tidslinje";
+"LOCID Timeline Meeting Time All Day" = "hela dagen";
+"LOCID Timeline Search Skype Contacts" = "kontakter";
+"LOCID Timeline Search Phone Contacts" = "telefonkontakter";
+
+// Accessibility labels
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_CONTACTS" = "kontakter";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD" = "knappsats och röstmeddelanden";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE" = "knappsats, %ld nytt röstmeddelande";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_DIALPAD_WITH_BADGE_PLURAL" = "knappsats, %ld nya röstmeddelanden";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_MEETINGS" = "möten";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_HOME" = "start";
+"LOCID ACCESSIBILITY_TIMELINE_BUTTON_PROFILE" = "min profil";
+"LOCID ACCESSIBILITY_RECENTS_CELL" = "%@, %@, %@"; // name, caption, timestamp
+"LOCID ACCESSIBILITY_RECENTS_CELL_UNREAD" = "%@, nya meddelanden, %@, %@"; // name, "new messages", caption, timestamp
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_CALL" = "samtal";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_VIDEOCALL" = "videosamtal";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_MARK_AS_READ" = "markera som läst";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_DELETE" = "ta bort";
+"LOCID ACCESSIBILITY_TIMELINE_SWIPE_JOIN_MEETING" = "anslut till möte";
+"LOCID ACCESSIBILITY_DISMISS_BUTTON" = "stäng";
+"LOCID ACCESSIBILITY_ADMIT_BUTTON" = "tillåt";
+"LOCID ACCESSIBILITY_PRESENCE_AVAILABLE" = "tillgänglig";
+"LOCID ACCESSIBILITY_PRESENCE_BUSY" = "upptagen";
+"LOCID ACCESSIBILITY_PRESENCE_AWAY" = "inte vid datorn";
+"LOCID ACCESSIBILITY_PRESENCE_OFFLINE" = "offline";
+"LOCID ACCESSIBILITY_PRESENCE_DONOTDISTURB" = "Stör ej";
+"LOCID ACCESSIBILITY_PRESENCE_UNKNOWN" = "närvaro okänd";
+"LOCID ACCESSIBILITY_SEARCH_BAR_BUTTON_CLEAR_TEXT" = "ta bort text";
+"LOCID ACCESSIBILITY_SEARCH_BAR" = "sök efter kontakter";
+"LOCID ACCESSIBILITY_CONTACTS_VIDEOCALL_START" = "videosamtal";
+"LOCID ACCESSIBILITY_CONTACTS_AUDIOCALL_START" = "samtal";
+"LOCID ACCESSIBILITY_CONTACT_CELL" = "%@, %@"; // name, caption
+"LOCID ACCESSIBILITY_JOIN_MEETING" = "Anslut till möte";
+"LOCID ACCESSIBILITY_EMPTY_CHAT" = "Tom chatt";
+"LOCID ACCESSIBILITY_MY_INFO_PROFILE_PICTURE" = "Profilbild";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE" = "%ld nytt röstmeddelande";
+"LOCID ACCESSIBILITY_VOICEMAIL_WITH_BADGE_PLURAL" = "%ld nya röstmeddelanden";
+"LOCID_ACCESSIBILITY_VOICEMAIL_SWIPE_DELETE" = "Ta bort";
+
+// The name of all the smiley (not flag) emoticons.
+// These are used to make the emoticon picker accessible and are.
+// also used inside the chat, mood messages etc.
+//
+// Inside the emoticon picker they are only read as their name
+// but inside the chat etc, they are read together with the
+// EMOTICON_TYPE_SMILEY string, for example:
+// Emoticon: Smiling
+// for the SMILE emoticon within a chat. This is done for you.
+//
+// They all follow the naming conventions:
+// EMOTICON_SMILEY_<name of smiley>_LABEL
+"EMOTICON_SMILEY_ANGEL_ACCESSIBILITY_LABEL" = "Ängel";
+"EMOTICON_SMILEY_ANGRY_ACCESSIBILITY_LABEL" = "Arg";
+"EMOTICON_SMILEY_BANDIT_ACCESSIBILITY_LABEL" = "Bandit";
+"EMOTICON_SMILEY_BARTLETT_ACCESSIBILITY_LABEL" = "Fotboll";
+"EMOTICON_SMILEY_BEER_ACCESSIBILITY_LABEL" = "Öl";
+"EMOTICON_SMILEY_BIGSMILE_ACCESSIBILITY_LABEL" = "Skratt";
+"EMOTICON_SMILEY_BIKE_ACCESSIBILITY_LABEL" = "Cykel";
+"EMOTICON_SMILEY_BLUSHING_ACCESSIBILITY_LABEL" = "Rodnar";
+"EMOTICON_SMILEY_BOW_ACCESSIBILITY_LABEL" = "Bugar";
+"EMOTICON_SMILEY_BROKENHEART_ACCESSIBILITY_LABEL" = "Brustet hjärta";
+"EMOTICON_SMILEY_CAKE_ACCESSIBILITY_LABEL" = "Tårta";
+"EMOTICON_SMILEY_CALL_ACCESSIBILITY_LABEL" = "Samtal";
+"EMOTICON_SMILEY_CAMERA_ACCESSIBILITY_LABEL" = "Kamera";
+"EMOTICON_SMILEY_CANYOUTALK_ACCESSIBILITY_LABEL" = "Kan du snacka?";
+"EMOTICON_SMILEY_CAR_ACCESSIBILITY_LABEL" = "Bil";
+"EMOTICON_SMILEY_CASH_ACCESSIBILITY_LABEL" = "Kontanter";
+"EMOTICON_SMILEY_CAT_ACCESSIBILITY_LABEL" = "Katt";
+"EMOTICON_SMILEY_CLAPPING_ACCESSIBILITY_LABEL" = "Applåderar";
+"EMOTICON_SMILEY_COFFEE_ACCESSIBILITY_LABEL" = "Kaffe";
+"EMOTICON_SMILEY_COMPUTER_ACCESSIBILITY_LABEL" = "Dator";
+"EMOTICON_SMILEY_CONFIDENTIAL_ACCESSIBILITY_LABEL" = "Konfidentiellt";
+"EMOTICON_SMILEY_COOL_ACCESSIBILITY_LABEL" = "Cool";
+"EMOTICON_SMILEY_CRYING_ACCESSIBILITY_LABEL" = "Gråter";
+"EMOTICON_SMILEY_DANCING_ACCESSIBILITY_LABEL" = "Dansar";
+"EMOTICON_SMILEY_DEVIL_ACCESSIBILITY_LABEL" = "Djävul";
+"EMOTICON_SMILEY_DOG_ACCESSIBILITY_LABEL" = "Hund";
+"EMOTICON_SMILEY_DOH_ACCESSIBILITY_LABEL" = "Doh";
+"EMOTICON_SMILEY_DRINK_ACCESSIBILITY_LABEL" = "Drink";
+"EMOTICON_SMILEY_DULL_ACCESSIBILITY_LABEL" = "Tråkig";
+"EMOTICON_SMILEY_EMO_ACCESSIBILITY_LABEL" = "Emo";
+"EMOTICON_SMILEY_ENVY_ACCESSIBILITY_LABEL" = "Avundsjuk";
+"EMOTICON_SMILEY_EVILGRIN_ACCESSIBILITY_LABEL" = "Ond";
+"EMOTICON_SMILEY_FACEPALM_ACCESSIBILITY_LABEL" = "Tar mig för pannan";
+"EMOTICON_SMILEY_FINGERSCROSSED_ACCESSIBILITY_LABEL" = "Fingrarna i kors";
+"EMOTICON_SMILEY_FLOWER_ACCESSIBILITY_LABEL" = "Blomma";
+"EMOTICON_SMILEY_GAMES_ACCESSIBILITY_LABEL" = "Spel";
+"EMOTICON_SMILEY_GIFT_ACCESSIBILITY_LABEL" = "Gåva";
+"EMOTICON_SMILEY_GIGGLE_ACCESSIBILITY_LABEL" = "Fnissar";
+"EMOTICON_SMILEY_GOODLUCK_ACCESSIBILITY_LABEL" = "Lycka till";
+"EMOTICON_SMILEY_GOTTARUN_ACCESSIBILITY_LABEL" = "Måste dra";
+"EMOTICON_SMILEY_HANDSHAKE_ACCESSIBILITY_LABEL" = "Skakar hand";
+"EMOTICON_SMILEY_HAPPY_ACCESSIBILITY_LABEL" = "Lycklig";
+"EMOTICON_SMILEY_HEADBANG_ACCESSIBILITY_LABEL" = "Bankar huvudet mot väggen";
+"EMOTICON_SMILEY_HEART_ACCESSIBILITY_LABEL" = "Hjärta";
+"EMOTICON_SMILEY_HEIDY_ACCESSIBILITY_LABEL" = "Ekorre";
+"EMOTICON_SMILEY_HI_ACCESSIBILITY_LABEL" = "Vinkar";
+"EMOTICON_SMILEY_HIGHFIVE_ACCESSIBILITY_LABEL" = "Give me five";
+"EMOTICON_SMILEY_HOLDON_ACCESSIBILITY_LABEL" = "Vänta";
+"EMOTICON_SMILEY_HUG_ACCESSIBILITY_LABEL" = "Kram";
+"EMOTICON_SMILEY_IDEA_ACCESSIBILITY_LABEL" = "Idé";
+"EMOTICON_SMILEY_INLOVE_ACCESSIBILITY_LABEL" = "Förälskad";
+"EMOTICON_SMILEY_ISLAND_ACCESSIBILITY_LABEL" = "Ö";
+"EMOTICON_SMILEY_ITWASNTME_ACCESSIBILITY_LABEL" = "Det var inte jag!";
+"EMOTICON_SMILEY_KISS_ACCESSIBILITY_LABEL" = "Puss";
+"EMOTICON_SMILEY_LALALA_ACCESSIBILITY_LABEL" = "Lyssnar inte";
+"EMOTICON_SMILEY_LETSMEET_ACCESSIBILITY_LABEL" = "Ska vi ses";
+"EMOTICON_SMILEY_LIPSSEALED_ACCESSIBILITY_LABEL" = "Mina läppar är förseglade";
+"EMOTICON_SMILEY_MAIL_ACCESSIBILITY_LABEL" = "Du har fått e-post";
+"EMOTICON_SMILEY_MAKEUP_ACCESSIBILITY_LABEL" = "Smink";
+"EMOTICON_SMILEY_MAN_ACCESSIBILITY_LABEL" = "Man";
+"EMOTICON_SMILEY_MMM_ACCESSIBILITY_LABEL" = "mmm";
+"EMOTICON_SMILEY_MOVIE_ACCESSIBILITY_LABEL" = "Film";
+"EMOTICON_SMILEY_MUSCLE_ACCESSIBILITY_LABEL" = "Muskler";
+"EMOTICON_SMILEY_MUSIC_ACCESSIBILITY_LABEL" = "Musik";
+"EMOTICON_SMILEY_NERD_ACCESSIBILITY_LABEL" = "Nörd";
+"EMOTICON_SMILEY_NINJA_ACCESSIBILITY_LABEL" = "Ninja";
+"EMOTICON_SMILEY_NO_ACCESSIBILITY_LABEL" = "Nej";
+"EMOTICON_SMILEY_NOD_ACCESSIBILITY_LABEL" = "Nickar";
+"EMOTICON_SMILEY_PARTY_ACCESSIBILITY_LABEL" = "Party";
+"EMOTICON_SMILEY_PHONE_ACCESSIBILITY_LABEL" = "Telefon";
+"EMOTICON_SMILEY_PIZZA_ACCESSIBILITY_LABEL" = "Pizza";
+"EMOTICON_SMILEY_PLANE_ACCESSIBILITY_LABEL" = "Plan";
+"EMOTICON_SMILEY_PUKING_ACCESSIBILITY_LABEL" = "Spyr";
+"EMOTICON_SMILEY_PUNCH_ACCESSIBILITY_LABEL" = "Smocka";
+"EMOTICON_SMILEY_RAIN_ACCESSIBILITY_LABEL" = "Regnar";
+"EMOTICON_SMILEY_RAINBOW_ACCESSIBILITY_LABEL" = "Regnbåge";
+"EMOTICON_SMILEY_ROCK_ACCESSIBILITY_LABEL" = "Sten";
+"EMOTICON_SMILEY_ROFL_ACCESSIBILITY_LABEL" = "Rullar på golvet av skratt";
+"EMOTICON_SMILEY_SADSMILE_ACCESSIBILITY_LABEL" = "Ledsen";
+"EMOTICON_SMILEY_SHAKE_ACCESSIBILITY_LABEL" = "Skaka";
+"EMOTICON_SMILEY_SLEEPY_ACCESSIBILITY_LABEL" = "Sömnig";
+"EMOTICON_SMILEY_SMILE_ACCESSIBILITY_LABEL" = "Leende";
+"EMOTICON_SMILEY_SMIRK_ACCESSIBILITY_LABEL" = "Flin";
+"EMOTICON_SMILEY_SNAIL_ACCESSIBILITY_LABEL" = "Snigel";
+"EMOTICON_SMILEY_SPEECHLESS_ACCESSIBILITY_LABEL" = "Mållös";
+"EMOTICON_SMILEY_STAR_ACCESSIBILITY_LABEL" = "Stjärna";
+"EMOTICON_SMILEY_STOP_ACCESSIBILITY_LABEL" = "Stopp";
+"EMOTICON_SMILEY_SUNSHINE_ACCESSIBILITY_LABEL" = "Solsken";
+"EMOTICON_SMILEY_SURPRISED_ACCESSIBILITY_LABEL" = "Förvånad";
+"EMOTICON_SMILEY_SWEAR_ACCESSIBILITY_LABEL" = "Svär";
+"EMOTICON_SMILEY_SWEATING_ACCESSIBILITY_LABEL" = "Svettas";
+"EMOTICON_SMILEY_TALKING_ACCESSIBILITY_LABEL" = "Pratar";
+"EMOTICON_SMILEY_TALKTOTHEHAND_ACCESSIBILITY_LABEL" = "Prata med handen";
+"EMOTICON_SMILEY_THINKING_ACCESSIBILITY_LABEL" = "Tänker";
+"EMOTICON_SMILEY_TIME_ACCESSIBILITY_LABEL" = "Tid";
+"EMOTICON_SMILEY_TMI_ACCESSIBILITY_LABEL" = "För mycket information";
+"EMOTICON_SMILEY_TONGUEOUT_ACCESSIBILITY_LABEL" = "Räcker ut tungan";
+"EMOTICON_SMILEY_TUMBLEWEED_ACCESSIBILITY_LABEL" = "Marklöpare";
+"EMOTICON_SMILEY_UMBRELLA_ACCESSIBILITY_LABEL" = "Paraply";
+"EMOTICON_SMILEY_WAIT_ACCESSIBILITY_LABEL" = "Vänta";
+"EMOTICON_SMILEY_WAITING_ACCESSIBILITY_LABEL" = "Väntar";
+"EMOTICON_SMILEY_WFH_ACCESSIBILITY_LABEL" = "Arbetar hemifrån";
+"EMOTICON_SMILEY_WHATSGOINGON_ACCESSIBILITY_LABEL" = "Vad händer?";
+"EMOTICON_SMILEY_WHEW_ACCESSIBILITY_LABEL" = "Puh";
+"EMOTICON_SMILEY_WINK_ACCESSIBILITY_LABEL" = "Blinkar";
+"EMOTICON_SMILEY_WOMAN_ACCESSIBILITY_LABEL" = "Kvinna";
+"EMOTICON_SMILEY_WONDERING_ACCESSIBILITY_LABEL" = "Undrar";
+"EMOTICON_SMILEY_WORRIED_ACCESSIBILITY_LABEL" = "Orolig";
+"EMOTICON_SMILEY_YAWNING_ACCESSIBILITY_LABEL" = "Gäspar";
+"EMOTICON_SMILEY_YES_ACCESSIBILITY_LABEL" = "Ja";
+
+// Chat
+"CHATINPUT_PLACEHOLDER" = "Skriv ett meddelande här";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER" = "Säg hej till %@";
+"CHATEMPTYPAGE_TITLE_PLACEHOLDER_GROUP" = "Säg hej till gruppen";
+"CHATEMPTYPAGE_CAPTION_PLACEHOLDER" = "Dina konversationer visas här";
+"CHAT_FAILED_TO_SEND" = "Det gick inte att skicka följande meddelande: %@";
+"LOCID CONVERSATION_SHOW_CHAT" = "Visa chatt";
+"LOCID CONVERSATION_HIDE_CHAT" = "Dölj chatt";
+"LOCID CONVERSATION_SHOW_TIMELINE" = "Visa sidofält";
+"LOCID CONVERSATION_HIDE_TIMELINE" = "Dölj sidofält";
+
+// Emoticons
+"EMOTICONPICKER_EMOTICONS_TAB_TITLE" = "uttryckssymboler";
+
+// Dates
+
+/* Suffix for call duration days (plural) */
+"CALL_DURATION_DAY_MANY" = "d";
+
+/* Suffix for call duration day (singular) */
+"CALL_DURATION_DAY_ONE" = "d";
+
+/* Suffix for call duration hours (plural) */
+"CALL_DURATION_HOUR_MANY" = "t";
+
+/* Suffix for call duration hours (singular) */
+"CALL_DURATION_HOUR_ONE" = "t";
+
+/* Suffix for call duration minutes (plural) */
+"CALL_DURATION_MINUTE_MANY" = "min";
+
+/* Suffix for call duration minute (singular) */
+"CALL_DURATION_MINUTE_ONE" = "min";
+
+/* Suffix for call duration seconds (plural) */
+"CALL_DURATION_SECOND_MANY" = "s";
+
+/* Suffix for call duration second (singular) */
+"CALL_DURATION_SECOND_ONE" = "s";
+
+/* Separator for components of the duration string. This needs to be a non-breaking space or else the WTT tool will kill it. */
+"CALL_DURATION_SEPARATOR" = " ";
+
+/* Hub badge notification accessibility when there is more than one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_MANY_FORMAT" = "%d nya meddelanden";
+
+/* Hub badge notification accessibility when there is one new notifiaction (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ONE_FORMAT" = "Ett nytt meddelande";
+
+/* Hub badge notification accessibility when there are no new notifiactions (according to Apple's guidelines, labels should not end with a period) */
+"HUB_BADGEVIEW_ACCESSIBILITY_LABEL_ZERO_FORMAT" = "Inga nya meddelanden";
+
+// Inline Messages
+"CHAT_INLINE_CONFERENCE_ENDED" = "konferensen avslutad";
+
+// Number of participants in ChatView caption.
+"CONVERSATION_NUMBER_OF_PARTICIPANTS" = "%u deltagare";
+
+// Browser
+
+/* A general dismiss button for alerts. */
+"DISMISS_BUTTON" = "stäng";
+
+/* Button to open link (link may open in Safari, but also other apps, depending on scheme)  */
+"OPEN_LINK_BUTTON_TITLE" = "öppna";
+
+/* Button to copy url of current wab page */
+"COPY_URL_BUTTON_TITLE" = "kopiera";
+
+/* Button to send the current page to Safari's reading list */
+"SEND_URL_TO_READING_LIST" = "lägg till i Läslista";
+
+/* Button to open the current page in Safari */
+"OPEN_URL_IN_SAFARI" = "öppna i Safari";
+
+/* In App Browser app bar capitons */
+"IN_APP_BROWSER_BACK_BUTTON_CAPITON" = "tillbaka";
+"IN_APP_BROWSER_FORWARD_BUTTON_CAPITON" = "framåt";
+
+/* Button for acknowledging an action or alert. */
+"OK_BUTTON" = "OK";
+
+/* Button for canceling an action. */
+"CANCEL_BUTTON" = "avbryt";
+
+// Typing Indicator
+"CHATTYPING_SINGLEUSER" = "%@ skriver ...";
+"CHATTYPING_TWOUSERS" = "%@ och %@ skriver ...";
+"CHATTYPING_THREEUSERS" = "%@, %@ och en till skriver ...";
+"CHATTYPING_MULTIPLEUSERS" = "%@, %@ och %d andra skriver ...";
+
+// Dropdown
+"DROPDOWN_SEND_EMAIL" = "skicka e-post";
+"DROPDOWN_VIEW_CONTACT_PROFILE" = "visa kontaktkort";
+"DROPDOWN_DOGFOOD_FEEDBACK" = "dogfood feedback";
+"DROPDOWN_VIEW_PARTICIPANTS" = "deltagare";
+"DROPDOWN_ADD_PARTICIPANTS" = "lägg till deltagare";
+
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was incoming (made by someone else). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Inkommande";
+/* Part of synthesized accessibility label for an call in a chat. The full string is constructed as: <this label>, <message (see the CHAT_CALL_EVENT_ strings)>, <call duration>, <time stamp>.
+ This part is used to indicate that the call was outoging (made by you). (according to Apple's guidelines, labels should not end with a period) */
+"CHAT_VIEW_OUTGOING_CALL_ACCESSIBILITY_LABEL" = "Utgående";
+
+"LOCID Meetings Page Title" = "Möten";
+"LOCID No Meetings Placeholder" = "Dina möten visas här";
+"LOCID Meetings Today" = "I dag";
+"LOCID Meetings Tomorrow" = "I morgon";
+
+// Accessibility label for the mood message text input field.
+"MOOD_MESSAGE_ACCESSIBILITY_LABEL" = "Ange din personliga anteckning";
+
+"PARTICIPANTS_VIEW_TITLE" = "Deltagare";
+"PARTICIPANTS_VIEW_WAITING_IN_LOBBY_HEADER" = "Väntar i lobbyn";
+"PARTICIPANTS_VIEW_ON_CALL" = "I det här samtalet";
+
+"MEETING_VIEW_TITLE" = "Möte";
+"MEETING_VIEW_JOIN_BUTTON_TEXT" = "Anslut till möte";
+"MEETING_VIEW_ORGANISER_LABEL" = "Organisatör";
+"MEETING_VIEW_INVITEES_LABEL" = "Inbjudna personer";
+"MEETING_VIEW_NOTES_LABEL" = "Anteckningar";
+"MEETING_VIEW_SHARE_INVITE_BUTTON" = "Share Invite";
+"MEETING_VIEW_SHARE_INVITE_MESSAGE" = "Click to join \"%@\" using Skype for Business:"; // The invite message needs the Meeting subject to be passed as parameter.
+
+"TIMELINE_CONNECTING" = "Ansluter…";
+
+"EMOTICONPICKER_BUTTON_ACCESSIBILITY_LABEL" = "Välj uttryckssymbol";
+"CHAT_SEND_BUTTON_ACCESSIBILITY_LABEL" = "Skicka meddelande";
+"CALL_VIEW_CALL_ENDED_ACCESSIBILITY_LABEL" = "Samtalet har avslutats";
+"INVITE_PARTICIPANTS" = "Bjud in deltagare";
+"LOCID_ACCESSIBILITY_BACK_BUTTON" = "Föregående";
+"EMOTICONPICKER_BACKSPACE_BUTTON_ACCESSIBILITY_LABEL" = "Backsteg";
+"LOCID_ADDRESS_BOOK" = "Adressbok";
+"LOCID_PHONE_NUMBER" = "Telefonnummer";
+"LOCID_MORE" = "Mer";
+"SWITCH_VIDEO_ACCESSIBILITY" = "Växla kameraläge";
+"CHAT_OPTION_SHOW_CONTACT_PROFILE" = "Visa kontaktens profil";
+"CHAT_OPTION_PARTICIPANTS" = "Deltagare";
+"LOCID_CONTACTS_TABLE_VIEW" = "Kontaktvyn";
+"LOCID_INCOMING_CALL_ACCESSIBILITY_LABEL" = "Inkommande samtal";
+"LOCID_MEETINGS_TABLE_VIEW" = "Mötesvyn";

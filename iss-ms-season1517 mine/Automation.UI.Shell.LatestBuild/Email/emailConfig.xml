@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Setting>
+  <EmailServer>smtphost.redmond.corp.microsoft.com</EmailServer>
+  <EmailFrom>v-huangy@microsoft.com</EmailFrom>
+  <EmailToList>
+    <EmailTo>v-huangy@microsoft.com</EmailTo>
+  </EmailToList>
+  <EmailCcList>
+    <EmailCc>v-almett@microsoft.com</EmailCc>
+    <EmailCc>v-haonli@microsoft.com</EmailCc>
+    <EmailCc>v-riraza@microsoft.com</EmailCc>
+    <EmailCc>v-joding@microsoft.com</EmailCc>
+    <EmailCc>v-ychenr@microsoft.com</EmailCc>
+  </EmailCcList>
+</Setting>

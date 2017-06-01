@@ -1,0 +1,13 @@
+﻿<Window x:Class="Automation.UI.Shell.Wpf.Infrastructure.ConfigPopUp.ConfigPopUpControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Automation.UI.Shell.Wpf.Infrastructure.ConfigPopUp"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             mc:Ignorable="d"
+        d:DesignHeight="300" d:DesignWidth="600" Width="600" Height="800">
+    <ScrollViewer VerticalScrollBarVisibility="Visible">
+        <Grid Name="dynamicGrid"></Grid>
+    </ScrollViewer>
+</Window>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Setting>
+  <EmailServer>smtphost.redmond.corp.microsoft.com</EmailServer>
+  <EmailFrom>v-almett@microsoft.com</EmailFrom>
+  <EmailToList>
+    <EmailTo>v-almett@microsoft.com</EmailTo>
+  </EmailToList>
+  <EmailCcList>
+    <EmailCc>v-almett@microsoft.com</EmailCc>
+  </EmailCcList>
+</Setting>

@@ -1,0 +1,4 @@
+VerifySignInAutoConfigTest
+VerifyMeetingsDetailsTest
+VerifyAdmitInLobbyJoinTest
+VerifySignOutTest

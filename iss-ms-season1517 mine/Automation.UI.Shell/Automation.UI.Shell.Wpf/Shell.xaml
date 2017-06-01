@@ -1,0 +1,69 @@
+﻿<Window x:Class="Automation.UI.Shell.Wpf.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Automation.UI.Shell.Wpf"
+        xmlns:prism="http://www.codeplex.com/prism"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+        xmlns:inf="clr-namespace:Automation.UI.Shell.Wpf.Infrastructure.Core;assembly=Automation.UI.Shell.Wpf.Infrastructure"
+        mc:Ignorable="d"
+        Title="Shell" Height="600" Width="800">
+    <Window.Resources>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="0.01*" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0"
+                    Margin="5 0 0 5" Background="LightGray">
+            <telerik:RadListBox Name="tabsRegion"
+                     Margin="5" Padding="5"
+                    HorizontalContentAlignment="Stretch" SelectionChanged="ListBox_SelectionChanged"
+                    prism:RegionManager.RegionName="{x:Static inf:RegionNames.TabsRegion}">
+                <telerik:RadListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel IsItemsHost="true" />
+                    </ItemsPanelTemplate>
+                </telerik:RadListBox.ItemsPanel>
+                <!--<telerik:RadListBox.ItemContainerStyle>
+                    <Style TargetType="{x:Type telerik:RadListBoxItem}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="BorderBrush"  Value="Red" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </telerik:RadListBox.ItemContainerStyle>-->
+            </telerik:RadListBox>
+        </Border>
+
+        <telerik:RadTransitionControl
+                Grid.Column="1"
+                Margin="5,0,5,5"
+                prism:RegionManager.RegionName="{x:Static inf:RegionNames.ContentRegion}">
+            <telerik:RadTransitionControl.Transition>
+                <telerik:PerspectiveRotationTransition Direction="Left" NewPlaneCenterOfRotationZ="0.5" OldPlaneCenterOfRotationZ="0.5" RotationLength="90">
+                    <telerik:PerspectiveRotationTransition.NewPlaneEasing>
+                        <CubicEase EasingMode="EaseInOut">
+                        </CubicEase>
+                    </telerik:PerspectiveRotationTransition.NewPlaneEasing>
+                    <telerik:PerspectiveRotationTransition.OldPlaneEasing>
+                        <CubicEase EasingMode="EaseInOut">
+                        </CubicEase>
+                    </telerik:PerspectiveRotationTransition.OldPlaneEasing>
+                </telerik:PerspectiveRotationTransition>
+            </telerik:RadTransitionControl.Transition>
+        </telerik:RadTransitionControl>
+        <telerik:RadButton
+            Grid.Column="2"
+            Command="{Binding Path=ConfigCommand }">
+        </telerik:RadButton>
+    </Grid>
+</Window>
