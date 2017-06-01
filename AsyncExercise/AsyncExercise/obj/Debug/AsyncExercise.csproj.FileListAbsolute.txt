@@ -1,0 +1,6 @@
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\AsyncExercise\AsyncExercise\bin\Debug\AsyncExercise.exe.config
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\AsyncExercise\AsyncExercise\bin\Debug\AsyncExercise.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\AsyncExercise\AsyncExercise\bin\Debug\AsyncExercise.pdb
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\AsyncExercise\AsyncExercise\obj\Debug\AsyncExercise.csprojResolveAssemblyReference.cache
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\AsyncExercise\AsyncExercise\obj\Debug\AsyncExercise.exe
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\AsyncExercise\AsyncExercise\obj\Debug\AsyncExercise.pdb
