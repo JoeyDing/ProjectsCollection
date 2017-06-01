@@ -1,0 +1,1 @@
+C:\Users\v-joding\Documents\Visual Studio 2015\Projects\AsyncExercise\DesignPatternExercise\obj\Debug\DesignPatternExercise.csprojResolveAssemblyReference.cache
