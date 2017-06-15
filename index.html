@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,58 +10,75 @@
   <!-- custom css files links-->
   <link rel="stylesheet" href="css/customCss.css"></link>
   <script>
-    function printSentence(id, sentence){
+    function printSentence(id, sentence) {
 
-        var index=0;
-        var intObject= setInterval(function() {
-               document.getElementById(id).innerHTML+=sentence[index]; 
-               index++;
-               if(index==sentence.length){
-                     clearInterval(intObject);
-                }
-            }, 100);
-      }
+      var index = 0;
+      var intObject = setInterval(function () {
+        document.getElementById(id).innerHTML += sentence[index];
+        index++;
+        if (index == sentence.length) {
+          clearInterval(intObject);
+        }
+      }, 100);
+    }
+
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
   </script>
 </head>
-<body >
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color:brown;">
-    <a class="navbar-brand" style="font-style:bold;color:white" href="#">JD</a>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px;">Joey Sports</a>
-        <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px">Joey Reading List</a>
-        <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Programming</a>
-        <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey English</a>
-        <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Movies</a>
-      </div>
-    </div>
-  </nav>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
-        <div class="card">
-          <h>2017 NBA Finals: Biggest Winners And Losers</h>
-          <img src="images/kd.jpg" alt="Card image cap">
-          <p class="card-text">Durant crushed his good-guy image when he left Oklahoma City to don the black hat in the Bay Area. Some will view
-            Durant as piggy-backing on the Warriors' success, but history should judge Durant more kindly. The addition of
-            the 2014 MVP made the Warriors’ attack even more lethal. He was the runaway choice as the NBA Finals MVP with
-            30-plus points in all five games, just the sixth player in NBA history to do that. He averaged 35 points per
-            game for the series on 50%-40%-90% shooting for field goals, three-pointers and free throws. His pull-up three-pointer
-            in the final minute of Game 3 was arguably the biggest shot of the series.</p>
+<body onload="myFunction()" style="margin:0;" >
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color:brown;">
+      <a class="navbar-brand" style="font-style:bold;color:white" href="#">JD</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px;">Joey Sports</a>
+          <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px">Joey Reading List</a>
+          <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Programming</a>
+          <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey English</a>
+          <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Movies</a>
         </div>
       </div>
-      <div class="col-md-2"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">please click the middle column</div>
-      <div class="col-md-8">
-        <div id="diii" onclick="printSentence('diii','helloworld');" style="height:100;width:500"></div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="card">
+            <h>2017 NBA Finals: Biggest Winners And Losers</h>
+            <img src="images/kd.jpg" alt="Card image cap">
+            <p class="card-text">Durant crushed his good-guy image when he left Oklahoma City to don the black hat in the Bay Area. Some will
+              view Durant as piggy-backing on the Warriors' success, but history should judge Durant more kindly. The addition
+              of the 2014 MVP made the Warriors’ attack even more lethal. He was the runaway choice as the NBA Finals MVP
+              with 30-plus points in all five games, just the sixth player in NBA history to do that. He averaged 35 points
+              per game for the series on 50%-40%-90% shooting for field goals, three-pointers and free throws. His pull-up
+              three-pointer in the final minute of Game 3 was arguably the biggest shot of the series.</p>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
       </div>
-      <div class="col-md-2">please click the middle column</div>
+      <div class="row">
+        <div class="col-md-2">please click the middle column</div>
+        <div class="col-md-8">
+          <div id="diii" onclick="printSentence('diii','helloworld');" style="height:100;width:500"></div>
+        </div>
+        <div class="col-md-2">please click the middle column</div>
+      </div>
     </div>
   </div>
+
+
 
 
 </body>
