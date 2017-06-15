@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -9,26 +9,37 @@
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   <!-- custom css files links-->
   <link rel="stylesheet" href="css/customCss.css"></link>
+  <script>
+    function printSentence(id, sentence){
+
+        var index=0;
+        var intObject= setInterval(function() {
+               document.getElementById(id).innerHTML+=sentence[index]; 
+               index++;
+               if(index==sentence.length){
+                     clearInterval(intObject);
+                }
+            }, 100);
+      }
+  </script>
 </head>
-
-<body style="background-color:antiquewhite">
-
+<body >
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color:brown;">
-  <a class="navbar-brand" style="font-style:bold;color:white" href="#">JD</a>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px;">Joey Sports</a>
-      <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px">Joey Reading List</a>
-      <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Programming</a>
-      <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey English</a>
-      <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Movies</a>
+    <a class="navbar-brand" style="font-style:bold;color:white" href="#">JD</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px;">Joey Sports</a>
+        <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px">Joey Reading List</a>
+        <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Programming</a>
+        <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey English</a>
+        <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Movies</a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-2"></div> 
+      <div class="col-md-2"></div>
       <div class="col-md-8">
         <div class="card">
           <h>2017 NBA Finals: Biggest Winners And Losers</h>
@@ -42,6 +53,13 @@
         </div>
       </div>
       <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">please click the middle column</div>
+      <div class="col-md-8">
+        <div id="diii" onclick="printSentence('diii','helloworld');" style="height:100;width:500"></div>
+      </div>
+      <div class="col-md-2">please click the middle column</div>
     </div>
   </div>
 

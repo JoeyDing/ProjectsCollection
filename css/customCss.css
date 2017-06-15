@@ -11,3 +11,7 @@ body{
     height: auto;
 }
 
+div#animatedText 
+{
+     width: 0px; height: 2em; white-space: nowrap; overflow: hidden;
+}
