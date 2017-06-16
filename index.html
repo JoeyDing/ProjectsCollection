@@ -16,7 +16,10 @@
     $(function(){
       $("#typing_text").typed({
         strings:["Hi, i'm Joey Ding, this is my story..."],
-        typeSpeed:5
+        typeSpeed:5,
+         callback: function () {
+                $(".typed-cursor").hide();
+            }
       }) ;
       });
       
