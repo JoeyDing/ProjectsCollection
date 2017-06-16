@@ -14,9 +14,12 @@ body{
 #typing_text{
   font-family:'Trebuchet MS';
   color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
   font-size: 30px;
-  text-align: center;
-  margin: 430px 0 0 -50px;
+  margin: 10px 0 0 -220px;
 }
 
 /* Center the loader */
