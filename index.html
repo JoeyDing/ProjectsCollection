@@ -16,7 +16,7 @@
     $(function(){
       $("#typing_text").typed({
         strings:["Hi, i'm Joey Ding, this is my story..."],
-        typeSpeed:5,
+        typeSpeed:2,
          callback: function () {
                 $(".typed-cursor").hide();
             }
@@ -36,18 +36,18 @@
 </head>
 
 <body onload="myFunction()" style="margin:0;">
-  <sectioin id="loader"></sectioin>
-  <sectioin id="typing_text"></sectioin>
+  <section id="loader"></section>
+  <section id="typing_text"></section>
   <div style="display:none;" id="myDiv" class="animate-bottom">
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color:brown;">
       <a class="navbar-brand" style="font-style:bold;color:white" href="#">JD</a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px;">Joey Sports</a>
-          <a class="nav-item nav-link" href="#" style="color:antiquewhite; margin-right:20px">Joey Reading List</a>
-          <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Programming</a>
-          <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey English</a>
-          <a class="nav-item nav-link disabled" href="#" style="color:antiquewhite; margin-right:20px">Joey Movies</a>
+          <a class="nav-item nav-link" href="#section1" style="color:antiquewhite; margin-right:20px;">Joey Sports</a>
+          <a class="nav-item nav-link" href="#section2" style="color:antiquewhite; margin-right:20px">Joey Reading List</a>
+          <a class="nav-item nav-link disabled" href="#section3" style="color:antiquewhite; margin-right:20px">Joey Programming</a>
+          <a class="nav-item nav-link disabled" href="#section4" style="color:antiquewhite; margin-right:20px">Joey English</a>
+          <a class="nav-item nav-link disabled" href="#section5" style="color:antiquewhite; margin-right:20px">Joey Movies</a>
         </div>
       </div>
     </nav>
@@ -55,9 +55,14 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="card">
-            <h>2017 NBA Finals: Biggest Winners And Losers</h>
+        <div class="col-md-8"></div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <div class="card" id="section1">
+            <p>2017 NBA Finals: Biggest Winners And Losers</p>
             <img src="images/kd.jpg" alt="Card image cap">
             <p class="card-text">Durant crushed his good-guy image when he left Oklahoma City to don the black hat in the Bay Area. Some will
               view Durant as piggy-backing on the Warriors' success, but history should judge Durant more kindly. The addition
@@ -65,6 +70,18 @@
               with 30-plus points in all five games, just the sixth player in NBA history to do that. He averaged 35 points
               per game for the series on 50%-40%-90% shooting for field goals, three-pointers and free throws. His pull-up
               three-pointer in the final minute of Game 3 was arguably the biggest shot of the series.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <p>20 great nba player but never become a champion</p>
+            <img src="images/champion.jpg" alt="Card image cap">
+            <p class="card-text">According to an anonymous source, an intoxicated referee was the orchestra behind this unexpected and 
+              never-before-heard of occurrence.The head coach for the Toronto Raptors indicated late last night that the final game was
+              supposed to be between the Toronto Raptors and the Golden State Warriors. However, the Golden State Warriors could not make 
+              it due to food poisoning induced by uncooked and unseasoned escargot. Classic mistake.This referee, according to the anonymous 
+              source, made a five dollar bet with another referee that a game was to happen that night after hearing about the food poisoning
+              incident and before the Warriors officially forfeited their slot. When he learned that the Golden State Warriors weren’t going to be able to make it to the game, he drank a lot of alcohol and then bought a jet, as one does..</p>
           </div>
         </div>
         <div class="col-md-2"></div>
