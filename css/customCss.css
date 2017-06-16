@@ -11,9 +11,12 @@ body{
     height: auto;
 }
 
-div#animatedText 
-{
-     width: 0px; height: 2em; white-space: nowrap; overflow: hidden;
+#typing_text{
+  font-family:'Trebuchet MS';
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin: 430px 0 0 -50px;
 }
 
 /* Center the loader */
@@ -24,7 +27,7 @@ div#animatedText
   z-index: 1;
   width: 150px;
   height: 150px;
-  margin: -75px 0 0 -75px;
+  margin: -120px 0 0 -75px;
   border: 16px solid white;
   border-radius: 50%;
   border-top: 16px solid green;
