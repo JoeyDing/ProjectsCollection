@@ -2,27 +2,29 @@
 <html>
 
 <head>
-  <title>Hi from Joey</title>
+  <title>Showcase from Joey</title>
   <!-- extra official files links-->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"></link>
-  <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/scrolling-nav.css"></link>
   <script type="text/javascript" src="bootstrap/js/typed.js"></script>
-  <!-- custom css files links-->
+          <!-- custom css files links-->
   <link rel="stylesheet" href="css/customCss.css"></link>
+
+
   <script>
     var myVar;
 
-    $(function(){
+    $(function () {
       $("#typing_text").typed({
-        strings:["Hi, i'm Joey Ding, this is my story..."],
-        typeSpeed:2,
-         callback: function () {
-                $(".typed-cursor").hide();
-            }
-      }) ;
+        strings: ["Hi, i'm Joey Ding, this is my story..."],
+        typeSpeed: 2,
+        callback: function () {
+          $(".typed-cursor").hide();
+        }
       });
-      
+    });
+
     function myFunction() {
       myVar = setTimeout(showPage, 3000);
     }
@@ -35,68 +37,147 @@
   </script>
 </head>
 
-<body onload="myFunction()" style="margin:0;">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="myFunction()" >
   <section id="loader"></section>
   <section id="typing_text"></section>
   <div style="display:none;" id="myDiv" class="animate-bottom">
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color:brown;">
-      <a class="navbar-brand" style="font-style:bold;color:white;margin-top:-6px;" href="#">
-        <img src="images/my-logo.png" width="60" height="30" alt="">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#section1" style="color:antiquewhite; margin-right:20px;">Joey Sports</a>
-          <a class="nav-item nav-link" href="#section2" style="color:antiquewhite; margin-right:20px">Joey Reading List</a>
-          <a class="nav-item nav-link disabled" href="#section3" style="color:antiquewhite; margin-right:20px">Joey Programming</a>
-          <a class="nav-item nav-link disabled" href="#section4" style="color:antiquewhite; margin-right:20px">Joey English</a>
-          <a class="nav-item nav-link disabled" href="#section5" style="color:antiquewhite; margin-right:20px">Joey Movies</a>
-        </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <!---<img src=""  alt="">-->
+          </a>
       </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#services">Services</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8"></div>
-        <div class="col-md-2"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-          <div class="card" id="section1">
-            <p style="text-align:left;font-weight:bold;">2017 NBA Finals: Biggest Winners And Losers</p>
-            <img src="images/kd.jpg" alt="Card image cap">
-            <p style="text-align:justify" class="card-text">Durant crushed his good-guy image when he left Oklahoma City to don the black hat in the Bay Area. Some will
-              view Durant as piggy-backing on the Warriors' success, but history should judge Durant more kindly. The addition
-              of the 2014 MVP made the Warriors’ attack even more lethal. He was the runaway choice as the NBA Finals MVP
-              with 30-plus points in all five games, just the sixth player in NBA history to do that. He averaged 35 points
-              per game for the series on 50%-40%-90% shooting for field goals, three-pointers and free throws. His pull-up
-              three-pointer in the final minute of Game 3 was arguably the biggest shot of the series.</p>
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Scrolling Nav</h1>
+                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>About Section</h1>
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+              SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <p style="text-align:left;font-weight:bold;">20 great nba player but never become a champion</p>
-            <img src="images/champion.jpg" alt="Card image cap">
-            <p style="text-align:justify" class="card-text">According to an anonymous source, an intoxicated referee was the orchestra behind this unexpected and 
-              never-before-heard of occurrence.The head coach for the Toronto Raptors indicated late last night that the final game was
-              supposed to be between the Toronto Raptors and the Golden State Warriors. However, the Golden State Warriors could not make 
-              it due to food poisoning induced by uncooked and unseasoned escargot. Classic mistake.This referee, according to the anonymous 
-              source, made a five dollar bet with another referee that a game was to happen that night after hearing about the food poisoning
-              incident and before the Warriors officially forfeited their slot. When he learned that the Golden State Warriors weren’t going to be able to make it to the game, he drank a lot of alcohol and then bought a jet, as one does..</p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Services Section</h1>
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
           </div>
         </div>
-        <div class="col-md-2"></div>
       </div>
-    </div>
-  </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Contact Section</h1>
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD SDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-
+  
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+ 
+  
+  <script type="text/javascript" src="bootstrap/js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/jquery.scrollNav.js"></script>
 
 </body>
-
-
-
-
 </html>
