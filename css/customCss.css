@@ -1,13 +1,37 @@
 
 body{
-    background-color: antiquewhite;
+    background-color:brown;
+    color: ghostwhite;
 }
 
+/*
 .navbar-nav
 {
     margin-top: 15px!important;
 }
+*/
 
+.navbar-default .navbar-brand
+{
+color: yellow;
+}
+
+.navbar-default
+{
+border-color:white;
+border-style:solid;
+border-bottom-width:thin;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+  color:ghostwhite;
+  font-size: large;
+}
+
+a{
+  color:black;
+}
 .card > img{
     width: 100%!important;
     height: auto;
@@ -15,13 +39,13 @@ body{
 
 #typing_text{
   font-family:'Trebuchet MS';
-  color: black;
+  color:ghostwhite;
   position: absolute;
   left: 50%;
   top: 50%;
   z-index: 1;
-  font-size: 30px;
-  margin: 10px 0 0 -220px;
+  font-size: 20px;
+  margin: 12px 0 0 -160px;
 }
 
 /* Center the loader */
@@ -75,4 +99,10 @@ body{
 #myDiv {
   display: none;
   text-align: center;
+}
+
+.list-group-item
+{
+  background-color: transparent;
+  border: none;
 }
