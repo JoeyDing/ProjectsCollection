@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@1.3.21
+3 info using node@v6.11.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info predev demo-coldfusion-2@1.0.0
+6 info dev demo-coldfusion-2@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info demo-coldfusion-2@1.0.0 Failed to exec dev script
+9 error demo-coldfusion-2@1.0.0 dev: `lite-server`
+9 error Exit status 1
+10 error Failed at the demo-coldfusion-2@1.0.0 dev script.
+10 error This is most likely a problem with the demo-coldfusion-2 package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     lite-server
+10 error You can get their info via:
+10 error     npm owner ls demo-coldfusion-2
+10 error There is likely additional logging output above.
+11 error System Windows_NT 10.0.14393
+12 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+13 error cwd C:\ColdFusion2016\cfusion\wwwroot\CFdemoContacts
+14 error node -v v6.11.0
+15 error npm -v 1.3.21
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
