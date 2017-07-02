@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<cfquery name="Contacts" datasource="JDDB" username="JoeyDing" password="dy01_01dy">    
+<cfquery name="ContactsList" datasource="JDDB" username="JoeyDing" password="dy01_01dy">    
     SELECT * FROM Contacts 
 </cfquery>
+
+<cfset countries = ValueList(ContactsList.Country)>
+
+<cfset temp = structNew()>
+<cfloop list="#countries#" index="i">
+  <cfset temp[i] = "">
+</cfloop>
+<cfset distinctCountryList = structKeyList(temp)>
 
 <head>
     <meta charset="utf-8">
@@ -25,109 +33,50 @@
                 <div class="col-md-12  text-center gallery-trigger">
                     <ul>
                         <li><a class="filter" data-filter="all">Show All</a></li>
-                        <li><a class="filter" data-filter=".category-1"><b>#GetMovies.Style#</b></a></li>
-                        <li><a class="filter" data-filter=".category-2">Europe</a></li>
-                        <li><a class="filter" data-filter=".category-3">Africa</a></li>
+                        <cfoutput>
+                         <cfloop list="#distinctCountryList#" index="country">
+                           <cfset countryToStore = #country#> 
+                           <li><a class="filter" data-filter=".#countryToStore#">#country#</a></li>
+                            </cfloop>
+                         </cfoutput>
                         <li><a href="additem.cfm">Add item</a></li>
                     </ul>
                 </div>
                 <div id="Container">
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-1 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-2 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
-                    <div class="mix category-3 menu-restaurant" data-myorder="2">
-                        <span class="clearfix">
-                        <a class="menu-title" href="#" >Person Name</a>
-                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                        <span class="menu-price">France</span>
-                        </span>
-                        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-                    </div>
+
+
+                    
+
+                    <!--- 
+                    logic to display the corresponding section
+                    --->
+                    <!--
+                    <cfoutput>
+                    <cfloop query="ContactsList">
+                    <div class="mix menu-restaurant" data-myorder="2">
+                                <span class="clearfix">
+                                <a class="menu-title" >#ContactsList.PersonName#(#ContactsList.Country#)</a>
+                                <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                <span class="menu-price">#ContactsList.Email#</span>
+                                </span>
+                                <span class="menu-subtitle">#ContactsList.PhoneNumber#</span>
+                            </div>
+                    </cfloop>
+                      </cfoutput>      
+                      -->
+                        <cfoutput>
+                        <cfloop list="#countries#" index="country">
+                        <cfset countryToDisplay = #country#> 
+                           <div class="mix #countryToDisplay# menu-restaurant" data-myorder="2">
+                                <span class="clearfix">
+                                <a class="menu-title" >#countries#</a>
+                                <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                <span class="menu-price">#countries#</span>
+                                </span>
+                                <span class="menu-subtitle">#countryToDisplay#</span>
+                            </div>
+                        </cfloop>
+                         </cfoutput>
                 </div>
             </div>
         </div>
