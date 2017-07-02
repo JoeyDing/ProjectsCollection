@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<cffunction name="saveContacts" >
+    <cfargument name="personName" type="string" required="yes">
+    <cfquery datasource="JDDB" username="JoeyDing" password="dy01_01dy">
+            INSERT INTO Contacts (PersonName)
+        VALUES     ('#personName#')
+    </cfquery>
+    </cffunction>
+
+
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -105,9 +115,19 @@
 
                         </div>
                         <div class="col-md-12 btnpad">
+                        <!---
                             <div class="contacts-btn-pad">
-                                <button class="contacts-btn">Save contact</button>
+                                <button class="contacts-btn" onclick="updateContacts()">Save contact</button>
                             </div>
+                        --->
+                            <cfform name="New">
+                                <cfinput type="submit" value="Save contact" name="save"><br>
+                            </cfform> 
+                            <cfif isDefined("FORM.save") >
+                            <cfoutput>
+                                Upadated: #saveContacts("Dong")#
+                            </cfoutput>
+                            </cfif>
                         </div>
                     </form>
                 </div>
