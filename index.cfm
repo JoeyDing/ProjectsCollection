@@ -44,39 +44,18 @@
                 </div>
                 <div id="Container">
 
-
-                    
-
-                    <!--- 
-                    logic to display the corresponding section
-                    --->
-                    <!--
-                    <cfoutput>
-                    <cfloop query="ContactsList">
-                    <div class="mix menu-restaurant" data-myorder="2">
-                                <span class="clearfix">
-                                <a class="menu-title" >#ContactsList.PersonName#(#ContactsList.Country#)</a>
-                                <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                                <span class="menu-price">#ContactsList.Email#</span>
-                                </span>
-                                <span class="menu-subtitle">#ContactsList.PhoneNumber#</span>
-                            </div>
-                    </cfloop>
-                      </cfoutput>      
-                      -->
-                        <cfoutput>
-                        <cfloop list="#countries#" index="country">
-                        <cfset countryToDisplay = #country#> 
-                           <div class="mix #countryToDisplay# menu-restaurant" data-myorder="2">
-                                <span class="clearfix">
-                                <a class="menu-title" >#countries#</a>
-                                <span style="left: 166px; right: 44px;" class="menu-line"></span>
-                                <span class="menu-price">#countries#</span>
-                                </span>
-                                <span class="menu-subtitle">#countryToDisplay#</span>
-                            </div>
-                        </cfloop>
-                         </cfoutput>
+                <cfoutput>
+                <cfloop query="ContactsList">
+                    <div class="mix #Country# menu-restaurant" data-myorder="2">
+                        <span class="clearfix">
+                        <a class="menu-title" >#PersonName#(#Country#)</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                        <span class="menu-price">Email: #Email#</span>
+                        </span>
+                        <span class="menu-subtitle">Mobile Phone Number: #PhoneNumber#</span>
+                    </div>
+                </cfloop>
+                </cfoutput>
                 </div>
             </div>
         </div>
