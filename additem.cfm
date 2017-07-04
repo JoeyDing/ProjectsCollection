@@ -2,10 +2,14 @@
 <html lang="en">
 
 <cffunction name="saveContacts" >
-    <cfargument name="personName" type="string" required="yes">
+    <cfargument name="name" type="string" required="yes">
+    <cfargument name="country" type="string" required="yes">
+    <cfargument name="email" type="string" required="yes">
+    <cfargument name="phonenumber" type="string" required="yes">
+
     <cfquery datasource="JDDB" username="JoeyDing" password="dy01_01dy">
-            INSERT INTO Contacts (PersonName)
-        VALUES     ('#personName#')
+            INSERT INTO Contacts (PersonName,Country,Email,PhoneNumber)
+        VALUES     ('#name#','#Country#','#Email#','#PhoneNumber#')
     </cfquery>
     </cffunction>
 
@@ -60,22 +64,27 @@
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-8">
+                <cfoutput> 
                     <form action="" method="post" role="form" class="contactForm">
                         <div id="sendmessage">Your booking request has been sent. Thank you!</div>
                         <div id="errormessage"></div>
                         <div class="col-md-6 col-sm-6 contact-form pad-form">
                             <div class="form-group label-floating is-empty">
+                           
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"
                                 />
                                 <div class="validation"></div>
+                           
                             </div>
 
                         </div>
-                        <div class="col-md-6 col-sm-6 contact-form">
+<div class="col-md-6 col-sm-6 contact-form">
                             <div class="form-group">
-                                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required"
+                           
+                                <input type="text" class="form-control label-floating is-empty" name="country" id="country" placeholder="Country" data-rule="required"
                                     data-msg="This field is required" />
                                 <div class="validation"></div>
+                           
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 contact-form pad-form">
@@ -87,34 +96,23 @@
                         </div>
                         <div class="col-md-6 col-sm-6 contact-form">
                             <div class="form-group">
-                                <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Time" data-rule="required"
+                           
+                                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone Number" data-rule="required"
                                     data-msg="This field is required" />
                                 <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 contact-form">
-                            <div class="form-group">
-                                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required"
-                                    data-msg="This field is required" />
-                                <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 contact-form">
-                            <div class="form-group">
-                                <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="People" data-rule="required"
-                                    data-msg="This field is required" />
-                                <div class="validation"></div>
+                           
                             </div>
                         </div>
                         <div class="col-md-12 contact-form">
                             <div class="form-group label-floating is-empty">
+                           
                                 <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us"
                                     placeholder="Message"></textarea>
                                 <div class="validation"></div>
+                           
                             </div>
-
                         </div>
-                        <div class="col-md-12 btnpad">
+        <div class="col-md-12 btnpad">
                         <!---
                             <div class="contacts-btn-pad">
                                 <button class="contacts-btn" onclick="updateContacts()">Save contact</button>
@@ -124,12 +122,13 @@
                                 <cfinput type="submit" value="Save contact" name="save"><br>
                             </cfform> 
                             <cfif isDefined("FORM.save") >
-                            <cfoutput>
-                                Upadated: #saveContacts("Dong")#
+                            <cfoutput>                                
+                                Upadated: #saveContacts('#name#','#country#','#email#','#phone#')#
                             </cfoutput>
                             </cfif>
                         </div>
                     </form>
+                    </cfoutput>
                 </div>
             </div>
         </div>
