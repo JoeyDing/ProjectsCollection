@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<cfquery name="ContactsList" datasource="JDDB" username="JoeyDing" password="dy01_01dy">    
+<cfquery name="ContactsList" datasource="JDDB">    
     SELECT * FROM Contacts 
 </cfquery>
 
