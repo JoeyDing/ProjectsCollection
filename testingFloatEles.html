@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+  <style>
+      body{
+          color:white;
+      }
+    .aaa {
+      float: left;
+      width:100px;
+      height:300px;
+      background-color: blue;
+    }
+
+    .ccc {
+      float: right;
+      width:100px;
+      height:300px;
+      background-color: red;
+    }
+
+    .bbb {
+      margin-left:50px;
+      margin-right:50px;
+      background-color: pink;
+    }
+
+    .ddd{
+       background-color: grey;
+    }
+
+    .clearfix::after{
+       display:block;
+       clear:both;
+       content:" ";
+    }
+  </style>
+<body>
+    <div class="clearfix">
+        <div class="aaa">Menu</div>
+        <div class="ccc">Side bar</div>
+        <div class="bbb">Main content</div>
+    </div>
+        <div class="ddd">Footer</div>
+</body>
+</html>
